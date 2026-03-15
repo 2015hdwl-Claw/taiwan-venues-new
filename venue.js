@@ -1,0 +1,259 @@
+// ===== 全局變數 =====
+let allVenues = [];
+let currentVenue = null;
+
+// ===== 初始化 =====
+document.addEventListener('DOMContentLoaded', async () => {
+    await loadVenues();
+    loadVenueDetail();
+});
+
+// ===== 載入場地資料 =====
+async function loadVenues() {
+    try {
+        const response = await fetch('venues.json');
+        if (!response.ok) throw new Error('無法載入資料');
+        allVenues = await response.json();
+        console.log(`✅ 成功載入 ${allVenues.length} 個場地`);
+    } catch (error) {
+        console.error('載入場地失敗:', error);
+        showError('無法載入場地資料');
+    }
+}
+
+// ===== 載入場地詳情 =====
+function loadVenueDetail() {
+    const params = new URLSearchParams(window.location.search);
+    const venueId = params.get('id');
+    
+    if (!venueId) {
+        showError('缺少場地 ID');
+        return;
+    }
+    
+    // 尋找場地
+    currentVenue = allVenues.find(v => v.id === parseInt(venueId));
+    
+    if (!currentVenue) {
+        showError('找不到此場地');
+        return;
+    }
+    
+    // 渲染場地資訊
+    renderVenueDetail();
+    
+    // 隱藏載入狀態，顯示內容
+    document.getElementById('loadingState').style.display = 'none';
+    document.getElementById('venueContent').style.display = 'block';
+}
+
+// ===== 渲染場地詳情 =====
+function renderVenueDetail() {
+    const venue = currentVenue;
+    
+    // 更新頁面標題
+    document.title = `${venue.name} - 活動大師`;
+    
+    // 主圖
+    const mainImage = venue.images?.main || 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800';
+    document.getElementById('venueMainImage').src = mainImage;
+    document.getElementById('venueMainImage').alt = venue.name;
+    
+    // 基本資訊
+    document.getElementById('venueType').textContent = venue.venueType || '場地';
+    document.getElementById('venueName').textContent = venue.name;
+    document.getElementById('venueAddress').querySelector('span').textContent = venue.address || '地址未提供';
+    
+    // 容納人數
+    let capacityText = '-';
+    if (venue.maxCapacityTheater && venue.maxCapacityClassroom) {
+        capacityText = `劇院式 ${venue.maxCapacityTheater} 人 / 教室式 ${venue.maxCapacityClassroom} 人`;
+    } else if (venue.maxCapacityTheater) {
+        capacityText = `劇院式 ${venue.maxCapacityTheater} 人`;
+    } else if (venue.maxCapacityClassroom) {
+        capacityText = `教室式 ${venue.maxCapacityClassroom} 人`;
+    }
+    document.getElementById('venueCapacity').textContent = capacityText;
+    
+    // 價格
+    let priceText = '價格面議';
+    if (venue.priceHalfDay && venue.priceFullDay) {
+        priceText = `$${venue.priceHalfDay.toLocaleString()} - $${venue.priceFullDay.toLocaleString()}`;
+    } else if (venue.priceHalfDay) {
+        priceText = `$${venue.priceHalfDay.toLocaleString()} 起`;
+    } else if (venue.priceFullDay) {
+        priceText = `$${venue.priceFullDay.toLocaleString()} 起`;
+    }
+    document.getElementById('venuePrice').textContent = priceText;
+    
+    // 可用時段
+    let timeText = '-';
+    if (venue.availableTimeWeekday && venue.availableTimeWeekend) {
+        timeText = `平日 ${venue.availableTimeWeekday} / 假日 ${venue.availableTimeWeekend}`;
+    } else if (venue.availableTimeWeekday) {
+        timeText = venue.availableTimeWeekday;
+    }
+    document.getElementById('venueTime').textContent = timeText;
+    
+    // 設備
+    document.getElementById('venueEquipment').textContent = venue.equipment || '未提供';
+    
+    // 聯絡資訊
+    renderContactInfo(venue);
+    
+    // 會議室列表
+    renderRooms(venue);
+}
+
+// ===== 渲染聯絡資訊 =====
+function renderContactInfo(venue) {
+    // 聯絡人
+    if (venue.contactPerson) {
+        document.getElementById('contactPerson').style.display = 'flex';
+        document.getElementById('contactPerson').querySelector('.contact-value').textContent = venue.contactPerson;
+    }
+    
+    // 電話
+    if (venue.contactPhone) {
+        document.getElementById('contactPhone').style.display = 'flex';
+        const phoneLink = document.getElementById('contactPhone').querySelector('.contact-link');
+        phoneLink.href = `tel:${venue.contactPhone}`;
+        phoneLink.textContent = venue.contactPhone;
+        
+        // 撥打按鈕
+        document.getElementById('callBtn').style.display = 'inline-flex';
+        document.getElementById('callBtn').href = `tel:${venue.contactPhone}`;
+    }
+    
+    // Email
+    if (venue.contactEmail) {
+        document.getElementById('contactEmail').style.display = 'flex';
+        const emailLink = document.getElementById('contactEmail').querySelector('.contact-link');
+        emailLink.href = `mailto:${venue.contactEmail}`;
+        emailLink.textContent = venue.contactEmail;
+    }
+    
+    // 官網
+    if (venue.url) {
+        document.getElementById('venueUrl').style.display = 'flex';
+        const urlLink = document.getElementById('venueUrl').querySelector('.contact-link');
+        urlLink.href = venue.url;
+        
+        // 官網按鈕
+        document.getElementById('websiteBtn').style.display = 'inline-flex';
+        document.getElementById('websiteBtn').href = venue.url;
+    }
+}
+
+// ===== 渲染會議室列表 =====
+function renderRooms(venue) {
+    const roomsGrid = document.getElementById('roomsGrid');
+    const noRoomsState = document.getElementById('noRoomsState');
+    const roomsCount = document.getElementById('roomsCount');
+    
+    const rooms = venue.rooms || [];
+    
+    if (rooms.length === 0) {
+        noRoomsState.style.display = 'block';
+        roomsCount.textContent = '(尚無資料)';
+        return;
+    }
+    
+    roomsCount.textContent = `(${rooms.length} 間)`;
+    
+    rooms.forEach(room => {
+        const card = createRoomCard(room, venue.id);
+        roomsGrid.appendChild(card);
+    });
+}
+
+// ===== 創建會議室卡片 =====
+function createRoomCard(room, venueId) {
+    const card = document.createElement('div');
+    card.className = 'room-card';
+    card.onclick = () => goToRoom(venueId, room.id);
+    
+    const imageUrl = room.images?.main || 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800';
+    
+    // 容納人數
+    let capacityText = '-';
+    if (room.capacity) {
+        const caps = [];
+        if (room.capacity.theater) caps.push(`劇院${room.capacity.theater}`);
+        if (room.capacity.classroom) caps.push(`課桌${room.capacity.classroom}`);
+        if (room.capacity.ushape) caps.push(`U型${room.capacity.ushape}`);
+        capacityText = caps.join(' / ') || '-';
+    }
+    
+    // 價格
+    let priceText = '價格面議';
+    if (room.pricing) {
+        if (room.pricing.fullDay) {
+            priceText = `$${room.pricing.fullDay.toLocaleString()}/天`;
+        } else if (room.pricing.halfDay) {
+            priceText = `$${room.pricing.halfDay.toLocaleString()}/半天`;
+        }
+    }
+    
+    // 設備
+    let equipmentText = '基本設備';
+    if (room.equipment && room.equipment.length > 0) {
+        equipmentText = room.equipment.slice(0, 3).join('、');
+        if (room.equipment.length > 3) {
+            equipmentText += ` 等${room.equipment.length}項`;
+        }
+    }
+    
+    card.innerHTML = `
+        <img src="${imageUrl}" alt="${room.name}" class="room-card-image"
+             onerror="this.src='https://images.unsplash.com/photo-1497366216548-37526070297c?w=800'">
+        <div class="room-card-content">
+            <h3 class="room-card-name">${room.name}</h3>
+            <div class="room-card-info">
+                <span class="room-card-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                    </svg>
+                    ${room.area ? room.area + ' 坪' : '坪數未提供'}
+                </span>
+                <span class="room-card-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                    ${capacityText}
+                </span>
+            </div>
+            <div class="room-card-footer">
+                <span class="room-card-price">${priceText}</span>
+                <span class="room-card-equipment">${equipmentText}</span>
+            </div>
+            <button class="room-card-btn">查看詳情 →</button>
+        </div>
+    `;
+    
+    return card;
+}
+
+// ===== 導航函數 =====
+function goToRoom(venueId, roomId) {
+    window.location.href = `room.html?venueId=${venueId}&roomId=${roomId}`;
+}
+
+function goBack() {
+    // 返回首頁
+    window.location.href = 'index.html';
+}
+
+function goHome() {
+    window.location.href = 'index.html';
+}
+
+// ===== 顯示錯誤 =====
+function showError(message) {
+    document.getElementById('loadingState').style.display = 'none';
+    document.getElementById('errorState').style.display = 'block';
+    document.getElementById('errorState').querySelector('h3').textContent = message;
+}

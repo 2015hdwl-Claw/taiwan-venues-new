@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="活動大師 - 台灣活動場地查詢平台，371 個優質場地即時查詢">
+    <title>活動大師 - 台灣活動場地查詢平台</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 頂部導航 -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="brand" onclick="goHome()">
+                    <span class="brand-icon">🎉</span>
+                    <h1 class="brand-title">活動大師</h1>
+                </div>
+                <div class="header-stats">
+                    <span class="stat-item">
+                        <span class="stat-number" id="totalVenues">371</span>
+                        <span class="stat-label">個場地</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 主要內容 -->
+    <main class="main">
+        <div class="container">
+            <!-- 搜尋區 -->
+            <section class="search-section">
+                <h2 class="section-title">找場地，問活動大師就夠了！</h2>
+                
+                <!-- 搜尋框 -->
+                <div class="search-box">
+                    <input 
+                        type="text" 
+                        id="searchInput" 
+                        placeholder="搜尋場地名稱、地址..."
+                        onkeyup="handleSearch(event)"
+                    >
+                    <button class="search-btn" onclick="performSearch()">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- 篩選器 -->
+                <div class="filters">
+                    <div class="filter-row">
+                        <div class="filter-item">
+                            <label for="cityFilter">縣市</label>
+                            <select id="cityFilter" onchange="applyFilters()">
+                                <option value="">所有縣市</option>
+                            </select>
+                        </div>
+                        <div class="filter-item">
+                            <label for="typeFilter">類型</label>
+                            <select id="typeFilter" onchange="applyFilters()">
+                                <option value="">所有類型</option>
+                            </select>
+                        </div>
+                        <div class="filter-item">
+                            <label for="capacityFilter">人數</label>
+                            <select id="capacityFilter" onchange="applyFilters()">
+                                <option value="">不限人數</option>
+                                <option value="50">50人以下</option>
+                                <option value="100">100人以下</option>
+                                <option value="200">200人以下</option>
+                                <option value="500">500人以下</option>
+                                <option value="1000">1000人以上</option>
+                            </select>
+                        </div>
+                        <div class="filter-item">
+                            <label for="priceFilter">預算</label>
+                            <select id="priceFilter" onchange="applyFilters()">
+                                <option value="">不限預算</option>
+                                <option value="10000">1萬以下</option>
+                                <option value="30000">3萬以下</option>
+                                <option value="50000">5萬以下</option>
+                                <option value="100000">10萬以下</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="filter-actions">
+                        <button class="btn btn-secondary" onclick="clearFilters()">清除篩選</button>
+                        <span class="result-count">
+                            找到 <strong id="resultCount">0</strong> 個場地
+                        </span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 場地列表 -->
+            <section class="venues-section">
+                <div class="venues-grid" id="venuesGrid">
+                    <!-- 載入中 -->
+                    <div class="loading" id="loadingState">
+                        <div class="spinner"></div>
+                        <p>載入場地資料中...</p>
+                    </div>
+                </div>
+                
+                <!-- 無結果 -->
+                <div class="empty-state" id="emptyState" style="display: none;">
+                    <div class="empty-icon">🔍</div>
+                    <h3>找不到符合條件的場地</h3>
+                    <p>試試調整篩選條件</p>
+                    <button class="btn btn-primary" onclick="clearFilters()">清除篩選</button>
+                </div>
+
+                <!-- 載入更多 -->
+                <div class="load-more" id="loadMoreSection" style="display: none;">
+                    <button class="btn btn-outline" onclick="loadMore()">
+                        載入更多場地
+                    </button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- 場地詳情 Modal -->
+    <div class="modal" id="venueModal">
+        <div class="modal-overlay" onclick="closeModal()"></div>
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">✕</button>
+            <div id="modalBody">
+                <!-- 動態內容 -->
+            </div>
+        </div>
+    </div>
+
+    <!-- 頁腳 -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 活動大師 EventMaster. All rights reserved.</p>
+            <p>專業的台灣活動場地查詢平台</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

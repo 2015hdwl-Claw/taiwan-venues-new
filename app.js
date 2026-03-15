@@ -4,6 +4,51 @@ let filteredVenues = [];
 let currentPage = 0;
 const ITEMS_PER_PAGE = 20;
 
+// ===== 排序權重定義 =====
+// 縣市排序（按場地數量降冪，前3名標記為熱門）
+const CITY_ORDER = [
+  { name: '台北市', weight: 100, hot: true },
+  { name: '台中市', weight: 95, hot: true },
+  { name: '高雄市', weight: 90, hot: true },
+  { name: '新北市', weight: 85, hot: false },
+  { name: '台南市', weight: 80, hot: false },
+  { name: '桃園市', weight: 75, hot: false },
+  { name: '屏東縣', weight: 70, hot: false },
+  { name: '南投縣', weight: 65, hot: false },
+  { name: '宜蘭縣', weight: 60, hot: false },
+  { name: '新竹市', weight: 55, hot: false },
+  { name: '彰化縣', weight: 50, hot: false },
+  { name: '花蓮縣', weight: 45, hot: false },
+  { name: '台東縣', weight: 40, hot: false },
+  { name: '臺東縣', weight: 40, hot: false }, // 繁體字版本
+  { name: '苗栗縣', weight: 35, hot: false },
+  { name: '雲林縣', weight: 30, hot: false },
+  { name: '嘉義市', weight: 25, hot: false },
+  { name: '新竹縣', weight: 20, hot: false },
+  { name: '澎湖縣', weight: 15, hot: false },
+  { name: '連江縣', weight: 10, hot: false },
+  { name: '金門縣', weight: 5, hot: false },
+  { name: '嘉義縣', weight: 3, hot: false },
+  { name: '基隆市', weight: 1, hot: false }
+];
+
+// 類型排序（按場地數量降冪，前2名標記為熱門）
+const TYPE_ORDER = [
+  { name: '飯店場地', weight: 100, hot: true },
+  { name: '會議中心', weight: 90, hot: true },
+  { name: '展演場地', weight: 70, hot: false },
+  { name: '機關場地', weight: 60, hot: false },
+  { name: '運動場地', weight: 50, hot: false },
+  { name: '婚宴場地', weight: 40, hot: false },
+  { name: '咖啡廳', weight: 20, hot: false },
+  { name: '宴會廳', weight: 15, hot: false },
+  { name: '其他', weight: 10, hot: false }
+];
+
+// 建立快速查找的 Map
+const CITY_WEIGHT_MAP = new Map(CITY_ORDER.map(c => [c.name, c]));
+const TYPE_WEIGHT_MAP = new Map(TYPE_ORDER.map(t => [t.name, t]));
+
 // ===== 初始化 =====
 document.addEventListener('DOMContentLoaded', async () => {
     await loadVenues();
@@ -34,30 +79,62 @@ async function loadVenues() {
     }
 }
 
-// ===== 初始化篩選器 =====
+// ===== 初始化篩選器（智慧排序）=====
 function initializeFilters() {
-    // 取得所有城市
-    const cities = [...new Set(allVenues.map(v => v.city))].sort();
-    const citySelect = document.getElementById('cityFilter');
-    cities.forEach(city => {
-        if (city) {
-            const option = document.createElement('option');
-            option.value = city;
-            option.textContent = city;
-            citySelect.appendChild(option);
+    // 統計縣市數量
+    const cityStats = new Map();
+    allVenues.forEach(v => {
+        if (v.city) {
+            cityStats.set(v.city, (cityStats.get(v.city) || 0) + 1);
         }
     });
+    
+    // 按權重排序縣市
+    const cities = [...new Set(allVenues.map(v => v.city))]
+        .filter(Boolean)
+        .sort((a, b) => {
+            const weightA = CITY_WEIGHT_MAP.get(a)?.weight || 0;
+            const weightB = CITY_WEIGHT_MAP.get(b)?.weight || 0;
+            return weightB - weightA;
+        });
+    
+    const citySelect = document.getElementById('cityFilter');
+    cities.forEach(city => {
+        const option = document.createElement('option');
+        option.value = city;
+        const cityInfo = CITY_WEIGHT_MAP.get(city);
+        const count = cityStats.get(city);
+        option.textContent = cityInfo?.hot ? `${city} 🔥` : city;
+        option.setAttribute('data-count', count);
+        citySelect.appendChild(option);
+    });
 
-    // 取得所有場地類型
-    const types = [...new Set(allVenues.map(v => v.venueType))].sort()
+    // 統計類型數量
+    const typeStats = new Map();
+    allVenues.forEach(v => {
+        if (v.venueType) {
+            typeStats.set(v.venueType, (typeStats.get(v.venueType) || 0) + 1);
+        }
+    });
+    
+    // 按權重排序類型
+    const types = [...new Set(allVenues.map(v => v.venueType))]
+        .filter(Boolean)
+        .sort((a, b) => {
+            const weightA = TYPE_WEIGHT_MAP.get(a)?.weight || 0;
+            const weightB = TYPE_WEIGHT_MAP.get(b)?.weight || 0;
+            return weightB - weightA;
+        });
+    
     const typeSelect = document.getElementById('typeFilter');
     types.forEach(type => {
-        if (type) {
-            const option = document.createElement('option');
-            option.value = type;
-            option.textContent = type;
-            typeSelect.appendChild(option);
-        }
+        const option = document.createElement('option');
+        option.value = type;
+        const typeInfo = TYPE_WEIGHT_MAP.get(type);
+        const count = typeStats.get(type);
+        option.textContent = typeInfo?.hot ? `${type} 🔥` : type;
+        option.setAttribute('data-count', count);
+        typeSelect.appendChild(option);
     });
 }
 
@@ -78,7 +155,7 @@ function applyFilters() {
     const city = document.getElementById('cityFilter').value;
     const type = document.getElementById('typeFilter').value;
     const capacity = document.getElementById('capacityFilter').value;
-    const price = document.getElementById('priceFilter').value
+    const price = document.getElementById('priceFilter').value;
 
     filteredVenues = allVenues.filter(venue => {
         // 搜尋關鍵字
@@ -128,6 +205,9 @@ function applyFilters() {
         return true;
     });
 
+    // 智慧排序
+    sortVenues();
+    
     // 重置頁碼
     currentPage = 0;
     
@@ -136,6 +216,24 @@ function applyFilters() {
     
     // 更新結果計數
     document.getElementById('resultCount').textContent = filteredVenues.length;
+}
+
+// ===== 智慧排序 =====
+function sortVenues() {
+    filteredVenues.sort((a, b) => {
+        // 計算權重
+        const cityWeightA = CITY_WEIGHT_MAP.get(a.city)?.weight || 0;
+        const cityWeightB = CITY_WEIGHT_MAP.get(b.city)?.weight || 0;
+        
+        const typeWeightA = TYPE_WEIGHT_MAP.get(a.venueType)?.weight || 0;
+        const typeWeightB = TYPE_WEIGHT_MAP.get(b.venueType)?.weight || 0;
+        
+        const totalWeightA = cityWeightA + typeWeightA;
+        const totalWeightB = cityWeightB + typeWeightB;
+        
+        // 降冪排序
+        return totalWeightB - totalWeightA;
+    });
 }
 
 // ===== 清除篩選 =====
@@ -147,6 +245,7 @@ function clearFilters() {
     document.getElementById('priceFilter').value = '';
     
     filteredVenues = [...allVenues];
+    sortVenues(); // 重新排序
     currentPage = 0;
     renderVenues();
     document.getElementById('resultCount').textContent = filteredVenues.length;
@@ -210,14 +309,24 @@ function createVenueCard(venue) {
             ? `最多 ${venue.maxCapacityClassroom} 人`
             : '人數未提供');
     
+    // 檢查是否為熱門縣市/類型
+    const cityInfo = CITY_WEIGHT_MAP.get(venue.city);
+    const typeInfo = TYPE_WEIGHT_MAP.get(venue.venueType);
+    const isHot = cityInfo?.hot || typeInfo?.hot;
+    
     // 會議室數量
     const roomsCount = venue.rooms ? venue.rooms.length : 0;
+    
+    // 構建標籤
+    const tags = [];
+    if (cityInfo?.hot) tags.push('🔥');
+    if (typeInfo?.hot && !cityInfo?.hot) tags.push('🔥');
     
     card.innerHTML = `
         <img src="${imageUrl}" alt="${venue.name}" class="venue-image" 
              onerror="this.src='https://images.unsplash.com/photo-1497366216548-37526070297c?w=800'">
         <div class="venue-content">
-            <span class="venue-type">${venue.venueType || '場地'}</span>
+            <span class="venue-type ${isHot ? 'hot' : ''}">${tags.length > 0 ? tags[0] + ' ' : ''}${venue.venueType || '場地'}</span>
             <h3 class="venue-name">${venue.name}</h3>
             <div class="venue-info">
                 <div class="venue-info-item">
@@ -232,7 +341,7 @@ function createVenueCard(venue) {
                         <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
                         <circle cx="12" cy="10" r="3"></circle>
                     </svg>
-                    <span>${venue.address || '地址未提供'}</span>
+                    <span class="address-text">${venue.address || '地址未提供'}</span>
                 </div>
             </div>
             <div class="venue-footer">

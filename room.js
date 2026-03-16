@@ -84,11 +84,8 @@ function renderRoomDetail() {
     document.getElementById('roomName').textContent = room.name;
     document.getElementById('roomLocation').textContent = `${venue.name}${room.floor ? ' ' + room.floor : ''}`;
     
-    // 空間資訊
-    document.getElementById('roomArea').textContent = room.area ? `${room.area} 坪` : '未提供';
-    document.getElementById('roomCeiling').textContent = room.ceiling ? `${room.ceiling} 米` : '未提供';
-    document.getElementById('roomFloor').textContent = room.floor || '未提供';
-    document.getElementById('roomWindow').textContent = room.hasWindow ? '有自然採光' : '無窗戶';
+    // 空間資訊（新版）
+    renderSpaceInfo(room);
     
     // 容納人數
     renderCapacity(room.capacity);
@@ -117,6 +114,121 @@ function renderRoomDetail() {
         const callBtn = document.getElementById('roomCallBtn');
         callBtn.style.display = 'inline-flex';
         callBtn.href = `tel:${venue.contactPhone}`;
+    }
+}
+
+// ===== 渲染空間資訊（新版） =====
+function renderSpaceInfo(room) {
+    const highlightCard = document.getElementById('areaHighlightCard');
+    const mainValue = document.getElementById('roomAreaMain');
+    const secondaryValue = document.getElementById('roomAreaSecondary');
+    const grid = document.getElementById('spaceInfoGrid');
+    const descSection = document.getElementById('spaceDescription');
+    const descText = document.getElementById('roomDescription');
+    
+    // 收集所有可用的空間資訊
+    const infoItems = [];
+    
+    // 面積資訊（重點突出）
+    if (room.area || room.areaSqm) {
+        highlightCard.style.display = 'flex';
+        
+        // 主要顯示坪數
+        if (room.area) {
+            mainValue.textContent = `${room.area} 坪`;
+        } else if (room.areaSqm) {
+            mainValue.textContent = `${room.areaSqm} m²`;
+        }
+        
+        // 次要顯示（轉換）
+        if (room.area && room.areaSqm) {
+            secondaryValue.textContent = `約 ${room.areaSqm} 平方公尺`;
+        } else if (room.area && !room.areaSqm) {
+            // 自動計算平方公尺（1 坪 ≈ 3.3058 m²）
+            const sqm = Math.round(room.area * 3.3058);
+            secondaryValue.textContent = `約 ${sqm} 平方公尺`;
+        } else if (room.areaSqm && !room.area) {
+            // 自動計算坪數
+            const ping = Math.round(room.areaSqm / 3.3058 * 10) / 10;
+            secondaryValue.textContent = `約 ${ping} 坪`;
+        }
+    } else {
+        highlightCard.style.display = 'none';
+    }
+    
+    // 其他資訊（只顯示有值的）
+    if (room.ceiling) {
+        infoItems.push({
+            icon: '📏',
+            label: '挑高',
+            value: `${room.ceiling} 米`
+        });
+    }
+    
+    if (room.floor) {
+        infoItems.push({
+            icon: '🏢',
+            label: '樓層',
+            value: room.floor
+        });
+    }
+    
+    if (room.hasWindow !== undefined) {
+        infoItems.push({
+            icon: '🪟',
+            label: '採光',
+            value: room.hasWindow ? '有自然採光' : '無窗戶'
+        });
+    }
+    
+    // 容納人數（如果有 capacity 屬性）
+    if (room.capacity) {
+        infoItems.push({
+            icon: '👥',
+            label: '最大容納',
+            value: `${room.capacity} 人`
+        });
+    }
+    
+    // 分割資訊
+    if (room.dividable) {
+        infoItems.push({
+            icon: '🔲',
+            label: '空間分割',
+            value: room.dividable
+        });
+    }
+    
+    // 柱子資訊
+    if (room.pillars !== undefined) {
+        infoItems.push({
+            icon: '🏛️',
+            label: '柱子',
+            value: room.pillars ? `有 ${room.pillars} 根柱子` : '無柱'
+        });
+    }
+    
+    // 渲染資訊卡片
+    if (infoItems.length > 0) {
+        grid.innerHTML = infoItems.map(item => `
+            <div class="space-info-item">
+                <div class="space-info-item-icon">${item.icon}</div>
+                <div class="space-info-item-content">
+                    <div class="space-info-item-label">${item.label}</div>
+                    <div class="space-info-item-value">${item.value}</div>
+                </div>
+            </div>
+        `).join('');
+    } else {
+        grid.innerHTML = '';
+    }
+    
+    // 空間描述
+    if (room.description) {
+        descSection.style.display = 'block';
+        descText.textContent = room.description;
+    } else {
+        descSection.style.display = 'none';
     }
 }
 

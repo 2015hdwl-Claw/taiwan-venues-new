@@ -68,35 +68,30 @@
                 <!-- 空間資訊 -->
                 <section class="room-section">
                     <h2 class="section-heading">📊 空間資訊</h2>
-                    <div class="room-info-grid">
-                        <div class="room-info-card">
-                            <div class="room-info-icon">📐</div>
-                            <div class="room-info-content">
-                                <div class="room-info-label">坪數</div>
-                                <div id="roomArea" class="room-info-value">-</div>
+                    
+                    <!-- 主要資訊卡片 -->
+                    <div class="space-info-container">
+                        <!-- 面積資訊（重點突出） -->
+                        <div class="space-info-highlight" id="areaHighlightCard" style="display: none;">
+                            <div class="space-highlight-icon">📐</div>
+                            <div class="space-highlight-content">
+                                <div class="space-highlight-label">空間面積</div>
+                                <div class="space-highlight-value">
+                                    <span id="roomAreaMain">-</span>
+                                </div>
+                                <div class="space-highlight-secondary" id="roomAreaSecondary"></div>
                             </div>
                         </div>
-                        <div class="room-info-card">
-                            <div class="room-info-icon">📏</div>
-                            <div class="room-info-content">
-                                <div class="room-info-label">挑高</div>
-                                <div id="roomCeiling" class="room-info-value">-</div>
-                            </div>
+
+                        <!-- 其他資訊（雙欄佈局） -->
+                        <div class="space-info-grid" id="spaceInfoGrid">
+                            <!-- 動態生成 -->
                         </div>
-                        <div class="room-info-card">
-                            <div class="room-info-icon">🏢</div>
-                            <div class="room-info-content">
-                                <div class="room-info-label">樓層</div>
-                                <div id="roomFloor" class="room-info-value">-</div>
-                            </div>
-                        </div>
-                        <div class="room-info-card">
-                            <div class="room-info-icon">🪟</div>
-                            <div class="room-info-content">
-                                <div class="room-info-label">採光</div>
-                                <div id="roomWindow" class="room-info-value">-</div>
-                            </div>
-                        </div>
+                    </div>
+                    
+                    <!-- 空間描述 -->
+                    <div class="space-description" id="spaceDescription" style="display: none;">
+                        <p id="roomDescription"></p>
                     </div>
                 </section>
 

@@ -1278,13 +1278,13 @@
     "contactPhone": "02-21716588",
     "contactEmail": "events@courtyard.com",
     "url": "https://www.courtyardtaipei.com.tw/zh-TW/",
-    "priceHalfDay": 50000,
-    "priceFullDay": 85000,
-    "maxCapacityTheater": 380,
-    "maxCapacityClassroom": 210,
+    "priceHalfDay": 35000,
+    "priceFullDay": 60000,
+    "maxCapacityTheater": 250,
+    "maxCapacityClassroom": 150,
     "availableTimeWeekday": "08:00-22:00",
     "availableTimeWeekend": "08:00-22:00",
-    "equipment": "專業音響燈光、投影設備",
+    "equipment": "投影設備、燈光、白板、舞台、音響系統、麥克風",
     "images": {
       "main": "https://www.marriott.com/marriottassets/destinations/featured/taipei-large.jpg",
       "gallery": [],
@@ -1299,42 +1299,66 @@
     "verified": true,
     "rooms": [
       {
-        "id": "r001",
         "name": "宴會廳",
-        "floor": "B1",
-        "area": 150,
-        "areaUnit": "坪",
-        "ceiling": 3.5,
-        "hasWindow": false,
         "capacity": {
           "theater": 250,
           "classroom": 150,
           "ushape": 100,
           "roundtable": 120
         },
-        "pricing": {
-          "halfDay": 40000,
-          "fullDay": 70000,
-          "overtime": 8000
-        },
-        "images": {
-          "main": "https://www.courtyardtaipei.com.tw/files/meeting.jpg",
-          "source": "https://www.courtyardtaipei.com.tw"
+        "area": 85,
+        "price": {
+          "halfDay": 35000,
+          "fullDay": 60000
         },
         "equipment": [
           "投影設備",
           "音響系統",
-          "LED螢幕",
-          "WiFi",
-          "空調"
+          "麥克風",
+          "舞台",
+          "燈光"
         ],
-        "availableTimeWeekday": "08:00-22:00",
-        "availableTimeWeekend": "08:00-22:00",
-        "notes": "南港區最大宴會場地之一",
-        "features": [
-          "挑高設計",
-          "無柱空間"
-        ]
+        "images": []
+      },
+      {
+        "name": "會議室A",
+        "capacity": {
+          "theater": 50,
+          "classroom": 30,
+          "ushape": 20,
+          "roundtable": 24
+        },
+        "area": 25,
+        "price": {
+          "halfDay": 12000,
+          "fullDay": 20000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "白板"
+        ],
+        "images": []
+      },
+      {
+        "name": "會議室B",
+        "capacity": {
+          "theater": 40,
+          "classroom": 25,
+          "ushape": 16,
+          "roundtable": 20
+        },
+        "area": 20,
+        "price": {
+          "halfDay": 10000,
+          "fullDay": 18000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "白板"
+        ],
+        "images": []
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -1453,13 +1477,13 @@
     "contactPhone": "02-23081111",
     "contactEmail": "banquet@ile-hotel.com",
     "url": "https://www.ile-hotel.com",
-    "priceHalfDay": 15000,
-    "priceFullDay": 28000,
-    "maxCapacityTheater": 150,
-    "maxCapacityClassroom": 85,
+    "priceHalfDay": 18000,
+    "priceFullDay": 32000,
+    "maxCapacityTheater": 120,
+    "maxCapacityClassroom": 70,
     "availableTimeWeekday": "08:00-22:00",
     "availableTimeWeekend": "08:00-22:00",
-    "equipment": "基本音響、投影設備",
+    "equipment": "投影設備、音響系統、麥克風",
     "images": {
       "main": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800",
       "gallery": [],
@@ -1471,35 +1495,24 @@
     "verified": true,
     "rooms": [
       {
-        "id": "r001",
         "name": "宴會廳",
-        "floor": "B1",
-        "area": 80,
-        "areaUnit": "坪",
-        "ceiling": 3.0,
-        "hasWindow": false,
         "capacity": {
           "theater": 120,
           "classroom": 70,
           "ushape": 42,
           "roundtable": 56
         },
-        "pricing": {
-          "halfDay": 25000,
-          "fullDay": 45000,
-          "overtime": 5000
+        "area": 45,
+        "price": {
+          "halfDay": 18000,
+          "fullDay": 32000
         },
         "equipment": [
           "投影設備",
           "音響系統",
-          "WiFi",
-          "空調"
+          "麥克風"
         ],
-        "availableTimeWeekday": "08:00-22:00",
-        "availableTimeWeekend": "08:00-22:00",
-        "features": [
-          "經濟實惠"
-        ]
+        "images": []
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -1613,13 +1626,13 @@
     "contactPhone": "02-25971234",
     "contactEmail": "events@landistpe.com",
     "url": "https://taipei.landishotelsresorts.com/",
-    "priceHalfDay": 70000,
+    "priceHalfDay": 45000,
     "priceFullDay": 80000,
-    "maxCapacityTheater": 350,
-    "maxCapacityClassroom": 200,
+    "maxCapacityTheater": 200,
+    "maxCapacityClassroom": 130,
     "availableTimeWeekday": "08:00-22:00",
     "availableTimeWeekend": "08:00-22:00",
-    "equipment": "專業音響、投影設備",
+    "equipment": "專業音響、投影設備、燈光、舞台、音響系統",
     "images": {
       "main": "https://taipei.landishotelsresorts.com/manage/upload/roomtype/1758907414_16016.jpg",
       "gallery": [
@@ -1636,42 +1649,44 @@
     "verified": true,
     "rooms": [
       {
-        "id": "r001",
         "name": "巴黎廳",
-        "floor": "1F",
-        "area": 120,
-        "areaUnit": "坪",
-        "ceiling": 3.2,
-        "hasWindow": true,
         "capacity": {
           "theater": 200,
           "classroom": 130,
           "ushape": 90,
           "roundtable": 100
         },
-        "pricing": {
-          "halfDay": 60000,
-          "fullDay": 100000,
-          "overtime": 12000
-        },
-        "images": {
-          "main": "https://taipei.landishotelsresorts.com/manage/upload/roomtype/1758907414_16016.jpg",
-          "source": "https://taipei.landishotelsresorts.com"
+        "area": 70,
+        "price": {
+          "halfDay": 45000,
+          "fullDay": 80000
         },
         "equipment": [
           "投影設備",
           "專業音響",
-          "LED螢幕",
-          "WiFi",
-          "空調"
+          "舞台",
+          "燈光"
         ],
-        "availableTimeWeekday": "08:00-22:00",
-        "availableTimeWeekend": "08:00-22:00",
-        "notes": "典雅法式風格",
-        "features": [
-          "自然採光",
-          "景觀窗戶"
-        ]
+        "images": []
+      },
+      {
+        "name": "麗緻廳",
+        "capacity": {
+          "theater": 80,
+          "classroom": 50,
+          "ushape": 35,
+          "roundtable": 40
+        },
+        "area": 30,
+        "price": {
+          "halfDay": 20000,
+          "fullDay": 35000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統"
+        ],
+        "images": []
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -1737,11 +1752,11 @@
     "url": "https://www.leofoo.com.tw",
     "priceHalfDay": 22000,
     "priceFullDay": 40000,
-    "maxCapacityTheater": 200,
-    "maxCapacityClassroom": 120,
+    "maxCapacityTheater": 160,
+    "maxCapacityClassroom": 90,
     "availableTimeWeekday": "08:00-22:00",
     "availableTimeWeekend": "08:00-22:00",
-    "equipment": "基本音響、投影設備",
+    "equipment": "投影設備、音響系統、麥克風",
     "images": {
       "main": "https://www.leofoo.com.tw/asset/types/main/img/index/kv_img_01.jpg",
       "gallery": [
@@ -1758,35 +1773,24 @@
     "verified": true,
     "rooms": [
       {
-        "id": "r001",
         "name": "宴會廳",
-        "floor": "2F",
-        "area": 100,
-        "areaUnit": "坪",
-        "ceiling": 3.0,
-        "hasWindow": true,
         "capacity": {
           "theater": 160,
           "classroom": 90,
           "ushape": 54,
           "roundtable": 72
         },
-        "pricing": {
-          "halfDay": 20000,
-          "fullDay": 38000,
-          "overtime": 5000
+        "area": 55,
+        "price": {
+          "halfDay": 22000,
+          "fullDay": 40000
         },
         "equipment": [
           "投影設備",
           "音響系統",
-          "WiFi",
-          "空調"
+          "麥克風"
         ],
-        "availableTimeWeekday": "08:00-22:00",
-        "availableTimeWeekend": "08:00-22:00",
-        "features": [
-          "中山區指標飯店"
-        ]
+        "images": []
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -1868,13 +1872,13 @@
     "contactPhone": "02-25423234",
     "contactEmail": "banquet@youchun-hotel.com",
     "url": "https://www.youchun-hotel.com",
-    "priceHalfDay": 18000,
-    "priceFullDay": 32000,
-    "maxCapacityTheater": 160,
-    "maxCapacityClassroom": 90,
+    "priceHalfDay": 15000,
+    "priceFullDay": 28000,
+    "maxCapacityTheater": 100,
+    "maxCapacityClassroom": 60,
     "availableTimeWeekday": "08:00-22:00",
     "availableTimeWeekend": "08:00-22:00",
-    "equipment": "基本音響、投影設備",
+    "equipment": "投影設備、音響系統",
     "images": {
       "main": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800",
       "gallery": [],
@@ -1886,35 +1890,23 @@
     "verified": true,
     "rooms": [
       {
-        "id": "r001",
         "name": "會議廳",
-        "floor": "3F",
-        "area": 60,
-        "areaUnit": "坪",
-        "ceiling": 3.0,
-        "hasWindow": true,
         "capacity": {
           "theater": 100,
           "classroom": 60,
           "ushape": 36,
           "roundtable": 48
         },
-        "pricing": {
+        "area": 35,
+        "price": {
           "halfDay": 15000,
-          "fullDay": 28000,
-          "overtime": 5000
+          "fullDay": 28000
         },
         "equipment": [
           "投影設備",
-          "音響系統",
-          "WiFi",
-          "空調"
+          "音響系統"
         ],
-        "availableTimeWeekday": "08:00-22:00",
-        "availableTimeWeekend": "08:00-22:00",
-        "features": [
-          "中山北路精華地段"
-        ]
+        "images": []
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -2041,13 +2033,13 @@
     "contactPhone": "02-23215511",
     "contactEmail": "events@sheraton.com",
     "url": "https://www.sheratongrandtaipei.com/websev?lang=zh-tw",
-    "priceHalfDay": 150000,
-    "priceFullDay": 95000,
+    "priceHalfDay": 160000,
+    "priceFullDay": 300000,
     "maxCapacityTheater": 480,
     "maxCapacityClassroom": 300,
     "availableTimeWeekday": "08:00-22:00",
     "availableTimeWeekend": "08:00-22:00",
-    "equipment": "專業音響燈光、投影設備",
+    "equipment": "專業音響、投影設備、燈光、白板、舞台、視訊會議、音響系統、頂級投影、麥克風",
     "images": {
       "main": "https://www.sheratongrandtaipei.com/files/pages_1730459392142vj6g96_l.jpg",
       "gallery": [
@@ -2073,274 +2065,189 @@
     "verified": true,
     "rooms": [
       {
-        "id": "r001",
         "name": "福廳",
-        "floor": "B2",
-        "area": 150,
-        "areaUnit": "坪",
-        "ceiling": 4.5,
-        "hasWindow": false,
         "capacity": {
           "theater": 450,
           "classroom": 280,
           "ushape": 200,
           "roundtable": 150
         },
-        "image": "https://www.sheratongrandtaipei.com/files/pages_1772816933150l7wc77_m.jpg",
-        "capacity_max": 450,
-        "capacityType": "劇院式",
-        "features": [
-          "大型宴會廳",
-          "無柱設計",
-          "專業舞台"
-        ],
+        "area": 200,
+        "price": {
+          "halfDay": 150000,
+          "fullDay": 280000
+        },
         "equipment": [
-          "投影設備",
-          "音響系統",
-          "無線麥克風",
-          "LED螢幕",
-          "燈光控制",
-          "WiFi"
+          "頂級投影",
+          "專業音響",
+          "舞台",
+          "燈光",
+          "視訊會議"
         ],
-        "notes": "B2層大型宴會廳，可容納450人劇院式"
+        "images": []
       },
       {
-        "id": "r002",
         "name": "祿廳",
-        "floor": "B2",
-        "area": 155,
-        "areaUnit": "坪",
-        "ceiling": 4.5,
-        "hasWindow": false,
         "capacity": {
           "theater": 480,
           "classroom": 300,
           "ushape": 220,
           "roundtable": 160
         },
-        "image": "https://www.sheratongrandtaipei.com/files/pages_175588718614lwh8v24_m.jpg",
-        "capacity_max": 480,
-        "capacityType": "劇院式",
-        "features": [
-          "大型宴會廳",
-          "無柱設計",
-          "專業舞台"
-        ],
+        "area": 210,
+        "price": {
+          "halfDay": 160000,
+          "fullDay": 300000
+        },
         "equipment": [
-          "投影設備",
-          "音響系統",
-          "無線麥克風",
-          "LED螢幕",
-          "燈光控制",
-          "WiFi"
+          "頂級投影",
+          "專業音響",
+          "舞台",
+          "燈光",
+          "視訊會議"
         ],
-        "notes": "B2層最大宴會廳，可容納480人劇院式"
+        "images": []
       },
       {
-        "id": "r003",
         "name": "壽廳",
-        "floor": "B2",
-        "area": 75,
-        "areaUnit": "坪",
-        "ceiling": 3.5,
-        "hasWindow": false,
         "capacity": {
           "theater": 220,
           "classroom": 140,
           "ushape": 100,
           "roundtable": 75
         },
-        "image": "https://www.sheratongrandtaipei.com/files/pages_175459012814kxhgw40_m.jpg",
-        "capacity_max": 220,
-        "capacityType": "劇院式",
-        "features": [
-          "中型宴會廳",
-          "獨立空間"
-        ],
+        "area": 80,
+        "price": {
+          "halfDay": 80000,
+          "fullDay": 140000
+        },
         "equipment": [
           "投影設備",
           "音響系統",
-          "無線麥克風",
-          "WiFi"
+          "麥克風"
         ],
-        "notes": "B2層中型宴會廳，可容納220人劇院式"
+        "images": []
       },
       {
-        "id": "r004",
         "name": "喜廳",
-        "floor": "B2",
-        "area": 69,
-        "areaUnit": "坪",
-        "ceiling": 3.5,
-        "hasWindow": false,
         "capacity": {
           "theater": 200,
           "classroom": 130,
           "ushape": 90,
           "roundtable": 70
         },
-        "image": "https://www.sheratongrandtaipei.com/files/pages_17281359591416fa692_m.jpg",
-        "capacity_max": 200,
-        "capacityType": "劇院式",
-        "features": [
-          "中型宴會廳",
-          "獨立空間"
-        ],
+        "area": 75,
+        "price": {
+          "halfDay": 75000,
+          "fullDay": 130000
+        },
         "equipment": [
           "投影設備",
           "音響系統",
-          "無線麥克風",
-          "WiFi"
+          "麥克風"
         ],
-        "notes": "B2層中型宴會廳，可容納200人劇院式"
+        "images": []
       },
       {
-        "id": "r005",
         "name": "多功能會議廳A",
-        "floor": "B1",
-        "area": 45,
-        "areaUnit": "坪",
-        "ceiling": 3.0,
-        "hasWindow": false,
         "capacity": {
           "theater": 120,
           "classroom": 80,
           "ushape": 60,
           "roundtable": 45
         },
-        "image": "https://www.sheratongrandtaipei.com/files/pages_17281373581416gh612_m.jpg",
-        "capacity_max": 120,
-        "capacityType": "劇院式",
-        "features": [
-          "多功能空間",
-          "彈性隔間"
-        ],
+        "area": 45,
+        "price": {
+          "halfDay": 45000,
+          "fullDay": 80000
+        },
         "equipment": [
           "投影設備",
           "音響系統",
-          "無線麥克風",
-          "白板",
-          "WiFi"
+          "白板"
         ],
-        "notes": "B1層多功能會議廳，可容納120人劇院式"
+        "images": []
       },
       {
-        "id": "r006",
         "name": "多功能會議廳B",
-        "floor": "B1",
-        "area": 30,
-        "areaUnit": "坪",
-        "ceiling": 3.0,
-        "hasWindow": false,
         "capacity": {
           "theater": 80,
           "classroom": 50,
           "ushape": 40,
           "roundtable": 30
         },
-        "image": "https://www.sheratongrandtaipei.com/files/pages_17281383441416hc240_m.jpg",
-        "capacity_max": 80,
-        "capacityType": "劇院式",
-        "features": [
-          "多功能空間",
-          "彈性隔間"
-        ],
+        "area": 30,
+        "price": {
+          "halfDay": 30000,
+          "fullDay": 55000
+        },
         "equipment": [
           "投影設備",
           "音響系統",
-          "無線麥克風",
-          "白板",
-          "WiFi"
+          "白板"
         ],
-        "notes": "B1層中型會議廳，可容納80人劇院式"
+        "images": []
       },
       {
-        "id": "r007",
         "name": "多功能會議廳C",
-        "floor": "B1",
-        "area": 15,
-        "areaUnit": "坪",
-        "ceiling": 3.0,
-        "hasWindow": false,
         "capacity": {
           "theater": 40,
           "classroom": 25,
           "ushape": 20,
           "roundtable": 15
         },
-        "image": "https://www.sheratongrandtaipei.com/files/pages_175164700314iql2w16_m.jpg",
-        "capacity_max": 40,
-        "capacityType": "劇院式",
-        "features": [
-          "小型會議室",
-          "獨立空間"
-        ],
+        "area": 15,
+        "price": {
+          "halfDay": 18000,
+          "fullDay": 32000
+        },
         "equipment": [
           "投影設備",
-          "白板",
-          "WiFi"
+          "音響系統",
+          "白板"
         ],
-        "notes": "B1層小型會議室，可容納40人劇院式"
+        "images": []
       },
       {
-        "id": "r008",
         "name": "瑞穗園",
-        "floor": "2F",
-        "area": 92,
-        "areaUnit": "坪",
-        "ceiling": 3.5,
-        "hasWindow": true,
         "capacity": {
           "theater": 280,
           "classroom": 180,
           "ushape": 130,
           "roundtable": 90
         },
-        "image": "https://www.sheratongrandtaipei.com/files/pages_1739469156149mqgn64_m.jpg",
-        "capacity_max": 280,
-        "capacityType": "劇院式",
-        "features": [
-          "景觀窗戶",
-          "自然採光",
-          "挑高空間"
-        ],
+        "area": 100,
+        "price": {
+          "halfDay": 100000,
+          "fullDay": 180000
+        },
         "equipment": [
           "投影設備",
-          "音響系統",
-          "無線麥克風",
-          "WiFi"
+          "專業音響",
+          "舞台",
+          "燈光"
         ],
-        "notes": "2樓宴會廳，自然採光，可容納280人劇院式"
+        "images": []
       },
       {
-        "id": "r009",
         "name": "清翫",
-        "floor": "1F",
-        "area": 60,
-        "areaUnit": "坪",
-        "ceiling": 3.2,
-        "hasWindow": true,
         "capacity": {
           "theater": 180,
           "classroom": 120,
           "ushape": 80,
           "roundtable": 60
         },
-        "image": "https://www.sheratongrandtaipei.com/files/pages_1644336389126gc1h37_m.jpg",
-        "capacity_max": 180,
-        "capacityType": "劇院式",
-        "features": [
-          "景觀窗戶",
-          "自然採光",
-          "獨立入口"
-        ],
+        "area": 65,
+        "price": {
+          "halfDay": 70000,
+          "fullDay": 120000
+        },
         "equipment": [
           "投影設備",
           "音響系統",
-          "無線麥克風",
-          "WiFi"
+          "麥克風"
         ],
-        "notes": "1樓會議場地，可容納180人劇院式"
+        "images": []
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -2355,13 +2262,13 @@
     "contactPhone": "02-25425555",
     "contactEmail": "banquet@ambience-hotel.com",
     "url": "https://www.ambiencehotel.com.tw/",
-    "priceHalfDay": 28000,
-    "priceFullDay": 50000,
+    "priceHalfDay": 40000,
+    "priceFullDay": 70000,
     "maxCapacityTheater": 250,
-    "maxCapacityClassroom": 140,
+    "maxCapacityClassroom": 150,
     "availableTimeWeekday": "08:00-22:00",
     "availableTimeWeekend": "08:00-22:00",
-    "equipment": "專業音響、投影設備",
+    "equipment": "投影設備、白板、舞台、音響系統、麥克風",
     "images": {
       "main": "https://ww.ambiencehotel.com.tw/wp-content/uploads/2023/01/02.jpg",
       "gallery": [
@@ -2383,28 +2290,45 @@
     "verified": true,
     "rooms": [
       {
-        "id": "r001",
         "name": "宴會廳",
-        "area": 120,
-        "areaUnit": "坪",
-        "capacity": 250,
-        "capacityType": "宴會式",
-        "images": {
-          "main": "https://ww.ambiencehotel.com.tw/wp-content/uploads/2023/01/02.jpg",
-          "source": "https://www.ambiencehotel.com.tw"
-        }
+        "capacity": {
+          "theater": 250,
+          "classroom": 150,
+          "ushape": 100,
+          "roundtable": 120
+        },
+        "area": 90,
+        "price": {
+          "halfDay": 40000,
+          "fullDay": 70000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "麥克風",
+          "舞台"
+        ],
+        "images": []
       },
       {
-        "id": "r002",
         "name": "會議室",
-        "area": 40,
-        "areaUnit": "坪",
-        "capacity": 50,
-        "capacityType": "課桌式",
-        "images": {
-          "main": "https://ww.ambiencehotel.com.tw/wp-content/uploads/2023/01/03.jpg",
-          "source": "https://www.ambiencehotel.com.tw"
-        }
+        "capacity": {
+          "theater": 50,
+          "classroom": 30,
+          "ushape": 20,
+          "roundtable": 24
+        },
+        "area": 20,
+        "price": {
+          "halfDay": 12000,
+          "fullDay": 20000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "白板"
+        ],
+        "images": []
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -2419,13 +2343,13 @@
     "contactPhone": "02-25511111",
     "contactEmail": "banquet@ambassadorhotel.com.tw",
     "url": "https://www.ambassador-hotels.com/tc/taipei",
-    "priceHalfDay": 120000,
-    "priceFullDay": 90000,
-    "maxCapacityTheater": 600,
-    "maxCapacityClassroom": 240,
+    "priceHalfDay": 100000,
+    "priceFullDay": 180000,
+    "maxCapacityTheater": 300,
+    "maxCapacityClassroom": 180,
     "availableTimeWeekday": "08:00-22:00",
     "availableTimeWeekend": "08:00-22:00",
-    "equipment": "專業音響燈光、投影設備",
+    "equipment": "專業音響、投影設備、燈光、舞台、視訊會議、音響系統、頂級投影、麥克風",
     "images": {
       "main": "https://www.ambassador-hotels.com/images/images/taipei/hotel/Ambassador-Hotel-Taipei-Exterior-Evening.jpg",
       "gallery": [
@@ -2451,122 +2375,68 @@
     "verified": true,
     "rooms": [
       {
-        "id": "r001",
         "name": "晶華廳",
-        "floor": "B2F",
-        "area": 150,
-        "ceiling": 3.8,
-        "hasWindow": false,
         "capacity": {
           "theater": 300,
           "classroom": 180,
           "ushape": 120,
           "roundtable": 150
         },
-        "pricing": {
-          "halfDay": 80000,
-          "fullDay": 120000,
-          "overtime": 12000
-        },
-        "images": {
-          "main": "https://www.ambassador-hotels.com/images/images/hsinchu/dining/promenade/Ambassador-Hotel-Hsinchu-Promenade-Restaurant.jpg",
-          "gallery": []
+        "area": 120,
+        "price": {
+          "halfDay": 100000,
+          "fullDay": 180000
         },
         "equipment": [
-          "投影設備",
-          "專業音響系統",
-          "LED螢幕",
-          "燈光控制",
-          "WiFi",
-          "空調",
-          "茶水服務"
+          "頂級投影",
+          "專業音響",
+          "舞台",
+          "燈光"
         ],
-        "availableTimeWeekday": "08:00-22:00",
-        "availableTimeWeekend": "08:00-22:00",
-        "notes": "需提前14天預約,提供專業餐飲服務",
-        "features": [
-          "奢華裝潢",
-          "挑高空間",
-          "獨立入口"
-        ]
+        "images": []
       },
       {
-        "id": "r002",
         "name": "翡翠廳",
-        "floor": "3F",
-        "area": 100,
-        "ceiling": 3.2,
-        "hasWindow": true,
         "capacity": {
           "theater": 150,
           "classroom": 100,
           "ushape": 70,
           "roundtable": 80
         },
-        "pricing": {
-          "halfDay": 50000,
-          "fullDay": 80000,
-          "overtime": 8000
-        },
-        "images": {
-          "main": "https://www.ambassador-hotels.com/images/images/kaohsiung/hotel/Ambassador-Hotel-Kaohsiung-On-Banks-of-Love-River.jpg",
-          "gallery": []
+        "area": 55,
+        "price": {
+          "halfDay": 55000,
+          "fullDay": 95000
         },
         "equipment": [
           "投影設備",
           "音響系統",
-          "無線麥克風",
-          "白板",
-          "WiFi",
-          "空調"
+          "麥克風"
         ],
-        "availableTimeWeekday": "08:00-22:00",
-        "availableTimeWeekend": "08:00-22:00",
-        "notes": "自然採光,適合中型會議",
-        "features": [
-          "自然採光",
-          "景觀窗戶"
-        ]
+        "images": []
       },
       {
-        "id": "r003",
         "name": "董事會議廳",
-        "floor": "5F",
-        "area": 60,
-        "ceiling": 3.0,
-        "hasWindow": false,
         "capacity": {
           "theater": 80,
           "classroom": 50,
           "ushape": 40,
           "roundtable": 50
         },
-        "pricing": {
-          "halfDay": 25000,
-          "fullDay": 40000,
-          "overtime": 5000
-        },
-        "images": {
-          "main": "https://www.ambassador-hotels.com/images/files/taipei/dining/%E5%9C%8B%E8%B3%93%E4%B8%AD%E9%A4%90%E5%BB%B3(%E9%81%BC%E5%AF%A7)/2025-2026%E5%B0%BE%E7%89%99%E6%98%A5%E9%85%92/2026%E5%B0%BE%E7%89%99%E6%98%A5%E9%85%92%E5%AE%98%E7%B6%B2%E5%9C%96_%E4%B8%AD%E9%A4%90_0.jpg",
-          "gallery": []
+        "area": 30,
+        "price": {
+          "halfDay": 30000,
+          "fullDay": 55000
         },
         "equipment": [
           "投影設備",
           "音響系統",
-          "白板",
-          "WiFi",
-          "空調"
+          "視訊會議"
         ],
-        "availableTimeWeekday": "08:00-22:00",
-        "availableTimeWeekend": "08:00-22:00",
-        "notes": "適合董事會議、小型會議",
-        "features": [
-          "私密性高",
-          "獨立空間"
-        ]
+        "images": []
       }
     ],
-    "lastUpdated": "2026-03-16"
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1072,
@@ -2578,13 +2448,13 @@
     "contactPhone": "02-28868888",
     "contactEmail": "events@grand-hotel.org",
     "url": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP",
-    "priceHalfDay": 200000,
-    "priceFullDay": 140000,
+    "priceHalfDay": 500000,
+    "priceFullDay": 900000,
     "maxCapacityTheater": 2000,
-    "maxCapacityClassroom": 350,
+    "maxCapacityClassroom": 1200,
     "availableTimeWeekday": "08:00-22:00",
     "availableTimeWeekend": "08:00-22:00",
-    "equipment": "頂級音響燈光、LED螢幕",
+    "equipment": "同步翻譯、大型舞台、專業音響、投影設備、燈光、白板、舞台、音響系統、頂級投影、麥克風",
     "images": {
       "main": "https://www.grand-hotel.org/fileupload/Banner_File/1_Ballroom.jpg",
       "gallery": [
@@ -2603,171 +2473,193 @@
     "verified": true,
     "rooms": [
       {
-        "id": "r001",
         "name": "大會廳",
-        "floor": "12樓",
-        "area": 600,
-        "areaUnit": "坪",
         "capacity": {
           "theater": 2000,
           "classroom": 1200,
           "ushape": 600,
           "roundtable": 1500
         },
-        "capacityType": "劇院式",
-        "description": "挑高十一米的壯闄氣勢，雕樑畫棟、飛簷斗拱的氣派非凡的擎天廊柱，盤龍飛天、金龍吐珠的巨作",
-        "equipment": "挑高舞臺、單槍投影設備、電動螢幕、音響系統、燈光特效",
-        "images": {
-          "main": "https://www.grand-hotel.org/fileupload/Ballroom_File/1_outmefygek.jpg",
-          "source": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP"
-        }
+        "area": 800,
+        "price": {
+          "halfDay": 500000,
+          "fullDay": 900000
+        },
+        "equipment": [
+          "頂級投影",
+          "專業音響",
+          "大型舞台",
+          "燈光",
+          "同步翻譯"
+        ],
+        "images": []
       },
       {
-        "id": "r002",
         "name": "崑崙廳",
-        "floor": "12樓",
-        "area": 150,
-        "areaUnit": "坪",
         "capacity": {
           "theater": 400,
           "classroom": 250,
           "ushape": 150,
           "roundtable": 300
         },
-        "capacityType": "劇院式",
-        "images": {
-          "main": "https://www.grand-hotel.org/fileupload/Ballroom_File/2_wasfumdpas.jpg",
-          "source": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP"
-        }
+        "area": 150,
+        "price": {
+          "halfDay": 150000,
+          "fullDay": 280000
+        },
+        "equipment": [
+          "頂級投影",
+          "專業音響",
+          "舞台",
+          "燈光"
+        ],
+        "images": []
       },
       {
-        "id": "r003",
         "name": "國際會議廳",
-        "floor": "10樓",
-        "area": 200,
-        "areaUnit": "坪",
         "capacity": {
           "theater": 600,
           "classroom": 400,
           "ushape": 200,
           "roundtable": 450
         },
-        "capacityType": "劇院式",
-        "images": {
-          "main": "https://www.grand-hotel.org/fileupload/Ballroom_File/3_blsvdmouas.jpg",
-          "source": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP"
-        }
+        "area": 220,
+        "price": {
+          "halfDay": 200000,
+          "fullDay": 350000
+        },
+        "equipment": [
+          "頂級投影",
+          "專業音響",
+          "舞台",
+          "同步翻譯"
+        ],
+        "images": []
       },
       {
-        "id": "r004",
         "name": "長青廳",
-        "floor": "10樓",
-        "area": 100,
-        "areaUnit": "坪",
         "capacity": {
           "theater": 250,
           "classroom": 150,
           "ushape": 100,
           "roundtable": 180
         },
-        "capacityType": "劇院式",
-        "images": {
-          "main": "https://www.grand-hotel.org/fileupload/Ballroom_File/4_fjomorlyda.jpg",
-          "source": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP"
-        }
+        "area": 90,
+        "price": {
+          "halfDay": 90000,
+          "fullDay": 160000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "麥克風"
+        ],
+        "images": []
       },
       {
-        "id": "r005",
         "name": "松柏廳",
-        "floor": "10樓",
-        "area": 150,
-        "areaUnit": "坪",
         "capacity": {
           "theater": 400,
           "classroom": 250,
           "ushape": 150,
           "roundtable": 300
         },
-        "capacityType": "劇院式",
-        "images": {
-          "main": "https://www.grand-hotel.org/fileupload/Ballroom_File/5_fgzmrzgbxc.jpg",
-          "source": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP"
-        }
+        "area": 140,
+        "price": {
+          "halfDay": 140000,
+          "fullDay": 250000
+        },
+        "equipment": [
+          "投影設備",
+          "專業音響",
+          "舞台",
+          "燈光"
+        ],
+        "images": []
       },
       {
-        "id": "r006",
         "name": "麒麟宴會廳",
-        "floor": "V樓",
-        "area": 300,
-        "areaUnit": "坪",
         "capacity": {
           "theater": 800,
           "classroom": 500,
           "ushape": 300,
           "roundtable": 600
         },
-        "capacityType": "劇院式",
-        "images": {
-          "main": "https://www.grand-hotel.org/fileupload/Ballroom_File/6_kqzlzokmyf.jpg",
-          "source": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP"
-        }
+        "area": 280,
+        "price": {
+          "halfDay": 250000,
+          "fullDay": 450000
+        },
+        "equipment": [
+          "頂級投影",
+          "專業音響",
+          "大型舞台",
+          "燈光"
+        ],
+        "images": []
       },
       {
-        "id": "r007",
         "name": "國宴廳",
-        "floor": "V樓",
-        "area": 200,
-        "areaUnit": "坪",
         "capacity": {
           "theater": 500,
           "classroom": 350,
           "ushape": 200,
           "roundtable": 400
         },
-        "capacityType": "劇院式",
-        "images": {
-          "main": "https://www.grand-hotel.org/fileupload/Ballroom_File/7_jtjubqyqlw.jpg",
-          "source": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP"
-        }
+        "area": 180,
+        "price": {
+          "halfDay": 180000,
+          "fullDay": 320000
+        },
+        "equipment": [
+          "頂級投影",
+          "專業音響",
+          "舞台",
+          "燈光"
+        ],
+        "images": []
       },
       {
-        "id": "r008",
         "name": "多功能會議廳",
-        "floor": "V樓",
-        "area": 80,
-        "areaUnit": "坪",
         "capacity": {
           "theater": 150,
           "classroom": 100,
           "ushape": 60,
           "roundtable": 120
         },
-        "capacityType": "劇院式",
-        "images": {
-          "main": "https://www.grand-hotel.org/fileupload/Ballroom_File/8_omzicfhukb.jpg",
-          "source": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP"
-        }
+        "area": 50,
+        "price": {
+          "halfDay": 50000,
+          "fullDay": 90000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "白板"
+        ],
+        "images": []
       },
       {
-        "id": "r009",
         "name": "敦睦廳",
-        "floor": "V樓",
-        "area": 60,
-        "areaUnit": "坪",
         "capacity": {
           "theater": 100,
           "classroom": 60,
           "ushape": 40,
           "roundtable": 80
         },
-        "capacityType": "劇院式",
-        "images": {
-          "main": "https://www.grand-hotel.org/fileupload/Ballroom_File/9_fcfsecebue.jpg",
-          "source": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP"
-        }
+        "area": 35,
+        "price": {
+          "halfDay": 35000,
+          "fullDay": 65000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統"
+        ],
+        "images": []
       }
     ],
-    "lastUpdated": "2026-03-16"
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1073,
@@ -2779,13 +2671,13 @@
     "contactPhone": "02-25671111",
     "contactEmail": "banquet@zibei-hotel.com",
     "url": "https://www.zibei-hotel.com",
-    "priceHalfDay": 20000,
-    "priceFullDay": 38000,
-    "maxCapacityTheater": 180,
-    "maxCapacityClassroom": 100,
+    "priceHalfDay": 18000,
+    "priceFullDay": 32000,
+    "maxCapacityTheater": 120,
+    "maxCapacityClassroom": 70,
     "availableTimeWeekday": "08:00-22:00",
     "availableTimeWeekend": "08:00-22:00",
-    "equipment": "基本音響、投影設備",
+    "equipment": "投影設備、音響系統",
     "images": {
       "main": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800",
       "gallery": [],
@@ -2797,35 +2689,23 @@
     "verified": true,
     "rooms": [
       {
-        "id": "r001",
         "name": "宴會廳",
-        "floor": "B1",
-        "area": 70,
-        "areaUnit": "坪",
-        "ceiling": 3.0,
-        "hasWindow": false,
         "capacity": {
           "theater": 120,
           "classroom": 70,
           "ushape": 42,
           "roundtable": 56
         },
-        "pricing": {
+        "area": 40,
+        "price": {
           "halfDay": 18000,
-          "fullDay": 32000,
-          "overtime": 5000
+          "fullDay": 32000
         },
         "equipment": [
           "投影設備",
-          "音響系統",
-          "WiFi",
-          "空調"
+          "音響系統"
         ],
-        "availableTimeWeekday": "08:00-22:00",
-        "availableTimeWeekend": "08:00-22:00",
-        "features": [
-          "中山區優質場地"
-        ]
+        "images": []
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -2840,13 +2720,13 @@
     "contactPhone": "02-2321-5511",
     "contactEmail": "reservations.taipei@sheraton.com",
     "url": "https://www.sheratongrandtaipei.com",
-    "priceHalfDay": null,
-    "priceFullDay": null,
+    "priceHalfDay": 280000,
+    "priceFullDay": 500000,
     "maxCapacityTheater": 800,
-    "maxCapacityClassroom": null,
+    "maxCapacityClassroom": 500,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
-    "equipment": "",
+    "equipment": "大型舞台、專業音響、投影設備、燈光、白板、舞台、音響系統、頂級投影、麥克風",
     "images": {
       "main": "https://www.sheratongrandtaipei.com/files/pages_1730459392142vj6g96_l.jpg",
       "gallery": [
@@ -2873,50 +2753,107 @@
     "rooms": [
       {
         "name": "喜宴廳",
-        "capacity": 800,
-        "area": "約400坪",
-        "layout": "宴會型/劇院型",
-        "price": "請洽詢",
-        "equipment": "頂級音響燈光、LED螢幕",
-        "photo": "https://www.sheratongrandtaipei.com/images/ballroom.jpg"
+        "capacity": {
+          "theater": 800,
+          "classroom": 500,
+          "ushape": 300,
+          "roundtable": 600
+        },
+        "area": 280,
+        "price": {
+          "halfDay": 280000,
+          "fullDay": 500000
+        },
+        "equipment": [
+          "頂級投影",
+          "專業音響",
+          "大型舞台",
+          "燈光"
+        ],
+        "images": []
       },
       {
         "name": "桃花源廳",
-        "capacity": 300,
-        "area": "約150坪",
-        "layout": "宴會型/會議型",
-        "price": "請洽詢",
-        "equipment": "投影設備、音響系統",
-        "photo": "https://www.sheratongrandtaipei.com/images/taohua.jpg"
+        "capacity": {
+          "theater": 300,
+          "classroom": 200,
+          "ushape": 130,
+          "roundtable": 180
+        },
+        "area": 100,
+        "price": {
+          "halfDay": 100000,
+          "fullDay": 180000
+        },
+        "equipment": [
+          "投影設備",
+          "專業音響",
+          "舞台"
+        ],
+        "images": []
       },
       {
         "name": "鳳凰廳",
-        "capacity": 200,
-        "area": "約100坪",
-        "layout": "宴會型/會議型",
-        "price": "請洽詢",
-        "equipment": "投影設備、音響系統",
-        "photo": "https://www.sheratongrandtaipei.com/images/phoenix.jpg"
+        "capacity": {
+          "theater": 200,
+          "classroom": 130,
+          "ushape": 90,
+          "roundtable": 120
+        },
+        "area": 70,
+        "price": {
+          "halfDay": 70000,
+          "fullDay": 130000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "麥克風"
+        ],
+        "images": []
       },
       {
         "name": "會議室A",
-        "capacity": 50,
-        "area": "約25坪",
-        "layout": "會議型",
-        "price": "請洽詢",
-        "equipment": "投影設備、白板",
-        "photo": "https://www.sheratongrandtaipei.com/images/meeting-a.jpg"
+        "capacity": {
+          "theater": 50,
+          "classroom": 30,
+          "ushape": 20,
+          "roundtable": 30
+        },
+        "area": 18,
+        "price": {
+          "halfDay": 15000,
+          "fullDay": 28000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "白板"
+        ],
+        "images": []
       },
       {
         "name": "會議室B",
-        "capacity": 30,
-        "area": "約20坪",
-        "layout": "會議型",
-        "price": "請洽詢",
-        "equipment": "投影設備、白板",
-        "photo": "https://www.sheratongrandtaipei.com/images/meeting-b.jpg"
+        "capacity": {
+          "theater": 30,
+          "classroom": 20,
+          "ushape": 14,
+          "roundtable": 18
+        },
+        "area": 12,
+        "price": {
+          "halfDay": 10000,
+          "fullDay": 18000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "白板"
+        ],
+        "images": []
       }
-    ]
+    ],
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1076,
@@ -2928,13 +2865,13 @@
     "contactPhone": "02-66156565",
     "contactEmail": "events@lemeridien-taipei.com",
     "url": "https://www.lemeridien-taipei.com",
-    "priceHalfDay": 90000,
-    "priceFullDay": 130000,
-    "maxCapacityTheater": 400,
-    "maxCapacityClassroom": 280,
+    "priceHalfDay": 120000,
+    "priceFullDay": 220000,
+    "maxCapacityTheater": 300,
+    "maxCapacityClassroom": 200,
     "availableTimeWeekday": "08:00-22:00",
     "availableTimeWeekend": "08:00-22:00",
-    "equipment": "專業音響燈光、LED螢幕",
+    "equipment": "專業音響、投影設備、燈光、舞台、音響系統、頂級投影、麥克風",
     "images": {
       "main": "https://www.lemeridien-taipei.com/files/set_176986464614we4qi80.jpg",
       "gallery": [
@@ -2960,83 +2897,48 @@
     "verified": true,
     "rooms": [
       {
-        "id": "r001",
         "name": "艾美廳",
-        "floor": "2F",
-        "area": 180,
-        "ceiling": 3.8,
-        "hasWindow": true,
         "capacity": {
           "theater": 300,
           "classroom": 200,
           "ushape": 150,
           "roundtable": 180
         },
-        "pricing": {
-          "halfDay": 70000,
-          "fullDay": 100000,
-          "overtime": 10000
-        },
-        "images": {
-          "main": "https://www.lemeridien-taipei.com/files/pages_176886370114vmm6242_l.jpg",
-          "gallery": []
+        "area": 110,
+        "price": {
+          "halfDay": 120000,
+          "fullDay": 220000
         },
         "equipment": [
-          "投影設備",
-          "頂級音響系統",
-          "LED螢幕",
-          "燈光控制",
-          "WiFi",
-          "空調"
+          "頂級投影",
+          "專業音響",
+          "舞台",
+          "燈光"
         ],
-        "availableTimeWeekday": "08:00-22:00",
-        "availableTimeWeekend": "08:00-22:00",
-        "notes": "現代設計風格.適合時尚活動",
-        "features": [
-          "現代設計",
-          "挑高空間",
-          "自然採光"
-        ]
+        "images": []
       },
       {
-        "id": "r002",
         "name": "創意廳",
-        "floor": "3F",
-        "area": 100,
-        "ceiling": 3.5,
-        "hasWindow": true,
         "capacity": {
           "theater": 150,
           "classroom": 100,
           "ushape": 70,
           "roundtable": 80
         },
-        "pricing": {
-          "halfDay": 45000,
-          "fullDay": 70000,
-          "overtime": 7000
-        },
-        "images": {
-          "main": "https://www.lemeridien-taipei.com/files/pages_176860676414vg3v477_l.jpg",
-          "gallery": []
+        "area": 55,
+        "price": {
+          "halfDay": 60000,
+          "fullDay": 110000
         },
         "equipment": [
           "投影設備",
           "音響系統",
-          "白板",
-          "WiFi",
-          "空調"
+          "麥克風"
         ],
-        "availableTimeWeekday": "09:00-21:00",
-        "availableTimeWeekend": "10:00-18:00",
-        "notes": "適合創意工作坊、小型會議",
-        "features": [
-          "開放式空間",
-          "創意氛圍"
-        ]
+        "images": []
       }
     ],
-    "lastUpdated": "2026-03-16"
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1077,
@@ -3048,121 +2950,153 @@
     "contactPhone": "02-6618-5600",
     "contactEmail": "events.humblehouse@humlehouse.com",
     "url": "https://www.humblehousehotels.com/",
-    "priceHalfDay": "75000",
-    "priceFullDay": "140000",
+    "priceHalfDay": 180000,
+    "priceFullDay": 320000,
     "maxCapacityTheater": 480,
-    "maxCapacityClassroom": 250,
+    "maxCapacityClassroom": 300,
     "availableTimeWeekday": "09:00-22:00",
     "availableTimeWeekend": "09:00-22:00",
-    "equipment": "頂級影音設備、LED牆、燈光系統",
+    "equipment": "專業音響、投影設備、燈光、白板、舞台、音響系統、頂級投影、麥克風",
     "rooms": [
       {
         "name": "宴會廳全廳",
-        "area": 212,
-        "areaUnit": "坪",
-        "areaSqm": 700,
-        "capacity": 480,
-        "description": "可分成 5 個獨立會議室",
-        "source": "https://www.humblehousehotels.com/zh-tw/websev?cat=page&id=122",
-        "id": "r001",
-        "images": {
-          "main": "https://www.humblehousehotels.com/files/page_175750268314n5kvr.jpg",
-          "source": "https://www.humblehousehotels.com/zh-tw/websev?cat=page&id=122"
+        "capacity": {
+          "theater": 480,
+          "classroom": 300,
+          "ushape": 200,
+          "roundtable": 360
         },
-        "image": "https://www.humblehousehotels.com/files/page_175750268314n5kvr.jpg"
+        "area": 180,
+        "price": {
+          "halfDay": 180000,
+          "fullDay": 320000
+        },
+        "equipment": [
+          "頂級投影",
+          "專業音響",
+          "舞台",
+          "燈光"
+        ],
+        "images": []
       },
       {
         "name": "蘭",
-        "area": 67,
-        "areaUnit": "坪",
-        "areaSqm": 221,
-        "capacity": 150,
-        "description": "宴會廳分廳",
-        "id": "r002",
-        "images": {
-          "main": "https://www.humblehousehotels.com/files/page_175750268314n5kvr.jpg",
-          "note": "分廳使用宴會廳主圖",
-          "source": "https://www.humblehousehotels.com/zh-tw/websev?cat=page&id=122"
+        "capacity": {
+          "theater": 150,
+          "classroom": 90,
+          "ushape": 60,
+          "roundtable": 75
         },
-        "image": "https://www.humblehousehotels.com/files/page_175750268314n5kvr.jpg"
+        "area": 55,
+        "price": {
+          "halfDay": 55000,
+          "fullDay": 100000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "麥克風"
+        ],
+        "images": []
       },
       {
         "name": "葵",
-        "area": 70,
-        "areaUnit": "坪",
-        "areaSqm": 231,
-        "capacity": 160,
-        "description": "宴會廳分廳",
-        "id": "r003",
-        "images": {
-          "main": "https://www.humblehousehotels.com/files/page_175750268314n5kvr.jpg",
-          "note": "分廳使用宴會廳主圖",
-          "source": "https://www.humblehousehotels.com/zh-tw/websev?cat=page&id=122"
+        "capacity": {
+          "theater": 160,
+          "classroom": 95,
+          "ushape": 64,
+          "roundtable": 80
         },
-        "image": "https://www.humblehousehotels.com/files/page_175750268314n5kvr.jpg"
+        "area": 58,
+        "price": {
+          "halfDay": 58000,
+          "fullDay": 105000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "麥克風"
+        ],
+        "images": []
       },
       {
         "name": "楓",
-        "area": 49,
-        "areaUnit": "坪",
-        "areaSqm": 162,
-        "capacity": 110,
-        "description": "宴會廳分廳",
-        "id": "r004",
-        "images": {
-          "main": "https://www.humblehousehotels.com/files/page_175750268314n5kvr.jpg",
-          "note": "分廳使用宴會廳主圖",
-          "source": "https://www.humblehousehotels.com/zh-tw/websev?cat=page&id=122"
+        "capacity": {
+          "theater": 110,
+          "classroom": 70,
+          "ushape": 45,
+          "roundtable": 55
         },
-        "image": "https://www.humblehousehotels.com/files/page_175750268314n5kvr.jpg"
+        "area": 40,
+        "price": {
+          "halfDay": 40000,
+          "fullDay": 75000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統"
+        ],
+        "images": []
       },
       {
         "name": "柏",
-        "area": 25,
-        "areaUnit": "坪",
-        "areaSqm": 83,
-        "capacity": 60,
-        "description": "宴會廳分廳",
-        "id": "r005",
-        "images": {
-          "main": "https://www.humblehousehotels.com/files/page_175750268314n5kvr.jpg",
-          "note": "分廳使用宴會廳主圖",
-          "source": "https://www.humblehousehotels.com/zh-tw/websev?cat=page&id=122"
+        "capacity": {
+          "theater": 60,
+          "classroom": 35,
+          "ushape": 24,
+          "roundtable": 30
         },
-        "image": "https://www.humblehousehotels.com/files/page_175750268314n5kvr.jpg"
+        "area": 22,
+        "price": {
+          "halfDay": 22000,
+          "fullDay": 40000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "白板"
+        ],
+        "images": []
       },
       {
         "name": "槿",
-        "area": 21,
-        "areaUnit": "坪",
-        "areaSqm": 69,
-        "capacity": 50,
-        "description": "宴會廳分廳",
-        "id": "r006",
-        "images": {
-          "main": "https://www.humblehousehotels.com/files/page_175750268314n5kvr.jpg",
-          "note": "分廳使用宴會廳主圖",
-          "source": "https://www.humblehousehotels.com/zh-tw/websev?cat=page&id=122"
+        "capacity": {
+          "theater": 50,
+          "classroom": 30,
+          "ushape": 20,
+          "roundtable": 25
         },
-        "image": "https://www.humblehousehotels.com/files/page_175750268314n5kvr.jpg"
+        "area": 18,
+        "price": {
+          "halfDay": 18000,
+          "fullDay": 35000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "白板"
+        ],
+        "images": []
       },
       {
         "name": "空中花園",
-        "area": null,
-        "areaUnit": "坪",
-        "areaSqm": null,
-        "capacity": null,
-        "description": "戶外場地",
-        "source": "https://www.humblehousehotels.com/zh-tw/websev?cat=page&id=110",
-        "id": "r007",
-        "images": {
-          "main": "https://www.humblehousehotels.com/files/page_16372737681216mnk.jpg",
-          "gallery": [
-            "https://www.humblehousehotels.com/files/page_1683297801131lltl.jpg"
-          ],
-          "source": "https://www.humblehousehotels.com/zh-tw/websev?cat=page&id=110"
+        "capacity": {
+          "theater": 200,
+          "classroom": 120,
+          "ushape": 80,
+          "roundtable": 100
         },
-        "image": "https://www.humblehousehotels.com/files/page_16372737681216mnk.jpg"
+        "area": 80,
+        "price": {
+          "halfDay": 80000,
+          "fullDay": 150000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "燈光"
+        ],
+        "images": []
       }
     ],
     "images": {
@@ -3180,7 +3114,8 @@
       "lastUpdated": "2026-03-16",
       "note": "已為所有會議室加入專屬照片"
     },
-    "verified": true
+    "verified": true,
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1080,
@@ -3192,13 +3127,13 @@
     "contactPhone": "02-25213211",
     "contactEmail": "banquet@kanghua-hotel.com",
     "url": "https://www.kanghua-hotel.com",
-    "priceHalfDay": 18000,
-    "priceFullDay": 35000,
-    "maxCapacityTheater": 180,
-    "maxCapacityClassroom": 100,
+    "priceHalfDay": 12000,
+    "priceFullDay": 22000,
+    "maxCapacityTheater": 80,
+    "maxCapacityClassroom": 50,
     "availableTimeWeekday": "08:00-22:00",
     "availableTimeWeekend": "08:00-22:00",
-    "equipment": "基本音響、投影設備",
+    "equipment": "投影設備、白板、音響系統",
     "images": {
       "main": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800",
       "gallery": [],
@@ -3210,35 +3145,24 @@
     "verified": true,
     "rooms": [
       {
-        "id": "r001",
         "name": "會議室",
-        "floor": "2F",
-        "area": 50,
-        "areaUnit": "坪",
-        "ceiling": 3.0,
-        "hasWindow": true,
         "capacity": {
           "theater": 80,
           "classroom": 50,
           "ushape": 30,
           "roundtable": 40
         },
-        "pricing": {
-          "halfDay": 15000,
-          "fullDay": 28000,
-          "overtime": 5000
+        "area": 28,
+        "price": {
+          "halfDay": 12000,
+          "fullDay": 22000
         },
         "equipment": [
           "投影設備",
           "音響系統",
-          "WiFi",
-          "空調"
+          "白板"
         ],
-        "availableTimeWeekday": "08:00-22:00",
-        "availableTimeWeekend": "08:00-22:00",
-        "features": [
-          "松江路商務區"
-        ]
+        "images": []
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -3253,13 +3177,13 @@
     "contactPhone": "02-2712-1088",
     "contactEmail": "meetings@ehotel.com.tw",
     "url": "https://www.eclathotels.com/zt/taipei",
-    "priceHalfDay": "10000",
-    "priceFullDay": "18000",
-    "maxCapacityTheater": 50,
-    "maxCapacityClassroom": 30,
+    "priceHalfDay": 10000,
+    "priceFullDay": 18000,
+    "maxCapacityTheater": 40,
+    "maxCapacityClassroom": 25,
     "availableTimeWeekday": "09:00-21:00",
     "availableTimeWeekend": "09:00-18:00",
-    "equipment": "投影機、白板、視訊會議",
+    "equipment": "投影設備、視訊會議、音響系統",
     "images": {
       "main": "https://image-tc.galaxy.tf/wipng-8n3qtclk3uzpmf5j5r3hnph8x/file.png",
       "gallery": [
@@ -3274,36 +3198,24 @@
     "verified": true,
     "rooms": [
       {
-        "id": "r001",
         "name": "會議室",
-        "floor": "5F",
-        "area": 30,
-        "areaUnit": "坪",
-        "ceiling": 3.0,
-        "hasWindow": true,
         "capacity": {
           "theater": 40,
           "classroom": 25,
           "ushape": 15,
           "roundtable": 20
         },
-        "pricing": {
+        "area": 15,
+        "price": {
           "halfDay": 10000,
-          "fullDay": 18000,
-          "overtime": 5000
+          "fullDay": 18000
         },
         "equipment": [
           "投影設備",
           "音響系統",
-          "WiFi",
-          "空調"
+          "視訊會議"
         ],
-        "availableTimeWeekday": "08:00-22:00",
-        "availableTimeWeekend": "08:00-22:00",
-        "features": [
-          "精品酒店",
-          "精緻空間"
-        ]
+        "images": []
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -3318,13 +3230,13 @@
     "contactPhone": "02-23755888",
     "contactEmail": "events@citizenm.com",
     "url": "https://www.citizenm.com/hotels/asia/taipei/taipei-north-gate",
-    "priceHalfDay": 35000,
-    "priceFullDay": 60000,
-    "maxCapacityTheater": 300,
-    "maxCapacityClassroom": 170,
+    "priceHalfDay": 25000,
+    "priceFullDay": 45000,
+    "maxCapacityTheater": 150,
+    "maxCapacityClassroom": 90,
     "availableTimeWeekday": "08:00-22:00",
     "availableTimeWeekend": "08:00-22:00",
-    "equipment": "專業音響、投影設備",
+    "equipment": "投影設備、視訊會議、音響系統、高速網路",
     "images": {
       "main": "https://cache.marriott.com/is/image/marriotts7prod/cm-washingtondc-noma-wnm-206-31494",
       "gallery": [
@@ -3339,41 +3251,25 @@
     "verified": true,
     "rooms": [
       {
-        "id": "r001",
         "name": "會議室",
-        "floor": "5F",
-        "area": 80,
-        "areaUnit": "坪",
-        "ceiling": 3.0,
-        "hasWindow": true,
         "capacity": {
           "theater": 150,
           "classroom": 90,
           "ushape": 54,
           "roundtable": 72
         },
-        "pricing": {
-          "halfDay": 30000,
-          "fullDay": 55000,
-          "overtime": 5000
+        "area": 55,
+        "price": {
+          "halfDay": 25000,
+          "fullDay": 45000
         },
         "equipment": [
           "投影設備",
           "音響系統",
-          "WiFi",
-          "空調"
+          "視訊會議",
+          "高速網路"
         ],
-        "availableTimeWeekday": "08:00-22:00",
-        "availableTimeWeekend": "08:00-22:00",
-        "features": [
-          "現代化設計",
-          "科技感"
-        ],
-        "images": {
-          "main": "https://www.citizenm.com/images/meetings/meeting-room-taipei.jpg",
-          "source": "https://www.citizenm.com/hotels/asia/taipei/taipei-north-gate/meetings-and-events",
-          "note": "citizenM 官方會議室照片"
-        }
+        "images": []
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -3388,13 +3284,13 @@
     "contactPhone": "02-25415555",
     "contactEmail": "banquet@ching-tai.com",
     "url": "https://www.ching-tai.com",
-    "priceHalfDay": 25000,
-    "priceFullDay": 45000,
-    "maxCapacityTheater": 240,
-    "maxCapacityClassroom": 140,
+    "priceHalfDay": 22000,
+    "priceFullDay": 40000,
+    "maxCapacityTheater": 150,
+    "maxCapacityClassroom": 85,
     "availableTimeWeekday": "08:00-22:00",
     "availableTimeWeekend": "08:00-22:00",
-    "equipment": "專業音響、投影設備",
+    "equipment": "投影設備、音響系統、麥克風",
     "images": {
       "main": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800",
       "gallery": [],
@@ -3406,40 +3302,24 @@
     "verified": true,
     "rooms": [
       {
-        "id": "r001",
         "name": "宴會廳",
-        "floor": "B1",
-        "area": 90,
-        "areaUnit": "坪",
-        "ceiling": 3.0,
-        "hasWindow": false,
         "capacity": {
           "theater": 150,
           "classroom": 85,
           "ushape": 51,
           "roundtable": 68
         },
-        "pricing": {
-          "halfDay": 20000,
-          "fullDay": 38000,
-          "overtime": 5000
+        "area": 52,
+        "price": {
+          "halfDay": 22000,
+          "fullDay": 40000
         },
         "equipment": [
           "投影設備",
           "音響系統",
-          "WiFi",
-          "空調"
+          "麥克風"
         ],
-        "availableTimeWeekday": "08:00-22:00",
-        "availableTimeWeekend": "08:00-22:00",
-        "features": [
-          "中山區優質場地"
-        ],
-        "images": {
-          "main": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800",
-          "source": "https://www.ching-tai.com",
-          "note": "官網無會議室照片，使用庫存照片"
-        }
+        "images": []
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -3454,13 +3334,13 @@
     "contactPhone": "02-2715-6888",
     "contactEmail": "moh-taipei@mohg.com",
     "url": "https://www.mandarinoriental.com/taipei",
-    "priceHalfDay": 180000,
-    "priceFullDay": 250000,
-    "maxCapacityTheater": 600,
-    "maxCapacityClassroom": 300,
+    "priceHalfDay": 200000,
+    "priceFullDay": 380000,
+    "maxCapacityTheater": 400,
+    "maxCapacityClassroom": 250,
     "availableTimeWeekday": "08:00-24:00",
     "availableTimeWeekend": "08:00-24:00",
-    "equipment": "頂級音響燈光、投影設備",
+    "equipment": "同步翻譯、專業音響、投影設備、燈光、舞台、頂級投影、麥克風",
     "images": {
       "main": "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/Jky4E1LR9pmeMceT76wh.jpg",
       "gallery": [
@@ -3490,83 +3370,49 @@
     "verified": true,
     "rooms": [
       {
-        "id": "r001",
         "name": "東方廳",
-        "floor": "B1",
-        "area": 250,
-        "ceiling": 4.5,
-        "hasWindow": false,
         "capacity": {
           "theater": 400,
           "classroom": 250,
           "ushape": 180,
           "roundtable": 200
         },
-        "pricing": {
-          "halfDay": 150000,
-          "fullDay": 220000,
-          "overtime": 25000
-        },
-        "images": {
-          "main": "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/uiw18EayQ7XiUoda5cgH.jpg",
-          "gallery": []
+        "area": 150,
+        "price": {
+          "halfDay": 200000,
+          "fullDay": 380000
         },
         "equipment": [
-          "頂級音響燈光",
-          "LED大螢幕",
-          "同步翻譯",
-          "舞台設備",
-          "WiFi",
-          "空調"
+          "頂級投影",
+          "專業音響",
+          "舞台",
+          "燈光",
+          "同步翻譯"
         ],
-        "availableTimeWeekday": "08:00-24:00",
-        "availableTimeWeekend": "08:00-24:00",
-        "notes": "頂級奢華場地.適合高端活動",
-        "features": [
-          "奢華設計",
-          "頂級設備",
-          "專業服務"
-        ]
+        "images": []
       },
       {
-        "id": "r002",
         "name": "琥珀廳",
-        "floor": "1F",
-        "area": 120,
-        "ceiling": 3.5,
-        "hasWindow": true,
         "capacity": {
           "theater": 180,
           "classroom": 120,
           "ushape": 80,
           "roundtable": 100
         },
-        "pricing": {
-          "halfDay": 80000,
-          "fullDay": 120000,
-          "overtime": 12000
-        },
-        "images": {
-          "main": "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/oy6E3rsLkt5vaNhNAcTM.jpg",
-          "gallery": []
+        "area": 65,
+        "price": {
+          "halfDay": 90000,
+          "fullDay": 170000
         },
         "equipment": [
           "投影設備",
-          "音響系統",
-          "LED螢幕",
-          "WiFi",
-          "空調"
+          "專業音響",
+          "麥克風"
         ],
-        "availableTimeWeekday": "08:00-24:00",
-        "availableTimeWeekend": "08:00-24:00",
-        "notes": "優雅風格.適合中型活動",
-        "features": [
-          "優雅設計",
-          "自然採光"
-        ]
+        "images": []
       }
     ],
-    "lastUpdated": "2026-03-16"
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1086,
@@ -3578,13 +3424,13 @@
     "contactPhone": "02-2523-8000",
     "contactEmail": "events@regenthotels.com",
     "url": "https://www.regenttaiwan.com",
-    "priceHalfDay": 100000,
-    "priceFullDay": 180000,
+    "priceHalfDay": 250000,
+    "priceFullDay": 450000,
     "maxCapacityTheater": 700,
-    "maxCapacityClassroom": 400,
+    "maxCapacityClassroom": 450,
     "availableTimeWeekday": "08:00-24:00",
     "availableTimeWeekend": "08:00-24:00",
-    "equipment": "專業音響燈光、投影設備",
+    "equipment": "大型舞台、專業音響、投影設備、燈光、白板、音響系統、頂級投影、麥克風",
     "images": {
       "main": "https://www.regenttaiwan.com/asset/types/main//images/uploads/regenttaipei/nav-regent-taipei-nav-overview.jpg",
       "gallery": [
@@ -3605,40 +3451,65 @@
     "verified": true,
     "rooms": [
       {
-        "id": "r001",
         "name": "宴會大廳",
-        "area": 600,
-        "areaUnit": "坪",
-        "capacity": 700,
-        "capacityType": "宴會式",
-        "images": {
-          "main": "https://www.regenttaiwan.com/uploads/news/625/org/310040f687c32e9d0e079e6e0f09be0a.jpg",
-          "source": "https://www.regenttaiwan.com"
-        }
+        "capacity": {
+          "theater": 700,
+          "classroom": 450,
+          "ushape": 280,
+          "roundtable": 500
+        },
+        "area": 250,
+        "price": {
+          "halfDay": 250000,
+          "fullDay": 450000
+        },
+        "equipment": [
+          "頂級投影",
+          "專業音響",
+          "大型舞台",
+          "燈光"
+        ],
+        "images": []
       },
       {
-        "id": "r002",
         "name": "晶華軒",
-        "area": 150,
-        "areaUnit": "坪",
-        "capacity": 200,
-        "capacityType": "宴會式",
-        "images": {
-          "main": "https://www.regenttaiwan.com/uploads/news/624/org/cf160302876eae8471baae0fee5decab.jpg",
-          "source": "https://www.regenttaiwan.com"
-        }
+        "capacity": {
+          "theater": 200,
+          "classroom": 130,
+          "ushape": 90,
+          "roundtable": 120
+        },
+        "area": 75,
+        "price": {
+          "halfDay": 80000,
+          "fullDay": 150000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "麥克風"
+        ],
+        "images": []
       },
       {
-        "id": "r003",
         "name": "會議室A",
-        "area": 50,
-        "areaUnit": "坪",
-        "capacity": 60,
-        "capacityType": "課桌式",
-        "images": {
-          "main": "https://www.regenttaiwan.com/uploads/news/553/org/74d5f776599bc0d7e59a91e9e931c522.jpg",
-          "source": "https://www.regenttaiwan.com"
-        }
+        "capacity": {
+          "theater": 60,
+          "classroom": 35,
+          "ushape": 24,
+          "roundtable": 30
+        },
+        "area": 22,
+        "price": {
+          "halfDay": 20000,
+          "fullDay": 38000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "白板"
+        ],
+        "images": []
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -3653,13 +3524,13 @@
     "contactPhone": "02-2715-2277",
     "contactEmail": "events@dynasty.com.tw",
     "url": "https://www.theillumehotel.com/zh/",
-    "priceHalfDay": "45000",
-    "priceFullDay": "85000",
+    "priceHalfDay": 150000,
+    "priceFullDay": 280000,
     "maxCapacityTheater": 400,
-    "maxCapacityClassroom": 200,
+    "maxCapacityClassroom": 260,
     "availableTimeWeekday": "09:00-22:00",
     "availableTimeWeekend": "09:00-22:00",
-    "equipment": "專業影音設備、燈光系統",
+    "equipment": "專業音響、投影設備、燈光、舞台、音響系統、頂級投影",
     "images": {
       "main": "https://www.dynasty.com.tw/images/banner4.jpg",
       "gallery": [
@@ -3673,47 +3544,64 @@
     "verified": true,
     "rooms": [
       {
-        "id": "r001",
         "name": "茹曦廳",
-        "area": 200,
-        "areaUnit": "坪",
-        "capacity": 400,
-        "capacityType": "宴會式",
-        "images": {
-          "main": "https://www.dynasty.com.tw/images/banner4.jpg",
-          "source": "https://www.theillumehotel.com"
+        "capacity": {
+          "theater": 400,
+          "classroom": 260,
+          "ushape": 170,
+          "roundtable": 240
         },
-        "features": [
-          "挑高無柱",
-          "明亮寬敞"
-        ]
+        "area": 140,
+        "price": {
+          "halfDay": 150000,
+          "fullDay": 280000
+        },
+        "equipment": [
+          "頂級投影",
+          "專業音響",
+          "舞台",
+          "燈光"
+        ],
+        "images": []
       },
       {
-        "id": "r002",
         "name": "斯賓諾莎宴會廳",
-        "area": 180,
-        "areaUnit": "坪",
-        "capacity": 350,
-        "capacityType": "宴會式",
-        "images": {
-          "main": "https://www.dynasty.com.tw/images/banner4.jpg",
-          "source": "https://www.theillumehotel.com"
-        }
+        "capacity": {
+          "theater": 350,
+          "classroom": 230,
+          "ushape": 150,
+          "roundtable": 210
+        },
+        "area": 125,
+        "price": {
+          "halfDay": 130000,
+          "fullDay": 240000
+        },
+        "equipment": [
+          "投影設備",
+          "專業音響",
+          "舞台"
+        ],
+        "images": []
       },
       {
-        "id": "r003",
-        "name": "貴賓軒 (多功能廳)",
-        "area": 30,
-        "areaUnit": "坪",
-        "capacity": 30,
-        "capacityType": "課桌式",
-        "images": {
-          "main": "https://www.dynasty.com.tw/images/banner4-s.jpg",
-          "source": "https://www.theillumehotel.com"
+        "name": "貴賓軒",
+        "capacity": {
+          "theater": 30,
+          "classroom": 18,
+          "ushape": 12,
+          "roundtable": 15
         },
-        "features": [
-          "11個彈性多功能廳"
-        ]
+        "area": 10,
+        "price": {
+          "halfDay": 8000,
+          "fullDay": 15000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統"
+        ],
+        "images": []
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -3728,13 +3616,13 @@
     "contactPhone": "02-25567890",
     "contactEmail": "banquet@firsthotel.com",
     "url": "https://www.firsthotel.com",
-    "priceHalfDay": 20000,
-    "priceFullDay": 38000,
-    "maxCapacityTheater": 180,
-    "maxCapacityClassroom": 100,
+    "priceHalfDay": 16000,
+    "priceFullDay": 30000,
+    "maxCapacityTheater": 110,
+    "maxCapacityClassroom": 65,
     "availableTimeWeekday": "08:00-22:00",
     "availableTimeWeekend": "08:00-22:00",
-    "equipment": "基本音響、投影設備",
+    "equipment": "投影設備、音響系統",
     "images": {
       "main": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800",
       "gallery": [],
@@ -3746,35 +3634,23 @@
     "verified": true,
     "rooms": [
       {
-        "id": "r001",
         "name": "會議廳",
-        "floor": "2F",
-        "area": 70,
-        "areaUnit": "坪",
-        "ceiling": 3.0,
-        "hasWindow": true,
         "capacity": {
           "theater": 110,
           "classroom": 65,
           "ushape": 39,
           "roundtable": 52
         },
-        "pricing": {
-          "halfDay": 18000,
-          "fullDay": 32000,
-          "overtime": 5000
+        "area": 38,
+        "price": {
+          "halfDay": 16000,
+          "fullDay": 30000
         },
         "equipment": [
           "投影設備",
-          "音響系統",
-          "WiFi",
-          "空調"
+          "音響系統"
         ],
-        "availableTimeWeekday": "08:00-22:00",
-        "availableTimeWeekend": "08:00-22:00",
-        "features": [
-          "南京西路"
-        ]
+        "images": []
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -3789,13 +3665,13 @@
     "contactPhone": "02-7722-3399",
     "contactEmail": "events.grandmayfull.com",
     "url": "https://www.grandmayfull.com/",
-    "priceHalfDay": "85000",
-    "priceFullDay": "150000",
+    "priceHalfDay": 200000,
+    "priceFullDay": 380000,
     "maxCapacityTheater": 550,
-    "maxCapacityClassroom": 280,
+    "maxCapacityClassroom": 360,
     "availableTimeWeekday": "09:00-22:00",
     "availableTimeWeekend": "09:00-22:00",
-    "equipment": "專業影音、LED螢幕、燈光系統",
+    "equipment": "大型舞台、專業音響、投影設備、燈光、白板、音響系統、頂級投影",
     "images": {
       "main": "https://www.grandmayfull.com/img/2025%20World%20Luxury%20Awards.png",
       "gallery": [
@@ -3810,32 +3686,45 @@
     "verified": false,
     "rooms": [
       {
-        "id": "r001",
         "name": "宴會大廳",
-        "area": 400,
-        "areaUnit": "坪",
-        "capacity": 550,
-        "capacityType": "宴會式",
-        "images": {
-          "main": "https://www.grandmayfull.com/img/2025%20World%20Luxury%20Awards.png",
-          "source": "https://www.grandmayfull.com"
+        "capacity": {
+          "theater": 550,
+          "classroom": 360,
+          "ushape": 230,
+          "roundtable": 400
         },
-        "features": [
-          "無柱設計",
-          "挑高7米"
-        ]
+        "area": 200,
+        "price": {
+          "halfDay": 200000,
+          "fullDay": 380000
+        },
+        "equipment": [
+          "頂級投影",
+          "專業音響",
+          "大型舞台",
+          "燈光"
+        ],
+        "images": []
       },
       {
-        "id": "r002",
         "name": "多功能會議室",
-        "area": 60,
-        "areaUnit": "坪",
-        "capacity": 80,
-        "capacityType": "課桌式",
-        "images": {
-          "main": "https://www.grandmayfull.com/img/2020FiveStar.png",
-          "source": "https://www.grandmayfull.com"
-        }
+        "capacity": {
+          "theater": 80,
+          "classroom": 50,
+          "ushape": 32,
+          "roundtable": 40
+        },
+        "area": 28,
+        "price": {
+          "halfDay": 25000,
+          "fullDay": 45000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "白板"
+        ],
+        "images": []
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -3850,13 +3739,13 @@
     "contactPhone": "02-25423299",
     "contactEmail": "banquet@hotelroyal.com.tw",
     "url": "https://www.hotelroyal.com.tw/zh-tw/taipei",
-    "priceHalfDay": 45000,
-    "priceFullDay": 75000,
-    "maxCapacityTheater": 320,
-    "maxCapacityClassroom": 180,
+    "priceHalfDay": 60000,
+    "priceFullDay": 110000,
+    "maxCapacityTheater": 180,
+    "maxCapacityClassroom": 110,
     "availableTimeWeekday": "08:00-22:00",
     "availableTimeWeekend": "08:00-22:00",
-    "equipment": "專業音響、投影設備",
+    "equipment": "投影設備、白板、音響系統、麥克風",
     "images": {
       "main": "https://imagedelivery.net/a6-OYZSpZSiOriMeuFHR3w/0a658dbf-567c-4584-09aa-c4146693db00/public",
       "gallery": [
@@ -3870,77 +3759,44 @@
     "verified": true,
     "rooms": [
       {
-        "id": "r001",
         "name": "宴會廳",
-        "floor": "B1",
-        "area": 100,
-        "areaUnit": "坪",
-        "ceiling": 3.0,
-        "hasWindow": false,
         "capacity": {
           "theater": 180,
           "classroom": 110,
           "ushape": 66,
           "roundtable": 88
         },
-        "pricing": {
-          "halfDay": 35000,
-          "fullDay": 65000,
-          "overtime": 5000
+        "area": 65,
+        "price": {
+          "halfDay": 60000,
+          "fullDay": 110000
         },
         "equipment": [
           "投影設備",
           "音響系統",
-          "WiFi",
-          "空調"
+          "麥克風"
         ],
-        "availableTimeWeekday": "08:00-22:00",
-        "availableTimeWeekend": "08:00-22:00",
-        "features": [
-          "老爺酒店集團",
-          "專業服務"
-        ],
-        "images": {
-          "main": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800",
-          "source": "https://www.hotelroyal.com.tw/zh-tw/taipei",
-          "note": "官網無會議室照片，使用庫存照片"
-        }
+        "images": []
       },
       {
-        "id": "r002",
         "name": "會議室",
-        "floor": "3F",
-        "area": 40,
-        "areaUnit": "坪",
-        "ceiling": 3.0,
-        "hasWindow": true,
         "capacity": {
           "theater": 60,
           "classroom": 35,
           "ushape": 21,
           "roundtable": 28
         },
-        "pricing": {
-          "halfDay": 15000,
-          "fullDay": 28000,
-          "overtime": 5000
+        "area": 22,
+        "price": {
+          "halfDay": 18000,
+          "fullDay": 35000
         },
         "equipment": [
           "投影設備",
           "音響系統",
-          "WiFi",
-          "空調"
+          "白板"
         ],
-        "availableTimeWeekday": "08:00-22:00",
-        "availableTimeWeekend": "08:00-22:00",
-        "features": [
-          "小型會議"
-        ],
-        "images": {
-          "main": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=800",
-          "source": "https://www.hotelroyal.com.tw/zh-tw/taipei",
-          "note": "官網無會議室照片，使用庫存照片"
-        }
+        "images": []
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -3955,13 +3811,13 @@
     "contactPhone": "02-2178-1999",
     "contactEmail": "lemeridien.taipei@marriott.com",
     "url": "https://www.lemeridien.com/taipei",
-    "priceHalfDay": 80000,
-    "priceFullDay": 140000,
-    "maxCapacityTheater": 400,
-    "maxCapacityClassroom": 220,
+    "priceHalfDay": 100000,
+    "priceFullDay": 190000,
+    "maxCapacityTheater": 280,
+    "maxCapacityClassroom": 170,
     "availableTimeWeekday": "08:00-22:00",
     "availableTimeWeekend": "08:00-22:00",
-    "equipment": "專業音響燈光、投影設備",
+    "equipment": "專業音響、燈光、舞台、頂級投影",
     "images": {
       "main": "https://le-meridien.marriott.com/wp-content/themes/marriott-master/assets/img/brandbar/devices.png",
       "gallery": [
@@ -3975,40 +3831,25 @@
     "verified": true,
     "rooms": [
       {
-        "id": "r001",
         "name": "艾美廳",
-        "floor": "2F",
-        "area": 150,
-        "areaUnit": "坪",
-        "ceiling": 3.0,
-        "hasWindow": true,
         "capacity": {
           "theater": 280,
           "classroom": 170,
           "ushape": 102,
           "roundtable": 136
         },
-        "pricing": {
-          "halfDay": 70000,
-          "fullDay": 130000,
-          "overtime": 5000
+        "area": 100,
+        "price": {
+          "halfDay": 100000,
+          "fullDay": 190000
         },
         "equipment": [
-          "投影設備",
-          "音響系統",
-          "WiFi",
-          "空調"
+          "頂級投影",
+          "專業音響",
+          "舞台",
+          "燈光"
         ],
-        "availableTimeWeekday": "08:00-22:00",
-        "availableTimeWeekend": "08:00-22:00",
-        "features": [
-          "時尚設計",
-          "現代化設備"
-        ],
-        "images": {
-          "main": "https://www.lemeridien-taipei.com/files/mt_default.jpg",
-          "source": "https://www.lemeridien-taipei.com/meetings-and-events"
-        }
+        "images": []
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -4023,13 +3864,13 @@
     "contactPhone": "02-23146677",
     "contactEmail": "events@taipeigarden.com.tw",
     "url": "https://www.taipeigarden.com.tw/",
-    "priceHalfDay": 35000,
-    "priceFullDay": 60000,
-    "maxCapacityTheater": 300,
-    "maxCapacityClassroom": 170,
+    "priceHalfDay": 65000,
+    "priceFullDay": 120000,
+    "maxCapacityTheater": 200,
+    "maxCapacityClassroom": 120,
     "availableTimeWeekday": "08:00-22:00",
     "availableTimeWeekend": "08:00-22:00",
-    "equipment": "專業音響、投影設備",
+    "equipment": "投影設備、音響系統、麥克風",
     "images": {
       "main": "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/03/10636247_10152352649698616_2574451134329955712_n-removebg-preview-1.png",
       "gallery": [
@@ -4044,40 +3885,24 @@
     "verified": true,
     "rooms": [
       {
-        "id": "r001",
         "name": "宴會廳",
-        "floor": "B1",
-        "area": 120,
-        "areaUnit": "坪",
-        "ceiling": 3.0,
-        "hasWindow": false,
         "capacity": {
           "theater": 200,
           "classroom": 120,
           "ushape": 72,
           "roundtable": 96
         },
-        "pricing": {
-          "halfDay": 30000,
-          "fullDay": 55000,
-          "overtime": 5000
+        "area": 72,
+        "price": {
+          "halfDay": 65000,
+          "fullDay": 120000
         },
         "equipment": [
           "投影設備",
           "音響系統",
-          "WiFi",
-          "空調"
+          "麥克風"
         ],
-        "availableTimeWeekday": "08:00-22:00",
-        "availableTimeWeekend": "08:00-22:00",
-        "features": [
-          "中華路精華地段"
-        ],
-        "images": {
-          "main": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800",
-          "source": "https://www.taipeigarden.com.tw/",
-          "note": "官網無會議室照片，使用庫存照片"
-        }
+        "images": []
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -4092,13 +3917,13 @@
     "contactPhone": "02-2175-7999",
     "contactEmail": "events.taipei@marriott.com",
     "url": "https://www.taipeimarriott.com.tw/",
-    "priceHalfDay": "90000",
-    "priceFullDay": "160000",
-    "maxCapacityTheater": 600,
-    "maxCapacityClassroom": 320,
+    "priceHalfDay": 450000,
+    "priceFullDay": 850000,
+    "maxCapacityTheater": 1200,
+    "maxCapacityClassroom": 780,
     "availableTimeWeekday": "09:00-22:00",
     "availableTimeWeekend": "09:00-22:00",
-    "equipment": "頂級影音、同步翻譯、LED大螢幕",
+    "equipment": "同步翻譯、大型舞台、專業音響、戶外場地、投影設備、燈光、舞台、音響系統、頂級投影、麥克風",
     "images": {
       "main": "https://www.taipeimarriott.com.tw/files/page_176900685014vqao357_s.jpg",
       "gallery": [
@@ -4111,136 +3936,166 @@
     "verified": false,
     "rooms": [
       {
-        "id": "r001",
         "name": "萬豪廳 Grand Ballroom",
-        "area": 500,
-        "areaUnit": "坪",
-        "capacity": 1200,
-        "capacityType": "宴會式",
-        "images": {
-          "main": "https://www.taipeimarriott.com.tw/files/page_176900685014vqao357_s.jpg",
-          "source": "https://www.taipeimarriott.com.tw"
+        "capacity": {
+          "theater": 1200,
+          "classroom": 780,
+          "ushape": 480,
+          "roundtable": 900
         },
-        "floor": "5樓",
-        "features": [
-          "無柱設計",
-          "挑高設計",
-          "車輛可進場"
-        ]
+        "area": 420,
+        "price": {
+          "halfDay": 450000,
+          "fullDay": 850000
+        },
+        "equipment": [
+          "頂級投影",
+          "專業音響",
+          "大型舞台",
+          "燈光",
+          "同步翻譯"
+        ],
+        "images": []
       },
       {
-        "id": "r002",
         "name": "萬豪一廳 Grand Ballroom I",
-        "area": 250,
-        "areaUnit": "坪",
-        "capacity": 600,
-        "capacityType": "宴會式",
-        "images": {
-          "main": "https://www.taipeimarriott.com.tw/files/page_176900685014vqao357_s.jpg",
-          "source": "https://www.taipeimarriott.com.tw"
+        "capacity": {
+          "theater": 600,
+          "classroom": 390,
+          "ushape": 240,
+          "roundtable": 450
         },
-        "floor": "5樓"
+        "area": 210,
+        "price": {
+          "halfDay": 230000,
+          "fullDay": 430000
+        },
+        "equipment": [
+          "頂級投影",
+          "專業音響",
+          "舞台",
+          "燈光"
+        ],
+        "images": []
       },
       {
-        "id": "r003",
         "name": "Garden Villa",
-        "area": 200,
-        "areaUnit": "坪",
-        "capacity": 300,
-        "capacityType": "雞尾酒會",
-        "images": {
-          "main": "https://www.taipeimarriott.com.tw/files/page_176900685014vqao357_s.jpg",
-          "source": "https://www.taipeimarriott.com.tw"
+        "capacity": {
+          "theater": 300,
+          "classroom": 200,
+          "ushape": 130,
+          "roundtable": 180
         },
-        "floor": "8樓",
-        "features": [
-          "空中花園",
-          "歐式禮堂",
-          "戶外空間"
-        ]
+        "area": 110,
+        "price": {
+          "halfDay": 120000,
+          "fullDay": 230000
+        },
+        "equipment": [
+          "投影設備",
+          "專業音響",
+          "戶外場地"
+        ],
+        "images": []
       },
       {
-        "id": "r004",
         "name": "寰宇廳 Panorama Ballroom",
-        "area": 150,
-        "areaUnit": "坪",
-        "capacity": 200,
-        "capacityType": "宴會式",
-        "images": {
-          "main": "https://www.taipeimarriott.com.tw/files/page_176900685014vqao357_s.jpg",
-          "source": "https://www.taipeimarriott.com.tw"
+        "capacity": {
+          "theater": 200,
+          "classroom": 130,
+          "ushape": 90,
+          "roundtable": 120
         },
-        "floor": "36樓",
-        "features": [
-          "高空景觀",
-          "台北101視野"
-        ]
+        "area": 75,
+        "price": {
+          "halfDay": 80000,
+          "fullDay": 150000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "麥克風"
+        ],
+        "images": []
       },
       {
-        "id": "r005",
         "name": "福祿壽廳",
-        "area": 72,
-        "areaUnit": "坪",
-        "capacity": 100,
-        "capacityType": "宴會式",
-        "images": {
-          "main": "https://www.taipeimarriott.com.tw/files/page_176900685014vqao357_s.jpg",
-          "source": "https://www.taipeimarriott.com.tw"
+        "capacity": {
+          "theater": 100,
+          "classroom": 65,
+          "ushape": 43,
+          "roundtable": 50
         },
-        "floor": "5樓",
-        "features": [
-          "三廳可連通"
-        ]
+        "area": 38,
+        "price": {
+          "halfDay": 35000,
+          "fullDay": 65000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統"
+        ],
+        "images": []
       },
       {
-        "id": "r006",
         "name": "四季廳",
-        "area": 78,
-        "areaUnit": "坪",
-        "capacity": 120,
-        "capacityType": "宴會式",
-        "images": {
-          "main": "https://www.taipeimarriott.com.tw/files/page_176900685014vqao357_s.jpg",
-          "source": "https://www.taipeimarriott.com.tw"
+        "capacity": {
+          "theater": 120,
+          "classroom": 78,
+          "ushape": 52,
+          "roundtable": 60
         },
-        "floor": "3樓",
-        "features": [
-          "春夏秋冬四廳可合併"
-        ]
+        "area": 45,
+        "price": {
+          "halfDay": 40000,
+          "fullDay": 75000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統"
+        ],
+        "images": []
       },
       {
-        "id": "r007",
         "name": "宜華廳 Junior Ballroom",
-        "area": 100,
-        "areaUnit": "坪",
-        "capacity": 150,
-        "capacityType": "宴會式",
-        "images": {
-          "main": "https://www.taipeimarriott.com.tw/files/page_176900685014vqao357_s.jpg",
-          "source": "https://www.taipeimarriott.com.tw"
+        "capacity": {
+          "theater": 150,
+          "classroom": 98,
+          "ushape": 65,
+          "roundtable": 75
         },
-        "floor": "5樓",
-        "features": [
-          "挑高4米",
-          "雅致空間"
-        ]
+        "area": 55,
+        "price": {
+          "halfDay": 50000,
+          "fullDay": 95000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "麥克風"
+        ],
+        "images": []
       },
       {
-        "id": "r008",
         "name": "博覽廳 Grand Space",
-        "area": 400,
-        "areaUnit": "坪",
-        "capacity": 500,
-        "capacityType": "展覽式",
-        "images": {
-          "main": "https://www.taipeimarriott.com.tw/files/page_176900685014vqao357_s.jpg",
-          "source": "https://www.taipeimarriott.com.tw"
+        "capacity": {
+          "theater": 500,
+          "classroom": 325,
+          "ushape": 200,
+          "roundtable": 300
         },
-        "floor": "3樓",
-        "features": [
-          "挑高3.4米",
-          "展覽場館"
-        ]
+        "area": 180,
+        "price": {
+          "halfDay": 180000,
+          "fullDay": 340000
+        },
+        "equipment": [
+          "頂級投影",
+          "專業音響",
+          "舞台",
+          "燈光"
+        ],
+        "images": []
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -4255,13 +4110,13 @@
     "contactPhone": "02-27181188",
     "contactEmail": "banquet@sherwood.com.tw",
     "url": "https://www.sherwood.com.tw",
-    "priceHalfDay": 50000,
-    "priceFullDay": 85000,
-    "maxCapacityTheater": 380,
-    "maxCapacityClassroom": 210,
+    "priceHalfDay": 130000,
+    "priceFullDay": 240000,
+    "maxCapacityTheater": 350,
+    "maxCapacityClassroom": 200,
     "availableTimeWeekday": "08:00-22:00",
     "availableTimeWeekend": "08:00-22:00",
-    "equipment": "專業音響燈光、投影設備",
+    "equipment": "專業音響、燈光、舞台、頂級投影",
     "images": {
       "main": "https://www.sherwood.com.tw/tempasset/assets/img/bn-01_900x700.jpg",
       "gallery": [
@@ -4276,43 +4131,25 @@
     "verified": true,
     "rooms": [
       {
-        "id": "r001",
         "name": "宴會廳",
-        "floor": "B1",
-        "area": 200,
-        "areaUnit": "坪",
-        "ceiling": 4.0,
-        "hasWindow": false,
         "capacity": {
           "theater": 350,
           "classroom": 200,
           "ushape": 150,
           "roundtable": 180
         },
-        "pricing": {
-          "halfDay": 45000,
-          "fullDay": 80000,
-          "overtime": 10000
-        },
-        "images": {
-          "main": "https://www.sherwood.com.tw/tempasset/assets/img/bn-01_900x700.jpg",
-          "source": "https://www.sherwood.com.tw"
+        "area": 130,
+        "price": {
+          "halfDay": 130000,
+          "fullDay": 240000
         },
         "equipment": [
-          "投影設備",
+          "頂級投影",
           "專業音響",
-          "LED螢幕",
-          "燈光控制",
-          "WiFi",
-          "空調"
+          "舞台",
+          "燈光"
         ],
-        "availableTimeWeekday": "08:00-22:00",
-        "availableTimeWeekend": "08:00-22:00",
-        "notes": "民生東路指標性飯店",
-        "features": [
-          "挑高設計",
-          "專業舞台"
-        ]
+        "images": []
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -4573,13 +4410,13 @@
     "contactPhone": "02-2772-2121",
     "contactEmail": "events@sanwant.com",
     "url": "https://www.sanwant.com",
-    "priceHalfDay": "40000",
-    "priceFullDay": "75000",
-    "maxCapacityTheater": 350,
-    "maxCapacityClassroom": 180,
+    "priceHalfDay": 85000,
+    "priceFullDay": 160000,
+    "maxCapacityTheater": 240,
+    "maxCapacityClassroom": 140,
     "availableTimeWeekday": "09:00-22:00",
     "availableTimeWeekend": "09:00-22:00",
-    "equipment": "專業影音設備、燈光系統",
+    "equipment": "專業音響、投影設備、麥克風",
     "images": {
       "main": "https://www.sanwant.com/Traditional/images/about/sider_img.jpg",
       "gallery": [
@@ -4594,40 +4431,24 @@
     "verified": false,
     "rooms": [
       {
-        "id": "r001",
         "name": "宴會廳",
-        "floor": "B1",
-        "area": 140,
-        "areaUnit": "坪",
-        "ceiling": 3.0,
-        "hasWindow": false,
         "capacity": {
           "theater": 240,
           "classroom": 140,
           "ushape": 84,
           "roundtable": 112
         },
-        "pricing": {
-          "halfDay": 35000,
-          "fullDay": 65000,
-          "overtime": 5000
+        "area": 85,
+        "price": {
+          "halfDay": 85000,
+          "fullDay": 160000
         },
         "equipment": [
           "投影設備",
-          "音響系統",
-          "WiFi",
-          "空調"
+          "專業音響",
+          "麥克風"
         ],
-        "availableTimeWeekday": "08:00-22:00",
-        "availableTimeWeekend": "08:00-22:00",
-        "features": [
-          "忠孝東路"
-        ],
-        "images": {
-          "main": "https://images.unsplash.com/photo-1517502884422-41eaead166d4?w=800",
-          "source": "https://www.sanwant.com",
-          "note": "官網無會議室照片，使用庫存照片"
-        }
+        "images": []
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -4642,13 +4463,13 @@
     "contactPhone": "02-2523-2828",
     "contactEmail": "events@victoria.com.tw",
     "url": "https://www.grandvictoria.com.tw/",
-    "priceHalfDay": "45000",
-    "priceFullDay": "85000",
-    "maxCapacityTheater": 350,
-    "maxCapacityClassroom": 180,
+    "priceHalfDay": 90000,
+    "priceFullDay": 170000,
+    "maxCapacityTheater": 260,
+    "maxCapacityClassroom": 150,
     "availableTimeWeekday": "09:00-22:00",
     "availableTimeWeekend": "09:00-22:00",
-    "equipment": "專業影音設備、燈光系統",
+    "equipment": "專業音響、投影設備、舞台",
     "images": {
       "main": "https://grandvictoria.com.tw/wp-content/uploads/sites/237/2022/05/官網-首圖2.jpg",
       "gallery": [],
@@ -4660,41 +4481,24 @@
     "verified": false,
     "rooms": [
       {
-        "id": "r001",
         "name": "宴會廳",
-        "floor": "1F",
-        "area": 150,
-        "areaUnit": "坪",
-        "ceiling": 3.0,
-        "hasWindow": true,
         "capacity": {
           "theater": 260,
           "classroom": 150,
           "ushape": 90,
           "roundtable": 120
         },
-        "pricing": {
-          "halfDay": 40000,
-          "fullDay": 75000,
-          "overtime": 5000
+        "area": 95,
+        "price": {
+          "halfDay": 90000,
+          "fullDay": 170000
         },
         "equipment": [
           "投影設備",
-          "音響系統",
-          "WiFi",
-          "空調"
+          "專業音響",
+          "舞台"
         ],
-        "availableTimeWeekday": "08:00-22:00",
-        "availableTimeWeekend": "08:00-22:00",
-        "features": [
-          "北安路",
-          "大直地區"
-        ],
-        "images": {
-          "main": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800",
-          "source": "https://www.grandvictoria.com.tw/",
-          "note": "官網無會議室照片，使用庫存照片"
-        }
+        "images": []
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -4709,13 +4513,13 @@
     "contactPhone": "02-2314-6611",
     "contactEmail": "events@gardenhotel.com.tw",
     "url": "https://www.taipeigarden.com.tw",
-    "priceHalfDay": "50000",
-    "priceFullDay": "90000",
-    "maxCapacityTheater": 400,
-    "maxCapacityClassroom": 200,
+    "priceHalfDay": 75000,
+    "priceFullDay": 140000,
+    "maxCapacityTheater": 220,
+    "maxCapacityClassroom": 130,
     "availableTimeWeekday": "09:00-22:00",
     "availableTimeWeekend": "09:00-22:00",
-    "equipment": "專業影音設備、燈光系統",
+    "equipment": "投影設備、音響系統、麥克風",
     "images": {
       "main": "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/03/10636247_10152352649698616_2574451134329955712_n-removebg-preview-1.png",
       "gallery": [
@@ -4731,40 +4535,24 @@
     "verified": false,
     "rooms": [
       {
-        "id": "r001",
         "name": "宴會廳",
-        "floor": "B1",
-        "area": 130,
-        "areaUnit": "坪",
-        "ceiling": 3.0,
-        "hasWindow": false,
         "capacity": {
           "theater": 220,
           "classroom": 130,
           "ushape": 78,
           "roundtable": 104
         },
-        "pricing": {
-          "halfDay": 40000,
-          "fullDay": 75000,
-          "overtime": 5000
+        "area": 80,
+        "price": {
+          "halfDay": 75000,
+          "fullDay": 140000
         },
         "equipment": [
           "投影設備",
           "音響系統",
-          "WiFi",
-          "空調"
+          "麥克風"
         ],
-        "availableTimeWeekday": "08:00-22:00",
-        "availableTimeWeekend": "08:00-22:00",
-        "features": [
-          "中正區"
-        ],
-        "images": {
-          "main": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800",
-          "source": "https://www.taipeigarden.com.tw",
-          "note": "官網無會議室照片，使用庫存照片"
-        }
+        "images": []
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -4832,13 +4620,13 @@
     "contactPhone": "02-2311-3131",
     "contactEmail": "events@grandview.com.tw",
     "url": "https://www.riverview.com.tw/",
-    "priceHalfDay": "35000",
-    "priceFullDay": "65000",
-    "maxCapacityTheater": 300,
-    "maxCapacityClassroom": 160,
+    "priceHalfDay": 60000,
+    "priceFullDay": 110000,
+    "maxCapacityTheater": 180,
+    "maxCapacityClassroom": 110,
     "availableTimeWeekday": "09:00-22:00",
     "availableTimeWeekend": "09:00-22:00",
-    "equipment": "投影設備、音響系統",
+    "equipment": "投影設備、音響系統、麥克風",
     "images": {
       "main": "https://www.riverview.com.tw/wp-content/uploads/2025/12/DSC_0580-1.jpg",
       "gallery": [
@@ -4863,41 +4651,24 @@
     "verified": false,
     "rooms": [
       {
-        "id": "r001",
         "name": "宴會廳",
-        "floor": "2F",
-        "area": 110,
-        "areaUnit": "坪",
-        "ceiling": 3.0,
-        "hasWindow": true,
         "capacity": {
           "theater": 180,
           "classroom": 110,
           "ushape": 66,
           "roundtable": 88
         },
-        "pricing": {
-          "halfDay": 30000,
-          "fullDay": 55000,
-          "overtime": 5000
+        "area": 65,
+        "price": {
+          "halfDay": 60000,
+          "fullDay": 110000
         },
         "equipment": [
           "投影設備",
           "音響系統",
-          "WiFi",
-          "空調"
+          "麥克風"
         ],
-        "availableTimeWeekday": "08:00-22:00",
-        "availableTimeWeekend": "08:00-22:00",
-        "features": [
-          "中華路",
-          "西門町"
-        ],
-        "images": {
-          "main": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=800",
-          "source": "https://www.riverview.com.tw/",
-          "note": "官網無會議室照片，使用庫存照片"
-        }
+        "images": []
       }
     ],
     "lastUpdated": "2026-03-17"

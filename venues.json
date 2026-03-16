@@ -2040,7 +2040,7 @@
   },
   {
     "id": 1077,
-    "name": "台北寒舍艾麗酒店(HummerHouse)",
+    "name": "台北艾麗酒店",
     "venueType": "飯店場地",
     "city": "台北市",
     "address": "台北市信義區松高路18號B棟",
@@ -2055,6 +2055,66 @@
     "availableTimeWeekday": "09:00-22:00",
     "availableTimeWeekend": "09:00-22:00",
     "equipment": "頂級影音設備、LED牆、燈光系統",
+    "rooms": [
+      {
+        "name": "宴會廳全廳",
+        "area": 212,
+        "areaUnit": "坪",
+        "areaSqm": 700,
+        "capacity": 480,
+        "description": "可分成 5 個獨立會議室",
+        "source": "https://www.humblehousehotels.com/zh-tw/websev?cat=page&id=122"
+      },
+      {
+        "name": "蘭",
+        "area": 67,
+        "areaUnit": "坪",
+        "areaSqm": 221,
+        "capacity": 150,
+        "description": "宴會廳分廳"
+      },
+      {
+        "name": "葵",
+        "area": 70,
+        "areaUnit": "坪",
+        "areaSqm": 231,
+        "capacity": 160,
+        "description": "宴會廳分廳"
+      },
+      {
+        "name": "楓",
+        "area": 49,
+        "areaUnit": "坪",
+        "areaSqm": 162,
+        "capacity": 110,
+        "description": "宴會廳分廳"
+      },
+      {
+        "name": "柏",
+        "area": 25,
+        "areaUnit": "坪",
+        "areaSqm": 83,
+        "capacity": 60,
+        "description": "宴會廳分廳"
+      },
+      {
+        "name": "槿",
+        "area": 21,
+        "areaUnit": "坪",
+        "areaSqm": 69,
+        "capacity": 50,
+        "description": "宴會廳分廳"
+      },
+      {
+        "name": "空中花園",
+        "area": null,
+        "areaUnit": "坪",
+        "areaSqm": null,
+        "capacity": null,
+        "description": "戶外場地",
+        "source": "https://www.humblehousehotels.com/zh-tw/websev?cat=page&id=110"
+      }
+    ],
     "images": {
       "main": "https://www.humblehousehotels.com/files/page_161581908711j4rck.jpg",
       "gallery": [
@@ -2062,11 +2122,12 @@
         "https://www.humblehousehotels.com/files/other_1458636099w3hlvo.jpg",
         "https://www.humblehousehotels.com/files/other_1464597948w7xb83.jpg"
       ],
-      "source": "https://www.humblehousehotels.com/en/websev?cat=page&id=7",
+      "floorPlan": "https://www.humblehousehotels.com/files/page_1409758643v0w2d3.jpg",
+      "source": "https://www.humblehousehotels.com/zh-tw/websev?cat=page&id=122",
       "verified": true,
-      "verifiedAt": "2026-03-02T16:20:21.244Z"
+      "verifiedAt": "2026-03-15T19:30:00.000Z"
     },
-    "verified": false
+    "verified": true
   },
   {
     "id": 1080,

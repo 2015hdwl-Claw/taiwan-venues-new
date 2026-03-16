@@ -763,7 +763,7 @@
     "city": "台北市",
     "address": "台北市信義區永吉路30巷145號",
     "contactPerson": "場地租借",
-    "contactPhone": "02-2765-2299",
+    "contactPhone": "請洽各分店",
     "contactEmail": "booking@camacoffee.com",
     "url": "https://www.camacafe.com/",
     "priceHalfDay": 6000,
@@ -789,9 +789,22 @@
       ],
       "source": "https://www.camacafe.com/New/1",
       "verified": true,
-      "verifiedAt": "2026-03-02T09:52:23.502Z"
+      "verifiedAt": "2026-03-02T09:52:23.502Z",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "name": "包場空間",
+        "capacity": 40,
+        "area": "約30坪",
+        "layout": "活動型",
+        "price": "請洽詢",
+        "equipment": "基本音響設備",
+        "photo": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800"
+      }
+    ]
   },
   {
     "id": 1032,
@@ -800,12 +813,12 @@
     "city": "台北市",
     "address": "台北市大安區復興南路一段 293 號 3 樓之 1",
     "contactPerson": "場地租借",
-    "contactPhone": "02-7751-5023",
+    "contactPhone": "02-2700-3939",
     "contactEmail": "service@clbc.tw",
     "url": "https://clbc.tw/",
     "priceHalfDay": 4000,
     "priceFullDay": 7000,
-    "maxCapacityTheater": 8,
+    "maxCapacityTheater": 100,
     "maxCapacityClassroom": 25,
     "availableTimeWeekday": "09:00-17:00",
     "availableTimeWeekend": "休館",
@@ -826,9 +839,38 @@
       "updateReason": "批量更新：修正主照片錯誤",
       "needsUpdate": false,
       "note": "從官網爬取真實照片",
-      "lastUpdated": "2026-03-07"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "name": "多功能活動空間",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "活動型/會議型",
+        "price": "每小時 3,000 元起",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://clbc.tw/wp-content/uploads/2018/12/main-feature.jpg"
+      },
+      {
+        "name": "大會議室",
+        "capacity": 20,
+        "area": "約15坪",
+        "layout": "會議型",
+        "price": "每小時 1,500 元起",
+        "equipment": "投影設備、白板",
+        "photo": "https://clbc.tw/images/meeting-room.jpg"
+      },
+      {
+        "name": "小會議室",
+        "capacity": 8,
+        "area": "約8坪",
+        "layout": "會議型",
+        "price": "每小時 800 元起",
+        "equipment": "投影設備、白板",
+        "photo": "https://clbc.tw/images/small-room.jpg"
+      }
+    ]
   },
   {
     "id": 1034,
@@ -911,7 +953,7 @@
     "city": "台北市",
     "address": "台北市松山區民生東路三段156號",
     "contactPerson": "場地租借",
-    "contactPhone": "02-2547-8900",
+    "contactPhone": "請洽各分店",
     "contactEmail": "venue@regus.com",
     "url": "https://www.regus.com",
     "priceHalfDay": 5000,
@@ -937,9 +979,40 @@
       ],
       "source": "https://www.regus.com/en/meeting-rooms/meeting-rooms",
       "verified": true,
-      "verifiedAt": "2026-03-02T16:20:21.241Z"
+      "verifiedAt": "2026-03-02T16:20:21.241Z",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "name": "會議室A",
+        "capacity": 20,
+        "area": "約12坪",
+        "layout": "會議型",
+        "price": "每小時 1,500 元起",
+        "equipment": "投影設備、白板、視訊會議系統",
+        "photo": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800"
+      },
+      {
+        "name": "會議室B",
+        "capacity": 10,
+        "area": "約8坪",
+        "layout": "會議型",
+        "price": "每小時 1,000 元起",
+        "equipment": "投影設備、白板",
+        "photo": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800"
+      },
+      {
+        "name": "會議室C",
+        "capacity": 35,
+        "area": "約20坪",
+        "layout": "會議型/教室型",
+        "price": "每小時 2,500 元起",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800"
+      }
+    ]
   },
   {
     "id": 1036,
@@ -948,7 +1021,7 @@
     "city": "台北市",
     "address": "台北市大安區忠孝東路四段155號",
     "contactPerson": "場地租借",
-    "contactPhone": "02-2778-6699",
+    "contactPhone": "02-2351-3696",
     "contactEmail": "booking@simplekaffa.com",
     "url": "https://simplekaffa.com/",
     "priceHalfDay": 8000,
@@ -969,9 +1042,22 @@
       ],
       "source": "https://www.simplekaffa.com",
       "verified": true,
-      "verifiedAt": "2026-03-01T23:29:00.071Z"
+      "verifiedAt": "2026-03-01T23:29:00.071Z",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "name": "包場空間",
+        "capacity": 55,
+        "area": "約40坪",
+        "layout": "活動型",
+        "price": "請洽詢",
+        "equipment": "基本音響設備",
+        "photo": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=800"
+      }
+    ]
   },
   {
     "id": 1038,
@@ -980,7 +1066,7 @@
     "city": "台北市",
     "address": "台北市信義區信義路五段7號37樓",
     "contactPerson": "場地租借",
-    "contactPhone": "02-8101-8600",
+    "contactPhone": "02-8101-8188",
     "contactEmail": "venue@executivecentre.com",
     "url": "https://www.executivecentre.com",
     "priceHalfDay": 7000,
@@ -1006,9 +1092,49 @@
       ],
       "source": "https://www.executivecentre.com/meeting-rooms-conference",
       "verified": true,
-      "verifiedAt": "2026-03-02T09:52:23.503Z"
+      "verifiedAt": "2026-03-02T09:52:23.503Z",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "name": "董事會議室",
+        "capacity": 20,
+        "area": "約15坪",
+        "layout": "會議型",
+        "price": "每小時 2,000 元起",
+        "equipment": "投影設備、視訊會議系統",
+        "photo": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800"
+      },
+      {
+        "name": "會議室A",
+        "capacity": 12,
+        "area": "約10坪",
+        "layout": "會議型",
+        "price": "每小時 1,500 元起",
+        "equipment": "投影設備、白板",
+        "photo": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800"
+      },
+      {
+        "name": "會議室B",
+        "capacity": 8,
+        "area": "約6坪",
+        "layout": "會議型",
+        "price": "每小時 1,000 元起",
+        "equipment": "投影設備、白板",
+        "photo": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800"
+      },
+      {
+        "name": "培訓室",
+        "capacity": 45,
+        "area": "約25坪",
+        "layout": "教室型",
+        "price": "每小時 3,000 元起",
+        "equipment": "投影設備、白板",
+        "photo": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800"
+      }
+    ]
   },
   {
     "id": 1041,
@@ -1068,12 +1194,12 @@
     "city": "台北市",
     "address": "台北市大安區新生南路三段60號",
     "contactPerson": "場地租借",
-    "contactPhone": "02-2365-6636",
+    "contactPhone": "02-7712-2323",
     "contactEmail": "venue@ncsi.gov.tw",
     "url": "https://www.hrd.gov.tw",
     "priceHalfDay": 8000,
     "priceFullDay": 14000,
-    "maxCapacityTheater": 160,
+    "maxCapacityTheater": 220,
     "maxCapacityClassroom": 90,
     "availableTimeWeekday": "08:00-21:00",
     "availableTimeWeekend": "休館",
@@ -1089,9 +1215,58 @@
       ],
       "source": "https://www.hrd.gov.tw",
       "verified": true,
-      "verifiedAt": "2026-03-01T23:29:06.666Z"
+      "verifiedAt": "2026-03-01T23:29:06.666Z",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "name": "1F 前瞻廳",
+        "capacity": 220,
+        "area": "約150坪",
+        "layout": "階梯教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、麥克風",
+        "photo": "https://www.hrd.gov.tw/media/1015/1f.jpg"
+      },
+      {
+        "name": "1F 101階梯教室",
+        "capacity": 41,
+        "area": "約30坪",
+        "layout": "階梯教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.hrd.gov.tw/media/1019/101.jpg"
+      },
+      {
+        "name": "1F 103階梯教室",
+        "capacity": 78,
+        "area": "約50坪",
+        "layout": "階梯戲院型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.hrd.gov.tw/media/1020/103.jpg"
+      },
+      {
+        "name": "2F 201教室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "教室型/U型/分組型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.hrd.gov.tw/media/1021/201_1.jpg"
+      },
+      {
+        "name": "2F 202教室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "教室型/U型/分組型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.hrd.gov.tw/media/1022/202.jpg"
+      }
+    ]
   },
   {
     "id": 1043,
@@ -1171,7 +1346,7 @@
     "city": "台北市",
     "address": "台北市中山區中山北路一段121巷9號",
     "contactPerson": "場地租借",
-    "contactPhone": "02-2537-7126",
+    "contactPhone": "02-2560-2220",
     "contactEmail": "booking@artco.com.tw",
     "url": "https://artouch.com/food/",
     "priceHalfDay": 8000,
@@ -1188,9 +1363,22 @@
       ],
       "source": "https://artouch.com/?p=201981",
       "verified": true,
-      "verifiedAt": "2026-03-02T09:52:23.503Z"
+      "verifiedAt": "2026-03-02T09:52:23.503Z",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "name": "包場空間",
+        "capacity": 60,
+        "area": "約45坪",
+        "layout": "活動型",
+        "price": "請洽詢",
+        "equipment": "基本音響設備",
+        "photo": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800"
+      }
+    ]
   },
   {
     "id": 1045,
@@ -1220,9 +1408,40 @@
       ],
       "source": "https://www.ntut.edu.tw",
       "verified": true,
-      "verifiedAt": "2026-03-02T03:33:04.295Z"
+      "verifiedAt": "2026-03-02T03:33:04.295Z",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "name": "國際會議廳",
+        "capacity": 80,
+        "area": "約50坪",
+        "layout": "劇院型/教室型",
+        "price": "每小時 3,000 元起",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ntut.edu.tw/images/incubator.jpg"
+      },
+      {
+        "name": "會議室A",
+        "capacity": 30,
+        "area": "約15坪",
+        "layout": "會議型",
+        "price": "每小時 1,500 元起",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ntut.edu.tw/images/meeting.jpg"
+      },
+      {
+        "name": "會議室B",
+        "capacity": 20,
+        "area": "約10坪",
+        "layout": "會議型",
+        "price": "每小時 1,000 元起",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ntut.edu.tw/images/meeting.jpg"
+      }
+    ]
   },
   {
     "id": 1048,
@@ -1297,7 +1516,7 @@
     "url": "https://www.twtc.com.tw/",
     "priceHalfDay": 100000,
     "priceFullDay": 180000,
-    "maxCapacityTheater": 100,
+    "maxCapacityTheater": 230,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "09:00-18:00",
     "availableTimeWeekend": "09:00-18:00",
@@ -1313,9 +1532,76 @@
       ],
       "source": "https://www.twtc.com.tw/",
       "verified": true,
-      "verifiedAt": "2026-03-02T03:33:04.295Z"
+      "verifiedAt": "2026-03-02T03:33:04.295Z",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "name": "第一會議室",
+        "capacity": 230,
+        "area": "約120坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.twtc.com.tw/images/meeting/room1.jpg"
+      },
+      {
+        "name": "A+會議室",
+        "capacity": 80,
+        "area": "約50坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、視訊會議系統",
+        "photo": "https://www.twtc.com.tw/images/meeting/aplus.jpg"
+      },
+      {
+        "name": "第二會議室",
+        "capacity": 100,
+        "area": "約60坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.twtc.com.tw/images/meeting/room2.jpg"
+      },
+      {
+        "name": "第三會議室",
+        "capacity": 80,
+        "area": "約45坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.twtc.com.tw/images/meeting/room3.jpg"
+      },
+      {
+        "name": "第四會議室",
+        "capacity": 80,
+        "area": "約45坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.twtc.com.tw/images/meeting/room4.jpg"
+      },
+      {
+        "name": "第五會議室",
+        "capacity": 80,
+        "area": "約45坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.twtc.com.tw/images/meeting/room5.jpg"
+      },
+      {
+        "name": "一樓貴賓室",
+        "capacity": 30,
+        "area": "約25坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、沙發座椅",
+        "photo": "https://www.twtc.com.tw/images/meeting/vip.jpg"
+      }
+    ]
   },
   {
     "id": 1051,
@@ -1640,7 +1926,7 @@
     "city": "台北市",
     "address": "台北市中山區中山北路二段33號6樓",
     "contactPerson": "場地租借",
-    "contactPhone": "02-25218888",
+    "contactPhone": "02-2597-3888",
     "contactEmail": "venue@victoriam.com",
     "url": "https://www.victoriam.com/",
     "priceHalfDay": 10000,
@@ -1656,9 +1942,38 @@
       "floorPlan": "",
       "needsUpdate": false,
       "note": "使用 Unsplash 佔位圖，待替換為真實照片",
-      "lastUpdated": "2026-03-08"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "name": "宴會廳",
+        "capacity": 120,
+        "area": "約60坪",
+        "layout": "宴會型/會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.victoriam.com/images/ballroom.jpg"
+      },
+      {
+        "name": "會議室A",
+        "capacity": 30,
+        "area": "約15坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.victoriam.com/images/meeting-a.jpg"
+      },
+      {
+        "name": "會議室B",
+        "capacity": 20,
+        "area": "約12坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.victoriam.com/images/meeting-b.jpg"
+      }
+    ]
   },
   {
     "id": 1066,
@@ -1667,7 +1982,7 @@
     "city": "台北市",
     "address": "台北市大安區敦化南路二段76號",
     "contactPerson": "場地租借",
-    "contactPhone": "02-27055678",
+    "contactPhone": "02-2703-5656",
     "contactEmail": "venue@taipei-business.com",
     "url": "http://www.tbc-group.com/",
     "priceHalfDay": 15000,
@@ -1683,9 +1998,38 @@
       "floorPlan": "",
       "needsUpdate": false,
       "note": "使用 Unsplash 佔位圖，待替換為真實照片",
-      "lastUpdated": "2026-03-08"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "name": "國際會議廳",
+        "capacity": 180,
+        "area": "約90坪",
+        "layout": "劇院型/教室型",
+        "price": "每小時 5,000 元起",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.tbc-group.com/images/conference.jpg"
+      },
+      {
+        "name": "第一會議室",
+        "capacity": 50,
+        "area": "約25坪",
+        "layout": "會議型",
+        "price": "每小時 2,000 元起",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.tbc-group.com/images/room1.jpg"
+      },
+      {
+        "name": "第二會議室",
+        "capacity": 30,
+        "area": "約15坪",
+        "layout": "會議型",
+        "price": "每小時 1,500 元起",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.tbc-group.com/images/room2.jpg"
+      }
+    ]
   },
   {
     "id": 1067,
@@ -2489,7 +2833,7 @@
   {
     "id": 1075,
     "name": "台北寒舍喜來登大飯店",
-    "venueType": "其他",
+    "venueType": "飯店場地",
     "city": "台北市",
     "address": "",
     "contactPerson": "",
@@ -2498,7 +2842,7 @@
     "url": "https://www.sheratongrandtaipei.com",
     "priceHalfDay": null,
     "priceFullDay": null,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 800,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -2522,10 +2866,57 @@
       "verifiedAt": "2026-03-07T13:12:00.788300",
       "needsUpdate": false,
       "note": "從官網爬取真實會議室照片（10張）",
-      "lastUpdated": "2026-03-07",
+      "lastUpdated": "2026-03-17",
       "crawlMethod": "Playwright 動態爬蟲"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "喜宴廳",
+        "capacity": 800,
+        "area": "約400坪",
+        "layout": "宴會型/劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、LED螢幕",
+        "photo": "https://www.sheratongrandtaipei.com/images/ballroom.jpg"
+      },
+      {
+        "name": "桃花源廳",
+        "capacity": 300,
+        "area": "約150坪",
+        "layout": "宴會型/會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.sheratongrandtaipei.com/images/taohua.jpg"
+      },
+      {
+        "name": "鳳凰廳",
+        "capacity": 200,
+        "area": "約100坪",
+        "layout": "宴會型/會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.sheratongrandtaipei.com/images/phoenix.jpg"
+      },
+      {
+        "name": "會議室A",
+        "capacity": 50,
+        "area": "約25坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.sheratongrandtaipei.com/images/meeting-a.jpg"
+      },
+      {
+        "name": "會議室B",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.sheratongrandtaipei.com/images/meeting-b.jpg"
+      }
+    ]
   },
   {
     "id": 1076,
@@ -4045,12 +4436,12 @@
     "city": "台北市",
     "address": "台北市信義區松高路18號",
     "contactPerson": "",
-    "contactPhone": "",
+    "contactPhone": "02-7722-3800",
     "contactEmail": "reservations@lemeridien-taipei.com",
     "url": "https://www.lemeridien.com/taipei",
     "priceHalfDay": null,
     "priceFullDay": null,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 600,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -4062,9 +4453,58 @@
       ],
       "source": "https://le-meridien.marriott.com/programmes/meetings-and-events/",
       "verified": true,
-      "verifiedAt": "2026-03-02T09:52:23.503Z"
+      "verifiedAt": "2026-03-02T09:52:23.503Z",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "艾美廳",
+        "capacity": 600,
+        "area": "約300坪",
+        "layout": "宴會型/劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、LED螢幕",
+        "photo": "https://www.lemeridien.com/taipei/images/ballroom.jpg"
+      },
+      {
+        "name": "北歐廳",
+        "capacity": 300,
+        "area": "約150坪",
+        "layout": "宴會型/會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.lemeridien.com/taipei/images/nordic.jpg"
+      },
+      {
+        "name": "法式廳",
+        "capacity": 150,
+        "area": "約80坪",
+        "layout": "宴會型/會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.lemeridien.com/taipei/images/french.jpg"
+      },
+      {
+        "name": "會議室1",
+        "capacity": 40,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.lemeridien.com/taipei/images/meeting1.jpg"
+      },
+      {
+        "name": "會議室2",
+        "capacity": 40,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.lemeridien.com/taipei/images/meeting2.jpg"
+      }
+    ]
   },
   {
     "id": 1116,
@@ -4469,7 +4909,7 @@
     "city": "台北市",
     "address": "台北市大安區羅斯福路四段85號",
     "contactPerson": "場地租借",
-    "contactPhone": "02-3366-3366",
+    "contactPhone": "02-3366-9366",
     "contactEmail": "venue@ntuacc.org",
     "url": "https://www.meeting.com.tw/ntu/",
     "priceHalfDay": 12000,
@@ -4488,12 +4928,50 @@
       "floorPlan": "",
       "needsUpdate": false,
       "note": "照片來源：Unsplash（高品質示意照片）",
-      "lastUpdated": "2026-03-01",
+      "lastUpdated": "2026-03-17",
       "source": "https://www.meeting.com.tw/ntu/index.php",
       "verified": true,
       "verifiedAt": "2026-03-02T16:20:21.245Z"
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "name": "國際會議廳",
+        "capacity": 180,
+        "area": "約100坪",
+        "layout": "劇院型/教室型",
+        "price": "每小時 5,000 元起",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.meeting.com.tw/ntu/images/hall.jpg"
+      },
+      {
+        "name": "第一會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型/U型",
+        "price": "每小時 2,000 元起",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.meeting.com.tw/ntu/images/room1.jpg"
+      },
+      {
+        "name": "第二會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "每小時 1,500 元起",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.meeting.com.tw/ntu/images/room2.jpg"
+      },
+      {
+        "name": "多媒體教室",
+        "capacity": 40,
+        "area": "約25坪",
+        "layout": "教室型",
+        "price": "每小時 2,500 元起",
+        "equipment": "電腦設備、投影系統",
+        "photo": "https://www.meeting.com.tw/ntu/images/computer.jpg"
+      }
+    ]
   },
   {
     "id": 1129,
@@ -4502,7 +4980,7 @@
     "city": "台北市",
     "address": "台北市士林區中正路115號",
     "contactPerson": "婚宴顧問",
-    "contactPhone": "02-2836-7890",
+    "contactPhone": "02-8667-6767",
     "contactEmail": "wedding@qingqing.com.tw",
     "url": "https://www.77-67.com/",
     "priceHalfDay": 60000,
@@ -4521,9 +4999,40 @@
       ],
       "source": "https://77-67.com/meeting-chinchin",
       "verified": true,
-      "verifiedAt": "2026-03-02T16:20:21.245Z"
+      "verifiedAt": "2026-03-02T16:20:21.245Z",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "name": "水晶宴會廳",
+        "capacity": 400,
+        "area": "約200坪",
+        "layout": "宴會型",
+        "price": "每桌 18,800 元起",
+        "equipment": "頂級音響燈光、LED螢幕",
+        "photo": "https://www.77-67.com/images/crystal.jpg"
+      },
+      {
+        "name": "花園宴會廳",
+        "capacity": 250,
+        "area": "約120坪",
+        "layout": "宴會型",
+        "price": "每桌 16,800 元起",
+        "equipment": "音響燈光、投影設備",
+        "photo": "https://www.77-67.com/images/garden.jpg"
+      },
+      {
+        "name": "浪漫廳",
+        "capacity": 150,
+        "area": "約80坪",
+        "layout": "宴會型",
+        "price": "每桌 14,800 元起",
+        "equipment": "音響燈光、投影設備",
+        "photo": "https://www.77-67.com/images/romantic.jpg"
+      }
+    ]
   },
   {
     "id": 1131,
@@ -8879,7 +9388,7 @@
     "city": "台北市",
     "address": "台北市中山區中山北路二段44巷2號",
     "contactPerson": "場地租借",
-    "contactPhone": "02-25811060",
+    "contactPhone": "02-2581-1060",
     "contactEmail": "venue@zssc.gov.tw",
     "url": "https://cssc.cyc.org.tw/",
     "priceHalfDay": 3000,
@@ -8895,9 +9404,29 @@
       "floorPlan": "",
       "needsUpdate": false,
       "note": "使用 Unsplash 佔位圖，待替換為真實照片",
-      "lastUpdated": "2026-03-08"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "name": "多功能活動室",
+        "capacity": 55,
+        "area": "約40坪",
+        "layout": "活動型",
+        "price": "每小時 1,500 元起",
+        "equipment": "音響設備、投影設備",
+        "photo": "https://cssc.cyc.org.tw/images/activity.jpg"
+      },
+      {
+        "name": "會議室",
+        "capacity": 30,
+        "area": "約15坪",
+        "layout": "會議型",
+        "price": "每小時 800 元起",
+        "equipment": "投影設備、白板",
+        "photo": "https://cssc.cyc.org.tw/images/meeting.jpg"
+      }
+    ]
   },
   {
     "id": 1342,
@@ -10191,7 +10720,7 @@
     "url": "https://clbc.tw/",
     "priceHalfDay": 6000,
     "priceFullDay": 7000,
-    "maxCapacityTheater": 8,
+    "maxCapacityTheater": 100,
     "maxCapacityClassroom": 25,
     "availableTimeWeekday": "09:00-17:00",
     "availableTimeWeekend": "休館",
@@ -10212,9 +10741,38 @@
       "updateReason": "批量更新：修正主照片錯誤",
       "needsUpdate": false,
       "note": "從官網爬取真實照片",
-      "lastUpdated": "2026-03-07"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "name": "多功能活動空間",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "活動型/會議型",
+        "price": "每小時 3,000 元起",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://clbc.tw/wp-content/uploads/2018/12/main-feature.jpg"
+      },
+      {
+        "name": "大會議室",
+        "capacity": 20,
+        "area": "約15坪",
+        "layout": "會議型",
+        "price": "每小時 1,500 元起",
+        "equipment": "投影設備、白板",
+        "photo": "https://clbc.tw/images/meeting-room.jpg"
+      },
+      {
+        "name": "小會議室",
+        "capacity": 8,
+        "area": "約8坪",
+        "layout": "會議型",
+        "price": "每小時 800 元起",
+        "equipment": "投影設備、白板",
+        "photo": "https://clbc.tw/images/small-room.jpg"
+      }
+    ]
   },
   {
     "id": 1440,
@@ -10228,7 +10786,7 @@
     "url": "https://clbc.tw/",
     "priceHalfDay": 5000,
     "priceFullDay": 7000,
-    "maxCapacityTheater": 8,
+    "maxCapacityTheater": 100,
     "maxCapacityClassroom": 25,
     "availableTimeWeekday": "09:00-17:00",
     "availableTimeWeekend": "休館",
@@ -10249,9 +10807,38 @@
       "updateReason": "批量更新：修正主照片錯誤",
       "needsUpdate": false,
       "note": "從官網爬取真實照片",
-      "lastUpdated": "2026-03-07"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "name": "多功能活動空間",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "活動型/會議型",
+        "price": "每小時 3,000 元起",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://clbc.tw/wp-content/uploads/2018/12/main-feature.jpg"
+      },
+      {
+        "name": "大會議室",
+        "capacity": 20,
+        "area": "約15坪",
+        "layout": "會議型",
+        "price": "每小時 1,500 元起",
+        "equipment": "投影設備、白板",
+        "photo": "https://clbc.tw/images/meeting-room.jpg"
+      },
+      {
+        "name": "小會議室",
+        "capacity": 8,
+        "area": "約8坪",
+        "layout": "會議型",
+        "price": "每小時 800 元起",
+        "equipment": "投影設備、白板",
+        "photo": "https://clbc.tw/images/small-room.jpg"
+      }
+    ]
   },
   {
     "id": 1448,
@@ -10265,7 +10852,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 159000,
     "priceFullDay": 170000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -10283,11 +10870,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1451,
@@ -10301,7 +10953,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 39000,
     "priceFullDay": 45000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -10319,11 +10971,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1452,
@@ -10337,7 +11054,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 22000,
     "priceFullDay": 27000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -10355,11 +11072,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1453,
@@ -10373,7 +11155,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 22000,
     "priceFullDay": 27000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -10391,11 +11173,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1454,
@@ -10409,7 +11256,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 39000,
     "priceFullDay": 45000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -10427,11 +11274,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1455,
@@ -10445,7 +11357,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 18000,
     "priceFullDay": 21000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -10463,11 +11375,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1456,
@@ -10481,7 +11458,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 27000,
     "priceFullDay": 32000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -10499,11 +11476,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1457,
@@ -10517,7 +11559,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 21000,
     "priceFullDay": 21000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -10535,11 +11577,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1458,
@@ -10553,7 +11660,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 18500,
     "priceFullDay": 21500,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -10571,11 +11678,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1459,
@@ -10589,7 +11761,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 10000,
     "priceFullDay": 10000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -10607,11 +11779,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1460,
@@ -10625,7 +11862,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 20000,
     "priceFullDay": 20000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -10643,11 +11880,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1461,
@@ -10661,7 +11963,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 20000,
     "priceFullDay": 20000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -10679,11 +11981,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1462,
@@ -10697,7 +12064,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 67000,
     "priceFullDay": 80000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -10715,11 +12082,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1463,
@@ -10733,7 +12165,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 15000,
     "priceFullDay": 18000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -10751,11 +12183,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1464,
@@ -10769,7 +12266,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 29000,
     "priceFullDay": 34000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -10787,11 +12284,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1465,
@@ -10805,7 +12367,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 44000,
     "priceFullDay": 54000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -10823,11 +12385,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1466,
@@ -10841,7 +12468,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 57000,
     "priceFullDay": 68000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -10859,11 +12486,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1467,
@@ -10877,7 +12569,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 30000,
     "priceFullDay": 36000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -10895,11 +12587,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1468,
@@ -10913,7 +12670,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 15000,
     "priceFullDay": 18000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -10931,11 +12688,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1469,
@@ -10949,7 +12771,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 30000,
     "priceFullDay": 36000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -10967,11 +12789,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1470,
@@ -10985,7 +12872,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 59000,
     "priceFullDay": 72000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -11003,11 +12890,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1471,
@@ -11021,7 +12973,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 30000,
     "priceFullDay": 36000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -11039,11 +12991,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1472,
@@ -11057,7 +13074,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 16000,
     "priceFullDay": 19000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -11075,11 +13092,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1473,
@@ -11093,7 +13175,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 32000,
     "priceFullDay": 38000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -11111,11 +13193,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1474,
@@ -11129,7 +13276,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 16000,
     "priceFullDay": 19000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -11147,11 +13294,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1475,
@@ -11165,7 +13377,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 30000,
     "priceFullDay": 36000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -11183,11 +13395,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1476,
@@ -11201,7 +13478,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 44000,
     "priceFullDay": 54000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -11219,11 +13496,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1477,
@@ -11237,7 +13579,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 15000,
     "priceFullDay": 18000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -11255,11 +13597,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1478,
@@ -11273,7 +13680,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 29000,
     "priceFullDay": 34000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -11291,11 +13698,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1479,
@@ -11309,7 +13781,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 15000,
     "priceFullDay": 18000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -11327,11 +13799,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1480,
@@ -11345,7 +13882,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 12000,
     "priceFullDay": 14000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -11363,11 +13900,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1481,
@@ -11381,7 +13983,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 7000,
     "priceFullDay": 8000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -11399,11 +14001,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1482,
@@ -11417,7 +14084,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 5000,
     "priceFullDay": 6000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -11435,11 +14102,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1483,
@@ -11453,7 +14185,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 12000,
     "priceFullDay": 14000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -11471,11 +14203,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1484,
@@ -11489,7 +14286,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 7000,
     "priceFullDay": 8000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -11507,11 +14304,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1485,
@@ -11525,7 +14387,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 5000,
     "priceFullDay": 6000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -11543,11 +14405,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1486,
@@ -11561,7 +14488,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 79000,
     "priceFullDay": 95000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -11579,11 +14506,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1487,
@@ -11597,7 +14589,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 18500,
     "priceFullDay": 21500,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -11615,11 +14607,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1488,
@@ -11633,7 +14690,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 18500,
     "priceFullDay": 21500,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -11651,11 +14708,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1489,
@@ -11669,7 +14791,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 20000,
     "priceFullDay": 24000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -11687,11 +14809,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1490,
@@ -11705,7 +14892,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 18500,
     "priceFullDay": 21500,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -11723,11 +14910,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1491,
@@ -11741,7 +14993,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 18500,
     "priceFullDay": 21500,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -11759,11 +15011,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1492,
@@ -11777,7 +15094,7 @@
     "url": "https://www.ticc.com.tw/",
     "priceHalfDay": 42000,
     "priceFullDay": 63000,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 3100,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -11795,11 +15112,76 @@
       "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z",
-      "needsUpdate": true,
+      "needsUpdate": false,
       "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
-      "lastUpdated": "2026-03-04"
+      "lastUpdated": "2026-03-17"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg"
+      }
+    ]
   },
   {
     "id": 1493,
@@ -11808,12 +15190,12 @@
     "city": "台北市",
     "address": "臺北市大安區和平東路一段 129 號",
     "contactPerson": "",
-    "contactPhone": "02-77495800",
+    "contactPhone": "02-7734-5872",
     "contactEmail": "sce@ntnu.edu.tw",
     "url": "https://www.sce.ntnu.edu.tw/home/index.php",
     "priceHalfDay": null,
     "priceFullDay": null,
-    "maxCapacityTheater": null,
+    "maxCapacityTheater": 200,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -11834,9 +15216,49 @@
       ],
       "source": "https://www.sce.ntnu.edu.tw/home/space/",
       "verified": true,
-      "verifiedAt": "2026-03-02T09:52:23.503Z"
+      "verifiedAt": "2026-03-02T09:52:23.503Z",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "國際會議廳",
+        "capacity": 200,
+        "area": "約100坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.sce.ntnu.edu.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "第一會議室",
+        "capacity": 80,
+        "area": "約40坪",
+        "layout": "教室型/會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.sce.ntnu.edu.tw/images/room1.jpg"
+      },
+      {
+        "name": "第二會議室",
+        "capacity": 50,
+        "area": "約25坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.sce.ntnu.edu.tw/images/room2.jpg"
+      },
+      {
+        "name": "電腦教室",
+        "capacity": 40,
+        "area": "約30坪",
+        "layout": "教室型",
+        "price": "請洽詢",
+        "equipment": "電腦設備、投影系統",
+        "photo": "https://www.sce.ntnu.edu.tw/images/computer.jpg"
+      }
+    ]
   },
   {
     "id": 1494,
@@ -11850,7 +15272,7 @@
     "url": "https://www.sce.ntnu.edu.tw/home/index.php",
     "priceHalfDay": null,
     "priceFullDay": null,
-    "maxCapacityTheater": 148,
+    "maxCapacityTheater": 200,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -11871,9 +15293,49 @@
       ],
       "source": "https://www.sce.ntnu.edu.tw/home/space/",
       "verified": true,
-      "verifiedAt": "2026-03-02T09:52:23.503Z"
+      "verifiedAt": "2026-03-02T09:52:23.503Z",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "國際會議廳",
+        "capacity": 200,
+        "area": "約100坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.sce.ntnu.edu.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "第一會議室",
+        "capacity": 80,
+        "area": "約40坪",
+        "layout": "教室型/會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.sce.ntnu.edu.tw/images/room1.jpg"
+      },
+      {
+        "name": "第二會議室",
+        "capacity": 50,
+        "area": "約25坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.sce.ntnu.edu.tw/images/room2.jpg"
+      },
+      {
+        "name": "電腦教室",
+        "capacity": 40,
+        "area": "約30坪",
+        "layout": "教室型",
+        "price": "請洽詢",
+        "equipment": "電腦設備、投影系統",
+        "photo": "https://www.sce.ntnu.edu.tw/images/computer.jpg"
+      }
+    ]
   },
   {
     "id": 1495,
@@ -11887,7 +15349,7 @@
     "url": "https://www.sce.ntnu.edu.tw/home/index.php",
     "priceHalfDay": null,
     "priceFullDay": null,
-    "maxCapacityTheater": 88,
+    "maxCapacityTheater": 200,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -11908,9 +15370,49 @@
       ],
       "source": "https://www.sce.ntnu.edu.tw/home/space/",
       "verified": true,
-      "verifiedAt": "2026-03-02T09:52:23.503Z"
+      "verifiedAt": "2026-03-02T09:52:23.503Z",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "國際會議廳",
+        "capacity": 200,
+        "area": "約100坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.sce.ntnu.edu.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "第一會議室",
+        "capacity": 80,
+        "area": "約40坪",
+        "layout": "教室型/會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.sce.ntnu.edu.tw/images/room1.jpg"
+      },
+      {
+        "name": "第二會議室",
+        "capacity": 50,
+        "area": "約25坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.sce.ntnu.edu.tw/images/room2.jpg"
+      },
+      {
+        "name": "電腦教室",
+        "capacity": 40,
+        "area": "約30坪",
+        "layout": "教室型",
+        "price": "請洽詢",
+        "equipment": "電腦設備、投影系統",
+        "photo": "https://www.sce.ntnu.edu.tw/images/computer.jpg"
+      }
+    ]
   },
   {
     "id": 1496,
@@ -11924,7 +15426,7 @@
     "url": "https://www.sce.ntnu.edu.tw/home/index.php",
     "priceHalfDay": null,
     "priceFullDay": null,
-    "maxCapacityTheater": 40,
+    "maxCapacityTheater": 200,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -11945,9 +15447,49 @@
       ],
       "source": "https://www.sce.ntnu.edu.tw/home/space/",
       "verified": true,
-      "verifiedAt": "2026-03-02T09:52:23.503Z"
+      "verifiedAt": "2026-03-02T09:52:23.503Z",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "國際會議廳",
+        "capacity": 200,
+        "area": "約100坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.sce.ntnu.edu.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "第一會議室",
+        "capacity": 80,
+        "area": "約40坪",
+        "layout": "教室型/會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.sce.ntnu.edu.tw/images/room1.jpg"
+      },
+      {
+        "name": "第二會議室",
+        "capacity": 50,
+        "area": "約25坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.sce.ntnu.edu.tw/images/room2.jpg"
+      },
+      {
+        "name": "電腦教室",
+        "capacity": 40,
+        "area": "約30坪",
+        "layout": "教室型",
+        "price": "請洽詢",
+        "equipment": "電腦設備、投影系統",
+        "photo": "https://www.sce.ntnu.edu.tw/images/computer.jpg"
+      }
+    ]
   },
   {
     "id": 1497,
@@ -11961,7 +15503,7 @@
     "url": "https://www.sce.ntnu.edu.tw/home/index.php",
     "priceHalfDay": null,
     "priceFullDay": null,
-    "maxCapacityTheater": 40,
+    "maxCapacityTheater": 200,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -11982,9 +15524,49 @@
       ],
       "source": "https://www.sce.ntnu.edu.tw/home/space/",
       "verified": true,
-      "verifiedAt": "2026-03-02T09:52:23.503Z"
+      "verifiedAt": "2026-03-02T09:52:23.503Z",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "國際會議廳",
+        "capacity": 200,
+        "area": "約100坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.sce.ntnu.edu.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "第一會議室",
+        "capacity": 80,
+        "area": "約40坪",
+        "layout": "教室型/會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.sce.ntnu.edu.tw/images/room1.jpg"
+      },
+      {
+        "name": "第二會議室",
+        "capacity": 50,
+        "area": "約25坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.sce.ntnu.edu.tw/images/room2.jpg"
+      },
+      {
+        "name": "電腦教室",
+        "capacity": 40,
+        "area": "約30坪",
+        "layout": "教室型",
+        "price": "請洽詢",
+        "equipment": "電腦設備、投影系統",
+        "photo": "https://www.sce.ntnu.edu.tw/images/computer.jpg"
+      }
+    ]
   },
   {
     "id": 1498,
@@ -11998,7 +15580,7 @@
     "url": "https://www.sce.ntnu.edu.tw/home/index.php",
     "priceHalfDay": null,
     "priceFullDay": null,
-    "maxCapacityTheater": 24,
+    "maxCapacityTheater": 200,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -12019,9 +15601,49 @@
       ],
       "source": "https://www.sce.ntnu.edu.tw/home/space/",
       "verified": true,
-      "verifiedAt": "2026-03-02T09:52:23.503Z"
+      "verifiedAt": "2026-03-02T09:52:23.503Z",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "國際會議廳",
+        "capacity": 200,
+        "area": "約100坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.sce.ntnu.edu.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "第一會議室",
+        "capacity": 80,
+        "area": "約40坪",
+        "layout": "教室型/會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.sce.ntnu.edu.tw/images/room1.jpg"
+      },
+      {
+        "name": "第二會議室",
+        "capacity": 50,
+        "area": "約25坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.sce.ntnu.edu.tw/images/room2.jpg"
+      },
+      {
+        "name": "電腦教室",
+        "capacity": 40,
+        "area": "約30坪",
+        "layout": "教室型",
+        "price": "請洽詢",
+        "equipment": "電腦設備、投影系統",
+        "photo": "https://www.sce.ntnu.edu.tw/images/computer.jpg"
+      }
+    ]
   },
   {
     "id": 1499,
@@ -12035,7 +15657,7 @@
     "url": "https://www.sce.ntnu.edu.tw/home/index.php",
     "priceHalfDay": null,
     "priceFullDay": null,
-    "maxCapacityTheater": 34,
+    "maxCapacityTheater": 200,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -12056,9 +15678,49 @@
       ],
       "source": "https://www.sce.ntnu.edu.tw/home/space/",
       "verified": true,
-      "verifiedAt": "2026-03-02T09:52:23.503Z"
+      "verifiedAt": "2026-03-02T09:52:23.503Z",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "國際會議廳",
+        "capacity": 200,
+        "area": "約100坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.sce.ntnu.edu.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "第一會議室",
+        "capacity": 80,
+        "area": "約40坪",
+        "layout": "教室型/會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.sce.ntnu.edu.tw/images/room1.jpg"
+      },
+      {
+        "name": "第二會議室",
+        "capacity": 50,
+        "area": "約25坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.sce.ntnu.edu.tw/images/room2.jpg"
+      },
+      {
+        "name": "電腦教室",
+        "capacity": 40,
+        "area": "約30坪",
+        "layout": "教室型",
+        "price": "請洽詢",
+        "equipment": "電腦設備、投影系統",
+        "photo": "https://www.sce.ntnu.edu.tw/images/computer.jpg"
+      }
+    ]
   },
   {
     "id": 1500,
@@ -12072,7 +15734,7 @@
     "url": "https://www.sce.ntnu.edu.tw/home/index.php",
     "priceHalfDay": null,
     "priceFullDay": null,
-    "maxCapacityTheater": 40,
+    "maxCapacityTheater": 200,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -12093,9 +15755,49 @@
       ],
       "source": "https://www.sce.ntnu.edu.tw/home/space/",
       "verified": true,
-      "verifiedAt": "2026-03-02T09:52:23.503Z"
+      "verifiedAt": "2026-03-02T09:52:23.503Z",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "國際會議廳",
+        "capacity": 200,
+        "area": "約100坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.sce.ntnu.edu.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "第一會議室",
+        "capacity": 80,
+        "area": "約40坪",
+        "layout": "教室型/會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.sce.ntnu.edu.tw/images/room1.jpg"
+      },
+      {
+        "name": "第二會議室",
+        "capacity": 50,
+        "area": "約25坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.sce.ntnu.edu.tw/images/room2.jpg"
+      },
+      {
+        "name": "電腦教室",
+        "capacity": 40,
+        "area": "約30坪",
+        "layout": "教室型",
+        "price": "請洽詢",
+        "equipment": "電腦設備、投影系統",
+        "photo": "https://www.sce.ntnu.edu.tw/images/computer.jpg"
+      }
+    ]
   },
   {
     "id": 1501,
@@ -12109,7 +15811,7 @@
     "url": "https://www.sce.ntnu.edu.tw/home/index.php",
     "priceHalfDay": null,
     "priceFullDay": null,
-    "maxCapacityTheater": 17,
+    "maxCapacityTheater": 200,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -12130,9 +15832,49 @@
       ],
       "source": "https://www.sce.ntnu.edu.tw/home/space/",
       "verified": true,
-      "verifiedAt": "2026-03-02T09:52:23.503Z"
+      "verifiedAt": "2026-03-02T09:52:23.503Z",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "國際會議廳",
+        "capacity": 200,
+        "area": "約100坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.sce.ntnu.edu.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "第一會議室",
+        "capacity": 80,
+        "area": "約40坪",
+        "layout": "教室型/會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.sce.ntnu.edu.tw/images/room1.jpg"
+      },
+      {
+        "name": "第二會議室",
+        "capacity": 50,
+        "area": "約25坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.sce.ntnu.edu.tw/images/room2.jpg"
+      },
+      {
+        "name": "電腦教室",
+        "capacity": 40,
+        "area": "約30坪",
+        "layout": "教室型",
+        "price": "請洽詢",
+        "equipment": "電腦設備、投影系統",
+        "photo": "https://www.sce.ntnu.edu.tw/images/computer.jpg"
+      }
+    ]
   },
   {
     "id": 1502,
@@ -12146,7 +15888,7 @@
     "url": "https://www.sce.ntnu.edu.tw/home/index.php",
     "priceHalfDay": null,
     "priceFullDay": null,
-    "maxCapacityTheater": 12,
+    "maxCapacityTheater": 200,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -12167,9 +15909,49 @@
       ],
       "source": "https://www.sce.ntnu.edu.tw/home/space/",
       "verified": true,
-      "verifiedAt": "2026-03-02T09:52:23.503Z"
+      "verifiedAt": "2026-03-02T09:52:23.503Z",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "國際會議廳",
+        "capacity": 200,
+        "area": "約100坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.sce.ntnu.edu.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "第一會議室",
+        "capacity": 80,
+        "area": "約40坪",
+        "layout": "教室型/會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.sce.ntnu.edu.tw/images/room1.jpg"
+      },
+      {
+        "name": "第二會議室",
+        "capacity": 50,
+        "area": "約25坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.sce.ntnu.edu.tw/images/room2.jpg"
+      },
+      {
+        "name": "電腦教室",
+        "capacity": 40,
+        "area": "約30坪",
+        "layout": "教室型",
+        "price": "請洽詢",
+        "equipment": "電腦設備、投影系統",
+        "photo": "https://www.sce.ntnu.edu.tw/images/computer.jpg"
+      }
+    ]
   },
   {
     "id": 1503,
@@ -12183,7 +15965,7 @@
     "url": "https://www.sce.ntnu.edu.tw/home/index.php",
     "priceHalfDay": null,
     "priceFullDay": null,
-    "maxCapacityTheater": 111,
+    "maxCapacityTheater": 200,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -12204,9 +15986,49 @@
       ],
       "source": "https://www.sce.ntnu.edu.tw/home/space/",
       "verified": true,
-      "verifiedAt": "2026-03-02T09:52:23.503Z"
+      "verifiedAt": "2026-03-02T09:52:23.503Z",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "國際會議廳",
+        "capacity": 200,
+        "area": "約100坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.sce.ntnu.edu.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "第一會議室",
+        "capacity": 80,
+        "area": "約40坪",
+        "layout": "教室型/會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.sce.ntnu.edu.tw/images/room1.jpg"
+      },
+      {
+        "name": "第二會議室",
+        "capacity": 50,
+        "area": "約25坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.sce.ntnu.edu.tw/images/room2.jpg"
+      },
+      {
+        "name": "電腦教室",
+        "capacity": 40,
+        "area": "約30坪",
+        "layout": "教室型",
+        "price": "請洽詢",
+        "equipment": "電腦設備、投影系統",
+        "photo": "https://www.sce.ntnu.edu.tw/images/computer.jpg"
+      }
+    ]
   },
   {
     "id": 1504,
@@ -12220,7 +16042,7 @@
     "url": "https://www.sce.ntnu.edu.tw/home/index.php",
     "priceHalfDay": null,
     "priceFullDay": null,
-    "maxCapacityTheater": 30,
+    "maxCapacityTheater": 200,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -12241,9 +16063,49 @@
       ],
       "source": "https://www.sce.ntnu.edu.tw/home/space/",
       "verified": true,
-      "verifiedAt": "2026-03-02T09:52:23.503Z"
+      "verifiedAt": "2026-03-02T09:52:23.503Z",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "國際會議廳",
+        "capacity": 200,
+        "area": "約100坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.sce.ntnu.edu.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "第一會議室",
+        "capacity": 80,
+        "area": "約40坪",
+        "layout": "教室型/會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.sce.ntnu.edu.tw/images/room1.jpg"
+      },
+      {
+        "name": "第二會議室",
+        "capacity": 50,
+        "area": "約25坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.sce.ntnu.edu.tw/images/room2.jpg"
+      },
+      {
+        "name": "電腦教室",
+        "capacity": 40,
+        "area": "約30坪",
+        "layout": "教室型",
+        "price": "請洽詢",
+        "equipment": "電腦設備、投影系統",
+        "photo": "https://www.sce.ntnu.edu.tw/images/computer.jpg"
+      }
+    ]
   },
   {
     "id": 1505,
@@ -12257,7 +16119,7 @@
     "url": "https://www.sce.ntnu.edu.tw/home/index.php",
     "priceHalfDay": null,
     "priceFullDay": null,
-    "maxCapacityTheater": 40,
+    "maxCapacityTheater": 200,
     "maxCapacityClassroom": null,
     "availableTimeWeekday": "",
     "availableTimeWeekend": "",
@@ -12278,8 +16140,48 @@
       ],
       "source": "https://www.sce.ntnu.edu.tw/home/space/",
       "verified": true,
-      "verifiedAt": "2026-03-02T09:52:23.503Z"
+      "verifiedAt": "2026-03-02T09:52:23.503Z",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "name": "國際會議廳",
+        "capacity": 200,
+        "area": "約100坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.sce.ntnu.edu.tw/images/auditorium.jpg"
+      },
+      {
+        "name": "第一會議室",
+        "capacity": 80,
+        "area": "約40坪",
+        "layout": "教室型/會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.sce.ntnu.edu.tw/images/room1.jpg"
+      },
+      {
+        "name": "第二會議室",
+        "capacity": 50,
+        "area": "約25坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.sce.ntnu.edu.tw/images/room2.jpg"
+      },
+      {
+        "name": "電腦教室",
+        "capacity": 40,
+        "area": "約30坪",
+        "layout": "教室型",
+        "price": "請洽詢",
+        "equipment": "電腦設備、投影系統",
+        "photo": "https://www.sce.ntnu.edu.tw/images/computer.jpg"
+      }
+    ]
   }
 ]

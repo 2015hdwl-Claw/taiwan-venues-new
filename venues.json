@@ -3174,9 +3174,12 @@
       ],
       "source": "https://www.taipeimarriott.com.tw/websev?cat=page&subcat=17",
       "verified": true,
-      "verifiedAt": "2026-03-02T16:20:21.245Z"
+      "verifiedAt": "2026-03-17T07:55:53.305262",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false,
+      "note": "已從官網驗證會議室資訊"
     },
-    "verified": false,
+    "verified": true,
     "rooms": [
       {
         "name": "萬豪廳 Grand Ballroom",
@@ -3198,7 +3201,9 @@
           "燈光",
           "同步翻譯"
         ],
-        "images": []
+        "images": [],
+        "floor": "5樓",
+        "note": "台北國際五星級飯店最大無樑柱宴會廳"
       },
       {
         "name": "萬豪一廳 Grand Ballroom I",
@@ -3219,7 +3224,9 @@
           "舞台",
           "燈光"
         ],
-        "images": []
+        "images": [],
+        "floor": "5樓",
+        "note": "特殊動線規畫，可容納車輛進場展示"
       },
       {
         "name": "Garden Villa",
@@ -3239,7 +3246,9 @@
           "專業音響",
           "戶外場地"
         ],
-        "images": []
+        "images": [],
+        "floor": "8樓",
+        "note": "空中綠地花園和歐式禮堂"
       },
       {
         "name": "寰宇廳 Panorama Ballroom",
@@ -3259,7 +3268,9 @@
           "音響系統",
           "麥克風"
         ],
-        "images": []
+        "images": [],
+        "floor": "36樓",
+        "note": "高空宴會廳，台北絕美景致"
       },
       {
         "name": "福祿壽廳",
@@ -3269,7 +3280,7 @@
           "ushape": 43,
           "roundtable": 50
         },
-        "area": 38,
+        "area": 72,
         "price": {
           "halfDay": 35000,
           "fullDay": 65000
@@ -3278,7 +3289,8 @@
           "投影設備",
           "音響系統"
         ],
-        "images": []
+        "images": [],
+        "areaNote": "官網標註「全開72坪(238平方米)」"
       },
       {
         "name": "四季廳",
@@ -3288,7 +3300,7 @@
           "ushape": 52,
           "roundtable": 60
         },
-        "area": 45,
+        "area": 78,
         "price": {
           "halfDay": 40000,
           "fullDay": 75000
@@ -3297,7 +3309,8 @@
           "投影設備",
           "音響系統"
         ],
-        "images": []
+        "images": [],
+        "areaNote": "官網標註「四廳合併78坪」"
       },
       {
         "name": "宜華廳 Junior Ballroom",
@@ -3317,7 +3330,9 @@
           "音響系統",
           "麥克風"
         ],
-        "images": []
+        "images": [],
+        "floor": "5樓",
+        "note": "挑高4米雅致空間"
       },
       {
         "name": "博覽廳 Grand Space",
@@ -3327,7 +3342,7 @@
           "ushape": 200,
           "roundtable": 300
         },
-        "area": 180,
+        "area": 400,
         "price": {
           "halfDay": 180000,
           "fullDay": 340000
@@ -3338,10 +3353,15 @@
           "舞台",
           "燈光"
         ],
-        "images": []
+        "images": [],
+        "areaNote": "官網標註「超過400坪」"
       }
     ],
-    "lastUpdated": "2026-03-17"
+    "lastUpdated": "2026-03-17",
+    "totalArea": 4569,
+    "totalAreaUnit": "平方米",
+    "totalRooms": 26,
+    "totalRoomsNote": "26個多功能活動場地"
   },
   {
     "id": 1104,

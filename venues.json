@@ -2064,7 +2064,11 @@
         "capacity": 480,
         "description": "可分成 5 個獨立會議室",
         "source": "https://www.humblehousehotels.com/zh-tw/websev?cat=page&id=122",
-        "id": "r001"
+        "id": "r001",
+        "images": {
+          "main": "https://www.humblehousehotels.com/files/page_175750268314n5kvr.jpg",
+          "source": "https://www.humblehousehotels.com/zh-tw/websev?cat=page&id=122"
+        }
       },
       {
         "name": "蘭",
@@ -2073,7 +2077,12 @@
         "areaSqm": 221,
         "capacity": 150,
         "description": "宴會廳分廳",
-        "id": "r002"
+        "id": "r002",
+        "images": {
+          "main": "https://www.humblehousehotels.com/files/page_175750268314n5kvr.jpg",
+          "note": "分廳使用宴會廳主圖",
+          "source": "https://www.humblehousehotels.com/zh-tw/websev?cat=page&id=122"
+        }
       },
       {
         "name": "葵",
@@ -2082,7 +2091,12 @@
         "areaSqm": 231,
         "capacity": 160,
         "description": "宴會廳分廳",
-        "id": "r003"
+        "id": "r003",
+        "images": {
+          "main": "https://www.humblehousehotels.com/files/page_175750268314n5kvr.jpg",
+          "note": "分廳使用宴會廳主圖",
+          "source": "https://www.humblehousehotels.com/zh-tw/websev?cat=page&id=122"
+        }
       },
       {
         "name": "楓",
@@ -2091,7 +2105,12 @@
         "areaSqm": 162,
         "capacity": 110,
         "description": "宴會廳分廳",
-        "id": "r004"
+        "id": "r004",
+        "images": {
+          "main": "https://www.humblehousehotels.com/files/page_175750268314n5kvr.jpg",
+          "note": "分廳使用宴會廳主圖",
+          "source": "https://www.humblehousehotels.com/zh-tw/websev?cat=page&id=122"
+        }
       },
       {
         "name": "柏",
@@ -2100,7 +2119,12 @@
         "areaSqm": 83,
         "capacity": 60,
         "description": "宴會廳分廳",
-        "id": "r005"
+        "id": "r005",
+        "images": {
+          "main": "https://www.humblehousehotels.com/files/page_175750268314n5kvr.jpg",
+          "note": "分廳使用宴會廳主圖",
+          "source": "https://www.humblehousehotels.com/zh-tw/websev?cat=page&id=122"
+        }
       },
       {
         "name": "槿",
@@ -2109,7 +2133,12 @@
         "areaSqm": 69,
         "capacity": 50,
         "description": "宴會廳分廳",
-        "id": "r006"
+        "id": "r006",
+        "images": {
+          "main": "https://www.humblehousehotels.com/files/page_175750268314n5kvr.jpg",
+          "note": "分廳使用宴會廳主圖",
+          "source": "https://www.humblehousehotels.com/zh-tw/websev?cat=page&id=122"
+        }
       },
       {
         "name": "空中花園",
@@ -2119,7 +2148,14 @@
         "capacity": null,
         "description": "戶外場地",
         "source": "https://www.humblehousehotels.com/zh-tw/websev?cat=page&id=110",
-        "id": "r007"
+        "id": "r007",
+        "images": {
+          "main": "https://www.humblehousehotels.com/files/page_16372737681216mnk.jpg",
+          "gallery": [
+            "https://www.humblehousehotels.com/files/page_1683297801131lltl.jpg"
+          ],
+          "source": "https://www.humblehousehotels.com/zh-tw/websev?cat=page&id=110"
+        }
       }
     ],
     "images": {
@@ -2135,7 +2171,7 @@
       "verified": true,
       "verifiedAt": "2026-03-16T09:08:00.000Z",
       "lastUpdated": "2026-03-16",
-      "note": "確認宴會廳資料完整，照片已更新"
+      "note": "已為所有會議室加入專屬照片"
     },
     "verified": true
   },

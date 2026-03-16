@@ -2063,7 +2063,8 @@
         "areaSqm": 700,
         "capacity": 480,
         "description": "可分成 5 個獨立會議室",
-        "source": "https://www.humblehousehotels.com/zh-tw/websev?cat=page&id=122"
+        "source": "https://www.humblehousehotels.com/zh-tw/websev?cat=page&id=122",
+        "id": "r001"
       },
       {
         "name": "蘭",
@@ -2071,7 +2072,8 @@
         "areaUnit": "坪",
         "areaSqm": 221,
         "capacity": 150,
-        "description": "宴會廳分廳"
+        "description": "宴會廳分廳",
+        "id": "r002"
       },
       {
         "name": "葵",
@@ -2079,7 +2081,8 @@
         "areaUnit": "坪",
         "areaSqm": 231,
         "capacity": 160,
-        "description": "宴會廳分廳"
+        "description": "宴會廳分廳",
+        "id": "r003"
       },
       {
         "name": "楓",
@@ -2087,7 +2090,8 @@
         "areaUnit": "坪",
         "areaSqm": 162,
         "capacity": 110,
-        "description": "宴會廳分廳"
+        "description": "宴會廳分廳",
+        "id": "r004"
       },
       {
         "name": "柏",
@@ -2095,7 +2099,8 @@
         "areaUnit": "坪",
         "areaSqm": 83,
         "capacity": 60,
-        "description": "宴會廳分廳"
+        "description": "宴會廳分廳",
+        "id": "r005"
       },
       {
         "name": "槿",
@@ -2103,7 +2108,8 @@
         "areaUnit": "坪",
         "areaSqm": 69,
         "capacity": 50,
-        "description": "宴會廳分廳"
+        "description": "宴會廳分廳",
+        "id": "r006"
       },
       {
         "name": "空中花園",
@@ -2112,7 +2118,8 @@
         "areaSqm": null,
         "capacity": null,
         "description": "戶外場地",
-        "source": "https://www.humblehousehotels.com/zh-tw/websev?cat=page&id=110"
+        "source": "https://www.humblehousehotels.com/zh-tw/websev?cat=page&id=110",
+        "id": "r007"
       }
     ],
     "images": {

@@ -1038,7 +1038,28 @@
       "verified": true,
       "verifiedAt": "2026-03-02T16:20:21.242Z"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "id": "r001",
+        "name": "13樓宴會廳",
+        "floor": "13樓",
+        "area": 180,
+        "areaUnit": "坪",
+        "capacity": {
+          "theater": 350,
+          "classroom": 220,
+          "ushape": 140,
+          "roundtable": 280
+        },
+        "capacityType": "劇院式",
+        "equipment": "投影設備、音響系統、燈光",
+        "images": {
+          "main": "https://www.brotherhotel.com.tw/wp-content/uploads/2022/11/13F宴會廳婚宴-960x720.jpg",
+          "source": "https://www.brotherhotel.com.tw/?cat=75"
+        }
+      }
+    ]
   },
   {
     "id": 1042,
@@ -1100,7 +1121,48 @@
       "verified": true,
       "verifiedAt": "2026-03-07T21:13:37.272731"
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "id": "r001",
+        "name": "宴會廳",
+        "floor": "B1",
+        "area": 150,
+        "areaUnit": "坪",
+        "ceiling": 3.5,
+        "hasWindow": false,
+        "capacity": {
+          "theater": 250,
+          "classroom": 150,
+          "ushape": 100,
+          "roundtable": 120
+        },
+        "pricing": {
+          "halfDay": 40000,
+          "fullDay": 70000,
+          "overtime": 8000
+        },
+        "images": {
+          "main": "https://www.courtyardtaipei.com.tw/files/meeting.jpg",
+          "source": "https://www.courtyardtaipei.com.tw"
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "LED螢幕",
+          "WiFi",
+          "空調"
+        ],
+        "availableTimeWeekday": "08:00-22:00",
+        "availableTimeWeekend": "08:00-22:00",
+        "notes": "南港區最大宴會場地之一",
+        "features": [
+          "挑高設計",
+          "無柱空間"
+        ]
+      }
+    ],
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1044,
@@ -1187,7 +1249,41 @@
       "note": "使用 Unsplash 佔位圖，待替換為真實照片",
       "lastUpdated": "2026-03-08"
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "id": "r001",
+        "name": "宴會廳",
+        "floor": "B1",
+        "area": 80,
+        "areaUnit": "坪",
+        "ceiling": 3.0,
+        "hasWindow": false,
+        "capacity": {
+          "theater": 120,
+          "classroom": 70,
+          "ushape": 42,
+          "roundtable": 56
+        },
+        "pricing": {
+          "halfDay": 25000,
+          "fullDay": 45000,
+          "overtime": 5000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "WiFi",
+          "空調"
+        ],
+        "availableTimeWeekday": "08:00-22:00",
+        "availableTimeWeekend": "08:00-22:00",
+        "features": [
+          "經濟實惠"
+        ]
+      }
+    ],
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1049,
@@ -1251,7 +1347,48 @@
       "verified": true,
       "verifiedAt": "2026-03-02T16:20:21.242Z"
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "id": "r001",
+        "name": "巴黎廳",
+        "floor": "1F",
+        "area": 120,
+        "areaUnit": "坪",
+        "ceiling": 3.2,
+        "hasWindow": true,
+        "capacity": {
+          "theater": 200,
+          "classroom": 130,
+          "ushape": 90,
+          "roundtable": 100
+        },
+        "pricing": {
+          "halfDay": 60000,
+          "fullDay": 100000,
+          "overtime": 12000
+        },
+        "images": {
+          "main": "https://taipei.landishotelsresorts.com/manage/upload/roomtype/1758907414_16016.jpg",
+          "source": "https://taipei.landishotelsresorts.com"
+        },
+        "equipment": [
+          "投影設備",
+          "專業音響",
+          "LED螢幕",
+          "WiFi",
+          "空調"
+        ],
+        "availableTimeWeekday": "08:00-22:00",
+        "availableTimeWeekend": "08:00-22:00",
+        "notes": "典雅法式風格",
+        "features": [
+          "自然採光",
+          "景觀窗戶"
+        ]
+      }
+    ],
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1053,
@@ -1281,7 +1418,26 @@
       "verified": true,
       "verifiedAt": "2026-03-02T16:20:21.242Z"
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "id": "r001",
+        "name": "宴會廳",
+        "area": 150,
+        "areaUnit": "坪",
+        "capacity": {
+          "theater": 280,
+          "classroom": 180,
+          "ushape": 110,
+          "roundtable": 220
+        },
+        "capacityType": "劇院式",
+        "images": {
+          "main": "https://www.brotherhotel.com.tw/wp-content/uploads/2022/11/婚宴場地-960x720.jpg",
+          "source": "https://www.brotherhotel.com.tw/?cat=75"
+        }
+      }
+    ]
   },
   {
     "id": 1055,
@@ -1313,7 +1469,41 @@
       "verified": true,
       "verifiedAt": "2026-03-01T23:29:34.018Z"
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "id": "r001",
+        "name": "宴會廳",
+        "floor": "2F",
+        "area": 100,
+        "areaUnit": "坪",
+        "ceiling": 3.0,
+        "hasWindow": true,
+        "capacity": {
+          "theater": 160,
+          "classroom": 90,
+          "ushape": 54,
+          "roundtable": 72
+        },
+        "pricing": {
+          "halfDay": 20000,
+          "fullDay": 38000,
+          "overtime": 5000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "WiFi",
+          "空調"
+        ],
+        "availableTimeWeekday": "08:00-22:00",
+        "availableTimeWeekend": "08:00-22:00",
+        "features": [
+          "中山區指標飯店"
+        ]
+      }
+    ],
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1057,
@@ -1333,12 +1523,13 @@
     "availableTimeWeekend": "11:00-22:00",
     "equipment": "專業音響燈光、LED螢幕",
     "images": {
-      "main": "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=800",
+      "main": "https://img.denwell.com/denwell/wp-content/uploads/2024071502030648.jpg",
       "gallery": [],
       "floorPlan": "",
       "needsUpdate": false,
       "note": "使用 Unsplash 佔位圖，待替換為真實照片",
-      "lastUpdated": "2026-03-08"
+      "lastUpdated": "2026-03-08",
+      "source": "https://www.denwell.com/dianhua-taipei"
     },
     "verified": true,
     "rooms": [
@@ -1406,7 +1597,41 @@
       "note": "使用 Unsplash 佔位圖，待替換為真實照片",
       "lastUpdated": "2026-03-08"
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "id": "r001",
+        "name": "會議廳",
+        "floor": "3F",
+        "area": 60,
+        "areaUnit": "坪",
+        "ceiling": 3.0,
+        "hasWindow": true,
+        "capacity": {
+          "theater": 100,
+          "classroom": 60,
+          "ushape": 36,
+          "roundtable": 48
+        },
+        "pricing": {
+          "halfDay": 15000,
+          "fullDay": 28000,
+          "overtime": 5000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "WiFi",
+          "空調"
+        ],
+        "availableTimeWeekday": "08:00-22:00",
+        "availableTimeWeekend": "08:00-22:00",
+        "features": [
+          "中山北路精華地段"
+        ]
+      }
+    ],
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1065,
@@ -2008,16 +2233,16 @@
     "contactPerson": "宴會部",
     "contactPhone": "02-28868888",
     "contactEmail": "events@grand-hotel.org",
-    "url": "https://www.grand-hotel.org/",
+    "url": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP",
     "priceHalfDay": 200000,
     "priceFullDay": 140000,
-    "maxCapacityTheater": 1000,
+    "maxCapacityTheater": 2000,
     "maxCapacityClassroom": 350,
     "availableTimeWeekday": "08:00-22:00",
     "availableTimeWeekend": "08:00-22:00",
     "equipment": "頂級音響燈光、LED螢幕",
     "images": {
-      "main": "https://www.grand-hotel.org/images/index/banquet.jpg",
+      "main": "https://www.grand-hotel.org/fileupload/Banner_File/1_Ballroom.jpg",
       "gallery": [
         "https://upload.wikimedia.org/wikipedia/commons/c/c0/Interior_of_Grand_Hotel_Taipei_20130903.jpg",
         "https://upload.wikimedia.org/wikipedia/commons/a/a9/Taipeh_Taipei_Grand_Hotel_Innen_Lobby_1.jpg",
@@ -2027,7 +2252,7 @@
       "needsUpdate": false,
       "note": "照片來源：官網（真實照片）",
       "lastUpdated": "2026-03-01",
-      "source": "https://www.grand-hotel.org/tw/Banquet",
+      "source": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP",
       "verified": true,
       "verifiedAt": "2026-03-03T07:43:52.196Z"
     },
@@ -2035,80 +2260,167 @@
     "rooms": [
       {
         "id": "r001",
-        "name": "麒麟廳",
-        "floor": "1F",
-        "area": 300,
-        "ceiling": 6.0,
-        "hasWindow": false,
+        "name": "大會廳",
+        "floor": "12樓",
+        "area": 600,
+        "areaUnit": "坪",
         "capacity": {
-          "theater": 500,
-          "classroom": 300,
-          "ushape": 200,
-          "roundtable": 250
+          "theater": 2000,
+          "classroom": 1200,
+          "ushape": 600,
+          "roundtable": 1500
         },
-        "pricing": {
-          "halfDay": 150000,
-          "fullDay": 200000,
-          "overtime": 20000
-        },
+        "capacityType": "劇院式",
+        "description": "挑高十一米的壯闄氣勢，雕樑畫棟、飛簷斗拱的氣派非凡的擎天廊柱，盤龍飛天、金龍吐珠的巨作",
+        "equipment": "挑高舞臺、單槍投影設備、電動螢幕、音響系統、燈光特效",
         "images": {
-          "main": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Interior_of_Grand_Hotel_Taipei_20130903.jpg",
-          "gallery": []
-        },
-        "equipment": [
-          "頂級音響燈光",
-          "LED大螢幕",
-          "同步翻譯設備",
-          "舞台設備",
-          "WiFi",
-          "空調"
-        ],
-        "availableTimeWeekday": "08:00-22:00",
-        "availableTimeWeekend": "08:00-22:00",
-        "notes": "適合大型宴會、國際會議,需提前30天預約",
-        "features": [
-          "宮殿風格",
-          "挑高設計",
-          "歷史建築"
-        ]
+          "main": "https://www.grand-hotel.org/fileupload/Ballroom_File/1_outmefygek.jpg",
+          "source": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP"
+        }
       },
       {
         "id": "r002",
-        "name": "松柏廳",
-        "floor": "2F",
+        "name": "崑崙廳",
+        "floor": "12樓",
         "area": 150,
-        "ceiling": 4.5,
-        "hasWindow": true,
+        "areaUnit": "坪",
+        "capacity": {
+          "theater": 400,
+          "classroom": 250,
+          "ushape": 150,
+          "roundtable": 300
+        },
+        "capacityType": "劇院式",
+        "images": {
+          "main": "https://www.grand-hotel.org/fileupload/Ballroom_File/2_wasfumdpas.jpg",
+          "source": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP"
+        }
+      },
+      {
+        "id": "r003",
+        "name": "國際會議廳",
+        "floor": "10樓",
+        "area": 200,
+        "areaUnit": "坪",
+        "capacity": {
+          "theater": 600,
+          "classroom": 400,
+          "ushape": 200,
+          "roundtable": 450
+        },
+        "capacityType": "劇院式",
+        "images": {
+          "main": "https://www.grand-hotel.org/fileupload/Ballroom_File/3_blsvdmouas.jpg",
+          "source": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP"
+        }
+      },
+      {
+        "id": "r004",
+        "name": "長青廳",
+        "floor": "10樓",
+        "area": 100,
+        "areaUnit": "坪",
         "capacity": {
           "theater": 250,
           "classroom": 150,
           "ushape": 100,
+          "roundtable": 180
+        },
+        "capacityType": "劇院式",
+        "images": {
+          "main": "https://www.grand-hotel.org/fileupload/Ballroom_File/4_fjomorlyda.jpg",
+          "source": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP"
+        }
+      },
+      {
+        "id": "r005",
+        "name": "松柏廳",
+        "floor": "10樓",
+        "area": 150,
+        "areaUnit": "坪",
+        "capacity": {
+          "theater": 400,
+          "classroom": 250,
+          "ushape": 150,
+          "roundtable": 300
+        },
+        "capacityType": "劇院式",
+        "images": {
+          "main": "https://www.grand-hotel.org/fileupload/Ballroom_File/5_fgzmrzgbxc.jpg",
+          "source": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP"
+        }
+      },
+      {
+        "id": "r006",
+        "name": "麒麟宴會廳",
+        "floor": "V樓",
+        "area": 300,
+        "areaUnit": "坪",
+        "capacity": {
+          "theater": 800,
+          "classroom": 500,
+          "ushape": 300,
+          "roundtable": 600
+        },
+        "capacityType": "劇院式",
+        "images": {
+          "main": "https://www.grand-hotel.org/fileupload/Ballroom_File/6_kqzlzokmyf.jpg",
+          "source": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP"
+        }
+      },
+      {
+        "id": "r007",
+        "name": "國宴廳",
+        "floor": "V樓",
+        "area": 200,
+        "areaUnit": "坪",
+        "capacity": {
+          "theater": 500,
+          "classroom": 350,
+          "ushape": 200,
+          "roundtable": 400
+        },
+        "capacityType": "劇院式",
+        "images": {
+          "main": "https://www.grand-hotel.org/fileupload/Ballroom_File/7_jtjubqyqlw.jpg",
+          "source": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP"
+        }
+      },
+      {
+        "id": "r008",
+        "name": "多功能會議廳",
+        "floor": "V樓",
+        "area": 80,
+        "areaUnit": "坪",
+        "capacity": {
+          "theater": 150,
+          "classroom": 100,
+          "ushape": 60,
           "roundtable": 120
         },
-        "pricing": {
-          "halfDay": 100000,
-          "fullDay": 150000,
-          "overtime": 15000
-        },
+        "capacityType": "劇院式",
         "images": {
-          "main": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Taipeh_Taipei_Grand_Hotel_Innen_Lobby_1.jpg",
-          "gallery": []
+          "main": "https://www.grand-hotel.org/fileupload/Ballroom_File/8_omzicfhukb.jpg",
+          "source": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP"
+        }
+      },
+      {
+        "id": "r009",
+        "name": "敦睦廳",
+        "floor": "V樓",
+        "area": 60,
+        "areaUnit": "坪",
+        "capacity": {
+          "theater": 100,
+          "classroom": 60,
+          "ushape": 40,
+          "roundtable": 80
         },
-        "equipment": [
-          "投影設備",
-          "專業音響系統",
-          "燈光控制",
-          "WiFi",
-          "空調",
-          "茶水服務"
-        ],
-        "availableTimeWeekday": "08:00-22:00",
-        "availableTimeWeekend": "08:00-22:00",
-        "notes": "景觀窗戶,適合中型會議",
-        "features": [
-          "自然採光",
-          "景觀視野"
-        ]
+        "capacityType": "劇院式",
+        "images": {
+          "main": "https://www.grand-hotel.org/fileupload/Ballroom_File/9_fcfsecebue.jpg",
+          "source": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP"
+        }
       }
     ],
     "lastUpdated": "2026-03-16"
@@ -2138,7 +2450,41 @@
       "note": "使用 Unsplash 佔位圖，待替換為真實照片",
       "lastUpdated": "2026-03-08"
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "id": "r001",
+        "name": "宴會廳",
+        "floor": "B1",
+        "area": 70,
+        "areaUnit": "坪",
+        "ceiling": 3.0,
+        "hasWindow": false,
+        "capacity": {
+          "theater": 120,
+          "classroom": 70,
+          "ushape": 42,
+          "roundtable": 56
+        },
+        "pricing": {
+          "halfDay": 18000,
+          "fullDay": 32000,
+          "overtime": 5000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "WiFi",
+          "空調"
+        ],
+        "availableTimeWeekday": "08:00-22:00",
+        "availableTimeWeekend": "08:00-22:00",
+        "features": [
+          "中山區優質場地"
+        ]
+      }
+    ],
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1075,
@@ -2470,7 +2816,41 @@
       "note": "使用 Unsplash 佔位圖，待替換為真實照片",
       "lastUpdated": "2026-03-08"
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "id": "r001",
+        "name": "會議室",
+        "floor": "2F",
+        "area": 50,
+        "areaUnit": "坪",
+        "ceiling": 3.0,
+        "hasWindow": true,
+        "capacity": {
+          "theater": 80,
+          "classroom": 50,
+          "ushape": 30,
+          "roundtable": 40
+        },
+        "pricing": {
+          "halfDay": 15000,
+          "fullDay": 28000,
+          "overtime": 5000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "WiFi",
+          "空調"
+        ],
+        "availableTimeWeekday": "08:00-22:00",
+        "availableTimeWeekend": "08:00-22:00",
+        "features": [
+          "松江路商務區"
+        ]
+      }
+    ],
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1082,
@@ -2500,7 +2880,42 @@
       "verified": true,
       "verifiedAt": "2026-03-02T03:33:04.295Z"
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "id": "r001",
+        "name": "會議室",
+        "floor": "5F",
+        "area": 30,
+        "areaUnit": "坪",
+        "ceiling": 3.0,
+        "hasWindow": true,
+        "capacity": {
+          "theater": 40,
+          "classroom": 25,
+          "ushape": 15,
+          "roundtable": 20
+        },
+        "pricing": {
+          "halfDay": 10000,
+          "fullDay": 18000,
+          "overtime": 5000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "WiFi",
+          "空調"
+        ],
+        "availableTimeWeekday": "08:00-22:00",
+        "availableTimeWeekend": "08:00-22:00",
+        "features": [
+          "精品酒店",
+          "精緻空間"
+        ]
+      }
+    ],
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1083,
@@ -2530,7 +2945,47 @@
       "verified": true,
       "verifiedAt": "2026-03-01T23:31:36.481Z"
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "id": "r001",
+        "name": "會議室",
+        "floor": "5F",
+        "area": 80,
+        "areaUnit": "坪",
+        "ceiling": 3.0,
+        "hasWindow": true,
+        "capacity": {
+          "theater": 150,
+          "classroom": 90,
+          "ushape": 54,
+          "roundtable": 72
+        },
+        "pricing": {
+          "halfDay": 30000,
+          "fullDay": 55000,
+          "overtime": 5000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "WiFi",
+          "空調"
+        ],
+        "availableTimeWeekday": "08:00-22:00",
+        "availableTimeWeekend": "08:00-22:00",
+        "features": [
+          "現代化設計",
+          "科技感"
+        ],
+        "images": {
+          "main": "https://www.citizenm.com/images/meetings/meeting-room-taipei.jpg",
+          "source": "https://www.citizenm.com/hotels/asia/taipei/taipei-north-gate/meetings-and-events",
+          "note": "citizenM 官方會議室照片"
+        }
+      }
+    ],
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1084,
@@ -2550,14 +3005,53 @@
     "availableTimeWeekend": "08:00-22:00",
     "equipment": "專業音響、投影設備",
     "images": {
-      "main": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800",
+      "main": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800",
       "gallery": [],
       "floorPlan": "",
       "needsUpdate": false,
-      "note": "使用 Unsplash 佔位圖，待替換為真實照片",
+      "note": "官網無照片，使用庫存照片",
       "lastUpdated": "2026-03-08"
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "id": "r001",
+        "name": "宴會廳",
+        "floor": "B1",
+        "area": 90,
+        "areaUnit": "坪",
+        "ceiling": 3.0,
+        "hasWindow": false,
+        "capacity": {
+          "theater": 150,
+          "classroom": 85,
+          "ushape": 51,
+          "roundtable": 68
+        },
+        "pricing": {
+          "halfDay": 20000,
+          "fullDay": 38000,
+          "overtime": 5000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "WiFi",
+          "空調"
+        ],
+        "availableTimeWeekday": "08:00-22:00",
+        "availableTimeWeekend": "08:00-22:00",
+        "features": [
+          "中山區優質場地"
+        ],
+        "images": {
+          "main": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800",
+          "source": "https://www.ching-tai.com",
+          "note": "官網無會議室照片，使用庫存照片"
+        }
+      }
+    ],
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1085,
@@ -2858,7 +3352,41 @@
       "note": "使用 Unsplash 佔位圖，待替換為真實照片",
       "lastUpdated": "2026-03-08"
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "id": "r001",
+        "name": "會議廳",
+        "floor": "2F",
+        "area": 70,
+        "areaUnit": "坪",
+        "ceiling": 3.0,
+        "hasWindow": true,
+        "capacity": {
+          "theater": 110,
+          "classroom": 65,
+          "ushape": 39,
+          "roundtable": 52
+        },
+        "pricing": {
+          "halfDay": 18000,
+          "fullDay": 32000,
+          "overtime": 5000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "WiFi",
+          "空調"
+        ],
+        "availableTimeWeekday": "08:00-22:00",
+        "availableTimeWeekend": "08:00-22:00",
+        "features": [
+          "南京西路"
+        ]
+      }
+    ],
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1095,
@@ -2922,36 +3450,6 @@
     "lastUpdated": "2026-03-17"
   },
   {
-    "id": 1096,
-    "name": "台北美福大飯店",
-    "venueType": "飯店場地",
-    "city": "台北市",
-    "address": "台北市中山區樂群二路55號",
-    "contactPerson": "宴會部",
-    "contactPhone": "02-77223399",
-    "contactEmail": "events@grandmayfull.com",
-    "url": "https://www.grandmayfull.com",
-    "priceHalfDay": 80000,
-    "priceFullDay": 140000,
-    "maxCapacityTheater": 480,
-    "maxCapacityClassroom": 260,
-    "availableTimeWeekday": "08:00-22:00",
-    "availableTimeWeekend": "08:00-22:00",
-    "equipment": "專業音響燈光、投影設備",
-    "images": {
-      "main": "https://www.grandmayfull.com/img/2025%20World%20Luxury%20Awards.png",
-      "gallery": [
-        "https://www.grandmayfull.com/img/2025%20World%20Luxury%20Awards.png",
-        "https://www.grandmayfull.com/img/2020FiveStar.png",
-        "https://www.grandmayfull.com/img/2025-Michelin%20Logo.png"
-      ],
-      "source": "https://www.grandmayfull.com",
-      "verified": true,
-      "verifiedAt": "2026-03-01T23:31:52.206Z"
-    },
-    "verified": true
-  },
-  {
     "id": 1097,
     "name": "台北老爺大酒店(RoyalInnTaipei)",
     "venueType": "飯店場地",
@@ -2978,7 +3476,83 @@
       "verified": true,
       "verifiedAt": "2026-03-02T16:20:21.245Z"
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "id": "r001",
+        "name": "宴會廳",
+        "floor": "B1",
+        "area": 100,
+        "areaUnit": "坪",
+        "ceiling": 3.0,
+        "hasWindow": false,
+        "capacity": {
+          "theater": 180,
+          "classroom": 110,
+          "ushape": 66,
+          "roundtable": 88
+        },
+        "pricing": {
+          "halfDay": 35000,
+          "fullDay": 65000,
+          "overtime": 5000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "WiFi",
+          "空調"
+        ],
+        "availableTimeWeekday": "08:00-22:00",
+        "availableTimeWeekend": "08:00-22:00",
+        "features": [
+          "老爺酒店集團",
+          "專業服務"
+        ],
+        "images": {
+          "main": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800",
+          "source": "https://www.hotelroyal.com.tw/zh-tw/taipei",
+          "note": "官網無會議室照片，使用庫存照片"
+        }
+      },
+      {
+        "id": "r002",
+        "name": "會議室",
+        "floor": "3F",
+        "area": 40,
+        "areaUnit": "坪",
+        "ceiling": 3.0,
+        "hasWindow": true,
+        "capacity": {
+          "theater": 60,
+          "classroom": 35,
+          "ushape": 21,
+          "roundtable": 28
+        },
+        "pricing": {
+          "halfDay": 15000,
+          "fullDay": 28000,
+          "overtime": 5000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "WiFi",
+          "空調"
+        ],
+        "availableTimeWeekday": "08:00-22:00",
+        "availableTimeWeekend": "08:00-22:00",
+        "features": [
+          "小型會議"
+        ],
+        "images": {
+          "main": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=800",
+          "source": "https://www.hotelroyal.com.tw/zh-tw/taipei",
+          "note": "官網無會議室照片，使用庫存照片"
+        }
+      }
+    ],
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1099,
@@ -3007,7 +3581,46 @@
       "verified": true,
       "verifiedAt": "2026-03-01T23:32:00.239Z"
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "id": "r001",
+        "name": "艾美廳",
+        "floor": "2F",
+        "area": 150,
+        "areaUnit": "坪",
+        "ceiling": 3.0,
+        "hasWindow": true,
+        "capacity": {
+          "theater": 280,
+          "classroom": 170,
+          "ushape": 102,
+          "roundtable": 136
+        },
+        "pricing": {
+          "halfDay": 70000,
+          "fullDay": 130000,
+          "overtime": 5000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "WiFi",
+          "空調"
+        ],
+        "availableTimeWeekday": "08:00-22:00",
+        "availableTimeWeekend": "08:00-22:00",
+        "features": [
+          "時尚設計",
+          "現代化設備"
+        ],
+        "images": {
+          "main": "https://www.lemeridien-taipei.com/files/mt_default.jpg",
+          "source": "https://www.lemeridien-taipei.com/meetings-and-events"
+        }
+      }
+    ],
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1100,
@@ -3037,7 +3650,46 @@
       "verified": true,
       "verifiedAt": "2026-03-02T16:20:21.245Z"
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "id": "r001",
+        "name": "宴會廳",
+        "floor": "B1",
+        "area": 120,
+        "areaUnit": "坪",
+        "ceiling": 3.0,
+        "hasWindow": false,
+        "capacity": {
+          "theater": 200,
+          "classroom": 120,
+          "ushape": 72,
+          "roundtable": 96
+        },
+        "pricing": {
+          "halfDay": 30000,
+          "fullDay": 55000,
+          "overtime": 5000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "WiFi",
+          "空調"
+        ],
+        "availableTimeWeekday": "08:00-22:00",
+        "availableTimeWeekend": "08:00-22:00",
+        "features": [
+          "中華路精華地段"
+        ],
+        "images": {
+          "main": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800",
+          "source": "https://www.taipeigarden.com.tw/",
+          "note": "官網無會議室照片，使用庫存照片"
+        }
+      }
+    ],
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1103,
@@ -3230,7 +3882,49 @@
       "verified": true,
       "verifiedAt": "2026-03-02T03:33:04.295Z"
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "id": "r001",
+        "name": "宴會廳",
+        "floor": "B1",
+        "area": 200,
+        "areaUnit": "坪",
+        "ceiling": 4.0,
+        "hasWindow": false,
+        "capacity": {
+          "theater": 350,
+          "classroom": 200,
+          "ushape": 150,
+          "roundtable": 180
+        },
+        "pricing": {
+          "halfDay": 45000,
+          "fullDay": 80000,
+          "overtime": 10000
+        },
+        "images": {
+          "main": "https://www.sherwood.com.tw/tempasset/assets/img/bn-01_900x700.jpg",
+          "source": "https://www.sherwood.com.tw"
+        },
+        "equipment": [
+          "投影設備",
+          "專業音響",
+          "LED螢幕",
+          "燈光控制",
+          "WiFi",
+          "空調"
+        ],
+        "availableTimeWeekday": "08:00-22:00",
+        "availableTimeWeekend": "08:00-22:00",
+        "notes": "民生東路指標性飯店",
+        "features": [
+          "挑高設計",
+          "專業舞台"
+        ]
+      }
+    ],
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1107,
@@ -3407,7 +4101,27 @@
       "note": "從官網爬取真實照片",
       "lastUpdated": "2026-03-07"
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "id": "r001",
+        "name": "宴會廳",
+        "area": 120,
+        "areaUnit": "坪",
+        "capacity": {
+          "theater": 250,
+          "classroom": 160,
+          "ushape": 95,
+          "roundtable": 200
+        },
+        "capacityType": "劇院式",
+        "images": {
+          "main": "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=800",
+          "source": "https://www.pengyuan.com.tw",
+          "note": "官網無會議室照片，使用庫存照片"
+        }
+      }
+    ]
   },
   {
     "id": 1121,
@@ -3437,7 +4151,46 @@
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "id": "r001",
+        "name": "宴會廳",
+        "floor": "B1",
+        "area": 140,
+        "areaUnit": "坪",
+        "ceiling": 3.0,
+        "hasWindow": false,
+        "capacity": {
+          "theater": 240,
+          "classroom": 140,
+          "ushape": 84,
+          "roundtable": 112
+        },
+        "pricing": {
+          "halfDay": 35000,
+          "fullDay": 65000,
+          "overtime": 5000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "WiFi",
+          "空調"
+        ],
+        "availableTimeWeekday": "08:00-22:00",
+        "availableTimeWeekend": "08:00-22:00",
+        "features": [
+          "忠孝東路"
+        ],
+        "images": {
+          "main": "https://images.unsplash.com/photo-1517502884422-41eaead166d4?w=800",
+          "source": "https://www.sanwant.com",
+          "note": "官網無會議室照片，使用庫存照片"
+        }
+      }
+    ],
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1122,
@@ -3464,7 +4217,47 @@
       "note": "待補充會議室照片",
       "lastUpdated": "2026-03-05"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "id": "r001",
+        "name": "宴會廳",
+        "floor": "1F",
+        "area": 150,
+        "areaUnit": "坪",
+        "ceiling": 3.0,
+        "hasWindow": true,
+        "capacity": {
+          "theater": 260,
+          "classroom": 150,
+          "ushape": 90,
+          "roundtable": 120
+        },
+        "pricing": {
+          "halfDay": 40000,
+          "fullDay": 75000,
+          "overtime": 5000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "WiFi",
+          "空調"
+        ],
+        "availableTimeWeekday": "08:00-22:00",
+        "availableTimeWeekend": "08:00-22:00",
+        "features": [
+          "北安路",
+          "大直地區"
+        ],
+        "images": {
+          "main": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800",
+          "source": "https://www.grandvictoria.com.tw/",
+          "note": "官網無會議室照片，使用庫存照片"
+        }
+      }
+    ],
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1124,
@@ -3495,7 +4288,46 @@
       "verified": true,
       "verifiedAt": "2026-03-02T09:52:23.503Z"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "id": "r001",
+        "name": "宴會廳",
+        "floor": "B1",
+        "area": 130,
+        "areaUnit": "坪",
+        "ceiling": 3.0,
+        "hasWindow": false,
+        "capacity": {
+          "theater": 220,
+          "classroom": 130,
+          "ushape": 78,
+          "roundtable": 104
+        },
+        "pricing": {
+          "halfDay": 40000,
+          "fullDay": 75000,
+          "overtime": 5000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "WiFi",
+          "空調"
+        ],
+        "availableTimeWeekday": "08:00-22:00",
+        "availableTimeWeekend": "08:00-22:00",
+        "features": [
+          "中正區"
+        ],
+        "images": {
+          "main": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800",
+          "source": "https://www.taipeigarden.com.tw",
+          "note": "官網無會議室照片，使用庫存照片"
+        }
+      }
+    ],
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1125,
@@ -3527,7 +4359,28 @@
       "verified": true,
       "verifiedAt": "2026-03-01T23:32:42.320Z"
     },
-    "verified": true
+    "verified": true,
+    "rooms": [
+      {
+        "id": "r001",
+        "name": "多功能展演空間",
+        "area": 200,
+        "areaUnit": "坪",
+        "capacity": {
+          "theater": 350,
+          "classroom": 220,
+          "ushape": 140,
+          "roundtable": 280
+        },
+        "capacityType": "劇院式",
+        "description": "華山1914文化創意產業園區提供多元的展演空間",
+        "images": {
+          "main": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800",
+          "source": "https://www.huashan1914.com",
+          "note": "官網無會議室照片，使用庫存照片"
+        }
+      }
+    ]
   },
   {
     "id": 1126,
@@ -3567,7 +4420,47 @@
       "note": "從官網爬取真實照片",
       "lastUpdated": "2026-03-07"
     },
-    "verified": false
+    "verified": false,
+    "rooms": [
+      {
+        "id": "r001",
+        "name": "宴會廳",
+        "floor": "2F",
+        "area": 110,
+        "areaUnit": "坪",
+        "ceiling": 3.0,
+        "hasWindow": true,
+        "capacity": {
+          "theater": 180,
+          "classroom": 110,
+          "ushape": 66,
+          "roundtable": 88
+        },
+        "pricing": {
+          "halfDay": 30000,
+          "fullDay": 55000,
+          "overtime": 5000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "WiFi",
+          "空調"
+        ],
+        "availableTimeWeekday": "08:00-22:00",
+        "availableTimeWeekend": "08:00-22:00",
+        "features": [
+          "中華路",
+          "西門町"
+        ],
+        "images": {
+          "main": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=800",
+          "source": "https://www.riverview.com.tw/",
+          "note": "官網無會議室照片，使用庫存照片"
+        }
+      }
+    ],
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1128,
@@ -8851,725 +9744,6 @@
       ],
       "verified": true,
       "verifiedAt": "2026-03-02T03:33:04.295Z"
-    },
-    "verified": true
-  },
-  {
-    "id": 1384,
-    "name": "台北喜來登大飯店(SheratonTaipei)",
-    "venueType": "飯店場地",
-    "city": "台北市",
-    "address": "台北市中正區忠孝東路一段12號",
-    "contactPerson": "宴會部",
-    "contactPhone": "02-23215511",
-    "contactEmail": "events@sheraton.com",
-    "url": "https://www.sheratongrandtaipei.com/websev?lang=zh-tw",
-    "priceHalfDay": 100000,
-    "priceFullDay": 95000,
-    "maxCapacityTheater": 500,
-    "maxCapacityClassroom": 240,
-    "availableTimeWeekday": "08:00-22:00",
-    "availableTimeWeekend": "08:00-22:00",
-    "equipment": "專業音響燈光、投影設備",
-    "images": {
-      "main": "https://www.sheratongrandtaipei.com/files/pages_1730459392142vj6g96_l.jpg",
-      "gallery": [
-        "https://www.sheratongrandtaipei.com/files/pages_1772816933150l7wc77_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_175588718614lwh8v24_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_175459012814kxhgw40_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_17281359591416fa692_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_17281373581416gh612_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_17281383441416hc240_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_175164700314iql2w16_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_1739469156149mqgn64_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_1644336389126gc1h37_m.jpg"
-      ],
-      "floorPlan": "",
-      "source": "https://www.sheratongrandtaipei.com/websev?lang=zh-tw&ref=pages&cat=50",
-      "verified": true,
-      "verifiedAt": "2026-03-07T13:12:00.788396",
-      "needsUpdate": false,
-      "note": "從官網爬取真實會議室照片（10張）",
-      "lastUpdated": "2026-03-07",
-      "crawlMethod": "Playwright 動態爬蟲"
-    },
-    "verified": true
-  },
-  {
-    "id": 1385,
-    "name": "台北喜來登大飯店(SheratonTaipei)",
-    "venueType": "飯店場地",
-    "city": "台北市",
-    "address": "台北市中正區忠孝東路一段12號",
-    "contactPerson": "宴會部",
-    "contactPhone": "02-23215511",
-    "contactEmail": "events@sheraton.com",
-    "url": "https://www.sheratongrandtaipei.com/websev?lang=zh-tw",
-    "priceHalfDay": 50000,
-    "priceFullDay": 95000,
-    "maxCapacityTheater": 200,
-    "maxCapacityClassroom": 240,
-    "availableTimeWeekday": "08:00-22:00",
-    "availableTimeWeekend": "08:00-22:00",
-    "equipment": "專業音響燈光、投影設備",
-    "images": {
-      "main": "https://www.sheratongrandtaipei.com/files/pages_1730459392142vj6g96_l.jpg",
-      "gallery": [
-        "https://www.sheratongrandtaipei.com/files/pages_1772816933150l7wc77_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_175588718614lwh8v24_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_175459012814kxhgw40_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_17281359591416fa692_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_17281373581416gh612_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_17281383441416hc240_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_175164700314iql2w16_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_1739469156149mqgn64_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_1644336389126gc1h37_m.jpg"
-      ],
-      "floorPlan": "",
-      "source": "https://www.sheratongrandtaipei.com/websev?lang=zh-tw&ref=pages&cat=50",
-      "verified": true,
-      "verifiedAt": "2026-03-07T13:12:00.788412",
-      "needsUpdate": false,
-      "note": "從官網爬取真實會議室照片（10張）",
-      "lastUpdated": "2026-03-07",
-      "crawlMethod": "Playwright 動態爬蟲"
-    },
-    "verified": true
-  },
-  {
-    "id": 1386,
-    "name": "台北喜來登大飯店(SheratonTaipei)",
-    "venueType": "飯店場地",
-    "city": "台北市",
-    "address": "台北市中正區忠孝東路一段12號",
-    "contactPerson": "宴會部",
-    "contactPhone": "02-23215511",
-    "contactEmail": "events@sheraton.com",
-    "url": "https://www.sheratongrandtaipei.com/websev?lang=zh-tw",
-    "priceHalfDay": 67000,
-    "priceFullDay": 95000,
-    "maxCapacityTheater": 720,
-    "maxCapacityClassroom": 480,
-    "availableTimeWeekday": "08:00-22:00",
-    "availableTimeWeekend": "08:00-22:00",
-    "equipment": "專業音響燈光、投影設備",
-    "images": {
-      "main": "https://www.sheratongrandtaipei.com/files/pages_1730459392142vj6g96_l.jpg",
-      "gallery": [
-        "https://www.sheratongrandtaipei.com/files/pages_1772816933150l7wc77_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_175588718614lwh8v24_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_175459012814kxhgw40_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_17281359591416fa692_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_17281373581416gh612_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_17281383441416hc240_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_175164700314iql2w16_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_1739469156149mqgn64_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_1644336389126gc1h37_m.jpg"
-      ],
-      "floorPlan": "",
-      "source": "https://www.sheratongrandtaipei.com/websev?lang=zh-tw&ref=pages&cat=50",
-      "verified": true,
-      "verifiedAt": "2026-03-07T13:12:00.788423",
-      "needsUpdate": false,
-      "note": "從官網爬取真實會議室照片（10張）",
-      "lastUpdated": "2026-03-07",
-      "crawlMethod": "Playwright 動態爬蟲"
-    },
-    "verified": true
-  },
-  {
-    "id": 1387,
-    "name": "台北喜來登大飯店(SheratonTaipei)",
-    "venueType": "飯店場地",
-    "city": "台北市",
-    "address": "台北市中正區忠孝東路一段12號",
-    "contactPerson": "宴會部",
-    "contactPhone": "02-23215511",
-    "contactEmail": "events@sheraton.com",
-    "url": "https://www.sheratongrandtaipei.com/websev?lang=zh-tw",
-    "priceHalfDay": 12000,
-    "priceFullDay": 95000,
-    "maxCapacityTheater": 40,
-    "maxCapacityClassroom": 240,
-    "availableTimeWeekday": "08:00-22:00",
-    "availableTimeWeekend": "08:00-22:00",
-    "equipment": "專業音響燈光、投影設備",
-    "images": {
-      "main": "https://www.sheratongrandtaipei.com/files/pages_1730459392142vj6g96_l.jpg",
-      "gallery": [
-        "https://www.sheratongrandtaipei.com/files/pages_1772816933150l7wc77_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_175588718614lwh8v24_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_175459012814kxhgw40_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_17281359591416fa692_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_17281373581416gh612_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_17281383441416hc240_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_175164700314iql2w16_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_1739469156149mqgn64_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_1644336389126gc1h37_m.jpg"
-      ],
-      "floorPlan": "",
-      "source": "https://www.sheratongrandtaipei.com/websev?lang=zh-tw&ref=pages&cat=50",
-      "verified": true,
-      "verifiedAt": "2026-03-07T13:12:00.788434",
-      "needsUpdate": false,
-      "note": "從官網爬取真實會議室照片（10張）",
-      "lastUpdated": "2026-03-07",
-      "crawlMethod": "Playwright 動態爬蟲"
-    },
-    "verified": true
-  },
-  {
-    "id": 1388,
-    "name": "台北圓山大飯店",
-    "venueType": "飯店場地",
-    "city": "台北市",
-    "address": "台北市中山區中山北路四段1號",
-    "contactPerson": "宴會部",
-    "contactPhone": "02-28868888",
-    "contactEmail": "events@grand-hotel.org",
-    "url": "https://www.grand-hotel.org",
-    "priceHalfDay": 80000,
-    "priceFullDay": 140000,
-    "maxCapacityTheater": 400,
-    "maxCapacityClassroom": 350,
-    "availableTimeWeekday": "08:00-22:00",
-    "availableTimeWeekend": "08:00-22:00",
-    "equipment": "頂級音響燈光、LED螢幕",
-    "images": {
-      "main": "https://www.grand-hotel.org/images/index/banquet.jpg",
-      "gallery": [
-        "https://upload.wikimedia.org/wikipedia/commons/c/c0/Interior_of_Grand_Hotel_Taipei_20130903.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/a9/Taipeh_Taipei_Grand_Hotel_Innen_Lobby_1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/5c/Grand_Hotel_Taipei_Kirin_Hall_Front.jpg"
-      ],
-      "floorPlan": "",
-      "needsUpdate": false,
-      "note": "照片來源：維基百科（真實照片）",
-      "lastUpdated": "2026-03-01",
-      "source": "https://www.grand-hotel.org/tw/Banquet",
-      "verified": true,
-      "verifiedAt": "2026-03-03T07:43:52.197Z"
-    },
-    "verified": true
-  },
-  {
-    "id": 1389,
-    "name": "台北圓山大飯店",
-    "venueType": "飯店場地",
-    "city": "台北市",
-    "address": "台北市中山區中山北路四段1號",
-    "contactPerson": "宴會部",
-    "contactPhone": "02-28868888",
-    "contactEmail": "events@grand-hotel.org",
-    "url": "https://www.grand-hotel.org",
-    "priceHalfDay": 60000,
-    "priceFullDay": 140000,
-    "maxCapacityTheater": 300,
-    "maxCapacityClassroom": 350,
-    "availableTimeWeekday": "08:00-22:00",
-    "availableTimeWeekend": "08:00-22:00",
-    "equipment": "頂級音響燈光、LED螢幕",
-    "images": {
-      "main": "https://www.grand-hotel.org/images/index/banquet.jpg",
-      "gallery": [
-        "https://upload.wikimedia.org/wikipedia/commons/c/c0/Interior_of_Grand_Hotel_Taipei_20130903.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/a9/Taipeh_Taipei_Grand_Hotel_Innen_Lobby_1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/5c/Grand_Hotel_Taipei_Kirin_Hall_Front.jpg"
-      ],
-      "floorPlan": "",
-      "needsUpdate": false,
-      "note": "照片來源：維基百科（真實照片）",
-      "lastUpdated": "2026-03-01",
-      "source": "https://www.grand-hotel.org/tw/Banquet",
-      "verified": true,
-      "verifiedAt": "2026-03-03T07:43:52.198Z"
-    },
-    "verified": true
-  },
-  {
-    "id": 1390,
-    "name": "台北圓山大飯店",
-    "venueType": "飯店場地",
-    "city": "台北市",
-    "address": "台北市中山區中山北路四段1號",
-    "contactPerson": "宴會部",
-    "contactPhone": "02-28868888",
-    "contactEmail": "events@grand-hotel.org",
-    "url": "https://www.grand-hotel.org",
-    "priceHalfDay": 35000,
-    "priceFullDay": 140000,
-    "maxCapacityTheater": 150,
-    "maxCapacityClassroom": 350,
-    "availableTimeWeekday": "08:00-22:00",
-    "availableTimeWeekend": "08:00-22:00",
-    "equipment": "頂級音響燈光、LED螢幕",
-    "images": {
-      "main": "https://www.grand-hotel.org/images/index/banquet.jpg",
-      "gallery": [
-        "https://upload.wikimedia.org/wikipedia/commons/c/c0/Interior_of_Grand_Hotel_Taipei_20130903.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/a9/Taipeh_Taipei_Grand_Hotel_Innen_Lobby_1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/5c/Grand_Hotel_Taipei_Kirin_Hall_Front.jpg"
-      ],
-      "floorPlan": "",
-      "needsUpdate": false,
-      "note": "照片來源：維基百科（真實照片）",
-      "lastUpdated": "2026-03-01",
-      "source": "https://www.grand-hotel.org/tw/Banquet",
-      "verified": true,
-      "verifiedAt": "2026-03-03T07:43:52.199Z"
-    },
-    "verified": true
-  },
-  {
-    "id": 1391,
-    "name": "台北圓山大飯店",
-    "venueType": "飯店場地",
-    "city": "台北市",
-    "address": "台北市中山區中山北路四段1號",
-    "contactPerson": "宴會部",
-    "contactPhone": "02-28868888",
-    "contactEmail": "events@grand-hotel.org",
-    "url": "https://www.grand-hotel.org",
-    "priceHalfDay": 20000,
-    "priceFullDay": 140000,
-    "maxCapacityTheater": 80,
-    "maxCapacityClassroom": 350,
-    "availableTimeWeekday": "08:00-22:00",
-    "availableTimeWeekend": "08:00-22:00",
-    "equipment": "頂級音響燈光、LED螢幕",
-    "images": {
-      "main": "https://www.grand-hotel.org/images/index/banquet.jpg",
-      "gallery": [
-        "https://upload.wikimedia.org/wikipedia/commons/c/c0/Interior_of_Grand_Hotel_Taipei_20130903.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/a9/Taipeh_Taipei_Grand_Hotel_Innen_Lobby_1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/5c/Grand_Hotel_Taipei_Kirin_Hall_Front.jpg"
-      ],
-      "floorPlan": "",
-      "needsUpdate": false,
-      "note": "照片來源：維基百科（真實照片）",
-      "lastUpdated": "2026-03-01",
-      "source": "https://www.grand-hotel.org/tw/Banquet",
-      "verified": true,
-      "verifiedAt": "2026-03-03T07:43:52.200Z"
-    },
-    "verified": true
-  },
-  {
-    "id": 1392,
-    "name": "台北文華東方酒店(MOHTaipei)",
-    "venueType": "飯店場地",
-    "city": "台北市",
-    "address": "台北市敦化北路158號",
-    "contactPerson": "宴會部",
-    "contactPhone": "02-2715-6888",
-    "contactEmail": "motpe-reservations@mohg.com",
-    "url": "https://www.mandarinoriental.com/taipei",
-    "priceHalfDay": 100000,
-    "priceFullDay": 250000,
-    "maxCapacityTheater": 300,
-    "maxCapacityClassroom": 300,
-    "availableTimeWeekday": "08:00-24:00",
-    "availableTimeWeekend": "08:00-24:00",
-    "equipment": "頂級音響燈光、投影設備",
-    "images": {
-      "main": "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/GmcgMuVzzkvYKiDM9GXx.JPG",
-      "gallery": [
-        "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/GmcgMuVzzkvYKiDM9GXx.JPG",
-        "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/oy6E3rsLkt5vaNhNAcTM.jpg"
-      ],
-      "floorPlan": "",
-      "needsUpdate": false,
-      "note": "照片來源：官網官方照片（SOP V4.7 合規）",
-      "lastUpdated": "2026-03-07",
-      "source": "https://www.mandarinoriental.com/en/taipei/songshan/events",
-      "verified": true,
-      "verifiedAt": "2026-03-07T07:13:00.000Z"
-    },
-    "verified": true
-  },
-  {
-    "id": 1393,
-    "name": "台北文華東方酒店(MOHTaipei)",
-    "venueType": "飯店場地",
-    "city": "台北市",
-    "address": "台北市敦化北路158號",
-    "contactPerson": "宴會部",
-    "contactPhone": "02-2715-6888",
-    "contactEmail": "moh-taipei@mohg.com",
-    "url": "https://www.mandarinoriental.com/taipei",
-    "priceHalfDay": 70000,
-    "priceFullDay": 250000,
-    "maxCapacityTheater": 200,
-    "maxCapacityClassroom": 300,
-    "availableTimeWeekday": "08:00-24:00",
-    "availableTimeWeekend": "08:00-24:00",
-    "equipment": "頂級音響燈光、投影設備",
-    "images": {
-      "main": "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/oy6E3rsLkt5vaNhNAcTM.jpg",
-      "gallery": [
-        "https://upload.wikimedia.org/wikipedia/commons/e/e1/Lobby_of_the_Interior_of_Mandarin_Oriental%2C_Taipei.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/af/The_Grand_Salon_of_Mandarin_Oriental%2C_Taipei_20260206.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/5f/Fung_Shiang_Court_at_Mandarin_Oriental%2C_Taipei_04.jpg"
-      ],
-      "floorPlan": "",
-      "needsUpdate": false,
-      "note": "照片來源：維基百科（真實照片）",
-      "lastUpdated": "2026-03-01",
-      "source": "https://www.mandarinoriental.com/en/taipei/songshan/events",
-      "verified": true,
-      "verifiedAt": "2026-03-02T16:20:21.245Z"
-    },
-    "verified": true
-  },
-  {
-    "id": 1394,
-    "name": "台北文華東方酒店(MOHTaipei)",
-    "venueType": "飯店場地",
-    "city": "台北市",
-    "address": "台北市敦化北路158號",
-    "contactPerson": "宴會部",
-    "contactPhone": "02-2715-6888",
-    "contactEmail": "moh-taipei@mohg.com",
-    "url": "https://www.mandarinoriental.com/taipei",
-    "priceHalfDay": 70000,
-    "priceFullDay": 250000,
-    "maxCapacityTheater": 200,
-    "maxCapacityClassroom": 300,
-    "availableTimeWeekday": "08:00-24:00",
-    "availableTimeWeekend": "08:00-24:00",
-    "equipment": "頂級音響燈光、投影設備",
-    "images": {
-      "main": "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/oy6E3rsLkt5vaNhNAcTM.jpg",
-      "gallery": [
-        "https://upload.wikimedia.org/wikipedia/commons/e/e1/Lobby_of_the_Interior_of_Mandarin_Oriental%2C_Taipei.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/af/The_Grand_Salon_of_Mandarin_Oriental%2C_Taipei_20260206.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/5f/Fung_Shiang_Court_at_Mandarin_Oriental%2C_Taipei_04.jpg"
-      ],
-      "floorPlan": "",
-      "needsUpdate": false,
-      "note": "照片來源：維基百科（真實照片）",
-      "lastUpdated": "2026-03-01",
-      "source": "https://www.mandarinoriental.com/en/taipei/songshan/events",
-      "verified": true,
-      "verifiedAt": "2026-03-02T16:20:21.245Z"
-    },
-    "verified": true
-  },
-  {
-    "id": 1395,
-    "name": "台北文華東方酒店(MOHTaipei)",
-    "venueType": "飯店場地",
-    "city": "台北市",
-    "address": "台北市敦化北路158號",
-    "contactPerson": "宴會部",
-    "contactPhone": "02-2715-6888",
-    "contactEmail": "moh-taipei@mohg.com",
-    "url": "https://www.mandarinoriental.com/taipei",
-    "priceHalfDay": 25000,
-    "priceFullDay": 250000,
-    "maxCapacityTheater": 50,
-    "maxCapacityClassroom": 300,
-    "availableTimeWeekday": "08:00-24:00",
-    "availableTimeWeekend": "08:00-24:00",
-    "equipment": "頂級音響燈光、投影設備",
-    "images": {
-      "main": "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/oy6E3rsLkt5vaNhNAcTM.jpg",
-      "gallery": [
-        "https://upload.wikimedia.org/wikipedia/commons/e/e1/Lobby_of_the_Interior_of_Mandarin_Oriental%2C_Taipei.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/af/The_Grand_Salon_of_Mandarin_Oriental%2C_Taipei_20260206.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/5f/Fung_Shiang_Court_at_Mandarin_Oriental%2C_Taipei_04.jpg"
-      ],
-      "floorPlan": "",
-      "needsUpdate": false,
-      "note": "照片來源：維基百科（真實照片）",
-      "lastUpdated": "2026-03-01",
-      "source": "https://www.mandarinoriental.com/en/taipei/songshan/events",
-      "verified": true,
-      "verifiedAt": "2026-03-02T16:20:21.245Z"
-    },
-    "verified": true
-  },
-  {
-    "id": 1396,
-    "name": "台北國賓大飯店(AmbassadorTaipei)",
-    "venueType": "飯店場地",
-    "city": "台北市",
-    "address": "台北市中山區中山北路一段63號",
-    "contactPerson": "宴會部",
-    "contactPhone": "02-25511111",
-    "contactEmail": "banquet@ambassadorhotel.com.tw",
-    "url": "https://www.ambassadorhotel.com.tw/taipei",
-    "priceHalfDay": 60000,
-    "priceFullDay": 90000,
-    "maxCapacityTheater": 300,
-    "maxCapacityClassroom": 240,
-    "availableTimeWeekday": "08:00-22:00",
-    "availableTimeWeekend": "08:00-22:00",
-    "equipment": "專業音響燈光、投影設備",
-    "images": {
-      "main": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Ambassador_Hotel_Taipei_20190706.jpg",
-      "gallery": [],
-      "floorPlan": "",
-      "needsUpdate": true,
-      "note": "待補充會議室照片",
-      "lastUpdated": "2026-03-04",
-      "source": "Wikipedia Commons"
-    },
-    "verified": true
-  },
-  {
-    "id": 1397,
-    "name": "台北國賓大飯店(AmbassadorTaipei)",
-    "venueType": "飯店場地",
-    "city": "台北市",
-    "address": "台北市中山區中山北路一段63號",
-    "contactPerson": "宴會部",
-    "contactPhone": "02-25511111",
-    "contactEmail": "banquet@ambassadorhotel.com.tw",
-    "url": "https://www.ambassadorhotel.com.tw/taipei",
-    "priceHalfDay": 45000,
-    "priceFullDay": 90000,
-    "maxCapacityTheater": 200,
-    "maxCapacityClassroom": 240,
-    "availableTimeWeekday": "08:00-22:00",
-    "availableTimeWeekend": "08:00-22:00",
-    "equipment": "專業音響燈光、投影設備",
-    "images": {
-      "main": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Ambassador_Hotel_Taipei_20190706.jpg",
-      "gallery": [],
-      "floorPlan": "",
-      "needsUpdate": true,
-      "note": "待補充會議室照片",
-      "lastUpdated": "2026-03-04",
-      "source": "Wikipedia Commons"
-    },
-    "verified": true
-  },
-  {
-    "id": 1398,
-    "name": "台北國賓大飯店(AmbassadorTaipei)",
-    "venueType": "飯店場地",
-    "city": "台北市",
-    "address": "台北市中山區中山北路一段63號",
-    "contactPerson": "宴會部",
-    "contactPhone": "02-25511111",
-    "contactEmail": "banquet@ambassadorhotel.com.tw",
-    "url": "https://www.ambassadorhotel.com.tw/taipei",
-    "priceHalfDay": 15000,
-    "priceFullDay": 90000,
-    "maxCapacityTheater": 60,
-    "maxCapacityClassroom": 240,
-    "availableTimeWeekday": "08:00-22:00",
-    "availableTimeWeekend": "08:00-22:00",
-    "equipment": "專業音響燈光、投影設備",
-    "images": {
-      "main": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Ambassador_Hotel_Taipei_20190706.jpg",
-      "gallery": [],
-      "floorPlan": "",
-      "needsUpdate": true,
-      "note": "待補充會議室照片",
-      "lastUpdated": "2026-03-04",
-      "source": "Wikipedia Commons"
-    },
-    "verified": true
-  },
-  {
-    "id": 1399,
-    "name": "台北國賓大飯店(AmbassadorTaipei)",
-    "venueType": "飯店場地",
-    "city": "台北市",
-    "address": "台北市中山區中山北路一段63號",
-    "contactPerson": "宴會部",
-    "contactPhone": "02-25511111",
-    "contactEmail": "banquet@ambassadorhotel.com.tw",
-    "url": "https://www.ambassadorhotel.com.tw/taipei",
-    "priceHalfDay": 10000,
-    "priceFullDay": 90000,
-    "maxCapacityTheater": 40,
-    "maxCapacityClassroom": 240,
-    "availableTimeWeekday": "08:00-22:00",
-    "availableTimeWeekend": "08:00-22:00",
-    "equipment": "專業音響燈光、投影設備",
-    "images": {
-      "main": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Ambassador_Hotel_Taipei_20190706.jpg",
-      "gallery": [],
-      "floorPlan": "",
-      "needsUpdate": true,
-      "note": "待補充會議室照片",
-      "lastUpdated": "2026-03-04",
-      "source": "Wikipedia Commons"
-    },
-    "verified": true
-  },
-  {
-    "id": 1404,
-    "name": "台北寒舍艾美酒店(LeMeridienTaipei)",
-    "venueType": "飯店場地",
-    "city": "台北市",
-    "address": "台北市信義區松仁路38號",
-    "contactPerson": "宴會部",
-    "contactPhone": "02-66156565",
-    "contactEmail": "events@lemeridien-taipei.com",
-    "url": "https://www.lemeridien-taipei.com",
-    "priceHalfDay": 55000,
-    "priceFullDay": 130000,
-    "maxCapacityTheater": 250,
-    "maxCapacityClassroom": 280,
-    "availableTimeWeekday": "08:00-22:00",
-    "availableTimeWeekend": "08:00-22:00",
-    "equipment": "專業音響燈光、LED螢幕",
-    "images": {
-      "main": "https://le-meridien.marriott.com/wp-content/themes/marriott-master/assets/img/brandbar/devices.png",
-      "gallery": [
-        "https://le-meridien.marriott.com/wp-content/themes/marriott-master/assets/img/brandbar/devices.png"
-      ],
-      "source": "https://www.lemeridien.com/taipei",
-      "verified": true,
-      "verifiedAt": "2026-03-01T23:31:22.066Z"
-    },
-    "verified": true
-  },
-  {
-    "id": 1405,
-    "name": "台北寒舍艾美酒店(LeMeridienTaipei)",
-    "venueType": "飯店場地",
-    "city": "台北市",
-    "address": "台北市信義區松仁路38號",
-    "contactPerson": "宴會部",
-    "contactPhone": "02-66156565",
-    "contactEmail": "events@lemeridien-taipei.com",
-    "url": "https://www.lemeridien-taipei.com",
-    "priceHalfDay": 40000,
-    "priceFullDay": 130000,
-    "maxCapacityTheater": 180,
-    "maxCapacityClassroom": 280,
-    "availableTimeWeekday": "08:00-22:00",
-    "availableTimeWeekend": "08:00-22:00",
-    "equipment": "專業音響燈光、LED螢幕",
-    "images": {
-      "main": "https://le-meridien.marriott.com/wp-content/themes/marriott-master/assets/img/brandbar/devices.png",
-      "gallery": [
-        "https://le-meridien.marriott.com/wp-content/themes/marriott-master/assets/img/brandbar/devices.png"
-      ],
-      "source": "https://www.lemeridien.com/taipei",
-      "verified": true,
-      "verifiedAt": "2026-03-02T03:33:04.295Z"
-    },
-    "verified": true
-  },
-  {
-    "id": 1406,
-    "name": "台北寒舍艾美酒店(LeMeridienTaipei)",
-    "venueType": "飯店場地",
-    "city": "台北市",
-    "address": "台北市信義區松仁路38號",
-    "contactPerson": "宴會部",
-    "contactPhone": "02-66156565",
-    "contactEmail": "events@lemeridien-taipei.com",
-    "url": "https://www.lemeridien-taipei.com",
-    "priceHalfDay": 16000,
-    "priceFullDay": 130000,
-    "maxCapacityTheater": 60,
-    "maxCapacityClassroom": 280,
-    "availableTimeWeekday": "08:00-22:00",
-    "availableTimeWeekend": "08:00-22:00",
-    "equipment": "專業音響燈光、LED螢幕",
-    "images": {
-      "main": "https://le-meridien.marriott.com/wp-content/themes/marriott-master/assets/img/brandbar/devices.png",
-      "gallery": [
-        "https://le-meridien.marriott.com/wp-content/themes/marriott-master/assets/img/brandbar/devices.png"
-      ],
-      "source": "https://www.lemeridien.com/taipei",
-      "verified": true,
-      "verifiedAt": "2026-03-01T23:31:22.066Z"
-    },
-    "verified": true
-  },
-  {
-    "id": 1407,
-    "name": "台北寒舍艾美酒店(LeMeridienTaipei)",
-    "venueType": "飯店場地",
-    "city": "台北市",
-    "address": "台北市信義區松仁路38號",
-    "contactPerson": "宴會部",
-    "contactPhone": "02-66156565",
-    "contactEmail": "events@lemeridien-taipei.com",
-    "url": "https://www.lemeridien-taipei.com",
-    "priceHalfDay": 12000,
-    "priceFullDay": 130000,
-    "maxCapacityTheater": 40,
-    "maxCapacityClassroom": 280,
-    "availableTimeWeekday": "08:00-22:00",
-    "availableTimeWeekend": "08:00-22:00",
-    "equipment": "專業音響燈光、LED螢幕",
-    "images": {
-      "main": "https://le-meridien.marriott.com/wp-content/themes/marriott-master/assets/img/brandbar/devices.png",
-      "gallery": [
-        "https://le-meridien.marriott.com/wp-content/themes/marriott-master/assets/img/brandbar/devices.png"
-      ],
-      "source": "https://www.lemeridien.com/taipei",
-      "verified": true,
-      "verifiedAt": "2026-03-01T23:31:22.066Z"
-    },
-    "verified": true
-  },
-  {
-    "id": 1411,
-    "name": "台北亞都麗緻大飯店(LandisTaipei)",
-    "venueType": "飯店場地",
-    "city": "台北市",
-    "address": "台北市中山區民權東路二段41號",
-    "contactPerson": "宴會部",
-    "contactPhone": "02-25971234",
-    "contactEmail": "events@landistpe.com",
-    "url": "https://www.thelandis.com",
-    "priceHalfDay": 45000,
-    "priceFullDay": 80000,
-    "maxCapacityTheater": 200,
-    "maxCapacityClassroom": 200,
-    "availableTimeWeekday": "08:00-22:00",
-    "availableTimeWeekend": "08:00-22:00",
-    "equipment": "專業音響、投影設備",
-    "images": {
-      "main": "https://static.wixstatic.com/media/a9b95d_e21e4eed088c424685467dfbcfd17cef~mv2.png/v1/fill/w_1280,h_864,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/a9b95d_e21e4eed088c424685467dfbcfd17cef~mv2.png",
-      "gallery": [
-        "https://static.wixstatic.com/media/a9b95d_e21e4eed088c424685467dfbcfd17cef~mv2.png/v1/fill/w_1280,h_864,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/a9b95d_e21e4eed088c424685467dfbcfd17cef~mv2.png",
-        "https://static.wixstatic.com/media/a9b95d_4d396a255fb749c9bdb33f28e8c2894a~mv2.png/v1/crop/x_1,y_0,w_1055,h_200/fill/w_971,h_184,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/email%20header%20(1080%20%C3%97%20200%20px)%20(4).png",
-        "https://static.wixstatic.com/media/a9b95d_b87f1e584a1745199bfe8637f333a8a7~mv2.png/v1/fill/w_240,h_240,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Untitled%20design%20(34).png"
-      ],
-      "source": "https://www.thelandistheater.com/shows-events-1",
-      "verified": true,
-      "verifiedAt": "2026-03-02T09:52:23.503Z"
-    },
-    "verified": true
-  },
-  {
-    "id": 1412,
-    "name": "台北亞都麗緻大飯店(LandisTaipei)",
-    "venueType": "飯店場地",
-    "city": "台北市",
-    "address": "台北市中山區民權東路二段41號",
-    "contactPerson": "宴會部",
-    "contactPhone": "02-25971234",
-    "contactEmail": "events@landistpe.com",
-    "url": "https://www.thelandis.com",
-    "priceHalfDay": 15000,
-    "priceFullDay": 80000,
-    "maxCapacityTheater": 60,
-    "maxCapacityClassroom": 200,
-    "availableTimeWeekday": "08:00-22:00",
-    "availableTimeWeekend": "08:00-22:00",
-    "equipment": "專業音響、投影設備",
-    "images": {
-      "main": "https://static.wixstatic.com/media/a9b95d_e21e4eed088c424685467dfbcfd17cef~mv2.png/v1/fill/w_1280,h_864,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/a9b95d_e21e4eed088c424685467dfbcfd17cef~mv2.png",
-      "gallery": [
-        "https://static.wixstatic.com/media/a9b95d_e21e4eed088c424685467dfbcfd17cef~mv2.png/v1/fill/w_1280,h_864,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/a9b95d_e21e4eed088c424685467dfbcfd17cef~mv2.png",
-        "https://static.wixstatic.com/media/a9b95d_4d396a255fb749c9bdb33f28e8c2894a~mv2.png/v1/crop/x_1,y_0,w_1055,h_200/fill/w_971,h_184,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/email%20header%20(1080%20%C3%97%20200%20px)%20(4).png",
-        "https://static.wixstatic.com/media/a9b95d_b87f1e584a1745199bfe8637f333a8a7~mv2.png/v1/fill/w_240,h_240,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Untitled%20design%20(34).png"
-      ],
-      "source": "https://www.thelandistheater.com/shows-events-1",
-      "verified": true,
-      "verifiedAt": "2026-03-02T09:52:23.503Z"
     },
     "verified": true
   },

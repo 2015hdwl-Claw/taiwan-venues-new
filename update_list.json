@@ -1,0 +1,1374 @@
+{
+  "timestamp": "2026-03-16T21:11:10.495594",
+  "total_venues": 135,
+  "needs_update_count": 129,
+  "large_venues_count": 40,
+  "large_needs_update": [
+    {
+      "id": 1034,
+      "name": "NUZONE展演空間",
+      "capacity": 500,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.nuzone.com.tw/"
+    },
+    {
+      "id": 1041,
+      "name": "兄弟大飯店",
+      "capacity": 350,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": false,
+      "url": "https://www.brotherhotel.com.tw/"
+    },
+    {
+      "id": 1043,
+      "name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+      "capacity": 380,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.courtyardtaipei.com.tw/zh-TW/"
+    },
+    {
+      "id": 1051,
+      "name": "台北亞都麗緻大飯店(LandisTaipei)",
+      "capacity": 350,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://taipei.landishotelsresorts.com/"
+    },
+    {
+      "id": 1053,
+      "name": "台北兄弟大飯店(BrotherTaipei)",
+      "capacity": 280,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.brotherhotel.com.tw/?cat=75"
+    },
+    {
+      "id": 1057,
+      "name": "台北典華",
+      "capacity": 800,
+      "issues": [
+        "⚠️ 使用 Unsplash 佔位圖",
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.denwell.com/"
+    },
+    {
+      "id": 1068,
+      "name": "台北喜瑞飯店",
+      "capacity": 250,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.ambiencehotel.com.tw/"
+    },
+    {
+      "id": 1083,
+      "name": "台北北門世民酒店 citizenM Taipei North Gate",
+      "capacity": 300,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.citizenm.com/hotels/asia/taipei/taipei-north-gate"
+    },
+    {
+      "id": 1084,
+      "name": "台北慶泰大飯店",
+      "capacity": 240,
+      "issues": [
+        "⚠️ 使用 Unsplash 佔位圖",
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.ching-tai.com"
+    },
+    {
+      "id": 1086,
+      "name": "台北晶華酒店 Regent Taipei",
+      "capacity": 700,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.regenttaiwan.com"
+    },
+    {
+      "id": 1090,
+      "name": "茹曦酒店 ILLUME TAIPEI",
+      "capacity": 400,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.theillumehotel.com/zh/"
+    },
+    {
+      "id": 1095,
+      "name": "台北美福大飯店",
+      "capacity": 550,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": false,
+      "url": "https://www.grandmayfull.com/"
+    },
+    {
+      "id": 1096,
+      "name": "台北美福大飯店",
+      "capacity": 480,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.grandmayfull.com"
+    },
+    {
+      "id": 1097,
+      "name": "台北老爺大酒店(RoyalInnTaipei)",
+      "capacity": 320,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.hotelroyal.com.tw/zh-tw/taipei"
+    },
+    {
+      "id": 1099,
+      "name": "台北艾美酒店",
+      "capacity": 400,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.lemeridien.com/taipei"
+    },
+    {
+      "id": 1100,
+      "name": "台北花園大酒店(TGHotel)",
+      "capacity": 300,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.taipeigarden.com.tw/"
+    },
+    {
+      "id": 1103,
+      "name": "台北萬豪酒店(MarriottTaipei)",
+      "capacity": 600,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": false,
+      "url": "https://www.taipeimarriott.com.tw/"
+    },
+    {
+      "id": 1104,
+      "name": "台北西華飯店(SherwoodTaipei)",
+      "capacity": 380,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.sherwood.com.tw"
+    },
+    {
+      "id": 1107,
+      "name": "台北體育館",
+      "capacity": 2500,
+      "issues": [
+        "⚠️ 使用 Unsplash 佔位圖",
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://sports.gov.taipei/"
+    },
+    {
+      "id": 1109,
+      "name": "台大綜合體育館",
+      "capacity": 2000,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.ntu.edu.tw"
+    },
+    {
+      "id": 1116,
+      "name": "彭園婚宴會館",
+      "capacity": 250,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.pengyuan.com.tw"
+    },
+    {
+      "id": 1121,
+      "name": "神旺大飯店",
+      "capacity": 350,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": false,
+      "url": "https://www.sanwant.com"
+    },
+    {
+      "id": 1122,
+      "name": "維多麗亞酒店",
+      "capacity": 350,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": false,
+      "url": "https://www.grandvictoria.com.tw/"
+    },
+    {
+      "id": 1124,
+      "name": "花園大酒店",
+      "capacity": 400,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": false,
+      "url": "https://www.taipeigarden.com.tw"
+    },
+    {
+      "id": 1125,
+      "name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+      "capacity": 350,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.huashan1914.com"
+    },
+    {
+      "id": 1126,
+      "name": "豪景大酒店",
+      "capacity": 300,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": false,
+      "url": "https://www.riverview.com.tw/"
+    },
+    {
+      "id": 1129,
+      "name": "青青婚宴會館",
+      "capacity": 400,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.77-67.com/"
+    },
+    {
+      "id": 1384,
+      "name": "台北喜來登大飯店(SheratonTaipei)",
+      "capacity": 500,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.sheratongrandtaipei.com/websev?lang=zh-tw"
+    },
+    {
+      "id": 1386,
+      "name": "台北喜來登大飯店(SheratonTaipei)",
+      "capacity": 720,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.sheratongrandtaipei.com/websev?lang=zh-tw"
+    },
+    {
+      "id": 1388,
+      "name": "台北圓山大飯店",
+      "capacity": 400,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.grand-hotel.org"
+    },
+    {
+      "id": 1389,
+      "name": "台北圓山大飯店",
+      "capacity": 300,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.grand-hotel.org"
+    },
+    {
+      "id": 1392,
+      "name": "台北文華東方酒店(MOHTaipei)",
+      "capacity": 300,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.mandarinoriental.com/taipei"
+    },
+    {
+      "id": 1396,
+      "name": "台北國賓大飯店(AmbassadorTaipei)",
+      "capacity": 300,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.ambassadorhotel.com.tw/taipei"
+    },
+    {
+      "id": 1404,
+      "name": "台北寒舍艾美酒店(LeMeridienTaipei)",
+      "capacity": 250,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.lemeridien-taipei.com"
+    }
+  ],
+  "other_needs_update": [
+    {
+      "id": 1031,
+      "name": "CAMA咖啡",
+      "capacity": 40,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.camacafe.com/"
+    },
+    {
+      "id": 1032,
+      "name": "CLBC大安商務中心",
+      "capacity": 8,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://clbc.tw/"
+    },
+    {
+      "id": 1035,
+      "name": "Regus商務中心",
+      "capacity": 35,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.regus.com"
+    },
+    {
+      "id": 1036,
+      "name": "Simple Kaffa",
+      "capacity": 55,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://simplekaffa.com/"
+    },
+    {
+      "id": 1038,
+      "name": "The Executive Centre",
+      "capacity": 45,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.executivecentre.com"
+    },
+    {
+      "id": 1042,
+      "name": "公務人力發展學院",
+      "capacity": 160,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.hrd.gov.tw"
+    },
+    {
+      "id": 1044,
+      "name": "典藏咖啡廳",
+      "capacity": 60,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://artouch.com/food/"
+    },
+    {
+      "id": 1045,
+      "name": "北科大創新育成中心",
+      "capacity": 80,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.ntut.edu.tw"
+    },
+    {
+      "id": 1048,
+      "name": "台北一樂園大飯店",
+      "capacity": 150,
+      "issues": [
+        "⚠️ 使用 Unsplash 佔位圖",
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.ile-hotel.com"
+    },
+    {
+      "id": 1049,
+      "name": "台北世貿中心(TWTCA)展覽大樓",
+      "capacity": 100,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.twtc.com.tw/"
+    },
+    {
+      "id": 1055,
+      "name": "台北六福客棧(Leofoo)",
+      "capacity": 200,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.leofoo.com.tw"
+    },
+    {
+      "id": 1059,
+      "name": "台北友春大飯店",
+      "capacity": 160,
+      "issues": [
+        "⚠️ 使用 Unsplash 佔位圖",
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.youchun-hotel.com"
+    },
+    {
+      "id": 1065,
+      "name": "台北唯客樂文旅",
+      "capacity": 120,
+      "issues": [
+        "⚠️ 使用 Unsplash 佔位圖",
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.victoriam.com/"
+    },
+    {
+      "id": 1066,
+      "name": "台北商務會館",
+      "capacity": 180,
+      "issues": [
+        "⚠️ 使用 Unsplash 佔位圖",
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "http://www.tbc-group.com/"
+    },
+    {
+      "id": 1073,
+      "name": "台北姿美大飯店",
+      "capacity": 180,
+      "issues": [
+        "⚠️ 使用 Unsplash 佔位圖",
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.zibei-hotel.com"
+    },
+    {
+      "id": 1075,
+      "name": "台北寒舍喜來登大飯店",
+      "capacity": 0,
+      "issues": [
+        "❌ 缺少地址",
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少價格資訊",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.sheratongrandtaipei.com"
+    },
+    {
+      "id": 1080,
+      "name": "台北康華大飯店",
+      "capacity": 180,
+      "issues": [
+        "⚠️ 使用 Unsplash 佔位圖",
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.kanghua-hotel.com"
+    },
+    {
+      "id": 1082,
+      "name": "台北怡亨酒店 Hotel Éclat Taipei",
+      "capacity": 50,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.eclathotels.com/zt/taipei"
+    },
+    {
+      "id": 1092,
+      "name": "台北第一大飯店",
+      "capacity": 180,
+      "issues": [
+        "⚠️ 使用 Unsplash 佔位圖",
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.firsthotel.com"
+    },
+    {
+      "id": 1113,
+      "name": "寒舍艾美酒店",
+      "capacity": 0,
+      "issues": [
+        "❌ 缺少聯絡電話",
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少價格資訊",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.lemeridien.com/taipei"
+    },
+    {
+      "id": 1128,
+      "name": "集思台大會議中心(NTUCC)",
+      "capacity": 180,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.meeting.com.tw/ntu/"
+    },
+    {
+      "id": 1334,
+      "name": "台北中山運動中心",
+      "capacity": 55,
+      "issues": [
+        "⚠️ 使用 Unsplash 佔位圖",
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://cssc.cyc.org.tw/"
+    },
+    {
+      "id": 1385,
+      "name": "台北喜來登大飯店(SheratonTaipei)",
+      "capacity": 200,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.sheratongrandtaipei.com/websev?lang=zh-tw"
+    },
+    {
+      "id": 1387,
+      "name": "台北喜來登大飯店(SheratonTaipei)",
+      "capacity": 40,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.sheratongrandtaipei.com/websev?lang=zh-tw"
+    },
+    {
+      "id": 1390,
+      "name": "台北圓山大飯店",
+      "capacity": 150,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.grand-hotel.org"
+    },
+    {
+      "id": 1391,
+      "name": "台北圓山大飯店",
+      "capacity": 80,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.grand-hotel.org"
+    },
+    {
+      "id": 1393,
+      "name": "台北文華東方酒店(MOHTaipei)",
+      "capacity": 200,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.mandarinoriental.com/taipei"
+    },
+    {
+      "id": 1394,
+      "name": "台北文華東方酒店(MOHTaipei)",
+      "capacity": 200,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.mandarinoriental.com/taipei"
+    },
+    {
+      "id": 1395,
+      "name": "台北文華東方酒店(MOHTaipei)",
+      "capacity": 50,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.mandarinoriental.com/taipei"
+    },
+    {
+      "id": 1397,
+      "name": "台北國賓大飯店(AmbassadorTaipei)",
+      "capacity": 200,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.ambassadorhotel.com.tw/taipei"
+    },
+    {
+      "id": 1398,
+      "name": "台北國賓大飯店(AmbassadorTaipei)",
+      "capacity": 60,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.ambassadorhotel.com.tw/taipei"
+    },
+    {
+      "id": 1399,
+      "name": "台北國賓大飯店(AmbassadorTaipei)",
+      "capacity": 40,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.ambassadorhotel.com.tw/taipei"
+    },
+    {
+      "id": 1405,
+      "name": "台北寒舍艾美酒店(LeMeridienTaipei)",
+      "capacity": 180,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.lemeridien-taipei.com"
+    },
+    {
+      "id": 1406,
+      "name": "台北寒舍艾美酒店(LeMeridienTaipei)",
+      "capacity": 60,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.lemeridien-taipei.com"
+    },
+    {
+      "id": 1407,
+      "name": "台北寒舍艾美酒店(LeMeridienTaipei)",
+      "capacity": 40,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.lemeridien-taipei.com"
+    },
+    {
+      "id": 1411,
+      "name": "台北亞都麗緻大飯店(LandisTaipei)",
+      "capacity": 200,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.thelandis.com"
+    },
+    {
+      "id": 1412,
+      "name": "台北亞都麗緻大飯店(LandisTaipei)",
+      "capacity": 60,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://www.thelandis.com"
+    },
+    {
+      "id": 1439,
+      "name": "CLBC大安商務中心",
+      "capacity": 8,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://clbc.tw/"
+    },
+    {
+      "id": 1440,
+      "name": "CLBC大安商務中心",
+      "capacity": 8,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）"
+      ],
+      "verified": true,
+      "url": "https://clbc.tw/"
+    },
+    {
+      "id": 1448,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1451,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1452,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1453,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1454,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1455,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1456,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1457,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1458,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1459,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1460,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1461,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1462,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1463,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1464,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1465,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1466,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1467,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1468,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1469,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1470,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1471,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1472,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1473,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1474,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1475,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1476,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1477,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1478,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1479,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1480,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1481,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1482,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1483,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1484,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1485,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1486,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1487,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1488,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1489,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1490,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1491,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1492,
+      "name": "台北國際會議中心(TICC)",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.ticc.com.tw/"
+    },
+    {
+      "id": 1493,
+      "name": "師大進修推廣學院",
+      "capacity": 0,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少價格資訊",
+        "⚠️ 缺少容納人數資訊"
+      ],
+      "verified": false,
+      "url": "https://www.sce.ntnu.edu.tw/home/index.php"
+    },
+    {
+      "id": 1494,
+      "name": "師大進修推廣學院",
+      "capacity": 148,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少價格資訊"
+      ],
+      "verified": false,
+      "url": "https://www.sce.ntnu.edu.tw/home/index.php"
+    },
+    {
+      "id": 1495,
+      "name": "師大進修推廣學院",
+      "capacity": 88,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少價格資訊"
+      ],
+      "verified": false,
+      "url": "https://www.sce.ntnu.edu.tw/home/index.php"
+    },
+    {
+      "id": 1496,
+      "name": "師大進修推廣學院",
+      "capacity": 40,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少價格資訊"
+      ],
+      "verified": false,
+      "url": "https://www.sce.ntnu.edu.tw/home/index.php"
+    },
+    {
+      "id": 1497,
+      "name": "師大進修推廣學院",
+      "capacity": 40,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少價格資訊"
+      ],
+      "verified": false,
+      "url": "https://www.sce.ntnu.edu.tw/home/index.php"
+    },
+    {
+      "id": 1498,
+      "name": "師大進修推廣學院",
+      "capacity": 24,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少價格資訊"
+      ],
+      "verified": false,
+      "url": "https://www.sce.ntnu.edu.tw/home/index.php"
+    },
+    {
+      "id": 1499,
+      "name": "師大進修推廣學院",
+      "capacity": 34,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少價格資訊"
+      ],
+      "verified": false,
+      "url": "https://www.sce.ntnu.edu.tw/home/index.php"
+    },
+    {
+      "id": 1500,
+      "name": "師大進修推廣學院",
+      "capacity": 40,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少價格資訊"
+      ],
+      "verified": false,
+      "url": "https://www.sce.ntnu.edu.tw/home/index.php"
+    },
+    {
+      "id": 1501,
+      "name": "師大進修推廣學院",
+      "capacity": 17,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少價格資訊"
+      ],
+      "verified": false,
+      "url": "https://www.sce.ntnu.edu.tw/home/index.php"
+    },
+    {
+      "id": 1502,
+      "name": "師大進修推廣學院",
+      "capacity": 12,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少價格資訊"
+      ],
+      "verified": false,
+      "url": "https://www.sce.ntnu.edu.tw/home/index.php"
+    },
+    {
+      "id": 1503,
+      "name": "師大進修推廣學院",
+      "capacity": 111,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少價格資訊"
+      ],
+      "verified": false,
+      "url": "https://www.sce.ntnu.edu.tw/home/index.php"
+    },
+    {
+      "id": 1504,
+      "name": "師大進修推廣學院",
+      "capacity": 30,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少價格資訊"
+      ],
+      "verified": false,
+      "url": "https://www.sce.ntnu.edu.tw/home/index.php"
+    },
+    {
+      "id": 1505,
+      "name": "師大進修推廣學院",
+      "capacity": 40,
+      "issues": [
+        "⚠️ 缺少會議室資訊（rooms）",
+        "⚠️ 缺少價格資訊"
+      ],
+      "verified": false,
+      "url": "https://www.sce.ntnu.edu.tw/home/index.php"
+    }
+  ]
+}

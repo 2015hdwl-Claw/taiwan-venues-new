@@ -76,7 +76,7 @@ function renderRoomDetail() {
     document.getElementById('breadcrumbRoom').textContent = room.name;
     
     // 主圖
-    const mainImage = room.images?.main || venue.images?.main || 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800';
+    const mainImage = room.image || room.images?.main || venue.images?.main || 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800';
     document.getElementById('roomMainImage').src = mainImage;
     document.getElementById('roomMainImage').alt = room.name;
     

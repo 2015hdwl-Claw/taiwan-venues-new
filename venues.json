@@ -3254,50 +3254,508 @@
     "name": "台北萬豪酒店(MarriottTaipei)",
     "venueType": "飯店場地",
     "city": "台北市",
-    "address": "台北市中山區樂群二路199號",
+    "address": "台北市中山區樂群二路55號",
     "contactPerson": "宴會部",
     "contactPhone": "(02)8502-3899",
     "contactEmail": "catering@taipeimarriott.com.tw",
     "url": "https://www.taipeimarriott.com.tw/",
     "meetingUrl": "https://www.taipeimarriott.com.tw/websev?cat=page&id=39",
-    "priceHalfDay": 450000,
-    "priceFullDay": 850000,
+    "priceHalfDay": 290000,
+    "priceFullDay": 1550000,
     "maxCapacityTheater": 1200,
-    "maxCapacityClassroom": 780,
+    "maxCapacityClassroom": 675,
     "availableTimeWeekday": "09:00-22:00",
     "availableTimeWeekend": "09:00-22:00",
     "equipment": "同步翻譯、大型舞台、專業音響、戶外場地、投影設備、燈光、舞台、音響系統、頂級投影、麥克風、大型車梯（車輛直達5樓）",
     "images": {
-      "main": "https://www.taipeimarriott.com.tw/files/page_176900685014vqao357_s.jpg",
+      "main": "https://www.taipeimarriott.com.tw/files/page_176900693814vqap059_m.jpg",
       "gallery": [
         "https://www.marriott.com/marriottassets/search/homepage/Joe/MBV_app3_748x332.png?interpolation=progressive-bilinear&downsize=480px:*%20,%20https://www.marriott.com/marriottassets/search/homepage/Joe/MBV_app3_748x332.png?interpolation=progressive-bilinear&downsize=480px:*%202x"
       ],
       "source": "https://www.taipeimarriott.com.tw/websev?cat=page&id=39",
       "verified": true,
-      "verifiedAt": "2026-03-17T08:27:00.000Z",
+      "verifiedAt": "2026-03-17T09:31:49.008923",
       "lastUpdated": "2026-03-17",
       "needsUpdate": false,
-      "updateReason": "補齊26個會議室資料（完整性驗證）",
-      "note": "聯絡資訊來自官網會議&宴會專線頁面，會議室資訊完整"
+      "updateReason": "修正地址和會議室照片（使用官網照片）",
+      "note": "所有會議室已更新為官網真實照片或相關場地照片"
     },
     "verified": true,
     "rooms": [
       {
         "id": "1103-01",
+        "name": "春廳",
+        "nameEn": "Spring",
+        "floor": "3樓",
+        "area": 74,
+        "areaUnit": "坪",
+        "sqm": 22,
+        "length": 9.8,
+        "width": 7.5,
+        "height": 3.6,
+        "capacity": {
+          "theater": 60,
+          "classroom": 36,
+          "ushape": 24,
+          "boardroom": 18,
+          "roundtable_small": 30,
+          "roundtable_large": "30-40",
+          "cocktail": 40
+        },
+        "price": {
+          "morning": 32000,
+          "afternoon": 70000,
+          "evening": 95000,
+          "overnight": 15000,
+          "additionalHour": 10000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統"
+        ],
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "方正"
+      },
+      {
+        "id": "1103-02",
+        "name": "夏廳",
+        "nameEn": "Summer",
+        "floor": "3樓",
+        "area": 60,
+        "areaUnit": "坪",
+        "sqm": 18,
+        "length": 8.0,
+        "width": 7.0,
+        "height": 3.6,
+        "capacity": {
+          "theater": 50,
+          "classroom": 27,
+          "ushape": 21,
+          "boardroom": 12,
+          "roundtable_small": 20,
+          "roundtable_large": "20-30",
+          "cocktail": 30
+        },
+        "price": {
+          "morning": 25000,
+          "afternoon": 50000,
+          "evening": 75000,
+          "overnight": 12000,
+          "additionalHour": 8000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統"
+        ],
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "方正"
+      },
+      {
+        "id": "1103-03",
+        "name": "秋廳",
+        "nameEn": "Autumn",
+        "floor": "3樓",
+        "area": 60,
+        "areaUnit": "坪",
+        "sqm": 18,
+        "length": 8.0,
+        "width": 7.0,
+        "height": 3.6,
+        "capacity": {
+          "theater": 50,
+          "classroom": 27,
+          "ushape": 21,
+          "boardroom": 12,
+          "roundtable_small": 20,
+          "roundtable_large": "20-30",
+          "cocktail": 30
+        },
+        "price": {
+          "morning": 25000,
+          "afternoon": 50000,
+          "evening": 75000,
+          "overnight": 12000,
+          "additionalHour": 8000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統"
+        ],
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "方正"
+      },
+      {
+        "id": "1103-04",
+        "name": "冬廳",
+        "nameEn": "Winter",
+        "floor": "3樓",
+        "area": 68,
+        "areaUnit": "坪",
+        "sqm": 21,
+        "length": 9.1,
+        "width": 7.5,
+        "height": 3.6,
+        "capacity": {
+          "theater": 60,
+          "classroom": 36,
+          "ushape": 24,
+          "boardroom": 18,
+          "roundtable_small": 30,
+          "roundtable_large": "30-40",
+          "cocktail": 40
+        },
+        "price": {
+          "morning": 32000,
+          "afternoon": 70000,
+          "evening": 95000,
+          "overnight": 15000,
+          "additionalHour": 10000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統"
+        ],
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "方正"
+      },
+      {
+        "id": "1103-05",
+        "name": "四季廳",
+        "nameEn": "Spring-Winter",
+        "floor": "3樓",
+        "area": 262,
+        "areaUnit": "坪",
+        "sqm": 79,
+        "length": 34.9,
+        "width": 7.5,
+        "height": 3.6,
+        "capacity": {
+          "theater": 300,
+          "classroom": 150,
+          "roundtable_small": 100,
+          "roundtable_large": "100-120",
+          "cocktail": 140
+        },
+        "price": {
+          "morning": 110000,
+          "afternoon": 240000,
+          "evening": 320000,
+          "overnight": 54000,
+          "additionalHour": 35000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統"
+        ],
+        "features": [
+          "四廳合併"
+        ],
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "長方形",
+        "description": "春廳+夏廳+秋廳+冬廳合併"
+      },
+      {
+        "id": "1103-06",
+        "name": "會議一",
+        "nameEn": "Salon I",
+        "floor": "3樓",
+        "area": 27,
+        "areaUnit": "坪",
+        "sqm": 8,
+        "length": 5.8,
+        "width": 4.7,
+        "height": 3.0,
+        "capacity": {
+          "theater": 25,
+          "ushape": 15,
+          "boardroom": 12
+        },
+        "price": {
+          "morning": 13000,
+          "afternoon": 13000,
+          "evening": 39000,
+          "overnight": 6000,
+          "additionalHour": 4000
+        },
+        "equipment": [
+          "投影設備",
+          "白板"
+        ],
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "方正"
+      },
+      {
+        "id": "1103-07",
+        "name": "會議二",
+        "nameEn": "Salon II",
+        "floor": "3樓",
+        "area": 23,
+        "areaUnit": "坪",
+        "sqm": 7,
+        "length": 5.8,
+        "width": 4.0,
+        "height": 3.0,
+        "capacity": {
+          "theater": 25,
+          "ushape": 15,
+          "boardroom": 12
+        },
+        "price": {
+          "morning": 13000,
+          "afternoon": 13000,
+          "evening": 39000,
+          "overnight": 6000,
+          "additionalHour": 4000
+        },
+        "equipment": [
+          "投影設備",
+          "白板"
+        ],
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "方正"
+      },
+      {
+        "id": "1103-08",
+        "name": "會議三",
+        "nameEn": "Salon III",
+        "floor": "3樓",
+        "area": 23,
+        "areaUnit": "坪",
+        "sqm": 7,
+        "length": 5.8,
+        "width": 4.0,
+        "height": 3.0,
+        "capacity": {
+          "theater": 25,
+          "ushape": 15,
+          "boardroom": 12
+        },
+        "price": {
+          "morning": 13000,
+          "afternoon": 13000,
+          "evening": 39000,
+          "overnight": 6000,
+          "additionalHour": 4000
+        },
+        "equipment": [
+          "投影設備",
+          "白板"
+        ],
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "方正"
+      },
+      {
+        "id": "1103-09",
+        "name": "會議四",
+        "nameEn": "Salon IV",
+        "floor": "3樓",
+        "area": 26,
+        "areaUnit": "坪",
+        "sqm": 8,
+        "length": 5.8,
+        "width": 4.5,
+        "height": 3.0,
+        "capacity": {
+          "theater": 25,
+          "ushape": 15,
+          "boardroom": 12
+        },
+        "price": {
+          "morning": 13000,
+          "afternoon": 13000,
+          "evening": 39000,
+          "overnight": 6000,
+          "additionalHour": 4000
+        },
+        "equipment": [
+          "投影設備",
+          "白板"
+        ],
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "方正"
+      },
+      {
+        "id": "1103-10",
+        "name": "會議一+二",
+        "nameEn": "Salon I+II",
+        "floor": "3樓",
+        "area": 52,
+        "areaUnit": "坪",
+        "sqm": 16,
+        "length": 5.8,
+        "width": 8.9,
+        "height": 3.0,
+        "capacity": {
+          "theater": 50,
+          "classroom": 27,
+          "ushape": 21,
+          "boardroom": 18
+        },
+        "price": {
+          "morning": 25000,
+          "afternoon": 25000,
+          "evening": 75000,
+          "overnight": 12000,
+          "additionalHour": 8000
+        },
+        "equipment": [
+          "投影設備",
+          "白板"
+        ],
+        "features": [
+          "會議一+會議二合併"
+        ],
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "長方形"
+      },
+      {
+        "id": "1103-11",
+        "name": "會議三+四",
+        "nameEn": "Salon III+IV",
+        "floor": "3樓",
+        "area": 49,
+        "areaUnit": "坪",
+        "sqm": 15,
+        "length": 5.8,
+        "width": 8.4,
+        "height": 3.0,
+        "capacity": {
+          "theater": 50,
+          "classroom": 27,
+          "ushape": 21,
+          "boardroom": 18
+        },
+        "price": {
+          "morning": 25000,
+          "afternoon": 25000,
+          "evening": 75000,
+          "overnight": 12000,
+          "additionalHour": 8000
+        },
+        "equipment": [
+          "投影設備",
+          "白板"
+        ],
+        "features": [
+          "會議三+會議四合併"
+        ],
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "長方形"
+      },
+      {
+        "id": "1103-12",
+        "name": "萬豪一廳",
+        "nameEn": "Ballroom I",
+        "floor": "5樓",
+        "area": 721,
+        "areaUnit": "坪",
+        "sqm": 218,
+        "length": 30.7,
+        "width": 23.5,
+        "height": 9.9,
+        "capacity": {
+          "theater": 700,
+          "classroom": 400,
+          "roundtable_small": 350,
+          "roundtable_large": "350-450",
+          "cocktail": 550
+        },
+        "price": {
+          "morning": 160000,
+          "afternoon": 900000,
+          "evening": 1000000,
+          "overnight": 75000,
+          "additionalHour": 40000
+        },
+        "equipment": [
+          "頂級投影",
+          "專業音響",
+          "舞台",
+          "燈光"
+        ],
+        "features": [
+          "挑高9.9米",
+          "無樑柱"
+        ],
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "方正",
+        "description": "台北最大無樑柱宴會廳之一"
+      },
+      {
+        "id": "1103-13",
+        "name": "萬豪二廳",
+        "nameEn": "Ballroom II",
+        "floor": "5樓",
+        "area": 526,
+        "areaUnit": "坪",
+        "sqm": 159,
+        "length": 22.4,
+        "width": 23.5,
+        "height": 9.9,
+        "capacity": {
+          "theater": 500,
+          "classroom": 240,
+          "roundtable_small": 250,
+          "roundtable_large": "250-300",
+          "cocktail": 350
+        },
+        "price": {
+          "morning": 130000,
+          "afternoon": 650000,
+          "evening": 700000,
+          "overnight": 55000,
+          "additionalHour": 30000
+        },
+        "equipment": [
+          "頂級投影",
+          "專業音響",
+          "舞台",
+          "燈光"
+        ],
+        "features": [
+          "挑高9.9米",
+          "無樑柱"
+        ],
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "方正"
+      },
+      {
+        "id": "1103-14",
         "name": "萬豪廳",
         "nameEn": "Grand Ballroom",
         "floor": "5樓",
-        "area": 420,
+        "area": 1260,
         "areaUnit": "坪",
+        "sqm": 381,
+        "length": 53.6,
+        "width": 23.5,
+        "height": 9.9,
         "capacity": {
           "theater": 1200,
-          "classroom": 780,
-          "ushape": 480,
-          "roundtable": 900
+          "classroom": 675,
+          "roundtable_small": 600,
+          "roundtable_large": "600-850",
+          "cocktail": 1000
         },
         "price": {
-          "halfDay": 450000,
-          "fullDay": 850000
+          "morning": 290000,
+          "afternoon": 1550000,
+          "evening": 1700000,
+          "overnight": 120000,
+          "additionalHour": 70000
         },
         "equipment": [
           "頂級投影",
@@ -3307,141 +3765,304 @@
           "同步翻譯"
         ],
         "features": [
-          "挑高9米",
+          "挑高9.9米",
           "無樑柱",
           "可容納車輛進場展示"
         ],
-        "shape": "方正",
-        "length": 35.0,
-        "width": 12.0,
-        "height": 9.0,
         "pillar": false,
         "pillarCount": 0,
-        "description": "台北國際五星級飯店最大無樑柱宴會廳",
-        "images": []
+        "shape": "方正",
+        "description": "台北國際五星級飯店最大無樑柱宴會廳"
       },
       {
-        "id": "1103-02",
-        "name": "萬豪一廳",
-        "nameEn": "Grand Ballroom I",
+        "id": "1103-15",
+        "name": "福廳",
+        "nameEn": "Fortune",
         "floor": "5樓",
-        "area": 210,
+        "area": 72,
         "areaUnit": "坪",
+        "sqm": 22,
+        "length": 8.4,
+        "width": 8.5,
+        "height": 4.0,
         "capacity": {
-          "theater": 600,
-          "classroom": 390,
-          "ushape": 240,
-          "roundtable": 450
+          "theater": 60,
+          "classroom": 36,
+          "ushape": 24,
+          "boardroom": 18,
+          "roundtable_small": 30,
+          "roundtable_large": "30-40",
+          "cocktail": 40
         },
         "price": {
-          "halfDay": 230000,
-          "fullDay": 430000
-        },
-        "equipment": [
-          "頂級投影",
-          "專業音響",
-          "舞台",
-          "燈光"
-        ],
-        "features": [
-          "特殊動線規劃",
-          "可容納車輛進場展示"
-        ],
-        "shape": "方正",
-        "length": 17.5,
-        "width": 12.0,
-        "height": 9.0,
-        "pillar": false,
-        "pillarCount": 0,
-        "description": "萬豪廳分廳，特殊動線規劃",
-        "images": []
-      },
-      {
-        "id": "1103-03",
-        "name": "寰宇廳",
-        "nameEn": "Panorama Ballroom",
-        "floor": "36樓",
-        "area": 75,
-        "areaUnit": "坪",
-        "capacity": {
-          "theater": 200,
-          "classroom": 130,
-          "ushape": 90,
-          "roundtable": 120
-        },
-        "price": {
-          "halfDay": 80000,
-          "fullDay": 150000
+          "morning": 25000,
+          "afternoon": 50000,
+          "evening": 75000,
+          "overnight": 12000,
+          "additionalHour": 8000
         },
         "equipment": [
           "投影設備",
-          "音響系統",
-          "麥克風"
+          "音響系統"
         ],
         "features": [
-          "高空宴會廳",
-          "台北絕美景致"
+          "挑高4米"
         ],
-        "shape": "方正",
-        "length": 12.0,
-        "width": 10.0,
-        "height": 3.5,
         "pillar": false,
         "pillarCount": 0,
-        "description": "36樓高空宴會廳，台北絕美景致",
-        "images": []
+        "shape": "方正"
       },
       {
-        "id": "1103-04",
-        "name": "宜華廳",
-        "nameEn": "Junior Ballroom",
+        "id": "1103-16",
+        "name": "祿廳",
+        "nameEn": "Prosperity",
         "floor": "5樓",
-        "area": 55,
+        "area": 92,
         "areaUnit": "坪",
+        "sqm": 28,
+        "length": 10.8,
+        "width": 8.5,
+        "height": 4.0,
         "capacity": {
-          "theater": 150,
-          "classroom": 98,
-          "ushape": 65,
-          "roundtable": 75
+          "theater": 80,
+          "classroom": 48,
+          "ushape": 27,
+          "boardroom": 18,
+          "roundtable_small": 40,
+          "roundtable_large": "40-50",
+          "cocktail": 50
         },
         "price": {
-          "halfDay": 50000,
-          "fullDay": 95000
+          "morning": 32000,
+          "afternoon": 70000,
+          "evening": 95000,
+          "overnight": 15000,
+          "additionalHour": 10000
         },
         "equipment": [
           "投影設備",
-          "音響系統",
-          "麥克風"
+          "音響系統"
+        ],
+        "features": [
+          "挑高4米"
+        ],
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "方正"
+      },
+      {
+        "id": "1103-17",
+        "name": "壽廳",
+        "nameEn": "Longevity",
+        "floor": "5樓",
+        "area": 74,
+        "areaUnit": "坪",
+        "sqm": 22,
+        "length": 8.6,
+        "width": 8.5,
+        "height": 4.0,
+        "capacity": {
+          "theater": 60,
+          "classroom": 36,
+          "ushape": 24,
+          "boardroom": 18,
+          "roundtable_small": 30,
+          "roundtable_large": "30-40",
+          "cocktail": 40
+        },
+        "price": {
+          "morning": 25000,
+          "afternoon": 50000,
+          "evening": 75000,
+          "overnight": 12000,
+          "additionalHour": 8000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統"
+        ],
+        "features": [
+          "挑高4米"
+        ],
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "方正"
+      },
+      {
+        "id": "1103-18",
+        "name": "福祿壽廳",
+        "nameEn": "Fortune-Longevity",
+        "floor": "5樓",
+        "area": 238,
+        "areaUnit": "坪",
+        "sqm": 72,
+        "length": 27.8,
+        "width": 8.5,
+        "height": 4.0,
+        "capacity": {
+          "theater": 250,
+          "classroom": 135,
+          "roundtable_small": 100,
+          "roundtable_large": "100-120",
+          "cocktail": 130
+        },
+        "price": {
+          "morning": 80000,
+          "afternoon": 240000,
+          "evening": 230000,
+          "overnight": 40000,
+          "additionalHour": 26000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統"
         ],
         "features": [
           "挑高4米",
-          "雅致空間"
+          "三廳合併"
         ],
-        "shape": "方正",
-        "length": 10.0,
-        "width": 8.0,
-        "height": 4.0,
         "pillar": false,
         "pillarCount": 0,
-        "description": "挑高4米雅致空間",
-        "images": []
+        "shape": "長方形",
+        "description": "福廳+祿廳+壽廳合併"
       },
       {
-        "id": "1103-05",
+        "id": "1103-19",
+        "name": "宜華一廳",
+        "nameEn": "Junior I",
+        "floor": "5樓",
+        "area": 145,
+        "areaUnit": "坪",
+        "sqm": 44,
+        "length": 14.2,
+        "width": 10.2,
+        "height": 4.0,
+        "capacity": {
+          "theater": 120,
+          "classroom": 84,
+          "ushape": 42,
+          "roundtable_small": 60,
+          "roundtable_large": "60-70",
+          "cocktail": 120
+        },
+        "price": {
+          "morning": 65000,
+          "afternoon": 140000,
+          "evening": 180000,
+          "overnight": 20000,
+          "additionalHour": 18000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統"
+        ],
+        "features": [
+          "挑高4米"
+        ],
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "方正"
+      },
+      {
+        "id": "1103-20",
+        "name": "宜華二廳",
+        "nameEn": "Junior II",
+        "floor": "5樓",
+        "area": 117,
+        "areaUnit": "坪",
+        "sqm": 35,
+        "length": 11.4,
+        "width": 10.2,
+        "height": 4.0,
+        "capacity": {
+          "theater": 90,
+          "classroom": 48,
+          "ushape": 27,
+          "roundtable_small": 40,
+          "roundtable_large": "40-50",
+          "cocktail": 90
+        },
+        "price": {
+          "morning": 55000,
+          "afternoon": 100000,
+          "evening": 125000,
+          "overnight": 16000,
+          "additionalHour": 15000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統"
+        ],
+        "features": [
+          "挑高4米"
+        ],
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "方正"
+      },
+      {
+        "id": "1103-21",
+        "name": "宜華廳",
+        "nameEn": "Junior Ballroom",
+        "floor": "5樓",
+        "area": 260,
+        "areaUnit": "坪",
+        "sqm": 79,
+        "length": 25.6,
+        "width": 10.2,
+        "height": 4.0,
+        "capacity": {
+          "theater": 230,
+          "classroom": 144,
+          "ushape": 66,
+          "roundtable_small": 120,
+          "roundtable_large": "120-150",
+          "cocktail": 230
+        },
+        "price": {
+          "morning": 120000,
+          "afternoon": 300000,
+          "evening": 300000,
+          "overnight": 35000,
+          "additionalHour": 30000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統"
+        ],
+        "features": [
+          "挑高4米",
+          "兩廳合併"
+        ],
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "長方形",
+        "description": "宜華一廳+宜華二廳合併"
+      },
+      {
+        "id": "1103-22",
         "name": "Garden Villa",
         "nameEn": "Garden Villa",
         "floor": "8樓",
-        "area": 110,
+        "area": 500,
         "areaUnit": "坪",
+        "sqm": 151,
+        "length": 17.4,
+        "width": 28.4,
+        "height": 7.0,
         "capacity": {
-          "theater": 300,
-          "classroom": 200,
-          "ushape": 130,
-          "roundtable": 180
+          "theater": 440,
+          "classroom": 264,
+          "roundtable_small": 250,
+          "roundtable_large": "250-320",
+          "cocktail": "400+200"
         },
         "price": {
-          "halfDay": 120000,
-          "fullDay": 230000
+          "morning": 120000,
+          "afternoon": 600000,
+          "evening": 800000,
+          "overnight": 75000,
+          "additionalHour": 40000
         },
         "equipment": [
           "投影設備",
@@ -3453,614 +4074,135 @@
           "歐式禮堂",
           "戶外場地"
         ],
-        "shape": "L型",
-        "length": 20.0,
-        "width": 15.0,
-        "height": 6.0,
         "pillar": false,
         "pillarCount": 0,
-        "description": "空中綠地花園和歐式禮堂，戶外場地",
-        "images": []
-      },
-      {
-        "id": "1103-06",
-        "name": "福祿壽廳（全開）",
-        "floor": "3樓",
-        "area": 72,
-        "areaUnit": "坪",
-        "capacity": {
-          "theater": 100,
-          "classroom": 65,
-          "ushape": 43,
-          "roundtable": 50
-        },
-        "price": {
-          "halfDay": 35000,
-          "fullDay": 65000
-        },
-        "equipment": [
-          "投影設備",
-          "音響系統"
-        ],
-        "features": [
-          "可分為4個獨立空間"
-        ],
-        "shape": "方正",
-        "length": 14.0,
-        "width": 14.0,
-        "height": 3.2,
-        "pillar": true,
-        "pillarCount": 4,
-        "description": "全開72坪(238平方米)，可分為福廳、祿廳、壽廳、喜廳",
-        "images": [],
-        "subRooms": [
-          {
-            "name": "福廳",
-            "area": 18,
-            "capacity": 25
-          },
-          {
-            "name": "祿廳",
-            "area": 18,
-            "capacity": 25
-          },
-          {
-            "name": "壽廳",
-            "area": 18,
-            "capacity": 25
-          },
-          {
-            "name": "喜廳",
-            "area": 18,
-            "capacity": 25
-          }
-        ]
-      },
-      {
-        "id": "1103-07",
-        "name": "福廳",
-        "floor": "3樓",
-        "area": 18,
-        "areaUnit": "坪",
-        "capacity": {
-          "theater": 25,
-          "classroom": 16,
-          "ushape": 11,
-          "roundtable": 12
-        },
-        "price": {
-          "halfDay": 9000,
-          "fullDay": 16000
-        },
-        "equipment": [
-          "投影設備",
-          "音響系統"
-        ],
-        "shape": "方正",
-        "pillar": false,
-        "images": [],
-        "parentRoom": "福祿壽廳（全開）"
-      },
-      {
-        "id": "1103-08",
-        "name": "祿廳",
-        "floor": "3樓",
-        "area": 18,
-        "areaUnit": "坪",
-        "capacity": {
-          "theater": 25,
-          "classroom": 16,
-          "ushape": 11,
-          "roundtable": 12
-        },
-        "price": {
-          "halfDay": 9000,
-          "fullDay": 16000
-        },
-        "equipment": [
-          "投影設備",
-          "音響系統"
-        ],
-        "shape": "方正",
-        "pillar": false,
-        "images": [],
-        "parentRoom": "福祿壽廳（全開）"
-      },
-      {
-        "id": "1103-09",
-        "name": "壽廳",
-        "floor": "3樓",
-        "area": 18,
-        "areaUnit": "坪",
-        "capacity": {
-          "theater": 25,
-          "classroom": 16,
-          "ushape": 11,
-          "roundtable": 12
-        },
-        "price": {
-          "halfDay": 9000,
-          "fullDay": 16000
-        },
-        "equipment": [
-          "投影設備",
-          "音響系統"
-        ],
-        "shape": "方正",
-        "pillar": false,
-        "images": [],
-        "parentRoom": "福祿壽廳（全開）"
-      },
-      {
-        "id": "1103-10",
-        "name": "喜廳",
-        "floor": "3樓",
-        "area": 18,
-        "areaUnit": "坪",
-        "capacity": {
-          "theater": 25,
-          "classroom": 16,
-          "ushape": 11,
-          "roundtable": 12
-        },
-        "price": {
-          "halfDay": 9000,
-          "fullDay": 16000
-        },
-        "equipment": [
-          "投影設備",
-          "音響系統"
-        ],
-        "shape": "方正",
-        "pillar": false,
-        "images": [],
-        "parentRoom": "福祿壽廳（全開）"
-      },
-      {
-        "id": "1103-11",
-        "name": "四季廳（全開）",
-        "floor": "3樓",
-        "area": 78,
-        "areaUnit": "坪",
-        "capacity": {
-          "theater": 120,
-          "classroom": 78,
-          "ushape": 52,
-          "roundtable": 60
-        },
-        "price": {
-          "halfDay": 40000,
-          "fullDay": 75000
-        },
-        "equipment": [
-          "投影設備",
-          "音響系統"
-        ],
-        "features": [
-          "可分為4個獨立空間"
-        ],
-        "shape": "方正",
-        "length": 13.0,
-        "width": 13.0,
-        "height": 3.2,
-        "pillar": true,
-        "pillarCount": 4,
-        "description": "四廳合併78坪，可分為春廳、夏廳、秋廳、冬廳",
-        "images": [],
-        "subRooms": [
-          {
-            "name": "春廳",
-            "area": 19.5,
-            "capacity": 30
-          },
-          {
-            "name": "夏廳",
-            "area": 19.5,
-            "capacity": 30
-          },
-          {
-            "name": "秋廳",
-            "area": 19.5,
-            "capacity": 30
-          },
-          {
-            "name": "冬廳",
-            "area": 19.5,
-            "capacity": 30
-          }
-        ]
-      },
-      {
-        "id": "1103-12",
-        "name": "春廳",
-        "floor": "3樓",
-        "area": 19.5,
-        "areaUnit": "坪",
-        "capacity": {
-          "theater": 30,
-          "classroom": 20,
-          "ushape": 13,
-          "roundtable": 15
-        },
-        "price": {
-          "halfDay": 10000,
-          "fullDay": 19000
-        },
-        "equipment": [
-          "投影設備",
-          "音響系統"
-        ],
-        "shape": "方正",
-        "pillar": false,
-        "images": [],
-        "parentRoom": "四季廳（全開）"
-      },
-      {
-        "id": "1103-13",
-        "name": "夏廳",
-        "floor": "3樓",
-        "area": 19.5,
-        "areaUnit": "坪",
-        "capacity": {
-          "theater": 30,
-          "classroom": 20,
-          "ushape": 13,
-          "roundtable": 15
-        },
-        "price": {
-          "halfDay": 10000,
-          "fullDay": 19000
-        },
-        "equipment": [
-          "投影設備",
-          "音響系統"
-        ],
-        "shape": "方正",
-        "pillar": false,
-        "images": [],
-        "parentRoom": "四季廳（全開）"
-      },
-      {
-        "id": "1103-14",
-        "name": "VR Salon I",
-        "floor": "3樓",
-        "area": 20,
-        "areaUnit": "坪",
-        "capacity": {
-          "theater": 40,
-          "classroom": 25,
-          "ushape": 16,
-          "roundtable": 20
-        },
-        "price": {
-          "halfDay": 12000,
-          "fullDay": 22000
-        },
-        "equipment": [
-          "投影設備",
-          "白板",
-          "視訊會議"
-        ],
-        "shape": "方正",
-        "pillar": false,
-        "images": []
-      },
-      {
-        "id": "1103-15",
-        "name": "VR Salon II",
-        "floor": "3樓",
-        "area": 20,
-        "areaUnit": "坪",
-        "capacity": {
-          "theater": 40,
-          "classroom": 25,
-          "ushape": 16,
-          "roundtable": 20
-        },
-        "price": {
-          "halfDay": 12000,
-          "fullDay": 22000
-        },
-        "equipment": [
-          "投影設備",
-          "白板",
-          "視訊會議"
-        ],
-        "shape": "方正",
-        "pillar": false,
-        "images": []
-      },
-      {
-        "id": "1103-16",
-        "name": "VR Salon III",
-        "floor": "3樓",
-        "area": 15,
-        "areaUnit": "坪",
-        "capacity": {
-          "theater": 30,
-          "classroom": 20,
-          "ushape": 12,
-          "roundtable": 15
-        },
-        "price": {
-          "halfDay": 10000,
-          "fullDay": 18000
-        },
-        "equipment": [
-          "投影設備",
-          "白板"
-        ],
-        "shape": "方正",
-        "pillar": false,
-        "images": []
-      },
-      {
-        "id": "1103-17",
-        "name": "VR Salon IV",
-        "floor": "3樓",
-        "area": 15,
-        "areaUnit": "坪",
-        "capacity": {
-          "theater": 30,
-          "classroom": 20,
-          "ushape": 12,
-          "roundtable": 15
-        },
-        "price": {
-          "halfDay": 10000,
-          "fullDay": 18000
-        },
-        "equipment": [
-          "投影設備",
-          "白板"
-        ],
-        "shape": "方正",
-        "pillar": false,
-        "images": []
-      },
-      {
-        "id": "1103-18",
-        "name": "多功能會議室 A",
-        "floor": "3樓",
-        "area": 12,
-        "areaUnit": "坪",
-        "capacity": {
-          "theater": 20,
-          "classroom": 12,
-          "ushape": 8,
-          "roundtable": 10
-        },
-        "price": {
-          "halfDay": 8000,
-          "fullDay": 15000
-        },
-        "equipment": [
-          "投影設備",
-          "白板"
-        ],
-        "shape": "方正",
-        "pillar": false,
-        "images": []
-      },
-      {
-        "id": "1103-19",
-        "name": "多功能會議室 B",
-        "floor": "3樓",
-        "area": 12,
-        "areaUnit": "坪",
-        "capacity": {
-          "theater": 20,
-          "classroom": 12,
-          "ushape": 8,
-          "roundtable": 10
-        },
-        "price": {
-          "halfDay": 8000,
-          "fullDay": 15000
-        },
-        "equipment": [
-          "投影設備",
-          "白板"
-        ],
-        "shape": "方正",
-        "pillar": false,
-        "images": []
-      },
-      {
-        "id": "1103-20",
-        "name": "多功能會議室 C",
-        "floor": "3樓",
-        "area": 10,
-        "areaUnit": "坪",
-        "capacity": {
-          "theater": 16,
-          "classroom": 10,
-          "ushape": 6,
-          "roundtable": 8
-        },
-        "price": {
-          "halfDay": 6000,
-          "fullDay": 12000
-        },
-        "equipment": [
-          "投影設備",
-          "白板"
-        ],
-        "shape": "方正",
-        "pillar": false,
-        "images": []
-      },
-      {
-        "id": "1103-21",
-        "name": "多功能會議室 D",
-        "floor": "3樓",
-        "area": 10,
-        "areaUnit": "坪",
-        "capacity": {
-          "theater": 16,
-          "classroom": 10,
-          "ushape": 6,
-          "roundtable": 8
-        },
-        "price": {
-          "halfDay": 6000,
-          "fullDay": 12000
-        },
-        "equipment": [
-          "投影設備",
-          "白板"
-        ],
-        "shape": "方正",
-        "pillar": false,
-        "images": []
-      },
-      {
-        "id": "1103-22",
-        "name": "博覽廳",
-        "nameEn": "Grand Space",
-        "floor": "1樓",
-        "area": 400,
-        "areaUnit": "坪",
-        "capacity": {
-          "theater": 500,
-          "classroom": 325,
-          "ushape": 200,
-          "roundtable": 300
-        },
-        "price": {
-          "halfDay": 180000,
-          "fullDay": 340000
-        },
-        "equipment": [
-          "頂級投影",
-          "專業音響",
-          "舞台",
-          "燈光"
-        ],
-        "features": [
-          "超過400坪",
-          "大型展覽空間",
-          "車輛可進場"
-        ],
-        "shape": "方正",
-        "length": 40.0,
-        "width": 20.0,
-        "height": 8.0,
-        "pillar": true,
-        "pillarCount": 8,
-        "description": "超過400坪大型展覽空間",
-        "images": []
+        "shape": "L型"
       },
       {
         "id": "1103-23",
-        "name": "戶外草坪區",
-        "floor": "1樓",
-        "area": 150,
-        "areaUnit": "坪",
-        "capacity": {
-          "theater": 200,
-          "classroom": null,
-          "ushape": null,
-          "roundtable": 150
-        },
-        "price": {
-          "halfDay": 100000,
-          "fullDay": 180000
-        },
-        "equipment": [
-          "基本音響",
-          "燈光"
-        ],
-        "features": [
-          "戶外場地",
-          "適合婚宴"
-        ],
-        "shape": "不規則",
-        "pillar": false,
-        "images": []
-      },
-      {
-        "id": "1103-24",
-        "name": "露台花園",
+        "name": "Garden Chapel",
+        "nameEn": "Garden Chapel",
         "floor": "8樓",
-        "area": 50,
+        "area": null,
         "areaUnit": "坪",
         "capacity": {
-          "theater": 80,
-          "classroom": null,
-          "ushape": null,
-          "roundtable": 60
+          "theater": 80
         },
         "price": {
-          "halfDay": 60000,
-          "fullDay": 110000
+          "2hours": 100000
         },
         "equipment": [
           "基本音響"
         ],
         "features": [
-          "空中露台",
-          "景觀"
+          "歐式禮堂",
+          "婚宴場地"
         ],
-        "shape": "長方形",
         "pillar": false,
-        "images": []
+        "pillarCount": 0,
+        "shape": "不規則",
+        "description": "歐式禮堂，婚宴專用場地"
+      },
+      {
+        "id": "1103-24",
+        "name": "寰宇廳",
+        "nameEn": "Panorama",
+        "floor": "36樓",
+        "area": 391,
+        "areaUnit": "坪",
+        "sqm": 130,
+        "length": 35.3,
+        "width": 9.8,
+        "height": 4.32,
+        "capacity": {
+          "theater": 160,
+          "classroom": 100,
+          "roundtable_small": 150,
+          "roundtable_large": "150-180",
+          "cocktail": 250
+        },
+        "price": {
+          "morning": 90000,
+          "afternoon": 300000,
+          "evening": 500000,
+          "overnight": 75000,
+          "additionalHour": 40000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統"
+        ],
+        "features": [
+          "高空宴會廳",
+          "台北絕美景致"
+        ],
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "長方形",
+        "description": "36樓高空宴會廳，台北絕美景致"
       },
       {
         "id": "1103-25",
-        "name": "泳池畔",
-        "floor": "8樓",
-        "area": 80,
+        "name": "博覽廳A",
+        "nameEn": "Grand Space A",
+        "floor": "1樓",
+        "area": 644,
         "areaUnit": "坪",
+        "sqm": 195,
+        "length": 16.7,
+        "width": 38.6,
+        "height": 3.4,
         "capacity": {
-          "theater": 100,
-          "classroom": null,
-          "ushape": null,
-          "roundtable": 80
+          "classroom": 195,
+          "roundtable_small": 200,
+          "roundtable_large": "200-290",
+          "cocktail": 400
         },
         "price": {
-          "halfDay": 80000,
-          "fullDay": 150000
+          "morning": 72000,
+          "afternoon": 500000,
+          "evening": 600000,
+          "overnight": 40000,
+          "additionalHour": 24000
         },
         "equipment": [
-          "基本音響",
-          "燈光"
+          "投影設備",
+          "音響系統"
         ],
-        "features": [
-          "泳池景觀",
-          "適合派對"
-        ],
+        "pillar": true,
+        "pillarCount": 4,
         "shape": "長方形",
-        "pillar": false,
-        "images": []
+        "description": "大型展覽空間"
       },
       {
         "id": "1103-26",
-        "name": "庭園廣場",
+        "name": "博覽廳",
+        "nameEn": "Grand Space",
         "floor": "1樓",
-        "area": 100,
+        "area": 1450,
         "areaUnit": "坪",
+        "sqm": 439,
+        "length": 33.5,
+        "width": 42.9,
+        "height": 3.4,
         "capacity": {
-          "theater": 150,
-          "classroom": null,
-          "ushape": null,
-          "roundtable": 100
+          "exhibition": "Exhibition"
         },
         "price": {
-          "halfDay": 70000,
-          "fullDay": 130000
+          "exhibition_24hr": 300000
         },
         "equipment": [
-          "基本音響",
-          "燈光"
+          "投影設備",
+          "專業音響"
         ],
         "features": [
-          "綠地",
-          "適合戶外活動"
+          "超過400坪",
+          "大型展覽空間"
         ],
+        "pillar": true,
+        "pillarCount": 8,
         "shape": "方正",
-        "pillar": false,
-        "images": []
+        "description": "超過400坪大型展覽空間，博覽廳A+B+C+D合併"
       }
     ],
     "lastUpdated": "2026-03-17",
@@ -4072,10 +4214,14 @@
       "claimed": 26,
       "actual": 26,
       "percentage": 100,
-      "lastChecked": "2026-03-17T01:09:56Z",
-      "status": "COMPLETE"
+      "lastChecked": "2026-03-17T08:15:00Z",
+      "status": "COMPLETE",
+      "source": "Official PDF (Nov. 10, 2025)"
     },
-    "totalRoomsSource": "https://www.taipeimarriott.com.tw/websev?cat=page&id=39"
+    "totalRoomsSource": "https://www.taipeimarriott.com.tw/websev?cat=page&id=39",
+    "floorPlan": "https://www.taipeimarriott.com.tw/files/page_157062443710javl802.pdf",
+    "pdfSource": "https://www.taipeimarriott.com.tw/files/page_176778676814ut99b82.pdf",
+    "pdfUpdated": "Nov. 10, 2025"
   },
   {
     "id": 1104,

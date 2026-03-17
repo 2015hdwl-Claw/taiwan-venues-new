@@ -2523,74 +2523,518 @@
     "verified": true,
     "rooms": [
       {
-        "name": "艾美廳",
-        "capacity": {
-          "theater": 300,
-          "classroom": 200,
-          "ushape": 150,
-          "roundtable": 180,
-          "roundtable_min": 180,
-          "roundtable_max": 180
-        },
-        "area": 110,
-        "price": {
-          "morning": 60000,
-          "afternoon": 60000,
-          "evening": 100000,
-          "halfDay": 120000,
-          "fullDay": 220000
-        },
-        "equipment": [
-          "頂級投影",
-          "專業音響",
-          "舞台",
-          "燈光"
-        ],
-        "images": [
-          "https://www.lemeridien-taipei.com/files/pages_176886370114vmm6242_l.jpg"
-        ],
         "id": "1076-01",
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "shape": "未知",
-        "photo": "https://www.lemeridien-taipei.com/files/pages_176886370114vmm6242_l.jpg"
-      },
-      {
-        "name": "創意廳",
+        "name": "軒轅廳",
+        "nameEn": "Leo",
+        "floor": "2樓",
+        "area": 60,
+        "areaUnit": "坪",
+        "sqm": 196,
+        "length": null,
+        "width": null,
+        "height": 3.0,
         "capacity": {
-          "theater": 150,
-          "classroom": 100,
-          "ushape": 70,
-          "roundtable": 80,
-          "roundtable_min": 80,
-          "roundtable_max": 80
+          "theater": 180,
+          "classroom": 84,
+          "ushape": 42,
+          "boardroom": 54,
+          "roundtable_min": 64,
+          "roundtable_max": 90
         },
-        "area": 55,
         "price": {
-          "morning": 30000,
-          "afternoon": 30000,
-          "evening": 50000,
-          "halfDay": 60000,
-          "fullDay": 110000
+          "morning": 36000,
+          "afternoon": 36000,
+          "evening": 60000,
+          "fullDay": 72000
         },
         "equipment": [
           "投影設備",
           "音響系統",
           "麥克風"
         ],
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "未知",
+        "description": "二樓大型會議室",
+        "images": [
+          "https://www.lemeridien-taipei.com/files/pages_176886370114vmm6242_l.jpg"
+        ],
+        "photo": "https://www.lemeridien-taipei.com/files/pages_176886370114vmm6242_l.jpg"
+      },
+      {
+        "id": "1076-02",
+        "name": "室宿廳",
+        "nameEn": "Pegasus",
+        "floor": "2樓",
+        "area": 30,
+        "areaUnit": "坪",
+        "sqm": 97,
+        "length": null,
+        "width": null,
+        "height": 3.0,
+        "capacity": {
+          "theater": 84,
+          "classroom": 45,
+          "ushape": 27,
+          "boardroom": 36,
+          "roundtable_min": 36,
+          "roundtable_max": 50
+        },
+        "price": {
+          "morning": 16800,
+          "afternoon": 16800,
+          "evening": 28000,
+          "fullDay": 33600
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "麥克風"
+        ],
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "未知",
+        "description": "二樓中型會議室",
         "images": [
           "https://www.lemeridien-taipei.com/files/pages_176860676414vg3v477_l.jpg"
         ],
-        "id": "1076-02",
+        "photo": "https://www.lemeridien-taipei.com/files/pages_176860676414vg3v477_l.jpg"
+      },
+      {
+        "id": "1076-03",
+        "name": "角宿廳",
+        "nameEn": "Virgo",
+        "floor": "2樓",
+        "area": 30,
+        "areaUnit": "坪",
+        "sqm": 97,
+        "length": null,
+        "width": null,
+        "height": 3.0,
+        "capacity": {
+          "theater": 84,
+          "classroom": 45,
+          "ushape": 27,
+          "boardroom": 36,
+          "roundtable_min": 36,
+          "roundtable_max": 50
+        },
+        "price": {
+          "morning": 16800,
+          "afternoon": 16800,
+          "evening": 28000,
+          "fullDay": 33600
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "麥克風"
+        ],
         "pillar": false,
         "pillarCount": 0,
-        "pillarInfo": "無柱子",
         "shape": "未知",
+        "description": "二樓中型會議室",
+        "images": [
+          "https://www.lemeridien-taipei.com/files/pages_176864907214vh6n382_l.jpg"
+        ],
+        "photo": "https://www.lemeridien-taipei.com/files/pages_176864907214vh6n382_l.jpg"
+      },
+      {
+        "id": "1076-04",
+        "name": "河鼓廳",
+        "nameEn": "Aquila",
+        "floor": "2樓",
+        "area": 30,
+        "areaUnit": "坪",
+        "sqm": 97,
+        "length": null,
+        "width": null,
+        "height": 3.0,
+        "capacity": {
+          "theater": 84,
+          "classroom": 45,
+          "ushape": 27,
+          "boardroom": 36,
+          "roundtable_min": 36,
+          "roundtable_max": 50
+        },
+        "price": {
+          "morning": 16800,
+          "afternoon": 16800,
+          "evening": 28000,
+          "fullDay": 33600
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "麥克風"
+        ],
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "未知",
+        "description": "二樓中型會議室",
+        "images": [
+          "https://www.lemeridien-taipei.com/files/pages_176860741214vg4g963_l.jpg"
+        ],
+        "photo": "https://www.lemeridien-taipei.com/files/pages_176860741214vg4g963_l.jpg"
+      },
+      {
+        "id": "1076-05",
+        "name": "北河廳",
+        "nameEn": "Gemini",
+        "floor": "2樓",
+        "area": 30,
+        "areaUnit": "坪",
+        "sqm": 97,
+        "length": null,
+        "width": null,
+        "height": 3.0,
+        "capacity": {
+          "theater": 84,
+          "classroom": 45,
+          "ushape": 27,
+          "boardroom": 36,
+          "roundtable_min": 36,
+          "roundtable_max": 50
+        },
+        "price": {
+          "morning": 16800,
+          "afternoon": 16800,
+          "evening": 28000,
+          "fullDay": 33600
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "麥克風"
+        ],
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "未知",
+        "description": "二樓中型會議室",
+        "images": [
+          "https://www.lemeridien-taipei.com/files/pages_176860862514vg5i189_l.jpg"
+        ],
+        "photo": "https://www.lemeridien-taipei.com/files/pages_176860862514vg5i189_l.jpg"
+      },
+      {
+        "id": "1076-06",
+        "name": "畢宿廳",
+        "nameEn": "Taurus",
+        "floor": "2樓",
+        "area": 30,
+        "areaUnit": "坪",
+        "sqm": 97,
+        "length": null,
+        "width": null,
+        "height": 3.0,
+        "capacity": {
+          "theater": 84,
+          "classroom": 45,
+          "ushape": 27,
+          "boardroom": 36,
+          "roundtable_min": 36,
+          "roundtable_max": 50
+        },
+        "price": {
+          "morning": 16800,
+          "afternoon": 16800,
+          "evening": 28000,
+          "fullDay": 33600
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "麥克風"
+        ],
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "未知",
+        "description": "二樓中型會議室",
+        "images": [
+          "https://www.lemeridien-taipei.com/files/pages_177022714314wnbl776_l.jpg"
+        ],
+        "photo": "https://www.lemeridien-taipei.com/files/pages_177022714314wnbl776_l.jpg"
+      },
+      {
+        "id": "1076-07",
+        "name": "室宿畢宿廳",
+        "nameEn": "Pegasus-Taurus",
+        "floor": "2樓",
+        "area": 150,
+        "areaUnit": "坪",
+        "sqm": 485,
+        "length": null,
+        "width": null,
+        "height": 3.0,
+        "capacity": {
+          "theater": 420,
+          "classroom": 225,
+          "roundtable_min": 100,
+          "roundtable_max": 250
+        },
+        "price": {
+          "morning": 84000,
+          "afternoon": 84000,
+          "evening": 140000,
+          "fullDay": 168000
+        },
+        "equipment": [
+          "投影設備",
+          "專業音響",
+          "舞台",
+          "燈光"
+        ],
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "長方形",
+        "description": "室宿廳+畢宿廳合併，二樓超大型會議室",
+        "images": [
+          "https://www.lemeridien-taipei.com/files/pages_176860821214vg55s58_l.jpg"
+        ],
+        "photo": "https://www.lemeridien-taipei.com/files/pages_176860821214vg55s58_l.jpg"
+      },
+      {
+        "id": "1076-08",
+        "name": "QUUBE",
+        "nameEn": "QUUBE",
+        "floor": "3樓",
+        "area": 30,
+        "areaUnit": "坪",
+        "sqm": 97,
+        "length": null,
+        "width": null,
+        "height": 3.3,
+        "capacity": {
+          "theater": 50,
+          "classroom": 36,
+          "ushape": 24,
+          "boardroom": 30,
+          "roundtable_min": 36,
+          "roundtable_max": 50
+        },
+        "price": {
+          "morning": 10000,
+          "afternoon": 10000,
+          "evening": 16600,
+          "fullDay": 20000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "白板"
+        ],
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "未知",
+        "description": "三樓多功能會議室",
+        "images": [
+          "https://www.lemeridien-taipei.com/files/pages_176860845814vg5d364_l.jpg"
+        ],
+        "photo": "https://www.lemeridien-taipei.com/files/pages_176860845814vg5d364_l.jpg"
+      },
+      {
+        "id": "1076-09",
+        "name": "艾美廳",
+        "nameEn": "Le Grand Ballroom",
+        "floor": "5樓",
+        "area": 263,
+        "areaUnit": "坪",
+        "sqm": 868,
+        "length": null,
+        "width": null,
+        "height": 5.0,
+        "capacity": {
+          "theater": 800,
+          "classroom": 360,
+          "roundtable_min": 200,
+          "roundtable_max": 500
+        },
+        "price": {
+          "morning": 160000,
+          "afternoon": 160000,
+          "evening": 266000,
+          "fullDay": 320000
+        },
+        "equipment": [
+          "頂級投影",
+          "專業音響",
+          "大型舞台",
+          "燈光"
+        ],
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "方正",
+        "description": "五樓挑高宴會廳，可容納 800 人",
+        "images": [
+          "https://www.lemeridien-taipei.com/files/pages_1516098871xchm5901_l.jpg"
+        ],
+        "photo": "https://www.lemeridien-taipei.com/files/pages_1516098871xchm5901_l.jpg"
+      },
+      {
+        "id": "1076-10",
+        "name": "翡翠廳",
+        "nameEn": "Jadeite",
+        "floor": "5樓",
+        "area": 105,
+        "areaUnit": "坪",
+        "sqm": 347,
+        "length": null,
+        "width": null,
+        "height": 5.0,
+        "capacity": {
+          "theater": 300,
+          "classroom": 138,
+          "ushape": 73,
+          "boardroom": 84,
+          "roundtable_min": 112,
+          "roundtable_max": 280
+        },
+        "price": {
+          "morning": 60000,
+          "afternoon": 60000,
+          "evening": 100000,
+          "fullDay": 120000
+        },
+        "equipment": [
+          "投影設備",
+          "專業音響",
+          "舞台"
+        ],
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "未知",
+        "description": "五樓中型宴會廳",
+        "images": [
+          "https://www.lemeridien-taipei.com/files/pages_1514973480xbn0lk34_l.jpg"
+        ],
+        "photo": "https://www.lemeridien-taipei.com/files/pages_1514973480xbn0lk34_l.jpg"
+      },
+      {
+        "id": "1076-11",
+        "name": "珍珠廳",
+        "nameEn": "Pearl",
+        "floor": "5樓",
+        "area": 53,
+        "areaUnit": "坪",
+        "sqm": 174,
+        "length": null,
+        "width": null,
+        "height": 5.0,
+        "capacity": {
+          "theater": 154,
+          "classroom": 84,
+          "roundtable_min": 32,
+          "roundtable_max": 80
+        },
+        "price": {
+          "morning": 30800,
+          "afternoon": 30800,
+          "evening": 51000,
+          "fullDay": 61600
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "麥克風"
+        ],
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "未知",
+        "description": "五樓中型宴會廳",
+        "images": [
+          "https://www.lemeridien-taipei.com/files/pages_1516098920xchm6p78_l.jpg"
+        ],
+        "photo": "https://www.lemeridien-taipei.com/files/pages_1516098920xchm6p78_l.jpg"
+      },
+      {
+        "id": "1076-12",
+        "name": "琥珀廳",
+        "nameEn": "Amber",
+        "floor": "5樓",
+        "area": 105,
+        "areaUnit": "坪",
+        "sqm": 347,
+        "length": null,
+        "width": null,
+        "height": 5.0,
+        "capacity": {
+          "theater": 300,
+          "classroom": 138,
+          "ushape": 73,
+          "boardroom": 84,
+          "roundtable_min": 112,
+          "roundtable_max": 280
+        },
+        "price": {
+          "morning": 60000,
+          "afternoon": 60000,
+          "evening": 100000,
+          "fullDay": 120000
+        },
+        "equipment": [
+          "投影設備",
+          "專業音響",
+          "舞台"
+        ],
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "未知",
+        "description": "五樓中型宴會廳",
+        "images": [
+          "https://www.lemeridien-taipei.com/files/pages_176886370114vmm6242_l.jpg"
+        ],
+        "photo": "https://www.lemeridien-taipei.com/files/pages_176886370114vmm6242_l.jpg"
+      },
+      {
+        "id": "1076-13",
+        "name": "貴賓室",
+        "nameEn": "VIP Room",
+        "floor": "5樓",
+        "area": 15,
+        "areaUnit": "坪",
+        "sqm": 50,
+        "length": null,
+        "width": null,
+        "height": 4.2,
+        "capacity": {
+          "theater": 12,
+          "classroom": 12,
+          "ushape": 12,
+          "boardroom": 12,
+          "roundtable_min": 0,
+          "roundtable_max": 0
+        },
+        "price": {
+          "morning": 2400,
+          "afternoon": 2400,
+          "evening": 4000,
+          "fullDay": 4800
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統"
+        ],
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "未知",
+        "description": "五樓貴賓室",
+        "images": [
+          "https://www.lemeridien-taipei.com/files/pages_176860676414vg3v477_l.jpg"
+        ],
         "photo": "https://www.lemeridien-taipei.com/files/pages_176860676414vg3v477_l.jpg"
       }
     ],
-    "lastUpdated": "2026-03-17"
+    "lastUpdated": "2026-03-17",
+    "totalRooms": 13,
+    "roomsCompleteness": {
+      "claimed": 13,
+      "actual": 13,
+      "percentage": 100,
+      "lastChecked": "2026-03-17T15:45:00Z",
+      "status": "COMPLETE",
+      "source": "Official PDF (Jan 1, 2025)"
+    }
   },
   {
     "id": 1077,

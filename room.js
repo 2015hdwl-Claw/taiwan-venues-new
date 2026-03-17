@@ -102,7 +102,7 @@ function renderRoomDetail() {
     renderCapacity(room.capacity);
     
     // 價格方案
-    renderPricing(room.pricing);
+    renderPricing(room.price || room.pricing);
     
     // 設備清單
     renderEquipment(room.equipment);
@@ -329,7 +329,9 @@ function renderCapacity(capacity) {
     }
     
     // 圓桌式
-    if (capacity.roundtable) {
+    if (capacity.roundtable_min && capacity.roundtable_max) {
+        document.querySelector('#capRoundtable .capacity-value').textContent = `${capacity.roundtable_min}-${capacity.roundtable_max} 人`;
+    } else if (capacity.roundtable) {
         document.querySelector('#capRoundtable .capacity-value').textContent = capacity.roundtable + ' 人';
     } else {
         document.getElementById('capRoundtable').style.opacity = '0.5';
@@ -344,17 +346,22 @@ function renderPricing(pricing) {
         document.getElementById('priceOvertime').textContent = '另議';
         return;
     }
-    
-    document.getElementById('priceHalfDay').textContent = pricing.halfDay 
-        ? `$${pricing.halfDay.toLocaleString()}` 
+
+    // 支援新版價格結構（morning, afternoon, evening）
+    const halfDay = pricing.morning || pricing.afternoon || pricing.halfDay;
+    const fullDay = pricing.fullDay || pricing.evening;
+    const overtime = pricing.additionalHour || pricing.overtime;
+
+    document.getElementById('priceHalfDay').textContent = halfDay
+        ? `$${halfDay.toLocaleString()}`
         : '另議';
-    
-    document.getElementById('priceFullDay').textContent = pricing.fullDay 
-        ? `$${pricing.fullDay.toLocaleString()}` 
+
+    document.getElementById('priceFullDay').textContent = fullDay
+        ? `$${fullDay.toLocaleString()}`
         : '另議';
-    
-    document.getElementById('priceOvertime').textContent = pricing.overtime 
-        ? `$${pricing.overtime.toLocaleString()}` 
+
+    document.getElementById('priceOvertime').textContent = overtime
+        ? `$${overtime.toLocaleString()}`
         : '另議';
 }
 

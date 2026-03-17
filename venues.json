@@ -3300,7 +3300,9 @@
           "boardroom": 18,
           "roundtable_small": 30,
           "roundtable_large": "30-40",
-          "cocktail": 40
+          "cocktail": 40,
+          "roundtable_min": 30,
+          "roundtable_max": 40
         },
         "price": {
           "morning": 32000,
@@ -3339,7 +3341,9 @@
           "boardroom": 12,
           "roundtable_small": 20,
           "roundtable_large": "20-30",
-          "cocktail": 30
+          "cocktail": 30,
+          "roundtable_min": 20,
+          "roundtable_max": 30
         },
         "price": {
           "morning": 25000,
@@ -3378,7 +3382,9 @@
           "boardroom": 12,
           "roundtable_small": 20,
           "roundtable_large": "20-30",
-          "cocktail": 30
+          "cocktail": 30,
+          "roundtable_min": 20,
+          "roundtable_max": 30
         },
         "price": {
           "morning": 25000,
@@ -3417,7 +3423,9 @@
           "boardroom": 18,
           "roundtable_small": 30,
           "roundtable_large": "30-40",
-          "cocktail": 40
+          "cocktail": 40,
+          "roundtable_min": 30,
+          "roundtable_max": 40
         },
         "price": {
           "morning": 32000,
@@ -3454,7 +3462,9 @@
           "classroom": 150,
           "roundtable_small": 100,
           "roundtable_large": "100-120",
-          "cocktail": 140
+          "cocktail": 140,
+          "roundtable_min": 100,
+          "roundtable_max": 120
         },
         "price": {
           "morning": 110000,
@@ -3713,7 +3723,9 @@
           "classroom": 400,
           "roundtable_small": 350,
           "roundtable_large": "350-450",
-          "cocktail": 550
+          "cocktail": 550,
+          "roundtable_min": 350,
+          "roundtable_max": 450
         },
         "price": {
           "morning": 160000,
@@ -3757,7 +3769,9 @@
           "classroom": 240,
           "roundtable_small": 250,
           "roundtable_large": "250-300",
-          "cocktail": 350
+          "cocktail": 350,
+          "roundtable_min": 250,
+          "roundtable_max": 300
         },
         "price": {
           "morning": 130000,
@@ -3849,7 +3863,9 @@
           "boardroom": 18,
           "roundtable_small": 30,
           "roundtable_large": "30-40",
-          "cocktail": 40
+          "cocktail": 40,
+          "roundtable_min": 30,
+          "roundtable_max": 40
         },
         "price": {
           "morning": 25000,
@@ -3891,7 +3907,9 @@
           "boardroom": 18,
           "roundtable_small": 40,
           "roundtable_large": "40-50",
-          "cocktail": 50
+          "cocktail": 50,
+          "roundtable_min": 40,
+          "roundtable_max": 50
         },
         "price": {
           "morning": 32000,
@@ -3933,7 +3951,9 @@
           "boardroom": 18,
           "roundtable_small": 30,
           "roundtable_large": "30-40",
-          "cocktail": 40
+          "cocktail": 40,
+          "roundtable_min": 30,
+          "roundtable_max": 40
         },
         "price": {
           "morning": 25000,
@@ -3973,7 +3993,9 @@
           "classroom": 135,
           "roundtable_small": 100,
           "roundtable_large": "100-120",
-          "cocktail": 130
+          "cocktail": 130,
+          "roundtable_min": 100,
+          "roundtable_max": 120
         },
         "price": {
           "morning": 80000,
@@ -4016,7 +4038,9 @@
           "ushape": 42,
           "roundtable_small": 60,
           "roundtable_large": "60-70",
-          "cocktail": 120
+          "cocktail": 120,
+          "roundtable_min": 60,
+          "roundtable_max": 70
         },
         "price": {
           "morning": 65000,
@@ -4057,7 +4081,9 @@
           "ushape": 27,
           "roundtable_small": 40,
           "roundtable_large": "40-50",
-          "cocktail": 90
+          "cocktail": 90,
+          "roundtable_min": 40,
+          "roundtable_max": 50
         },
         "price": {
           "morning": 55000,
@@ -4098,7 +4124,9 @@
           "ushape": 66,
           "roundtable_small": 120,
           "roundtable_large": "120-150",
-          "cocktail": 230
+          "cocktail": 230,
+          "roundtable_min": 120,
+          "roundtable_max": 150
         },
         "price": {
           "morning": 120000,
@@ -4140,7 +4168,9 @@
           "classroom": 264,
           "roundtable_small": 250,
           "roundtable_large": "250-320",
-          "cocktail": "400+200"
+          "cocktail": "400+200",
+          "roundtable_min": 250,
+          "roundtable_max": 320
         },
         "price": {
           "morning": 120000,
@@ -4212,7 +4242,9 @@
           "classroom": 100,
           "roundtable_small": 150,
           "roundtable_large": "150-180",
-          "cocktail": 250
+          "cocktail": 250,
+          "roundtable_min": 150,
+          "roundtable_max": 180
         },
         "price": {
           "morning": 90000,

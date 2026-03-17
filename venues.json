@@ -2499,7 +2499,7 @@
     "availableTimeWeekend": "08:00-22:00",
     "equipment": "專業音響、投影設備、燈光、舞台、音響系統、頂級投影、麥克風",
     "images": {
-      "main": "https://www.lemeridien-taipei.com/files/set_176986464614we4qi80.jpg",
+      "main": "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien/exterior.jpg",
       "gallery": [
         "https://www.lemeridien-taipei.com/files/pages_176886370114vmm6242_l.jpg",
         "https://www.lemeridien-taipei.com/files/pages_176860676414vg3v477_l.jpg",
@@ -2513,11 +2513,11 @@
         "https://www.lemeridien-taipei.com/files/pages_1514973480xbn0lk34_l.jpg",
         "https://www.lemeridien-taipei.com/files/pages_1516098920xchm6p78_l.jpg"
       ],
-      "source": "https://www.lemeridien-taipei.com/meetings/",
+      "source": "https://www.lemeridien-taipei.com/websev?lang=zh-tw&ref=pages&id=45",
       "verified": true,
       "verifiedAt": "2026-03-07T13:00:00",
       "needsUpdate": false,
-      "note": "從官網爬取 12 張真實會議室照片（2026-03-07 Playwright）",
+      "note": "從官網 PDF 提取真實會議室照片（2026-03-18）",
       "lastUpdated": "2026-03-18"
     },
     "verified": true,
@@ -2563,7 +2563,7 @@
         "images": [
           "https://www.lemeridien-taipei.com/files/pages_176886370114vmm6242_l.jpg"
         ],
-        "photo": "https://www.lemeridien-taipei.com/files/pages_176886370114vmm6242_l.jpg",
+        "photo": "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien/leo_wedding.jpg",
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
@@ -2610,7 +2610,7 @@
         "images": [
           "https://www.lemeridien-taipei.com/files/pages_176860676414vg3v477_l.jpg"
         ],
-        "photo": "https://www.lemeridien-taipei.com/files/pages_176860676414vg3v477_l.jpg",
+        "photo": "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien/pegasus_gemini_wedding_1.jpg",
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
@@ -2657,7 +2657,7 @@
         "images": [
           "https://www.lemeridien-taipei.com/files/pages_176864907214vh6n382_l.jpg"
         ],
-        "photo": "https://www.lemeridien-taipei.com/files/pages_176864907214vh6n382_l.jpg",
+        "photo": "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien/pegasus_gemini_wedding_1.jpg",
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
@@ -2704,7 +2704,7 @@
         "images": [
           "https://www.lemeridien-taipei.com/files/pages_176860741214vg4g963_l.jpg"
         ],
-        "photo": "https://www.lemeridien-taipei.com/files/pages_176860741214vg4g963_l.jpg",
+        "photo": "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien/pegasus_gemini_wedding_1.jpg",
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
@@ -2751,7 +2751,7 @@
         "images": [
           "https://www.lemeridien-taipei.com/files/pages_176860862514vg5i189_l.jpg"
         ],
-        "photo": "https://www.lemeridien-taipei.com/files/pages_176860862514vg5i189_l.jpg",
+        "photo": "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien/pegasus_gemini_wedding_2.jpg",
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
@@ -2798,7 +2798,7 @@
         "images": [
           "https://www.lemeridien-taipei.com/files/pages_177022714314wnbl776_l.jpg"
         ],
-        "photo": "https://www.lemeridien-taipei.com/files/pages_177022714314wnbl776_l.jpg",
+        "photo": "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien/pegasus_gemini_wedding_2.jpg",
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
@@ -2844,7 +2844,7 @@
         "images": [
           "https://www.lemeridien-taipei.com/files/pages_176860821214vg55s58_l.jpg"
         ],
-        "photo": "https://www.lemeridien-taipei.com/files/pages_176860821214vg55s58_l.jpg",
+        "photo": "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien/pegasus_taurus_meeting_1.jpg",
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
@@ -2890,7 +2890,7 @@
         "images": [
           "https://www.lemeridien-taipei.com/files/pages_176860845814vg5d364_l.jpg"
         ],
-        "photo": "https://www.lemeridien-taipei.com/files/pages_176860845814vg5d364_l.jpg",
+        "photo": "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien/quube_indoor_1.jpg",
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
@@ -2936,7 +2936,7 @@
         "images": [
           "https://www.lemeridien-taipei.com/files/pages_1516098871xchm5901_l.jpg"
         ],
-        "photo": "https://www.lemeridien-taipei.com/files/pages_1516098871xchm5901_l.jpg",
+        "photo": "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien/grand_ballroom_meeting.jpg",
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
@@ -2983,7 +2983,7 @@
         "images": [
           "https://www.lemeridien-taipei.com/files/pages_1514973480xbn0lk34_l.jpg"
         ],
-        "photo": "https://www.lemeridien-taipei.com/files/pages_1514973480xbn0lk34_l.jpg",
+        "photo": "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien/grand_ballroom_wedding_1.jpg",
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
@@ -3028,7 +3028,7 @@
         "images": [
           "https://www.lemeridien-taipei.com/files/pages_1516098920xchm6p78_l.jpg"
         ],
-        "photo": "https://www.lemeridien-taipei.com/files/pages_1516098920xchm6p78_l.jpg",
+        "photo": "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien/grand_ballroom_wedding_2.jpg",
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
@@ -3075,7 +3075,7 @@
         "images": [
           "https://www.lemeridien-taipei.com/files/pages_176886370114vmm6242_l.jpg"
         ],
-        "photo": "https://www.lemeridien-taipei.com/files/pages_176886370114vmm6242_l.jpg",
+        "photo": "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien/grand_ballroom_wedding_1.jpg",
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
@@ -3108,7 +3108,7 @@
         "features": [
           "接待區"
         ],
-        "photo": "https://www.lemeridien-taipei.com/files/pages_176860676414vg3v477_l.jpg"
+        "photo": "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien/exterior.jpg"
       },
       {
         "name": "貴賓室II",
@@ -3137,7 +3137,7 @@
         "features": [
           "接待區"
         ],
-        "photo": "https://www.lemeridien-taipei.com/files/pages_176860676414vg3v477_l.jpg"
+        "photo": "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien/exterior.jpg"
       }
     ],
     "lastUpdated": "2026-03-18",

@@ -75,12 +75,18 @@ function renderRoomDetail() {
     document.getElementById('breadcrumbVenue').textContent = venue.name;
     document.getElementById('breadcrumbRoom').textContent = room.name;
     
-    // 主圖（優先使用 images 陣列第一張官網照片）
+    // 主圖（優先使用 images 陣列第一張，其次是 images.main，再來是 photo）
     let mainImage;
     if (Array.isArray(room.images) && room.images.length > 0) {
         mainImage = room.images[0];
+    } else if (room.images && typeof room.images === 'object' && room.images.main) {
+        mainImage = room.images.main;
+    } else if (room.photo) {
+        mainImage = room.photo;
+    } else if (venue.images && venue.images.main) {
+        mainImage = venue.images.main;
     } else {
-        mainImage = room.image || room.images?.main || venue.images?.main || 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800';
+        mainImage = 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800';
     }
     document.getElementById('roomMainImage').src = mainImage;
     document.getElementById('roomMainImage').alt = room.name;
@@ -130,161 +136,25 @@ function renderSpaceInfo(room) {
     const grid = document.getElementById('spaceInfoGrid');
     const descSection = document.getElementById('spaceDescription');
     const descText = document.getElementById('roomDescription');
-    
-    // 收集所有可用的空間資訊
+
+    // 收集所有可用的空間資訊（按照指定順序）
     const infoItems = [];
-    
-    // 面積資訊（重點突出）
-    if (room.area || room.areaSqm) {
-        highlightCard.style.display = 'flex';
-        
-        // 主要顯示坪數
-        if (room.area) {
-            mainValue.textContent = `${room.area} 坪`;
-        } else if (room.areaSqm) {
-            mainValue.textContent = `${room.areaSqm} m²`;
-        }
-        
-        // 次要顯示（轉換）
-        if (room.area && room.areaSqm) {
-            secondaryValue.textContent = `約 ${room.areaSqm} 平方公尺`;
-        } else if (room.area && !room.areaSqm) {
-            // 自動計算平方公尺（1 坪 ≈ 3.3058 m²）
-            const sqm = Math.round(room.area * 3.3058);
-            secondaryValue.textContent = `約 ${sqm} 平方公尺`;
-        } else if (room.areaSqm && !room.area) {
-            // 自動計算坪數
-            const ping = Math.round(room.areaSqm / 3.3058 * 10) / 10;
-            secondaryValue.textContent = `約 ${ping} 坪`;
-        }
-    } else {
-        highlightCard.style.display = 'none';
-    }
-    
-    // 長度、寬度、挑高資訊（合併顯示）
-    const hasLength = room.length;
-    const hasWidth = room.width;
-    const hasHeight = room.height || room.ceiling;
-    const heightValue = room.height || room.ceiling;
-    
-    if (hasLength && hasWidth && hasHeight) {
-        // 完整的三維尺寸
-        infoItems.push({
-            icon: '📐',
-            label: '空間尺寸',
-            value: `${room.length} × ${room.width} × ${heightValue} 公尺（長×寬×高）`
-        });
-    } else if (hasLength && hasWidth) {
-        // 只有長寬
-        infoItems.push({
-            icon: '📐',
-            label: '空間尺寸',
-            value: `${room.length} × ${room.width} 公尺（長×寬）`
-        });
-    } else if (hasLength) {
-        infoItems.push({
-            icon: '📐',
-            label: '長度',
-            value: `${room.length} 公尺`
-        });
-    } else if (hasWidth) {
-        infoItems.push({
-            icon: '📐',
-            label: '寬度',
-            value: `${room.width} 公尺`
-        });
-    }
-    
-    // 如果有挑高但沒有長寬，才單獨顯示
-    if (hasHeight && !hasLength && !hasWidth) {
-        infoItems.push({
-            icon: '📏',
-            label: '挑高',
-            value: `${heightValue} 公尺`
-        });
-    }
-    
-    // 形狀描述（新增）
-    if (room.shape) {
-        infoItems.push({
-            icon: '🔲',
-            label: '空間形狀',
-            value: room.shape
-        });
-    }
-    
-    // 柱子資訊（支援新舊欄位名稱）
-    if (room.pillar !== undefined) {
-        infoItems.push({
-            icon: '🏛️',
-            label: '柱子',
-            value: room.pillar ? (room.pillarCount ? `有 ${room.pillarCount} 根柱子` : '有柱子') : '無柱'
-        });
-    } else if (room.pillars !== undefined) {
-        infoItems.push({
-            icon: '🏛️',
-            label: '柱子',
-            value: room.pillars ? `有 ${room.pillars} 根柱子` : '無柱'
-        });
-    }
-    
-    // 樓層
-    if (room.floor) {
-        infoItems.push({
-            icon: '🏢',
-            label: '樓層',
-            value: room.floor
-        });
-    }
-    
-    // 採光
-    if (room.hasWindow !== undefined) {
-        infoItems.push({
-            icon: '🪟',
-            label: '採光',
-            value: room.hasWindow ? '有自然採光' : '無窗戶'
-        });
-    }
-    
-    // 分割資訊
-    if (room.dividable) {
-        infoItems.push({
-            icon: '🔲',
-            label: '空間分割',
-            value: room.dividable
-        });
-    }
-    
-    // 渲染資訊卡片
-    if (infoItems.length > 0) {
-        grid.innerHTML = infoItems.map(item => `
-            <div class="space-info-item">
-                <div class="space-info-item-icon">${item.icon}</div>
-                <div class="space-info-item-content">
-                    <div class="space-info-item-label">${item.label}</div>
-                    <div class="space-info-item-value">${item.value}</div>
-                </div>
-            </div>
-        `).join('');
-    } else {
-        grid.innerHTML = '';
-    }
-    
-    // 場地圖顯示（支援 PDF 和圖片）
+
+    // 場地平面圖（第一位）- 使用場地（venue）的 floorPlan
     const floorPlanSection = document.getElementById('floorPlanSection');
     const floorPlanEmbed = document.getElementById('floorPlanEmbed');
     const floorPlanIframe = document.getElementById('floorPlanIframe');
     const floorPlanImage = document.getElementById('floorPlanImage');
-    
-    // 檢查是否有 floorPlan（PDF 或圖片）
-    const floorPlanUrl = room.floorPlan || room.layoutImage || (room.images && room.images.floorPlan);
-    
+
+    // 優先使用場地的 floorPlan PDF
+    const floorPlanUrl = currentVenue?.floorPlan || room.floorPlan || room.layoutImage;
+
     if (floorPlanUrl) {
         floorPlanSection.style.display = 'block';
-        
+
         // 判斷是否為 PDF
         const isPDF = floorPlanUrl.toLowerCase().endsWith('.pdf') || floorPlanUrl.toLowerCase().includes('.pdf');
-        
+
         if (isPDF) {
             // PDF 嵌入顯示
             floorPlanEmbed.style.display = 'block';
@@ -300,13 +170,131 @@ function renderSpaceInfo(room) {
     } else {
         floorPlanSection.style.display = 'none';
     }
-    
-    // 空間描述
+
+    // 空間面積（第二位）- 重點突出
+    if (room.area || room.areaSqm) {
+        highlightCard.style.display = 'flex';
+
+        // 主要顯示坪數
+        if (room.area) {
+            mainValue.textContent = `${room.area} 坪`;
+        } else if (room.areaSqm) {
+            mainValue.textContent = `${room.areaSqm} m²`;
+        }
+
+        // 次要顯示（轉換）
+        if (room.area && room.areaSqm) {
+            secondaryValue.textContent = `約 ${room.areaSqm} 平方公尺`;
+        } else if (room.area && !room.areaSqm) {
+            // 自動計算平方公尺（1 坪 ≈ 3.3058 m²）
+            const sqm = Math.round(room.area * 3.3058);
+            secondaryValue.textContent = `約 ${sqm} 平方公尺`;
+        } else if (room.areaSqm && !room.area) {
+            // 自動計算坪數
+            const ping = Math.round(room.areaSqm / 3.3058 * 10) / 10;
+            secondaryValue.textContent = `約 ${ping} 坪`;
+        }
+    } else {
+        highlightCard.style.display = 'none';
+    }
+
+    // 空間尺寸（第三位）- 長X寬X高
+    const hasLength = room.length;
+    const hasWidth = room.width;
+    const hasHeight = room.height || room.ceiling;
+    const heightValue = room.height || room.ceiling;
+
+    if (hasLength && hasWidth && hasHeight) {
+        infoItems.push({
+            icon: '📐',
+            label: '空間尺寸',
+            value: `${room.length} × ${room.width} × ${heightValue} 公尺（長×寬×高）`
+        });
+    } else if (hasLength && hasWidth) {
+        infoItems.push({
+            icon: '📐',
+            label: '空間尺寸',
+            value: `${room.length} × ${room.width} 公尺（長×寬）`
+        });
+    } else if (hasHeight) {
+        infoItems.push({
+            icon: '📏',
+            label: '挑高',
+            value: `${heightValue} 公尺`
+        });
+    }
+
+    // 空間形狀（第四位）
+    if (room.shape) {
+        infoItems.push({
+            icon: '🔲',
+            label: '空間形狀',
+            value: room.shape
+        });
+    }
+
+    // 柱子（第五位）
+    if (room.pillar !== undefined) {
+        infoItems.push({
+            icon: '🏛️',
+            label: '柱子',
+            value: room.pillar ? (room.pillarCount ? `有 ${room.pillarCount} 根柱子` : '有柱子') : '無柱'
+        });
+    } else if (room.pillars !== undefined) {
+        infoItems.push({
+            icon: '🏛️',
+            label: '柱子',
+            value: room.pillars ? `有 ${room.pillars} 根柱子` : '無柱'
+        });
+    }
+
+    // 樓層（第六位）
+    if (room.floor) {
+        infoItems.push({
+            icon: '🏢',
+            label: '樓層',
+            value: room.floor
+        });
+    }
+
+    // 會議室特色說明（第七位）
     if (room.description) {
         descSection.style.display = 'block';
         descText.textContent = room.description;
     } else {
         descSection.style.display = 'none';
+    }
+
+    // 其他資訊（採光、分割等）
+    if (room.hasWindow !== undefined) {
+        infoItems.push({
+            icon: '🪟',
+            label: '採光',
+            value: room.hasWindow ? '有自然採光' : '無窗戶'
+        });
+    }
+
+    if (room.dividable) {
+        infoItems.push({
+            icon: '🔲',
+            label: '空間分割',
+            value: room.dividable
+        });
+    }
+
+    // 渲染資訊卡片
+    if (infoItems.length > 0) {
+        grid.innerHTML = infoItems.map(item => `
+            <div class="space-info-item">
+                <div class="space-info-item-icon">${item.icon}</div>
+                <div class="space-info-item-content">
+                    <div class="space-info-item-label">${item.label}</div>
+                    <div class="space-info-item-value">${item.value}</div>
+                </div>
+            </div>
+        `).join('');
+    } else {
+        grid.innerHTML = '';
     }
 }
 

@@ -3256,27 +3256,29 @@
     "city": "台北市",
     "address": "台北市中山區樂群二路199號",
     "contactPerson": "宴會部",
-    "contactPhone": "02-2175-7999",
-    "contactEmail": "events.taipei@marriott.com",
+    "contactPhone": "(02)8502-3899",
+    "contactEmail": "catering@taipeimarriott.com.tw",
     "url": "https://www.taipeimarriott.com.tw/",
+    "meetingUrl": "https://www.taipeimarriott.com.tw/websev?cat=page&id=39",
     "priceHalfDay": 450000,
     "priceFullDay": 850000,
     "maxCapacityTheater": 1200,
     "maxCapacityClassroom": 780,
     "availableTimeWeekday": "09:00-22:00",
     "availableTimeWeekend": "09:00-22:00",
-    "equipment": "同步翻譯、大型舞台、專業音響、戶外場地、投影設備、燈光、舞台、音響系統、頂級投影、麥克風",
+    "equipment": "同步翻譯、大型舞台、專業音響、戶外場地、投影設備、燈光、舞台、音響系統、頂級投影、麥克風、大型車梯（車輛直達5樓）",
     "images": {
       "main": "https://www.taipeimarriott.com.tw/files/page_176900685014vqao357_s.jpg",
       "gallery": [
         "https://www.marriott.com/marriottassets/search/homepage/Joe/MBV_app3_748x332.png?interpolation=progressive-bilinear&downsize=480px:*%20,%20https://www.marriott.com/marriottassets/search/homepage/Joe/MBV_app3_748x332.png?interpolation=progressive-bilinear&downsize=480px:*%202x"
       ],
-      "source": "https://www.taipeimarriott.com.tw/websev?cat=page&subcat=17",
+      "source": "https://www.taipeimarriott.com.tw/websev?cat=page&id=39",
       "verified": true,
-      "verifiedAt": "2026-03-17T07:55:53.305262",
+      "verifiedAt": "2026-03-17T08:27:00.000Z",
       "lastUpdated": "2026-03-17",
       "needsUpdate": false,
-      "note": "已從官網驗證會議室資訊"
+      "updateReason": "從官網會議&宴會頁面更新聯絡資訊",
+      "note": "聯絡資訊來自官網會議&宴會專線頁面，會議室資訊完整"
     },
     "verified": true,
     "rooms": [

@@ -1374,12 +1374,15 @@
           "燈光",
           "視訊會議"
         ],
-        "images": [],
+        "images": [
+          "https://www.sheratongrandtaipei.com/files/pages_1772816933150l7wc77_m.jpg"
+        ],
         "id": "1067-01",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://www.sheratongrandtaipei.com/files/pages_1772816933150l7wc77_m.jpg"
       },
       {
         "name": "祿廳",
@@ -1406,12 +1409,15 @@
           "燈光",
           "視訊會議"
         ],
-        "images": [],
+        "images": [
+          "https://www.sheratongrandtaipei.com/files/pages_175588718614lwh8v24_m.jpg"
+        ],
         "id": "1067-02",
         "pillar": true,
         "pillarCount": 2,
         "pillarInfo": "有柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://www.sheratongrandtaipei.com/files/pages_175588718614lwh8v24_m.jpg"
       },
       {
         "name": "壽廳",
@@ -1436,12 +1442,15 @@
           "音響系統",
           "麥克風"
         ],
-        "images": [],
+        "images": [
+          "https://www.sheratongrandtaipei.com/files/pages_175459012814kxhgw40_m.jpg"
+        ],
         "id": "1067-03",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://www.sheratongrandtaipei.com/files/pages_175459012814kxhgw40_m.jpg"
       },
       {
         "name": "喜廳",
@@ -1466,12 +1475,15 @@
           "音響系統",
           "麥克風"
         ],
-        "images": [],
+        "images": [
+          "https://www.sheratongrandtaipei.com/files/pages_17281359591416fa692_m.jpg"
+        ],
         "id": "1067-04",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://www.sheratongrandtaipei.com/files/pages_17281359591416fa692_m.jpg"
       },
       {
         "name": "多功能會議廳A",
@@ -1496,12 +1508,15 @@
           "音響系統",
           "白板"
         ],
-        "images": [],
+        "images": [
+          "https://www.sheratongrandtaipei.com/files/pages_17281373581416gh612_m.jpg"
+        ],
         "id": "1067-05",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://www.sheratongrandtaipei.com/files/pages_17281373581416gh612_m.jpg"
       },
       {
         "name": "多功能會議廳B",
@@ -1526,12 +1541,15 @@
           "音響系統",
           "白板"
         ],
-        "images": [],
+        "images": [
+          "https://www.sheratongrandtaipei.com/files/pages_17281383441416hc240_m.jpg"
+        ],
         "id": "1067-06",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://www.sheratongrandtaipei.com/files/pages_17281383441416hc240_m.jpg"
       },
       {
         "name": "多功能會議廳C",
@@ -1556,12 +1574,15 @@
           "音響系統",
           "白板"
         ],
-        "images": [],
+        "images": [
+          "https://www.sheratongrandtaipei.com/files/pages_175164700314iql2w16_m.jpg"
+        ],
         "id": "1067-07",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://www.sheratongrandtaipei.com/files/pages_175164700314iql2w16_m.jpg"
       },
       {
         "name": "瑞穗園",
@@ -1587,12 +1608,15 @@
           "舞台",
           "燈光"
         ],
-        "images": [],
+        "images": [
+          "https://www.sheratongrandtaipei.com/files/pages_1739469156149mqgn64_m.jpg"
+        ],
         "id": "1067-08",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://www.sheratongrandtaipei.com/files/pages_1739469156149mqgn64_m.jpg"
       },
       {
         "name": "清翫",
@@ -1617,12 +1641,15 @@
           "音響系統",
           "麥克風"
         ],
-        "images": [],
+        "images": [
+          "https://www.sheratongrandtaipei.com/files/pages_1644336389126gc1h37_m.jpg"
+        ],
         "id": "1067-09",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://www.sheratongrandtaipei.com/files/pages_1644336389126gc1h37_m.jpg"
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -1775,12 +1802,15 @@
           "舞台",
           "燈光"
         ],
-        "images": [],
+        "images": [
+          "https://www.ambassador-hotels.com/images/images/hsinchu/dining/promenade/Ambassador-Hotel-Hsinchu-Promenade-Restaurant.jpg"
+        ],
         "id": "1069-01",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://www.ambassador-hotels.com/images/images/hsinchu/dining/promenade/Ambassador-Hotel-Hsinchu-Promenade-Restaurant.jpg"
       },
       {
         "name": "翡翠廳",
@@ -1805,12 +1835,15 @@
           "音響系統",
           "麥克風"
         ],
-        "images": [],
+        "images": [
+          "https://www.ambassador-hotels.com/images/images/kaohsiung/hotel/Ambassador-Hotel-Kaohsiung-On-Banks-of-Love-River.jpg"
+        ],
         "id": "1069-02",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://www.ambassador-hotels.com/images/images/kaohsiung/hotel/Ambassador-Hotel-Kaohsiung-On-Banks-of-Love-River.jpg"
       },
       {
         "name": "董事會議廳",
@@ -1835,12 +1868,15 @@
           "音響系統",
           "視訊會議"
         ],
-        "images": [],
+        "images": [
+          "https://www.ambassador-hotels.com/images/files/taipei/dining/%E5%9C%8B%E8%B3%93%E4%B8%AD%E9%A4%90%E5%BB%B3(%E9%81%BC%E5%AF%A7)/2025-2026%E5%B0%BE%E7%89%99%E6%98%A5%E9%85%92/2026%E5%B0%BE%E7%89%99%E6%98%A5%E9%85%92%E5%AE%98%E7%B6%B2%E5%9C%96_%E4%B8%AD%E9%A4%90_0.jpg"
+        ],
         "id": "1069-03",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://www.ambassador-hotels.com/images/files/taipei/dining/%E5%9C%8B%E8%B3%93%E4%B8%AD%E9%A4%90%E5%BB%B3(%E9%81%BC%E5%AF%A7)/2025-2026%E5%B0%BE%E7%89%99%E6%98%A5%E9%85%92/2026%E5%B0%BE%E7%89%99%E6%98%A5%E9%85%92%E5%AE%98%E7%B6%B2%E5%9C%96_%E4%B8%AD%E9%A4%90_0.jpg"
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -1904,12 +1940,15 @@
           "燈光",
           "同步翻譯"
         ],
-        "images": [],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/c/c0/Interior_of_Grand_Hotel_Taipei_20130903.jpg"
+        ],
         "id": "1072-01",
         "pillar": true,
         "pillarCount": 2,
         "pillarInfo": "有柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Interior_of_Grand_Hotel_Taipei_20130903.jpg"
       },
       {
         "name": "崑崙廳",
@@ -1935,12 +1974,15 @@
           "舞台",
           "燈光"
         ],
-        "images": [],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/a/a9/Taipeh_Taipei_Grand_Hotel_Innen_Lobby_1.jpg"
+        ],
         "id": "1072-02",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Taipeh_Taipei_Grand_Hotel_Innen_Lobby_1.jpg"
       },
       {
         "name": "國際會議廳",
@@ -1966,12 +2008,15 @@
           "舞台",
           "同步翻譯"
         ],
-        "images": [],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/5/5c/Grand_Hotel_Taipei_Kirin_Hall_Front.jpg"
+        ],
         "id": "1072-03",
         "pillar": true,
         "pillarCount": 2,
         "pillarInfo": "有柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Grand_Hotel_Taipei_Kirin_Hall_Front.jpg"
       },
       {
         "name": "長青廳",
@@ -1996,12 +2041,15 @@
           "音響系統",
           "麥克風"
         ],
-        "images": [],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/c/c0/Interior_of_Grand_Hotel_Taipei_20130903.jpg"
+        ],
         "id": "1072-04",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Interior_of_Grand_Hotel_Taipei_20130903.jpg"
       },
       {
         "name": "松柏廳",
@@ -2027,12 +2075,15 @@
           "舞台",
           "燈光"
         ],
-        "images": [],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/a/a9/Taipeh_Taipei_Grand_Hotel_Innen_Lobby_1.jpg"
+        ],
         "id": "1072-05",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Taipeh_Taipei_Grand_Hotel_Innen_Lobby_1.jpg"
       },
       {
         "name": "麒麟宴會廳",
@@ -2058,12 +2109,15 @@
           "大型舞台",
           "燈光"
         ],
-        "images": [],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/5/5c/Grand_Hotel_Taipei_Kirin_Hall_Front.jpg"
+        ],
         "id": "1072-06",
         "pillar": true,
         "pillarCount": 2,
         "pillarInfo": "有柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Grand_Hotel_Taipei_Kirin_Hall_Front.jpg"
       },
       {
         "name": "國宴廳",
@@ -2089,12 +2143,15 @@
           "舞台",
           "燈光"
         ],
-        "images": [],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/c/c0/Interior_of_Grand_Hotel_Taipei_20130903.jpg"
+        ],
         "id": "1072-07",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Interior_of_Grand_Hotel_Taipei_20130903.jpg"
       },
       {
         "name": "多功能會議廳",
@@ -2119,12 +2176,15 @@
           "音響系統",
           "白板"
         ],
-        "images": [],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/a/a9/Taipeh_Taipei_Grand_Hotel_Innen_Lobby_1.jpg"
+        ],
         "id": "1072-08",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Taipeh_Taipei_Grand_Hotel_Innen_Lobby_1.jpg"
       },
       {
         "name": "敦睦廳",
@@ -2148,12 +2208,15 @@
           "投影設備",
           "音響系統"
         ],
-        "images": [],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/5/5c/Grand_Hotel_Taipei_Kirin_Hall_Front.jpg"
+        ],
         "id": "1072-09",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Grand_Hotel_Taipei_Kirin_Hall_Front.jpg"
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -2273,12 +2336,15 @@
           "大型舞台",
           "燈光"
         ],
-        "images": [],
+        "images": [
+          "https://www.sheratongrandtaipei.com/files/pages_1772816933150l7wc77_m.jpg"
+        ],
         "id": "1075-01",
         "pillar": true,
         "pillarCount": 2,
         "pillarInfo": "有柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://www.sheratongrandtaipei.com/files/pages_1772816933150l7wc77_m.jpg"
       },
       {
         "name": "桃花源廳",
@@ -2303,12 +2369,15 @@
           "專業音響",
           "舞台"
         ],
-        "images": [],
+        "images": [
+          "https://www.sheratongrandtaipei.com/files/pages_175588718614lwh8v24_m.jpg"
+        ],
         "id": "1075-02",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://www.sheratongrandtaipei.com/files/pages_175588718614lwh8v24_m.jpg"
       },
       {
         "name": "鳳凰廳",
@@ -2333,12 +2402,15 @@
           "音響系統",
           "麥克風"
         ],
-        "images": [],
+        "images": [
+          "https://www.sheratongrandtaipei.com/files/pages_175459012814kxhgw40_m.jpg"
+        ],
         "id": "1075-03",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://www.sheratongrandtaipei.com/files/pages_175459012814kxhgw40_m.jpg"
       },
       {
         "name": "會議室A",
@@ -2363,12 +2435,15 @@
           "音響系統",
           "白板"
         ],
-        "images": [],
+        "images": [
+          "https://www.sheratongrandtaipei.com/files/pages_17281359591416fa692_m.jpg"
+        ],
         "id": "1075-04",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://www.sheratongrandtaipei.com/files/pages_17281359591416fa692_m.jpg"
       },
       {
         "name": "會議室B",
@@ -2393,12 +2468,15 @@
           "音響系統",
           "白板"
         ],
-        "images": [],
+        "images": [
+          "https://www.sheratongrandtaipei.com/files/pages_17281373581416gh612_m.jpg"
+        ],
         "id": "1075-05",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://www.sheratongrandtaipei.com/files/pages_17281373581416gh612_m.jpg"
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -2468,12 +2546,15 @@
           "舞台",
           "燈光"
         ],
-        "images": [],
+        "images": [
+          "https://www.lemeridien-taipei.com/files/pages_176886370114vmm6242_l.jpg"
+        ],
         "id": "1076-01",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://www.lemeridien-taipei.com/files/pages_176886370114vmm6242_l.jpg"
       },
       {
         "name": "創意廳",
@@ -2498,12 +2579,15 @@
           "音響系統",
           "麥克風"
         ],
-        "images": [],
+        "images": [
+          "https://www.lemeridien-taipei.com/files/pages_176860676414vg3v477_l.jpg"
+        ],
         "id": "1076-02",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://www.lemeridien-taipei.com/files/pages_176860676414vg3v477_l.jpg"
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -2550,12 +2634,15 @@
           "舞台",
           "燈光"
         ],
-        "images": [],
+        "images": [
+          "https://www.humblehousehotels.com/files/other_160407197911abvhf.jpg"
+        ],
         "id": "1077-01",
         "pillar": true,
         "pillarCount": 2,
         "pillarInfo": "有柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://www.humblehousehotels.com/files/other_160407197911abvhf.jpg"
       },
       {
         "name": "蘭",
@@ -2580,12 +2667,15 @@
           "音響系統",
           "麥克風"
         ],
-        "images": [],
+        "images": [
+          "https://www.humblehousehotels.com/files/other_1458636099w3hlvo.jpg"
+        ],
         "id": "1077-02",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://www.humblehousehotels.com/files/other_1458636099w3hlvo.jpg"
       },
       {
         "name": "葵",
@@ -2610,12 +2700,15 @@
           "音響系統",
           "麥克風"
         ],
-        "images": [],
+        "images": [
+          "https://www.humblehousehotels.com/files/other_1464597948w7xb83.jpg"
+        ],
         "id": "1077-03",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://www.humblehousehotels.com/files/other_1464597948w7xb83.jpg"
       },
       {
         "name": "楓",
@@ -2639,12 +2732,15 @@
           "投影設備",
           "音響系統"
         ],
-        "images": [],
+        "images": [
+          "https://www.humblehousehotels.com/files/page_16867522231347i3v.jpg"
+        ],
         "id": "1077-04",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://www.humblehousehotels.com/files/page_16867522231347i3v.jpg"
       },
       {
         "name": "柏",
@@ -2669,12 +2765,15 @@
           "音響系統",
           "白板"
         ],
-        "images": [],
+        "images": [
+          "https://www.humblehousehotels.com/files/other_160407197911abvhf.jpg"
+        ],
         "id": "1077-05",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://www.humblehousehotels.com/files/other_160407197911abvhf.jpg"
       },
       {
         "name": "槿",
@@ -2699,12 +2798,15 @@
           "音響系統",
           "白板"
         ],
-        "images": [],
+        "images": [
+          "https://www.humblehousehotels.com/files/other_1458636099w3hlvo.jpg"
+        ],
         "id": "1077-06",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://www.humblehousehotels.com/files/other_1458636099w3hlvo.jpg"
       },
       {
         "name": "空中花園",
@@ -2729,12 +2831,15 @@
           "音響系統",
           "燈光"
         ],
-        "images": [],
+        "images": [
+          "https://www.humblehousehotels.com/files/other_1464597948w7xb83.jpg"
+        ],
         "id": "1077-07",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://www.humblehousehotels.com/files/other_1464597948w7xb83.jpg"
       }
     ],
     "images": {
@@ -3036,12 +3141,15 @@
           "燈光",
           "同步翻譯"
         ],
-        "images": [],
+        "images": [
+          "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/uiw18EayQ7XiUoda5cgH.jpg"
+        ],
         "id": "1085-01",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/uiw18EayQ7XiUoda5cgH.jpg"
       },
       {
         "name": "琥珀廳",
@@ -3066,12 +3174,15 @@
           "專業音響",
           "麥克風"
         ],
-        "images": [],
+        "images": [
+          "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/oy6E3rsLkt5vaNhNAcTM.jpg"
+        ],
         "id": "1085-02",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/oy6E3rsLkt5vaNhNAcTM.jpg"
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -3136,12 +3247,15 @@
           "大型舞台",
           "燈光"
         ],
-        "images": [],
+        "images": [
+          "https://www.regenttaiwan.com/asset/types/main//images/uploads/regenttaipei/nav-regent-taipei-accommodation.jpg"
+        ],
         "id": "1086-01",
         "pillar": true,
         "pillarCount": 2,
         "pillarInfo": "有柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://www.regenttaiwan.com/asset/types/main//images/uploads/regenttaipei/nav-regent-taipei-accommodation.jpg"
       },
       {
         "name": "晶華軒",
@@ -3166,12 +3280,15 @@
           "音響系統",
           "麥克風"
         ],
-        "images": [],
+        "images": [
+          "https://www.regenttaiwan.com/asset/types/main//images/uploads/regenttaipei/nav-regent-taipei-dining.jpg?v1.001"
+        ],
         "id": "1086-02",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://www.regenttaiwan.com/asset/types/main//images/uploads/regenttaipei/nav-regent-taipei-dining.jpg?v1.001"
       },
       {
         "name": "會議室A",
@@ -3196,12 +3313,15 @@
           "音響系統",
           "白板"
         ],
-        "images": [],
+        "images": [
+          "https://www.regenttaiwan.com/asset/types/main//images/uploads/regenttaipei/nav-regent-taipei-weddings-events.jpg"
+        ],
         "id": "1086-03",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://www.regenttaiwan.com/asset/types/main//images/uploads/regenttaipei/nav-regent-taipei-weddings-events.jpg"
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -3259,12 +3379,15 @@
           "舞台",
           "燈光"
         ],
-        "images": [],
+        "images": [
+          "https://www.dynasty.com.tw/images/banner4.jpg"
+        ],
         "id": "1090-01",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://www.dynasty.com.tw/images/banner4.jpg"
       },
       {
         "name": "斯賓諾莎宴會廳",
@@ -3289,12 +3412,15 @@
           "專業音響",
           "舞台"
         ],
-        "images": [],
+        "images": [
+          "https://www.dynasty.com.tw/images/banner4-s.jpg"
+        ],
         "id": "1090-02",
         "pillar": true,
         "pillarCount": 2,
         "pillarInfo": "有柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://www.dynasty.com.tw/images/banner4-s.jpg"
       },
       {
         "name": "貴賓軒",
@@ -3318,12 +3444,15 @@
           "投影設備",
           "音響系統"
         ],
-        "images": [],
+        "images": [
+          "https://www.dynasty.com.tw/images/banner4.jpg"
+        ],
         "id": "1090-03",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "未知"
+        "shape": "未知",
+        "photo": "https://www.dynasty.com.tw/images/banner4.jpg"
       }
     ],
     "lastUpdated": "2026-03-17"

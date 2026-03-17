@@ -2527,7 +2527,10 @@
         "name": "軒轅廳",
         "nameEn": "Leo",
         "floor": "2樓",
-        "area": 60,
+        "area": {
+          "ping": 60,
+          "sqm": 196
+        },
         "areaUnit": "坪",
         "sqm": 196,
         "length": null,
@@ -2563,14 +2566,18 @@
         "photo": "https://www.lemeridien-taipei.com/files/pages_176886370114vmm6242_l.jpg",
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
-        "priceVerifiedAt": "2026-03-18"
+        "priceVerifiedAt": "2026-03-18",
+        "ceilingHeight": 3.0
       },
       {
         "id": "1076-02",
         "name": "室宿廳",
         "nameEn": "Pegasus",
         "floor": "2樓",
-        "area": 30,
+        "area": {
+          "ping": 30,
+          "sqm": 97
+        },
         "areaUnit": "坪",
         "sqm": 97,
         "length": null,
@@ -2606,14 +2613,18 @@
         "photo": "https://www.lemeridien-taipei.com/files/pages_176860676414vg3v477_l.jpg",
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
-        "priceVerifiedAt": "2026-03-18"
+        "priceVerifiedAt": "2026-03-18",
+        "ceilingHeight": 3.0
       },
       {
         "id": "1076-03",
         "name": "角宿廳",
         "nameEn": "Virgo",
         "floor": "2樓",
-        "area": 30,
+        "area": {
+          "ping": 30,
+          "sqm": 97
+        },
         "areaUnit": "坪",
         "sqm": 97,
         "length": null,
@@ -2649,14 +2660,18 @@
         "photo": "https://www.lemeridien-taipei.com/files/pages_176864907214vh6n382_l.jpg",
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
-        "priceVerifiedAt": "2026-03-18"
+        "priceVerifiedAt": "2026-03-18",
+        "ceilingHeight": 3.0
       },
       {
         "id": "1076-04",
         "name": "河鼓廳",
         "nameEn": "Aquila",
         "floor": "2樓",
-        "area": 30,
+        "area": {
+          "ping": 30,
+          "sqm": 97
+        },
         "areaUnit": "坪",
         "sqm": 97,
         "length": null,
@@ -2692,14 +2707,18 @@
         "photo": "https://www.lemeridien-taipei.com/files/pages_176860741214vg4g963_l.jpg",
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
-        "priceVerifiedAt": "2026-03-18"
+        "priceVerifiedAt": "2026-03-18",
+        "ceilingHeight": 3.0
       },
       {
         "id": "1076-05",
         "name": "北河廳",
         "nameEn": "Gemini",
         "floor": "2樓",
-        "area": 30,
+        "area": {
+          "ping": 30,
+          "sqm": 97
+        },
         "areaUnit": "坪",
         "sqm": 97,
         "length": null,
@@ -2735,14 +2754,18 @@
         "photo": "https://www.lemeridien-taipei.com/files/pages_176860862514vg5i189_l.jpg",
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
-        "priceVerifiedAt": "2026-03-18"
+        "priceVerifiedAt": "2026-03-18",
+        "ceilingHeight": 3.0
       },
       {
         "id": "1076-06",
         "name": "畢宿廳",
         "nameEn": "Taurus",
         "floor": "2樓",
-        "area": 30,
+        "area": {
+          "ping": 30,
+          "sqm": 97
+        },
         "areaUnit": "坪",
         "sqm": 97,
         "length": null,
@@ -2778,14 +2801,18 @@
         "photo": "https://www.lemeridien-taipei.com/files/pages_177022714314wnbl776_l.jpg",
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
-        "priceVerifiedAt": "2026-03-18"
+        "priceVerifiedAt": "2026-03-18",
+        "ceilingHeight": 3.0
       },
       {
         "id": "1076-07",
         "name": "室宿畢宿廳",
         "nameEn": "Pegasus-Taurus",
         "floor": "2樓",
-        "area": 150,
+        "area": {
+          "ping": 150,
+          "sqm": 485
+        },
         "areaUnit": "坪",
         "sqm": 485,
         "length": null,
@@ -2820,14 +2847,18 @@
         "photo": "https://www.lemeridien-taipei.com/files/pages_176860821214vg55s58_l.jpg",
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
-        "priceVerifiedAt": "2026-03-18"
+        "priceVerifiedAt": "2026-03-18",
+        "ceilingHeight": 3.0
       },
       {
         "id": "1076-08",
         "name": "QUUBE",
         "nameEn": "QUUBE",
         "floor": "3樓",
-        "area": 30,
+        "area": {
+          "ping": 30,
+          "sqm": 97
+        },
         "areaUnit": "坪",
         "sqm": 97,
         "length": null,
@@ -2862,14 +2893,18 @@
         "photo": "https://www.lemeridien-taipei.com/files/pages_176860845814vg5d364_l.jpg",
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
-        "priceVerifiedAt": "2026-03-18"
+        "priceVerifiedAt": "2026-03-18",
+        "ceilingHeight": 3.3
       },
       {
         "id": "1076-09",
         "name": "艾美廳",
         "nameEn": "Le Grand Ballroom",
         "floor": "5樓",
-        "area": 263,
+        "area": {
+          "ping": 263,
+          "sqm": 868
+        },
         "areaUnit": "坪",
         "sqm": 868,
         "length": null,
@@ -2904,14 +2939,18 @@
         "photo": "https://www.lemeridien-taipei.com/files/pages_1516098871xchm5901_l.jpg",
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
-        "priceVerifiedAt": "2026-03-18"
+        "priceVerifiedAt": "2026-03-18",
+        "ceilingHeight": 5.0
       },
       {
         "id": "1076-10",
         "name": "翡翠廳",
         "nameEn": "Jadeite",
         "floor": "5樓",
-        "area": 105,
+        "area": {
+          "ping": 105,
+          "sqm": 347
+        },
         "areaUnit": "坪",
         "sqm": 347,
         "length": null,
@@ -2947,14 +2986,18 @@
         "photo": "https://www.lemeridien-taipei.com/files/pages_1514973480xbn0lk34_l.jpg",
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
-        "priceVerifiedAt": "2026-03-18"
+        "priceVerifiedAt": "2026-03-18",
+        "ceilingHeight": 5.0
       },
       {
         "id": "1076-11",
         "name": "珍珠廳",
         "nameEn": "Pearl",
         "floor": "5樓",
-        "area": 53,
+        "area": {
+          "ping": 53,
+          "sqm": 174
+        },
         "areaUnit": "坪",
         "sqm": 174,
         "length": null,
@@ -2988,14 +3031,18 @@
         "photo": "https://www.lemeridien-taipei.com/files/pages_1516098920xchm6p78_l.jpg",
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
-        "priceVerifiedAt": "2026-03-18"
+        "priceVerifiedAt": "2026-03-18",
+        "ceilingHeight": 5.0
       },
       {
         "id": "1076-12",
         "name": "琥珀廳",
         "nameEn": "Amber",
         "floor": "5樓",
-        "area": 105,
+        "area": {
+          "ping": 105,
+          "sqm": 347
+        },
         "areaUnit": "坪",
         "sqm": 347,
         "length": null,
@@ -3031,26 +3078,25 @@
         "photo": "https://www.lemeridien-taipei.com/files/pages_176886370114vmm6242_l.jpg",
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
-        "priceVerifiedAt": "2026-03-18"
+        "priceVerifiedAt": "2026-03-18",
+        "ceilingHeight": 5.0
       },
       {
-        "id": "1076-13",
-        "name": "貴賓室",
-        "nameEn": "VIP Room",
-        "floor": "5樓",
-        "area": 15,
-        "areaUnit": "坪",
-        "sqm": 50,
-        "length": null,
-        "width": null,
-        "height": 4.2,
+        "name": "貴賓室I",
+        "nameEn": "VIP Room I",
+        "floor": "三樓",
+        "area": {
+          "ping": 15,
+          "sqm": 50
+        },
+        "ceilingHeight": 4.2,
         "capacity": {
-          "theater": 12,
+          "theater": null,
           "classroom": 12,
           "ushape": 12,
-          "boardroom": 12,
-          "roundtable_min": 0,
-          "roundtable_max": 0
+          "boardroom": null,
+          "roundtable_min": null,
+          "roundtable_max": null
         },
         "price": {
           "morning": 15000,
@@ -3059,21 +3105,39 @@
           "fullDay": 63000,
           "overnightSetup": 8000
         },
-        "equipment": [
-          "投影設備",
-          "音響系統"
+        "features": [
+          "接待區"
         ],
-        "pillar": false,
-        "pillarCount": 0,
-        "shape": "未知",
-        "description": "五樓貴賓室",
-        "images": [
-          "https://www.lemeridien-taipei.com/files/pages_176860676414vg3v477_l.jpg"
+        "photo": "https://www.lemeridien-taipei.com/files/pages_176860676414vg3v477_l.jpg"
+      },
+      {
+        "name": "貴賓室II",
+        "nameEn": "VIP Room II",
+        "floor": "三樓",
+        "area": {
+          "ping": 16,
+          "sqm": 53
+        },
+        "ceilingHeight": 4.2,
+        "capacity": {
+          "theater": null,
+          "classroom": 12,
+          "ushape": 12,
+          "boardroom": null,
+          "roundtable_min": null,
+          "roundtable_max": null
+        },
+        "price": {
+          "morning": 15000,
+          "afternoon": 15000,
+          "evening": 25000,
+          "fullDay": 63000,
+          "overnightSetup": 8000
+        },
+        "features": [
+          "接待區"
         ],
-        "photo": "https://www.lemeridien-taipei.com/files/pages_176860676414vg3v477_l.jpg",
-        "priceSource": "2026 官方價目表 (2026-01-23)",
-        "priceVerified": true,
-        "priceVerifiedAt": "2026-03-18"
+        "photo": "https://www.lemeridien-taipei.com/files/pages_176860676414vg3v477_l.jpg"
       }
     ],
     "lastUpdated": "2026-03-18",

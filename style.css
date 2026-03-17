@@ -858,6 +858,16 @@ body {
     height: 14px;
 }
 
+.room-card-space-tags {
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+    padding: 4px 8px;
+    background: rgba(52, 152, 219, 0.08);
+    border-radius: 4px;
+    display: inline-block;
+}
+
 .room-card-footer {
     display: flex;
     justify-content: space-between;

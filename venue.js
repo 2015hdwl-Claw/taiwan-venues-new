@@ -204,6 +204,19 @@ function createRoomCard(room, venueId) {
         }
     }
     
+    // 空間資訊標籤（新增）
+    let spaceTags = [];
+    if (room.shape) {
+        spaceTags.push(room.shape);
+    }
+    if (room.height) {
+        spaceTags.push(`挑高${room.height}公尺`);
+    }
+    if (room.pillar !== undefined) {
+        spaceTags.push(room.pillar ? '有柱' : '無柱');
+    }
+    const spaceTagsText = spaceTags.length > 0 ? spaceTags.join(' · ') : '';
+    
     card.innerHTML = `
         <img src="${imageUrl}" alt="${room.name}" class="room-card-image"
              onerror="this.src='https://images.unsplash.com/photo-1497366216548-37526070297c?w=800'">
@@ -226,6 +239,7 @@ function createRoomCard(room, venueId) {
                     ${capacityText}
                 </span>
             </div>
+            ${spaceTagsText ? `<div class="room-card-space-tags">${spaceTagsText}</div>` : ''}
             <div class="room-card-footer">
                 <span class="room-card-price">${priceText}</span>
                 <span class="room-card-equipment">${equipmentText}</span>

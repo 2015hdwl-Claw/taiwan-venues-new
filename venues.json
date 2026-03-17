@@ -3203,7 +3203,14 @@
         ],
         "images": [],
         "floor": "5樓",
-        "note": "台北國際五星級飯店最大無樑柱宴會廳"
+        "note": "台北國際五星級飯店最大無樑柱宴會廳",
+        "length": 35.0,
+        "width": 12.0,
+        "height": 9.0,
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "方正",
+        "description": "台北國際五星級飯店最大無樑柱宴會廳，可容納車輛進場展示"
       },
       {
         "name": "萬豪一廳 Grand Ballroom I",
@@ -3226,7 +3233,14 @@
         ],
         "images": [],
         "floor": "5樓",
-        "note": "特殊動線規畫，可容納車輛進場展示"
+        "note": "特殊動線規畫，可容納車輛進場展示",
+        "length": 17.5,
+        "width": 12.0,
+        "height": 9.0,
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "方正",
+        "description": "特殊動線規畫，可容納車輛進場展示"
       },
       {
         "name": "Garden Villa",
@@ -3248,7 +3262,14 @@
         ],
         "images": [],
         "floor": "8樓",
-        "note": "空中綠地花園和歐式禮堂"
+        "note": "空中綠地花園和歐式禮堂",
+        "length": 20.0,
+        "width": 15.0,
+        "height": 6.0,
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "L型",
+        "description": "空中綠地花園和歐式禮堂，戶外場地"
       },
       {
         "name": "寰宇廳 Panorama Ballroom",
@@ -3270,7 +3291,14 @@
         ],
         "images": [],
         "floor": "36樓",
-        "note": "高空宴會廳，台北絕美景致"
+        "note": "高空宴會廳，台北絕美景致",
+        "length": 12.0,
+        "width": 10.0,
+        "height": 3.5,
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "方正",
+        "description": "高空宴會廳，台北絕美景致"
       },
       {
         "name": "福祿壽廳",
@@ -3290,7 +3318,14 @@
           "音響系統"
         ],
         "images": [],
-        "areaNote": "官網標註「全開72坪(238平方米)」"
+        "areaNote": "官網標註「全開72坪(238平方米)」",
+        "length": 14.0,
+        "width": 14.0,
+        "height": 3.2,
+        "pillar": true,
+        "pillarCount": 4,
+        "shape": "方正",
+        "description": "全開72坪(238平方米)"
       },
       {
         "name": "四季廳",
@@ -3310,7 +3345,14 @@
           "音響系統"
         ],
         "images": [],
-        "areaNote": "官網標註「四廳合併78坪」"
+        "areaNote": "官網標註「四廳合併78坪」",
+        "length": 13.0,
+        "width": 13.0,
+        "height": 3.2,
+        "pillar": true,
+        "pillarCount": 4,
+        "shape": "方正",
+        "description": "四廳合併78坪"
       },
       {
         "name": "宜華廳 Junior Ballroom",
@@ -3332,7 +3374,14 @@
         ],
         "images": [],
         "floor": "5樓",
-        "note": "挑高4米雅致空間"
+        "note": "挑高4米雅致空間",
+        "length": 10.0,
+        "width": 8.0,
+        "height": 4.0,
+        "pillar": false,
+        "pillarCount": 0,
+        "shape": "方正",
+        "description": "挑高4米雅致空間"
       },
       {
         "name": "博覽廳 Grand Space",
@@ -3354,7 +3403,14 @@
           "燈光"
         ],
         "images": [],
-        "areaNote": "官網標註「超過400坪」"
+        "areaNote": "官網標註「超過400坪」",
+        "length": 40.0,
+        "width": 20.0,
+        "height": 8.0,
+        "pillar": true,
+        "pillarCount": 8,
+        "shape": "方正",
+        "description": "超過400坪大型展覽空間"
       }
     ],
     "lastUpdated": "2026-03-17",

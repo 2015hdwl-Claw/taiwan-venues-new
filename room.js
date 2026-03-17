@@ -156,8 +156,35 @@ function renderSpaceInfo(room) {
         highlightCard.style.display = 'none';
     }
     
-    // 其他資訊（只顯示有值的）
-    if (room.ceiling) {
+    // 長度、寬度資訊（新增）
+    if (room.length && room.width) {
+        infoItems.push({
+            icon: '📐',
+            label: '空間尺寸',
+            value: `${room.length} × ${room.width} 公尺`
+        });
+    } else if (room.length) {
+        infoItems.push({
+            icon: '📐',
+            label: '長度',
+            value: `${room.length} 公尺`
+        });
+    } else if (room.width) {
+        infoItems.push({
+            icon: '📐',
+            label: '寬度',
+            value: `${room.width} 公尺`
+        });
+    }
+    
+    // 挑高資訊（支援新舊欄位名稱）
+    if (room.height) {
+        infoItems.push({
+            icon: '📏',
+            label: '挑高',
+            value: `${room.height} 公尺`
+        });
+    } else if (room.ceiling) {
         infoItems.push({
             icon: '📏',
             label: '挑高',
@@ -165,6 +192,31 @@ function renderSpaceInfo(room) {
         });
     }
     
+    // 形狀描述（新增）
+    if (room.shape) {
+        infoItems.push({
+            icon: '🔲',
+            label: '空間形狀',
+            value: room.shape
+        });
+    }
+    
+    // 柱子資訊（支援新舊欄位名稱）
+    if (room.pillar !== undefined) {
+        infoItems.push({
+            icon: '🏛️',
+            label: '柱子',
+            value: room.pillar ? (room.pillarCount ? `有 ${room.pillarCount} 根柱子` : '有柱子') : '無柱'
+        });
+    } else if (room.pillars !== undefined) {
+        infoItems.push({
+            icon: '🏛️',
+            label: '柱子',
+            value: room.pillars ? `有 ${room.pillars} 根柱子` : '無柱'
+        });
+    }
+    
+    // 樓層
     if (room.floor) {
         infoItems.push({
             icon: '🏢',
@@ -173,6 +225,7 @@ function renderSpaceInfo(room) {
         });
     }
     
+    // 採光
     if (room.hasWindow !== undefined) {
         infoItems.push({
             icon: '🪟',
@@ -196,15 +249,6 @@ function renderSpaceInfo(room) {
             icon: '🔲',
             label: '空間分割',
             value: room.dividable
-        });
-    }
-    
-    // 柱子資訊
-    if (room.pillars !== undefined) {
-        infoItems.push({
-            icon: '🏛️',
-            label: '柱子',
-            value: room.pillars ? `有 ${room.pillars} 根柱子` : '無柱'
         });
     }
     

@@ -173,7 +173,10 @@ function createRoomCard(room, venueId) {
     card.className = 'room-card';
     card.onclick = () => goToRoom(venueId, room.id);
     
-    const imageUrl = room.image || room.images?.main || 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800';
+    // 優先使用 images 陣列第一張（官網照片），其次是 image 欄位
+    const imageUrl = (Array.isArray(room.images) && room.images.length > 0)
+        ? room.images[0]
+        : (room.image || room.images?.main || 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800');
     
     // 容納人數
     let capacityText = '-';

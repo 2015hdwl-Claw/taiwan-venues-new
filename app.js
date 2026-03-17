@@ -303,11 +303,13 @@ function createVenueCard(venue) {
             ? `全天 $${venue.priceFullDay.toLocaleString()} 起`
             : '價格面議');
     
-    const capacityText = venue.maxCapacityTheater 
-        ? `最多 ${venue.maxCapacityTheater} 人`
-        : (venue.maxCapacityClassroom 
-            ? `最多 ${venue.maxCapacityClassroom} 人`
-            : '人數未提供');
+    // 移除最大容量顯示（因為容納人數已有）
+    // const capacityText = venue.maxCapacityTheater 
+    //     ? `最多 ${venue.maxCapacityTheater} 人`
+    //     : (venue.maxCapacityClassroom 
+    //         ? `最多 ${venue.maxCapacityClassroom} 人`
+    //         : '人數未提供');
+    const capacityText = '';
     
     // 檢查是否為熱門縣市/類型
     const cityInfo = CITY_WEIGHT_MAP.get(venue.city);
@@ -346,7 +348,7 @@ function createVenueCard(venue) {
             </div>
             <div class="venue-footer">
                 <span class="venue-price">${priceText}</span>
-                <span class="venue-capacity">${capacityText}</span>
+                <span class="venue-capacity" style="display: none;">${capacityText}</span>
                 ${roomsCount > 0 ? `<span class="venue-rooms">🚪 ${roomsCount} 間會議室</span>` : ''}
             </div>
         </div>

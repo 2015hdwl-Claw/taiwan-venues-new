@@ -69,6 +69,21 @@
                 <section class="room-section">
                     <h2 class="section-heading">📊 空間資訊</h2>
                     
+                    <!-- 場地平面圖（第一位） -->
+                    <div id="floorPlanSection" class="floor-plan-section" style="display: none;">
+                        <div class="floor-plan-header">
+                            <span class="floor-plan-icon">🗺️</span>
+                            <h3 class="floor-plan-heading">場地平面圖</h3>
+                        </div>
+                        <!-- PDF 嵌入顯示 -->
+                        <div id="floorPlanEmbed" class="floor-plan-embed" style="display: none;">
+                            <iframe id="floorPlanIframe" class="floor-plan-iframe" src="" frameborder="0"></iframe>
+                        </div>
+                        <!-- 圖片顯示 -->
+                        <img id="floorPlanImage" class="floor-plan-image" src="" alt="場地圖" style="display: none;">
+                        <p class="floor-plan-note">場地配置示意圖（實際佈置可能因活動需求調整）</p>
+                    </div>
+                    
                     <!-- 主要資訊卡片 -->
                     <div class="space-info-container">
                         <!-- 面積資訊（重點突出） -->

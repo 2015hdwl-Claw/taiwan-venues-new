@@ -75,8 +75,13 @@ function renderRoomDetail() {
     document.getElementById('breadcrumbVenue').textContent = venue.name;
     document.getElementById('breadcrumbRoom').textContent = room.name;
     
-    // 主圖
-    const mainImage = room.image || room.images?.main || venue.images?.main || 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800';
+    // 主圖（優先使用 images 陣列第一張官網照片）
+    let mainImage;
+    if (Array.isArray(room.images) && room.images.length > 0) {
+        mainImage = room.images[0];
+    } else {
+        mainImage = room.image || room.images?.main || venue.images?.main || 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800';
+    }
     document.getElementById('roomMainImage').src = mainImage;
     document.getElementById('roomMainImage').alt = room.name;
     
@@ -156,20 +161,33 @@ function renderSpaceInfo(room) {
         highlightCard.style.display = 'none';
     }
     
-    // 長度、寬度資訊（新增）
-    if (room.length && room.width) {
+    // 長度、寬度、挑高資訊（合併顯示）
+    const hasLength = room.length;
+    const hasWidth = room.width;
+    const hasHeight = room.height || room.ceiling;
+    const heightValue = room.height || room.ceiling;
+    
+    if (hasLength && hasWidth && hasHeight) {
+        // 完整的三維尺寸
         infoItems.push({
             icon: '📐',
             label: '空間尺寸',
-            value: `${room.length} × ${room.width} 公尺`
+            value: `${room.length} × ${room.width} × ${heightValue} 公尺（長×寬×高）`
         });
-    } else if (room.length) {
+    } else if (hasLength && hasWidth) {
+        // 只有長寬
+        infoItems.push({
+            icon: '📐',
+            label: '空間尺寸',
+            value: `${room.length} × ${room.width} 公尺（長×寬）`
+        });
+    } else if (hasLength) {
         infoItems.push({
             icon: '📐',
             label: '長度',
             value: `${room.length} 公尺`
         });
-    } else if (room.width) {
+    } else if (hasWidth) {
         infoItems.push({
             icon: '📐',
             label: '寬度',
@@ -177,18 +195,12 @@ function renderSpaceInfo(room) {
         });
     }
     
-    // 挑高資訊（支援新舊欄位名稱）
-    if (room.height) {
+    // 如果有挑高但沒有長寬，才單獨顯示
+    if (hasHeight && !hasLength && !hasWidth) {
         infoItems.push({
             icon: '📏',
             label: '挑高',
-            value: `${room.height} 公尺`
-        });
-    } else if (room.ceiling) {
-        infoItems.push({
-            icon: '📏',
-            label: '挑高',
-            value: `${room.ceiling} 米`
+            value: `${heightValue} 公尺`
         });
     }
     
@@ -234,15 +246,6 @@ function renderSpaceInfo(room) {
         });
     }
     
-    // 容納人數（如果有 capacity 屬性）
-    if (room.capacity) {
-        infoItems.push({
-            icon: '👥',
-            label: '最大容納',
-            value: `${room.capacity} 人`
-        });
-    }
-    
     // 分割資訊
     if (room.dividable) {
         infoItems.push({
@@ -265,6 +268,37 @@ function renderSpaceInfo(room) {
         `).join('');
     } else {
         grid.innerHTML = '';
+    }
+    
+    // 場地圖顯示（支援 PDF 和圖片）
+    const floorPlanSection = document.getElementById('floorPlanSection');
+    const floorPlanEmbed = document.getElementById('floorPlanEmbed');
+    const floorPlanIframe = document.getElementById('floorPlanIframe');
+    const floorPlanImage = document.getElementById('floorPlanImage');
+    
+    // 檢查是否有 floorPlan（PDF 或圖片）
+    const floorPlanUrl = room.floorPlan || room.layoutImage || (room.images && room.images.floorPlan);
+    
+    if (floorPlanUrl) {
+        floorPlanSection.style.display = 'block';
+        
+        // 判斷是否為 PDF
+        const isPDF = floorPlanUrl.toLowerCase().endsWith('.pdf') || floorPlanUrl.toLowerCase().includes('.pdf');
+        
+        if (isPDF) {
+            // PDF 嵌入顯示
+            floorPlanEmbed.style.display = 'block';
+            floorPlanIframe.src = floorPlanUrl;
+            floorPlanImage.style.display = 'none';
+        } else {
+            // 圖片直接顯示
+            floorPlanEmbed.style.display = 'none';
+            floorPlanImage.style.display = 'block';
+            floorPlanImage.src = floorPlanUrl;
+            floorPlanImage.alt = `${room.name} 場地圖`;
+        }
+    } else {
+        floorPlanSection.style.display = 'none';
     }
     
     // 空間描述

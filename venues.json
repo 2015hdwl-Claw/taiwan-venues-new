@@ -3786,26 +3786,27 @@
       },
       {
         "id": "1103-14",
-        "name": "萬豪廳",
+        "name": "萬豪廳 Grand Ballroom",
         "nameEn": "Grand Ballroom",
         "floor": "5樓",
-        "area": 1260,
+        "area": 381,
         "areaUnit": "坪",
-        "sqm": 381,
+        "sqm": 1260,
         "length": 53.6,
         "width": 23.5,
         "height": 9.9,
         "capacity": {
           "theater": 1200,
           "classroom": 675,
-          "roundtable_small": 600,
-          "roundtable_large": "600-850",
+          "roundtable_min": 600,
+          "roundtable_max": 850,
           "cocktail": 1000
         },
         "price": {
           "morning": 290000,
-          "afternoon": 1550000,
-          "evening": 1700000,
+          "afternoon": 290000,
+          "evening": 1550000,
+          "fullDay": 1700000,
           "overnight": 120000,
           "additionalHour": 70000
         },
@@ -3824,7 +3825,7 @@
         "pillar": false,
         "pillarCount": 0,
         "shape": "方正",
-        "description": "台北國際五星級飯店最大無樑柱宴會廳",
+        "description": "台北國際五星級飯店最大無樑柱宴會廳，挑高9.9米",
         "images": [
           "https://www.taipeimarriott.com.tw/files/page_176900695814vqapk04_l.jpg"
         ],

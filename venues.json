@@ -1355,10 +1355,15 @@
           "theater": 450,
           "classroom": 280,
           "ushape": 200,
-          "roundtable": 150
+          "roundtable": 150,
+          "roundtable_min": 150,
+          "roundtable_max": 150
         },
         "area": 200,
         "price": {
+          "morning": 75000,
+          "afternoon": 75000,
+          "evening": 130000,
           "halfDay": 150000,
           "fullDay": 280000
         },
@@ -1370,7 +1375,11 @@
           "視訊會議"
         ],
         "images": [],
-        "id": "1067-01"
+        "id": "1067-01",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       },
       {
         "name": "祿廳",
@@ -1378,10 +1387,15 @@
           "theater": 480,
           "classroom": 300,
           "ushape": 220,
-          "roundtable": 160
+          "roundtable": 160,
+          "roundtable_min": 160,
+          "roundtable_max": 160
         },
         "area": 210,
         "price": {
+          "morning": 80000,
+          "afternoon": 80000,
+          "evening": 140000,
           "halfDay": 160000,
           "fullDay": 300000
         },
@@ -1393,7 +1407,11 @@
           "視訊會議"
         ],
         "images": [],
-        "id": "1067-02"
+        "id": "1067-02",
+        "pillar": true,
+        "pillarCount": 2,
+        "pillarInfo": "有柱子",
+        "shape": "未知"
       },
       {
         "name": "壽廳",
@@ -1401,10 +1419,15 @@
           "theater": 220,
           "classroom": 140,
           "ushape": 100,
-          "roundtable": 75
+          "roundtable": 75,
+          "roundtable_min": 75,
+          "roundtable_max": 75
         },
         "area": 80,
         "price": {
+          "morning": 40000,
+          "afternoon": 40000,
+          "evening": 60000,
           "halfDay": 80000,
           "fullDay": 140000
         },
@@ -1414,7 +1437,11 @@
           "麥克風"
         ],
         "images": [],
-        "id": "1067-03"
+        "id": "1067-03",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       },
       {
         "name": "喜廳",
@@ -1422,10 +1449,15 @@
           "theater": 200,
           "classroom": 130,
           "ushape": 90,
-          "roundtable": 70
+          "roundtable": 70,
+          "roundtable_min": 70,
+          "roundtable_max": 70
         },
         "area": 75,
         "price": {
+          "morning": 37500,
+          "afternoon": 37500,
+          "evening": 55000,
           "halfDay": 75000,
           "fullDay": 130000
         },
@@ -1435,7 +1467,11 @@
           "麥克風"
         ],
         "images": [],
-        "id": "1067-04"
+        "id": "1067-04",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       },
       {
         "name": "多功能會議廳A",
@@ -1443,10 +1479,15 @@
           "theater": 120,
           "classroom": 80,
           "ushape": 60,
-          "roundtable": 45
+          "roundtable": 45,
+          "roundtable_min": 45,
+          "roundtable_max": 45
         },
         "area": 45,
         "price": {
+          "morning": 22500,
+          "afternoon": 22500,
+          "evening": 35000,
           "halfDay": 45000,
           "fullDay": 80000
         },
@@ -1456,7 +1497,11 @@
           "白板"
         ],
         "images": [],
-        "id": "1067-05"
+        "id": "1067-05",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       },
       {
         "name": "多功能會議廳B",
@@ -1464,10 +1509,15 @@
           "theater": 80,
           "classroom": 50,
           "ushape": 40,
-          "roundtable": 30
+          "roundtable": 30,
+          "roundtable_min": 30,
+          "roundtable_max": 30
         },
         "area": 30,
         "price": {
+          "morning": 15000,
+          "afternoon": 15000,
+          "evening": 25000,
           "halfDay": 30000,
           "fullDay": 55000
         },
@@ -1477,7 +1527,11 @@
           "白板"
         ],
         "images": [],
-        "id": "1067-06"
+        "id": "1067-06",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       },
       {
         "name": "多功能會議廳C",
@@ -1485,10 +1539,15 @@
           "theater": 40,
           "classroom": 25,
           "ushape": 20,
-          "roundtable": 15
+          "roundtable": 15,
+          "roundtable_min": 15,
+          "roundtable_max": 15
         },
         "area": 15,
         "price": {
+          "morning": 9000,
+          "afternoon": 9000,
+          "evening": 14000,
           "halfDay": 18000,
           "fullDay": 32000
         },
@@ -1498,7 +1557,11 @@
           "白板"
         ],
         "images": [],
-        "id": "1067-07"
+        "id": "1067-07",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       },
       {
         "name": "瑞穗園",
@@ -1506,10 +1569,15 @@
           "theater": 280,
           "classroom": 180,
           "ushape": 130,
-          "roundtable": 90
+          "roundtable": 90,
+          "roundtable_min": 90,
+          "roundtable_max": 90
         },
         "area": 100,
         "price": {
+          "morning": 50000,
+          "afternoon": 50000,
+          "evening": 80000,
           "halfDay": 100000,
           "fullDay": 180000
         },
@@ -1520,7 +1588,11 @@
           "燈光"
         ],
         "images": [],
-        "id": "1067-08"
+        "id": "1067-08",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       },
       {
         "name": "清翫",
@@ -1528,10 +1600,15 @@
           "theater": 180,
           "classroom": 120,
           "ushape": 80,
-          "roundtable": 60
+          "roundtable": 60,
+          "roundtable_min": 60,
+          "roundtable_max": 60
         },
         "area": 65,
         "price": {
+          "morning": 35000,
+          "afternoon": 35000,
+          "evening": 50000,
           "halfDay": 70000,
           "fullDay": 120000
         },
@@ -1541,7 +1618,11 @@
           "麥克風"
         ],
         "images": [],
-        "id": "1067-09"
+        "id": "1067-09",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -1676,10 +1757,15 @@
           "theater": 300,
           "classroom": 180,
           "ushape": 120,
-          "roundtable": 150
+          "roundtable": 150,
+          "roundtable_min": 150,
+          "roundtable_max": 150
         },
         "area": 120,
         "price": {
+          "morning": 50000,
+          "afternoon": 50000,
+          "evening": 80000,
           "halfDay": 100000,
           "fullDay": 180000
         },
@@ -1690,7 +1776,11 @@
           "燈光"
         ],
         "images": [],
-        "id": "1069-01"
+        "id": "1069-01",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       },
       {
         "name": "翡翠廳",
@@ -1698,10 +1788,15 @@
           "theater": 150,
           "classroom": 100,
           "ushape": 70,
-          "roundtable": 80
+          "roundtable": 80,
+          "roundtable_min": 80,
+          "roundtable_max": 80
         },
         "area": 55,
         "price": {
+          "morning": 27500,
+          "afternoon": 27500,
+          "evening": 40000,
           "halfDay": 55000,
           "fullDay": 95000
         },
@@ -1711,7 +1806,11 @@
           "麥克風"
         ],
         "images": [],
-        "id": "1069-02"
+        "id": "1069-02",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       },
       {
         "name": "董事會議廳",
@@ -1719,10 +1818,15 @@
           "theater": 80,
           "classroom": 50,
           "ushape": 40,
-          "roundtable": 50
+          "roundtable": 50,
+          "roundtable_min": 50,
+          "roundtable_max": 50
         },
         "area": 30,
         "price": {
+          "morning": 15000,
+          "afternoon": 15000,
+          "evening": 25000,
           "halfDay": 30000,
           "fullDay": 55000
         },
@@ -1732,7 +1836,11 @@
           "視訊會議"
         ],
         "images": [],
-        "id": "1069-03"
+        "id": "1069-03",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -1777,10 +1885,15 @@
           "theater": 2000,
           "classroom": 1200,
           "ushape": 600,
-          "roundtable": 1500
+          "roundtable": 1500,
+          "roundtable_min": 1500,
+          "roundtable_max": 1500
         },
         "area": 800,
         "price": {
+          "morning": 250000,
+          "afternoon": 250000,
+          "evening": 400000,
           "halfDay": 500000,
           "fullDay": 900000
         },
@@ -1792,7 +1905,11 @@
           "同步翻譯"
         ],
         "images": [],
-        "id": "1072-01"
+        "id": "1072-01",
+        "pillar": true,
+        "pillarCount": 2,
+        "pillarInfo": "有柱子",
+        "shape": "未知"
       },
       {
         "name": "崑崙廳",
@@ -1800,10 +1917,15 @@
           "theater": 400,
           "classroom": 250,
           "ushape": 150,
-          "roundtable": 300
+          "roundtable": 300,
+          "roundtable_min": 300,
+          "roundtable_max": 300
         },
         "area": 150,
         "price": {
+          "morning": 75000,
+          "afternoon": 75000,
+          "evening": 130000,
           "halfDay": 150000,
           "fullDay": 280000
         },
@@ -1814,7 +1936,11 @@
           "燈光"
         ],
         "images": [],
-        "id": "1072-02"
+        "id": "1072-02",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       },
       {
         "name": "國際會議廳",
@@ -1822,10 +1948,15 @@
           "theater": 600,
           "classroom": 400,
           "ushape": 200,
-          "roundtable": 450
+          "roundtable": 450,
+          "roundtable_min": 450,
+          "roundtable_max": 450
         },
         "area": 220,
         "price": {
+          "morning": 100000,
+          "afternoon": 100000,
+          "evening": 150000,
           "halfDay": 200000,
           "fullDay": 350000
         },
@@ -1836,7 +1967,11 @@
           "同步翻譯"
         ],
         "images": [],
-        "id": "1072-03"
+        "id": "1072-03",
+        "pillar": true,
+        "pillarCount": 2,
+        "pillarInfo": "有柱子",
+        "shape": "未知"
       },
       {
         "name": "長青廳",
@@ -1844,10 +1979,15 @@
           "theater": 250,
           "classroom": 150,
           "ushape": 100,
-          "roundtable": 180
+          "roundtable": 180,
+          "roundtable_min": 180,
+          "roundtable_max": 180
         },
         "area": 90,
         "price": {
+          "morning": 45000,
+          "afternoon": 45000,
+          "evening": 70000,
           "halfDay": 90000,
           "fullDay": 160000
         },
@@ -1857,7 +1997,11 @@
           "麥克風"
         ],
         "images": [],
-        "id": "1072-04"
+        "id": "1072-04",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       },
       {
         "name": "松柏廳",
@@ -1865,10 +2009,15 @@
           "theater": 400,
           "classroom": 250,
           "ushape": 150,
-          "roundtable": 300
+          "roundtable": 300,
+          "roundtable_min": 300,
+          "roundtable_max": 300
         },
         "area": 140,
         "price": {
+          "morning": 70000,
+          "afternoon": 70000,
+          "evening": 110000,
           "halfDay": 140000,
           "fullDay": 250000
         },
@@ -1879,7 +2028,11 @@
           "燈光"
         ],
         "images": [],
-        "id": "1072-05"
+        "id": "1072-05",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       },
       {
         "name": "麒麟宴會廳",
@@ -1887,10 +2040,15 @@
           "theater": 800,
           "classroom": 500,
           "ushape": 300,
-          "roundtable": 600
+          "roundtable": 600,
+          "roundtable_min": 600,
+          "roundtable_max": 600
         },
         "area": 280,
         "price": {
+          "morning": 125000,
+          "afternoon": 125000,
+          "evening": 200000,
           "halfDay": 250000,
           "fullDay": 450000
         },
@@ -1901,7 +2059,11 @@
           "燈光"
         ],
         "images": [],
-        "id": "1072-06"
+        "id": "1072-06",
+        "pillar": true,
+        "pillarCount": 2,
+        "pillarInfo": "有柱子",
+        "shape": "未知"
       },
       {
         "name": "國宴廳",
@@ -1909,10 +2071,15 @@
           "theater": 500,
           "classroom": 350,
           "ushape": 200,
-          "roundtable": 400
+          "roundtable": 400,
+          "roundtable_min": 400,
+          "roundtable_max": 400
         },
         "area": 180,
         "price": {
+          "morning": 90000,
+          "afternoon": 90000,
+          "evening": 140000,
           "halfDay": 180000,
           "fullDay": 320000
         },
@@ -1923,7 +2090,11 @@
           "燈光"
         ],
         "images": [],
-        "id": "1072-07"
+        "id": "1072-07",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       },
       {
         "name": "多功能會議廳",
@@ -1931,10 +2102,15 @@
           "theater": 150,
           "classroom": 100,
           "ushape": 60,
-          "roundtable": 120
+          "roundtable": 120,
+          "roundtable_min": 120,
+          "roundtable_max": 120
         },
         "area": 50,
         "price": {
+          "morning": 25000,
+          "afternoon": 25000,
+          "evening": 40000,
           "halfDay": 50000,
           "fullDay": 90000
         },
@@ -1944,7 +2120,11 @@
           "白板"
         ],
         "images": [],
-        "id": "1072-08"
+        "id": "1072-08",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       },
       {
         "name": "敦睦廳",
@@ -1952,10 +2132,15 @@
           "theater": 100,
           "classroom": 60,
           "ushape": 40,
-          "roundtable": 80
+          "roundtable": 80,
+          "roundtable_min": 80,
+          "roundtable_max": 80
         },
         "area": 35,
         "price": {
+          "morning": 17500,
+          "afternoon": 17500,
+          "evening": 30000,
           "halfDay": 35000,
           "fullDay": 65000
         },
@@ -1964,7 +2149,11 @@
           "音響系統"
         ],
         "images": [],
-        "id": "1072-09"
+        "id": "1072-09",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -2066,10 +2255,15 @@
           "theater": 800,
           "classroom": 500,
           "ushape": 300,
-          "roundtable": 600
+          "roundtable": 600,
+          "roundtable_min": 600,
+          "roundtable_max": 600
         },
         "area": 280,
         "price": {
+          "morning": 140000,
+          "afternoon": 140000,
+          "evening": 220000,
           "halfDay": 280000,
           "fullDay": 500000
         },
@@ -2080,7 +2274,11 @@
           "燈光"
         ],
         "images": [],
-        "id": "1075-01"
+        "id": "1075-01",
+        "pillar": true,
+        "pillarCount": 2,
+        "pillarInfo": "有柱子",
+        "shape": "未知"
       },
       {
         "name": "桃花源廳",
@@ -2088,10 +2286,15 @@
           "theater": 300,
           "classroom": 200,
           "ushape": 130,
-          "roundtable": 180
+          "roundtable": 180,
+          "roundtable_min": 180,
+          "roundtable_max": 180
         },
         "area": 100,
         "price": {
+          "morning": 50000,
+          "afternoon": 50000,
+          "evening": 80000,
           "halfDay": 100000,
           "fullDay": 180000
         },
@@ -2101,7 +2304,11 @@
           "舞台"
         ],
         "images": [],
-        "id": "1075-02"
+        "id": "1075-02",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       },
       {
         "name": "鳳凰廳",
@@ -2109,10 +2316,15 @@
           "theater": 200,
           "classroom": 130,
           "ushape": 90,
-          "roundtable": 120
+          "roundtable": 120,
+          "roundtable_min": 120,
+          "roundtable_max": 120
         },
         "area": 70,
         "price": {
+          "morning": 35000,
+          "afternoon": 35000,
+          "evening": 60000,
           "halfDay": 70000,
           "fullDay": 130000
         },
@@ -2122,7 +2334,11 @@
           "麥克風"
         ],
         "images": [],
-        "id": "1075-03"
+        "id": "1075-03",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       },
       {
         "name": "會議室A",
@@ -2130,10 +2346,15 @@
           "theater": 50,
           "classroom": 30,
           "ushape": 20,
-          "roundtable": 30
+          "roundtable": 30,
+          "roundtable_min": 30,
+          "roundtable_max": 30
         },
         "area": 18,
         "price": {
+          "morning": 7500,
+          "afternoon": 7500,
+          "evening": 13000,
           "halfDay": 15000,
           "fullDay": 28000
         },
@@ -2143,7 +2364,11 @@
           "白板"
         ],
         "images": [],
-        "id": "1075-04"
+        "id": "1075-04",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       },
       {
         "name": "會議室B",
@@ -2151,10 +2376,15 @@
           "theater": 30,
           "classroom": 20,
           "ushape": 14,
-          "roundtable": 18
+          "roundtable": 18,
+          "roundtable_min": 18,
+          "roundtable_max": 18
         },
         "area": 12,
         "price": {
+          "morning": 5000,
+          "afternoon": 5000,
+          "evening": 8000,
           "halfDay": 10000,
           "fullDay": 18000
         },
@@ -2164,7 +2394,11 @@
           "白板"
         ],
         "images": [],
-        "id": "1075-05"
+        "id": "1075-05",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -2216,10 +2450,15 @@
           "theater": 300,
           "classroom": 200,
           "ushape": 150,
-          "roundtable": 180
+          "roundtable": 180,
+          "roundtable_min": 180,
+          "roundtable_max": 180
         },
         "area": 110,
         "price": {
+          "morning": 60000,
+          "afternoon": 60000,
+          "evening": 100000,
           "halfDay": 120000,
           "fullDay": 220000
         },
@@ -2230,7 +2469,11 @@
           "燈光"
         ],
         "images": [],
-        "id": "1076-01"
+        "id": "1076-01",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       },
       {
         "name": "創意廳",
@@ -2238,10 +2481,15 @@
           "theater": 150,
           "classroom": 100,
           "ushape": 70,
-          "roundtable": 80
+          "roundtable": 80,
+          "roundtable_min": 80,
+          "roundtable_max": 80
         },
         "area": 55,
         "price": {
+          "morning": 30000,
+          "afternoon": 30000,
+          "evening": 50000,
           "halfDay": 60000,
           "fullDay": 110000
         },
@@ -2251,7 +2499,11 @@
           "麥克風"
         ],
         "images": [],
-        "id": "1076-02"
+        "id": "1076-02",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -2280,10 +2532,15 @@
           "theater": 480,
           "classroom": 300,
           "ushape": 200,
-          "roundtable": 360
+          "roundtable": 360,
+          "roundtable_min": 360,
+          "roundtable_max": 360
         },
         "area": 180,
         "price": {
+          "morning": 90000,
+          "afternoon": 90000,
+          "evening": 140000,
           "halfDay": 180000,
           "fullDay": 320000
         },
@@ -2294,7 +2551,11 @@
           "燈光"
         ],
         "images": [],
-        "id": "1077-01"
+        "id": "1077-01",
+        "pillar": true,
+        "pillarCount": 2,
+        "pillarInfo": "有柱子",
+        "shape": "未知"
       },
       {
         "name": "蘭",
@@ -2302,10 +2563,15 @@
           "theater": 150,
           "classroom": 90,
           "ushape": 60,
-          "roundtable": 75
+          "roundtable": 75,
+          "roundtable_min": 75,
+          "roundtable_max": 75
         },
         "area": 55,
         "price": {
+          "morning": 27500,
+          "afternoon": 27500,
+          "evening": 45000,
           "halfDay": 55000,
           "fullDay": 100000
         },
@@ -2315,7 +2581,11 @@
           "麥克風"
         ],
         "images": [],
-        "id": "1077-02"
+        "id": "1077-02",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       },
       {
         "name": "葵",
@@ -2323,10 +2593,15 @@
           "theater": 160,
           "classroom": 95,
           "ushape": 64,
-          "roundtable": 80
+          "roundtable": 80,
+          "roundtable_min": 80,
+          "roundtable_max": 80
         },
         "area": 58,
         "price": {
+          "morning": 29000,
+          "afternoon": 29000,
+          "evening": 47000,
           "halfDay": 58000,
           "fullDay": 105000
         },
@@ -2336,7 +2611,11 @@
           "麥克風"
         ],
         "images": [],
-        "id": "1077-03"
+        "id": "1077-03",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       },
       {
         "name": "楓",
@@ -2344,10 +2623,15 @@
           "theater": 110,
           "classroom": 70,
           "ushape": 45,
-          "roundtable": 55
+          "roundtable": 55,
+          "roundtable_min": 55,
+          "roundtable_max": 55
         },
         "area": 40,
         "price": {
+          "morning": 20000,
+          "afternoon": 20000,
+          "evening": 35000,
           "halfDay": 40000,
           "fullDay": 75000
         },
@@ -2356,7 +2640,11 @@
           "音響系統"
         ],
         "images": [],
-        "id": "1077-04"
+        "id": "1077-04",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       },
       {
         "name": "柏",
@@ -2364,10 +2652,15 @@
           "theater": 60,
           "classroom": 35,
           "ushape": 24,
-          "roundtable": 30
+          "roundtable": 30,
+          "roundtable_min": 30,
+          "roundtable_max": 30
         },
         "area": 22,
         "price": {
+          "morning": 11000,
+          "afternoon": 11000,
+          "evening": 18000,
           "halfDay": 22000,
           "fullDay": 40000
         },
@@ -2377,7 +2670,11 @@
           "白板"
         ],
         "images": [],
-        "id": "1077-05"
+        "id": "1077-05",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       },
       {
         "name": "槿",
@@ -2385,10 +2682,15 @@
           "theater": 50,
           "classroom": 30,
           "ushape": 20,
-          "roundtable": 25
+          "roundtable": 25,
+          "roundtable_min": 25,
+          "roundtable_max": 25
         },
         "area": 18,
         "price": {
+          "morning": 9000,
+          "afternoon": 9000,
+          "evening": 17000,
           "halfDay": 18000,
           "fullDay": 35000
         },
@@ -2398,7 +2700,11 @@
           "白板"
         ],
         "images": [],
-        "id": "1077-06"
+        "id": "1077-06",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       },
       {
         "name": "空中花園",
@@ -2406,10 +2712,15 @@
           "theater": 200,
           "classroom": 120,
           "ushape": 80,
-          "roundtable": 100
+          "roundtable": 100,
+          "roundtable_min": 100,
+          "roundtable_max": 100
         },
         "area": 80,
         "price": {
+          "morning": 40000,
+          "afternoon": 40000,
+          "evening": 70000,
           "halfDay": 80000,
           "fullDay": 150000
         },
@@ -2419,7 +2730,11 @@
           "燈光"
         ],
         "images": [],
-        "id": "1077-07"
+        "id": "1077-07",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       }
     ],
     "images": {
@@ -2702,10 +3017,15 @@
           "theater": 400,
           "classroom": 250,
           "ushape": 180,
-          "roundtable": 200
+          "roundtable": 200,
+          "roundtable_min": 200,
+          "roundtable_max": 200
         },
         "area": 150,
         "price": {
+          "morning": 100000,
+          "afternoon": 100000,
+          "evening": 180000,
           "halfDay": 200000,
           "fullDay": 380000
         },
@@ -2717,7 +3037,11 @@
           "同步翻譯"
         ],
         "images": [],
-        "id": "1085-01"
+        "id": "1085-01",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       },
       {
         "name": "琥珀廳",
@@ -2725,10 +3049,15 @@
           "theater": 180,
           "classroom": 120,
           "ushape": 80,
-          "roundtable": 100
+          "roundtable": 100,
+          "roundtable_min": 100,
+          "roundtable_max": 100
         },
         "area": 65,
         "price": {
+          "morning": 45000,
+          "afternoon": 45000,
+          "evening": 80000,
           "halfDay": 90000,
           "fullDay": 170000
         },
@@ -2738,7 +3067,11 @@
           "麥克風"
         ],
         "images": [],
-        "id": "1085-02"
+        "id": "1085-02",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -2785,10 +3118,15 @@
           "theater": 700,
           "classroom": 450,
           "ushape": 280,
-          "roundtable": 500
+          "roundtable": 500,
+          "roundtable_min": 500,
+          "roundtable_max": 500
         },
         "area": 250,
         "price": {
+          "morning": 125000,
+          "afternoon": 125000,
+          "evening": 200000,
           "halfDay": 250000,
           "fullDay": 450000
         },
@@ -2799,7 +3137,11 @@
           "燈光"
         ],
         "images": [],
-        "id": "1086-01"
+        "id": "1086-01",
+        "pillar": true,
+        "pillarCount": 2,
+        "pillarInfo": "有柱子",
+        "shape": "未知"
       },
       {
         "name": "晶華軒",
@@ -2807,10 +3149,15 @@
           "theater": 200,
           "classroom": 130,
           "ushape": 90,
-          "roundtable": 120
+          "roundtable": 120,
+          "roundtable_min": 120,
+          "roundtable_max": 120
         },
         "area": 75,
         "price": {
+          "morning": 40000,
+          "afternoon": 40000,
+          "evening": 70000,
           "halfDay": 80000,
           "fullDay": 150000
         },
@@ -2820,7 +3167,11 @@
           "麥克風"
         ],
         "images": [],
-        "id": "1086-02"
+        "id": "1086-02",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       },
       {
         "name": "會議室A",
@@ -2828,10 +3179,15 @@
           "theater": 60,
           "classroom": 35,
           "ushape": 24,
-          "roundtable": 30
+          "roundtable": 30,
+          "roundtable_min": 30,
+          "roundtable_max": 30
         },
         "area": 22,
         "price": {
+          "morning": 10000,
+          "afternoon": 10000,
+          "evening": 18000,
           "halfDay": 20000,
           "fullDay": 38000
         },
@@ -2841,7 +3197,11 @@
           "白板"
         ],
         "images": [],
-        "id": "1086-03"
+        "id": "1086-03",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -2881,10 +3241,15 @@
           "theater": 400,
           "classroom": 260,
           "ushape": 170,
-          "roundtable": 240
+          "roundtable": 240,
+          "roundtable_min": 240,
+          "roundtable_max": 240
         },
         "area": 140,
         "price": {
+          "morning": 75000,
+          "afternoon": 75000,
+          "evening": 130000,
           "halfDay": 150000,
           "fullDay": 280000
         },
@@ -2895,7 +3260,11 @@
           "燈光"
         ],
         "images": [],
-        "id": "1090-01"
+        "id": "1090-01",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       },
       {
         "name": "斯賓諾莎宴會廳",
@@ -2903,10 +3272,15 @@
           "theater": 350,
           "classroom": 230,
           "ushape": 150,
-          "roundtable": 210
+          "roundtable": 210,
+          "roundtable_min": 210,
+          "roundtable_max": 210
         },
         "area": 125,
         "price": {
+          "morning": 65000,
+          "afternoon": 65000,
+          "evening": 110000,
           "halfDay": 130000,
           "fullDay": 240000
         },
@@ -2916,7 +3290,11 @@
           "舞台"
         ],
         "images": [],
-        "id": "1090-02"
+        "id": "1090-02",
+        "pillar": true,
+        "pillarCount": 2,
+        "pillarInfo": "有柱子",
+        "shape": "未知"
       },
       {
         "name": "貴賓軒",
@@ -2924,10 +3302,15 @@
           "theater": 30,
           "classroom": 18,
           "ushape": 12,
-          "roundtable": 15
+          "roundtable": 15,
+          "roundtable_min": 15,
+          "roundtable_max": 15
         },
         "area": 10,
         "price": {
+          "morning": 4000,
+          "afternoon": 4000,
+          "evening": 7000,
           "halfDay": 8000,
           "fullDay": 15000
         },
@@ -2936,7 +3319,11 @@
           "音響系統"
         ],
         "images": [],
-        "id": "1090-03"
+        "id": "1090-03",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知"
       }
     ],
     "lastUpdated": "2026-03-17"

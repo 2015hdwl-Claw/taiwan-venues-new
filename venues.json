@@ -2491,8 +2491,8 @@
     "contactPhone": "02-66156565",
     "contactEmail": "events@lemeridien-taipei.com",
     "url": "https://www.lemeridien-taipei.com",
-    "priceHalfDay": 120000,
-    "priceFullDay": 220000,
+    "priceHalfDay": 210000,
+    "priceFullDay": 1520000,
     "maxCapacityTheater": 300,
     "maxCapacityClassroom": 200,
     "availableTimeWeekday": "08:00-22:00",
@@ -2518,7 +2518,7 @@
       "verifiedAt": "2026-03-07T13:00:00",
       "needsUpdate": false,
       "note": "從官網爬取 12 張真實會議室照片（2026-03-07 Playwright）",
-      "lastUpdated": "2026-03-07"
+      "lastUpdated": "2026-03-18"
     },
     "verified": true,
     "rooms": [
@@ -2542,10 +2542,11 @@
           "roundtable_max": 90
         },
         "price": {
-          "morning": 36000,
-          "afternoon": 36000,
-          "evening": 60000,
-          "fullDay": 72000
+          "morning": 100000,
+          "afternoon": 100000,
+          "evening": 195000,
+          "fullDay": 425000,
+          "overnightSetup": 30000
         },
         "equipment": [
           "投影設備",
@@ -2559,7 +2560,10 @@
         "images": [
           "https://www.lemeridien-taipei.com/files/pages_176886370114vmm6242_l.jpg"
         ],
-        "photo": "https://www.lemeridien-taipei.com/files/pages_176886370114vmm6242_l.jpg"
+        "photo": "https://www.lemeridien-taipei.com/files/pages_176886370114vmm6242_l.jpg",
+        "priceSource": "2026 官方價目表 (2026-01-23)",
+        "priceVerified": true,
+        "priceVerifiedAt": "2026-03-18"
       },
       {
         "id": "1076-02",
@@ -2581,10 +2585,11 @@
           "roundtable_max": 50
         },
         "price": {
-          "morning": 16800,
-          "afternoon": 16800,
-          "evening": 28000,
-          "fullDay": 33600
+          "morning": 50000,
+          "afternoon": 50000,
+          "evening": 85000,
+          "fullDay": 200000,
+          "overnightSetup": 15000
         },
         "equipment": [
           "投影設備",
@@ -2598,7 +2603,10 @@
         "images": [
           "https://www.lemeridien-taipei.com/files/pages_176860676414vg3v477_l.jpg"
         ],
-        "photo": "https://www.lemeridien-taipei.com/files/pages_176860676414vg3v477_l.jpg"
+        "photo": "https://www.lemeridien-taipei.com/files/pages_176860676414vg3v477_l.jpg",
+        "priceSource": "2026 官方價目表 (2026-01-23)",
+        "priceVerified": true,
+        "priceVerifiedAt": "2026-03-18"
       },
       {
         "id": "1076-03",
@@ -2620,10 +2628,11 @@
           "roundtable_max": 50
         },
         "price": {
-          "morning": 16800,
-          "afternoon": 16800,
-          "evening": 28000,
-          "fullDay": 33600
+          "morning": 50000,
+          "afternoon": 50000,
+          "evening": 85000,
+          "fullDay": 200000,
+          "overnightSetup": 15000
         },
         "equipment": [
           "投影設備",
@@ -2637,7 +2646,10 @@
         "images": [
           "https://www.lemeridien-taipei.com/files/pages_176864907214vh6n382_l.jpg"
         ],
-        "photo": "https://www.lemeridien-taipei.com/files/pages_176864907214vh6n382_l.jpg"
+        "photo": "https://www.lemeridien-taipei.com/files/pages_176864907214vh6n382_l.jpg",
+        "priceSource": "2026 官方價目表 (2026-01-23)",
+        "priceVerified": true,
+        "priceVerifiedAt": "2026-03-18"
       },
       {
         "id": "1076-04",
@@ -2659,10 +2671,11 @@
           "roundtable_max": 50
         },
         "price": {
-          "morning": 16800,
-          "afternoon": 16800,
-          "evening": 28000,
-          "fullDay": 33600
+          "morning": 50000,
+          "afternoon": 50000,
+          "evening": 85000,
+          "fullDay": 200000,
+          "overnightSetup": 15000
         },
         "equipment": [
           "投影設備",
@@ -2676,7 +2689,10 @@
         "images": [
           "https://www.lemeridien-taipei.com/files/pages_176860741214vg4g963_l.jpg"
         ],
-        "photo": "https://www.lemeridien-taipei.com/files/pages_176860741214vg4g963_l.jpg"
+        "photo": "https://www.lemeridien-taipei.com/files/pages_176860741214vg4g963_l.jpg",
+        "priceSource": "2026 官方價目表 (2026-01-23)",
+        "priceVerified": true,
+        "priceVerifiedAt": "2026-03-18"
       },
       {
         "id": "1076-05",
@@ -2698,10 +2714,11 @@
           "roundtable_max": 50
         },
         "price": {
-          "morning": 16800,
-          "afternoon": 16800,
-          "evening": 28000,
-          "fullDay": 33600
+          "morning": 50000,
+          "afternoon": 50000,
+          "evening": 85000,
+          "fullDay": 200000,
+          "overnightSetup": 15000
         },
         "equipment": [
           "投影設備",
@@ -2715,7 +2732,10 @@
         "images": [
           "https://www.lemeridien-taipei.com/files/pages_176860862514vg5i189_l.jpg"
         ],
-        "photo": "https://www.lemeridien-taipei.com/files/pages_176860862514vg5i189_l.jpg"
+        "photo": "https://www.lemeridien-taipei.com/files/pages_176860862514vg5i189_l.jpg",
+        "priceSource": "2026 官方價目表 (2026-01-23)",
+        "priceVerified": true,
+        "priceVerifiedAt": "2026-03-18"
       },
       {
         "id": "1076-06",
@@ -2737,10 +2757,11 @@
           "roundtable_max": 50
         },
         "price": {
-          "morning": 16800,
-          "afternoon": 16800,
-          "evening": 28000,
-          "fullDay": 33600
+          "morning": 50000,
+          "afternoon": 50000,
+          "evening": 85000,
+          "fullDay": 200000,
+          "overnightSetup": 15000
         },
         "equipment": [
           "投影設備",
@@ -2754,7 +2775,10 @@
         "images": [
           "https://www.lemeridien-taipei.com/files/pages_177022714314wnbl776_l.jpg"
         ],
-        "photo": "https://www.lemeridien-taipei.com/files/pages_177022714314wnbl776_l.jpg"
+        "photo": "https://www.lemeridien-taipei.com/files/pages_177022714314wnbl776_l.jpg",
+        "priceSource": "2026 官方價目表 (2026-01-23)",
+        "priceVerified": true,
+        "priceVerifiedAt": "2026-03-18"
       },
       {
         "id": "1076-07",
@@ -2774,10 +2798,11 @@
           "roundtable_max": 250
         },
         "price": {
-          "morning": 84000,
-          "afternoon": 84000,
-          "evening": 140000,
-          "fullDay": 168000
+          "morning": 250000,
+          "afternoon": 250000,
+          "evening": 425000,
+          "fullDay": 1000000,
+          "overnightSetup": 75000
         },
         "equipment": [
           "投影設備",
@@ -2792,7 +2817,10 @@
         "images": [
           "https://www.lemeridien-taipei.com/files/pages_176860821214vg55s58_l.jpg"
         ],
-        "photo": "https://www.lemeridien-taipei.com/files/pages_176860821214vg55s58_l.jpg"
+        "photo": "https://www.lemeridien-taipei.com/files/pages_176860821214vg55s58_l.jpg",
+        "priceSource": "2026 官方價目表 (2026-01-23)",
+        "priceVerified": true,
+        "priceVerifiedAt": "2026-03-18"
       },
       {
         "id": "1076-08",
@@ -2814,10 +2842,10 @@
           "roundtable_max": 50
         },
         "price": {
-          "morning": 10000,
-          "afternoon": 10000,
-          "evening": 16600,
-          "fullDay": 20000
+          "morning": 90000,
+          "afternoon": 90000,
+          "evening": 200000,
+          "fullDay": 380000
         },
         "equipment": [
           "投影設備",
@@ -2831,7 +2859,10 @@
         "images": [
           "https://www.lemeridien-taipei.com/files/pages_176860845814vg5d364_l.jpg"
         ],
-        "photo": "https://www.lemeridien-taipei.com/files/pages_176860845814vg5d364_l.jpg"
+        "photo": "https://www.lemeridien-taipei.com/files/pages_176860845814vg5d364_l.jpg",
+        "priceSource": "2026 官方價目表 (2026-01-23)",
+        "priceVerified": true,
+        "priceVerifiedAt": "2026-03-18"
       },
       {
         "id": "1076-09",
@@ -2851,10 +2882,11 @@
           "roundtable_max": 500
         },
         "price": {
-          "morning": 160000,
-          "afternoon": 160000,
-          "evening": 266000,
-          "fullDay": 320000
+          "morning": 210000,
+          "afternoon": 210000,
+          "evening": 1000000,
+          "fullDay": 1520000,
+          "overnightSetup": 100000
         },
         "equipment": [
           "頂級投影",
@@ -2869,7 +2901,10 @@
         "images": [
           "https://www.lemeridien-taipei.com/files/pages_1516098871xchm5901_l.jpg"
         ],
-        "photo": "https://www.lemeridien-taipei.com/files/pages_1516098871xchm5901_l.jpg"
+        "photo": "https://www.lemeridien-taipei.com/files/pages_1516098871xchm5901_l.jpg",
+        "priceSource": "2026 官方價目表 (2026-01-23)",
+        "priceVerified": true,
+        "priceVerifiedAt": "2026-03-18"
       },
       {
         "id": "1076-10",
@@ -2891,10 +2926,11 @@
           "roundtable_max": 280
         },
         "price": {
-          "morning": 60000,
-          "afternoon": 60000,
-          "evening": 100000,
-          "fullDay": 120000
+          "morning": 85000,
+          "afternoon": 85000,
+          "evening": 420000,
+          "fullDay": 630000,
+          "overnightSetup": 40000
         },
         "equipment": [
           "投影設備",
@@ -2908,7 +2944,10 @@
         "images": [
           "https://www.lemeridien-taipei.com/files/pages_1514973480xbn0lk34_l.jpg"
         ],
-        "photo": "https://www.lemeridien-taipei.com/files/pages_1514973480xbn0lk34_l.jpg"
+        "photo": "https://www.lemeridien-taipei.com/files/pages_1514973480xbn0lk34_l.jpg",
+        "priceSource": "2026 官方價目表 (2026-01-23)",
+        "priceVerified": true,
+        "priceVerifiedAt": "2026-03-18"
       },
       {
         "id": "1076-11",
@@ -2928,10 +2967,11 @@
           "roundtable_max": 80
         },
         "price": {
-          "morning": 30800,
-          "afternoon": 30800,
-          "evening": 51000,
-          "fullDay": 61600
+          "morning": 40000,
+          "afternoon": 40000,
+          "evening": 200000,
+          "fullDay": 300000,
+          "overnightSetup": 20000
         },
         "equipment": [
           "投影設備",
@@ -2945,7 +2985,10 @@
         "images": [
           "https://www.lemeridien-taipei.com/files/pages_1516098920xchm6p78_l.jpg"
         ],
-        "photo": "https://www.lemeridien-taipei.com/files/pages_1516098920xchm6p78_l.jpg"
+        "photo": "https://www.lemeridien-taipei.com/files/pages_1516098920xchm6p78_l.jpg",
+        "priceSource": "2026 官方價目表 (2026-01-23)",
+        "priceVerified": true,
+        "priceVerifiedAt": "2026-03-18"
       },
       {
         "id": "1076-12",
@@ -2967,10 +3010,11 @@
           "roundtable_max": 280
         },
         "price": {
-          "morning": 60000,
-          "afternoon": 60000,
-          "evening": 100000,
-          "fullDay": 120000
+          "morning": 85000,
+          "afternoon": 85000,
+          "evening": 420000,
+          "fullDay": 630000,
+          "overnightSetup": 40000
         },
         "equipment": [
           "投影設備",
@@ -2984,7 +3028,10 @@
         "images": [
           "https://www.lemeridien-taipei.com/files/pages_176886370114vmm6242_l.jpg"
         ],
-        "photo": "https://www.lemeridien-taipei.com/files/pages_176886370114vmm6242_l.jpg"
+        "photo": "https://www.lemeridien-taipei.com/files/pages_176886370114vmm6242_l.jpg",
+        "priceSource": "2026 官方價目表 (2026-01-23)",
+        "priceVerified": true,
+        "priceVerifiedAt": "2026-03-18"
       },
       {
         "id": "1076-13",
@@ -3006,10 +3053,11 @@
           "roundtable_max": 0
         },
         "price": {
-          "morning": 2400,
-          "afternoon": 2400,
-          "evening": 4000,
-          "fullDay": 4800
+          "morning": 15000,
+          "afternoon": 15000,
+          "evening": 25000,
+          "fullDay": 63000,
+          "overnightSetup": 8000
         },
         "equipment": [
           "投影設備",
@@ -3022,10 +3070,13 @@
         "images": [
           "https://www.lemeridien-taipei.com/files/pages_176860676414vg3v477_l.jpg"
         ],
-        "photo": "https://www.lemeridien-taipei.com/files/pages_176860676414vg3v477_l.jpg"
+        "photo": "https://www.lemeridien-taipei.com/files/pages_176860676414vg3v477_l.jpg",
+        "priceSource": "2026 官方價目表 (2026-01-23)",
+        "priceVerified": true,
+        "priceVerifiedAt": "2026-03-18"
       }
     ],
-    "lastUpdated": "2026-03-17",
+    "lastUpdated": "2026-03-18",
     "totalRooms": 13,
     "roomsCompleteness": {
       "claimed": 13,
@@ -3034,7 +3085,9 @@
       "lastChecked": "2026-03-17T15:45:00Z",
       "status": "COMPLETE",
       "source": "Official PDF (Jan 1, 2025)"
-    }
+    },
+    "floorPlan": "https://www.lemeridien-taipei.com/files/pages_166248245312k21je70.pdf",
+    "priceSource": "2026 官方價目表"
   },
   {
     "id": 1077,

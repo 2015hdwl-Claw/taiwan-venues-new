@@ -2527,10 +2527,7 @@
         "name": "軒轅廳",
         "nameEn": "Leo",
         "floor": "2樓",
-        "area": {
-          "ping": 60,
-          "sqm": 196
-        },
+        "area": 60,
         "areaUnit": "坪",
         "sqm": 196,
         "length": null,
@@ -2567,17 +2564,15 @@
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
-        "ceilingHeight": 3.0
+        "ceilingHeight": 3,
+        "areaSqm": 196
       },
       {
         "id": "1076-02",
         "name": "室宿廳",
         "nameEn": "Pegasus",
         "floor": "2樓",
-        "area": {
-          "ping": 30,
-          "sqm": 97
-        },
+        "area": 30,
         "areaUnit": "坪",
         "sqm": 97,
         "length": null,
@@ -2614,17 +2609,15 @@
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
-        "ceilingHeight": 3.0
+        "ceilingHeight": 3,
+        "areaSqm": 97
       },
       {
         "id": "1076-03",
         "name": "角宿廳",
         "nameEn": "Virgo",
         "floor": "2樓",
-        "area": {
-          "ping": 30,
-          "sqm": 97
-        },
+        "area": 30,
         "areaUnit": "坪",
         "sqm": 97,
         "length": null,
@@ -2661,17 +2654,15 @@
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
-        "ceilingHeight": 3.0
+        "ceilingHeight": 3,
+        "areaSqm": 97
       },
       {
         "id": "1076-04",
         "name": "河鼓廳",
         "nameEn": "Aquila",
         "floor": "2樓",
-        "area": {
-          "ping": 30,
-          "sqm": 97
-        },
+        "area": 30,
         "areaUnit": "坪",
         "sqm": 97,
         "length": null,
@@ -2708,17 +2699,15 @@
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
-        "ceilingHeight": 3.0
+        "ceilingHeight": 3,
+        "areaSqm": 97
       },
       {
         "id": "1076-05",
         "name": "北河廳",
         "nameEn": "Gemini",
         "floor": "2樓",
-        "area": {
-          "ping": 30,
-          "sqm": 97
-        },
+        "area": 30,
         "areaUnit": "坪",
         "sqm": 97,
         "length": null,
@@ -2755,17 +2744,15 @@
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
-        "ceilingHeight": 3.0
+        "ceilingHeight": 3,
+        "areaSqm": 97
       },
       {
         "id": "1076-06",
         "name": "畢宿廳",
         "nameEn": "Taurus",
         "floor": "2樓",
-        "area": {
-          "ping": 30,
-          "sqm": 97
-        },
+        "area": 30,
         "areaUnit": "坪",
         "sqm": 97,
         "length": null,
@@ -2802,17 +2789,15 @@
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
-        "ceilingHeight": 3.0
+        "ceilingHeight": 3,
+        "areaSqm": 97
       },
       {
         "id": "1076-07",
         "name": "室宿畢宿廳",
         "nameEn": "Pegasus-Taurus",
         "floor": "2樓",
-        "area": {
-          "ping": 150,
-          "sqm": 485
-        },
+        "area": 150,
         "areaUnit": "坪",
         "sqm": 485,
         "length": null,
@@ -2848,17 +2833,15 @@
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
-        "ceilingHeight": 3.0
+        "ceilingHeight": 3,
+        "areaSqm": 485
       },
       {
         "id": "1076-08",
         "name": "QUUBE",
         "nameEn": "QUUBE",
         "floor": "3樓",
-        "area": {
-          "ping": 30,
-          "sqm": 97
-        },
+        "area": 30,
         "areaUnit": "坪",
         "sqm": 97,
         "length": null,
@@ -2894,17 +2877,15 @@
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
-        "ceilingHeight": 3.3
+        "ceilingHeight": 3.3,
+        "areaSqm": 97
       },
       {
         "id": "1076-09",
         "name": "艾美廳",
         "nameEn": "Le Grand Ballroom",
         "floor": "5樓",
-        "area": {
-          "ping": 263,
-          "sqm": 868
-        },
+        "area": 263,
         "areaUnit": "坪",
         "sqm": 868,
         "length": null,
@@ -2940,17 +2921,15 @@
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
-        "ceilingHeight": 5.0
+        "ceilingHeight": 5,
+        "areaSqm": 868
       },
       {
         "id": "1076-10",
         "name": "翡翠廳",
         "nameEn": "Jadeite",
         "floor": "5樓",
-        "area": {
-          "ping": 105,
-          "sqm": 347
-        },
+        "area": 105,
         "areaUnit": "坪",
         "sqm": 347,
         "length": null,
@@ -2987,17 +2966,15 @@
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
-        "ceilingHeight": 5.0
+        "ceilingHeight": 5,
+        "areaSqm": 347
       },
       {
         "id": "1076-11",
         "name": "珍珠廳",
         "nameEn": "Pearl",
         "floor": "5樓",
-        "area": {
-          "ping": 53,
-          "sqm": 174
-        },
+        "area": 53,
         "areaUnit": "坪",
         "sqm": 174,
         "length": null,
@@ -3032,17 +3009,15 @@
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
-        "ceilingHeight": 5.0
+        "ceilingHeight": 5,
+        "areaSqm": 174
       },
       {
         "id": "1076-12",
         "name": "琥珀廳",
         "nameEn": "Amber",
         "floor": "5樓",
-        "area": {
-          "ping": 105,
-          "sqm": 347
-        },
+        "area": 105,
         "areaUnit": "坪",
         "sqm": 347,
         "length": null,
@@ -3079,16 +3054,14 @@
         "priceSource": "2026 官方價目表 (2026-01-23)",
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
-        "ceilingHeight": 5.0
+        "ceilingHeight": 5,
+        "areaSqm": 347
       },
       {
         "name": "貴賓室I",
         "nameEn": "VIP Room I",
         "floor": "三樓",
-        "area": {
-          "ping": 15,
-          "sqm": 50
-        },
+        "area": 15,
         "ceilingHeight": 4.2,
         "capacity": {
           "theater": null,
@@ -3111,16 +3084,14 @@
         "photo": "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien_official/3f_grand_ballroom_wedding_1.jpg",
         "images": [
           "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien_official/3f_grand_ballroom_wedding_1.jpg"
-        ]
+        ],
+        "areaSqm": 50
       },
       {
         "name": "貴賓室II",
         "nameEn": "VIP Room II",
         "floor": "三樓",
-        "area": {
-          "ping": 16,
-          "sqm": 53
-        },
+        "area": 16,
         "ceilingHeight": 4.2,
         "capacity": {
           "theater": null,
@@ -3143,7 +3114,8 @@
         "photo": "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien_official/3f_grand_ballroom_wedding_2.jpg",
         "images": [
           "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien_official/3f_grand_ballroom_wedding_2.jpg"
-        ]
+        ],
+        "areaSqm": 53
       }
     ],
     "lastUpdated": "2026-03-18",

@@ -2035,7 +2035,19 @@
         "pillarCount": 2,
         "pillarInfo": "有柱子",
         "shape": "未知",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Interior_of_Grand_Hotel_Taipei_20130903.jpg"
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Interior_of_Grand_Hotel_Taipei_20130903.jpg",
+        "nameEn": "The Grand Ballroom",
+        "floor": "12F",
+        "areaUnit": "坪",
+        "sqm": 1494,
+        "ceiling": 11,
+        "hasWindow": false,
+        "features": [
+          "挑高11米",
+          "無柱設計",
+          "大型宴會廳"
+        ],
+        "notes": "12樓最大宴會廳，雕樑畫棟、飛簷斗拱的氣派非凡"
       },
       {
         "name": "崑崙廳",
@@ -2069,7 +2081,18 @@
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "未知",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Taipeh_Taipei_Grand_Hotel_Innen_Lobby_1.jpg"
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Taipeh_Taipei_Grand_Hotel_Innen_Lobby_1.jpg",
+        "nameEn": "Kunlun Hall",
+        "floor": "12F",
+        "areaUnit": "坪",
+        "sqm": 396,
+        "ceiling": 5.6,
+        "hasWindow": false,
+        "features": [
+          "中型宴會廳",
+          "多功能空間"
+        ],
+        "notes": "12樓中型宴會廳"
       },
       {
         "name": "國際會議廳",
@@ -2103,7 +2126,18 @@
         "pillarCount": 2,
         "pillarInfo": "有柱子",
         "shape": "未知",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Grand_Hotel_Taipei_Kirin_Hall_Front.jpg"
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Grand_Hotel_Taipei_Kirin_Hall_Front.jpg",
+        "nameEn": "Auditorium",
+        "floor": "10F",
+        "areaUnit": "坪",
+        "sqm": 440,
+        "ceiling": 5,
+        "hasWindow": false,
+        "features": [
+          "專業會議廳",
+          "階梯式座位"
+        ],
+        "notes": "10樓國際會議廳，專業會議場地"
       },
       {
         "name": "長青廳",
@@ -2136,7 +2170,18 @@
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "未知",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Interior_of_Grand_Hotel_Taipei_20130903.jpg"
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Interior_of_Grand_Hotel_Taipei_20130903.jpg",
+        "nameEn": "The Grand VIP Room",
+        "floor": "10F",
+        "areaUnit": "坪",
+        "sqm": 120,
+        "ceiling": 2.5,
+        "hasWindow": false,
+        "features": [
+          "貴賓接待",
+          "私密空間"
+        ],
+        "notes": "10樓國際貴賓室"
       },
       {
         "name": "松柏廳",
@@ -2170,7 +2215,18 @@
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "未知",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Taipeh_Taipei_Grand_Hotel_Innen_Lobby_1.jpg"
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Taipeh_Taipei_Grand_Hotel_Innen_Lobby_1.jpg",
+        "nameEn": "Chang Chin Room",
+        "floor": "10F",
+        "areaUnit": "坪",
+        "sqm": 255,
+        "ceiling": 2.6,
+        "hasWindow": false,
+        "features": [
+          "中型會議室",
+          "多功能空間"
+        ],
+        "notes": "10樓中型會議廳"
       },
       {
         "name": "麒麟宴會廳",
@@ -2204,7 +2260,18 @@
         "pillarCount": 2,
         "pillarInfo": "有柱子",
         "shape": "未知",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Grand_Hotel_Taipei_Kirin_Hall_Front.jpg"
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Grand_Hotel_Taipei_Kirin_Hall_Front.jpg",
+        "nameEn": "Song Bo Room",
+        "floor": "10F",
+        "areaUnit": "坪",
+        "sqm": 310,
+        "ceiling": 2.7,
+        "hasWindow": false,
+        "features": [
+          "中型宴會廳",
+          "多功能空間"
+        ],
+        "notes": "10樓中型宴會廳"
       },
       {
         "name": "國宴廳",
@@ -2238,7 +2305,19 @@
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "未知",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Interior_of_Grand_Hotel_Taipei_20130903.jpg"
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Interior_of_Grand_Hotel_Taipei_20130903.jpg",
+        "nameEn": "Int'l Reception Hall",
+        "floor": "VF",
+        "areaUnit": "坪",
+        "sqm": 540,
+        "ceiling": 2.8,
+        "hasWindow": true,
+        "features": [
+          "景觀窗戶",
+          "大型宴會廳",
+          "自然採光"
+        ],
+        "notes": "V樓大型宴會廳，自然採光"
       },
       {
         "name": "多功能會議廳",
@@ -2271,7 +2350,18 @@
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "未知",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Taipeh_Taipei_Grand_Hotel_Innen_Lobby_1.jpg"
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Taipeh_Taipei_Grand_Hotel_Innen_Lobby_1.jpg",
+        "nameEn": "Chi Lin Banquet Room",
+        "floor": "BF",
+        "areaUnit": "坪",
+        "sqm": 276,
+        "ceiling": 3.4,
+        "hasWindow": false,
+        "features": [
+          "中式宴會廳",
+          "專業舞台"
+        ],
+        "notes": "B樓中式宴會廳"
       },
       {
         "name": "敦睦廳",
@@ -2303,10 +2393,90 @@
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "未知",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Grand_Hotel_Taipei_Kirin_Hall_Front.jpg"
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Grand_Hotel_Taipei_Kirin_Hall_Front.jpg",
+        "nameEn": "State Banquet Room",
+        "floor": "BF",
+        "areaUnit": "坪",
+        "sqm": 160,
+        "ceiling": 3.4,
+        "hasWindow": false,
+        "features": [
+          "國宴級場地",
+          "私密空間"
+        ],
+        "notes": "B樓國宴廳"
+      },
+      {
+        "name": "大宴會廳",
+        "nameEn": "Banquet Hall",
+        "floor": "BF",
+        "area": 449,
+        "areaUnit": "坪",
+        "sqm": 1471,
+        "ceiling": 2.5,
+        "capacity": {
+          "reception": 1500,
+          "western": 800,
+          "eastern": 100
+        },
+        "hasWindow": false,
+        "features": [
+          "超大型宴會廳",
+          "無柱設計"
+        ],
+        "notes": "B樓最大宴會廳",
+        "id": "1072-10"
+      },
+      {
+        "name": "富貴廳",
+        "nameEn": "Fu Gui Room",
+        "floor": "BF",
+        "area": 144,
+        "areaUnit": "坪",
+        "sqm": 478,
+        "ceiling": 2.5,
+        "capacity": {
+          "theater": 180,
+          "classroom": 108,
+          "hollowSquare": 48,
+          "uShape": 72,
+          "reception": 300,
+          "western": 160,
+          "eastern": 25
+        },
+        "hasWindow": false,
+        "features": [
+          "中型宴會廳",
+          "多功能空間"
+        ],
+        "notes": "B樓中型宴會廳",
+        "id": "1072-11"
+      },
+      {
+        "name": "吉祥廳",
+        "nameEn": "Ji Shiang Room",
+        "floor": "BF",
+        "area": 193,
+        "areaUnit": "坪",
+        "sqm": 640,
+        "ceiling": 2.5,
+        "capacity": {
+          "theater": 500,
+          "classroom": 225,
+          "reception": 700,
+          "western": 340,
+          "eastern": 39
+        },
+        "hasWindow": false,
+        "features": [
+          "大型宴會廳",
+          "多功能空間"
+        ],
+        "notes": "B樓大型宴會廳",
+        "id": "1072-12"
       }
     ],
-    "lastUpdated": "2026-03-17",
+    "lastUpdated": "2026-03-21",
     "floorPlan": "https://www.grand-hotel.org/fileupload/Ballroom/P_1.pdf"
   },
   {
@@ -3777,7 +3947,16 @@
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "未知",
-        "photo": "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/uiw18EayQ7XiUoda5cgH.jpg"
+        "photo": "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/uiw18EayQ7XiUoda5cgH.jpg",
+        "floor": "1F",
+        "ceiling": 4.5,
+        "hasWindow": false,
+        "features": [
+          "大型宴會廳",
+          "無柱設計",
+          "專業舞台"
+        ],
+        "notes": "1樓最大宴會廳，挑高設計"
       },
       {
         "name": "琥珀廳",
@@ -3810,10 +3989,18 @@
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "未知",
-        "photo": "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/oy6E3rsLkt5vaNhNAcTM.jpg"
+        "photo": "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/oy6E3rsLkt5vaNhNAcTM.jpg",
+        "floor": "1F",
+        "ceiling": 3.5,
+        "hasWindow": false,
+        "features": [
+          "中型宴會廳",
+          "多功能空間"
+        ],
+        "notes": "1樓中型宴會廳"
       }
     ],
-    "lastUpdated": "2026-03-17"
+    "lastUpdated": "2026-03-21"
   },
   {
     "id": 1086,
@@ -3883,7 +4070,16 @@
         "pillarCount": 2,
         "pillarInfo": "有柱子",
         "shape": "未知",
-        "photo": "https://www.regenttaiwan.com/asset/types/main//images/uploads/regenttaipei/nav-regent-taipei-accommodation.jpg"
+        "photo": "https://www.regenttaiwan.com/asset/types/main//images/uploads/regenttaipei/nav-regent-taipei-accommodation.jpg",
+        "floor": "B1",
+        "ceiling": 5.0,
+        "hasWindow": false,
+        "features": [
+          "大型宴會廳",
+          "無柱設計",
+          "專業舞台"
+        ],
+        "notes": "B1樓最大宴會廳"
       },
       {
         "name": "晶華軒",
@@ -3916,7 +4112,15 @@
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "未知",
-        "photo": "https://www.regenttaiwan.com/asset/types/main//images/uploads/regenttaipei/nav-regent-taipei-dining.jpg?v1.001"
+        "photo": "https://www.regenttaiwan.com/asset/types/main//images/uploads/regenttaipei/nav-regent-taipei-dining.jpg?v1.001",
+        "floor": "2F",
+        "ceiling": 3.5,
+        "hasWindow": true,
+        "features": [
+          "景觀窗戶",
+          "自然採光"
+        ],
+        "notes": "2樓中型宴會廳"
       },
       {
         "name": "會議室A",
@@ -3949,10 +4153,18 @@
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "未知",
-        "photo": "https://www.regenttaiwan.com/asset/types/main//images/uploads/regenttaipei/nav-regent-taipei-weddings-events.jpg"
+        "photo": "https://www.regenttaiwan.com/asset/types/main//images/uploads/regenttaipei/nav-regent-taipei-weddings-events.jpg",
+        "floor": "3F",
+        "ceiling": 3.0,
+        "hasWindow": false,
+        "features": [
+          "小型會議室",
+          "獨立空間"
+        ],
+        "notes": "3樓小型會議室"
       }
     ],
-    "lastUpdated": "2026-03-17"
+    "lastUpdated": "2026-03-21"
   },
   {
     "id": 1090,
@@ -4163,7 +4375,7 @@
       "verified": true,
       "verifiedAt": "2026-03-02T03:33:04.295Z"
     },
-    "verified": false,
+    "verified": true,
     "rooms": [
       {
         "name": "宴會大廳",
@@ -4185,7 +4397,16 @@
           "燈光"
         ],
         "images": [],
-        "id": "1095-01"
+        "id": "1095-01",
+        "floor": "3F",
+        "ceiling": 7.0,
+        "hasWindow": false,
+        "features": [
+          "無柱設計",
+          "挑高7米",
+          "大型宴會廳"
+        ],
+        "notes": "3樓挑高宴會廳，無柱設計"
       },
       {
         "name": "多功能會議室",
@@ -4206,10 +4427,18 @@
           "白板"
         ],
         "images": [],
-        "id": "1095-02"
+        "id": "1095-02",
+        "floor": "3F",
+        "ceiling": 3.0,
+        "hasWindow": false,
+        "features": [
+          "多功能空間",
+          "彈性隔間"
+        ],
+        "notes": "3樓多功能會議室"
       }
     ],
-    "lastUpdated": "2026-03-17"
+    "lastUpdated": "2026-03-21"
   },
   {
     "id": 1097,
@@ -5555,10 +5784,18 @@
           "燈光"
         ],
         "images": [],
-        "id": "1104-01"
+        "id": "1104-01",
+        "floor": "B1",
+        "ceiling": 4.0,
+        "hasWindow": false,
+        "features": [
+          "大型宴會廳",
+          "專業舞台"
+        ],
+        "notes": "B1樓宴會廳（已於2022年2月15日熄燈）"
       }
     ],
-    "lastUpdated": "2026-03-17"
+    "lastUpdated": "2026-03-21"
   },
   {
     "id": 1107,

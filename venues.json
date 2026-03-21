@@ -1360,7 +1360,7 @@
           "roundtable_min": 150,
           "roundtable_max": 150
         },
-        "area": 200,
+        "area": 150,
         "price": {
           "morning": 75000,
           "afternoon": 75000,
@@ -1383,7 +1383,17 @@
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "未知",
-        "photo": "https://www.sheratongrandtaipei.com/files/pages_1772816933150l7wc77_m.jpg"
+        "photo": "https://www.sheratongrandtaipei.com/files/pages_1772816933150l7wc77_m.jpg",
+        "floor": "B2",
+        "ceiling": 4.5,
+        "hasWindow": false,
+        "features": [
+          "大型宴會廳",
+          "無柱設計",
+          "專業舞台"
+        ],
+        "notes": "B2層大型宴會廳，可容納450人劇院式",
+        "areaUnit": "坪"
       },
       {
         "name": "祿廳",
@@ -1395,7 +1405,7 @@
           "roundtable_min": 160,
           "roundtable_max": 160
         },
-        "area": 210,
+        "area": 155,
         "price": {
           "morning": 80000,
           "afternoon": 80000,
@@ -1418,7 +1428,17 @@
         "pillarCount": 2,
         "pillarInfo": "有柱子",
         "shape": "未知",
-        "photo": "https://www.sheratongrandtaipei.com/files/pages_175588718614lwh8v24_m.jpg"
+        "photo": "https://www.sheratongrandtaipei.com/files/pages_175588718614lwh8v24_m.jpg",
+        "floor": "B2",
+        "ceiling": 4.5,
+        "hasWindow": false,
+        "features": [
+          "大型宴會廳",
+          "無柱設計",
+          "專業舞台"
+        ],
+        "notes": "B2層最大宴會廳，可容納480人劇院式",
+        "areaUnit": "坪"
       },
       {
         "name": "壽廳",
@@ -1430,7 +1450,7 @@
           "roundtable_min": 75,
           "roundtable_max": 75
         },
-        "area": 80,
+        "area": 75,
         "price": {
           "morning": 40000,
           "afternoon": 40000,
@@ -1451,7 +1471,16 @@
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "未知",
-        "photo": "https://www.sheratongrandtaipei.com/files/pages_175459012814kxhgw40_m.jpg"
+        "photo": "https://www.sheratongrandtaipei.com/files/pages_175459012814kxhgw40_m.jpg",
+        "floor": "B2",
+        "ceiling": 3.5,
+        "hasWindow": false,
+        "features": [
+          "中型宴會廳",
+          "獨立空間"
+        ],
+        "notes": "B2層中型宴會廳，可容納220人劇院式",
+        "areaUnit": "坪"
       },
       {
         "name": "喜廳",
@@ -1463,7 +1492,7 @@
           "roundtable_min": 70,
           "roundtable_max": 70
         },
-        "area": 75,
+        "area": 69,
         "price": {
           "morning": 37500,
           "afternoon": 37500,
@@ -1484,7 +1513,16 @@
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "未知",
-        "photo": "https://www.sheratongrandtaipei.com/files/pages_17281359591416fa692_m.jpg"
+        "photo": "https://www.sheratongrandtaipei.com/files/pages_17281359591416fa692_m.jpg",
+        "floor": "B2",
+        "ceiling": 3.5,
+        "hasWindow": false,
+        "features": [
+          "中型宴會廳",
+          "獨立空間"
+        ],
+        "notes": "B2層中型宴會廳，可容納200人劇院式",
+        "areaUnit": "坪"
       },
       {
         "name": "多功能會議廳A",
@@ -1517,7 +1555,16 @@
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "未知",
-        "photo": "https://www.sheratongrandtaipei.com/files/pages_17281373581416gh612_m.jpg"
+        "photo": "https://www.sheratongrandtaipei.com/files/pages_17281373581416gh612_m.jpg",
+        "floor": "B1",
+        "ceiling": 3.0,
+        "hasWindow": false,
+        "features": [
+          "多功能空間",
+          "彈性隔間"
+        ],
+        "notes": "B1層多功能會議廳，可容納120人劇院式",
+        "areaUnit": "坪"
       },
       {
         "name": "多功能會議廳B",
@@ -1550,7 +1597,16 @@
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "未知",
-        "photo": "https://www.sheratongrandtaipei.com/files/pages_17281383441416hc240_m.jpg"
+        "photo": "https://www.sheratongrandtaipei.com/files/pages_17281383441416hc240_m.jpg",
+        "floor": "B1",
+        "ceiling": 3.0,
+        "hasWindow": false,
+        "features": [
+          "多功能空間",
+          "彈性隔間"
+        ],
+        "notes": "B1層中型會議廳，可容納80人劇院式",
+        "areaUnit": "坪"
       },
       {
         "name": "多功能會議廳C",
@@ -1583,7 +1639,16 @@
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "未知",
-        "photo": "https://www.sheratongrandtaipei.com/files/pages_175164700314iql2w16_m.jpg"
+        "photo": "https://www.sheratongrandtaipei.com/files/pages_175164700314iql2w16_m.jpg",
+        "floor": "B1",
+        "ceiling": 3.0,
+        "hasWindow": false,
+        "features": [
+          "小型會議室",
+          "獨立空間"
+        ],
+        "notes": "B1層小型會議室，可容納40人劇院式",
+        "areaUnit": "坪"
       },
       {
         "name": "瑞穗園",
@@ -1595,7 +1660,7 @@
           "roundtable_min": 90,
           "roundtable_max": 90
         },
-        "area": 100,
+        "area": 92,
         "price": {
           "morning": 50000,
           "afternoon": 50000,
@@ -1617,7 +1682,17 @@
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "未知",
-        "photo": "https://www.sheratongrandtaipei.com/files/pages_1739469156149mqgn64_m.jpg"
+        "photo": "https://www.sheratongrandtaipei.com/files/pages_1739469156149mqgn64_m.jpg",
+        "floor": "2F",
+        "ceiling": 3.5,
+        "hasWindow": true,
+        "features": [
+          "景觀窗戶",
+          "自然採光",
+          "挑高空間"
+        ],
+        "notes": "2樓宴會廳，自然採光，可容納280人劇院式",
+        "areaUnit": "坪"
       },
       {
         "name": "清翫",
@@ -1629,7 +1704,7 @@
           "roundtable_min": 60,
           "roundtable_max": 60
         },
-        "area": 65,
+        "area": 60,
         "price": {
           "morning": 35000,
           "afternoon": 35000,
@@ -1650,10 +1725,20 @@
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "未知",
-        "photo": "https://www.sheratongrandtaipei.com/files/pages_1644336389126gc1h37_m.jpg"
+        "photo": "https://www.sheratongrandtaipei.com/files/pages_1644336389126gc1h37_m.jpg",
+        "floor": "1F",
+        "ceiling": 3.2,
+        "hasWindow": true,
+        "features": [
+          "景觀窗戶",
+          "自然採光",
+          "獨立入口"
+        ],
+        "notes": "1樓會議場地，可容納180人劇院式",
+        "areaUnit": "坪"
       }
     ],
-    "lastUpdated": "2026-03-17"
+    "lastUpdated": "2026-03-21"
   },
   {
     "id": 1068,

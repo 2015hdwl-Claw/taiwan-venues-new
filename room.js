@@ -156,9 +156,11 @@ function renderSpaceInfo(room) {
         const isPDF = floorPlanUrl.toLowerCase().endsWith('.pdf') || floorPlanUrl.toLowerCase().includes('.pdf');
 
         if (isPDF) {
-            // PDF 嵌入顯示
+            // PDF 使用 <embed> 顯示（繞過 X-Frame-Options 限制）
             floorPlanEmbed.style.display = 'block';
             floorPlanIframe.src = floorPlanUrl;
+            // 使用 embed 作為備用
+            floorPlanIframe.outerHTML = `<embed id="floorPlanIframe" class="floor-plan-iframe" src="${floorPlanUrl}" type="application/pdf" width="100%" height="500px">`;
             floorPlanImage.style.display = 'none';
         } else {
             // 圖片直接顯示

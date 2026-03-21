@@ -28,10 +28,12 @@ function loadRoomDetail() {
     const venueId = params.get('venueId');
     const roomId = params.get('roomId');
     
-    if (!venueId || !roomId) {
-        showError('缺少必要參數');
+    if (!venueId) {
+        showError('缺少 venueId 參數');
         return;
     }
+    
+    // roomId 可選，如果沒有指定，默認顯示第一個會議室
     
     // 尋找場地
     currentVenue = allVenues.find(v => v.id === parseInt(venueId));
@@ -47,11 +49,16 @@ function loadRoomDetail() {
         return;
     }
     
-    currentRoom = currentVenue.rooms.find(r => r.id === roomId);
-    
-    if (!currentRoom) {
-        showError('找不到此會議室');
-        return;
+    // 如果沒有指定 roomId，默認顯示第一個會議室（通常是最大型場地）
+    if (!roomId) {
+        currentRoom = currentVenue.rooms[0];
+    } else {
+        currentRoom = currentVenue.rooms.find(r => r.id === roomId);
+        
+        if (!currentRoom) {
+            showError('找不到此會議室');
+            return;
+        }
     }
     
     // 渲染會議室資訊

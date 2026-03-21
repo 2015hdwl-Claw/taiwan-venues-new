@@ -624,7 +624,8 @@
         "id": "1043-03"
       }
     ],
-    "lastUpdated": "2026-03-17"
+    "lastUpdated": "2026-03-17",
+    "floorPlan": "https://www.courtyardtaipei.com.tw/asset/types/main/file/2026_Courtyard_Taipei_banquet.pdf"
   },
   {
     "id": 1044,
@@ -3130,7 +3131,6 @@
       "status": "COMPLETE",
       "source": "Official PDF (Jan 1, 2025)"
     },
-    "floorPlan": "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/floorplans/lemeridien_floorplan.pdf",
     "priceSource": "2026 官方價目表"
   },
   {

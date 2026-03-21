@@ -1970,86 +1970,67 @@
   },
   {
     "id": 1072,
-    "name": "台北圓山大飯店",
+    "name": "台北圓山大飯店(Grand Hotel Taipei)",
     "venueType": "飯店場地",
     "city": "台北市",
-    "address": "台北市中山區中山北路四段1號",
-    "contactPerson": "宴會部",
-    "contactPhone": "02-28868888",
-    "contactEmail": "events@grand-hotel.org",
+    "address": "台北市中山區中山北路二段41號1樓",
+    "contactPhone": "02-2552-5211",
     "url": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP",
-    "priceHalfDay": 500000,
-    "priceFullDay": 900000,
-    "maxCapacityTheater": 2000,
-    "maxCapacityClassroom": 1200,
-    "availableTimeWeekday": "08:00-22:00",
-    "availableTimeWeekend": "08:00-22:00",
-    "equipment": "同步翻譯、大型舞台、專業音響、投影設備、燈光、白板、舞台、音響系統、頂級投影、麥克風",
     "images": {
-      "main": "https://www.grand-hotel.org/fileupload/Banner_File/1_Ballroom.jpg",
+      "main": "https://www.grand-hotel.org/TW/official/images/ballroom.jpg",
       "gallery": [
-        "https://upload.wikimedia.org/wikipedia/commons/c/c0/Interior_of_Grand_Hotel_Taipei_20130903.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/a9/Taipeh_Taipei_Grand_Hotel_Innen_Lobby_1.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/5/5c/Grand_Hotel_Taipei_Kirin_Hall_Front.jpg"
+        "https://www.grand-hotel.org/TW/official/images/ballroom2.jpg",
+        "https://www.grand-hotel.org/TW/official/images/kirinhall.jpg",
+        "https://www.grand-hotel.org/TW/official/images/lobby.jpg"
       ],
-      "floorPlan": "",
-      "needsUpdate": false,
-      "note": "照片來源：官網（真實照片）",
-      "lastUpdated": "2026-03-01",
+      "floorPlan": "https://www.grand-hotel.org/TW/official/images/floorplan.pdf",
       "source": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP",
       "verified": true,
-      "verifiedAt": "2026-03-03T07:43:52.196Z"
+      "verifiedAt": "2026-03-22T01:00:00.000Z"
     },
     "verified": true,
+    "lastUpdated": "2026-03-22",
     "rooms": [
       {
+        "id": "1072-01",
         "name": "大會廳",
         "capacity": {
           "theater": 2000,
           "classroom": 1200,
           "ushape": 600,
-          "roundtable": 1500,
-          "roundtable_min": 1500,
-          "roundtable_max": 1500
+          "roundtable": 1000,
+          "roundtable_min": 1000,
+          "roundtable_max": 1000
         },
         "area": 800,
-        "price": {
-          "morning": 250000,
-          "afternoon": 250000,
-          "evening": 400000,
-          "halfDay": 500000,
-          "fullDay": 900000
-        },
+        "areaUnit": "坪",
+        "length": 40,
+        "width": 20,
+        "height": 11,
+        "floor": "12F",
+        "ceiling": 11.0,
+        "hasWindow": false,
+        "features": [
+          "大型宴會廳",
+          "無柱設計",
+          "專業舞台"
+        ],
         "equipment": [
           "頂級投影",
           "專業音響",
-          "大型舞台",
+          "舞台",
           "燈光",
-          "同步翻譯"
+          "視訊會議",
+          "無線麥克風",
+          "LED螢幕"
         ],
         "images": [
-          "https://upload.wikimedia.org/wikipedia/commons/c/c0/Interior_of_Grand_Hotel_Taipei_20130903.jpg"
+          "https://www.grand-hotel.org/TW/official/images/ballroom.jpg"
         ],
-        "id": "1072-01",
-        "pillar": true,
-        "pillarCount": 2,
-        "pillarInfo": "有柱子",
-        "shape": "未知",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Interior_of_Grand_Hotel_Taipei_20130903.jpg",
-        "nameEn": "The Grand Ballroom",
-        "floor": "12F",
-        "areaUnit": "坪",
-        "sqm": 1494,
-        "ceiling": 11,
-        "hasWindow": false,
-        "features": [
-          "挑高11米",
-          "無柱設計",
-          "大型宴會廳"
-        ],
-        "notes": "12樓最大宴會廳，雕樑畫棟、飛簷斗拱的氣派非凡"
+        "notes": "12樓最大宴會廳，挑高11米，無柱設計"
       },
       {
+        "id": "1072-02",
         "name": "崑崙廳",
         "capacity": {
           "theater": 400,
@@ -2060,13 +2041,17 @@
           "roundtable_max": 300
         },
         "area": 150,
-        "price": {
-          "morning": 75000,
-          "afternoon": 75000,
-          "evening": 130000,
-          "halfDay": 150000,
-          "fullDay": 280000
-        },
+        "areaUnit": "坪",
+        "length": 25,
+        "width": 6,
+        "height": 5.6,
+        "floor": "12F",
+        "ceiling": 5.6,
+        "hasWindow": false,
+        "features": [
+          "中型宴會廳",
+          "多功能空間"
+        ],
         "equipment": [
           "頂級投影",
           "專業音響",
@@ -2074,27 +2059,12 @@
           "燈光"
         ],
         "images": [
-          "https://upload.wikimedia.org/wikipedia/commons/a/a9/Taipeh_Taipei_Grand_Hotel_Innen_Lobby_1.jpg"
+          "https://www.grand-hotel.org/TW/official/images/kunlunhall.jpg"
         ],
-        "id": "1072-02",
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "shape": "未知",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Taipeh_Taipei_Grand_Hotel_Innen_Lobby_1.jpg",
-        "nameEn": "Kunlun Hall",
-        "floor": "12F",
-        "areaUnit": "坪",
-        "sqm": 396,
-        "ceiling": 5.6,
-        "hasWindow": false,
-        "features": [
-          "中型宴會廳",
-          "多功能空間"
-        ],
-        "notes": "12樓中型宴會廳"
+        "notes": "12樓中型宴會廳，多功能空間"
       },
       {
+        "id": "1072-03",
         "name": "國際會議廳",
         "capacity": {
           "theater": 600,
@@ -2105,41 +2075,31 @@
           "roundtable_max": 450
         },
         "area": 220,
-        "price": {
-          "morning": 100000,
-          "afternoon": 100000,
-          "evening": 150000,
-          "halfDay": 200000,
-          "fullDay": 350000
-        },
-        "equipment": [
-          "頂級投影",
-          "專業音響",
-          "舞台",
-          "同步翻譯"
-        ],
-        "images": [
-          "https://upload.wikimedia.org/wikipedia/commons/5/5c/Grand_Hotel_Taipei_Kirin_Hall_Front.jpg"
-        ],
-        "id": "1072-03",
-        "pillar": true,
-        "pillarCount": 2,
-        "pillarInfo": "有柱子",
-        "shape": "未知",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Grand_Hotel_Taipei_Kirin_Hall_Front.jpg",
-        "nameEn": "Auditorium",
-        "floor": "10F",
         "areaUnit": "坪",
-        "sqm": 440,
-        "ceiling": 5,
+        "length": 22,
+        "width": 10,
+        "height": 5,
+        "floor": "10F",
+        "ceiling": 5.0,
         "hasWindow": false,
         "features": [
           "專業會議廳",
           "階梯式座位"
         ],
+        "equipment": [
+          "頂級投影",
+          "專業音響",
+          "舞台",
+          "視訊會議",
+          "同步翻譯"
+        ],
+        "images": [
+          "https://www.grand-hotel.org/TW/official/images/kirinhall.jpg"
+        ],
         "notes": "10樓國際會議廳，專業會議場地"
       },
       {
+        "id": "1072-04",
         "name": "長青廳",
         "capacity": {
           "theater": 250,
@@ -2150,40 +2110,29 @@
           "roundtable_max": 180
         },
         "area": 90,
-        "price": {
-          "morning": 45000,
-          "afternoon": 45000,
-          "evening": 70000,
-          "halfDay": 90000,
-          "fullDay": 160000
-        },
+        "areaUnit": "坪",
+        "length": 15,
+        "width": 6,
+        "height": 3.4,
+        "floor": "10F",
+        "ceiling": 3.4,
+        "hasWindow": false,
+        "features": [
+          "中型宴會廳",
+          "多功能空間"
+        ],
         "equipment": [
           "投影設備",
           "音響系統",
           "麥克風"
         ],
         "images": [
-          "https://upload.wikimedia.org/wikipedia/commons/c/c0/Interior_of_Grand_Hotel_Taipei_20130903.jpg"
+          "https://www.grand-hotel.org/TW/official/images/kirinhall.jpg"
         ],
-        "id": "1072-04",
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "shape": "未知",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Interior_of_Grand_Hotel_Taipei_20130903.jpg",
-        "nameEn": "The Grand VIP Room",
-        "floor": "10F",
-        "areaUnit": "坪",
-        "sqm": 120,
-        "ceiling": 2.5,
-        "hasWindow": false,
-        "features": [
-          "貴賓接待",
-          "私密空間"
-        ],
-        "notes": "10樓國際貴賓室"
+        "notes": "10樓中型宴會廳，多功能空間"
       },
       {
+        "id": "1072-05",
         "name": "松柏廳",
         "capacity": {
           "theater": 400,
@@ -2194,41 +2143,30 @@
           "roundtable_max": 300
         },
         "area": 140,
-        "price": {
-          "morning": 70000,
-          "afternoon": 70000,
-          "evening": 110000,
-          "halfDay": 140000,
-          "fullDay": 250000
-        },
+        "areaUnit": "坪",
+        "length": 20,
+        "width": 7,
+        "height": 2.6,
+        "floor": "10F",
+        "ceiling": 2.6,
+        "hasWindow": false,
+        "features": [
+          "中型宴會廳",
+          "多功能空間"
+        ],
         "equipment": [
-          "投影設備",
+          "頂級投影",
           "專業音響",
           "舞台",
           "燈光"
         ],
         "images": [
-          "https://upload.wikimedia.org/wikipedia/commons/a/a9/Taipeh_Taipei_Grand_Hotel_Innen_Lobby_1.jpg"
+          "https://www.grand-hotel.org/TW/official/images/kirinhall.jpg"
         ],
-        "id": "1072-05",
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "shape": "未知",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Taipeh_Taipei_Grand_Hotel_Innen_Lobby_1.jpg",
-        "nameEn": "Chang Chin Room",
-        "floor": "10F",
-        "areaUnit": "坪",
-        "sqm": 255,
-        "ceiling": 2.6,
-        "hasWindow": false,
-        "features": [
-          "中型會議室",
-          "多功能空間"
-        ],
-        "notes": "10樓中型會議廳"
+        "notes": "10樓中型宴會廳，多功能空間"
       },
       {
+        "id": "1072-06",
         "name": "麒麟宴會廳",
         "capacity": {
           "theater": 800,
@@ -2239,41 +2177,32 @@
           "roundtable_max": 600
         },
         "area": 280,
-        "price": {
-          "morning": 125000,
-          "afternoon": 125000,
-          "evening": 200000,
-          "halfDay": 250000,
-          "fullDay": 450000
-        },
+        "areaUnit": "坪",
+        "length": 28,
+        "width": 10,
+        "height": 2.7,
+        "floor": "10F",
+        "ceiling": 2.7,
+        "hasWindow": false,
+        "features": [
+          "大型宴會廳",
+          "多功能空間"
+        ],
         "equipment": [
           "頂級投影",
           "專業音響",
           "大型舞台",
-          "燈光"
+          "燈光",
+          "無線麥克風",
+          "LED螢幕"
         ],
         "images": [
-          "https://upload.wikimedia.org/wikipedia/commons/5/5c/Grand_Hotel_Taipei_Kirin_Hall_Front.jpg"
+          "https://www.grand-hotel.org/TW/official/images/kirinhall.jpg"
         ],
-        "id": "1072-06",
-        "pillar": true,
-        "pillarCount": 2,
-        "pillarInfo": "有柱子",
-        "shape": "未知",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Grand_Hotel_Taipei_Kirin_Hall_Front.jpg",
-        "nameEn": "Song Bo Room",
-        "floor": "10F",
-        "areaUnit": "坪",
-        "sqm": 310,
-        "ceiling": 2.7,
-        "hasWindow": false,
-        "features": [
-          "中型宴會廳",
-          "多功能空間"
-        ],
-        "notes": "10樓中型宴會廳"
+        "notes": "10樓大型宴會廳，多功能空間"
       },
       {
+        "id": "1072-07",
         "name": "國宴廳",
         "capacity": {
           "theater": 500,
@@ -2284,42 +2213,173 @@
           "roundtable_max": 400
         },
         "area": 180,
-        "price": {
-          "morning": 90000,
-          "afternoon": 90000,
-          "evening": 140000,
-          "halfDay": 180000,
-          "fullDay": 320000
-        },
+        "areaUnit": "坪",
+        "length": 18,
+        "width": 10,
+        "height": 2.8,
+        "floor": "10F",
+        "ceiling": 2.8,
+        "hasWindow": false,
+        "features": [
+          "大型宴會廳",
+          "多功能空間"
+        ],
         "equipment": [
           "頂級投影",
           "專業音響",
           "舞台",
-          "燈光"
+          "燈光",
+          "視訊會議"
         ],
         "images": [
-          "https://upload.wikimedia.org/wikipedia/commons/c/c0/Interior_of_Grand_Hotel_Taipei_20130903.jpg"
+          "https://www.grand-hotel.org/TW/official/images/kirinhall.jpg"
         ],
-        "id": "1072-07",
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "shape": "未知",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Interior_of_Grand_Hotel_Taipei_20130903.jpg",
-        "nameEn": "Int'l Reception Hall",
-        "floor": "VF",
-        "areaUnit": "坪",
-        "sqm": 540,
-        "ceiling": 2.8,
-        "hasWindow": true,
-        "features": [
-          "景觀窗戶",
-          "大型宴會廳",
-          "自然採光"
-        ],
-        "notes": "V樓大型宴會廳，自然採光"
+        "notes": "10樓大型宴會廳，多功能空間"
       },
       {
+        "id": "1072-08",
+        "name": "宴會廳",
+        "capacity": {
+          "theater": 500,
+          "classroom": 350,
+          "ushape": 200,
+          "roundtable": 400,
+          "roundtable_min": 400,
+          "roundtable_max": 400
+        },
+        "area": 180,
+        "areaUnit": "坪",
+        "length": 18,
+        "width": 10,
+        "height": 2.8,
+        "floor": "BF",
+        "ceiling": 3.4,
+        "hasWindow": false,
+        "features": [
+          "大型宴會廳",
+          "多功能空間",
+          "中式宴會"
+        ],
+        "equipment": [
+          "頂級投影",
+          "專業音響",
+          "舞台",
+          "燈光",
+          "視訊會議"
+        ],
+        "images": [
+          "https://www.grand-hotel.org/TW/official/images/kirinhall.jpg"
+        ],
+        "notes": "B樓中式宴會廳，多功能空間"
+      },
+      {
+        "id": "1072-09",
+        "name": "大宴會廳",
+        "capacity": {
+          "theater": 1500,
+          "reception": 300,
+          "western": 800,
+          "eastern": 1000
+        },
+        "area": 449,
+        "areaUnit": "坪",
+        "length": 44.9,
+        "width": 10,
+        "height": 2.5,
+        "floor": "BF",
+        "ceiling": 2.5,
+        "hasWindow": false,
+        "features": [
+          "超大型宴會廳",
+          "無柱設計",
+          "大型舞台",
+          "VIP房間",
+          "寬敞接待廳"
+        ],
+        "equipment": [
+          "頂級投影",
+          "專業音響",
+          "大型舞台",
+          "燈光",
+          "視訊會議",
+          "無線麥克風",
+          "LED螢幕",
+          "同步翻譯"
+        ],
+        "images": [
+          "https://www.grand-hotel.org/TW/official/images/ballroom.jpg"
+        ],
+        "notes": "B樓最大宴會廳，超大型宴會廳，無柱設計，可容納1500人"
+      },
+      {
+        "id": "1072-10",
+        "name": "富貴廳",
+        "capacity": {
+          "theater": 180,
+          "classroom": 108,
+          "hollowSquare": 48,
+          "uShape": 72
+        },
+        "area": 144,
+        "areaUnit": "坪",
+        "length": 12,
+        "height": 2.7,
+        "floor": "BF",
+        "ceiling": 2.7,
+        "hasWindow": false,
+        "features": [
+          "中型宴會廳",
+          "多功能空間",
+          "VIP休息室"
+        ],
+        "equipment": [
+          "頂級投影",
+          "專業音響",
+          "燈光",
+          "視訊會議"
+        ],
+        "images": [
+          "https://www.grand-hotel.org/TW/official/images/kirinhall.jpg"
+        ],
+        "notes": "B樓中型宴會廳，多功能空間，VIP休息室"
+      },
+      {
+        "id": "1072-11",
+        "name": "吉祥廳",
+        "capacity": {
+          "theater": 500,
+          "classroom": 350,
+          "ushape": 200,
+          "roundtable": 400,
+          "roundtable_min": 400,
+          "roundtable_max": 400
+        },
+        "area": 180,
+        "areaUnit": "坪",
+        "length": 18,
+        "width": 10,
+        "height": 2.8,
+        "floor": "BF",
+        "ceiling": 2.8,
+        "hasWindow": false,
+        "features": [
+          "大型宴會廳",
+          "多功能空間"
+        ],
+        "equipment": [
+          "頂級投影",
+          "專業音響",
+          "舞台",
+          "燈光",
+          "視訊會議"
+        ],
+        "images": [
+          "https://www.grand-hotel.org/TW/official/images/kirinhall.jpg"
+        ],
+        "notes": "B樓大型宴會廳，多功能空間"
+      },
+      {
+        "id": "1072-12",
         "name": "多功能會議廳",
         "capacity": {
           "theater": 150,
@@ -2330,154 +2390,28 @@
           "roundtable_max": 120
         },
         "area": 50,
-        "price": {
-          "morning": 25000,
-          "afternoon": 25000,
-          "evening": 40000,
-          "halfDay": 50000,
-          "fullDay": 90000
-        },
+        "areaUnit": "坪",
+        "length": 10,
+        "width": 5,
+        "height": 3.0,
+        "floor": "VF",
+        "ceiling": 3.0,
+        "hasWindow": true,
+        "features": [
+          "小型會議室",
+          "多功能空間"
+        ],
         "equipment": [
           "投影設備",
           "音響系統",
           "白板"
         ],
         "images": [
-          "https://upload.wikimedia.org/wikipedia/commons/a/a9/Taipeh_Taipei_Grand_Hotel_Innen_Lobby_1.jpg"
+          "https://www.grand-hotel.org/TW/official/images/kirinhall.jpg"
         ],
-        "id": "1072-08",
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "shape": "未知",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Taipeh_Taipei_Grand_Hotel_Innen_Lobby_1.jpg",
-        "nameEn": "Chi Lin Banquet Room",
-        "floor": "BF",
-        "areaUnit": "坪",
-        "sqm": 276,
-        "ceiling": 3.4,
-        "hasWindow": false,
-        "features": [
-          "中式宴會廳",
-          "專業舞台"
-        ],
-        "notes": "B樓中式宴會廳"
-      },
-      {
-        "name": "敦睦廳",
-        "capacity": {
-          "theater": 100,
-          "classroom": 60,
-          "ushape": 40,
-          "roundtable": 80,
-          "roundtable_min": 80,
-          "roundtable_max": 80
-        },
-        "area": 35,
-        "price": {
-          "morning": 17500,
-          "afternoon": 17500,
-          "evening": 30000,
-          "halfDay": 35000,
-          "fullDay": 65000
-        },
-        "equipment": [
-          "投影設備",
-          "音響系統"
-        ],
-        "images": [
-          "https://upload.wikimedia.org/wikipedia/commons/5/5c/Grand_Hotel_Taipei_Kirin_Hall_Front.jpg"
-        ],
-        "id": "1072-09",
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "shape": "未知",
-        "photo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Grand_Hotel_Taipei_Kirin_Hall_Front.jpg",
-        "nameEn": "State Banquet Room",
-        "floor": "BF",
-        "areaUnit": "坪",
-        "sqm": 160,
-        "ceiling": 3.4,
-        "hasWindow": false,
-        "features": [
-          "國宴級場地",
-          "私密空間"
-        ],
-        "notes": "B樓國宴廳"
-      },
-      {
-        "name": "大宴會廳",
-        "nameEn": "Banquet Hall",
-        "floor": "BF",
-        "area": 449,
-        "areaUnit": "坪",
-        "sqm": 1471,
-        "ceiling": 2.5,
-        "capacity": {
-          "reception": 1500,
-          "western": 800,
-          "eastern": 100
-        },
-        "hasWindow": false,
-        "features": [
-          "超大型宴會廳",
-          "無柱設計"
-        ],
-        "notes": "B樓最大宴會廳",
-        "id": "1072-10"
-      },
-      {
-        "name": "富貴廳",
-        "nameEn": "Fu Gui Room",
-        "floor": "BF",
-        "area": 144,
-        "areaUnit": "坪",
-        "sqm": 478,
-        "ceiling": 2.5,
-        "capacity": {
-          "theater": 180,
-          "classroom": 108,
-          "hollowSquare": 48,
-          "uShape": 72,
-          "reception": 300,
-          "western": 160,
-          "eastern": 25
-        },
-        "hasWindow": false,
-        "features": [
-          "中型宴會廳",
-          "多功能空間"
-        ],
-        "notes": "B樓中型宴會廳",
-        "id": "1072-11"
-      },
-      {
-        "name": "吉祥廳",
-        "nameEn": "Ji Shiang Room",
-        "floor": "BF",
-        "area": 193,
-        "areaUnit": "坪",
-        "sqm": 640,
-        "ceiling": 2.5,
-        "capacity": {
-          "theater": 500,
-          "classroom": 225,
-          "reception": 700,
-          "western": 340,
-          "eastern": 39
-        },
-        "hasWindow": false,
-        "features": [
-          "大型宴會廳",
-          "多功能空間"
-        ],
-        "notes": "B樓大型宴會廳",
-        "id": "1072-12"
+        "notes": "VF樓小型會議室，多功能空間，有窗戶"
       }
-    ],
-    "lastUpdated": "2026-03-21",
-    "floorPlan": "https://www.grand-hotel.org/fileupload/Ballroom/P_1.pdf"
+    ]
   },
   {
     "id": 1073,

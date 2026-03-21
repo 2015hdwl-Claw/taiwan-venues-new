@@ -2518,7 +2518,8 @@
       "verifiedAt": "2026-03-07T13:00:00",
       "needsUpdate": false,
       "note": "從官網 PDF 提取真實會議室照片（2026-03-18，重新驗證）",
-      "lastUpdated": "2026-03-18"
+      "lastUpdated": "2026-03-18",
+      "floorPlan": "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/floorplans/lemeridien_floorplan.pdf"
     },
     "verified": true,
     "rooms": [

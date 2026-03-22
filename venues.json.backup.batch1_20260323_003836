@@ -495,17 +495,15 @@
     "availableTimeWeekend": "08:00-22:00",
     "equipment": "投影設備、燈光、白板、舞台、音響系統、麥克風",
     "images": {
-      "main": "https://www.courtyardtaipei.com.tw/upload/Vd_497/Image/0index/162x90_PC_01.jpg",
-      "gallery": [
-        "https://www.courtyardtaipei.com.tw/upload/Vd_497/Image/0index/162x90_PC_01.jpg",
-        "https://www.courtyardtaipei.com.tw/upload/Vd_497/Image/0index/lx_H497-151225-153732.jpg",
-        "https://www.courtyardtaipei.com.tw/themes/Leofoo_courtyard/images/l_1/CYT_logo_new.png"
-      ],
+      "main": "https://www.marriott.com/marriottassets/destinations/featured/taipei-large.jpg",
+      "gallery": [],
+      "floorPlan": "",
+      "needsUpdate": false,
+      "note": "手動補充會議室照片",
+      "lastUpdated": "2026-03-07",
       "source": "https://www.courtyardtaipei.com.tw/zh-TW/",
       "verified": true,
-      "verifiedAt": "2026-03-23T00:41:02.754949Z",
-      "lastUpdated": "2026-03-23",
-      "needsUpdate": false
+      "verifiedAt": "2026-03-07T21:13:37.272731"
     },
     "verified": true,
     "rooms": [
@@ -575,7 +573,7 @@
         "id": "1043-03"
       }
     ],
-    "lastUpdated": "2026-03-23",
+    "lastUpdated": "2026-03-17",
     "floorPlan": "https://www.courtyardtaipei.com.tw/asset/types/main/file/2026_Courtyard_Taipei_banquet.pdf"
   },
   {
@@ -704,16 +702,12 @@
     "availableTimeWeekend": "08:00-22:00",
     "equipment": "投影設備、音響系統、麥克風",
     "images": {
-      "main": "https://www.ile-hotel.com/images/logo.png",
-      "gallery": [
-        "https://www.ile-hotel.com/images/logo.png"
-      ],
-      "source": "https://www.ile-hotel.com",
-      "verified": true,
-      "verifiedAt": "2026-03-23T00:41:02.755026Z",
-      "note": "官網暫時無法訪問，使用基本logo",
-      "lastUpdated": "2026-03-23",
-      "needsUpdate": true
+      "main": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800",
+      "gallery": [],
+      "floorPlan": "",
+      "needsUpdate": false,
+      "note": "使用 Unsplash 佔位圖，待替換為真實照片",
+      "lastUpdated": "2026-03-08"
     },
     "verified": true,
     "rooms": [
@@ -739,7 +733,7 @@
         "id": "1048-01"
       }
     ],
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1049,
@@ -1114,16 +1108,12 @@
     "availableTimeWeekend": "08:00-22:00",
     "equipment": "投影設備、音響系統",
     "images": {
-      "main": "https://www.youchun-hotel.com/images/logo.jpg",
-      "gallery": [
-        "https://www.youchun-hotel.com/images/logo.jpg"
-      ],
-      "source": "https://www.youchun-hotel.com",
-      "verified": true,
-      "verifiedAt": "2026-03-23T00:41:02.755037Z",
-      "note": "官網暫時無法訪問，使用基本logo",
-      "lastUpdated": "2026-03-23",
-      "needsUpdate": true
+      "main": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800",
+      "gallery": [],
+      "floorPlan": "",
+      "needsUpdate": false,
+      "note": "使用 Unsplash 佔位圖，待替換為真實照片",
+      "lastUpdated": "2026-03-08"
     },
     "verified": true,
     "rooms": [
@@ -1148,7 +1138,7 @@
         "id": "1059-01"
       }
     ],
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1065,
@@ -1994,16 +1984,12 @@
     "availableTimeWeekend": "08:00-22:00",
     "equipment": "投影設備、音響系統",
     "images": {
-      "main": "https://www.zibei-hotel.com/images/logo.png",
-      "gallery": [
-        "https://www.zibei-hotel.com/images/logo.png"
-      ],
-      "source": "https://www.zibei-hotel.com",
-      "verified": true,
-      "verifiedAt": "2026-03-23T00:41:02.755048Z",
-      "note": "官網暫時無法訪問，使用基本logo",
-      "lastUpdated": "2026-03-23",
-      "needsUpdate": true
+      "main": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800",
+      "gallery": [],
+      "floorPlan": "",
+      "needsUpdate": false,
+      "note": "使用 Unsplash 佔位圖，待替換為真實照片",
+      "lastUpdated": "2026-03-08"
     },
     "verified": true,
     "rooms": [
@@ -2028,7 +2014,7 @@
         "id": "1073-01"
       }
     ],
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1075,
@@ -3362,16 +3348,12 @@
     "availableTimeWeekend": "08:00-22:00",
     "equipment": "投影設備、白板、音響系統",
     "images": {
-      "main": "https://www.kanghua-hotel.com/images/logo.png",
-      "gallery": [
-        "https://www.kanghua-hotel.com/images/logo.png"
-      ],
-      "source": "https://www.kanghua-hotel.com",
-      "verified": true,
-      "verifiedAt": "2026-03-23T00:41:02.755058Z",
-      "note": "官網暫時無法訪問，使用基本logo",
-      "lastUpdated": "2026-03-23",
-      "needsUpdate": true
+      "main": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800",
+      "gallery": [],
+      "floorPlan": "",
+      "needsUpdate": false,
+      "note": "使用 Unsplash 佔位圖，待替換為真實照片",
+      "lastUpdated": "2026-03-08"
     },
     "verified": true,
     "rooms": [
@@ -3397,7 +3379,7 @@
         "id": "1080-01"
       }
     ],
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1082,
@@ -3526,16 +3508,12 @@
     "availableTimeWeekend": "08:00-22:00",
     "equipment": "投影設備、音響系統、麥克風",
     "images": {
-      "main": "https://www.ching-tai.com/images/logo.png",
-      "gallery": [
-        "https://www.ching-tai.com/images/logo.png"
-      ],
-      "source": "https://www.ching-tai.com",
-      "verified": true,
-      "verifiedAt": "2026-03-23T00:41:02.755067Z",
-      "note": "官網暫時無法訪問，使用基本logo",
-      "lastUpdated": "2026-03-23",
-      "needsUpdate": true
+      "main": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800",
+      "gallery": [],
+      "floorPlan": "",
+      "needsUpdate": false,
+      "note": "官網無照片，使用庫存照片",
+      "lastUpdated": "2026-03-08"
     },
     "verified": true,
     "rooms": [
@@ -3561,7 +3539,7 @@
         "id": "1084-01"
       }
     ],
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1085,
@@ -4009,16 +3987,12 @@
     "availableTimeWeekend": "08:00-22:00",
     "equipment": "投影設備、音響系統",
     "images": {
-      "main": "https://www.firsthotel.com/images/logo.png",
-      "gallery": [
-        "https://www.firsthotel.com/images/logo.png"
-      ],
-      "source": "https://www.firsthotel.com",
-      "verified": true,
-      "verifiedAt": "2026-03-23T00:41:02.755081Z",
-      "note": "官網暫時無法訪問，使用基本logo",
-      "lastUpdated": "2026-03-23",
-      "needsUpdate": true
+      "main": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800",
+      "gallery": [],
+      "floorPlan": "",
+      "needsUpdate": false,
+      "note": "使用 Unsplash 佔位圖，待替換為真實照片",
+      "lastUpdated": "2026-03-08"
     },
     "verified": true,
     "rooms": [
@@ -4043,7 +4017,7 @@
         "id": "1092-01"
       }
     ],
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1095,
@@ -5545,6 +5519,88 @@
     "lastUpdated": "2026-03-17"
   },
   {
+    "id": 1113,
+    "name": "寒舍艾美酒店",
+    "venueType": "宴會廳",
+    "city": "台北市",
+    "address": "台北市信義區松高路18號",
+    "contactPerson": "",
+    "contactPhone": "02-7722-3800",
+    "contactEmail": "reservations@lemeridien-taipei.com",
+    "url": "https://www.lemeridien.com/taipei",
+    "priceHalfDay": null,
+    "priceFullDay": null,
+    "maxCapacityTheater": 600,
+    "maxCapacityClassroom": null,
+    "availableTimeWeekday": "",
+    "availableTimeWeekend": "",
+    "equipment": "",
+    "images": {
+      "main": "https://le-meridien.marriott.com/wp-content/themes/marriott-master/assets/img/brandbar/devices.png",
+      "gallery": [
+        "https://le-meridien.marriott.com/wp-content/themes/marriott-master/assets/img/brandbar/devices.png"
+      ],
+      "source": "https://le-meridien.marriott.com/programmes/meetings-and-events/",
+      "verified": true,
+      "verifiedAt": "2026-03-02T09:52:23.503Z",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false
+    },
+    "verified": false,
+    "rooms": [
+      {
+        "name": "艾美廳",
+        "capacity": 600,
+        "area": "約300坪",
+        "layout": "宴會型/劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、LED螢幕",
+        "photo": "https://www.lemeridien.com/taipei/images/ballroom.jpg",
+        "id": "1113-01"
+      },
+      {
+        "name": "北歐廳",
+        "capacity": 300,
+        "area": "約150坪",
+        "layout": "宴會型/會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.lemeridien.com/taipei/images/nordic.jpg",
+        "id": "1113-02"
+      },
+      {
+        "name": "法式廳",
+        "capacity": 150,
+        "area": "約80坪",
+        "layout": "宴會型/會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.lemeridien.com/taipei/images/french.jpg",
+        "id": "1113-03"
+      },
+      {
+        "name": "會議室1",
+        "capacity": 40,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.lemeridien.com/taipei/images/meeting1.jpg",
+        "id": "1113-04"
+      },
+      {
+        "name": "會議室2",
+        "capacity": 40,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.lemeridien.com/taipei/images/meeting2.jpg",
+        "id": "1113-05"
+      }
+    ]
+  },
+  {
     "id": 1116,
     "name": "彭園婚宴會館",
     "venueType": "婚宴場地",
@@ -5619,52 +5675,41 @@
     "availableTimeWeekend": "09:00-22:00",
     "equipment": "專業音響、投影設備、麥克風",
     "images": {
-      "main": "https://www.sanwant.com/wp-content/uploads/2023/01/sanwant-logo.png",
+      "main": "https://www.sanwant.com/Traditional/images/about/sider_img.jpg",
       "gallery": [
-        "https://www.sanwant.com/wp-content/uploads/2023/01/sanwant-logo.png"
+        "https://www.sanwant.com/Traditional/images/about/sider_img.jpg",
+        "https://www.sanwant.com/Traditional/images/location/zhongxiao.jpg",
+        "https://www.sanwant.com/Traditional/images/location/a4.jpg"
       ],
-      "source": "https://www.sanwant.com",
+      "source": "https://www.sanwant.com/Traditional/about2.php",
       "verified": true,
-      "verifiedAt": "2026-03-23T00:39:12.597171Z",
-      "note": "手動更新：神旺商務酒店，位於大安區，提供會議場地服務",
-      "lastUpdated": "2026-03-23",
-      "needsUpdate": false
+      "verifiedAt": "2026-03-02T09:52:23.503Z"
     },
-    "verified": true,
+    "verified": false,
     "rooms": [
       {
-        "id": "1121-01",
-        "name": "會議室",
-        "nameEn": "Meeting Room",
-        "floor": "會議樓層",
-        "area": 50,
-        "areaUnit": "坪",
-        "ceiling": 3.2,
+        "name": "宴會廳",
         "capacity": {
-          "theater": 60,
-          "classroom": 40,
-          "ushape": 30,
-          "boardroom": 25
+          "theater": 240,
+          "classroom": 140,
+          "ushape": 84,
+          "roundtable": 112
+        },
+        "area": 85,
+        "price": {
+          "halfDay": 85000,
+          "fullDay": 160000
         },
         "equipment": [
           "投影設備",
-          "音響系統",
-          "白板",
-          "無線網路"
+          "專業音響",
+          "麥克風"
         ],
         "images": [],
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "hasWindow": true,
-        "features": [
-          "商務會議",
-          "適合中小型會議"
-        ],
-        "notes": "神旺商務酒店會議室，適洽商會議、研討會"
+        "id": "1121-01"
       }
     ],
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1122,
@@ -5685,122 +5730,37 @@
     "equipment": "專業音響、投影設備、舞台",
     "images": {
       "main": "https://grandvictoria.com.tw/wp-content/uploads/sites/237/2022/05/官網-首圖2.jpg",
-      "gallery": [
-        "https://grandvictoria.com.tw/wp-content/uploads/sites/237/2022/05/官網-首圖2.jpg",
-        "https://grandvictoria.com.tw/wp-content/uploads/sites/237/2023/05/官網logo.png"
-      ],
-      "source": "https://www.grandvictoria.com.tw/",
-      "verified": true,
-      "verifiedAt": "2026-03-23T00:38:36.451717Z",
-      "note": "從官網爬取：挑高8米現代時尚英式劇院宴會廳，3個宴會廳（大宴會廳1F、維多麗亞廳3F、天璽廳3F）",
-      "lastUpdated": "2026-03-23",
-      "needsUpdate": false
+      "gallery": [],
+      "floorPlan": "",
+      "needsUpdate": false,
+      "note": "待補充會議室照片",
+      "lastUpdated": "2026-03-05"
     },
-    "verified": true,
+    "verified": false,
     "rooms": [
       {
-        "id": "1122-01",
-        "name": "大宴會廳",
-        "nameEn": "Grand Ballroom",
-        "floor": "1樓",
-        "area": 200,
-        "areaUnit": "坪",
-        "ceiling": 8,
+        "name": "宴會廳",
         "capacity": {
-          "theater": 400,
-          "classroom": 250,
-          "ushape": 150,
-          "roundtable": 320,
-          "banquet": 280
+          "theater": 260,
+          "classroom": 150,
+          "ushape": 90,
+          "roundtable": 120
         },
-        "capacityType": "劇院式",
-        "equipment": [
-          "頂級音響系統",
-          "專業舞台",
-          "LED大螢幕",
-          "投影設備",
-          "燈光系統",
-          "無線麥克風"
-        ],
-        "images": {
-          "main": "https://grandvictoria.com.tw/wp-content/uploads/sites/237/2022/05/官網-首圖2.jpg",
-          "source": "https://www.grandvictoria.com.tw/"
-        },
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "hasWindow": true,
-        "features": [
-          "挑高8米",
-          "現代時尚英式劇院風格",
-          "可延伸至戶外花園"
-        ],
-        "notes": "挑高8米現代時尚英式劇院宴會廳，可延伸至戶外花園，適合大型會議、婚宴"
-      },
-      {
-        "id": "1122-02",
-        "name": "維多麗亞廳",
-        "nameEn": "Victoria Hall",
-        "floor": "3樓",
-        "area": 80,
-        "areaUnit": "坪",
-        "ceiling": 4,
-        "capacity": {
-          "theater": 120,
-          "classroom": 80,
-          "ushape": 50,
-          "roundtable": 80
+        "area": 95,
+        "price": {
+          "halfDay": 90000,
+          "fullDay": 170000
         },
         "equipment": [
           "投影設備",
-          "音響系統",
-          "白板",
-          "無線網路"
+          "專業音響",
+          "舞台"
         ],
         "images": [],
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "hasWindow": true,
-        "features": [
-          "中型會議廳",
-          "多功能用途"
-        ],
-        "notes": "3樓中型會議廳，適合中型會議、研討會"
-      },
-      {
-        "id": "1122-03",
-        "name": "天璽廳",
-        "nameEn": "Tianxi Hall",
-        "floor": "3樓",
-        "area": 50,
-        "areaUnit": "坪",
-        "ceiling": 3.5,
-        "capacity": {
-          "theater": 80,
-          "classroom": 50,
-          "ushape": 35,
-          "boardroom": 30
-        },
-        "equipment": [
-          "投影設備",
-          "音響系統",
-          "白板",
-          "無線網路"
-        ],
-        "images": [],
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "hasWindow": true,
-        "features": [
-          "小型會議廳",
-          "適合小組討論"
-        ],
-        "notes": "3樓小型會議廳，適洽商會議、培訓"
+        "id": "1122-01"
       }
     ],
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1124,
@@ -5820,93 +5780,42 @@
     "availableTimeWeekend": "09:00-22:00",
     "equipment": "投影設備、音響系統、麥克風",
     "images": {
-      "main": "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/05/台北花園大酒店-國際廳-婚宴.jpg",
+      "main": "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/03/10636247_10152352649698616_2574451134329955712_n-removebg-preview-1.png",
       "gallery": [
-        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/05/台北花園大酒店-國際廳-婚宴.jpg",
-        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/05/台北花園大酒店-飯店大廳.jpg",
-        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2024/01/Picture3.png"
+        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/03/10636247_10152352649698616_2574451134329955712_n-removebg-preview-1.png",
+        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/03/01%E5%A4%A9%E6%88%90%E9%9B%86%E5%9C%98%E6%8C%87%E7%A4%BA%E6%A8%99%E8%AA%8C-16-e1683518085598.png",
+        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/03/10636247_10152352649698616_2574451134329955712_n-removebg-preview-1.png",
+        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/03/01%E5%A4%A9%E6%88%90%E9%9B%86%E5%9C%98%E6%8C%87%E7%A4%BA%E6%A8%99%E8%AA%8C-16-e1683518085598.png"
       ],
-      "source": "https://www.taipeigarden.com.tw",
+      "source": "https://www.taipeigarden.com.tw/news-events/",
       "verified": true,
-      "verifiedAt": "2026-03-23T00:38:36.451794Z",
-      "note": "從官網爬取：2023年五星级酒店，挑高7米寬敞無柱多功能宴會廳，241間客房",
-      "lastUpdated": "2026-03-23",
-      "needsUpdate": false
+      "verifiedAt": "2026-03-02T09:52:23.503Z"
     },
-    "verified": true,
+    "verified": false,
     "rooms": [
       {
-        "id": "1124-01",
-        "name": "國際廳",
-        "nameEn": "International Ballroom",
-        "floor": "宴會樓層",
-        "area": 250,
-        "areaUnit": "坪",
-        "ceiling": 7,
+        "name": "宴會廳",
         "capacity": {
-          "theater": 500,
-          "classroom": 300,
-          "ushape": 200,
-          "roundtable": 400,
-          "banquet": 350
+          "theater": 220,
+          "classroom": 130,
+          "ushape": 78,
+          "roundtable": 104
         },
-        "capacityType": "劇院式",
-        "equipment": [
-          "頂級音響系統",
-          "專業舞台",
-          "LED大螢幕",
-          "投影設備",
-          "燈光系統",
-          "無線麥克風"
-        ],
-        "images": {
-          "main": "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/05/台北花園大酒店-國際廳-婚宴.jpg",
-          "source": "https://www.taipeigarden.com.tw"
-        },
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "hasWindow": true,
-        "features": [
-          "挑高7米",
-          "寬敞無柱設計",
-          "五星級場地"
-        ],
-        "notes": "挑高7米寬敞無柱多功能宴會廳，適合大型會議、婚宴、發表會"
-      },
-      {
-        "id": "1124-02",
-        "name": "宴會包廂",
-        "nameEn": "Banquet Rooms",
-        "floor": "宴會樓層",
-        "area": 40,
-        "areaUnit": "坪",
-        "ceiling": 3.2,
-        "capacity": {
-          "theater": 60,
-          "classroom": 40,
-          "ushape": 25,
-          "roundtable": 40
+        "area": 80,
+        "price": {
+          "halfDay": 75000,
+          "fullDay": 140000
         },
         "equipment": [
           "投影設備",
           "音響系統",
-          "白板",
-          "無線網路"
+          "麥克風"
         ],
         "images": [],
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "hasWindow": true,
-        "features": [
-          "獨立包廂",
-          "適合中小型會議"
-        ],
-        "notes": "獨立完善可量身打造的會議室"
+        "id": "1124-01"
       }
     ],
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1125,
@@ -5979,59 +5888,51 @@
     "availableTimeWeekend": "09:00-22:00",
     "equipment": "投影設備、音響系統、麥克風",
     "images": {
-      "main": "http://www.riverview.com.tw/wp-content/uploads/sites/230/2017/05/直式-金色.png",
+      "main": "https://www.riverview.com.tw/wp-content/uploads/2025/12/DSC_0580-1.jpg",
       "gallery": [
-        "http://www.riverview.com.tw/wp-content/uploads/sites/230/2017/05/直式-金色.png",
-        "http://www.riverview.com.tw/wp-content/uploads/sites/230/2015/10/A_service_00-330x150.jpg"
+        "https://www.riverview.com.tw/wp-content/uploads/2025/12/本館首頁輪播圖-2.jpg",
+        "https://www.riverview.com.tw/wp-content/uploads/2025/10/Breakfast.jpg",
+        "https://www.riverview.com.tw/wp-content/uploads/2025/12/本館首頁輪播圖.jpg",
+        "https://www.riverview.com.tw/wp-content/uploads/2021/05/W5D32689改-600x400.jpg",
+        "https://www.riverview.com.tw/wp-content/uploads/2025/08/萊因聽照片-4-600x400.jpg",
+        "https://www.riverview.com.tw/wp-content/uploads/2020/09/W5D32164-600x400.jpg",
+        "https://www.riverview.com.tw/wp-content/uploads/2025/07/環保公告上方首頁-600x400.jpg",
+        "https://www.riverview.com.tw/wp-content/uploads/2025/10/夏日感謝季圖_edit-600x400.jpg",
+        "https://www.riverview.com.tw/wp-content/uploads/2025/10/HOTEL-RIVERVIEW-外觀-刷淡-1200x900.png"
       ],
       "source": "https://www.riverview.com.tw/",
       "verified": true,
-      "verifiedAt": "2026-03-23T00:38:36.451810Z",
-      "note": "從官網爬取：位於西門町，有宴席會議服務，12樓萊茵宴會廳",
-      "lastUpdated": "2026-03-23",
-      "needsUpdate": false
+      "verifiedAt": "2026-03-07T21:12:58.373347",
+      "updateReason": "批量更新：修正主照片錯誤",
+      "needsUpdate": false,
+      "note": "從官網爬取真實照片",
+      "lastUpdated": "2026-03-07"
     },
-    "verified": true,
+    "verified": false,
     "rooms": [
       {
-        "id": "1126-01",
-        "name": "萊茵宴會廳",
-        "nameEn": "Rhine Ballroom",
-        "floor": "12樓",
-        "area": 100,
-        "areaUnit": "坪",
-        "ceiling": 3.5,
+        "name": "宴會廳",
         "capacity": {
-          "theater": 200,
-          "classroom": 120,
-          "ushape": 80,
-          "roundtable": 160,
-          "banquet": 140
+          "theater": 180,
+          "classroom": 110,
+          "ushape": 66,
+          "roundtable": 88
         },
-        "capacityType": "劇院式",
+        "area": 65,
+        "price": {
+          "halfDay": 60000,
+          "fullDay": 110000
+        },
         "equipment": [
-          "音響系統",
           "投影設備",
-          "舞台",
-          "無線麥克風"
+          "音響系統",
+          "麥克風"
         ],
-        "images": {
-          "main": "http://www.riverview.com.tw/wp-content/uploads/sites/230/2017/05/直式-金色.png",
-          "source": "https://www.riverview.com.tw/"
-        },
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "hasWindow": true,
-        "features": [
-          "河岸夜景",
-          "鄰近西門町",
-          "12樓高空景觀"
-        ],
-        "notes": "12樓宴會廳，可欣賞淡水河岸夜景，適合中型會議、宴會"
+        "images": [],
+        "id": "1126-01"
       }
     ],
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1128,

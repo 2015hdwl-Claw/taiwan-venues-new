@@ -495,17 +495,15 @@
     "availableTimeWeekend": "08:00-22:00",
     "equipment": "投影設備、燈光、白板、舞台、音響系統、麥克風",
     "images": {
-      "main": "https://www.courtyardtaipei.com.tw/upload/Vd_497/Image/0index/162x90_PC_01.jpg",
-      "gallery": [
-        "https://www.courtyardtaipei.com.tw/upload/Vd_497/Image/0index/162x90_PC_01.jpg",
-        "https://www.courtyardtaipei.com.tw/upload/Vd_497/Image/0index/lx_H497-151225-153732.jpg",
-        "https://www.courtyardtaipei.com.tw/themes/Leofoo_courtyard/images/l_1/CYT_logo_new.png"
-      ],
+      "main": "https://www.marriott.com/marriottassets/destinations/featured/taipei-large.jpg",
+      "gallery": [],
+      "floorPlan": "",
+      "needsUpdate": false,
+      "note": "手動補充會議室照片",
+      "lastUpdated": "2026-03-07",
       "source": "https://www.courtyardtaipei.com.tw/zh-TW/",
       "verified": true,
-      "verifiedAt": "2026-03-23T00:41:02.754949Z",
-      "lastUpdated": "2026-03-23",
-      "needsUpdate": false
+      "verifiedAt": "2026-03-07T21:13:37.272731"
     },
     "verified": true,
     "rooms": [
@@ -575,7 +573,7 @@
         "id": "1043-03"
       }
     ],
-    "lastUpdated": "2026-03-23",
+    "lastUpdated": "2026-03-17",
     "floorPlan": "https://www.courtyardtaipei.com.tw/asset/types/main/file/2026_Courtyard_Taipei_banquet.pdf"
   },
   {
@@ -704,16 +702,12 @@
     "availableTimeWeekend": "08:00-22:00",
     "equipment": "投影設備、音響系統、麥克風",
     "images": {
-      "main": "https://www.ile-hotel.com/images/logo.png",
-      "gallery": [
-        "https://www.ile-hotel.com/images/logo.png"
-      ],
-      "source": "https://www.ile-hotel.com",
-      "verified": true,
-      "verifiedAt": "2026-03-23T00:41:02.755026Z",
-      "note": "官網暫時無法訪問，使用基本logo",
-      "lastUpdated": "2026-03-23",
-      "needsUpdate": true
+      "main": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800",
+      "gallery": [],
+      "floorPlan": "",
+      "needsUpdate": false,
+      "note": "使用 Unsplash 佔位圖，待替換為真實照片",
+      "lastUpdated": "2026-03-08"
     },
     "verified": true,
     "rooms": [
@@ -739,7 +733,7 @@
         "id": "1048-01"
       }
     ],
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1049,
@@ -1114,16 +1108,12 @@
     "availableTimeWeekend": "08:00-22:00",
     "equipment": "投影設備、音響系統",
     "images": {
-      "main": "https://www.youchun-hotel.com/images/logo.jpg",
-      "gallery": [
-        "https://www.youchun-hotel.com/images/logo.jpg"
-      ],
-      "source": "https://www.youchun-hotel.com",
-      "verified": true,
-      "verifiedAt": "2026-03-23T00:41:02.755037Z",
-      "note": "官網暫時無法訪問，使用基本logo",
-      "lastUpdated": "2026-03-23",
-      "needsUpdate": true
+      "main": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800",
+      "gallery": [],
+      "floorPlan": "",
+      "needsUpdate": false,
+      "note": "使用 Unsplash 佔位圖，待替換為真實照片",
+      "lastUpdated": "2026-03-08"
     },
     "verified": true,
     "rooms": [
@@ -1148,7 +1138,7 @@
         "id": "1059-01"
       }
     ],
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1065,
@@ -1994,16 +1984,12 @@
     "availableTimeWeekend": "08:00-22:00",
     "equipment": "投影設備、音響系統",
     "images": {
-      "main": "https://www.zibei-hotel.com/images/logo.png",
-      "gallery": [
-        "https://www.zibei-hotel.com/images/logo.png"
-      ],
-      "source": "https://www.zibei-hotel.com",
-      "verified": true,
-      "verifiedAt": "2026-03-23T00:41:02.755048Z",
-      "note": "官網暫時無法訪問，使用基本logo",
-      "lastUpdated": "2026-03-23",
-      "needsUpdate": true
+      "main": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800",
+      "gallery": [],
+      "floorPlan": "",
+      "needsUpdate": false,
+      "note": "使用 Unsplash 佔位圖，待替換為真實照片",
+      "lastUpdated": "2026-03-08"
     },
     "verified": true,
     "rooms": [
@@ -2028,7 +2014,7 @@
         "id": "1073-01"
       }
     ],
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1075,
@@ -3362,16 +3348,12 @@
     "availableTimeWeekend": "08:00-22:00",
     "equipment": "投影設備、白板、音響系統",
     "images": {
-      "main": "https://www.kanghua-hotel.com/images/logo.png",
-      "gallery": [
-        "https://www.kanghua-hotel.com/images/logo.png"
-      ],
-      "source": "https://www.kanghua-hotel.com",
-      "verified": true,
-      "verifiedAt": "2026-03-23T00:41:02.755058Z",
-      "note": "官網暫時無法訪問，使用基本logo",
-      "lastUpdated": "2026-03-23",
-      "needsUpdate": true
+      "main": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800",
+      "gallery": [],
+      "floorPlan": "",
+      "needsUpdate": false,
+      "note": "使用 Unsplash 佔位圖，待替換為真實照片",
+      "lastUpdated": "2026-03-08"
     },
     "verified": true,
     "rooms": [
@@ -3397,7 +3379,7 @@
         "id": "1080-01"
       }
     ],
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1082,
@@ -3526,16 +3508,12 @@
     "availableTimeWeekend": "08:00-22:00",
     "equipment": "投影設備、音響系統、麥克風",
     "images": {
-      "main": "https://www.ching-tai.com/images/logo.png",
-      "gallery": [
-        "https://www.ching-tai.com/images/logo.png"
-      ],
-      "source": "https://www.ching-tai.com",
-      "verified": true,
-      "verifiedAt": "2026-03-23T00:41:02.755067Z",
-      "note": "官網暫時無法訪問，使用基本logo",
-      "lastUpdated": "2026-03-23",
-      "needsUpdate": true
+      "main": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800",
+      "gallery": [],
+      "floorPlan": "",
+      "needsUpdate": false,
+      "note": "官網無照片，使用庫存照片",
+      "lastUpdated": "2026-03-08"
     },
     "verified": true,
     "rooms": [
@@ -3561,7 +3539,7 @@
         "id": "1084-01"
       }
     ],
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1085,
@@ -4009,16 +3987,12 @@
     "availableTimeWeekend": "08:00-22:00",
     "equipment": "投影設備、音響系統",
     "images": {
-      "main": "https://www.firsthotel.com/images/logo.png",
-      "gallery": [
-        "https://www.firsthotel.com/images/logo.png"
-      ],
-      "source": "https://www.firsthotel.com",
-      "verified": true,
-      "verifiedAt": "2026-03-23T00:41:02.755081Z",
-      "note": "官網暫時無法訪問，使用基本logo",
-      "lastUpdated": "2026-03-23",
-      "needsUpdate": true
+      "main": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800",
+      "gallery": [],
+      "floorPlan": "",
+      "needsUpdate": false,
+      "note": "使用 Unsplash 佔位圖，待替換為真實照片",
+      "lastUpdated": "2026-03-08"
     },
     "verified": true,
     "rooms": [
@@ -4043,7 +4017,7 @@
         "id": "1092-01"
       }
     ],
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1095,
@@ -5543,6 +5517,88 @@
       }
     ],
     "lastUpdated": "2026-03-17"
+  },
+  {
+    "id": 1113,
+    "name": "寒舍艾美酒店",
+    "venueType": "宴會廳",
+    "city": "台北市",
+    "address": "台北市信義區松高路18號",
+    "contactPerson": "",
+    "contactPhone": "02-7722-3800",
+    "contactEmail": "reservations@lemeridien-taipei.com",
+    "url": "https://www.lemeridien.com/taipei",
+    "priceHalfDay": null,
+    "priceFullDay": null,
+    "maxCapacityTheater": 600,
+    "maxCapacityClassroom": null,
+    "availableTimeWeekday": "",
+    "availableTimeWeekend": "",
+    "equipment": "",
+    "images": {
+      "main": "https://le-meridien.marriott.com/wp-content/themes/marriott-master/assets/img/brandbar/devices.png",
+      "gallery": [
+        "https://le-meridien.marriott.com/wp-content/themes/marriott-master/assets/img/brandbar/devices.png"
+      ],
+      "source": "https://le-meridien.marriott.com/programmes/meetings-and-events/",
+      "verified": true,
+      "verifiedAt": "2026-03-02T09:52:23.503Z",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false
+    },
+    "verified": false,
+    "rooms": [
+      {
+        "name": "艾美廳",
+        "capacity": 600,
+        "area": "約300坪",
+        "layout": "宴會型/劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、LED螢幕",
+        "photo": "https://www.lemeridien.com/taipei/images/ballroom.jpg",
+        "id": "1113-01"
+      },
+      {
+        "name": "北歐廳",
+        "capacity": 300,
+        "area": "約150坪",
+        "layout": "宴會型/會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.lemeridien.com/taipei/images/nordic.jpg",
+        "id": "1113-02"
+      },
+      {
+        "name": "法式廳",
+        "capacity": 150,
+        "area": "約80坪",
+        "layout": "宴會型/會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.lemeridien.com/taipei/images/french.jpg",
+        "id": "1113-03"
+      },
+      {
+        "name": "會議室1",
+        "capacity": 40,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.lemeridien.com/taipei/images/meeting1.jpg",
+        "id": "1113-04"
+      },
+      {
+        "name": "會議室2",
+        "capacity": 40,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.lemeridien.com/taipei/images/meeting2.jpg",
+        "id": "1113-05"
+      }
+    ]
   },
   {
     "id": 1116,

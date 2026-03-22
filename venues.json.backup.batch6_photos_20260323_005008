@@ -3426,23 +3426,15 @@
     "availableTimeWeekend": "09:00-18:00",
     "equipment": "投影設備、視訊會議、音響系統",
     "images": {
-      "main": "https://image-tc.galaxy.tf/wijpeg-49sf1014yy958cxn2fb6alobj/deluxe1_standard.jpg?crop=118%2C0%2C1365%2C1024",
+      "main": "https://image-tc.galaxy.tf/wipng-8n3qtclk3uzpmf5j5r3hnph8x/file.png",
       "gallery": [
-        "https://image-tc.galaxy.tf/wijpeg-49sf1014yy958cxn2fb6alobj/deluxe1_standard.jpg?crop=118%2C0%2C1365%2C1024",
-        "https://image-tc.galaxy.tf/wijpeg-if05do23cuz4u6gycg6qvubc/grand-deluxe1_standard.jpg?crop=118%2C0%2C1365%2C1024",
-        "https://image-tc.galaxy.tf/wijpeg-6ro07xpyjte7obg1g2ov5qfr/premier1_standard.jpg?crop=118%2C0%2C1365%2C1024",
-        "https://image-tc.galaxy.tf/wijpeg-a65yg2fc9830obqqn8itdawks/hero-eclat1-wide_standard.jpg?crop=143%2C0%2C855%2C641",
-        "https://image-tc.galaxy.tf/wijpeg-9461v37sm1ay8zed222hwf875/a-c-e-20-100_standard.jpg?crop=0%2C0%2C1140%2C855",
-        "https://image-tc.galaxy.tf/wijpeg-aquig4z12oa2p9wj161ik6p07/a-c-e-20-100_standard.jpg?crop=1%2C0%2C1140%2C855",
-        "https://image-tc.galaxy.tf/wijpeg-ca1zih7ki22eub0n193fod84t/a-a-a-c-a-c-e-19_standard.jpg?crop=0%2C0%2C1140%2C855",
-        "https://image-tc.galaxy.tf/wijpeg-cdp6exljvvomuslfv2nm5u2j9/thomas-tucker-au3cybd7vcu-unsplash_standard.jpg?crop=268%2C0%2C1384%2C1038"
+        "https://image-tc.galaxy.tf/wipng-8n3qtclk3uzpmf5j5r3hnph8x/file.png",
+        "https://image-tc.galaxy.tf/wijpeg-c5lwx8yf76m65gm1qf51z0ukm/miami3.jpg?width=960",
+        "https://image-tc.galaxy.tf/wijpeg-9yr208kqe5v0zncb4rkes4bmf/taipei1.jpg?width=960"
       ],
-      "source": "https://www.eclathotels.com/zt/taipei",
+      "source": "https://www.eclathotels.com",
       "verified": true,
-      "verifiedAt": "2026-03-23T00:50:08.076300Z",
-      "note": "從官網爬取：60間極盡奢華客房，多元化會議室，價值連城的藝術真跡",
-      "lastUpdated": "2026-03-23",
-      "needsUpdate": false
+      "verifiedAt": "2026-03-02T03:33:04.295Z"
     },
     "verified": true,
     "rooms": [
@@ -3468,7 +3460,7 @@
         "id": "1082-01"
       }
     ],
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1083,

@@ -2542,7 +2542,7 @@
     "verified": true,
     "rooms": [
       {
-        "name": "Sheraton Grand Ballroom",
+        "name": "喜來登大宴會廳 Sheraton Grand Ballroom",
         "floor": "B2",
         "capacity": {
           "theater": 1150,
@@ -2671,7 +2671,7 @@
         "photo": "https://www.sheratongrandtaipei.com/files/pages_175464924014l10li51_l.jpg"
       },
       {
-        "name": "Happiness Room 喜廳",
+        "name": "喜廳 Happiness Room",
         "floor": "B2",
         "capacity": {
           "theater": 150,
@@ -2703,7 +2703,7 @@
         "photo": "https://www.sheratongrandtaipei.com/files/pages_175464924014l10li51_l.jpg"
       },
       {
-        "name": "Grand Ballroom 大宴會廳",
+        "name": "大宴會廳 Grand Ballroom",
         "floor": "B2",
         "capacity": {
           "theater": 1400,

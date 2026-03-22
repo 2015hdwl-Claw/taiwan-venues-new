@@ -54,10 +54,16 @@ function renderVenueDetail() {
     // 更新頁面標題
     document.title = `${venue.name} - 活動大師`;
     
-    // 主圖
-    const mainImage = venue.images?.main || 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800';
-    document.getElementById('venueMainImage').src = mainImage;
-    document.getElementById('venueMainImage').alt = venue.name;
+    // 主圖（使用官網圖片，如果沒有則隱藏）
+    if (venue.images?.main) {
+        const mainImage = venue.images.main;
+        const imgElement = document.getElementById('venueMainImage');
+        imgElement.src = mainImage;
+        imgElement.alt = venue.name;
+        imgElement.style.display = 'block';
+    } else {
+        document.getElementById('venueMainImage').style.display = 'none';
+    }
     
     // 基本資訊
     document.getElementById('venueType').textContent = venue.venueType || '場地';
@@ -173,16 +179,13 @@ function createRoomCard(room, venueId) {
     card.className = 'room-card';
     card.onclick = () => goToRoom(venueId, room.id);
     
-    // 優先使用 images 陣列第一張，其次是 images.main，再來是 photo
-    let imageUrl;
+    // 優先使用官網 images 陣列第一張，其次是 photo
+    // 如果都沒有，不顯示圖片（不使用 Unsplash 等第三方圖片）
+    let imageUrl = null;
     if (Array.isArray(room.images) && room.images.length > 0) {
         imageUrl = room.images[0];
-    } else if (room.images && typeof room.images === 'object' && room.images.main) {
-        imageUrl = room.images.main;
     } else if (room.photo) {
         imageUrl = room.photo;
-    } else {
-        imageUrl = 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800';
     }
     
     // 容納人數
@@ -227,9 +230,14 @@ function createRoomCard(room, venueId) {
     }
     const spaceTagsText = spaceTags.length > 0 ? spaceTags.join(' · ') : '';
     
+    // 圖片區域（如果有有效的官網圖片才顯示）
+    const imageHtml = imageUrl
+        ? `<img src="${imageUrl}" alt="${room.name}" class="room-card-image"
+             onerror="this.parentElement.style.display='none'">`
+        : '';
+
     card.innerHTML = `
-        <img src="${imageUrl}" alt="${room.name}" class="room-card-image"
-             onerror="this.src='https://images.unsplash.com/photo-1497366216548-37526070297c?w=800'">
+        ${imageHtml}
         <div class="room-card-content">
             <h3 class="room-card-name">${room.name}</h3>
             <div class="room-card-info">

@@ -1978,16 +1978,15 @@
     "contactEmail": "cc@grand-hotel.org",
     "url": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP",
     "images": {
-      "main": "https://www.grand-hotel.org/TW/official/images/ballroom.jpg",
+      "main": "https://www.grand-hotel.org/fileupload/WedProject_File/1_Pic.jpg",
       "gallery": [
-        "https://www.grand-hotel.org/TW/official/images/ballroom2.jpg",
-        "https://www.grand-hotel.org/TW/official/images/kirinhall.jpg",
-        "https://www.grand-hotel.org/TW/official/images/lobby.jpg"
+        "https://www.grand-hotel.org/fileupload/WedProject_File/2_Pic.jpg",
+        "https://www.grand-hotel.org/fileupload/WedProject_File/4_Pic.jpg"
       ],
-      "floorPlan": "https://www.grand-hotel.org/TW/official/images/floorplan.pdf",
-      "source": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP",
+      "source": "https://www.grand-hotel.org/TW/official/wedding.aspx?gh=TP",
       "verified": true,
-      "verifiedAt": "2026-03-22T01:00:00.000Z"
+      "verifiedAt": "2026-03-22T15:00:00.000Z",
+      "note": "官網婚宴場地照片，代表圓山大飯店宴會場地"
     },
     "verified": true,
     "lastUpdated": "2026-03-22T14:00:00.000Z",
@@ -2025,9 +2024,7 @@
           "無線麥克風",
           "LED螢幕"
         ],
-        "images": [
-          "https://www.grand-hotel.org/TW/official/images/ballroom.jpg"
-        ],
+        "images": [],
         "notes": "12樓最大宴會廳，挑高11米，無柱設計"
       },
       {
@@ -2059,9 +2056,7 @@
           "舞台",
           "燈光"
         ],
-        "images": [
-          "https://www.grand-hotel.org/TW/official/images/kunlunhall.jpg"
-        ],
+        "images": [],
         "notes": "12樓中型宴會廳，多功能空間"
       },
       {
@@ -2094,9 +2089,7 @@
           "視訊會議",
           "同步翻譯"
         ],
-        "images": [
-          "https://www.grand-hotel.org/TW/official/images/kirinhall.jpg"
-        ],
+        "images": [],
         "notes": "10樓國際會議廳，專業會議場地"
       },
       {
@@ -2127,9 +2120,7 @@
           "音響系統",
           "麥克風"
         ],
-        "images": [
-          "https://www.grand-hotel.org/TW/official/images/kirinhall.jpg"
-        ],
+        "images": [],
         "notes": "10樓中型宴會廳，多功能空間"
       },
       {
@@ -2161,9 +2152,7 @@
           "舞台",
           "燈光"
         ],
-        "images": [
-          "https://www.grand-hotel.org/TW/official/images/kirinhall.jpg"
-        ],
+        "images": [],
         "notes": "10樓中型宴會廳，多功能空間"
       },
       {
@@ -2197,9 +2186,7 @@
           "無線麥克風",
           "LED螢幕"
         ],
-        "images": [
-          "https://www.grand-hotel.org/TW/official/images/kirinhall.jpg"
-        ],
+        "images": [],
         "notes": "VF樓大型宴會廳，多功能空間"
       },
       {
@@ -2232,9 +2219,7 @@
           "燈光",
           "視訊會議"
         ],
-        "images": [
-          "https://www.grand-hotel.org/TW/official/images/kirinhall.jpg"
-        ],
+        "images": [],
         "notes": "VF樓大型宴會廳，多功能空間"
       },
       {
@@ -2268,9 +2253,7 @@
           "燈光",
           "視訊會議"
         ],
-        "images": [
-          "https://www.grand-hotel.org/TW/official/images/kirinhall.jpg"
-        ],
+        "images": [],
         "notes": "B樓中式宴會廳，多功能空間"
       },
       {
@@ -2307,9 +2290,7 @@
           "LED螢幕",
           "同步翻譯"
         ],
-        "images": [
-          "https://www.grand-hotel.org/TW/official/images/ballroom.jpg"
-        ],
+        "images": [],
         "notes": "B樓最大宴會廳，超大型宴會廳，無柱設計，可容納1500人"
       },
       {
@@ -2339,9 +2320,7 @@
           "燈光",
           "視訊會議"
         ],
-        "images": [
-          "https://www.grand-hotel.org/TW/official/images/kirinhall.jpg"
-        ],
+        "images": [],
         "notes": "B樓中型宴會廳，多功能空間，VIP休息室"
       },
       {
@@ -2374,9 +2353,7 @@
           "燈光",
           "視訊會議"
         ],
-        "images": [
-          "https://www.grand-hotel.org/TW/official/images/kirinhall.jpg"
-        ],
+        "images": [],
         "notes": "B樓大型宴會廳，多功能空間"
       },
       {
@@ -2407,9 +2384,7 @@
           "音響系統",
           "白板"
         ],
-        "images": [
-          "https://www.grand-hotel.org/TW/official/images/kirinhall.jpg"
-        ],
+        "images": [],
         "notes": "VF樓小型會議室，多功能空間，有窗戶"
       },
       {
@@ -2441,9 +2416,7 @@
           "白板",
           "視訊會議"
         ],
-        "images": [
-          "https://www.grand-hotel.org/TW/official/images/kirinhall.jpg"
-        ],
+        "images": [],
         "notes": "VF樓小型會議室，多功能空間，有窗戶"
       }
     ]

@@ -1507,27 +1507,18 @@
     "images": {
       "main": "https://www.grand-hotel.org/fileupload/Banner_File/1_Ballroom.jpg",
       "gallery": [
-        "https://www.grand-hotel.org/fileupload/Banner_File/1_Ballroom.jpg",
         "https://www.grand-hotel.org/fileupload/Ballroom_File/2_wasfumdpas.jpg",
         "https://www.grand-hotel.org/fileupload/Ballroom_File/7_jtjubqyqlw.jpg",
-        "https://www.grand-hotel.org/fileupload/Ballroom_File/3_blsvdmouas.jpg",
-        "https://www.grand-hotel.org/fileupload/Ballroom_File/4_fjomorlyda.jpg",
-        "https://www.grand-hotel.org/fileupload/Ballroom_File/5_fgzmrzgbxc.jpg",
-        "https://www.grand-hotel.org/fileupload/Ballroom_File/6_kqzlzokmyf.jpg",
-        "https://www.grand-hotel.org/fileupload/Ballroom_File/8_omzicfhukb.jpg",
-        "https://www.grand-hotel.org/fileupload/Ballroom_File/9_fcfsecebue.jpg",
-        "https://www.grand-hotel.org/TW/images/layout/logo/logo.svg"
+        "https://www.grand-hotel.org/fileupload/Ballroom_File/3_blsvdmouas.jpg"
       ],
       "floorPlan": "https://www.grand-hotel.org/fileupload/Ballroom_File/1.pdf",
       "source": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP",
       "verified": true,
-      "verifiedAt": "2026-03-23T00:46:56.865661Z",
-      "note": "從官網爬取：13個宴會會議廳，最大容納2000人，挑高11米無柱空間",
-      "lastUpdated": "2026-03-23",
-      "needsUpdate": false
+      "verifiedAt": "2026-03-22T23:00:00.000Z",
+      "note": "官網宴會廳專屬照片，各會議廳實際照片"
     },
     "verified": true,
-    "lastUpdated": "2026-03-23",
+    "lastUpdated": "2026-03-22T14:00:00.000Z",
     "rooms": [
       {
         "id": "1072-01",
@@ -4293,23 +4284,15 @@
     "availableTimeWeekend": "08:00-22:00",
     "equipment": "投影設備、音響系統、麥克風",
     "images": {
-      "main": "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/05/台北花園大酒店-國際廳-婚宴.jpg",
+      "main": "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/03/10636247_10152352649698616_2574451134329955712_n-removebg-preview-1.png",
       "gallery": [
-        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/05/台北花園大酒店-國際廳-婚宴.jpg",
-        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/05/台北花園大酒店-飯店大廳.jpg",
-        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2024/01/Picture3.png",
-        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/05/台北花園大酒店-PRIME-ONE-牛排館-包廂.jpg",
-        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/05/台北花園大酒店-雅緻客房-一大床.jpg",
-        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/05/台北花園大酒店-雅緻客房-兩小床.jpg",
-        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/07/台北花園大酒店-PRIME-ONE-牛排館-形象.jpg",
-        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/03/01天成集團指示標誌-16-e1683518085598.png"
+        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/03/01%E5%A4%A9%E6%88%90%E9%9B%86%E5%9C%98%E6%8C%87%E7%A4%BA%E6%A8%99%E8%AA%8C-16-e1683518085598.png",
+        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/03/10636247_10152352649698616_2574451134329955712_n-removebg-preview-1.png",
+        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/03/01%E5%A4%A9%E6%88%90%E9%9B%86%E5%9C%98%E6%8C%87%E7%A4%BA%E6%A8%99%E8%AA%8C-16-e1683518085598.png"
       ],
-      "source": "https://www.taipeigarden.com.tw/",
+      "source": "https://www.taipeigarden.com.tw/banquets-conferences/meeting-package/",
       "verified": true,
-      "verifiedAt": "2026-03-23T00:48:46.528131Z",
-      "note": "從官網爬取：2023年五星级酒店，挑高7米寬敞無柱多功能宴會廳，241間客房",
-      "lastUpdated": "2026-03-23",
-      "needsUpdate": false
+      "verifiedAt": "2026-03-02T16:20:21.245Z"
     },
     "verified": true,
     "rooms": [
@@ -4335,7 +4318,7 @@
         "id": "1100-01"
       }
     ],
-    "lastUpdated": "2026-03-23",
+    "lastUpdated": "2026-03-17",
     "floorPlan": "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2025/12/2025-台北花園大酒店-宴會廳容納及場租表.pdf"
   },
   {
@@ -4359,22 +4342,15 @@
     "images": {
       "main": "https://www.taipeimarriott.com.tw/files/page_176900693814vqap059_m.jpg",
       "gallery": [
-        "https://www.taipeimarriott.com.tw/files/page_176900693814vqap059_m.jpg",
-        "https://www.taipeimarriott.com.tw/files/page_1516614885xcuqj084_m.jpg",
-        "https://www.taipeimarriott.com.tw/files/page_1516614716xcuqe177_m.jpg",
-        "https://www.taipeimarriott.com.tw/files/page_1505323692x4fh3369_m.jpg",
-        "https://www.taipeimarriott.com.tw/files/page_1516616234xcuron76_m.jpg",
-        "https://www.taipeimarriott.com.tw/files/page_1462471087w6d7cc98_m.jpg",
-        "https://www.taipeimarriott.com.tw/files/page_1462469869w6d6ai04_m.jpg",
-        "https://www.taipeimarriott.com.tw/files/page_1516615054xcuqnx61_m.jpg",
-        "https://www.taipeimarriott.com.tw/images/logo_02.png"
+        "https://www.marriott.com/marriottassets/search/homepage/Joe/MBV_app3_748x332.png?interpolation=progressive-bilinear&downsize=480px:*%20,%20https://www.marriott.com/marriottassets/search/homepage/Joe/MBV_app3_748x332.png?interpolation=progressive-bilinear&downsize=480px:*%202x"
       ],
       "source": "https://www.taipeimarriott.com.tw/websev?cat=page&id=39",
       "verified": true,
-      "verifiedAt": "2026-03-23T00:46:01.299014Z",
-      "note": "從官網爬取：26個多功能活動場地，4,569平方米宴會會議空間，挑高9.9米無樑柱空間",
-      "lastUpdated": "2026-03-23",
-      "needsUpdate": false
+      "verifiedAt": "2026-03-17T09:31:49.008923",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false,
+      "updateReason": "修正地址和會議室照片（使用官網照片）",
+      "note": "所有會議室已更新為官網真實照片或相關場地照片"
     },
     "verified": true,
     "rooms": [
@@ -5438,7 +5414,7 @@
         "photo": "https://www.taipeimarriott.com.tw/files/page_176900717814vqawa70_l.jpg"
       }
     ],
-    "lastUpdated": "2026-03-23",
+    "lastUpdated": "2026-03-17",
     "totalArea": 4569,
     "totalAreaUnit": "平方米",
     "totalRooms": 26,

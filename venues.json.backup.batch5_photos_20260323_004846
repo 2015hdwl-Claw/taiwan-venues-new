@@ -4293,23 +4293,15 @@
     "availableTimeWeekend": "08:00-22:00",
     "equipment": "投影設備、音響系統、麥克風",
     "images": {
-      "main": "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/05/台北花園大酒店-國際廳-婚宴.jpg",
+      "main": "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/03/10636247_10152352649698616_2574451134329955712_n-removebg-preview-1.png",
       "gallery": [
-        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/05/台北花園大酒店-國際廳-婚宴.jpg",
-        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/05/台北花園大酒店-飯店大廳.jpg",
-        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2024/01/Picture3.png",
-        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/05/台北花園大酒店-PRIME-ONE-牛排館-包廂.jpg",
-        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/05/台北花園大酒店-雅緻客房-一大床.jpg",
-        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/05/台北花園大酒店-雅緻客房-兩小床.jpg",
-        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/07/台北花園大酒店-PRIME-ONE-牛排館-形象.jpg",
-        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/03/01天成集團指示標誌-16-e1683518085598.png"
+        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/03/01%E5%A4%A9%E6%88%90%E9%9B%86%E5%9C%98%E6%8C%87%E7%A4%BA%E6%A8%99%E8%AA%8C-16-e1683518085598.png",
+        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/03/10636247_10152352649698616_2574451134329955712_n-removebg-preview-1.png",
+        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/03/01%E5%A4%A9%E6%88%90%E9%9B%86%E5%9C%98%E6%8C%87%E7%A4%BA%E6%A8%99%E8%AA%8C-16-e1683518085598.png"
       ],
-      "source": "https://www.taipeigarden.com.tw/",
+      "source": "https://www.taipeigarden.com.tw/banquets-conferences/meeting-package/",
       "verified": true,
-      "verifiedAt": "2026-03-23T00:48:46.528131Z",
-      "note": "從官網爬取：2023年五星级酒店，挑高7米寬敞無柱多功能宴會廳，241間客房",
-      "lastUpdated": "2026-03-23",
-      "needsUpdate": false
+      "verifiedAt": "2026-03-02T16:20:21.245Z"
     },
     "verified": true,
     "rooms": [
@@ -4335,7 +4327,7 @@
         "id": "1100-01"
       }
     ],
-    "lastUpdated": "2026-03-23",
+    "lastUpdated": "2026-03-17",
     "floorPlan": "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2025/12/2025-台北花園大酒店-宴會廳容納及場租表.pdf"
   },
   {

@@ -1,5 +1,58 @@
 
-# SOP 經驗記錄 - 2026-03-22
+# SOP 經驗記錄 - 2026-03-22 (下午 15:00)
+
+## 📋 新增案例：台北圓山大飯店圖片問題
+
+### ❌ 問題發現
+1. **主圖無法顯示**
+   - 問題：官網圖片 URL (`/TW/official/images/ballroom.jpg`) 返回 HTML 錯誤頁面
+   - 原因：官網宴會廳頁面沒有提供實際圖片文件
+
+2. **會議室顯示 Unsplash 圖片**
+   - 問題：venue.js 使用 Unsplash 作為占位圖和 onerror 回退
+   - 違反：SOP 禁止使用 Unsplash、庫存圖片
+
+### ✅ 解決方案
+
+**1. 資料來源重新驗證**
+- ✓ 實際訪問官網婚宴頁面
+- ✓ 找到有效的場地照片：
+  - `https://www.grand-hotel.org/fileupload/WedProject_File/1_Pic.jpg` (230KB)
+  - `https://www.grand-hotel.org/fileupload/WedProject_File/2_Pic.jpg` (555KB)
+  - `https://www.grand-hotel.org/fileupload/WedProject_File/4_Pic.jpg` (609KB)
+
+**2. 修正 venues.json**
+- ✓ 移除無效的官網圖片 URL
+- ✓ 更新為有效的婚宴場地照片
+- ✓ 會議室圖片設為空陣列（官網無提供單獨照片）
+
+**3. 修正 venue.js**
+- ✓ 移除所有 Unsplash 占位圖
+- ✓ 修改 onerror 處理：隱藏圖片而非回退到 Unsplash
+
+### 📝 Git 提交記錄
+- **f00152c**: 修正台北圓山大飯店圖片資料，移除所有 Unsplash
+
+### 💡 SOP 強化
+1. **圖片驗證步驟**
+   - 必須使用 curl 驗證圖片 URL 是否返回實際圖片
+   - 不應假設官網 URL 一定有效
+
+2. **占位圖政策**
+   - ❌ 絕對不使用 Unsplash、Wikipedia、庫存圖片作為占位圖
+   - ✓ 沒有官網圖片時，隱藏圖片區域
+
+3. **錯誤處理**
+   - onerror 不應回退到第三方圖片
+   - 應優雅地隱藏無效圖片
+
+---
+修正日期：2026-03-22 15:00
+Git Commit: f00152c
+
+---
+
+# SOP 經驗記錄 - 2026-03-22 (上午)
 
 ## 📋 新增經驗教訓
 

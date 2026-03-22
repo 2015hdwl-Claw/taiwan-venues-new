@@ -1507,18 +1507,27 @@
     "images": {
       "main": "https://www.grand-hotel.org/fileupload/Banner_File/1_Ballroom.jpg",
       "gallery": [
+        "https://www.grand-hotel.org/fileupload/Banner_File/1_Ballroom.jpg",
         "https://www.grand-hotel.org/fileupload/Ballroom_File/2_wasfumdpas.jpg",
         "https://www.grand-hotel.org/fileupload/Ballroom_File/7_jtjubqyqlw.jpg",
-        "https://www.grand-hotel.org/fileupload/Ballroom_File/3_blsvdmouas.jpg"
+        "https://www.grand-hotel.org/fileupload/Ballroom_File/3_blsvdmouas.jpg",
+        "https://www.grand-hotel.org/fileupload/Ballroom_File/4_fjomorlyda.jpg",
+        "https://www.grand-hotel.org/fileupload/Ballroom_File/5_fgzmrzgbxc.jpg",
+        "https://www.grand-hotel.org/fileupload/Ballroom_File/6_kqzlzokmyf.jpg",
+        "https://www.grand-hotel.org/fileupload/Ballroom_File/8_omzicfhukb.jpg",
+        "https://www.grand-hotel.org/fileupload/Ballroom_File/9_fcfsecebue.jpg",
+        "https://www.grand-hotel.org/TW/images/layout/logo/logo.svg"
       ],
       "floorPlan": "https://www.grand-hotel.org/fileupload/Ballroom_File/1.pdf",
       "source": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP",
       "verified": true,
-      "verifiedAt": "2026-03-22T23:00:00.000Z",
-      "note": "官網宴會廳專屬照片，各會議廳實際照片"
+      "verifiedAt": "2026-03-23T00:46:56.865661Z",
+      "note": "從官網爬取：13個宴會會議廳，最大容納2000人，挑高11米無柱空間",
+      "lastUpdated": "2026-03-23",
+      "needsUpdate": false
     },
     "verified": true,
-    "lastUpdated": "2026-03-22T14:00:00.000Z",
+    "lastUpdated": "2026-03-23",
     "rooms": [
       {
         "id": "1072-01",

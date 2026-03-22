@@ -2504,8 +2504,8 @@
     "name": "台北寒舍喜來登大飯店",
     "venueType": "飯店場地",
     "city": "台北市",
-    "address": "",
-    "contactPerson": "",
+    "address": "台北市中正區忠孝東路一段12號",
+    "contactPerson": "宴會業務部",
     "contactPhone": "02-2321-5511",
     "contactEmail": "reservations.taipei@sheraton.com",
     "url": "https://www.sheratongrandtaipei.com",
@@ -2535,10 +2535,10 @@
       "verifiedAt": "2026-03-07T13:12:00.788300",
       "needsUpdate": false,
       "note": "從官網爬取真實會議室照片（10張）",
-      "lastUpdated": "2026-03-17",
+      "lastUpdated": "2026-03-22",
       "crawlMethod": "Playwright 動態爬蟲"
     },
-    "verified": false,
+    "verified": true,
     "rooms": [
       {
         "name": "喜宴廳",

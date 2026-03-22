@@ -1557,7 +1557,7 @@
         "shape": "未知",
         "photo": "https://www.sheratongrandtaipei.com/files/pages_17281373581416gh612_m.jpg",
         "floor": "B1",
-        "ceiling": 3.0,
+        "ceiling": 3,
         "hasWindow": false,
         "features": [
           "多功能空間",
@@ -1599,7 +1599,7 @@
         "shape": "未知",
         "photo": "https://www.sheratongrandtaipei.com/files/pages_17281383441416hc240_m.jpg",
         "floor": "B1",
-        "ceiling": 3.0,
+        "ceiling": 3,
         "hasWindow": false,
         "features": [
           "多功能空間",
@@ -1641,7 +1641,7 @@
         "shape": "未知",
         "photo": "https://www.sheratongrandtaipei.com/files/pages_175164700314iql2w16_m.jpg",
         "floor": "B1",
-        "ceiling": 3.0,
+        "ceiling": 3,
         "hasWindow": false,
         "features": [
           "小型會議室",
@@ -1978,15 +1978,17 @@
     "contactEmail": "cc@grand-hotel.org",
     "url": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP",
     "images": {
-      "main": "https://www.grand-hotel.org/fileupload/WedProject_File/1_Pic.jpg",
+      "main": "https://www.grand-hotel.org/fileupload/Banner_File/1_Ballroom.jpg",
       "gallery": [
-        "https://www.grand-hotel.org/fileupload/WedProject_File/2_Pic.jpg",
-        "https://www.grand-hotel.org/fileupload/WedProject_File/4_Pic.jpg"
+        "https://www.grand-hotel.org/fileupload/Ballroom_File/2_wasfumdpas.jpg",
+        "https://www.grand-hotel.org/fileupload/Ballroom_File/7_jtjubqyqlw.jpg",
+        "https://www.grand-hotel.org/fileupload/Ballroom_File/3_blsvdmouas.jpg"
       ],
-      "source": "https://www.grand-hotel.org/TW/official/wedding.aspx?gh=TP",
+      "floorPlan": "https://www.grand-hotel.org/fileupload/Ballroom_File/1.pdf",
+      "source": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP",
       "verified": true,
-      "verifiedAt": "2026-03-22T15:00:00.000Z",
-      "note": "官網婚宴場地照片，代表圓山大飯店宴會場地"
+      "verifiedAt": "2026-03-22T23:00:00.000Z",
+      "note": "官網宴會廳專屬照片，各會議廳實際照片"
     },
     "verified": true,
     "lastUpdated": "2026-03-22T14:00:00.000Z",
@@ -2008,7 +2010,7 @@
         "width": 20,
         "height": 11,
         "floor": "12F",
-        "ceiling": 11.0,
+        "ceiling": 11,
         "hasWindow": false,
         "features": [
           "大型宴會廳",
@@ -2024,7 +2026,9 @@
           "無線麥克風",
           "LED螢幕"
         ],
-        "images": [],
+        "images": [
+          "https://www.grand-hotel.org/fileupload/Banner_File/1_Ballroom.jpg"
+        ],
         "notes": "12樓最大宴會廳，挑高11米，無柱設計"
       },
       {
@@ -2056,7 +2060,9 @@
           "舞台",
           "燈光"
         ],
-        "images": [],
+        "images": [
+          "https://www.grand-hotel.org/fileupload/Ballroom_File/2_wasfumdpas.jpg"
+        ],
         "notes": "12樓中型宴會廳，多功能空間"
       },
       {
@@ -2076,7 +2082,7 @@
         "width": 10,
         "height": 5,
         "floor": "10F",
-        "ceiling": 5.0,
+        "ceiling": 5,
         "hasWindow": false,
         "features": [
           "專業會議廳",
@@ -2089,7 +2095,9 @@
           "視訊會議",
           "同步翻譯"
         ],
-        "images": [],
+        "images": [
+          "https://www.grand-hotel.org/fileupload/Ballroom_File/3_blsvdmouas.jpg"
+        ],
         "notes": "10樓國際會議廳，專業會議場地"
       },
       {
@@ -2120,7 +2128,9 @@
           "音響系統",
           "麥克風"
         ],
-        "images": [],
+        "images": [
+          "https://www.grand-hotel.org/fileupload/Ballroom_File/4_fjomorlyda.jpg"
+        ],
         "notes": "10樓中型宴會廳，多功能空間"
       },
       {
@@ -2152,7 +2162,9 @@
           "舞台",
           "燈光"
         ],
-        "images": [],
+        "images": [
+          "https://www.grand-hotel.org/fileupload/Ballroom_File/5_fgzmrzgbxc.jpg"
+        ],
         "notes": "10樓中型宴會廳，多功能空間"
       },
       {
@@ -2186,7 +2198,9 @@
           "無線麥克風",
           "LED螢幕"
         ],
-        "images": [],
+        "images": [
+          "https://www.grand-hotel.org/fileupload/Ballroom_File/6_kqzlzokmyf.jpg"
+        ],
         "notes": "VF樓大型宴會廳，多功能空間"
       },
       {
@@ -2219,7 +2233,9 @@
           "燈光",
           "視訊會議"
         ],
-        "images": [],
+        "images": [
+          "https://www.grand-hotel.org/fileupload/Ballroom_File/7_jtjubqyqlw.jpg"
+        ],
         "notes": "VF樓大型宴會廳，多功能空間"
       },
       {
@@ -2253,7 +2269,9 @@
           "燈光",
           "視訊會議"
         ],
-        "images": [],
+        "images": [
+          "https://www.grand-hotel.org/fileupload/Ballroom_File/2_wasfumdpas.jpg"
+        ],
         "notes": "B樓中式宴會廳，多功能空間"
       },
       {
@@ -2290,7 +2308,9 @@
           "LED螢幕",
           "同步翻譯"
         ],
-        "images": [],
+        "images": [
+          "https://www.grand-hotel.org/fileupload/Banner_File/1_Ballroom.jpg"
+        ],
         "notes": "B樓最大宴會廳，超大型宴會廳，無柱設計，可容納1500人"
       },
       {
@@ -2320,7 +2340,9 @@
           "燈光",
           "視訊會議"
         ],
-        "images": [],
+        "images": [
+          "https://www.grand-hotel.org/fileupload/Ballroom_File/3_blsvdmouas.jpg"
+        ],
         "notes": "B樓中型宴會廳，多功能空間，VIP休息室"
       },
       {
@@ -2353,7 +2375,9 @@
           "燈光",
           "視訊會議"
         ],
-        "images": [],
+        "images": [
+          "https://www.grand-hotel.org/fileupload/Ballroom_File/4_fjomorlyda.jpg"
+        ],
         "notes": "B樓大型宴會廳，多功能空間"
       },
       {
@@ -2371,9 +2395,9 @@
         "areaUnit": "坪",
         "length": 10,
         "width": 5,
-        "height": 3.0,
+        "height": 3,
         "floor": "VF",
-        "ceiling": 3.0,
+        "ceiling": 3,
         "hasWindow": true,
         "features": [
           "小型會議室",
@@ -2384,7 +2408,9 @@
           "音響系統",
           "白板"
         ],
-        "images": [],
+        "images": [
+          "https://www.grand-hotel.org/fileupload/Ballroom_File/8_omzicfhukb.jpg"
+        ],
         "notes": "VF樓小型會議室，多功能空間，有窗戶"
       },
       {
@@ -2416,7 +2442,9 @@
           "白板",
           "視訊會議"
         ],
-        "images": [],
+        "images": [
+          "https://www.grand-hotel.org/fileupload/Ballroom_File/9_fcfsecebue.jpg"
+        ],
         "notes": "VF樓小型會議室，多功能空間，有窗戶"
       }
     ]
@@ -2734,7 +2762,7 @@
         "sqm": 196,
         "length": null,
         "width": null,
-        "height": 3.0,
+        "height": 3,
         "capacity": {
           "theater": 180,
           "classroom": 84,
@@ -2779,7 +2807,7 @@
         "sqm": 97,
         "length": null,
         "width": null,
-        "height": 3.0,
+        "height": 3,
         "capacity": {
           "theater": 84,
           "classroom": 45,
@@ -2824,7 +2852,7 @@
         "sqm": 97,
         "length": null,
         "width": null,
-        "height": 3.0,
+        "height": 3,
         "capacity": {
           "theater": 84,
           "classroom": 45,
@@ -2869,7 +2897,7 @@
         "sqm": 97,
         "length": null,
         "width": null,
-        "height": 3.0,
+        "height": 3,
         "capacity": {
           "theater": 84,
           "classroom": 45,
@@ -2914,7 +2942,7 @@
         "sqm": 97,
         "length": null,
         "width": null,
-        "height": 3.0,
+        "height": 3,
         "capacity": {
           "theater": 84,
           "classroom": 45,
@@ -2959,7 +2987,7 @@
         "sqm": 97,
         "length": null,
         "width": null,
-        "height": 3.0,
+        "height": 3,
         "capacity": {
           "theater": 84,
           "classroom": 45,
@@ -3004,7 +3032,7 @@
         "sqm": 485,
         "length": null,
         "width": null,
-        "height": 3.0,
+        "height": 3,
         "capacity": {
           "theater": 420,
           "classroom": 225,
@@ -3092,7 +3120,7 @@
         "sqm": 868,
         "length": null,
         "width": null,
-        "height": 5.0,
+        "height": 5,
         "capacity": {
           "theater": 800,
           "classroom": 360,
@@ -3136,7 +3164,7 @@
         "sqm": 347,
         "length": null,
         "width": null,
-        "height": 5.0,
+        "height": 5,
         "capacity": {
           "theater": 300,
           "classroom": 138,
@@ -3181,7 +3209,7 @@
         "sqm": 174,
         "length": null,
         "width": null,
-        "height": 5.0,
+        "height": 5,
         "capacity": {
           "theater": 154,
           "classroom": 84,
@@ -3224,7 +3252,7 @@
         "sqm": 347,
         "length": null,
         "width": null,
-        "height": 5.0,
+        "height": 5,
         "capacity": {
           "theater": 300,
           "classroom": 138,
@@ -4014,7 +4042,7 @@
         "shape": "未知",
         "photo": "https://www.regenttaiwan.com/asset/types/main//images/uploads/regenttaipei/nav-regent-taipei-accommodation.jpg",
         "floor": "B1",
-        "ceiling": 5.0,
+        "ceiling": 5,
         "hasWindow": false,
         "features": [
           "大型宴會廳",
@@ -4097,7 +4125,7 @@
         "shape": "未知",
         "photo": "https://www.regenttaiwan.com/asset/types/main//images/uploads/regenttaipei/nav-regent-taipei-weddings-events.jpg",
         "floor": "3F",
-        "ceiling": 3.0,
+        "ceiling": 3,
         "hasWindow": false,
         "features": [
           "小型會議室",
@@ -4341,7 +4369,7 @@
         "images": [],
         "id": "1095-01",
         "floor": "3F",
-        "ceiling": 7.0,
+        "ceiling": 7,
         "hasWindow": false,
         "features": [
           "無柱設計",
@@ -4371,7 +4399,7 @@
         "images": [],
         "id": "1095-02",
         "floor": "3F",
-        "ceiling": 3.0,
+        "ceiling": 3,
         "hasWindow": false,
         "features": [
           "多功能空間",
@@ -4647,8 +4675,8 @@
         "area": 60,
         "areaUnit": "坪",
         "sqm": 18,
-        "length": 8.0,
-        "width": 7.0,
+        "length": 8,
+        "width": 7,
         "height": 3.6,
         "capacity": {
           "theater": 50,
@@ -4688,8 +4716,8 @@
         "area": 60,
         "areaUnit": "坪",
         "sqm": 18,
-        "length": 8.0,
-        "width": 7.0,
+        "length": 8,
+        "width": 7,
         "height": 3.6,
         "capacity": {
           "theater": 50,
@@ -4815,7 +4843,7 @@
         "sqm": 8,
         "length": 5.8,
         "width": 4.7,
-        "height": 3.0,
+        "height": 3,
         "capacity": {
           "theater": 25,
           "ushape": 15,
@@ -4849,8 +4877,8 @@
         "areaUnit": "坪",
         "sqm": 7,
         "length": 5.8,
-        "width": 4.0,
-        "height": 3.0,
+        "width": 4,
+        "height": 3,
         "capacity": {
           "theater": 25,
           "ushape": 15,
@@ -4884,8 +4912,8 @@
         "areaUnit": "坪",
         "sqm": 7,
         "length": 5.8,
-        "width": 4.0,
-        "height": 3.0,
+        "width": 4,
+        "height": 3,
         "capacity": {
           "theater": 25,
           "ushape": 15,
@@ -4920,7 +4948,7 @@
         "sqm": 8,
         "length": 5.8,
         "width": 4.5,
-        "height": 3.0,
+        "height": 3,
         "capacity": {
           "theater": 25,
           "ushape": 15,
@@ -4955,7 +4983,7 @@
         "sqm": 16,
         "length": 5.8,
         "width": 8.9,
-        "height": 3.0,
+        "height": 3,
         "capacity": {
           "theater": 50,
           "classroom": 27,
@@ -4994,7 +5022,7 @@
         "sqm": 15,
         "length": 5.8,
         "width": 8.4,
-        "height": 3.0,
+        "height": 3,
         "capacity": {
           "theater": 50,
           "classroom": 27,
@@ -5171,7 +5199,7 @@
         "sqm": 22,
         "length": 8.4,
         "width": 8.5,
-        "height": 4.0,
+        "height": 4,
         "capacity": {
           "theater": 60,
           "classroom": 36,
@@ -5215,7 +5243,7 @@
         "sqm": 28,
         "length": 10.8,
         "width": 8.5,
-        "height": 4.0,
+        "height": 4,
         "capacity": {
           "theater": 80,
           "classroom": 48,
@@ -5259,7 +5287,7 @@
         "sqm": 22,
         "length": 8.6,
         "width": 8.5,
-        "height": 4.0,
+        "height": 4,
         "capacity": {
           "theater": 60,
           "classroom": 36,
@@ -5303,7 +5331,7 @@
         "sqm": 72,
         "length": 27.8,
         "width": 8.5,
-        "height": 4.0,
+        "height": 4,
         "capacity": {
           "theater": 250,
           "classroom": 135,
@@ -5347,7 +5375,7 @@
         "sqm": 44,
         "length": 14.2,
         "width": 10.2,
-        "height": 4.0,
+        "height": 4,
         "capacity": {
           "theater": 120,
           "classroom": 84,
@@ -5390,7 +5418,7 @@
         "sqm": 35,
         "length": 11.4,
         "width": 10.2,
-        "height": 4.0,
+        "height": 4,
         "capacity": {
           "theater": 90,
           "classroom": 48,
@@ -5433,7 +5461,7 @@
         "sqm": 79,
         "length": 25.6,
         "width": 10.2,
-        "height": 4.0,
+        "height": 4,
         "capacity": {
           "theater": 230,
           "classroom": 144,
@@ -5478,7 +5506,7 @@
         "sqm": 151,
         "length": 17.4,
         "width": 28.4,
-        "height": 7.0,
+        "height": 7,
         "capacity": {
           "theater": 440,
           "classroom": 264,
@@ -5728,7 +5756,7 @@
         "images": [],
         "id": "1104-01",
         "floor": "B1",
-        "ceiling": 4.0,
+        "ceiling": 4,
         "hasWindow": false,
         "features": [
           "大型宴會廳",

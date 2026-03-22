@@ -4090,24 +4090,15 @@
     "availableTimeWeekend": "09:00-22:00",
     "equipment": "大型舞台、專業音響、投影設備、燈光、白板、音響系統、頂級投影",
     "images": {
-      "main": "https://www.grandmayfull.com/uploads/indexD/20160202_123636_462.jpeg",
+      "main": "https://www.grandmayfull.com/img/2025%20World%20Luxury%20Awards.png",
       "gallery": [
-        "https://www.grandmayfull.com/uploads/indexD/20160202_123636_462.jpeg",
-        "https://www.grandmayfull.com/uploads/indexD/20160202_123646_549.jpeg",
-        "https://www.grandmayfull.com/uploads/indexD/20161222_171520_993.jpeg",
-        "https://www.grandmayfull.com/uploads/indexD/20161222_173332_937.jpeg",
-        "https://www.grandmayfull.com/uploads/indexD/20201029_165821_201.jpeg",
-        "https://www.grandmayfull.com/uploads/indexD/20201029_165902_386.jpeg",
-        "https://www.grandmayfull.com/img/2023 World Luxury Awards.png",
-        "https://www.grandmayfull.com/img/2024-Michelin Logo.png",
-        "https://www.grandmayfull.com/img/footer_contact.jpg"
+        "https://www.grandmayfull.com/img/2025%20World%20Luxury%20Awards.png",
+        "https://www.grandmayfull.com/img/2020FiveStar.png",
+        "https://www.grandmayfull.com/img/2025-Michelin%20Logo.png"
       ],
-      "source": "https://www.grandmayfull.com/",
+      "source": "https://www.grandmayfull.com",
       "verified": true,
-      "verifiedAt": "2026-03-23T01:00:20.568199Z",
-      "note": "從官網爬取：2023世界豪華酒店大獎得主，米其林推薦餐廳，146間豪華客房，挑高7米無柱宴會廳",
-      "lastUpdated": "2026-03-23",
-      "needsUpdate": false
+      "verifiedAt": "2026-03-02T03:33:04.295Z"
     },
     "verified": true,
     "rooms": [
@@ -4172,7 +4163,7 @@
         "notes": "3樓多功能會議室"
       }
     ],
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-21"
   },
   {
     "id": 1097,

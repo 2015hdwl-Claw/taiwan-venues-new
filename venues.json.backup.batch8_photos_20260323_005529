@@ -942,24 +942,15 @@
     "availableTimeWeekend": "08:00-22:00",
     "equipment": "專業音響、投影設備",
     "images": {
-      "main": "https://www.brotherhotel.com.tw/wp-content/uploads/2022/09/飯店外觀.jpg",
+      "main": "https://www.brotherhotel.com.tw/wp-content/uploads/2022/12/%E6%A1%82%E8%8A%B1%E5%BB%B3%E5%A4%96%E5%B8%B6%E8%8F%9C%E5%96%AEfinal-0125-1-853x1280.jpg",
       "gallery": [
-        "https://www.brotherhotel.com.tw/wp-content/uploads/2022/09/飯店外觀.jpg",
-        "https://www.brotherhotel.com.tw/wp-content/uploads/2022/09/櫃台_fix-1.jpg",
-        "https://www.brotherhotel.com.tw/wp-content/uploads/2022/11/13F宴會廳婚宴-960x720.jpg",
-        "https://www.brotherhotel.com.tw/wp-content/uploads/2022/11/婚宴場地-960x720.jpg",
-        "https://www.brotherhotel.com.tw/wp-content/uploads/2022/11/DSC_9665-960x720.jpg",
-        "https://www.brotherhotel.com.tw/wp-content/uploads/2022/09/food-gaf10f4051_1920-960x720.jpg",
-        "https://www.brotherhotel.com.tw/wp-content/uploads/2021/03/梅花廳-6-960x720.jpg",
-        "https://www.brotherhotel.com.tw/wp-content/uploads/2022/09/蘭花4-960x720.jpg",
-        "https://www.brotherhotel.com.tw/wp-content/uploads/2022/09/footer_logo.png"
+        "https://www.brotherhotel.com.tw/wp-content/uploads/2022/11/13F宴會廳婚宴-400x300.jpg",
+        "https://www.brotherhotel.com.tw/wp-content/uploads/2022/11/婚宴場地-400x300.jpg",
+        "https://www.brotherhotel.com.tw/wp-content/uploads/2022/11/DSC_9665-400x300.jpg"
       ],
-      "source": "https://www.brotherhotel.com.tw/",
+      "source": "https://www.brotherhotel.com.tw/?cat=76",
       "verified": true,
-      "verifiedAt": "2026-03-23T00:55:29.104604Z",
-      "note": "從官網爬取：兄弟大飯店，我們接待客人有如照顧兄弟，健康、榮譽、協和、誠實、謙虛經營理念",
-      "lastUpdated": "2026-03-23",
-      "needsUpdate": false
+      "verifiedAt": "2026-03-02T16:20:21.242Z"
     },
     "verified": true,
     "rooms": [
@@ -980,8 +971,7 @@
           "source": "https://www.brotherhotel.com.tw/?cat=75"
         }
       }
-    ],
-    "lastUpdated": "2026-03-23"
+    ]
   },
   {
     "id": 1055,
@@ -4090,24 +4080,15 @@
     "availableTimeWeekend": "09:00-22:00",
     "equipment": "大型舞台、專業音響、投影設備、燈光、白板、音響系統、頂級投影",
     "images": {
-      "main": "https://www.grandmayfull.com/uploads/indexD/20160202_123636_462.jpeg",
+      "main": "https://www.grandmayfull.com/img/2025%20World%20Luxury%20Awards.png",
       "gallery": [
-        "https://www.grandmayfull.com/uploads/indexD/20160202_123636_462.jpeg",
-        "https://www.grandmayfull.com/uploads/indexD/20160202_123646_549.jpeg",
-        "https://www.grandmayfull.com/uploads/indexD/20161222_171520_993.jpeg",
-        "https://www.grandmayfull.com/uploads/indexD/20161222_173332_937.jpeg",
-        "https://www.grandmayfull.com/uploads/indexD/20201029_165821_201.jpeg",
-        "https://www.grandmayfull.com/uploads/indexD/20201029_165902_386.jpeg",
-        "https://www.grandmayfull.com/img/2023 World Luxury Awards.png",
-        "https://www.grandmayfull.com/img/2024-Michelin Logo.png",
-        "https://www.grandmayfull.com/img/footer_contact.jpg"
+        "https://www.grandmayfull.com/img/2025%20World%20Luxury%20Awards.png",
+        "https://www.grandmayfull.com/img/2020FiveStar.png",
+        "https://www.grandmayfull.com/img/2025-Michelin%20Logo.png"
       ],
-      "source": "https://www.grandmayfull.com/",
+      "source": "https://www.grandmayfull.com",
       "verified": true,
-      "verifiedAt": "2026-03-23T01:00:20.568199Z",
-      "note": "從官網爬取：2023世界豪華酒店大獎得主，米其林推薦餐廳，146間豪華客房，挑高7米無柱宴會廳",
-      "lastUpdated": "2026-03-23",
-      "needsUpdate": false
+      "verifiedAt": "2026-03-02T03:33:04.295Z"
     },
     "verified": true,
     "rooms": [
@@ -4172,7 +4153,7 @@
         "notes": "3樓多功能會議室"
       }
     ],
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-21"
   },
   {
     "id": 1097,

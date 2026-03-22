@@ -409,38 +409,66 @@
     "availableTimeWeekend": "09:00-22:00",
     "equipment": "投影設備、音響系統",
     "images": {
-      "main": "https://www.brotherhotel.com.tw/wp-content/uploads/2022/12/%E6%A1%82%E8%8A%B1%E5%BB%B3%E5%A4%96%E5%B8%B6%E8%8F%9C%E5%96%AEfinal-0125-1-853x1280.jpg",
+      "main": "https://www.brotherhotel.com.tw/wp-content/uploads/2022/09/飯店外觀.jpg",
       "gallery": [
-        "https://www.brotherhotel.com.tw/wp-content/uploads/2022/11/13F宴會廳婚宴-400x300.jpg",
-        "https://www.brotherhotel.com.tw/wp-content/uploads/2022/11/婚宴場地-400x300.jpg",
-        "https://www.brotherhotel.com.tw/wp-content/uploads/2022/11/DSC_9665-400x300.jpg"
+        "https://www.brotherhotel.com.tw/wp-content/uploads/2022/09/飯店外觀.jpg",
+        "https://www.brotherhotel.com.tw/wp-content/uploads/2022/11/13F宴會廳婚宴-960x720.jpg",
+        "https://www.brotherhotel.com.tw/wp-content/uploads/2022/11/婚宴場地-960x720.jpg",
+        "https://www.brotherhotel.com.tw/wp-content/uploads/2022/11/DSC_9665-960x720.jpg",
+        "https://www.brotherhotel.com.tw/wp-content/uploads/2022/09/櫃台_fix-1.jpg"
       ],
-      "source": "https://www.brotherhotel.com.tw/?cat=76",
+      "source": "https://www.brotherhotel.com.tw/",
       "verified": true,
-      "verifiedAt": "2026-03-02T16:20:21.242Z"
+      "verifiedAt": "2026-03-23T00:23:21.936234Z",
+      "note": "從官網爬取：提供婚宴場地（13F宴會廳），餐飲專案豐富",
+      "lastUpdated": "2026-03-23",
+      "needsUpdate": false
     },
-    "verified": false,
+    "verified": true,
     "rooms": [
       {
-        "id": "r001",
+        "id": "1041-01",
         "name": "13樓宴會廳",
+        "nameEn": "13F Banquet Hall",
         "floor": "13樓",
         "area": 180,
         "areaUnit": "坪",
+        "ceiling": 4.2,
         "capacity": {
           "theater": 350,
           "classroom": 220,
           "ushape": 140,
-          "roundtable": 280
+          "roundtable": 280,
+          "banquet": 240
         },
         "capacityType": "劇院式",
-        "equipment": "投影設備、音響系統、燈光",
+        "equipment": [
+          "投影設備",
+          "專業音響系統",
+          "舞台",
+          "燈光",
+          "無線麥克風"
+        ],
         "images": {
           "main": "https://www.brotherhotel.com.tw/wp-content/uploads/2022/11/13F宴會廳婚宴-960x720.jpg",
-          "source": "https://www.brotherhotel.com.tw/?cat=75"
-        }
+          "gallery": [
+            "https://www.brotherhotel.com.tw/wp-content/uploads/2022/11/13F宴會廳婚宴-960x720.jpg"
+          ],
+          "source": "https://www.brotherhotel.com.tw/"
+        },
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "hasWindow": true,
+        "features": [
+          "大型宴會廳",
+          "無柱設計",
+          "採光良好"
+        ],
+        "notes": "13樓大型無柱宴會廳，適合婚宴、會議、發表會"
       }
-    ]
+    ],
+    "lastUpdated": "2026-03-23"
   },
   {
     "id": 1042,
@@ -1308,438 +1336,6 @@
         "id": "1066-03"
       }
     ]
-  },
-  {
-    "id": 1067,
-    "name": "台北喜來登大飯店(SheratonTaipei)",
-    "venueType": "飯店場地",
-    "city": "台北市",
-    "address": "台北市中正區忠孝東路一段12號",
-    "contactPerson": "宴會部",
-    "contactPhone": "02-23215511",
-    "contactEmail": "events@sheraton.com",
-    "url": "https://www.sheratongrandtaipei.com/websev?lang=zh-tw",
-    "priceHalfDay": 160000,
-    "priceFullDay": 300000,
-    "maxCapacityTheater": 480,
-    "maxCapacityClassroom": 300,
-    "availableTimeWeekday": "08:00-22:00",
-    "availableTimeWeekend": "08:00-22:00",
-    "equipment": "專業音響、投影設備、燈光、白板、舞台、視訊會議、音響系統、頂級投影、麥克風",
-    "images": {
-      "main": "https://www.sheratongrandtaipei.com/files/pages_1730459392142vj6g96_l.jpg",
-      "gallery": [
-        "https://www.sheratongrandtaipei.com/files/pages_1772816933150l7wc77_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_175588718614lwh8v24_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_175459012814kxhgw40_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_17281359591416fa692_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_17281373581416gh612_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_17281383441416hc240_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_175164700314iql2w16_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_1739469156149mqgn64_m.jpg",
-        "https://www.sheratongrandtaipei.com/files/pages_1644336389126gc1h37_m.jpg"
-      ],
-      "floorPlan": "",
-      "source": "https://www.sheratongrandtaipei.com/websev?lang=zh-tw&ref=pages&cat=50",
-      "verified": true,
-      "verifiedAt": "2026-03-07T13:12:00.788197",
-      "needsUpdate": false,
-      "note": "從官網爬取真實會議室照片（10張）",
-      "lastUpdated": "2026-03-07",
-      "crawlMethod": "Playwright 動態爬蟲"
-    },
-    "verified": true,
-    "rooms": [
-      {
-        "name": "福廳",
-        "capacity": {
-          "theater": 450,
-          "classroom": 280,
-          "ushape": 200,
-          "roundtable": 150,
-          "roundtable_min": 150,
-          "roundtable_max": 150
-        },
-        "area": 150,
-        "price": {
-          "morning": 75000,
-          "afternoon": 75000,
-          "evening": 130000,
-          "halfDay": 150000,
-          "fullDay": 280000
-        },
-        "equipment": [
-          "頂級投影",
-          "專業音響",
-          "舞台",
-          "燈光",
-          "視訊會議"
-        ],
-        "images": [
-          "https://www.sheratongrandtaipei.com/files/pages_1772816933150l7wc77_m.jpg"
-        ],
-        "id": "1067-01",
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "shape": "未知",
-        "photo": "https://www.sheratongrandtaipei.com/files/pages_1772816933150l7wc77_m.jpg",
-        "floor": "B2",
-        "ceiling": 4.5,
-        "hasWindow": false,
-        "features": [
-          "大型宴會廳",
-          "無柱設計",
-          "專業舞台"
-        ],
-        "notes": "B2層大型宴會廳，可容納450人劇院式",
-        "areaUnit": "坪"
-      },
-      {
-        "name": "祿廳",
-        "capacity": {
-          "theater": 480,
-          "classroom": 300,
-          "ushape": 220,
-          "roundtable": 160,
-          "roundtable_min": 160,
-          "roundtable_max": 160
-        },
-        "area": 155,
-        "price": {
-          "morning": 80000,
-          "afternoon": 80000,
-          "evening": 140000,
-          "halfDay": 160000,
-          "fullDay": 300000
-        },
-        "equipment": [
-          "頂級投影",
-          "專業音響",
-          "舞台",
-          "燈光",
-          "視訊會議"
-        ],
-        "images": [
-          "https://www.sheratongrandtaipei.com/files/pages_175588718614lwh8v24_m.jpg"
-        ],
-        "id": "1067-02",
-        "pillar": true,
-        "pillarCount": 2,
-        "pillarInfo": "有柱子",
-        "shape": "未知",
-        "photo": "https://www.sheratongrandtaipei.com/files/pages_175588718614lwh8v24_m.jpg",
-        "floor": "B2",
-        "ceiling": 4.5,
-        "hasWindow": false,
-        "features": [
-          "大型宴會廳",
-          "無柱設計",
-          "專業舞台"
-        ],
-        "notes": "B2層最大宴會廳，可容納480人劇院式",
-        "areaUnit": "坪"
-      },
-      {
-        "name": "壽廳",
-        "capacity": {
-          "theater": 220,
-          "classroom": 140,
-          "ushape": 100,
-          "roundtable": 75,
-          "roundtable_min": 75,
-          "roundtable_max": 75
-        },
-        "area": 75,
-        "price": {
-          "morning": 40000,
-          "afternoon": 40000,
-          "evening": 60000,
-          "halfDay": 80000,
-          "fullDay": 140000
-        },
-        "equipment": [
-          "投影設備",
-          "音響系統",
-          "麥克風"
-        ],
-        "images": [
-          "https://www.sheratongrandtaipei.com/files/pages_175459012814kxhgw40_m.jpg"
-        ],
-        "id": "1067-03",
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "shape": "未知",
-        "photo": "https://www.sheratongrandtaipei.com/files/pages_175459012814kxhgw40_m.jpg",
-        "floor": "B2",
-        "ceiling": 3.5,
-        "hasWindow": false,
-        "features": [
-          "中型宴會廳",
-          "獨立空間"
-        ],
-        "notes": "B2層中型宴會廳，可容納220人劇院式",
-        "areaUnit": "坪"
-      },
-      {
-        "name": "喜廳",
-        "capacity": {
-          "theater": 200,
-          "classroom": 130,
-          "ushape": 90,
-          "roundtable": 70,
-          "roundtable_min": 70,
-          "roundtable_max": 70
-        },
-        "area": 69,
-        "price": {
-          "morning": 37500,
-          "afternoon": 37500,
-          "evening": 55000,
-          "halfDay": 75000,
-          "fullDay": 130000
-        },
-        "equipment": [
-          "投影設備",
-          "音響系統",
-          "麥克風"
-        ],
-        "images": [
-          "https://www.sheratongrandtaipei.com/files/pages_17281359591416fa692_m.jpg"
-        ],
-        "id": "1067-04",
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "shape": "未知",
-        "photo": "https://www.sheratongrandtaipei.com/files/pages_17281359591416fa692_m.jpg",
-        "floor": "B2",
-        "ceiling": 3.5,
-        "hasWindow": false,
-        "features": [
-          "中型宴會廳",
-          "獨立空間"
-        ],
-        "notes": "B2層中型宴會廳，可容納200人劇院式",
-        "areaUnit": "坪"
-      },
-      {
-        "name": "多功能會議廳A",
-        "capacity": {
-          "theater": 120,
-          "classroom": 80,
-          "ushape": 60,
-          "roundtable": 45,
-          "roundtable_min": 45,
-          "roundtable_max": 45
-        },
-        "area": 45,
-        "price": {
-          "morning": 22500,
-          "afternoon": 22500,
-          "evening": 35000,
-          "halfDay": 45000,
-          "fullDay": 80000
-        },
-        "equipment": [
-          "投影設備",
-          "音響系統",
-          "白板"
-        ],
-        "images": [
-          "https://www.sheratongrandtaipei.com/files/pages_17281373581416gh612_m.jpg"
-        ],
-        "id": "1067-05",
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "shape": "未知",
-        "photo": "https://www.sheratongrandtaipei.com/files/pages_17281373581416gh612_m.jpg",
-        "floor": "B1",
-        "ceiling": 3,
-        "hasWindow": false,
-        "features": [
-          "多功能空間",
-          "彈性隔間"
-        ],
-        "notes": "B1層多功能會議廳，可容納120人劇院式",
-        "areaUnit": "坪"
-      },
-      {
-        "name": "多功能會議廳B",
-        "capacity": {
-          "theater": 80,
-          "classroom": 50,
-          "ushape": 40,
-          "roundtable": 30,
-          "roundtable_min": 30,
-          "roundtable_max": 30
-        },
-        "area": 30,
-        "price": {
-          "morning": 15000,
-          "afternoon": 15000,
-          "evening": 25000,
-          "halfDay": 30000,
-          "fullDay": 55000
-        },
-        "equipment": [
-          "投影設備",
-          "音響系統",
-          "白板"
-        ],
-        "images": [
-          "https://www.sheratongrandtaipei.com/files/pages_17281383441416hc240_m.jpg"
-        ],
-        "id": "1067-06",
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "shape": "未知",
-        "photo": "https://www.sheratongrandtaipei.com/files/pages_17281383441416hc240_m.jpg",
-        "floor": "B1",
-        "ceiling": 3,
-        "hasWindow": false,
-        "features": [
-          "多功能空間",
-          "彈性隔間"
-        ],
-        "notes": "B1層中型會議廳，可容納80人劇院式",
-        "areaUnit": "坪"
-      },
-      {
-        "name": "多功能會議廳C",
-        "capacity": {
-          "theater": 40,
-          "classroom": 25,
-          "ushape": 20,
-          "roundtable": 15,
-          "roundtable_min": 15,
-          "roundtable_max": 15
-        },
-        "area": 15,
-        "price": {
-          "morning": 9000,
-          "afternoon": 9000,
-          "evening": 14000,
-          "halfDay": 18000,
-          "fullDay": 32000
-        },
-        "equipment": [
-          "投影設備",
-          "音響系統",
-          "白板"
-        ],
-        "images": [
-          "https://www.sheratongrandtaipei.com/files/pages_175164700314iql2w16_m.jpg"
-        ],
-        "id": "1067-07",
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "shape": "未知",
-        "photo": "https://www.sheratongrandtaipei.com/files/pages_175164700314iql2w16_m.jpg",
-        "floor": "B1",
-        "ceiling": 3,
-        "hasWindow": false,
-        "features": [
-          "小型會議室",
-          "獨立空間"
-        ],
-        "notes": "B1層小型會議室，可容納40人劇院式",
-        "areaUnit": "坪"
-      },
-      {
-        "name": "瑞穗園",
-        "capacity": {
-          "theater": 280,
-          "classroom": 180,
-          "ushape": 130,
-          "roundtable": 90,
-          "roundtable_min": 90,
-          "roundtable_max": 90
-        },
-        "area": 92,
-        "price": {
-          "morning": 50000,
-          "afternoon": 50000,
-          "evening": 80000,
-          "halfDay": 100000,
-          "fullDay": 180000
-        },
-        "equipment": [
-          "投影設備",
-          "專業音響",
-          "舞台",
-          "燈光"
-        ],
-        "images": [
-          "https://www.sheratongrandtaipei.com/files/pages_1739469156149mqgn64_m.jpg"
-        ],
-        "id": "1067-08",
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "shape": "未知",
-        "photo": "https://www.sheratongrandtaipei.com/files/pages_1739469156149mqgn64_m.jpg",
-        "floor": "2F",
-        "ceiling": 3.5,
-        "hasWindow": true,
-        "features": [
-          "景觀窗戶",
-          "自然採光",
-          "挑高空間"
-        ],
-        "notes": "2樓宴會廳，自然採光，可容納280人劇院式",
-        "areaUnit": "坪"
-      },
-      {
-        "name": "清翫",
-        "capacity": {
-          "theater": 180,
-          "classroom": 120,
-          "ushape": 80,
-          "roundtable": 60,
-          "roundtable_min": 60,
-          "roundtable_max": 60
-        },
-        "area": 60,
-        "price": {
-          "morning": 35000,
-          "afternoon": 35000,
-          "evening": 50000,
-          "halfDay": 70000,
-          "fullDay": 120000
-        },
-        "equipment": [
-          "投影設備",
-          "音響系統",
-          "麥克風"
-        ],
-        "images": [
-          "https://www.sheratongrandtaipei.com/files/pages_1644336389126gc1h37_m.jpg"
-        ],
-        "id": "1067-09",
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "shape": "未知",
-        "photo": "https://www.sheratongrandtaipei.com/files/pages_1644336389126gc1h37_m.jpg",
-        "floor": "1F",
-        "ceiling": 3.2,
-        "hasWindow": true,
-        "features": [
-          "景觀窗戶",
-          "自然採光",
-          "獨立入口"
-        ],
-        "notes": "1樓會議場地，可容納180人劇院式",
-        "areaUnit": "坪"
-      }
-    ],
-    "lastUpdated": "2026-03-21",
-    "floorPlan": "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/floorplans/台北喜來登大飯店-B2宴會廳-樓層平面圖.jpg"
   },
   {
     "id": 1068,
@@ -5888,69 +5484,6 @@
     "floorPlan": "https://www.taipeimarriott.com.tw/files/page_157062443710javl802.pdf",
     "pdfSource": "https://www.taipeimarriott.com.tw/files/page_176778676814ut99b82.pdf",
     "pdfUpdated": "Nov. 10, 2025"
-  },
-  {
-    "id": 1104,
-    "name": "台北西華飯店(SherwoodTaipei)",
-    "venueType": "飯店場地",
-    "city": "台北市",
-    "address": "台北市民生東路三段111號",
-    "contactPerson": "宴會部",
-    "contactPhone": "02-27181188",
-    "contactEmail": "banquet@sherwood.com.tw",
-    "url": "https://www.sherwood.com.tw",
-    "priceHalfDay": 130000,
-    "priceFullDay": 240000,
-    "maxCapacityTheater": 350,
-    "maxCapacityClassroom": 200,
-    "availableTimeWeekday": "08:00-22:00",
-    "availableTimeWeekend": "08:00-22:00",
-    "equipment": "專業音響、燈光、舞台、頂級投影",
-    "images": {
-      "main": "https://www.sherwood.com.tw/tempasset/assets/img/bn-01_900x700.jpg",
-      "gallery": [
-        "https://www.sherwood.com.tw/tempasset/assets/img/bn-01_900x700.jpg",
-        "https://www.sherwood.com.tw/tempasset/assets/img/item-04_200x200.png",
-        "https://www.sherwood.com.tw/tempasset/assets/img/item-05_200x200.png"
-      ],
-      "source": "https://www.sherwood.com.tw",
-      "verified": true,
-      "verifiedAt": "2026-03-02T03:33:04.295Z"
-    },
-    "verified": true,
-    "rooms": [
-      {
-        "name": "宴會廳",
-        "capacity": {
-          "theater": 350,
-          "classroom": 200,
-          "ushape": 150,
-          "roundtable": 180
-        },
-        "area": 130,
-        "price": {
-          "halfDay": 130000,
-          "fullDay": 240000
-        },
-        "equipment": [
-          "頂級投影",
-          "專業音響",
-          "舞台",
-          "燈光"
-        ],
-        "images": [],
-        "id": "1104-01",
-        "floor": "B1",
-        "ceiling": 4,
-        "hasWindow": false,
-        "features": [
-          "大型宴會廳",
-          "專業舞台"
-        ],
-        "notes": "B1樓宴會廳（已於2022年2月15日熄燈）"
-      }
-    ],
-    "lastUpdated": "2026-03-21"
   },
   {
     "id": 1107,

@@ -1973,8 +1973,9 @@
     "name": "台北圓山大飯店(Grand Hotel Taipei)",
     "venueType": "飯店場地",
     "city": "台北市",
-    "address": "台北市中山區中山北路二段41號1樓",
-    "contactPhone": "02-2552-5211",
+    "address": "台北市中山區中山北路四段一號",
+    "contactPhone": "02-2886-8888",
+    "contactEmail": "cc@grand-hotel.org",
     "url": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP",
     "images": {
       "main": "https://www.grand-hotel.org/TW/official/images/ballroom.jpg",
@@ -1989,7 +1990,7 @@
       "verifiedAt": "2026-03-22T01:00:00.000Z"
     },
     "verified": true,
-    "lastUpdated": "2026-03-22",
+    "lastUpdated": "2026-03-22T14:00:00.000Z",
     "rooms": [
       {
         "id": "1072-01",
@@ -2181,7 +2182,7 @@
         "length": 28,
         "width": 10,
         "height": 2.7,
-        "floor": "10F",
+        "floor": "VF",
         "ceiling": 2.7,
         "hasWindow": false,
         "features": [
@@ -2199,7 +2200,7 @@
         "images": [
           "https://www.grand-hotel.org/TW/official/images/kirinhall.jpg"
         ],
-        "notes": "10樓大型宴會廳，多功能空間"
+        "notes": "VF樓大型宴會廳，多功能空間"
       },
       {
         "id": "1072-07",
@@ -2217,7 +2218,7 @@
         "length": 18,
         "width": 10,
         "height": 2.8,
-        "floor": "10F",
+        "floor": "VF",
         "ceiling": 2.8,
         "hasWindow": false,
         "features": [
@@ -2234,7 +2235,7 @@
         "images": [
           "https://www.grand-hotel.org/TW/official/images/kirinhall.jpg"
         ],
-        "notes": "10樓大型宴會廳，多功能空間"
+        "notes": "VF樓大型宴會廳，多功能空間"
       },
       {
         "id": "1072-08",
@@ -2405,6 +2406,40 @@
           "投影設備",
           "音響系統",
           "白板"
+        ],
+        "images": [
+          "https://www.grand-hotel.org/TW/official/images/kirinhall.jpg"
+        ],
+        "notes": "VF樓小型會議室，多功能空間，有窗戶"
+      },
+      {
+        "id": "1072-13",
+        "name": "敦睦廳",
+        "capacity": {
+          "theater": 100,
+          "classroom": 60,
+          "ushape": 40,
+          "roundtable": 80,
+          "roundtable_min": 80,
+          "roundtable_max": 80
+        },
+        "area": 40,
+        "areaUnit": "坪",
+        "length": 8,
+        "width": 5,
+        "height": 2.8,
+        "floor": "VF",
+        "ceiling": 2.8,
+        "hasWindow": true,
+        "features": [
+          "小型會議室",
+          "多功能空間"
+        ],
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "白板",
+          "視訊會議"
         ],
         "images": [
           "https://www.grand-hotel.org/TW/official/images/kirinhall.jpg"

@@ -2535,24 +2535,22 @@
       "verified": true,
       "verifiedAt": "2026-03-07T13:12:00.788300",
       "needsUpdate": false,
-      "note": "從官網會議專案頁面提取完整會議室資訊（14間空間）",
+      "note": "從官網PDF容量表提取完整會議室資訊（16間空間）",
       "lastUpdated": "2026-03-22",
-      "crawlMethod": "Playwright 動態爬蟲"
+      "crawlMethod": "PDF官方容量表"
     },
     "verified": true,
     "rooms": [
       {
-        "name": "喜宴廳",
+        "name": "Sheraton Grand Ballroom",
         "floor": "B2",
         "capacity": {
-          "theater": 800,
-          "classroom": 500,
-          "ushape": 300,
-          "roundtable": 600,
-          "roundtable_min": 600,
-          "roundtable_max": 600
+          "theater": 1150,
+          "classroom": 525,
+          "roundtable": 90
         },
-        "area": 280,
+        "height": 4.8,
+        "area": 445,
         "price": {
           "morning": 140000,
           "afternoon": 140000,
@@ -2577,51 +2575,45 @@
         "photo": "https://www.sheratongrandtaipei.com/files/pages_1772816933150l7wc77_m.jpg"
       },
       {
-        "name": "桃花源廳",
+        "name": "喜廳 Joyful Ballroom",
         "floor": "B2",
         "capacity": {
-          "theater": 300,
-          "classroom": 200,
-          "ushape": 130,
-          "roundtable": 180,
-          "roundtable_min": 180,
-          "roundtable_max": 180
+          "theater": 366,
+          "classroom": 168,
+          "roundtable": 30
         },
-        "area": 100,
+        "height": 4.8,
+        "area": 150,
         "price": {
-          "morning": 50000,
-          "afternoon": 50000,
-          "evening": 80000,
-          "halfDay": 100000,
-          "fullDay": 180000
+          "morning": 55000,
+          "afternoon": 55000,
+          "evening": 88000,
+          "halfDay": 110000,
+          "fullDay": 198000
         },
         "equipment": [
-          "投影設備",
+          "頂級投影",
           "專業音響",
-          "舞台"
+          "大型舞台",
+          "燈光"
         ],
         "images": [
-          "https://www.sheratongrandtaipei.com/files/pages_175588718614lwh8v24_m.jpg"
+          "https://www.sheratongrandtaipei.com/files/pages_1772816933150l7wc77_m.jpg"
         ],
         "id": "1075-02",
         "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "shape": "未知",
-        "photo": "https://www.sheratongrandtaipei.com/files/pages_175588718614lwh8v24_m.jpg"
+        "pillarInfo": "無柱子"
       },
       {
-        "name": "福廳/祿廳",
+        "name": "祿廳 Prosperity Ballroom",
         "floor": "B2",
         "capacity": {
-          "theater": 700,
-          "classroom": 450,
-          "ushape": 250,
-          "roundtable": 520,
-          "roundtable_min": 520,
-          "roundtable_max": 520
+          "theater": 366,
+          "classroom": 168,
+          "roundtable": 32
         },
-        "area": 305,
+        "height": 4.8,
+        "area": 155,
         "price": {
           "morning": 105000,
           "afternoon": 105000,
@@ -2647,16 +2639,14 @@
         "photo": "https://www.sheratongrandtaipei.com/files/pages_175459012814kxhgw40_l.jpg"
       },
       {
-        "name": "壽廳",
+        "name": "壽廳 Longevity Room",
         "floor": "B2",
         "capacity": {
           "theater": 200,
-          "classroom": 130,
-          "ushape": 90,
-          "roundtable": 120,
-          "roundtable_min": 120,
-          "roundtable_max": 120
+          "classroom": 99,
+          "roundtable": 13
         },
+        "height": 2.4,
         "area": 75,
         "price": {
           "morning": 35000,
@@ -2681,16 +2671,14 @@
         "photo": "https://www.sheratongrandtaipei.com/files/pages_175464924014l10li51_l.jpg"
       },
       {
-        "name": "喜廳",
+        "name": "Happiness Room 喜廳",
         "floor": "B2",
         "capacity": {
-          "theater": 180,
-          "classroom": 120,
-          "ushape": 80,
-          "roundtable": 110,
-          "roundtable_min": 110,
-          "roundtable_max": 110
+          "theater": 150,
+          "classroom": 90,
+          "roundtable": 10
         },
+        "height": 2.4,
         "area": 69,
         "price": {
           "morning": 30000,
@@ -2715,59 +2703,183 @@
         "photo": "https://www.sheratongrandtaipei.com/files/pages_175464924014l10li51_l.jpg"
       },
       {
-        "name": "多功能會議廳",
+        "name": "Grand Ballroom 大宴會廳",
+        "floor": "B2",
+        "capacity": {
+          "theater": 1400,
+          "roundtable": 120
+        },
+        "height": 4.8,
+        "area": 606,
+        "equipment": [
+          "大型舞台",
+          "頂級投影",
+          "專業音響",
+          "燈光"
+        ],
+        "id": "1075-08",
+        "pillar": false
+      },
+      {
+        "name": "日廳 Sun Room",
+        "floor": "B2",
+        "capacity": {
+          "theater": 40,
+          "classroom": 27
+        },
+        "height": 2.4,
+        "area": 20,
+        "equipment": [
+          "投影設備",
+          "音響系統"
+        ],
+        "id": "1075-11",
+        "pillar": false
+      },
+      {
+        "name": "月廳 Moon Room",
+        "floor": "B2",
+        "capacity": {
+          "theater": 40,
+          "classroom": 27
+        },
+        "height": 2.4,
+        "area": 21,
+        "equipment": [
+          "投影設備",
+          "音響系統"
+        ],
+        "id": "1075-12",
+        "pillar": false
+      },
+      {
+        "name": "星廳 Star Room",
+        "floor": "B2",
+        "capacity": {
+          "theater": 40,
+          "classroom": 27
+        },
+        "height": 2.4,
+        "area": 20,
+        "equipment": [
+          "投影設備",
+          "音響系統"
+        ],
+        "id": "1075-13",
+        "pillar": false
+      },
+      {
+        "name": "玉廳 Jade Room",
         "floor": "B1",
         "capacity": {
-          "theater": 150,
-          "classroom": 100,
-          "ushape": 60,
-          "roundtable": 80,
-          "roundtable_min": 80,
-          "roundtable_max": 80
+          "theater": 40,
+          "classroom": 24
         },
-        "area": 45,
-        "price": {
-          "morning": 25000,
-          "afternoon": 25000,
-          "evening": 45000,
-          "halfDay": 50000,
-          "fullDay": 95000
-        },
+        "height": 2.5,
+        "area": 15,
         "equipment": [
           "投影設備",
           "音響系統",
-          "麥克風",
           "白板"
         ],
-        "images": [
-          "https://www.sheratongrandtaipei.com/files/pages_166326131012kltb850_l.jpg"
-        ],
-        "id": "1075-08",
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "shape": "長方形",
-        "photo": "https://www.sheratongrandtaipei.com/files/pages_166326131012kltb850_l.jpg"
+        "id": "1075-14",
+        "pillar": false
       },
       {
-        "name": "瑞穗園",
+        "name": "英廳 Elite Room",
+        "floor": "B1",
+        "capacity": {
+          "theater": 40,
+          "classroom": 24
+        },
+        "height": 2.5,
+        "area": 15,
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "白板"
+        ],
+        "id": "1075-15",
+        "pillar": false
+      },
+      {
+        "name": "翠廳 Emerald Room",
+        "floor": "B1",
+        "capacity": {
+          "theater": 40,
+          "classroom": 24
+        },
+        "height": 2.5,
+        "area": 15,
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "白板"
+        ],
+        "id": "1075-16",
+        "pillar": false
+      },
+      {
+        "name": "蝶廳 Butterfly Room",
+        "floor": "B1",
+        "capacity": {
+          "theater": 60,
+          "classroom": 36
+        },
+        "height": 2.5,
+        "area": 20,
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "白板"
+        ],
+        "id": "1075-17",
+        "pillar": false
+      },
+      {
+        "name": "凰廳 Glory Room",
+        "floor": "B1",
+        "capacity": {
+          "theater": 60,
+          "classroom": 36
+        },
+        "height": 2.5,
+        "area": 20,
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "白板"
+        ],
+        "id": "1075-18",
+        "pillar": false
+      },
+      {
+        "name": "雅翫 The Galleria",
+        "floor": "1F",
+        "capacity": {
+          "theater": 160,
+          "classroom": 81,
+          "roundtable": 13
+        },
+        "height": 3.3,
+        "area": 72,
+        "equipment": [
+          "投影設備",
+          "音響系統"
+        ],
+        "id": "1075-19",
+        "pillar": false
+      },
+      {
+        "name": "瑞穗園 Grace Garden",
         "floor": "2F",
         "capacity": {
-          "theater": 250,
-          "classroom": 160,
-          "ushape": 100,
-          "roundtable": 150,
-          "roundtable_min": 150,
-          "roundtable_max": 150
+          "theater": 240,
+          "classroom": 147,
+          "roundtable": 18
         },
+        "height": 2.2,
         "area": 92,
-        "price": {
-          "morning": 40000,
-          "afternoon": 40000,
-          "evening": 70000,
-          "halfDay": 80000,
-          "fullDay": 150000
-        },
         "equipment": [
           "投影設備",
           "音響系統",
@@ -2776,113 +2888,11 @@
         "images": [
           "https://www.sheratongrandtaipei.com/files/pages_175465013514l11dt95_l.jpg"
         ],
-        "id": "1075-09",
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "shape": "長方形",
-        "photo": "https://www.sheratongrandtaipei.com/files/pages_175465013514l11dt95_l.jpg"
-      },
-      {
-        "name": "清翫",
-        "floor": "1F",
-        "capacity": {
-          "theater": 80,
-          "classroom": 50,
-          "ushape": 30,
-          "roundtable": 40,
-          "roundtable_min": 40,
-          "roundtable_max": 40
-        },
-        "area": 35,
-        "price": {
-          "morning": 15000,
-          "afternoon": 15000,
-          "evening": 25000,
-          "halfDay": 30000,
-          "fullDay": 55000
-        },
-        "equipment": [
-          "投影設備",
-          "音響系統"
-        ],
-        "images": [],
-        "id": "1075-10",
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "shape": "長方形"
-      },
-      {
-        "name": "會議室A",
-        "floor": "B1",
-        "capacity": {
-          "theater": 50,
-          "classroom": 30,
-          "ushape": 20,
-          "roundtable": 30,
-          "roundtable_min": 30,
-          "roundtable_max": 30
-        },
-        "area": 18,
-        "price": {
-          "morning": 7500,
-          "afternoon": 7500,
-          "evening": 13000,
-          "halfDay": 15000,
-          "fullDay": 28000
-        },
-        "equipment": [
-          "投影設備",
-          "音響系統",
-          "白板"
-        ],
-        "images": [
-          "https://www.sheratongrandtaipei.com/files/pages_17281359591416fa692_m.jpg"
-        ],
-        "id": "1075-04",
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "shape": "未知",
-        "photo": "https://www.sheratongrandtaipei.com/files/pages_17281359591416fa692_m.jpg"
-      },
-      {
-        "name": "會議室B",
-        "floor": "B1",
-        "capacity": {
-          "theater": 30,
-          "classroom": 20,
-          "ushape": 14,
-          "roundtable": 18,
-          "roundtable_min": 18,
-          "roundtable_max": 18
-        },
-        "area": 12,
-        "price": {
-          "morning": 5000,
-          "afternoon": 5000,
-          "evening": 8000,
-          "halfDay": 10000,
-          "fullDay": 18000
-        },
-        "equipment": [
-          "投影設備",
-          "音響系統",
-          "白板"
-        ],
-        "images": [
-          "https://www.sheratongrandtaipei.com/files/pages_17281373581416gh612_m.jpg"
-        ],
-        "id": "1075-05",
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "shape": "未知",
-        "photo": "https://www.sheratongrandtaipei.com/files/pages_17281373581416gh612_m.jpg"
+        "id": "1075-20",
+        "pillar": false
       }
     ],
-    "lastUpdated": "2026-03-17"
+    "lastUpdated": "2026-03-22"
   },
   {
     "id": 1076,

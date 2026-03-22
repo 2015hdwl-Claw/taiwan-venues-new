@@ -3905,24 +3905,14 @@
     "availableTimeWeekend": "09:00-22:00",
     "equipment": "專業音響、投影設備、燈光、舞台、音響系統、頂級投影",
     "images": {
-      "main": "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/01_PublicArea_Atrium_Light_3-jpg.webp",
+      "main": "https://www.dynasty.com.tw/images/banner4.jpg",
       "gallery": [
-        "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/01_PublicArea_Atrium_Light_3-jpg.webp",
-        "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/01_PublicArea_Entrance-jpg.webp",
-        "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/02_Rooms_1_Premier_King_1-jpg.webp",
-        "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/02_Rooms_4_Premier_Suite_1_Living_Room-jpg.webp",
-        "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/05_Events_2F_Grand_Ballroom_1-jpg.webp",
-        "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/05_Events_2F_VIP_Courts_Classroom-jpg.webp",
-        "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/Illume_Taipei_01_s-jpg.webp",
-        "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/03_Facilities_1_Gym_1_Equipments-jpg.webp",
-        "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/03_Facilities_2_Outdoor_Swimming_Pool_1-jpg.webp"
+        "https://www.dynasty.com.tw/images/banner4.jpg",
+        "https://www.dynasty.com.tw/images/banner4-s.jpg"
       ],
-      "source": "https://www.theillumehotel.com/zh/",
+      "source": "https://www.dynasty.com.tw/news",
       "verified": true,
-      "verifiedAt": "2026-03-23T01:01:21.154263Z",
-      "note": "從官網爬取：結合光影藝術與人文關懷的台北飯店，鄰近台北小巨蛋與大巨蛋，現代美學與溫暖服務",
-      "lastUpdated": "2026-03-23",
-      "needsUpdate": false
+      "verifiedAt": "2026-03-02T09:52:23.503Z"
     },
     "verified": true,
     "rooms": [
@@ -4026,7 +4016,7 @@
         "photo": "https://www.dynasty.com.tw/images/banner4.jpg"
       }
     ],
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-17"
   },
   {
     "id": 1092,

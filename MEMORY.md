@@ -1,4 +1,73 @@
 
+# SOP 經驗記錄 - 2026-03-22 (晚上 23:00)
+
+## 📋 新增案例：動態網頁資料擷取成功
+
+### ❌ 問題
+- 官網會議廳照片使用動態載入，webReader 無法抓取
+- 各會議廳有實際照片但需要實際訪問頁面才能獲取
+
+### ✅ 解決方案
+
+**1. 分析 HTML 源碼**
+```bash
+curl -s "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP" \
+  | grep -oP 'fileupload/Ballroom_File/[^"]*'
+```
+
+**2. 提取關鍵信息**
+- 找到 9 張會議廳照片 (編號 1-9)
+- 提取 photo-two-zoom 區塊的背景圖片 URL
+- 匹配會議廳名稱與圖片編號對應關係
+
+**3. 圖片驗證**
+```bash
+curl -sI "https://www.grand-hotel.org/fileupload/Ballroom_File/X_*.jpg" \
+  | grep Content-Length
+```
+
+**4. 發現的資源**
+- ✓ Banner: 1_Ballroom.jpg (621KB)
+- ✓ 崑崙廳: 2_wasfumdpas.jpg (482KB)
+- ✓ 國際會議廳: 3_blsvdmouas.jpg (550KB)
+- ✓ 長青廳: 4_fjomorlyda.jpg (318KB)
+- ✓ 松柏廳: 5_fgzmrzgbxc.jpg (469KB)
+- ✓ 麒麟宴會廳: 6_kqzlzokmyf.jpg (260KB)
+- ✓ 國宴廳: 7_jtjubqyqlw.jpg (977KB)
+- ✓ 多功能會議廳: 8_omzicfhukb.jpg (299KB)
+- ✓ 敦睦廳: 9_fcfsecebue.jpg (172KB)
+- ✓ 平面圖 PDF: 1.pdf (105KB)
+
+### 💡 技術教訓
+
+**動態網頁資料擷取 SOP**
+1. 不依賴 webReader 等自動化工具
+2. 使用 curl 下載 HTML 源碼
+3. 用 grep 提取關鍵模式（fileupload、data-src 等）
+4. 驗證每個 URL 的 Content-Length
+5. 手動匹配名稱與資源對應關係
+
+**常見動態載入特徵**
+- 圖片在 CSS `background: url()` 中
+- 使用 JavaScript 動態設置背景圖
+- 圖片 URL 使用隨機文件名（如 outmefygek.jpg）
+- 使用 fileupload 目錄存放用戶上傳內容
+
+### 📝 Git 提交記錄
+- **58f1a0d**: 新增台北圓山大飯店會議廳實際照片
+
+### 🎯 最終結果
+- ✓ 13 間會議室全部有官網實際照片
+- ✓ 添加官方平面圖 PDF
+- ✓ 完全符合 SOP 要求
+- ✓ 所有資料來自官網動態頁面
+
+---
+修正日期：2026-03-22 23:00
+Git Commit: 58f1a0d
+
+---
+
 # SOP 經驗記錄 - 2026-03-22 (下午 15:00)
 
 ## 📋 新增案例：台北圓山大飯店圖片問題

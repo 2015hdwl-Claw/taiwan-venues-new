@@ -4342,15 +4342,22 @@
     "images": {
       "main": "https://www.taipeimarriott.com.tw/files/page_176900693814vqap059_m.jpg",
       "gallery": [
-        "https://www.marriott.com/marriottassets/search/homepage/Joe/MBV_app3_748x332.png?interpolation=progressive-bilinear&downsize=480px:*%20,%20https://www.marriott.com/marriottassets/search/homepage/Joe/MBV_app3_748x332.png?interpolation=progressive-bilinear&downsize=480px:*%202x"
+        "https://www.taipeimarriott.com.tw/files/page_176900693814vqap059_m.jpg",
+        "https://www.taipeimarriott.com.tw/files/page_1516614885xcuqj084_m.jpg",
+        "https://www.taipeimarriott.com.tw/files/page_1516614716xcuqe177_m.jpg",
+        "https://www.taipeimarriott.com.tw/files/page_1505323692x4fh3369_m.jpg",
+        "https://www.taipeimarriott.com.tw/files/page_1516616234xcuron76_m.jpg",
+        "https://www.taipeimarriott.com.tw/files/page_1462471087w6d7cc98_m.jpg",
+        "https://www.taipeimarriott.com.tw/files/page_1462469869w6d6ai04_m.jpg",
+        "https://www.taipeimarriott.com.tw/files/page_1516615054xcuqnx61_m.jpg",
+        "https://www.taipeimarriott.com.tw/images/logo_02.png"
       ],
       "source": "https://www.taipeimarriott.com.tw/websev?cat=page&id=39",
       "verified": true,
-      "verifiedAt": "2026-03-17T09:31:49.008923",
-      "lastUpdated": "2026-03-17",
-      "needsUpdate": false,
-      "updateReason": "修正地址和會議室照片（使用官網照片）",
-      "note": "所有會議室已更新為官網真實照片或相關場地照片"
+      "verifiedAt": "2026-03-23T00:46:01.299014Z",
+      "note": "從官網爬取：26個多功能活動場地，4,569平方米宴會會議空間，挑高9.9米無樑柱空間",
+      "lastUpdated": "2026-03-23",
+      "needsUpdate": false
     },
     "verified": true,
     "rooms": [
@@ -5414,7 +5421,7 @@
         "photo": "https://www.taipeimarriott.com.tw/files/page_176900717814vqawa70_l.jpg"
       }
     ],
-    "lastUpdated": "2026-03-17",
+    "lastUpdated": "2026-03-23",
     "totalArea": 4569,
     "totalAreaUnit": "平方米",
     "totalRooms": 26,

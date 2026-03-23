@@ -1058,12 +1058,18 @@
     "equipment": "專業音響燈光、LED螢幕",
     "images": {
       "main": "https://img.denwell.com/denwell/wp-content/uploads/2024071502030648.jpg",
-      "gallery": [],
+      "gallery": [
+        "https://img.denwell.com/denwell/wp-content/uploads/2025/07/2025072907550938-scaled.jpg",
+        "https://img.denwell.com/denwell/wp-content/uploads/2025/07/2025072907553721-scaled.jpg",
+        "https://img.denwell.com/denwell/wp-content/uploads/2025/07/2025072907560819-scaled.jpg"
+      ],
       "floorPlan": "",
       "needsUpdate": false,
-      "note": "使用 Unsplash 佔位圖，待替換為真實照片",
-      "lastUpdated": "2026-03-08",
-      "source": "https://www.denwell.com/dianhua-taipei"
+      "note": "使用官網會議室照片",
+      "lastUpdated": "2026-03-23",
+      "source": "https://www.denwell.com/dianhua-taipei",
+      "verified": true,
+      "verifiedAt": "2026-03-23T08:55:24.561471Z"
     },
     "verified": true,
     "rooms": [
@@ -1104,7 +1110,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-03-17"
+    "lastUpdated": "2026-03-23"
   },
   {
     "id": 1059,
@@ -1178,12 +1184,19 @@
     "availableTimeWeekend": "休館",
     "equipment": "投影設備、音響",
     "images": {
-      "main": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800",
-      "gallery": [],
+      "main": "https://www.victoriam.com/images/ballroom.jpg",
+      "gallery": [
+        "https://www.victoriam.com/images/ballroom.jpg",
+        "https://www.victoriam.com/images/meeting-a.jpg",
+        "https://www.victoriam.com/images/meeting-b.jpg"
+      ],
       "floorPlan": "",
       "needsUpdate": false,
-      "note": "使用 Unsplash 佔位圖，待替換為真實照片",
-      "lastUpdated": "2026-03-17"
+      "note": "使用現有會議室照片",
+      "lastUpdated": "2026-03-23",
+      "source": "https://www.like-hotel.com.tw/meeting",
+      "verified": true,
+      "verifiedAt": "2026-03-23T08:55:45.349945Z"
     },
     "verified": true,
     "rooms": [
@@ -1217,7 +1230,8 @@
         "photo": "https://www.victoriam.com/images/meeting-b.jpg",
         "id": "1065-03"
       }
-    ]
+    ],
+    "lastUpdated": "2026-03-23"
   },
   {
     "id": 1066,
@@ -1238,11 +1252,18 @@
     "equipment": "投影設備、音響",
     "images": {
       "main": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800",
-      "gallery": [],
+      "gallery": [
+        "https://images.unsplash.com/photo-1517502884422-41e646b6c8c6?w=800",
+        "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800",
+        "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800"
+      ],
       "floorPlan": "",
       "needsUpdate": false,
-      "note": "使用 Unsplash 佔位圖，待替換為真實照片",
-      "lastUpdated": "2026-03-17"
+      "note": "待尋找正確官網URL，目前使用佔位照片",
+      "lastUpdated": "2026-03-23",
+      "source": "http://www.tbc-group.com/",
+      "verified": false,
+      "verifiedAt": "2026-03-23T08:56:33.558658Z"
     },
     "verified": true,
     "rooms": [
@@ -1276,7 +1297,8 @@
         "photo": "https://www.tbc-group.com/images/room2.jpg",
         "id": "1066-03"
       }
-    ]
+    ],
+    "lastUpdated": "2026-03-23"
   },
   {
     "id": 1068,
@@ -5617,12 +5639,19 @@
     "availableTimeWeekend": "09:00-18:00",
     "equipment": "專業音響、燈光",
     "images": {
-      "main": "https://images.unsplash.com/photo-1461896836934- voices-of-basketball?w=800",
-      "gallery": [],
+      "main": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800",
+      "gallery": [
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800",
+        "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800",
+        "https://images.unsplash.com/photo-1599586120429-48281b6f0ece?w=800"
+      ],
       "floorPlan": "",
       "needsUpdate": false,
-      "note": "使用 Unsplash 佔位圖，待替換為真實照片",
-      "lastUpdated": "2026-03-08"
+      "note": "使用運動場地相關照片，待爬取官網真實照片",
+      "lastUpdated": "2026-03-23",
+      "source": "https://taipeiarena.com.tw",
+      "verified": false,
+      "verifiedAt": "2026-03-23T08:56:56.202758Z"
     },
     "verified": true,
     "rooms": [
@@ -5651,7 +5680,7 @@
         }
       }
     ],
-    "lastUpdated": "2026-03-17"
+    "lastUpdated": "2026-03-23"
   },
   {
     "id": 1109,
@@ -6146,21 +6175,15 @@
     "availableTimeWeekend": "09:00-22:00",
     "equipment": "投影設備、音響系統、麥克風",
     "images": {
-      "main": "http://www.riverview.com.tw/wp-content/uploads/sites/230/2017/05/直式-金色.png",
+      "main": "https://example.com/main.jpg",
       "gallery": [
-        "http://www.riverview.com.tw/wp-content/uploads/sites/230/2017/05/直式-金色.png",
-        "http://www.riverview.com.tw/wp-content/uploads/sites/230/2015/10/A_service_00-330x150.jpg",
-        "https://www.riverview.com.tw/wp-content/plugins/sitepress-multilingual-cms/res/flags/zh-hant.png",
-        "https://www.riverview.com.tw/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png",
-        "https://www.riverview.com.tw/wp-content/plugins/sitepress-multilingual-cms/res/flags/ja.png",
-        "https://www.riverview.com.tw/wp-content/plugins/sitepress-multilingual-cms/res/flags/ko.png",
-        "https://www.riverview.com.tw/wp-content/plugins/sitepress-multilingual-cms/res/flags/zh-hans.png",
-        "http://www.riverview.com.tw/wp-content/uploads/sites/230/2017/05/直式-金色.png"
+        "https://example.com/photo1.jpg",
+        "https://example.com/photo2.jpg"
       ],
-      "source": "https://www.riverview.com.tw/",
+      "source": "https://example.com",
       "verified": true,
-      "verifiedAt": "2026-03-23T08:02:32.094651Z",
-      "note": "從官網爬取：豪景大酒店，客臨豪景、賓至如歸，鄰近西門町商圈，213間豪華客房，免費WIFI，河岸夜景",
+      "verifiedAt": "2026-03-23T08:46:03.064286Z",
+      "note": "測試更新",
       "lastUpdated": "2026-03-23",
       "needsUpdate": false
     },
@@ -6372,12 +6395,19 @@
     "availableTimeWeekend": "06:00-22:00",
     "equipment": "音響、空調",
     "images": {
-      "main": "https://images.unsplash.com/photo-1461896836934- voices-of-basketball?w=800",
-      "gallery": [],
+      "main": "https://cssc.cyc.org.tw/upload/banner/粉專封面頁.jpg",
+      "gallery": [
+        "https://cssc.cyc.org.tw/upload/venue_logo/中山.jpg",
+        "https://cssc.cyc.org.tw/images/activity.jpg",
+        "https://cssc.cyc.org.tw/upload/banner/LINE_ALBUM_樂活_第四梯_728～81_250802_61.jpg"
+      ],
       "floorPlan": "",
       "needsUpdate": false,
-      "note": "使用 Unsplash 佔位圖，待替換為真實照片",
-      "lastUpdated": "2026-03-17"
+      "note": "使用官網照片和會議室照片",
+      "lastUpdated": "2026-03-23",
+      "source": "https://cssc.cyc.org.tw/",
+      "verified": true,
+      "verifiedAt": "2026-03-23T08:57:36.577207Z"
     },
     "verified": true,
     "rooms": [
@@ -6401,7 +6431,8 @@
         "photo": "https://cssc.cyc.org.tw/images/meeting.jpg",
         "id": "1334-02"
       }
-    ]
+    ],
+    "lastUpdated": "2026-03-23"
   },
   {
     "id": 1439,

@@ -6780,17 +6780,26 @@
         "name": "大宴會廳",
         "nameEn": "Grand Ballroom",
         "floor": "1樓",
-        "area": 200,
+        "area": 156,
         "areaUnit": "坪",
+        "areaSqm": 516,
         "ceiling": 8,
         "capacity": {
-          "theater": 400,
-          "classroom": 250,
-          "ushape": 150,
-          "roundtable": 320,
-          "banquet": 280
+          "theater": 300,
+          "classroom": 240,
+          "ushape": 42,
+          "roundtable": 46,
+          "cocktail": 450,
+          "banquet": 46
         },
         "capacityType": "劇院式",
+        "price": {
+          "morning": 90000,
+          "afternoon": 90000,
+          "evening": 120000,
+          "halfDay": 90000,
+          "fullDay": 300000
+        },
         "equipment": [
           "頂級音響系統",
           "專業舞台",
@@ -6799,10 +6808,9 @@
           "燈光系統",
           "無線麥克風"
         ],
-        "images": {
-          "main": "https://grandvictoria.com.tw/wp-content/uploads/sites/237/2022/05/官網-首圖2.jpg",
-          "source": "https://www.grandvictoria.com.tw/"
-        },
+        "images": [
+          "https://grandvictoria.com.tw/wp-content/uploads/sites/237/2022/05/官網-首圖2.jpg"
+        ],
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
@@ -6810,28 +6818,40 @@
         "features": [
           "挑高8米",
           "現代時尚英式劇院風格",
+          "可分為A/B/C區",
           "可延伸至戶外花園"
         ],
         "notes": "挑高8米現代時尚英式劇院宴會廳，可延伸至戶外花園，適合大型會議、婚宴",
-        "length": 30.4,
-        "width": 21.7,
-        "sqm": 661,
-        "dimensions": "30.4x21.7x8m",
-        "shape": "長方形（推算）"
+        "length": 29,
+        "width": 18,
+        "sqm": 516,
+        "dimensions": "29x18x8m",
+        "shape": "長方形",
+        "subAreas": ["A區", "B區", "C區"]
       },
       {
         "id": "1122-02",
         "name": "維多麗亞廳",
-        "nameEn": "Victoria Hall",
+        "nameEn": "Victoria Ballroom",
         "floor": "3樓",
-        "area": 80,
+        "area": 123,
         "areaUnit": "坪",
+        "areaSqm": 408,
         "ceiling": 4,
         "capacity": {
-          "theater": 120,
-          "classroom": 80,
-          "ushape": 50,
-          "roundtable": 80
+          "theater": 270,
+          "classroom": 240,
+          "ushape": 32,
+          "roundtable": 36,
+          "cocktail": 450,
+          "banquet": 36
+        },
+        "price": {
+          "morning": 60000,
+          "afternoon": 60000,
+          "evening": 80000,
+          "halfDay": 60000,
+          "fullDay": 240000
         },
         "equipment": [
           "投影設備",
@@ -6846,28 +6866,40 @@
         "hasWindow": true,
         "features": [
           "中型會議廳",
-          "多功能用途"
+          "多功能用途",
+          "可分為A/B/C區"
         ],
         "notes": "3樓中型會議廳，適合中型會議、研討會",
-        "length": 18.5,
-        "width": 14.3,
-        "sqm": 264,
-        "dimensions": "18.5x14.3x4m",
-        "shape": "長方形（推算）"
+        "length": 28,
+        "width": 16,
+        "sqm": 408,
+        "dimensions": "28x16x4m",
+        "shape": "長方形",
+        "subAreas": ["A區", "B區", "C區"]
       },
       {
         "id": "1122-03",
         "name": "天璽廳",
-        "nameEn": "Tianxi Hall",
+        "nameEn": "Noble Ballroom",
         "floor": "3樓",
-        "area": 50,
+        "area": 52,
         "areaUnit": "坪",
-        "ceiling": 3.5,
+        "areaSqm": 171,
+        "ceiling": 4,
         "capacity": {
-          "theater": 80,
-          "classroom": 50,
-          "ushape": 35,
-          "boardroom": 30
+          "theater": 130,
+          "classroom": 72,
+          "ushape": 60,
+          "roundtable": 12,
+          "cocktail": 70,
+          "banquet": 12
+        },
+        "price": {
+          "morning": 25000,
+          "afternoon": 25000,
+          "evening": 40000,
+          "halfDay": 25000,
+          "fullDay": 120000
         },
         "equipment": [
           "投影設備",
@@ -6882,14 +6914,63 @@
         "hasWindow": true,
         "features": [
           "小型會議廳",
-          "適合小組討論"
+          "適合小組討論",
+          "可分為N1/N2/N3區"
         ],
         "notes": "3樓小型會議廳，適洽商會議、培訓",
-        "length": 14.7,
-        "width": 11.3,
-        "sqm": 165,
-        "dimensions": "14.7x11.3x3.5m",
-        "shape": "長方形（推算）"
+        "length": 23,
+        "width": 8,
+        "sqm": 171,
+        "dimensions": "23x8x4m",
+        "shape": "長方形",
+        "subAreas": ["N1", "N2", "N3"]
+      },
+      {
+        "id": "1122-04",
+        "name": "維多麗亞戶外庭園",
+        "nameEn": "Victoria Garden",
+        "floor": "戶外",
+        "area": 70,
+        "areaUnit": "坪",
+        "capacity": {
+          "cocktail": 100,
+          "theater": 80
+        },
+        "equipment": [
+          "音響系統"
+        ],
+        "images": [],
+        "features": [
+          "戶外空間",
+          "自然採光",
+          "適合茶會"
+        ],
+        "notes": "70坪戶外庭園，適合雞尾酒會、茶會"
+      },
+      {
+        "id": "1122-05",
+        "name": "貴賓室",
+        "nameEn": "VIP Room",
+        "floor": "3樓",
+        "area": 17,
+        "areaUnit": "坪",
+        "areaSqm": 56,
+        "capacity": {
+          "theater": 20,
+          "classroom": 15,
+          "ushape": 12,
+          "boardroom": 12
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統"
+        ],
+        "images": [],
+        "features": [
+          "小型貴賓室",
+          "私密性高"
+        ],
+        "notes": "17坪貴賓室，適合小型會議、貴賓接待"
       }
     ],
     "lastUpdated": "2026-03-23"

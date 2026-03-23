@@ -1472,3 +1472,54 @@ body {
     margin-top: 0.75rem;
     font-style: italic;
 }
+
+
+/* ===== 場地相簿 ===== */
+.venue-gallery-section {
+    margin-bottom: 40px;
+}
+
+.venue-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.gallery-photo {
+    position: relative;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow);
+    background: #f0f0f0;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-photo:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.gallery-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .venue-gallery {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .venue-gallery {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+}
+

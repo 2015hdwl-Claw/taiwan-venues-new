@@ -103,7 +103,10 @@ function renderVenueDetail() {
     
     // 設備
     document.getElementById('venueEquipment').textContent = venue.equipment || '未提供';
-    
+
+    // 相簿照片
+    renderGallery(venue);
+
     // 聯絡資訊
     renderContactInfo(venue);
     
@@ -288,4 +291,43 @@ function showError(message) {
     document.getElementById('loadingState').style.display = 'none';
     document.getElementById('errorState').style.display = 'block';
     document.getElementById('errorState').querySelector('h3').textContent = message;
+}
+
+// ===== 渲染相簿照片 =====
+function renderGallery(venue) {
+    const gallerySection = document.getElementById('gallerySection');
+    const galleryContainer = document.getElementById('venueGallery');
+
+    // 檢查是否有 gallery 照片
+    const gallery = venue.images?.gallery;
+
+    if (!gallery || !Array.isArray(gallery) || gallery.length === 0) {
+        gallerySection.style.display = 'none';
+        return;
+    }
+
+    // 顯示相簿區域
+    gallerySection.style.display = 'block';
+
+    // 清空容器
+    galleryContainer.innerHTML = '';
+
+    // 添加照片
+    gallery.forEach((photoUrl, index) => {
+        const photoDiv = document.createElement('div');
+        photoDiv.className = 'gallery-photo';
+
+        const img = document.createElement('img');
+        img.src = photoUrl;
+        img.alt = `${venue.name} - 照片 ${index + 1}`;
+        img.loading = 'lazy';
+
+        // 錯誤處理：如果圖片載入失敗，隱藏該照片
+        img.onerror = function() {
+            this.parentElement.style.display = 'none';
+        };
+
+        photoDiv.appendChild(img);
+        galleryContainer.appendChild(photoDiv);
+    });
 }

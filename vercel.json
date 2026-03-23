@@ -3,7 +3,6 @@
   "public": true,
   "cleanUrls": true,
   "trailingSlash": false,
-  "buildCommand": "echo \"Build: $(date)\" && touch *.js *.html *.css venues.json",
   "headers": [
     {
       "source": "/venues.json",
@@ -19,7 +18,7 @@
       ]
     },
     {
-      "source": "/(.*)\\.(?:js|css|html)$",
+      "source": "/(.*)\\.(js|css|html)$",
       "headers": [
         {
           "key": "Cache-Control",

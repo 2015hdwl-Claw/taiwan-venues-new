@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1086,
+    "name": "台北晶華酒店 Regent Taipei",
+    "totalRooms": 6,
+    "missingRooms": 6
+  },
+  {
+    "id": 1043,
+    "name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+    "totalRooms": 3,
+    "missingRooms": 3
+  },
+  {
+    "id": 1069,
+    "name": "台北國賓大飯店(AmbassadorTaipei)",
+    "totalRooms": 3,
+    "missingRooms": 3
+  },
+  {
+    "id": 1090,
+    "name": "茹曦酒店 ILLUME TAIPEI",
+    "totalRooms": 3,
+    "missingRooms": 3
+  },
+  {
+    "id": 1122,
+    "name": "維多麗亞酒店",
+    "totalRooms": 3,
+    "missingRooms": 3
+  },
+  {
+    "id": 1051,
+    "name": "台北亞都麗緻大飯店(LandisTaipei)",
+    "totalRooms": 2,
+    "missingRooms": 2
+  },
+  {
+    "id": 1068,
+    "name": "台北喜瑞飯店",
+    "totalRooms": 2,
+    "missingRooms": 2
+  },
+  {
+    "id": 1085,
+    "name": "台北文華東方酒店(MOHTaipei)",
+    "totalRooms": 2,
+    "missingRooms": 2
+  }
+]

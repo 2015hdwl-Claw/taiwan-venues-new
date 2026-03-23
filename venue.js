@@ -3,7 +3,7 @@ let allVenues = [];
 let currentVenue = null;
 
 // ===== 版本控制 =====
-const DATA_VERSION = '20260323-v3'; // 與 app.js 保持同步
+const DATA_VERSION = '20260323-v4'; // 與 app.js 保持同步
 
 // ===== 初始化 =====
 document.addEventListener('DOMContentLoaded', async () => {

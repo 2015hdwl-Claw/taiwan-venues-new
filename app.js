@@ -5,7 +5,7 @@ let currentPage = 0;
 const ITEMS_PER_PAGE = 20;
 
 // ===== 版本控制（每次部署更新此值）=====
-const DATA_VERSION = '20260323-v3'; // 格式: YYYYMMDD-序號
+const DATA_VERSION = '20260323-v4'; // 格式: YYYYMMDD-序號
 
 // ===== 排序權重定義 =====
 // 縣市排序（按場地數量降冪，前3名標記為熱門）

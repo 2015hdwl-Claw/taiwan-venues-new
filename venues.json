@@ -530,7 +530,12 @@
           "燈光"
         ],
         "images": [],
-        "id": "1043-01"
+        "id": "1043-01",
+        "length": 19.1,
+        "width": 14.7,
+        "sqm": 281,
+        "dimensions": "19.1x14.7x3m",
+        "shape": "長方形（推算）"
       },
       {
         "name": "會議室A",
@@ -551,7 +556,12 @@
           "白板"
         ],
         "images": [],
-        "id": "1043-02"
+        "id": "1043-02",
+        "length": 10,
+        "width": 8.3,
+        "sqm": 83,
+        "dimensions": "10x8.3x3m",
+        "shape": "長方形（推算）"
       },
       {
         "name": "會議室B",
@@ -572,7 +582,12 @@
           "白板"
         ],
         "images": [],
-        "id": "1043-03"
+        "id": "1043-03",
+        "length": 8.9,
+        "width": 7.4,
+        "sqm": 66,
+        "dimensions": "8.9x7.4x3m",
+        "shape": "長方形（推算）"
       }
     ],
     "lastUpdated": "2026-03-23",
@@ -736,7 +751,12 @@
           "麥克風"
         ],
         "images": [],
-        "id": "1048-01"
+        "id": "1048-01",
+        "length": 13.4,
+        "width": 11.1,
+        "sqm": 149,
+        "dimensions": "13.4x11.1x3m",
+        "shape": "長方形（推算）"
       }
     ],
     "lastUpdated": "2026-03-23"
@@ -899,7 +919,12 @@
           "燈光"
         ],
         "images": [],
-        "id": "1051-01"
+        "id": "1051-01",
+        "length": 17.3,
+        "width": 13.3,
+        "sqm": 231,
+        "dimensions": "17.3x13.3x3m",
+        "shape": "長方形（推算）"
       },
       {
         "name": "麗緻廳",
@@ -919,7 +944,12 @@
           "音響系統"
         ],
         "images": [],
-        "id": "1051-02"
+        "id": "1051-02",
+        "length": 10.9,
+        "width": 9.1,
+        "sqm": 99,
+        "dimensions": "10.9x9.1x3m",
+        "shape": "長方形（推算）"
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -978,7 +1008,12 @@
         "images": {
           "main": "https://www.brotherhotel.com.tw/wp-content/uploads/2022/11/婚宴場地-960x720.jpg",
           "source": "https://www.brotherhotel.com.tw/?cat=75"
-        }
+        },
+        "length": 26.3,
+        "width": 18.8,
+        "sqm": 496,
+        "dimensions": "26.3x18.8x3m",
+        "shape": "長方形（推算）"
       }
     ],
     "lastUpdated": "2026-03-23"
@@ -1635,7 +1670,12 @@
           "音響系統"
         ],
         "images": [],
-        "id": "1059-01"
+        "id": "1059-01",
+        "length": 11.8,
+        "width": 9.8,
+        "sqm": 116,
+        "dimensions": "11.8x9.8x3m",
+        "shape": "長方形（推算）"
       }
     ],
     "lastUpdated": "2026-03-23"
@@ -1831,7 +1871,12 @@
           "舞台"
         ],
         "images": [],
-        "id": "1068-01"
+        "id": "1068-01",
+        "length": 19.7,
+        "width": 15.1,
+        "sqm": 298,
+        "dimensions": "19.7x15.1x3m",
+        "shape": "長方形（推算）"
       },
       {
         "name": "會議室",
@@ -1852,7 +1897,12 @@
           "白板"
         ],
         "images": [],
-        "id": "1068-02"
+        "id": "1068-02",
+        "length": 8.9,
+        "width": 7.4,
+        "sqm": 66,
+        "dimensions": "8.9x7.4x3m",
+        "shape": "長方形（推算）"
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -1930,7 +1980,11 @@
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "未知",
-        "photo": "https://www.ambassador-hotels.com/images/images/hsinchu/dining/promenade/Ambassador-Hotel-Hsinchu-Promenade-Restaurant.jpg"
+        "photo": "https://www.ambassador-hotels.com/images/images/hsinchu/dining/promenade/Ambassador-Hotel-Hsinchu-Promenade-Restaurant.jpg",
+        "length": 22.7,
+        "width": 17.5,
+        "sqm": 397,
+        "dimensions": "22.7x17.5x3m"
       },
       {
         "name": "翡翠廳",
@@ -1963,7 +2017,11 @@
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "未知",
-        "photo": "https://www.ambassador-hotels.com/images/images/kaohsiung/hotel/Ambassador-Hotel-Kaohsiung-On-Banks-of-Love-River.jpg"
+        "photo": "https://www.ambassador-hotels.com/images/images/kaohsiung/hotel/Ambassador-Hotel-Kaohsiung-On-Banks-of-Love-River.jpg",
+        "length": 15.4,
+        "width": 11.8,
+        "sqm": 182,
+        "dimensions": "15.4x11.8x3m"
       },
       {
         "name": "董事會議廳",
@@ -1996,7 +2054,11 @@
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "未知",
-        "photo": "https://www.ambassador-hotels.com/images/files/taipei/dining/%E5%9C%8B%E8%B3%93%E4%B8%AD%E9%A4%90%E5%BB%B3(%E9%81%BC%E5%AF%A7)/2025-2026%E5%B0%BE%E7%89%99%E6%98%A5%E9%85%92/2026%E5%B0%BE%E7%89%99%E6%98%A5%E9%85%92%E5%AE%98%E7%B6%B2%E5%9C%96_%E4%B8%AD%E9%A4%90_0.jpg"
+        "photo": "https://www.ambassador-hotels.com/images/files/taipei/dining/%E5%9C%8B%E8%B3%93%E4%B8%AD%E9%A4%90%E5%BB%B3(%E9%81%BC%E5%AF%A7)/2025-2026%E5%B0%BE%E7%89%99%E6%98%A5%E9%85%92/2026%E5%B0%BE%E7%89%99%E6%98%A5%E9%85%92%E5%AE%98%E7%B6%B2%E5%9C%96_%E4%B8%AD%E9%A4%90_0.jpg",
+        "length": 10.9,
+        "width": 9.1,
+        "sqm": 99,
+        "dimensions": "10.9x9.1x3m"
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -2555,7 +2617,12 @@
           "音響系統"
         ],
         "images": [],
-        "id": "1073-01"
+        "id": "1073-01",
+        "length": 12.6,
+        "width": 10.5,
+        "sqm": 132,
+        "dimensions": "12.6x10.5x3m",
+        "shape": "長方形（推算）"
       }
     ],
     "lastUpdated": "2026-03-23"
@@ -4050,7 +4117,12 @@
           "白板"
         ],
         "images": [],
-        "id": "1080-01"
+        "id": "1080-01",
+        "length": 10.5,
+        "width": 8.8,
+        "sqm": 93,
+        "dimensions": "10.5x8.8x3m",
+        "shape": "長方形（推算）"
       }
     ],
     "lastUpdated": "2026-03-23"
@@ -4112,7 +4184,12 @@
           "視訊會議"
         ],
         "images": [],
-        "id": "1082-01"
+        "id": "1082-01",
+        "length": 7.7,
+        "width": 6.4,
+        "sqm": 50,
+        "dimensions": "7.7x6.4x3m",
+        "shape": "長方形（推算）"
       }
     ],
     "lastUpdated": "2026-03-23"
@@ -4167,7 +4244,12 @@
           "高速網路"
         ],
         "images": [],
-        "id": "1083-01"
+        "id": "1083-01",
+        "length": 15.4,
+        "width": 11.8,
+        "sqm": 182,
+        "dimensions": "15.4x11.8x3m",
+        "shape": "長方形（推算）"
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -4222,7 +4304,12 @@
           "麥克風"
         ],
         "images": [],
-        "id": "1084-01"
+        "id": "1084-01",
+        "length": 14.9,
+        "width": 11.5,
+        "sqm": 172,
+        "dimensions": "14.9x11.5x3m",
+        "shape": "長方形（推算）"
       }
     ],
     "lastUpdated": "2026-03-23"
@@ -4314,7 +4401,11 @@
           "無柱設計",
           "專業舞台"
         ],
-        "notes": "1樓最大宴會廳，挑高設計"
+        "notes": "1樓最大宴會廳，挑高設計",
+        "length": 26.3,
+        "width": 18.8,
+        "sqm": 496,
+        "dimensions": "26.3x18.8x4.5m"
       },
       {
         "name": "琥珀廳",
@@ -4355,7 +4446,11 @@
           "中型宴會廳",
           "多功能空間"
         ],
-        "notes": "1樓中型宴會廳"
+        "notes": "1樓中型宴會廳",
+        "length": 16.7,
+        "width": 12.9,
+        "sqm": 215,
+        "dimensions": "16.7x12.9x3.5m"
       }
     ],
     "lastUpdated": "2026-03-21"
@@ -4405,7 +4500,7 @@
         "floor": "B1",
         "area": 269,
         "areaUnit": "坪",
-        "sqm": 888,
+        "sqm": 889,
         "ceiling": 5,
         "capacity": {
           "theater": 600,
@@ -4438,7 +4533,10 @@
         "images": [
           "https://www.regenttaiwan.com/occasions/uploads/site/11/org/af16abb69345576b2e04d5c30a9645f8.jpg"
         ],
-        "notes": "前廳挑高5米，後廳2.4米，可容納1000人招待會"
+        "notes": "前廳挑高5米，後廳2.4米，可容納1000人招待會",
+        "length": 35.3,
+        "width": 25.2,
+        "dimensions": "35.3x25.2x5m"
       },
       {
         "id": "1086-02",
@@ -4447,7 +4545,7 @@
         "floor": "待確認",
         "area": 82,
         "areaUnit": "坪",
-        "sqm": 270,
+        "sqm": 271,
         "ceiling": 2.4,
         "capacity": {
           "theater": 200,
@@ -4474,7 +4572,10 @@
         "photo": "https://www.regenttaiwan.com/occasions/uploads/site/8/org/201844dbf31f9bbff3dbfccbd7f162e2.png",
         "images": [
           "https://www.regenttaiwan.com/occasions/uploads/site/8/org/201844dbf31f9bbff3dbfccbd7f162e2.png"
-        ]
+        ],
+        "length": 18.8,
+        "width": 14.4,
+        "dimensions": "18.8x14.4x2.4m"
       },
       {
         "id": "1086-03",
@@ -4510,7 +4611,10 @@
         "photo": "https://www.regenttaiwan.com/occasions/uploads/site/10/org/6c2a5bf5bad0d44bdd94c0ba1377b2d8.png",
         "images": [
           "https://www.regenttaiwan.com/occasions/uploads/site/10/org/6c2a5bf5bad0d44bdd94c0ba1377b2d8.png"
-        ]
+        ],
+        "length": 21.5,
+        "width": 16.6,
+        "dimensions": "21.5x16.6x2.3m"
       },
       {
         "id": "1086-04",
@@ -4519,7 +4623,7 @@
         "floor": "待確認",
         "area": 142,
         "areaUnit": "坪",
-        "sqm": 470,
+        "sqm": 469,
         "ceiling": 2.35,
         "capacity": {
           "theater": 440,
@@ -4545,7 +4649,10 @@
         "photo": "https://www.regenttaiwan.com/occasions/uploads/site/12/org/fb7ab9bad6dc7648a77ce3d8d60caa10.jpg",
         "images": [
           "https://www.regenttaiwan.com/occasions/uploads/site/12/org/fb7ab9bad6dc7648a77ce3d8d60caa10.jpg"
-        ]
+        ],
+        "length": 24.7,
+        "width": 19,
+        "dimensions": "24.7x19x2.35m"
       },
       {
         "id": "1086-05",
@@ -4589,7 +4696,7 @@
         "floor": "待確認",
         "area": 235,
         "areaUnit": "坪",
-        "sqm": 776,
+        "sqm": 777,
         "ceiling": 2.3,
         "capacity": {
           "theater": 700,
@@ -4615,7 +4722,10 @@
         "description": "9 間高雅的貴賓廳，可個別預訂或合併間數，無論任何大小規模的會議或派對，酒店都能為您量身訂做、精心策劃。",
         "photo": null,
         "images": [],
-        "notes": "9間貴賓廳可個別預訂或合併使用"
+        "notes": "9間貴賓廳可個別預訂或合併使用",
+        "length": 33,
+        "width": 23.6,
+        "dimensions": "33x23.6x2.3m"
       }
     ],
     "lastUpdated": "2026-03-21"
@@ -4691,7 +4801,11 @@
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "未知",
-        "photo": "https://www.dynasty.com.tw/images/banner4.jpg"
+        "photo": "https://www.dynasty.com.tw/images/banner4.jpg",
+        "length": 24.5,
+        "width": 18.9,
+        "sqm": 463,
+        "dimensions": "24.5x18.9x3m"
       },
       {
         "name": "斯賓諾莎宴會廳",
@@ -4724,7 +4838,11 @@
         "pillarCount": 2,
         "pillarInfo": "有柱子",
         "shape": "未知",
-        "photo": "https://www.dynasty.com.tw/images/banner4-s.jpg"
+        "photo": "https://www.dynasty.com.tw/images/banner4-s.jpg",
+        "length": 23.2,
+        "width": 17.8,
+        "sqm": 413,
+        "dimensions": "23.2x17.8x3m"
       },
       {
         "name": "貴賓軒",
@@ -4756,7 +4874,11 @@
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "未知",
-        "photo": "https://www.dynasty.com.tw/images/banner4.jpg"
+        "photo": "https://www.dynasty.com.tw/images/banner4.jpg",
+        "length": 6.3,
+        "width": 5.2,
+        "sqm": 33,
+        "dimensions": "6.3x5.2x3m"
       }
     ],
     "lastUpdated": "2026-03-23"
@@ -4810,7 +4932,12 @@
           "音響系統"
         ],
         "images": [],
-        "id": "1092-01"
+        "id": "1092-01",
+        "length": 12.3,
+        "width": 10.2,
+        "sqm": 126,
+        "dimensions": "12.3x10.2x3m",
+        "shape": "長方形（推算）"
       }
     ],
     "lastUpdated": "2026-03-23"
@@ -4883,7 +5010,12 @@
           "挑高7米",
           "大型宴會廳"
         ],
-        "notes": "3樓挑高宴會廳，無柱設計"
+        "notes": "3樓挑高宴會廳，無柱設計",
+        "length": 30.4,
+        "width": 21.7,
+        "sqm": 661,
+        "dimensions": "30.4x21.7x7m",
+        "shape": "長方形（推算）"
       },
       {
         "name": "多功能會議室",
@@ -4912,7 +5044,12 @@
           "多功能空間",
           "彈性隔間"
         ],
-        "notes": "3樓多功能會議室"
+        "notes": "3樓多功能會議室",
+        "length": 10.5,
+        "width": 8.8,
+        "sqm": 93,
+        "dimensions": "10.5x8.8x3m",
+        "shape": "長方形（推算）"
       }
     ],
     "lastUpdated": "2026-03-23"
@@ -4975,7 +5112,12 @@
           "麥克風"
         ],
         "images": [],
-        "id": "1097-01"
+        "id": "1097-01",
+        "length": 16.7,
+        "width": 12.9,
+        "sqm": 215,
+        "dimensions": "16.7x12.9x3m",
+        "shape": "長方形（推算）"
       },
       {
         "name": "會議室",
@@ -4996,7 +5138,12 @@
           "白板"
         ],
         "images": [],
-        "id": "1097-02"
+        "id": "1097-02",
+        "length": 9.3,
+        "width": 7.8,
+        "sqm": 73,
+        "dimensions": "9.3x7.8x3m",
+        "shape": "長方形（推算）"
       }
     ],
     "lastUpdated": "2026-03-23"
@@ -5050,7 +5197,12 @@
           "燈光"
         ],
         "images": [],
-        "id": "1099-01"
+        "id": "1099-01",
+        "length": 20.7,
+        "width": 15.9,
+        "sqm": 331,
+        "dimensions": "20.7x15.9x3m",
+        "shape": "長方形（推算）"
       }
     ],
     "lastUpdated": "2026-03-17"
@@ -5112,7 +5264,12 @@
           "麥克風"
         ],
         "images": [],
-        "id": "1100-01"
+        "id": "1100-01",
+        "length": 17.6,
+        "width": 13.5,
+        "sqm": 238,
+        "dimensions": "17.6x13.5x3m",
+        "shape": "長方形（推算）"
       }
     ],
     "lastUpdated": "2026-03-23",
@@ -6497,7 +6654,12 @@
           "商務會議",
           "適合中小型會議"
         ],
-        "notes": "神旺商務酒店會議室，適洽商會議、研討會"
+        "notes": "神旺商務酒店會議室，適洽商會議、研討會",
+        "length": 14.7,
+        "width": 11.3,
+        "sqm": 165,
+        "dimensions": "14.7x11.3x3.2m",
+        "shape": "長方形（推算）"
       }
     ],
     "lastUpdated": "2026-03-23"
@@ -6571,7 +6733,12 @@
           "現代時尚英式劇院風格",
           "可延伸至戶外花園"
         ],
-        "notes": "挑高8米現代時尚英式劇院宴會廳，可延伸至戶外花園，適合大型會議、婚宴"
+        "notes": "挑高8米現代時尚英式劇院宴會廳，可延伸至戶外花園，適合大型會議、婚宴",
+        "length": 30.4,
+        "width": 21.7,
+        "sqm": 661,
+        "dimensions": "30.4x21.7x8m",
+        "shape": "長方形（推算）"
       },
       {
         "id": "1122-02",
@@ -6602,7 +6769,12 @@
           "中型會議廳",
           "多功能用途"
         ],
-        "notes": "3樓中型會議廳，適合中型會議、研討會"
+        "notes": "3樓中型會議廳，適合中型會議、研討會",
+        "length": 18.5,
+        "width": 14.3,
+        "sqm": 264,
+        "dimensions": "18.5x14.3x4m",
+        "shape": "長方形（推算）"
       },
       {
         "id": "1122-03",
@@ -6633,7 +6805,12 @@
           "小型會議廳",
           "適合小組討論"
         ],
-        "notes": "3樓小型會議廳，適洽商會議、培訓"
+        "notes": "3樓小型會議廳，適洽商會議、培訓",
+        "length": 14.7,
+        "width": 11.3,
+        "sqm": 165,
+        "dimensions": "14.7x11.3x3.5m",
+        "shape": "長方形（推算）"
       }
     ],
     "lastUpdated": "2026-03-23"
@@ -6708,7 +6885,12 @@
           "寬敞無柱設計",
           "五星級場地"
         ],
-        "notes": "挑高7米寬敞無柱多功能宴會廳，適合大型會議、婚宴、發表會"
+        "notes": "挑高7米寬敞無柱多功能宴會廳，適合大型會議、婚宴、發表會",
+        "length": 34,
+        "width": 24.3,
+        "sqm": 826,
+        "dimensions": "34x24.3x7m",
+        "shape": "長方形（推算）"
       },
       {
         "id": "1124-02",
@@ -6739,7 +6921,12 @@
           "獨立包廂",
           "適合中小型會議"
         ],
-        "notes": "獨立完善可量身打造的會議室"
+        "notes": "獨立完善可量身打造的會議室",
+        "length": 12.6,
+        "width": 10.5,
+        "sqm": 132,
+        "dimensions": "12.6x10.5x3.2m",
+        "shape": "長方形（推算）"
       }
     ],
     "lastUpdated": "2026-03-23"
@@ -6864,7 +7051,12 @@
           "鄰近西門町",
           "12樓高空景觀"
         ],
-        "notes": "12樓宴會廳，可欣賞淡水河岸夜景，適合中型會議、宴會"
+        "notes": "12樓宴會廳，可欣賞淡水河岸夜景，適合中型會議、宴會",
+        "length": 20.7,
+        "width": 15.9,
+        "sqm": 331,
+        "dimensions": "20.7x15.9x3.5m",
+        "shape": "長方形（推算）"
       }
     ],
     "lastUpdated": "2026-03-23"

@@ -6777,20 +6777,19 @@
     "rooms": [
       {
         "id": "1122-01",
-        "name": "大宴會廳",
-        "nameEn": "Grand Ballroom",
+        "name": "大宴會廳全區",
+        "nameEn": "Grand Ballroom (Full)",
         "floor": "1樓",
         "area": 156,
         "areaUnit": "坪",
         "areaSqm": 516,
         "ceiling": 8,
         "capacity": {
-          "theater": 300,
-          "classroom": 240,
-          "ushape": 42,
-          "roundtable": 46,
-          "cocktail": 450,
-          "banquet": 46
+          "theater": 450,
+          "classroom": 270,
+          "ushape": null,
+          "roundtable": 300,
+          "cocktail": 240
         },
         "capacityType": "劇院式",
         "price": {
@@ -6818,115 +6817,111 @@
         "features": [
           "挑高8米",
           "現代時尚英式劇院風格",
-          "可分為A/B/C區",
           "可延伸至戶外花園"
         ],
-        "notes": "挑高8米現代時尚英式劇院宴會廳，可延伸至戶外花園，適合大型會議、婚宴",
-        "length": 29,
-        "width": 18,
-        "sqm": 516,
-        "dimensions": "29x18x8m",
-        "shape": "長方形",
-        "subAreas": ["A區", "B區", "C區"]
+        "notes": "挑高8米現代時尚英式劇院宴會廳，可延伸至戶外花園，適合大型會議、婚宴"
       },
       {
         "id": "1122-02",
-        "name": "維多麗亞廳",
-        "nameEn": "Victoria Ballroom",
-        "floor": "3樓",
-        "area": 123,
+        "name": "大宴會廳A區",
+        "nameEn": "Grand Ballroom Area A",
+        "floor": "1樓",
+        "area": 24,
         "areaUnit": "坪",
-        "areaSqm": 408,
-        "ceiling": 4,
+        "areaSqm": 80,
+        "ceiling": 8,
         "capacity": {
-          "theater": 270,
-          "classroom": 240,
-          "ushape": 32,
-          "roundtable": 36,
-          "cocktail": 450,
-          "banquet": 36
+          "theater": 45,
+          "classroom": 30,
+          "ushape": null,
+          "roundtable": 55,
+          "cocktail": 100
         },
         "price": {
-          "morning": 60000,
-          "afternoon": 60000,
-          "evening": 80000,
-          "halfDay": 60000,
-          "fullDay": 240000
+          "note": "價格需洽詢",
+          "inquiry": true
         },
         "equipment": [
-          "投影設備",
-          "音響系統",
-          "白板",
-          "無線網路"
+          "頂級音響系統",
+          "專業舞台",
+          "LED大螢幕",
+          "投影設備"
         ],
         "images": [],
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "hasWindow": true,
         "features": [
-          "中型會議廳",
-          "多功能用途",
-          "可分為A/B/C區"
+          "挑高8米",
+          "可與B/C區合併"
         ],
-        "notes": "3樓中型會議廳，適合中型會議、研討會",
-        "length": 28,
-        "width": 16,
-        "sqm": 408,
-        "dimensions": "28x16x4m",
-        "shape": "長方形",
-        "subAreas": ["A區", "B區", "C區"]
+        "notes": "大宴會廳A區，可獨立使用或與B/C區合併"
       },
       {
         "id": "1122-03",
-        "name": "天璽廳",
-        "nameEn": "Noble Ballroom",
-        "floor": "3樓",
-        "area": 52,
+        "name": "大宴會廳B區",
+        "nameEn": "Grand Ballroom Area B",
+        "floor": "1樓",
+        "area": 27,
         "areaUnit": "坪",
-        "areaSqm": 171,
-        "ceiling": 4,
+        "areaSqm": 89,
+        "ceiling": 8,
         "capacity": {
-          "theater": 130,
-          "classroom": 72,
-          "ushape": 60,
-          "roundtable": 12,
-          "cocktail": 70,
-          "banquet": 12
+          "theater": 54,
+          "classroom": 33,
+          "ushape": null,
+          "roundtable": 55,
+          "cocktail": 100
         },
         "price": {
-          "morning": 25000,
-          "afternoon": 25000,
-          "evening": 40000,
-          "halfDay": 25000,
-          "fullDay": 120000
+          "note": "價格需洽詢",
+          "inquiry": true
         },
         "equipment": [
-          "投影設備",
-          "音響系統",
-          "白板",
-          "無線網路"
+          "頂級音響系統",
+          "專業舞台",
+          "LED大螢幕",
+          "投影設備"
         ],
         "images": [],
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "hasWindow": true,
         "features": [
-          "小型會議廳",
-          "適合小組討論",
-          "可分為N1/N2/N3區"
+          "挑高8米",
+          "可與A/C區合併"
         ],
-        "notes": "3樓小型會議廳，適洽商會議、培訓",
-        "length": 23,
-        "width": 8,
-        "sqm": 171,
-        "dimensions": "23x8x4m",
-        "shape": "長方形",
-        "subAreas": ["N1", "N2", "N3"]
+        "notes": "大宴會廳B區，可獨立使用或與A/C區合併"
       },
       {
         "id": "1122-04",
+        "name": "大宴會廳C區",
+        "nameEn": "Grand Ballroom Area C",
+        "floor": "1樓",
+        "area": 29,
+        "areaUnit": "坪",
+        "areaSqm": 96,
+        "ceiling": 8,
+        "capacity": {
+          "theater": 126,
+          "classroom": 36,
+          "ushape": null,
+          "roundtable": 230,
+          "cocktail": 120
+        },
+        "price": {
+          "note": "價格需洽詢",
+          "inquiry": true
+        },
+        "equipment": [
+          "頂級音響系統",
+          "專業舞台",
+          "LED大螢幕",
+          "投影設備"
+        ],
+        "images": [],
+        "features": [
+          "挑高8米",
+          "可與A/B區合併"
+        ],
+        "notes": "大宴會廳C區，可獨立使用或與A/B區合併"
+      },
+      {
+        "id": "1122-05",
         "name": "維多麗亞戶外庭園",
         "nameEn": "Victoria Garden",
         "floor": "戶外",
@@ -6952,7 +6947,230 @@
         "notes": "70坪戶外庭園，適合雞尾酒會、茶會"
       },
       {
-        "id": "1122-05",
+        "id": "1122-06",
+        "name": "維多麗亞廳全區",
+        "nameEn": "Victoria Ballroom (Full)",
+        "floor": "3樓",
+        "area": 123,
+        "areaUnit": "坪",
+        "areaSqm": 408,
+        "ceiling": 4,
+        "capacity": {
+          "theater": 450,
+          "classroom": 270,
+          "ushape": null,
+          "roundtable": 360,
+          "cocktail": 240
+        },
+        "price": {
+          "morning": 60000,
+          "afternoon": 60000,
+          "evening": 80000,
+          "halfDay": 60000,
+          "fullDay": 240000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "白板",
+          "無線網路"
+        ],
+        "images": [],
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "hasWindow": true,
+        "features": [
+          "中型會議廳",
+          "多功能用途"
+        ],
+        "notes": "3樓中型會議廳，適合中型會議、研討會"
+      },
+      {
+        "id": "1122-07",
+        "name": "維多麗亞廳A區",
+        "nameEn": "Victoria Ballroom Area A",
+        "floor": "3樓",
+        "area": 44,
+        "areaUnit": "坪",
+        "areaSqm": 146,
+        "ceiling": 4,
+        "capacity": {
+          "theater": 54,
+          "classroom": 30,
+          "ushape": null,
+          "roundtable": 55,
+          "cocktail": 100
+        },
+        "price": {
+          "note": "價格需洽詢",
+          "inquiry": true
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統"
+        ],
+        "images": [],
+        "features": [
+          "可與B/C區合併"
+        ],
+        "notes": "維多麗亞廳A區，可獨立使用或與B/C區合併"
+      },
+      {
+        "id": "1122-08",
+        "name": "維多麗亞廳B區",
+        "nameEn": "Victoria Ballroom Area B",
+        "floor": "3樓",
+        "area": 47,
+        "areaUnit": "坪",
+        "areaSqm": 154,
+        "ceiling": 4,
+        "capacity": {
+          "theater": 54,
+          "classroom": 33,
+          "ushape": null,
+          "roundtable": 55,
+          "cocktail": 100
+        },
+        "price": {
+          "note": "價格需洽詢",
+          "inquiry": true
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統"
+        ],
+        "images": [],
+        "features": [
+          "可與A/C區合併"
+        ],
+        "notes": "維多麗亞廳B區，可獨立使用或與A/C區合併"
+      },
+      {
+        "id": "1122-09",
+        "name": "維多麗亞廳C區",
+        "nameEn": "Victoria Ballroom Area C",
+        "floor": "3樓",
+        "area": 74,
+        "areaUnit": "坪",
+        "areaSqm": 246,
+        "ceiling": 4,
+        "capacity": {
+          "theater": 126,
+          "classroom": 36,
+          "ushape": null,
+          "roundtable": 230,
+          "cocktail": 120
+        },
+        "price": {
+          "note": "價格需洽詢",
+          "inquiry": true
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統"
+        ],
+        "images": [],
+        "features": [
+          "可與A/B區合併"
+        ],
+        "notes": "維多麗亞廳C區，可獨立使用或與A/B區合併"
+      },
+      {
+        "id": "1122-10",
+        "name": "天璽廳N1",
+        "nameEn": "Noble Ballroom N1",
+        "floor": "3樓",
+        "area": 9,
+        "areaUnit": "坪",
+        "areaSqm": 30,
+        "ceiling": 4,
+        "capacity": {
+          "theater": 18,
+          "classroom": null,
+          "ushape": null,
+          "roundtable": null,
+          "cocktail": null
+        },
+        "price": {
+          "note": "價格需洽詢",
+          "inquiry": true
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統"
+        ],
+        "images": [],
+        "features": [
+          "小型會議室",
+          "可與N2/N3合併"
+        ],
+        "notes": "天璽廳N1，可獨立使用或與N2/N3合併"
+      },
+      {
+        "id": "1122-11",
+        "name": "天璽廳N2",
+        "nameEn": "Noble Ballroom N2",
+        "floor": "3樓",
+        "area": 9,
+        "areaUnit": "坪",
+        "areaSqm": 30,
+        "ceiling": 4,
+        "capacity": {
+          "theater": 27,
+          "classroom": null,
+          "ushape": null,
+          "roundtable": null,
+          "cocktail": null
+        },
+        "price": {
+          "note": "價格需洽詢",
+          "inquiry": true
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統"
+        ],
+        "images": [],
+        "features": [
+          "小型會議室",
+          "可與N1/N3合併"
+        ],
+        "notes": "天璽廳N2，可獨立使用或與N1/N3合併"
+      },
+      {
+        "id": "1122-12",
+        "name": "天璽廳N3",
+        "nameEn": "Noble Ballroom N3",
+        "floor": "3樓",
+        "area": 9,
+        "areaUnit": "坪",
+        "areaSqm": 30,
+        "ceiling": 4,
+        "capacity": {
+          "theater": 24,
+          "classroom": null,
+          "ushape": null,
+          "roundtable": null,
+          "cocktail": null
+        },
+        "price": {
+          "note": "價格需洽詢",
+          "inquiry": true
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統"
+        ],
+        "images": [],
+        "features": [
+          "小型會議室",
+          "可與N1/N2合併"
+        ],
+        "notes": "天璽廳N3，可獨立使用或與N1/N2合併"
+      },
+      {
+        "id": "1122-13",
         "name": "貴賓室",
         "nameEn": "VIP Room",
         "floor": "3樓",

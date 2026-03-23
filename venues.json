@@ -1042,71 +1042,415 @@
   {
     "id": 1057,
     "name": "台北典華",
+    "nameEn": "Denwell Taipei",
     "venueType": "婚宴場地",
     "city": "台北市",
     "address": "台北市中山區中山北路三段33號",
     "contactPerson": "婚宴顧問",
-    "contactPhone": "02-2592-5555",
-    "contactEmail": "wedding@dianhua.com.tw",
+    "contactPhone": "02-8502-5555",
+    "contactEmail": "service@denwell.com",
     "url": "https://www.denwell.com/",
     "priceHalfDay": 100000,
     "priceFullDay": 180000,
-    "maxCapacityTheater": 800,
-    "maxCapacityClassroom": 450,
+    "maxCapacityTheater": 1760,
+    "maxCapacityClassroom": 1350,
     "availableTimeWeekday": "11:00-22:00",
     "availableTimeWeekend": "11:00-22:00",
-    "equipment": "專業音響燈光、LED螢幕",
+    "equipment": "專業音響燈光、LED螢幕、投影設備",
     "images": {
-      "main": "https://img.denwell.com/denwell/wp-content/uploads/2024071502030648.jpg",
+      "main": "https://img.denwell.com/denwell/wp-content/uploads/2024111307194564-scaled.jpg",
       "gallery": [
-        "https://img.denwell.com/denwell/wp-content/uploads/2025/07/2025072907550938-scaled.jpg",
-        "https://img.denwell.com/denwell/wp-content/uploads/2025/07/2025072907553721-scaled.jpg",
-        "https://img.denwell.com/denwell/wp-content/uploads/2025/07/2025072907560819-scaled.jpg"
+        "https://img.denwell.com/denwell/wp-content/uploads/202411130711577.jpg",
+        "https://img.denwell.com/denwell/wp-content/uploads/2024111306562866.jpg",
+        "https://img.denwell.com/denwell/wp-content/uploads/202411130749229-scaled.jpg",
+        "https://img.denwell.com/denwell/wp-content/uploads/2024/07/2024111504011310-scaled.jpg",
+        "https://img.denwell.com/denwell/wp-content/uploads/2020/12/2021092006512044.jpg",
+        "https://img.denwell.com/denwell/wp-content/uploads/2024100808341399-scaled.jpg",
+        "https://img.denwell.com/denwell/wp-content/uploads/2024/07/2024122605375269.jpg",
+        "https://img.denwell.com/denwell/wp-content/uploads/2020/12/21.09.03大直典華空間-116.jpg"
       ],
       "floorPlan": "",
       "needsUpdate": false,
-      "note": "使用官網會議室照片",
+      "note": "更新自官網空間介紹頁面 - 14個會議空間",
       "lastUpdated": "2026-03-23",
-      "source": "https://www.denwell.com/dianhua-taipei",
+      "source": "https://www.denwell.com/service-dazhi-venue-introduction/",
       "verified": true,
-      "verifiedAt": "2026-03-23T08:55:24.561471Z"
+      "verifiedAt": "2026-03-23T10:30:00.000000Z"
     },
     "verified": true,
     "rooms": [
       {
-        "id": "r001",
-        "name": "大直典華宴會廳",
-        "area": 500,
+        "id": "1057-01",
+        "name": "大地 Terra",
+        "nameEn": "Terra",
+        "floor": "3F",
+        "area": 105,
         "areaUnit": "坪",
-        "capacity": 800,
-        "capacityType": "宴會式",
+        "sqm": 347,
+        "ceiling": 4.5,
+        "dimensions": "17x20x4.5m",
+        "capacity": {
+          "theater": 200,
+          "classroom": 162,
+          "ushape": 168,
+          "roundtable": 110,
+          "banquet": 19
+        },
+        "features": ["全新空間", "挑高4.5米"],
+        "description": "全新空間 - 適合中型會議、發表會、研討會",
         "images": {
-          "main": "https://img.denwell.com/denwell/wp-content/uploads/2025/07/2025072907550938-scaled.jpg",
-          "source": "https://www.denwell.com"
+          "main": "https://img.denwell.com/denwell/wp-content/uploads/2024111307194564-scaled.jpg",
+          "source": "https://www.denwell.com/service-dazhi-venue-introduction/"
         }
       },
       {
-        "id": "r002",
-        "name": "會議空間A",
-        "area": 80,
+        "id": "1057-02",
+        "name": "光影 Luma",
+        "nameEn": "Luma",
+        "floor": "3F",
+        "area": 97,
         "areaUnit": "坪",
-        "capacity": 100,
-        "capacityType": "課桌式",
+        "sqm": 320,
+        "ceiling": 4.5,
+        "dimensions": "15x22x4.5m",
+        "capacity": {
+          "theater": 230,
+          "classroom": 180,
+          "ushape": 144,
+          "roundtable": 88,
+          "banquet": 21
+        },
+        "features": ["全新空間", "挑高4.5米"],
+        "description": "全新空間 - 適合中型會議、培訓課程",
         "images": {
-          "main": "https://img.denwell.com/denwell/wp-content/uploads/2025/07/2025072907553721-scaled.jpg",
-          "source": "https://www.denwell.com"
+          "main": "https://img.denwell.com/denwell/wp-content/uploads/202411130711577.jpg",
+          "source": "https://www.denwell.com/service-dazhi-venue-introduction/"
         }
       },
       {
-        "id": "r003",
-        "name": "獨立包廂",
+        "id": "1057-03",
+        "name": "湖泊 Lake",
+        "nameEn": "Lake",
+        "floor": "3F",
+        "area": 97,
+        "areaUnit": "坪",
+        "sqm": 320,
+        "ceiling": 4.5,
+        "dimensions": "15x22x4.5m",
+        "capacity": {
+          "theater": 260,
+          "classroom": 180,
+          "ushape": 144,
+          "roundtable": 88,
+          "banquet": 21
+        },
+        "features": ["全新空間", "挑高4.5米"],
+        "description": "全新空間 - 適合中型會議、研討會",
+        "images": {
+          "main": "https://img.denwell.com/denwell/wp-content/uploads/2024111306562866.jpg",
+          "source": "https://www.denwell.com/service-dazhi-venue-introduction/"
+        }
+      },
+      {
+        "id": "1057-04",
+        "name": "閣樓 Loft",
+        "nameEn": "Loft",
+        "floor": "3F",
+        "area": 115,
+        "areaUnit": "坪",
+        "sqm": 380,
+        "ceiling": 4.5,
+        "dimensions": "21x25x4.5m",
+        "capacity": {
+          "theater": 400,
+          "classroom": 258,
+          "ushape": 240,
+          "roundtable": 124,
+          "banquet": 33
+        },
+        "features": ["重現經典", "挑高4.5米"],
+        "description": "重現經典空間 - 適合大型會議、發表會",
+        "images": {
+          "main": "https://img.denwell.com/denwell/wp-content/uploads/2024/07/2024111504011310-scaled.jpg",
+          "source": "https://www.denwell.com/service-dazhi-venue-introduction/"
+        }
+      },
+      {
+        "id": "1057-05",
+        "name": "法室 Salotto",
+        "nameEn": "Salotto",
+        "floor": "3F",
+        "area": 105,
+        "areaUnit": "坪",
+        "sqm": 347,
+        "ceiling": 4.5,
+        "dimensions": "15x25x4.5m",
+        "capacity": {
+          "theater": 308,
+          "classroom": 162,
+          "ushape": 168,
+          "roundtable": 110,
+          "banquet": 30
+        },
+        "features": ["重現經典", "挑高4.5米"],
+        "description": "重現經典空間 - 適合中型會議、宴會",
+        "images": {
+          "main": "https://img.denwell.com/denwell/wp-content/uploads/202411130749229-scaled.jpg",
+          "source": "https://www.denwell.com/service-dazhi-venue-introduction/"
+        }
+      },
+      {
+        "id": "1057-06",
+        "name": "日出 Sunrise",
+        "nameEn": "Sunrise",
+        "floor": "5F",
+        "area": 109,
+        "areaUnit": "坪",
+        "sqm": 360,
+        "ceiling": 6,
+        "dimensions": "15x23x6m",
+        "capacity": {
+          "theater": 273,
+          "classroom": 144,
+          "ushape": 144,
+          "roundtable": 88,
+          "banquet": 27
+        },
+        "features": ["挑高6米", "採光優良"],
+        "description": "挑高空間 - 適合中型會議、發表會",
+        "images": {
+          "main": "https://img.denwell.com/denwell/wp-content/uploads/2020/12/2021092006512044.jpg",
+          "source": "https://www.denwell.com/service-dazhi-venue-introduction/"
+        }
+      },
+      {
+        "id": "1057-07",
+        "name": "紫境 Venue526",
+        "nameEn": "Venue526",
+        "floor": "5F",
+        "area": 95,
+        "areaUnit": "坪",
+        "sqm": 314,
+        "ceiling": 6,
+        "dimensions": "18x21x6m",
+        "capacity": {
+          "theater": 318,
+          "classroom": 123,
+          "roundtable": 0,
+          "banquet": 19
+        },
+        "features": ["挑高6米", "特色空間"],
+        "description": "特色空間 - 適合發表會、展示活動",
+        "images": {
+          "main": "https://img.denwell.com/denwell/wp-content/uploads/2024100808341399-scaled.jpg",
+          "source": "https://www.denwell.com/service-dazhi-venue-introduction/"
+        }
+      },
+      {
+        "id": "1057-08",
+        "name": "藝廊 Gallery",
+        "nameEn": "Gallery",
+        "floor": "3F",
         "area": 30,
         "areaUnit": "坪",
-        "capacity": 30,
-        "capacityType": "宴會式",
+        "sqm": 99,
+        "ceiling": 4.5,
+        "dimensions": "8x12.5x4.5m",
+        "capacity": {
+          "theater": 60,
+          "classroom": 24,
+          "ushape": 36,
+          "roundtable": 32,
+          "banquet": 8
+        },
+        "features": ["小型空間", "0-100人"],
+        "description": "小型會議空間 - 適合小型會議、面試",
         "images": {
-          "main": "https://img.denwell.com/denwell/wp-content/uploads/2025/07/2025072907560819-scaled.jpg",
-          "source": "https://www.denwell.com"
+          "main": "https://img.denwell.com/denwell/wp-content/uploads/2024/07/2024122605375269.jpg",
+          "source": "https://www.denwell.com/service-dazhi-venue-introduction/"
+        }
+      },
+      {
+        "id": "1057-09",
+        "name": "飛蝶圓頂 Crystal Hall",
+        "nameEn": "Crystal Hall",
+        "floor": "S2",
+        "area": 0,
+        "areaUnit": "坪",
+        "ceiling": 0,
+        "dimensions": "直徑15m",
+        "capacity": {
+          "theater": 50
+        },
+        "features": ["圓形空間", "0-100人"],
+        "description": "圓形空間 - 適合小型活動、派對",
+        "images": {
+          "main": "https://img.denwell.com/denwell/wp-content/uploads/2021/02/21.09.03大直典華空間-210.jpg",
+          "source": "https://www.denwell.com/service-dazhi-venue-introduction/"
+        }
+      },
+      {
+        "id": "1057-10",
+        "name": "圓心 Dome Hall",
+        "nameEn": "Dome Hall",
+        "floor": "S1",
+        "area": 0,
+        "areaUnit": "坪",
+        "ceiling": 0,
+        "dimensions": "直徑12.6m",
+        "capacity": {
+          "theater": 60,
+          "banquet": 50
+        },
+        "features": ["圓形空間", "0-100人"],
+        "description": "圓形空間 - 適合小型宴會、派對",
+        "images": {
+          "main": "https://img.denwell.com/denwell/wp-content/uploads/2020/12/21.09.03大直典華空間-116.jpg",
+          "source": "https://www.denwell.com/service-dazhi-venue-introduction/"
+        }
+      },
+      {
+        "id": "1057-11",
+        "name": "繁華 Splendor",
+        "nameEn": "Splendor",
+        "floor": "5F",
+        "area": 224,
+        "areaUnit": "坪",
+        "sqm": 740,
+        "ceiling": 6,
+        "dimensions": "33x25x6m",
+        "capacity": {
+          "theater": 651,
+          "classroom": 366,
+          "ushape": 354,
+          "roundtable": 456,
+          "banquet": 50
+        },
+        "features": ["挑高6米", "0-600人"],
+        "description": "大型宴會空間 - 適合大型會議、婚宴",
+        "images": {
+          "main": "https://img.denwell.com/denwell/wp-content/uploads/2020/12/2020120102070617.jpg",
+          "source": "https://www.denwell.com/service-dazhi-venue-introduction/"
+        }
+      },
+      {
+        "id": "1057-12",
+        "name": "似錦 Glory",
+        "nameEn": "Glory",
+        "floor": "5F",
+        "area": 169,
+        "areaUnit": "坪",
+        "sqm": 558,
+        "ceiling": 6,
+        "dimensions": "23x27x6m",
+        "capacity": {
+          "theater": 568,
+          "classroom": 255,
+          "ushape": 312,
+          "roundtable": 144,
+          "banquet": 40
+        },
+        "features": ["挑高6米", "0-600人"],
+        "description": "大型宴會空間 - 適合大型會議、婚宴",
+        "images": {
+          "main": "https://img.denwell.com/denwell/wp-content/uploads/2020/12/2020120102045951.jpg",
+          "source": "https://www.denwell.com/service-dazhi-venue-introduction/"
+        }
+      },
+      {
+        "id": "1057-13",
+        "name": "花田好事 Grand Ballroom II",
+        "nameEn": "Grand Ballroom II",
+        "floor": "6F",
+        "area": 277,
+        "areaUnit": "坪",
+        "sqm": 915,
+        "ceiling": 8,
+        "dimensions": "26.5x36x8m",
+        "capacity": {
+          "theater": 880,
+          "classroom": 572,
+          "ushape": 528,
+          "roundtable": 592,
+          "banquet": 75
+        },
+        "features": ["挑高8米", "0-800人"],
+        "description": "超大型宴會廳 - 適合超大活動、婚宴",
+        "images": {
+          "main": "https://img.denwell.com/denwell/wp-content/uploads/2020/12/2020120102143549.jpg",
+          "source": "https://www.denwell.com/service-dazhi-venue-introduction/"
+        }
+      },
+      {
+        "id": "1057-14",
+        "name": "花田盛事 Grand Ballroom I",
+        "nameEn": "Grand Ballroom I",
+        "floor": "6F",
+        "area": 274,
+        "areaUnit": "坪",
+        "sqm": 905,
+        "ceiling": 8,
+        "dimensions": "26x36x8m",
+        "capacity": {
+          "theater": 880,
+          "classroom": 652,
+          "ushape": 528,
+          "roundtable": 592,
+          "banquet": 75
+        },
+        "features": ["挑高8米", "0-800人"],
+        "description": "超大型宴會廳 - 適合超大活動、婚宴",
+        "images": {
+          "main": "https://img.denwell.com/denwell/wp-content/uploads/2020/12/2020120102122977.jpg",
+          "source": "https://www.denwell.com/service-dazhi-venue-introduction/"
+        }
+      },
+      {
+        "id": "1057-15",
+        "name": "繁華似錦 Opulence",
+        "nameEn": "Opulence",
+        "floor": "5F",
+        "area": 393,
+        "areaUnit": "坪",
+        "sqm": 1297,
+        "ceiling": 6,
+        "dimensions": "25x52x6m",
+        "capacity": {
+          "theater": 1500,
+          "classroom": 1303,
+          "ushape": 1282,
+          "roundtable": 1150,
+          "banquet": 98
+        },
+        "features": ["挑高6米", "0-1800人"],
+        "description": "超大空間 - 適合超大活動、發表會",
+        "images": {
+          "main": "https://img.denwell.com/denwell/wp-content/uploads/2020/12/2020120102193591.jpg",
+          "source": "https://www.denwell.com/service-dazhi-venue-introduction/"
+        }
+      },
+      {
+        "id": "1057-16",
+        "name": "大花田盛事 Grand Ballroom III",
+        "nameEn": "Grand Ballroom III",
+        "floor": "6F",
+        "area": 551,
+        "areaUnit": "坪",
+        "sqm": 1818,
+        "ceiling": 8,
+        "dimensions": "52x36x8m",
+        "capacity": {
+          "theater": 1760,
+          "classroom": 1350,
+          "ushape": 1392,
+          "roundtable": 1236,
+          "banquet": 150
+        },
+        "features": ["挑高8米", "0-1800人"],
+        "description": "最大宴會廳 - 適合最大型活動、婚宴",
+        "images": {
+          "main": "https://img.denwell.com/denwell/wp-content/uploads/2020/12/2020120102170535.jpg",
+          "source": "https://www.denwell.com/service-dazhi-venue-introduction/"
         }
       }
     ],

@@ -1,0 +1,330 @@
+{
+  "_metadata": {
+    "version": "1.0",
+    "created": "2026-03-23",
+    "last_updated": "2026-03-23",
+    "description": "台北市飯店官網URL知識庫 - 記錄正確的會議/婚宴場地頁面",
+    "usage": "避免重複爬取錯誤頁面，累積已知正確資料來源"
+  },
+  "templates": {
+    "common_paths": {
+      "meeting": ["/meeting", "/occasions/event-venues", "/banquet", "/conferences"],
+      "wedding": ["/wedding", "/occasions/weddings", "/banquet/wedding"]
+    },
+    "exclude_paths": [
+      "/uploads/news/",
+      "/accommodation/",
+      "/rooms/",
+      "/dining/",
+      "/gallery/"
+    ]
+  },
+  "venues": {
+    "1057": {
+      "id": 1057,
+      "name": "台北典華",
+      "name_en": "Denwell Taipei",
+      "base_url": "https://www.denwell.com",
+      "status": "completed",
+      "priority": "high",
+      "current_photos": 16,
+      "meeting_urls": [
+        "https://www.denwell.com/service-dazhi-venue-introduction/"
+      ],
+      "wedding_urls": [],
+      "verified_urls": {
+        "meeting": "https://www.denwell.com/service-dazhi-venue-introduction/",
+        "verified_at": "2026-03-23"
+      },
+      "lessons_learned": [
+        "正確的會議空間頁面是 /service-dazhi-venue-introduction/ 而非首頁",
+        "此頁面包含14個會議空間的完整資料和照片",
+        "所有照片URL來自 img.denwell.com/denwell/wp-content/uploads/",
+        "空間資料包含：坪數、容量（劇院型/教室型/川字型/小圓桌/宴會型）、樓層、尺寸"
+      ],
+      "notes": "已完成更新 - 16個會議空間（含8張gallery照片），所有資料來自/service-dazhi-venue-introduction/",
+      "last_attempt": "2026-03-23"
+    },
+    "1065": {
+      "id": 1065,
+      "name": "台北唯客樂文旅",
+      "name_en": "Like Hotel Taipei",
+      "base_url": "https://www.like-hotel.com.tw",
+      "status": "pending",
+      "priority": "high",
+      "current_photos": 0,
+      "meeting_urls": [],
+      "wedding_urls": [],
+      "verified_urls": {},
+      "notes": "0張照片 - 優先處理",
+      "last_attempt": null
+    },
+    "1066": {
+      "id": 1066,
+      "name": "台北商務會館",
+      "name_en": "Taipei Business Hotel",
+      "base_url": "pending",
+      "status": "pending",
+      "priority": "high",
+      "current_photos": 0,
+      "meeting_urls": [],
+      "wedding_urls": [],
+      "verified_urls": {},
+      "notes": "0張照片 - 需要先找到官網",
+      "last_attempt": null
+    },
+    "1107": {
+      "id": 1107,
+      "name": "台北體育館",
+      "name_en": "Taipei Arena",
+      "base_url": "https://taipeiarena.com.tw",
+      "status": "pending",
+      "priority": "high",
+      "current_photos": 0,
+      "meeting_urls": [],
+      "wedding_urls": [],
+      "verified_urls": {},
+      "notes": "0張照片 - 優先處理",
+      "last_attempt": null
+    },
+    "1334": {
+      "id": 1334,
+      "name": "台北中山運動中心",
+      "name_en": "Zhongshan Sports Center",
+      "base_url": "pending",
+      "status": "pending",
+      "priority": "high",
+      "current_photos": 0,
+      "meeting_urls": [],
+      "wedding_urls": [],
+      "verified_urls": {},
+      "notes": "0張照片 - 需要先找到官網",
+      "last_attempt": null
+    },
+    "1043": {
+      "id": 1043,
+      "name": "台北六福萬怡酒店 Courtyard Taipei",
+      "base_url": "https://www.courtyardtaipei.com.tw",
+      "status": "pending",
+      "priority": "medium",
+      "current_photos": 3,
+      "meeting_urls": [],
+      "wedding_urls": [],
+      "verified_urls": {},
+      "notes": "3張照片 - 需補充",
+      "last_attempt": null
+    },
+    "1048": {
+      "id": 1048,
+      "name": "台北一樂園大飯店",
+      "name_en": "I-L Hotel Taipei",
+      "base_url": "https://www.ile-hotel.com",
+      "status": "pending",
+      "priority": "medium",
+      "current_photos": 1,
+      "meeting_urls": [],
+      "wedding_urls": [],
+      "verified_urls": {},
+      "notes": "1張照片 - 需補充",
+      "last_attempt": null
+    },
+    "1059": {
+      "id": 1059,
+      "name": "台北友春大飯店",
+      "name_en": "Youchun Hotel",
+      "base_url": "https://www.youchun-hotel.com",
+      "status": "pending",
+      "priority": "medium",
+      "current_photos": 1,
+      "meeting_urls": [],
+      "wedding_urls": [],
+      "verified_urls": {},
+      "notes": "1張照片 - 需補充",
+      "last_attempt": null
+    },
+    "1073": {
+      "id": 1073,
+      "name": "台北姿美大飯店",
+      "name_en": "Zibei Hotel",
+      "base_url": "https://www.zibei-hotel.com",
+      "status": "pending",
+      "priority": "medium",
+      "current_photos": 1,
+      "meeting_urls": [],
+      "wedding_urls": [],
+      "verified_urls": {},
+      "notes": "1張照片 - 需補充",
+      "last_attempt": null
+    },
+    "1080": {
+      "id": 1080,
+      "name": "台北康華大飯店",
+      "name_en": "Kanghua Hotel",
+      "base_url": "https://www.kanghua-hotel.com",
+      "status": "pending",
+      "priority": "medium",
+      "current_photos": 1,
+      "meeting_urls": [],
+      "wedding_urls": [],
+      "verified_urls": {},
+      "notes": "1張照片 - 需補充",
+      "last_attempt": null
+    },
+    "1084": {
+      "id": 1084,
+      "name": "台北慶泰大飯店",
+      "name_en": "Ching Tai Hotel",
+      "base_url": "https://www.ching-tai.com",
+      "status": "pending",
+      "priority": "medium",
+      "current_photos": 1,
+      "meeting_urls": [],
+      "wedding_urls": [],
+      "verified_urls": {},
+      "notes": "1張照片 - 需補充",
+      "last_attempt": null
+    },
+    "1092": {
+      "id": 1092,
+      "name": "台北第一大飯店",
+      "name_en": "First Hotel",
+      "base_url": "https://www.firsthotel.com",
+      "status": "pending",
+      "priority": "medium",
+      "current_photos": 1,
+      "meeting_urls": [],
+      "wedding_urls": [],
+      "verified_urls": {},
+      "notes": "1張照片 - 需補充",
+      "last_attempt": null
+    },
+    "1121": {
+      "id": 1121,
+      "name": "神旺大飯店",
+      "name_en": "San Want Hotel",
+      "base_url": "https://www.sanwant.com",
+      "status": "pending",
+      "priority": "medium",
+      "current_photos": 1,
+      "meeting_urls": [],
+      "wedding_urls": [],
+      "verified_urls": {},
+      "notes": "1張照片 - 需補充",
+      "last_attempt": null
+    },
+    "1099": {
+      "id": 1099,
+      "name": "台北艾美酒店",
+      "name_en": "Le Meridien Taipei",
+      "base_url": "https://www.lemeridien-taipei.com",
+      "status": "pending",
+      "priority": "medium",
+      "current_photos": 2,
+      "meeting_urls": [],
+      "wedding_urls": [],
+      "verified_urls": {},
+      "notes": "2張照片 - 需補充",
+      "last_attempt": null
+    },
+    "1122": {
+      "id": 1122,
+      "name": "維多麗亞酒店",
+      "name_en": "Victoria Hotel",
+      "base_url": "pending",
+      "status": "pending",
+      "priority": "medium",
+      "current_photos": 2,
+      "meeting_urls": [],
+      "wedding_urls": [],
+      "verified_urls": {},
+      "notes": "2張照片 - 需要先找到官網",
+      "last_attempt": null
+    },
+    "1128": {
+      "id": 1128,
+      "name": "集思台大會議中心 NTUCC",
+      "base_url": "https://www.ntucc.com.tw",
+      "status": "pending",
+      "priority": "medium",
+      "current_photos": 2,
+      "meeting_urls": [],
+      "wedding_urls": [],
+      "verified_urls": {},
+      "notes": "2張照片 - 需補充",
+      "last_attempt": null
+    },
+    "1083": {
+      "id": 1083,
+      "name": "台北北門世民酒店 citizenM Taipei",
+      "base_url": "https://www.citizenm.com",
+      "status": "pending",
+      "priority": "low",
+      "current_photos": 3,
+      "meeting_urls": [],
+      "wedding_urls": [],
+      "verified_urls": {},
+      "notes": "3張照片 - 國際連鎖飯店",
+      "last_attempt": null
+    },
+    "1124": {
+      "id": 1124,
+      "name": "花園大酒店",
+      "name_en": "Taipei Garden Hotel",
+      "base_url": "https://www.taipeigarden.com.tw",
+      "status": "completed",
+      "priority": "low",
+      "current_photos": 8,
+      "meeting_urls": [
+        "https://www.taipeigarden.com.tw/meeting"
+      ],
+      "wedding_urls": [],
+      "verified_urls": {
+        "meeting": "https://www.taipeigarden.com.tw/meeting",
+        "verified_at": "2026-03-23"
+      },
+      "notes": "已完成更新 - 8張照片",
+      "last_attempt": "2026-03-23"
+    },
+    "1086": {
+      "id": 1086,
+      "name": "台北晶華酒店 Regent Taipei",
+      "base_url": "https://www.regenttaiwan.com",
+      "status": "completed",
+      "priority": "high",
+      "current_photos": 7,
+      "meeting_urls": [
+        "https://www.regenttaiwan.com/occasions/event-venues"
+      ],
+      "wedding_urls": [
+        "https://www.regenttaiwan.com/occasions/weddings"
+      ],
+      "verified_urls": {
+        "meeting": "https://www.regenttaiwan.com/occasions/event-venues",
+        "wedding": "https://www.regenttaiwan.com/occasions/weddings",
+        "verified_at": "2026-03-23"
+      },
+      "wrong_urls": [
+        "https://www.regenttaiwan.com/uploads/news/",
+        "https://www.regenttaiwan.com/accommodation/"
+      ],
+      "lessons_learned": [
+        "必須爬取 /occasions/event-venues 而非 /uploads/news/",
+        "避免使用 nav-regent-taipei-accommodation.jpg 等非會議室照片",
+        "官網提供完整的容量表格和場地照片"
+      ],
+      "notes": "已完成更新 - 6個會議室，所有照片來自 /occasions/uploads/ 路徑",
+      "last_attempt": "2026-03-23"
+    }
+  },
+  "statistics": {
+    "total_pending": 18,
+    "total_completed": 2,
+    "high_priority": 5,
+    "medium_priority": 12,
+    "low_priority": 1,
+    "zero_photos": 5,
+    "one_photo": 8,
+    "two_photos": 3,
+    "three_photos": 2
+  }
+}

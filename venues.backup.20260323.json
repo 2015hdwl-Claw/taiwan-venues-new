@@ -4500,7 +4500,7 @@
         "floor": "B1",
         "area": 269,
         "areaUnit": "坪",
-        "sqm": 889,
+        "sqm": 888,
         "ceiling": 5,
         "capacity": {
           "theater": 600,
@@ -4534,9 +4534,10 @@
           "https://www.regenttaiwan.com/occasions/uploads/site/11/org/af16abb69345576b2e04d5c30a9645f8.jpg"
         ],
         "notes": "前廳挑高5米，後廳2.4米，可容納1000人招待會",
-        "length": 35.3,
-        "width": 25.2,
-        "dimensions": "35.3x25.2x5m"
+        "length": 34,
+        "width": 26.1,
+        "dimensions": "34x26.1x5m",
+        "height": 5
       },
       {
         "id": "1086-02",
@@ -4545,7 +4546,7 @@
         "floor": "待確認",
         "area": 82,
         "areaUnit": "坪",
-        "sqm": 271,
+        "sqm": 270,
         "ceiling": 2.4,
         "capacity": {
           "theater": 200,
@@ -4573,9 +4574,10 @@
         "images": [
           "https://www.regenttaiwan.com/occasions/uploads/site/8/org/201844dbf31f9bbff3dbfccbd7f162e2.png"
         ],
-        "length": 18.8,
+        "length": 18.7,
         "width": 14.4,
-        "dimensions": "18.8x14.4x2.4m"
+        "dimensions": "18.7x14.4x2.4m",
+        "height": 2.4
       },
       {
         "id": "1086-03",
@@ -4614,7 +4616,8 @@
         ],
         "length": 21.5,
         "width": 16.6,
-        "dimensions": "21.5x16.6x2.3m"
+        "dimensions": "21.5x16.6x2.3m",
+        "height": 2.3
       },
       {
         "id": "1086-04",
@@ -4623,7 +4626,7 @@
         "floor": "待確認",
         "area": 142,
         "areaUnit": "坪",
-        "sqm": 469,
+        "sqm": 470,
         "ceiling": 2.35,
         "capacity": {
           "theater": 440,
@@ -4652,7 +4655,8 @@
         ],
         "length": 24.7,
         "width": 19,
-        "dimensions": "24.7x19x2.35m"
+        "dimensions": "24.7x19x2.35m",
+        "height": 2.35
       },
       {
         "id": "1086-05",
@@ -4696,7 +4700,7 @@
         "floor": "待確認",
         "area": 235,
         "areaUnit": "坪",
-        "sqm": 777,
+        "sqm": 776,
         "ceiling": 2.3,
         "capacity": {
           "theater": 700,
@@ -4723,9 +4727,10 @@
         "photo": null,
         "images": [],
         "notes": "9間貴賓廳可個別預訂或合併使用",
-        "length": 33,
-        "width": 23.6,
-        "dimensions": "33x23.6x2.3m"
+        "length": 31.8,
+        "width": 24.4,
+        "dimensions": "31.8x24.4x2.3m",
+        "height": 2.3
       }
     ],
     "lastUpdated": "2026-03-21"

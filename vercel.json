@@ -3,6 +3,7 @@
   "public": true,
   "cleanUrls": true,
   "trailingSlash": false,
+  "buildCommand": "echo \"Build: $(date)\" && touch *.js *.html *.css venues.json",
   "headers": [
     {
       "source": "/venues.json",

@@ -2394,10 +2394,7 @@
         "images": [
           "https://www.grand-hotel.org/fileupload/Ballroom_File/3_blsvdmouas.jpg"
         ],
-        "notes": "B樓中型宴會廳，多功能空間，VIP休息室",
-        "width": 39.7,
-        "sqm": 476,
-        "dimensions": "12x39.7x2.7m"
+        "notes": "B樓中型宴會廳，多功能空間，VIP休息室"
       },
       {
         "id": "1072-11",
@@ -2633,11 +2630,7 @@
         "pillarCount": 2,
         "pillarInfo": "有柱子",
         "shape": "未知",
-        "photo": "https://www.sheratongrandtaipei.com/files/pages_1772816933150l7wc77_m.jpg",
-        "length": 47,
-        "width": 31.3,
-        "sqm": 1471,
-        "dimensions": "47x31.3x4.8m"
+        "photo": "https://www.sheratongrandtaipei.com/files/pages_1772816933150l7wc77_m.jpg"
       },
       {
         "name": "喜廳 Joyful Ballroom",
@@ -2667,12 +2660,7 @@
         ],
         "id": "1075-02",
         "pillar": false,
-        "pillarInfo": "無柱子",
-        "length": 26.3,
-        "width": 18.8,
-        "sqm": 496,
-        "dimensions": "26.3x18.8x4.8m",
-        "shape": "長方形（推算）"
+        "pillarInfo": "無柱子"
       },
       {
         "name": "祿廳 Prosperity Ballroom",
@@ -2706,11 +2694,7 @@
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "長方形",
-        "photo": "https://www.sheratongrandtaipei.com/files/pages_175459012814kxhgw40_l.jpg",
-        "length": 26.8,
-        "width": 19.1,
-        "sqm": 512,
-        "dimensions": "26.8x19.1x4.8m"
+        "photo": "https://www.sheratongrandtaipei.com/files/pages_175459012814kxhgw40_l.jpg"
       },
       {
         "name": "壽廳 Longevity Room",
@@ -2742,11 +2726,7 @@
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "長方形",
-        "photo": "https://www.sheratongrandtaipei.com/files/pages_175464924014l10li51_l.jpg",
-        "length": 18,
-        "width": 13.8,
-        "sqm": 248,
-        "dimensions": "18x13.8x2.4m"
+        "photo": "https://www.sheratongrandtaipei.com/files/pages_175464924014l10li51_l.jpg"
       },
       {
         "name": "喜廳 Happiness Room",
@@ -2778,11 +2758,7 @@
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "長方形",
-        "photo": "https://www.sheratongrandtaipei.com/files/pages_175464924014l10li51_l.jpg",
-        "length": 17.2,
-        "width": 13.2,
-        "sqm": 228,
-        "dimensions": "17.2x13.2x2.4m"
+        "photo": "https://www.sheratongrandtaipei.com/files/pages_175464924014l10li51_l.jpg"
       },
       {
         "name": "大宴會廳 Grand Ballroom",
@@ -2800,12 +2776,7 @@
           "燈光"
         ],
         "id": "1075-08",
-        "pillar": false,
-        "length": 54.8,
-        "width": 36.5,
-        "sqm": 2003,
-        "dimensions": "54.8x36.5x4.8m",
-        "shape": "長方形（推算）"
+        "pillar": false
       },
       {
         "name": "日廳 Sun Room",
@@ -2821,12 +2792,7 @@
           "音響系統"
         ],
         "id": "1075-11",
-        "pillar": false,
-        "length": 8.9,
-        "width": 7.4,
-        "sqm": 66,
-        "dimensions": "8.9x7.4x2.4m",
-        "shape": "長方形（推算）"
+        "pillar": false
       },
       {
         "name": "月廳 Moon Room",
@@ -2842,12 +2808,7 @@
           "音響系統"
         ],
         "id": "1075-12",
-        "pillar": false,
-        "length": 9.1,
-        "width": 7.6,
-        "sqm": 69,
-        "dimensions": "9.1x7.6x2.4m",
-        "shape": "長方形（推算）"
+        "pillar": false
       },
       {
         "name": "星廳 Star Room",
@@ -2863,12 +2824,7 @@
           "音響系統"
         ],
         "id": "1075-13",
-        "pillar": false,
-        "length": 8.9,
-        "width": 7.4,
-        "sqm": 66,
-        "dimensions": "8.9x7.4x2.4m",
-        "shape": "長方形（推算）"
+        "pillar": false
       },
       {
         "name": "玉廳 Jade Room",
@@ -2885,12 +2841,7 @@
           "白板"
         ],
         "id": "1075-14",
-        "pillar": false,
-        "length": 7.7,
-        "width": 6.4,
-        "sqm": 50,
-        "dimensions": "7.7x6.4x2.5m",
-        "shape": "長方形（推算）"
+        "pillar": false
       },
       {
         "name": "英廳 Elite Room",
@@ -2907,12 +2858,7 @@
           "白板"
         ],
         "id": "1075-15",
-        "pillar": false,
-        "length": 7.7,
-        "width": 6.4,
-        "sqm": 50,
-        "dimensions": "7.7x6.4x2.5m",
-        "shape": "長方形（推算）"
+        "pillar": false
       },
       {
         "name": "翠廳 Emerald Room",
@@ -2929,12 +2875,7 @@
           "白板"
         ],
         "id": "1075-16",
-        "pillar": false,
-        "length": 7.7,
-        "width": 6.4,
-        "sqm": 50,
-        "dimensions": "7.7x6.4x2.5m",
-        "shape": "長方形（推算）"
+        "pillar": false
       },
       {
         "name": "蝶廳 Butterfly Room",
@@ -2951,12 +2892,7 @@
           "白板"
         ],
         "id": "1075-17",
-        "pillar": false,
-        "length": 8.9,
-        "width": 7.4,
-        "sqm": 66,
-        "dimensions": "8.9x7.4x2.5m",
-        "shape": "長方形（推算）"
+        "pillar": false
       },
       {
         "name": "凰廳 Glory Room",
@@ -2973,12 +2909,7 @@
           "白板"
         ],
         "id": "1075-18",
-        "pillar": false,
-        "length": 8.9,
-        "width": 7.4,
-        "sqm": 66,
-        "dimensions": "8.9x7.4x2.5m",
-        "shape": "長方形（推算）"
+        "pillar": false
       },
       {
         "name": "雅翫 The Galleria",
@@ -2995,12 +2926,7 @@
           "音響系統"
         ],
         "id": "1075-19",
-        "pillar": false,
-        "length": 17.6,
-        "width": 13.5,
-        "sqm": 238,
-        "dimensions": "17.6x13.5x3.3m",
-        "shape": "長方形（推算）"
+        "pillar": false
       },
       {
         "name": "瑞穗園 Grace Garden",
@@ -3021,12 +2947,7 @@
           "https://www.sheratongrandtaipei.com/files/pages_175465013514l11dt95_l.jpg"
         ],
         "id": "1075-20",
-        "pillar": false,
-        "length": 19.9,
-        "width": 15.3,
-        "sqm": 304,
-        "dimensions": "19.9x15.3x2.2m",
-        "shape": "長方形（推算）"
+        "pillar": false
       }
     ],
     "lastUpdated": "2026-03-22"
@@ -3081,9 +3002,9 @@
         "floor": "2樓",
         "area": 60,
         "areaUnit": "坪",
-        "sqm": 198,
-        "length": 16.1,
-        "width": 12.4,
+        "sqm": 196,
+        "length": null,
+        "width": null,
         "height": 3,
         "capacity": {
           "theater": 180,
@@ -3117,8 +3038,7 @@
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
         "ceilingHeight": 3,
-        "areaSqm": 196,
-        "dimensions": "16.1x12.4x3m"
+        "areaSqm": 196
       },
       {
         "id": "1076-02",
@@ -3127,9 +3047,9 @@
         "floor": "2樓",
         "area": 30,
         "areaUnit": "坪",
-        "sqm": 99,
-        "length": 10.9,
-        "width": 9.1,
+        "sqm": 97,
+        "length": null,
+        "width": null,
         "height": 3,
         "capacity": {
           "theater": 84,
@@ -3163,8 +3083,7 @@
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
         "ceilingHeight": 3,
-        "areaSqm": 97,
-        "dimensions": "10.9x9.1x3m"
+        "areaSqm": 97
       },
       {
         "id": "1076-03",
@@ -3173,9 +3092,9 @@
         "floor": "2樓",
         "area": 30,
         "areaUnit": "坪",
-        "sqm": 99,
-        "length": 10.9,
-        "width": 9.1,
+        "sqm": 97,
+        "length": null,
+        "width": null,
         "height": 3,
         "capacity": {
           "theater": 84,
@@ -3209,8 +3128,7 @@
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
         "ceilingHeight": 3,
-        "areaSqm": 97,
-        "dimensions": "10.9x9.1x3m"
+        "areaSqm": 97
       },
       {
         "id": "1076-04",
@@ -3219,9 +3137,9 @@
         "floor": "2樓",
         "area": 30,
         "areaUnit": "坪",
-        "sqm": 99,
-        "length": 10.9,
-        "width": 9.1,
+        "sqm": 97,
+        "length": null,
+        "width": null,
         "height": 3,
         "capacity": {
           "theater": 84,
@@ -3255,8 +3173,7 @@
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
         "ceilingHeight": 3,
-        "areaSqm": 97,
-        "dimensions": "10.9x9.1x3m"
+        "areaSqm": 97
       },
       {
         "id": "1076-05",
@@ -3265,9 +3182,9 @@
         "floor": "2樓",
         "area": 30,
         "areaUnit": "坪",
-        "sqm": 99,
-        "length": 10.9,
-        "width": 9.1,
+        "sqm": 97,
+        "length": null,
+        "width": null,
         "height": 3,
         "capacity": {
           "theater": 84,
@@ -3301,8 +3218,7 @@
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
         "ceilingHeight": 3,
-        "areaSqm": 97,
-        "dimensions": "10.9x9.1x3m"
+        "areaSqm": 97
       },
       {
         "id": "1076-06",
@@ -3311,9 +3227,9 @@
         "floor": "2樓",
         "area": 30,
         "areaUnit": "坪",
-        "sqm": 99,
-        "length": 10.9,
-        "width": 9.1,
+        "sqm": 97,
+        "length": null,
+        "width": null,
         "height": 3,
         "capacity": {
           "theater": 84,
@@ -3347,8 +3263,7 @@
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
         "ceilingHeight": 3,
-        "areaSqm": 97,
-        "dimensions": "10.9x9.1x3m"
+        "areaSqm": 97
       },
       {
         "id": "1076-07",
@@ -3357,9 +3272,9 @@
         "floor": "2樓",
         "area": 150,
         "areaUnit": "坪",
-        "sqm": 496,
-        "length": 26.3,
-        "width": 18.8,
+        "sqm": 485,
+        "length": null,
+        "width": null,
         "height": 3,
         "capacity": {
           "theater": 420,
@@ -3392,8 +3307,7 @@
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
         "ceilingHeight": 3,
-        "areaSqm": 485,
-        "dimensions": "26.3x18.8x3m"
+        "areaSqm": 485
       },
       {
         "id": "1076-08",
@@ -3402,9 +3316,9 @@
         "floor": "3樓",
         "area": 30,
         "areaUnit": "坪",
-        "sqm": 99,
-        "length": 10.9,
-        "width": 9.1,
+        "sqm": 97,
+        "length": null,
+        "width": null,
         "height": 3.3,
         "capacity": {
           "theater": 50,
@@ -3437,8 +3351,7 @@
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
         "ceilingHeight": 3.3,
-        "areaSqm": 97,
-        "dimensions": "10.9x9.1x3.3m"
+        "areaSqm": 97
       },
       {
         "id": "1076-09",
@@ -3447,9 +3360,9 @@
         "floor": "5樓",
         "area": 263,
         "areaUnit": "坪",
-        "sqm": 869,
-        "length": 34.9,
-        "width": 24.9,
+        "sqm": 868,
+        "length": null,
+        "width": null,
         "height": 5,
         "capacity": {
           "theater": 800,
@@ -3482,8 +3395,7 @@
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
         "ceilingHeight": 5,
-        "areaSqm": 868,
-        "dimensions": "34.9x24.9x5m"
+        "areaSqm": 868
       },
       {
         "id": "1076-10",
@@ -3493,8 +3405,8 @@
         "area": 105,
         "areaUnit": "坪",
         "sqm": 347,
-        "length": 21.2,
-        "width": 16.3,
+        "length": null,
+        "width": null,
         "height": 5,
         "capacity": {
           "theater": 300,
@@ -3528,8 +3440,7 @@
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
         "ceilingHeight": 5,
-        "areaSqm": 347,
-        "dimensions": "21.2x16.3x5m"
+        "areaSqm": 347
       },
       {
         "id": "1076-11",
@@ -3538,9 +3449,9 @@
         "floor": "5樓",
         "area": 53,
         "areaUnit": "坪",
-        "sqm": 175,
-        "length": 15.1,
-        "width": 11.6,
+        "sqm": 174,
+        "length": null,
+        "width": null,
         "height": 5,
         "capacity": {
           "theater": 154,
@@ -3572,8 +3483,7 @@
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
         "ceilingHeight": 5,
-        "areaSqm": 174,
-        "dimensions": "15.1x11.6x5m"
+        "areaSqm": 174
       },
       {
         "id": "1076-12",
@@ -3583,8 +3493,8 @@
         "area": 105,
         "areaUnit": "坪",
         "sqm": 347,
-        "length": 21.2,
-        "width": 16.3,
+        "length": null,
+        "width": null,
         "height": 5,
         "capacity": {
           "theater": 300,
@@ -3618,8 +3528,7 @@
         "priceVerified": true,
         "priceVerifiedAt": "2026-03-18",
         "ceilingHeight": 5,
-        "areaSqm": 347,
-        "dimensions": "21.2x16.3x5m"
+        "areaSqm": 347
       },
       {
         "name": "貴賓室I",
@@ -3649,12 +3558,7 @@
         "images": [
           "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien_official/3f_grand_ballroom_wedding_1.jpg"
         ],
-        "areaSqm": 50,
-        "length": 7.7,
-        "width": 6.4,
-        "sqm": 50,
-        "dimensions": "7.7x6.4x3m",
-        "shape": "長方形（推算）"
+        "areaSqm": 50
       },
       {
         "name": "貴賓室II",
@@ -3684,12 +3588,7 @@
         "images": [
           "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien_official/3f_grand_ballroom_wedding_2.jpg"
         ],
-        "areaSqm": 53,
-        "length": 8,
-        "width": 6.6,
-        "sqm": 53,
-        "dimensions": "8x6.6x3m",
-        "shape": "長方形（推算）"
+        "areaSqm": 53
       }
     ],
     "lastUpdated": "2026-03-18",
@@ -3754,11 +3653,7 @@
         "pillarCount": 2,
         "pillarInfo": "有柱子",
         "shape": "未知",
-        "photo": "https://www.humblehousehotels.com/files/other_160407197911abvhf.jpg",
-        "length": 28.9,
-        "width": 20.6,
-        "sqm": 595,
-        "dimensions": "28.9x20.6x3m"
+        "photo": "https://www.humblehousehotels.com/files/other_160407197911abvhf.jpg"
       },
       {
         "name": "蘭",
@@ -3791,11 +3686,7 @@
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "未知",
-        "photo": "https://www.humblehousehotels.com/files/other_1458636099w3hlvo.jpg",
-        "length": 15.4,
-        "width": 11.8,
-        "sqm": 182,
-        "dimensions": "15.4x11.8x3m"
+        "photo": "https://www.humblehousehotels.com/files/other_1458636099w3hlvo.jpg"
       },
       {
         "name": "葵",
@@ -3828,11 +3719,7 @@
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "未知",
-        "photo": "https://www.humblehousehotels.com/files/other_1464597948w7xb83.jpg",
-        "length": 15.8,
-        "width": 12.1,
-        "sqm": 192,
-        "dimensions": "15.8x12.1x3m"
+        "photo": "https://www.humblehousehotels.com/files/other_1464597948w7xb83.jpg"
       },
       {
         "name": "楓",
@@ -3864,11 +3751,7 @@
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "未知",
-        "photo": "https://www.humblehousehotels.com/files/page_16867522231347i3v.jpg",
-        "length": 12.6,
-        "width": 10.5,
-        "sqm": 132,
-        "dimensions": "12.6x10.5x3m"
+        "photo": "https://www.humblehousehotels.com/files/page_16867522231347i3v.jpg"
       },
       {
         "name": "柏",
@@ -3901,11 +3784,7 @@
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "未知",
-        "photo": "https://www.humblehousehotels.com/files/other_160407197911abvhf.jpg",
-        "length": 9.3,
-        "width": 7.8,
-        "sqm": 73,
-        "dimensions": "9.3x7.8x3m"
+        "photo": "https://www.humblehousehotels.com/files/other_160407197911abvhf.jpg"
       },
       {
         "name": "槿",
@@ -3938,11 +3817,7 @@
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "未知",
-        "photo": "https://www.humblehousehotels.com/files/other_1458636099w3hlvo.jpg",
-        "length": 8.5,
-        "width": 7,
-        "sqm": 60,
-        "dimensions": "8.5x7x3m"
+        "photo": "https://www.humblehousehotels.com/files/other_1458636099w3hlvo.jpg"
       },
       {
         "name": "空中花園",
@@ -3975,11 +3850,7 @@
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "未知",
-        "photo": "https://www.humblehousehotels.com/files/other_1464597948w7xb83.jpg",
-        "length": 18.5,
-        "width": 14.3,
-        "sqm": 264,
-        "dimensions": "18.5x14.3x3m"
+        "photo": "https://www.humblehousehotels.com/files/other_1464597948w7xb83.jpg"
       }
     ],
     "images": {

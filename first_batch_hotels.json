@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1103,
+    "name": "台北萬豪酒店(MarriottTaipei)",
+    "url": "https://www.taipeimarriott.com.tw/",
+    "roomCount": 26,
+    "hasDimensions": false,
+    "hasArea": true
+  },
+  {
+    "id": 1075,
+    "name": "台北寒舍喜來登大飯店",
+    "url": "https://www.sheratongrandtaipei.com",
+    "roomCount": 16,
+    "hasDimensions": false,
+    "hasArea": true
+  },
+  {
+    "id": 1076,
+    "name": "台北寒舍艾美酒店(LeMeridienTaipei)",
+    "url": "https://www.lemeridien-taipei.com",
+    "roomCount": 14,
+    "hasDimensions": false,
+    "hasArea": true
+  },
+  {
+    "id": 1086,
+    "name": "台北晶華酒店 Regent Taipei",
+    "url": "https://www.regenttaiwan.com",
+    "roomCount": 6,
+    "hasDimensions": false,
+    "hasArea": true
+  },
+  {
+    "id": 1103,
+    "name": "台北萬豪酒店(MarriottTaipei)",
+    "url": "https://www.taipeimarriott.com.tw/",
+    "roomCount": 26
+  },
+  {
+    "id": 1075,
+    "name": "台北寒舍喜來登大飯店",
+    "url": "https://www.sheratongrandtaipei.com",
+    "roomCount": 16
+  },
+  {
+    "id": 1076,
+    "name": "台北寒舍艾美酒店(LeMeridienTaipei)",
+    "url": "https://www.lemeridien-taipei.com",
+    "roomCount": 14
+  }
+]

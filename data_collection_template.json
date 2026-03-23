@@ -1,0 +1,69 @@
+{
+  "venueId": "1103",
+  "venueName": "台北萬豪酒店",
+  "url": "https://www.taipeimarriott.com.tw/",
+  "collectionDate": "2026-03-23",
+  "notes": "資料蒐集自官網會議場地頁面",
+  "rooms": [
+    {
+      "name": "春廳",
+      "nameEn": "Spring Room",
+      "floor": "B1",
+      "length": 16.5,
+      "width": 16,
+      "height": 3.5,
+      "area": 80,
+      "areaUnit": "坪",
+      "source": "官方",
+      "notes": "官方資料，尺寸精確"
+    },
+    {
+      "name": "夏廳",
+      "nameEn": "Summer Room",
+      "floor": "B1",
+      "length": 0,
+      "width": 0,
+      "height": 0,
+      "area": 75,
+      "areaUnit": "坪",
+      "source": "推算",
+      "notes": "僅有坪數資料，按1.3:1長寬比推算"
+    },
+    {
+      "name": "秋廳",
+      "nameEn": "Autumn Room",
+      "floor": "B1",
+      "length": 15,
+      "width": 14,
+      "height": 3.5,
+      "area": 0,
+      "areaUnit": "坪",
+      "source": "官方",
+      "notes": "直接提供長寬尺寸"
+    },
+    {
+      "name": "冬廳",
+      "nameEn": "Winter Room",
+      "floor": "B1",
+      "length": 18,
+      "width": 15,
+      "height": 3.5,
+      "area": 0,
+      "areaUnit": "坪",
+      "source": "官方",
+      "notes": "直接提供長寬尺寸"
+    },
+    {
+      "name": "四季廳",
+      "nameEn": "Four Seasons Room",
+      "floor": "B1",
+      "length": 0,
+      "width": 0,
+      "height": 0,
+      "area": 0,
+      "areaUnit": "坪",
+      "source": "待確認",
+      "notes": "需聯繫飯店確認尺寸"
+    }
+  ]
+}

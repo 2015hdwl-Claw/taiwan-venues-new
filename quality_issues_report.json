@@ -1,0 +1,116 @@
+{
+  "summary": {
+    "total": 108,
+    "passed": 106,
+    "failed": 2,
+    "duplicates": 3
+  },
+  "issueStats": {
+    "重複場地": 3,
+    "缺少必填欄位": 0,
+    "維度格式錯誤": 0,
+    "容量不一致": 15,
+    "照片問題": 0,
+    "URL問題": 0,
+    "價格異常": 0,
+    "容量異常": 0
+  },
+  "failedVenues": [
+    {
+      "id": 1057,
+      "name": "台北典華",
+      "issues": [
+        "大地 Terra: banquet < classroom",
+        "光影 Luma: banquet < classroom",
+        "湖泊 Lake: banquet < classroom",
+        "閣樓 Loft: banquet < classroom",
+        "法室 Salotto: banquet < classroom",
+        "日出 Sunrise: banquet < classroom",
+        "紫境 Venue526: banquet < classroom",
+        "藝廊 Gallery: banquet < classroom",
+        "繁華 Splendor: banquet < classroom",
+        "似錦 Glory: banquet < classroom",
+        "花田好事 Grand Ballroom II: banquet < classroom",
+        "花田盛事 Grand Ballroom I: banquet < classroom",
+        "繁華似錦 Opulence: banquet < classroom",
+        "大花田盛事 Grand Ballroom III: banquet < classroom"
+      ],
+      "issueCount": 14
+    },
+    {
+      "id": 1086,
+      "name": "台北晶華酒店 Regent Taipei",
+      "issues": [
+        "晶華會: banquet < classroom"
+      ],
+      "issueCount": 1
+    }
+  ],
+  "duplicates": {
+    "CLBC大安商務中心": [
+      1032,
+      1439,
+      1440
+    ],
+    "台北國際會議中心(TICC)": [
+      1448,
+      1451,
+      1452,
+      1453,
+      1454,
+      1455,
+      1456,
+      1457,
+      1458,
+      1459,
+      1460,
+      1461,
+      1462,
+      1463,
+      1464,
+      1465,
+      1466,
+      1467,
+      1468,
+      1469,
+      1470,
+      1471,
+      1472,
+      1473,
+      1474,
+      1475,
+      1476,
+      1477,
+      1478,
+      1479,
+      1480,
+      1481,
+      1482,
+      1483,
+      1484,
+      1485,
+      1486,
+      1487,
+      1488,
+      1489,
+      1490,
+      1491,
+      1492
+    ],
+    "師大進修推廣學院": [
+      1493,
+      1494,
+      1495,
+      1496,
+      1497,
+      1498,
+      1499,
+      1500,
+      1501,
+      1502,
+      1503,
+      1504,
+      1505
+    ]
+  }
+}

@@ -6053,18 +6053,12 @@
       "main": "http://www.riverview.com.tw/wp-content/uploads/sites/230/2017/05/直式-金色.png",
       "gallery": [
         "http://www.riverview.com.tw/wp-content/uploads/sites/230/2017/05/直式-金色.png",
-        "http://www.riverview.com.tw/wp-content/uploads/sites/230/2015/10/A_service_00-330x150.jpg",
-        "https://www.riverview.com.tw/wp-content/plugins/sitepress-multilingual-cms/res/flags/zh-hant.png",
-        "https://www.riverview.com.tw/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png",
-        "https://www.riverview.com.tw/wp-content/plugins/sitepress-multilingual-cms/res/flags/ja.png",
-        "https://www.riverview.com.tw/wp-content/plugins/sitepress-multilingual-cms/res/flags/ko.png",
-        "https://www.riverview.com.tw/wp-content/plugins/sitepress-multilingual-cms/res/flags/zh-hans.png",
-        "http://www.riverview.com.tw/wp-content/uploads/sites/230/2017/05/直式-金色.png"
+        "http://www.riverview.com.tw/wp-content/uploads/sites/230/2015/10/A_service_00-330x150.jpg"
       ],
       "source": "https://www.riverview.com.tw/",
       "verified": true,
-      "verifiedAt": "2026-03-23T08:02:32.094651Z",
-      "note": "從官網爬取：豪景大酒店，客臨豪景、賓至如歸，鄰近西門町商圈，213間豪華客房，免費WIFI，河岸夜景",
+      "verifiedAt": "2026-03-23T00:38:36.451810Z",
+      "note": "從官網爬取：位於西門町，有宴席會議服務，12樓萊茵宴會廳",
       "lastUpdated": "2026-03-23",
       "needsUpdate": false
     },

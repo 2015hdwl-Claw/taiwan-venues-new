@@ -3753,232 +3753,136 @@
       ],
       "floorPlan": null,
       "verified": true,
-      "verifiedAt": "2026-03-23T08:29:10.108144Z",
-      "source": "https://www.regenttaiwan.com/occasions/event-venues",
-      "updateReason": "批量更新：補充照片",
-      "note": "從官網會議場地頁面完整更新：新增晶英會、晶華會、萬象廳、寰宇廳、貴賓廳；修正宴會廳照片和資料",
-      "lastUpdated": "2026-03-23"
+      "verifiedAt": "2026-03-07T05:39:07.289Z",
+      "source": "https://www.regenttaiwan.com",
+      "updateReason": "批量更新：補充照片"
     },
     "verified": true,
     "rooms": [
       {
-        "id": "1086-01",
-        "name": "宴會廳",
-        "nameEn": "Grand Ballroom",
-        "floor": "B1",
-        "area": 269,
-        "areaUnit": "坪",
-        "sqm": 888,
-        "ceiling": 5,
+        "name": "宴會大廳",
         "capacity": {
-          "theater": 600,
-          "classroom": 300,
-          "roundtable": 600,
-          "banquet": 600,
-          "reception": 1000
+          "theater": 700,
+          "classroom": 450,
+          "ushape": 280,
+          "roundtable": 500,
+          "roundtable_min": 500,
+          "roundtable_max": 500
         },
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "shape": "長方形",
-        "hasWindow": true,
+        "area": 250,
+        "price": {
+          "morning": 125000,
+          "afternoon": 125000,
+          "evening": 200000,
+          "halfDay": 250000,
+          "fullDay": 450000
+        },
         "equipment": [
-          "投影設備",
+          "頂級投影",
           "專業音響",
           "大型舞台",
-          "燈光",
-          "音響系統",
-          "麥克風",
-          "免費高速上網"
+          "燈光"
         ],
-        "features": [
-          "挑高5米",
-          "三面落地窗",
-          "無柱設計"
-        ],
-        "description": "挑高壯麗、氣宇非凡的晶華宴會廳，三面落地窗景攬入一室綠意，無論是大型的商務研討會、尊榮結婚喜宴或是品牌發表雞尾酒會，都是一個完美絕倫的場地首選。",
-        "photo": "https://www.regenttaiwan.com/occasions/uploads/site/11/org/af16abb69345576b2e04d5c30a9645f8.jpg",
         "images": [
-          "https://www.regenttaiwan.com/occasions/uploads/site/11/org/af16abb69345576b2e04d5c30a9645f8.jpg"
+          "https://www.regenttaiwan.com/asset/types/main//images/uploads/regenttaipei/nav-regent-taipei-accommodation.jpg"
         ],
-        "notes": "前廳挑高5米，後廳2.4米，可容納1000人招待會"
+        "id": "1086-01",
+        "pillar": true,
+        "pillarCount": 2,
+        "pillarInfo": "有柱子",
+        "shape": "未知",
+        "photo": "https://www.regenttaiwan.com/asset/types/main//images/uploads/regenttaipei/nav-regent-taipei-accommodation.jpg",
+        "floor": "B1",
+        "ceiling": 5,
+        "hasWindow": false,
+        "features": [
+          "大型宴會廳",
+          "無柱設計",
+          "專業舞台"
+        ],
+        "notes": "B1樓最大宴會廳"
       },
       {
-        "id": "1086-02",
-        "name": "晶英會",
-        "nameEn": "Crystal Room",
-        "floor": "待確認",
-        "area": 82,
-        "areaUnit": "坪",
-        "sqm": 270,
-        "ceiling": 2.4,
+        "name": "晶華軒",
         "capacity": {
           "theater": 200,
-          "classroom": 132,
-          "roundtable": 168,
-          "reception": 200
+          "classroom": 130,
+          "ushape": 90,
+          "roundtable": 120,
+          "roundtable_min": 120,
+          "roundtable_max": 120
         },
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "shape": "長方形",
-        "hasWindow": true,
-        "equipment": [
-          "投影設備",
-          "音響系統",
-          "麥克風",
-          "免費高速上網"
-        ],
-        "features": [
-          "多功能場地",
-          "中式傳統簡約設計"
-        ],
-        "description": "融合中式傳統簡約設計、與時俱進的會議設備，以及優雅待客之道的多功能場地。",
-        "photo": "https://www.regenttaiwan.com/occasions/uploads/site/8/org/201844dbf31f9bbff3dbfccbd7f162e2.png",
-        "images": [
-          "https://www.regenttaiwan.com/occasions/uploads/site/8/org/201844dbf31f9bbff3dbfccbd7f162e2.png"
-        ]
-      },
-      {
-        "id": "1086-03",
-        "name": "晶華會",
-        "nameEn": "Regent Club",
-        "floor": "待確認",
-        "area": 108,
-        "areaUnit": "坪",
-        "sqm": 357,
-        "ceiling": 2.3,
-        "capacity": {
-          "theater": 360,
-          "classroom": 160,
-          "roundtable": 22,
-          "reception": 200
+        "area": 75,
+        "price": {
+          "morning": 40000,
+          "afternoon": 40000,
+          "evening": 70000,
+          "halfDay": 80000,
+          "fullDay": 150000
         },
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "shape": "長方形",
-        "hasWindow": true,
-        "equipment": [
-          "投影設備",
-          "音響系統",
-          "麥克風",
-          "免費高速上網"
-        ],
-        "features": [
-          "隱密尊貴",
-          "私人管家式服務"
-        ],
-        "description": "以頂級私人招待所風貌出現的晶華會，讓您的宴會活動不再一成不變。人生歡樂時、福祿壽喜宴，透過晶華會隱密尊貴的宴飲空間及私人管家式的貼心服務。",
-        "photo": "https://www.regenttaiwan.com/occasions/uploads/site/10/org/6c2a5bf5bad0d44bdd94c0ba1377b2d8.png",
-        "images": [
-          "https://www.regenttaiwan.com/occasions/uploads/site/10/org/6c2a5bf5bad0d44bdd94c0ba1377b2d8.png"
-        ]
-      },
-      {
-        "id": "1086-04",
-        "name": "萬象廳",
-        "nameEn": "Universe Hall",
-        "floor": "待確認",
-        "area": 142,
-        "areaUnit": "坪",
-        "sqm": 470,
-        "ceiling": 2.35,
-        "capacity": {
-          "theater": 440,
-          "classroom": 207,
-          "roundtable": 276,
-          "reception": 260
-        },
-        "pillar": false,
-        "pillarCount": 0,
-        "pillarInfo": "無柱子",
-        "shape": "長方形",
-        "hasWindow": true,
-        "equipment": [
-          "投影設備",
-          "音響系統",
-          "麥克風",
-          "免費高速上網"
-        ],
-        "features": [
-          "6間多功能貴賓廳"
-        ],
-        "description": "萬象廳擁有六間多功能貴賓廳，是舉辦研討會、喜慶宴會及社交活動的理想場地。",
-        "photo": "https://www.regenttaiwan.com/occasions/uploads/site/12/org/fb7ab9bad6dc7648a77ce3d8d60caa10.jpg",
-        "images": [
-          "https://www.regenttaiwan.com/occasions/uploads/site/12/org/fb7ab9bad6dc7648a77ce3d8d60caa10.jpg"
-        ]
-      },
-      {
-        "id": "1086-05",
-        "name": "寰宇廳",
-        "nameEn": "Panorama Hall",
-        "floor": "待確認",
-        "area": null,
-        "areaUnit": "坪",
-        "sqm": null,
-        "ceiling": null,
-        "capacity": {
-          "theater": null,
-          "classroom": null,
-          "roundtable": null,
-          "reception": null
-        },
-        "pillar": null,
-        "pillarCount": null,
-        "pillarInfo": "未知",
-        "shape": "未知",
-        "hasWindow": null,
         "equipment": [
           "投影設備",
           "音響系統",
           "麥克風"
         ],
-        "features": [
-          "3間優雅貴賓廳"
-        ],
-        "description": "包含三間優雅的貴賓廳，多功能的場地是中型規模社交活動及喜慶宴會的理想選擇。",
-        "photo": "https://www.regenttaiwan.com/occasions/uploads/site/13/org/b48d08f556da74184255812af8ddf8a4.jpg",
         "images": [
-          "https://www.regenttaiwan.com/occasions/uploads/site/13/org/b48d08f556da74184255812af8ddf8a4.jpg"
+          "https://www.regenttaiwan.com/asset/types/main//images/uploads/regenttaipei/nav-regent-taipei-dining.jpg?v1.001"
         ],
-        "notes": "官網未提供具體面積和容量數據"
-      },
-      {
-        "id": "1086-06",
-        "name": "貴賓廳",
-        "nameEn": "VIP Rooms",
-        "floor": "待確認",
-        "area": 235,
-        "areaUnit": "坪",
-        "sqm": 776,
-        "ceiling": 2.3,
-        "capacity": {
-          "theater": 700,
-          "classroom": 429,
-          "roundtable": 576,
-          "reception": 580
-        },
+        "id": "1086-02",
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
-        "shape": "長方形",
+        "shape": "未知",
+        "photo": "https://www.regenttaiwan.com/asset/types/main//images/uploads/regenttaipei/nav-regent-taipei-dining.jpg?v1.001",
+        "floor": "2F",
+        "ceiling": 3.5,
         "hasWindow": true,
+        "features": [
+          "景觀窗戶",
+          "自然採光"
+        ],
+        "notes": "2樓中型宴會廳"
+      },
+      {
+        "name": "會議室A",
+        "capacity": {
+          "theater": 60,
+          "classroom": 35,
+          "ushape": 24,
+          "roundtable": 30,
+          "roundtable_min": 30,
+          "roundtable_max": 30
+        },
+        "area": 22,
+        "price": {
+          "morning": 10000,
+          "afternoon": 10000,
+          "evening": 18000,
+          "halfDay": 20000,
+          "fullDay": 38000
+        },
         "equipment": [
           "投影設備",
           "音響系統",
-          "麥克風",
-          "免費高速上網"
+          "白板"
         ],
+        "images": [
+          "https://www.regenttaiwan.com/asset/types/main//images/uploads/regenttaipei/nav-regent-taipei-weddings-events.jpg"
+        ],
+        "id": "1086-03",
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知",
+        "photo": "https://www.regenttaiwan.com/asset/types/main//images/uploads/regenttaipei/nav-regent-taipei-weddings-events.jpg",
+        "floor": "3F",
+        "ceiling": 3,
+        "hasWindow": false,
         "features": [
-          "9間貴賓廳",
-          "可個別預訂或合併"
+          "小型會議室",
+          "獨立空間"
         ],
-        "description": "9 間高雅的貴賓廳，可個別預訂或合併間數，無論任何大小規模的會議或派對，酒店都能為您量身訂做、精心策劃。",
-        "photo": null,
-        "images": [],
-        "notes": "9間貴賓廳可個別預訂或合併使用"
+        "notes": "3樓小型會議室"
       }
     ],
     "lastUpdated": "2026-03-21"

@@ -2,6 +2,9 @@
 let allVenues = [];
 let currentVenue = null;
 
+// ===== 版本控制 =====
+const DATA_VERSION = '20260323-v2'; // 與 app.js 保持同步
+
 // ===== 初始化 =====
 document.addEventListener('DOMContentLoaded', async () => {
     await loadVenues();
@@ -11,7 +14,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 // ===== 載入場地資料 =====
 async function loadVenues() {
     try {
-        const response = await fetch('venues.json');
+        const response = await fetch(`venues.json?v=${DATA_VERSION}`);
         if (!response.ok) throw new Error('無法載入資料');
         allVenues = await response.json();
         console.log(`✅ 成功載入 ${allVenues.length} 個場地`);

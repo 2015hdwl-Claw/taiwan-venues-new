@@ -4,6 +4,9 @@ let filteredVenues = [];
 let currentPage = 0;
 const ITEMS_PER_PAGE = 20;
 
+// ===== 版本控制（每次部署更新此值）=====
+const DATA_VERSION = '20260323-v2'; // 格式: YYYYMMDD-序號
+
 // ===== 排序權重定義 =====
 // 縣市排序（按場地數量降冪，前3名標記為熱門）
 const CITY_ORDER = [
@@ -59,7 +62,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 // ===== 載入場地資料 =====
 async function loadVenues() {
     try {
-        const response = await fetch('venues.json');
+        // 添加版本參數防止快取
+        const response = await fetch(`venues.json?v=${DATA_VERSION}`);
         if (!response.ok) throw new Error('無法載入資料');
         
         allVenues = await response.json();

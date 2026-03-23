@@ -510,7 +510,8 @@
     "verified": true,
     "rooms": [
       {
-        "name": "宴會廳",
+        "name": "超新星宴會廳",
+        "nameEn": "Exquisite Ballroom",
         "capacity": {
           "theater": 250,
           "classroom": 150,
@@ -529,8 +530,14 @@
           "舞台",
           "燈光"
         ],
-        "images": [],
+        "images": [
+          "https://www.courtyardtaipei.com.tw/wedding/uploads/sites/1/3f6aa2ab135425a2705f52032083f313.jpg"
+        ],
         "id": "1043-01",
+        "floor": "7樓",
+        "description": "結合現代美學與細膩禮遇，寫下優雅、從容的故事篇章",
+        "features": ["現代美學", "優雅設計"],
+        "note": "容量250人是此宴會廳單獨容量，9樓8間會議室總容量為540人",
         "length": 19.1,
         "width": 14.7,
         "sqm": 281,
@@ -538,56 +545,71 @@
         "shape": "長方形（推算）"
       },
       {
-        "name": "會議室A",
+        "name": "9樓會議室群",
+        "nameEn": "Meeting Rooms (9F)",
         "capacity": {
-          "theater": 50,
-          "classroom": 30,
-          "ushape": 20,
-          "roundtable": 24
+          "theater": 540,
+          "classroom": 300,
+          "ushape": 200,
+          "roundtable": 240
         },
-        "area": 25,
+        "area": 200,
         "price": {
-          "halfDay": 12000,
-          "fullDay": 20000
+          "halfDay": 35000,
+          "fullDay": 60000
         },
         "equipment": [
           "投影設備",
           "音響系統",
-          "白板"
+          "麥克風",
+          "舞台",
+          "燈光",
+          "無線網路"
         ],
-        "images": [],
+        "images": [
+          "https://www.courtyardtaipei.com.tw/wedding/uploads/sites/2/c3119072a2a84456acf5c4db406ed3b2.jpg"
+        ],
         "id": "1043-02",
-        "length": 10,
-        "width": 8.3,
-        "sqm": 83,
-        "dimensions": "10x8.3x3m",
+        "floor": "9樓",
+        "description": "以「山、海、林、水、晶、雲、風、光」等自然意象命名，共涵蓋8間多功能會場，採無柱、落地玻璃設計",
+        "features": ["無柱設計", "落地玻璃", "引光通透", "自然意象命名"],
+        "note": "包含8間會議室（山、海、林、水、晶、雲、風、光），容量540人為8間總容量",
+        "length": 25,
+        "width": 20,
+        "sqm": 500,
+        "dimensions": "25x20x3m",
         "shape": "長方形（推算）"
       },
       {
-        "name": "會議室B",
+        "name": "戶外證婚區",
+        "nameEn": "Elite Wedding",
         "capacity": {
-          "theater": 40,
-          "classroom": 25,
-          "ushape": 16,
-          "roundtable": 20
+          "theater": 50,
+          "classroom": null,
+          "ushape": 30,
+          "roundtable": 40
         },
-        "area": 20,
+        "area": 100,
         "price": {
-          "halfDay": 10000,
-          "fullDay": 18000
+          "halfDay": 15000,
+          "fullDay": 25000
         },
         "equipment": [
-          "投影設備",
           "音響系統",
-          "白板"
+          "麥克風"
         ],
-        "images": [],
+        "images": [
+          "https://www.courtyardtaipei.com.tw/wedding/uploads/sites/3/f28f0b334efdd05cee53b1f4c12867ac.jpg"
+        ],
         "id": "1043-03",
-        "length": 8.9,
-        "width": 7.4,
-        "sqm": 66,
-        "dimensions": "8.9x7.4x3m",
-        "shape": "長方形（推算）"
+        "floor": "戶外",
+        "description": "以270度夢幻山景視野為背景",
+        "features": ["270度山景", "自然光線", "植栽綠意"],
+        "length": null,
+        "width": null,
+        "sqm": null,
+        "dimensions": null,
+        "shape": "戶外開放空間"
       }
     ],
     "lastUpdated": "2026-03-23",
@@ -4777,14 +4799,15 @@
       {
         "name": "茹曦廳",
         "capacity": {
-          "theater": 400,
-          "classroom": 260,
-          "ushape": 170,
-          "roundtable": 240,
-          "roundtable_min": 240,
-          "roundtable_max": 240
+          "theater": 1200,
+          "classroom": 800,
+          "ushape": 500,
+          "roundtable": 1000,
+          "roundtable_min": 1000,
+          "roundtable_max": 1000
         },
         "area": 140,
+        "areaSqm": 836,
         "price": {
           "morning": 75000,
           "afternoon": 75000,
@@ -4802,6 +4825,9 @@
           "https://www.dynasty.com.tw/images/banner4.jpg"
         ],
         "id": "1090-01",
+        "floor": "2F",
+        "description": "面積220~836平方公尺，至多容納1,200人，挑高無柱、空間寬敞",
+        "features": ["挑高無柱", "空間寬敞", "可分割為茹曦A/B廳"],
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
@@ -4815,14 +4841,15 @@
       {
         "name": "斯賓諾莎宴會廳",
         "capacity": {
-          "theater": 350,
-          "classroom": 230,
+          "theater": 400,
+          "classroom": 250,
           "ushape": 150,
-          "roundtable": 210,
-          "roundtable_min": 210,
-          "roundtable_max": 210
+          "roundtable": 200,
+          "roundtable_min": 200,
+          "roundtable_max": 200
         },
         "area": 125,
+        "areaSqm": 443,
         "price": {
           "morning": 65000,
           "afternoon": 65000,
@@ -4839,6 +4866,9 @@
           "https://www.dynasty.com.tw/images/banner4-s.jpg"
         ],
         "id": "1090-02",
+        "floor": "5F",
+        "description": "面積443平方公尺，容納60~400人，挑高、寬敞、方正且無柱",
+        "features": ["挑高無柱", "方正", "獨立接待區", "自然光"],
         "pillar": true,
         "pillarCount": 2,
         "pillarInfo": "有柱子",
@@ -4852,14 +4882,15 @@
       {
         "name": "貴賓軒",
         "capacity": {
-          "theater": 30,
-          "classroom": 18,
-          "ushape": 12,
-          "roundtable": 15,
-          "roundtable_min": 15,
-          "roundtable_max": 15
+          "theater": 220,
+          "classroom": 150,
+          "ushape": 100,
+          "roundtable": 120,
+          "roundtable_min": 120,
+          "roundtable_max": 120
         },
-        "area": 10,
+        "area": 80,
+        "areaSqm": 271,
         "price": {
           "morning": 4000,
           "afternoon": 4000,
@@ -4875,15 +4906,58 @@
           "https://www.dynasty.com.tw/images/banner4.jpg"
         ],
         "id": "1090-03",
+        "floor": "2F",
+        "description": "12個靈活彈性的多功能空間，面積47~271平方公尺，容納10~220人。包含狄德羅廳、康德廳、孔狄亞克廳、霍布斯廳、孟德斯鳩廳等12個廳",
+        "features": ["12個多功能廳", "靈活佈局", "可合併", "教室型/劇院型/圓桌型/ㄇ字型"],
+        "rooms": 12,
         "pillar": false,
         "pillarCount": 0,
         "pillarInfo": "無柱子",
         "shape": "未知",
         "photo": "https://www.dynasty.com.tw/images/banner4.jpg",
-        "length": 6.3,
-        "width": 5.2,
-        "sqm": 33,
-        "dimensions": "6.3x5.2x3m"
+        "length": 16.5,
+        "width": 16.4,
+        "sqm": 271,
+        "dimensions": "16.5x16.4x3m"
+      },
+      {
+        "name": "玉蘭軒",
+        "nameEn": "Magnolia Lounge",
+        "capacity": {
+          "theater": 80,
+          "classroom": 50,
+          "ushape": 30,
+          "roundtable": 80,
+          "roundtable_min": 10,
+          "roundtable_max": 80
+        },
+        "area": 25,
+        "price": {
+          "morning": 5000,
+          "afternoon": 5000,
+          "evening": 8000,
+          "halfDay": 10000,
+          "fullDay": 18000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統"
+        ],
+        "images": [],
+        "id": "1090-04",
+        "floor": "2F",
+        "description": "充滿東方韻味、設計精美的私人用餐場地",
+        "features": ["東方韻味", "精緻溫馨", "5間獨立包廂"],
+        "rooms": 5,
+        "pillar": false,
+        "pillarCount": 0,
+        "pillarInfo": "無柱子",
+        "shape": "未知",
+        "photo": null,
+        "length": 8.2,
+        "width": 6.1,
+        "sqm": 50,
+        "dimensions": "8.2x6.1x3m"
       }
     ],
     "lastUpdated": "2026-03-23"

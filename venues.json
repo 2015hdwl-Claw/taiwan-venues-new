@@ -6936,6 +6936,10 @@
           "cocktail": 100,
           "theater": 80
         },
+        "price": {
+          "note": "價格需洽詢",
+          "inquiry": true
+        },
         "equipment": [
           "音響系統"
         ],
@@ -6960,6 +6964,10 @@
           "classroom": 15,
           "ushape": 12,
           "boardroom": 12
+        },
+        "price": {
+          "note": "價格需洽詢",
+          "inquiry": true
         },
         "equipment": [
           "投影設備",

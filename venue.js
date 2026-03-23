@@ -185,12 +185,19 @@ function createRoomCard(room, venueId) {
     card.className = 'room-card';
     card.onclick = () => goToRoom(venueId, room.id);
     
-    // 優先使用官網 images 陣列第一張，其次是 photo
-    // 如果都沒有，不顯示圖片（不使用 Unsplash 等第三方圖片）
+    // 優先使用官網照片（支援多種格式）
+    // 格式1: {"main": "url", "source": "url"}
+    // 格式2: ["url1", "url2"]
+    // 格式3: photo: "url"
     let imageUrl = null;
-    if (Array.isArray(room.images) && room.images.length > 0) {
+    if (room.images && typeof room.images === 'object' && room.images.main) {
+        // 字典格式，优先使用 main
+        imageUrl = room.images.main;
+    } else if (Array.isArray(room.images) && room.images.length > 0) {
+        // 数组格式，使用第一张
         imageUrl = room.images[0];
     } else if (room.photo) {
+        // 旧格式 photo 字段
         imageUrl = room.photo;
     }
     

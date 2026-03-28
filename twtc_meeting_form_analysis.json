@@ -1,0 +1,20 @@
+{
+  "url": "https://www.twtc.com.tw/meeting_form",
+  "tables_count": 0,
+  "selects_count": 0,
+  "found_rooms": [
+    "第一會議室",
+    "第二會議室",
+    "第三會議室",
+    "A+會議室",
+    "第四會議室",
+    "第五會議室"
+  ],
+  "found_prices": [],
+  "found_capacities": [],
+  "hidden_fields": {
+    "__VIEWSTATE": "S0qYDBWSkcRLuBtB4mbY/YO6Fm12Nwh2BJfyu7V3sC4WzCEeF38WxDBSf8+26mmc3jykUR0jyUcE4ZqEudMzBgYTERLOYJOQ0TvPRCiHI3o=",
+    "__VIEWSTATEGENERATOR": "972E0CD6",
+    "__EVENTVALIDATION": "O0ZDLmio0kMSr95Cdxwb1uAiob0qwUV+i9UoA7wPXVESGikMHJfpqZXrIUhAlrMWtSTcXoTCQkH+HVOxrc/wQS+LHkm+2QUnBRsjfCQgiHjKxkDPFTFwi8gHyi4AcZbK"
+  }
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "1049-01",
+    "name": "第一會議室",
+    "nameEn": "Meeting Room 1",
+    "floor": null,
+    "area": null,
+    "areaUnit": null,
+    "dimensions": {
+      "length": null,
+      "width": null,
+      "height": null
+    },
+    "capacity": {
+      "theater": null,
+      "banquet": null,
+      "classroom": null,
+      "uShape": null
+    },
+    "price": {
+      "weekday": 23700,
+      "holiday": 28440,
+      "evening": null,
+      "fullDay": null,
+      "note": null
+    },
+    "equipment": null,
+    "features": null,
+    "source": "官方 PDF 2025.10: 會議室暨設備價目表",
+    "lastUpdated": "2026-03-26T12:35:08.909912"
+  },
+  {
+    "id": "1049-02",
+    "name": "第二會議室",
+    "nameEn": "Meeting Room 2",
+    "floor": null,
+    "area": null,
+    "areaUnit": null,
+    "dimensions": {
+      "length": null,
+      "width": null,
+      "height": null
+    },
+    "capacity": {
+      "theater": null,
+      "banquet": null,
+      "classroom": null,
+      "uShape": null
+    },
+    "price": {
+      "weekday": 18000,
+      "holiday": 21600,
+      "evening": null,
+      "fullDay": null,
+      "note": null
+    },
+    "equipment": null,
+    "features": null,
+    "source": "官方 PDF 2025.10",
+    "lastUpdated": "2026-03-26T12:35:08.909949"
+  },
+  {
+    "id": "1049-03",
+    "name": "第三會議室",
+    "nameEn": "Meeting Room 3",
+    "floor": null,
+    "area": null,
+    "areaUnit": null,
+    "dimensions": {
+      "length": null,
+      "width": null,
+      "height": null
+    },
+    "capacity": {
+      "theater": null,
+      "banquet": null,
+      "classroom": null,
+      "uShape": null
+    },
+    "price": {
+      "weekday": 23400,
+      "holiday": 28080,
+      "evening": null,
+      "fullDay": null,
+      "note": null
+    },
+    "equipment": null,
+    "features": null,
+    "source": "官方 PDF 2025.10",
+    "lastUpdated": "2026-03-26T12:35:08.909955"
+  },
+  {
+    "id": "1049-04",
+    "name": "第四會議室",
+    "nameEn": "Meeting Room 4",
+    "floor": null,
+    "area": null,
+    "areaUnit": null,
+    "dimensions": {
+      "length": null,
+      "width": null,
+      "height": null
+    },
+    "capacity": {
+      "theater": null,
+      "banquet": null,
+      "classroom": null,
+      "uShape": null
+    },
+    "price": {
+      "weekday": 15500,
+      "holiday": 18600,
+      "evening": null,
+      "fullDay": null,
+      "note": null
+    },
+    "equipment": null,
+    "features": null,
+    "source": "官方 PDF 2025.10",
+    "lastUpdated": "2026-03-26T12:35:08.909960"
+  },
+  {
+    "id": "1049-05",
+    "name": "第五會議室",
+    "nameEn": "Meeting Room 5",
+    "floor": null,
+    "area": null,
+    "areaUnit": null,
+    "dimensions": {
+      "length": null,
+      "width": null,
+      "height": null
+    },
+    "capacity": {
+      "theater": null,
+      "banquet": null,
+      "classroom": null,
+      "uShape": null
+    },
+    "price": {
+      "weekday": 23700,
+      "holiday": 28440,
+      "evening": null,
+      "fullDay": null,
+      "note": null
+    },
+    "equipment": null,
+    "features": null,
+    "source": "官方 PDF 2025.10",
+    "lastUpdated": "2026-03-26T12:35:08.909965"
+  },
+  {
+    "id": "1049-06",
+    "name": "A+會議室",
+    "nameEn": "A+ Meeting Room",
+    "floor": null,
+    "area": null,
+    "areaUnit": null,
+    "dimensions": {
+      "length": null,
+      "width": null,
+      "height": null
+    },
+    "capacity": {
+      "theater": null,
+      "banquet": null,
+      "classroom": null,
+      "uShape": null
+    },
+    "price": {
+      "weekday": 17000,
+      "holiday": 20400,
+      "evening": null,
+      "fullDay": null,
+      "note": null
+    },
+    "equipment": null,
+    "features": null,
+    "source": "官方 PDF 2025.10",
+    "lastUpdated": "2026-03-26T12:35:08.909969"
+  }
+]

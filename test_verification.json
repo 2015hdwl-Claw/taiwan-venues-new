@@ -1,0 +1,132 @@
+{
+  "results": [
+    {
+      "hotelId": 1086,
+      "hotelName": "台北晶華酒店 Regent Taipei",
+      "url": "https://www.regenttaiwan.com",
+      "verifiedAt": "2026-03-24T07:57:56.754555",
+      "rooms": [
+        {
+          "roomId": "1086-01",
+          "roomName": "晶英會",
+          "status": "NOT_FOUND",
+          "differences": [
+            "官網找不到對應場地"
+          ],
+          "corrections": {}
+        },
+        {
+          "roomId": "1086-02",
+          "roomName": "晶華會",
+          "status": "NOT_FOUND",
+          "differences": [
+            "官網找不到對應場地"
+          ],
+          "corrections": {}
+        },
+        {
+          "roomId": "1086-03",
+          "roomName": "宴會廳",
+          "status": "NOT_FOUND",
+          "differences": [
+            "官網找不到對應場地"
+          ],
+          "corrections": {}
+        },
+        {
+          "roomId": "1086-04",
+          "roomName": "萬象廳",
+          "status": "NOT_FOUND",
+          "differences": [
+            "官網找不到對應場地"
+          ],
+          "corrections": {}
+        },
+        {
+          "roomId": "1086-05",
+          "roomName": "貴賓廳",
+          "status": "NOT_FOUND",
+          "differences": [
+            "官網找不到對應場地"
+          ],
+          "corrections": {}
+        }
+      ],
+      "summary": {
+        "totalRooms": 5,
+        "verified": 0,
+        "differences": 0,
+        "errors": 5
+      },
+      "status": "ERROR"
+    },
+    {
+      "hotelId": 1085,
+      "hotelName": "台北文華東方酒店(MOHTaipei)",
+      "url": "https://www.mandarinoriental.com/taipei",
+      "verifiedAt": "2026-03-24T07:57:56.755243",
+      "rooms": [
+        {
+          "roomId": "1085-01",
+          "roomName": "Grand Ballroom",
+          "status": "NOT_FOUND",
+          "differences": [
+            "官網找不到對應場地"
+          ],
+          "corrections": {}
+        },
+        {
+          "roomId": "1085-02",
+          "roomName": "Mandarin Ballroom",
+          "status": "NOT_FOUND",
+          "differences": [
+            "官網找不到對應場地"
+          ],
+          "corrections": {}
+        },
+        {
+          "roomId": "1085-03",
+          "roomName": "Crystal Room",
+          "status": "NOT_FOUND",
+          "differences": [
+            "官網找不到對應場地"
+          ],
+          "corrections": {}
+        },
+        {
+          "roomId": "1085-04",
+          "roomName": "Jade Room",
+          "status": "NOT_FOUND",
+          "differences": [
+            "官網找不到對應場地"
+          ],
+          "corrections": {}
+        },
+        {
+          "roomId": "1085-05",
+          "roomName": "Phoenix Room",
+          "status": "NOT_FOUND",
+          "differences": [
+            "官網找不到對應場地"
+          ],
+          "corrections": {}
+        }
+      ],
+      "summary": {
+        "totalRooms": 5,
+        "verified": 0,
+        "differences": 0,
+        "errors": 5
+      },
+      "status": "ERROR"
+    }
+  ],
+  "stats": {
+    "total": 2,
+    "verified": 0,
+    "difference": 0,
+    "error": 2,
+    "warning": 0
+  },
+  "verifiedAt": "2026-03-24T07:58:00.094708"
+}

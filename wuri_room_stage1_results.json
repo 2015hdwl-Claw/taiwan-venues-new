@@ -1,0 +1,66 @@
+{
+  "venue": "集思台中新烏日會議中心",
+  "timestamp": "2026-03-26T22:46:24.725283",
+  "rooms": [
+    {
+      "name": "瓦特廳",
+      "url": "https://www.meeting.com.tw/xinwuri/room-301.php",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "script_count": 14,
+      "image_count": 29,
+      "room_images": 10,
+      "has_price": true,
+      "has_capacity": false,
+      "has_area": true,
+      "has_floor": true,
+      "server": "Apache",
+      "cookies": 0
+    },
+    {
+      "name": "巴本廳",
+      "url": "https://www.meeting.com.tw/xinwuri/room-303.php",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "script_count": 14,
+      "image_count": 29,
+      "room_images": 10,
+      "has_price": false,
+      "has_capacity": false,
+      "has_area": true,
+      "has_floor": true,
+      "server": "Apache",
+      "cookies": 0
+    },
+    {
+      "name": "富蘭克林廳",
+      "url": "https://www.meeting.com.tw/xinwuri/room-401.php",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "script_count": 14,
+      "image_count": 29,
+      "room_images": 10,
+      "has_price": true,
+      "has_capacity": false,
+      "has_area": true,
+      "has_floor": true,
+      "server": "Apache",
+      "cookies": 0
+    },
+    {
+      "name": "史蒂文生廳",
+      "url": "https://www.meeting.com.tw/xinwuri/room-402.php",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "script_count": 14,
+      "image_count": 33,
+      "room_images": 14,
+      "has_price": true,
+      "has_capacity": false,
+      "has_area": true,
+      "has_floor": true,
+      "server": "Apache",
+      "cookies": 0
+    }
+  ]
+}

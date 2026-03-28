@@ -1,0 +1,684 @@
+{
+  "top10": [
+    {
+      "id": 1103,
+      "name": "台北萬豪酒店(MarriottTaipei)",
+      "rooms": 23,
+      "completeness": 16.5,
+      "price": "20/23",
+      "capacity": "21/23",
+      "area": "20/23"
+    },
+    {
+      "id": 1085,
+      "name": "台北文華東方酒店(MOHTaipei)",
+      "rooms": 9,
+      "completeness": 16.2,
+      "price": "0/9",
+      "capacity": "8/9",
+      "area": "9/9"
+    },
+    {
+      "id": 1500,
+      "name": "南港展覽館",
+      "rooms": 28,
+      "completeness": 15.0,
+      "price": "28/28",
+      "capacity": "28/28",
+      "area": "0/28"
+    },
+    {
+      "id": 1049,
+      "name": "台北世貿中心(TWTCA)展覽大樓",
+      "rooms": 8,
+      "completeness": 13.8,
+      "price": "8/8",
+      "capacity": "4/8",
+      "area": "8/8"
+    },
+    {
+      "id": 1128,
+      "name": "集思台大會議中心(NTUCC)",
+      "rooms": 12,
+      "completeness": 13.0,
+      "price": "12/12",
+      "capacity": "12/12",
+      "area": "0/12"
+    },
+    {
+      "id": 1082,
+      "name": "台北怡亨酒店 Hotel Éclat Taipei",
+      "rooms": 1,
+      "completeness": 9.0,
+      "price": "1/1",
+      "capacity": "0/1",
+      "area": "0/1"
+    },
+    {
+      "id": 1083,
+      "name": "台北北門世民酒店 citizenM Taipei North Gate",
+      "rooms": 1,
+      "completeness": 9.0,
+      "price": "1/1",
+      "capacity": "0/1",
+      "area": "0/1"
+    },
+    {
+      "id": 1099,
+      "name": "台北艾美酒店",
+      "rooms": 1,
+      "completeness": 9.0,
+      "price": "1/1",
+      "capacity": "0/1",
+      "area": "0/1"
+    },
+    {
+      "id": 1122,
+      "name": "維多麗亞酒店",
+      "rooms": 3,
+      "completeness": 7.0,
+      "price": "0/3",
+      "capacity": "0/3",
+      "area": "0/3"
+    },
+    {
+      "id": 1034,
+      "name": "NUZONE展演空間",
+      "rooms": 3,
+      "completeness": 6.0,
+      "price": "0/3",
+      "capacity": "3/3",
+      "area": "0/3"
+    }
+  ],
+  "incomplete": [
+    {
+      "id": 1103,
+      "name": "台北萬豪酒店(MarriottTaipei)",
+      "rooms": 23,
+      "completeness": 16.5,
+      "price": "20/23",
+      "capacity": "21/23",
+      "area": "20/23"
+    },
+    {
+      "id": 1085,
+      "name": "台北文華東方酒店(MOHTaipei)",
+      "rooms": 9,
+      "completeness": 16.2,
+      "price": "0/9",
+      "capacity": "8/9",
+      "area": "9/9"
+    },
+    {
+      "id": 1500,
+      "name": "南港展覽館",
+      "rooms": 28,
+      "completeness": 15.0,
+      "price": "28/28",
+      "capacity": "28/28",
+      "area": "0/28"
+    },
+    {
+      "id": 1049,
+      "name": "台北世貿中心(TWTCA)展覽大樓",
+      "rooms": 8,
+      "completeness": 13.8,
+      "price": "8/8",
+      "capacity": "4/8",
+      "area": "8/8"
+    },
+    {
+      "id": 1128,
+      "name": "集思台大會議中心(NTUCC)",
+      "rooms": 12,
+      "completeness": 13.0,
+      "price": "12/12",
+      "capacity": "12/12",
+      "area": "0/12"
+    },
+    {
+      "id": 1082,
+      "name": "台北怡亨酒店 Hotel Éclat Taipei",
+      "rooms": 1,
+      "completeness": 9.0,
+      "price": "1/1",
+      "capacity": "0/1",
+      "area": "0/1"
+    },
+    {
+      "id": 1083,
+      "name": "台北北門世民酒店 citizenM Taipei North Gate",
+      "rooms": 1,
+      "completeness": 9.0,
+      "price": "1/1",
+      "capacity": "0/1",
+      "area": "0/1"
+    },
+    {
+      "id": 1099,
+      "name": "台北艾美酒店",
+      "rooms": 1,
+      "completeness": 9.0,
+      "price": "1/1",
+      "capacity": "0/1",
+      "area": "0/1"
+    },
+    {
+      "id": 1122,
+      "name": "維多麗亞酒店",
+      "rooms": 3,
+      "completeness": 7.0,
+      "price": "0/3",
+      "capacity": "0/3",
+      "area": "0/3"
+    },
+    {
+      "id": 1034,
+      "name": "NUZONE展演空間",
+      "rooms": 3,
+      "completeness": 6.0,
+      "price": "0/3",
+      "capacity": "3/3",
+      "area": "0/3"
+    },
+    {
+      "id": 1045,
+      "name": "北科大創新育成中心",
+      "rooms": 3,
+      "completeness": 6.0,
+      "price": "0/3",
+      "capacity": "3/3",
+      "area": "0/3"
+    },
+    {
+      "id": 1334,
+      "name": "台北中山運動中心",
+      "rooms": 2,
+      "completeness": 6.0,
+      "price": "0/2",
+      "capacity": "2/2",
+      "area": "0/2"
+    },
+    {
+      "id": 1107,
+      "name": "台北體育館",
+      "rooms": 2,
+      "completeness": 5.0,
+      "price": "0/2",
+      "capacity": "2/2",
+      "area": "0/2"
+    },
+    {
+      "id": 1076,
+      "name": "台北寒舍艾美酒店(LeMeridienTaipei)",
+      "rooms": 1,
+      "completeness": 4.0,
+      "price": "0/1",
+      "capacity": "0/1",
+      "area": "0/1"
+    },
+    {
+      "id": 1053,
+      "name": "台北兄弟大飯店(BrotherTaipei)",
+      "rooms": 23,
+      "completeness": 3.3,
+      "price": "0/23",
+      "capacity": "20/23",
+      "area": "0/23"
+    },
+    {
+      "id": 1042,
+      "name": "公務人力發展學院",
+      "rooms": 46,
+      "completeness": 3.2,
+      "price": "0/46",
+      "capacity": "0/46",
+      "area": "0/46"
+    },
+    {
+      "id": 1075,
+      "name": "台北寒舍喜來登大飯店",
+      "rooms": 7,
+      "completeness": 3.1,
+      "price": "0/7",
+      "capacity": "0/7",
+      "area": "0/7"
+    },
+    {
+      "id": 1126,
+      "name": "豪景大酒店",
+      "rooms": 7,
+      "completeness": 2.9,
+      "price": "0/7",
+      "capacity": "0/7",
+      "area": "0/7"
+    },
+    {
+      "id": 1051,
+      "name": "台北亞都麗緻大飯店(LandisTaipei)",
+      "rooms": 2,
+      "completeness": 2.5,
+      "price": "0/2",
+      "capacity": "0/2",
+      "area": "0/2"
+    },
+    {
+      "id": 1116,
+      "name": "彭園婚宴會館",
+      "rooms": 2,
+      "completeness": 2.5,
+      "price": "0/2",
+      "capacity": "0/2",
+      "area": "0/2"
+    },
+    {
+      "id": 1043,
+      "name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+      "rooms": 2,
+      "completeness": 2.0,
+      "price": "0/2",
+      "capacity": "0/2",
+      "area": "0/2"
+    },
+    {
+      "id": 1068,
+      "name": "台北喜瑞飯店",
+      "rooms": 1,
+      "completeness": 2.0,
+      "price": "0/1",
+      "capacity": "0/1",
+      "area": "0/1"
+    },
+    {
+      "id": 1129,
+      "name": "青青婚宴會館",
+      "rooms": 10,
+      "completeness": 2.0,
+      "price": "0/10",
+      "capacity": "0/10",
+      "area": "0/10"
+    },
+    {
+      "id": 1069,
+      "name": "台北國賓大飯店(AmbassadorTaipei)",
+      "rooms": 5,
+      "completeness": 1.4,
+      "price": "0/5",
+      "capacity": "0/5",
+      "area": "0/5"
+    },
+    {
+      "id": 1057,
+      "name": "台北典華",
+      "rooms": 1,
+      "completeness": 1.0,
+      "price": "0/1",
+      "capacity": "0/1",
+      "area": "0/1"
+    },
+    {
+      "id": 1072,
+      "name": "台北圓山大飯店(Grand Hotel Taipei)",
+      "rooms": 5,
+      "completeness": 1.0,
+      "price": "0/5",
+      "capacity": "0/5",
+      "area": "0/5"
+    },
+    {
+      "id": 1077,
+      "name": "台北艾麗酒店",
+      "rooms": 1,
+      "completeness": 1.0,
+      "price": "0/1",
+      "capacity": "0/1",
+      "area": "0/1"
+    },
+    {
+      "id": 1086,
+      "name": "台北晶華酒店 Regent Taipei",
+      "rooms": 3,
+      "completeness": 1.0,
+      "price": "0/3",
+      "capacity": "0/3",
+      "area": "0/3"
+    },
+    {
+      "id": 1090,
+      "name": "茹曦酒店 ILLUME TAIPEI",
+      "rooms": 4,
+      "completeness": 1.0,
+      "price": "0/4",
+      "capacity": "0/4",
+      "area": "0/4"
+    },
+    {
+      "id": 1095,
+      "name": "台北美福大飯店",
+      "rooms": 4,
+      "completeness": 1.0,
+      "price": "0/4",
+      "capacity": "0/4",
+      "area": "0/4"
+    },
+    {
+      "id": 1097,
+      "name": "台北老爺大酒店(RoyalInnTaipei)",
+      "rooms": 1,
+      "completeness": 1.0,
+      "price": "0/1",
+      "capacity": "0/1",
+      "area": "0/1"
+    },
+    {
+      "id": 1100,
+      "name": "台北花園大酒店(TGHotel)",
+      "rooms": 2,
+      "completeness": 1.0,
+      "price": "0/2",
+      "capacity": "0/2",
+      "area": "0/2"
+    },
+    {
+      "id": 1109,
+      "name": "台大綜合體育館",
+      "rooms": 1,
+      "completeness": 1.0,
+      "price": "0/1",
+      "capacity": "0/1",
+      "area": "0/1"
+    },
+    {
+      "id": 1121,
+      "name": "神旺大飯店",
+      "rooms": 2,
+      "completeness": 1.0,
+      "price": "0/2",
+      "capacity": "0/2",
+      "area": "0/2"
+    },
+    {
+      "id": 1124,
+      "name": "花園大酒店",
+      "rooms": 2,
+      "completeness": 1.0,
+      "price": "0/2",
+      "capacity": "0/2",
+      "area": "0/2"
+    },
+    {
+      "id": 1125,
+      "name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+      "rooms": 26,
+      "completeness": 1.0,
+      "price": "0/26",
+      "capacity": "0/26",
+      "area": "0/26"
+    }
+  ],
+  "no_price": [
+    {
+      "id": 1085,
+      "name": "台北文華東方酒店(MOHTaipei)",
+      "rooms": 9,
+      "completeness": 16.2,
+      "price": "0/9",
+      "capacity": "8/9",
+      "area": "9/9"
+    },
+    {
+      "id": 1122,
+      "name": "維多麗亞酒店",
+      "rooms": 3,
+      "completeness": 7.0,
+      "price": "0/3",
+      "capacity": "0/3",
+      "area": "0/3"
+    },
+    {
+      "id": 1034,
+      "name": "NUZONE展演空間",
+      "rooms": 3,
+      "completeness": 6.0,
+      "price": "0/3",
+      "capacity": "3/3",
+      "area": "0/3"
+    },
+    {
+      "id": 1045,
+      "name": "北科大創新育成中心",
+      "rooms": 3,
+      "completeness": 6.0,
+      "price": "0/3",
+      "capacity": "3/3",
+      "area": "0/3"
+    },
+    {
+      "id": 1334,
+      "name": "台北中山運動中心",
+      "rooms": 2,
+      "completeness": 6.0,
+      "price": "0/2",
+      "capacity": "2/2",
+      "area": "0/2"
+    },
+    {
+      "id": 1107,
+      "name": "台北體育館",
+      "rooms": 2,
+      "completeness": 5.0,
+      "price": "0/2",
+      "capacity": "2/2",
+      "area": "0/2"
+    },
+    {
+      "id": 1076,
+      "name": "台北寒舍艾美酒店(LeMeridienTaipei)",
+      "rooms": 1,
+      "completeness": 4.0,
+      "price": "0/1",
+      "capacity": "0/1",
+      "area": "0/1"
+    },
+    {
+      "id": 1053,
+      "name": "台北兄弟大飯店(BrotherTaipei)",
+      "rooms": 23,
+      "completeness": 3.3,
+      "price": "0/23",
+      "capacity": "20/23",
+      "area": "0/23"
+    },
+    {
+      "id": 1042,
+      "name": "公務人力發展學院",
+      "rooms": 46,
+      "completeness": 3.2,
+      "price": "0/46",
+      "capacity": "0/46",
+      "area": "0/46"
+    },
+    {
+      "id": 1075,
+      "name": "台北寒舍喜來登大飯店",
+      "rooms": 7,
+      "completeness": 3.1,
+      "price": "0/7",
+      "capacity": "0/7",
+      "area": "0/7"
+    },
+    {
+      "id": 1126,
+      "name": "豪景大酒店",
+      "rooms": 7,
+      "completeness": 2.9,
+      "price": "0/7",
+      "capacity": "0/7",
+      "area": "0/7"
+    },
+    {
+      "id": 1051,
+      "name": "台北亞都麗緻大飯店(LandisTaipei)",
+      "rooms": 2,
+      "completeness": 2.5,
+      "price": "0/2",
+      "capacity": "0/2",
+      "area": "0/2"
+    },
+    {
+      "id": 1116,
+      "name": "彭園婚宴會館",
+      "rooms": 2,
+      "completeness": 2.5,
+      "price": "0/2",
+      "capacity": "0/2",
+      "area": "0/2"
+    },
+    {
+      "id": 1043,
+      "name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+      "rooms": 2,
+      "completeness": 2.0,
+      "price": "0/2",
+      "capacity": "0/2",
+      "area": "0/2"
+    },
+    {
+      "id": 1068,
+      "name": "台北喜瑞飯店",
+      "rooms": 1,
+      "completeness": 2.0,
+      "price": "0/1",
+      "capacity": "0/1",
+      "area": "0/1"
+    },
+    {
+      "id": 1129,
+      "name": "青青婚宴會館",
+      "rooms": 10,
+      "completeness": 2.0,
+      "price": "0/10",
+      "capacity": "0/10",
+      "area": "0/10"
+    },
+    {
+      "id": 1069,
+      "name": "台北國賓大飯店(AmbassadorTaipei)",
+      "rooms": 5,
+      "completeness": 1.4,
+      "price": "0/5",
+      "capacity": "0/5",
+      "area": "0/5"
+    },
+    {
+      "id": 1057,
+      "name": "台北典華",
+      "rooms": 1,
+      "completeness": 1.0,
+      "price": "0/1",
+      "capacity": "0/1",
+      "area": "0/1"
+    },
+    {
+      "id": 1072,
+      "name": "台北圓山大飯店(Grand Hotel Taipei)",
+      "rooms": 5,
+      "completeness": 1.0,
+      "price": "0/5",
+      "capacity": "0/5",
+      "area": "0/5"
+    },
+    {
+      "id": 1077,
+      "name": "台北艾麗酒店",
+      "rooms": 1,
+      "completeness": 1.0,
+      "price": "0/1",
+      "capacity": "0/1",
+      "area": "0/1"
+    },
+    {
+      "id": 1086,
+      "name": "台北晶華酒店 Regent Taipei",
+      "rooms": 3,
+      "completeness": 1.0,
+      "price": "0/3",
+      "capacity": "0/3",
+      "area": "0/3"
+    },
+    {
+      "id": 1090,
+      "name": "茹曦酒店 ILLUME TAIPEI",
+      "rooms": 4,
+      "completeness": 1.0,
+      "price": "0/4",
+      "capacity": "0/4",
+      "area": "0/4"
+    },
+    {
+      "id": 1095,
+      "name": "台北美福大飯店",
+      "rooms": 4,
+      "completeness": 1.0,
+      "price": "0/4",
+      "capacity": "0/4",
+      "area": "0/4"
+    },
+    {
+      "id": 1097,
+      "name": "台北老爺大酒店(RoyalInnTaipei)",
+      "rooms": 1,
+      "completeness": 1.0,
+      "price": "0/1",
+      "capacity": "0/1",
+      "area": "0/1"
+    },
+    {
+      "id": 1100,
+      "name": "台北花園大酒店(TGHotel)",
+      "rooms": 2,
+      "completeness": 1.0,
+      "price": "0/2",
+      "capacity": "0/2",
+      "area": "0/2"
+    },
+    {
+      "id": 1109,
+      "name": "台大綜合體育館",
+      "rooms": 1,
+      "completeness": 1.0,
+      "price": "0/1",
+      "capacity": "0/1",
+      "area": "0/1"
+    },
+    {
+      "id": 1121,
+      "name": "神旺大飯店",
+      "rooms": 2,
+      "completeness": 1.0,
+      "price": "0/2",
+      "capacity": "0/2",
+      "area": "0/2"
+    },
+    {
+      "id": 1124,
+      "name": "花園大酒店",
+      "rooms": 2,
+      "completeness": 1.0,
+      "price": "0/2",
+      "capacity": "0/2",
+      "area": "0/2"
+    },
+    {
+      "id": 1125,
+      "name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+      "rooms": 26,
+      "completeness": 1.0,
+      "price": "0/26",
+      "capacity": "0/26",
+      "area": "0/26"
+    }
+  ],
+  "date": "2026-03-26T14:18:45.459433"
+}

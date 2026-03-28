@@ -1,0 +1,27 @@
+{
+  "venue": "豪景大酒店",
+  "venue_id": 1126,
+  "timestamp": "2026-03-27T08:11:26.685371",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "content_size": 197741,
+  "js_frameworks": [
+    "jquery"
+  ],
+  "has_ajax": false,
+  "has_cloudflare": false,
+  "cookies_count": 0,
+  "meeting_links": [
+    {
+      "text": "會議服務",
+      "url": "https://www.riverview.com.tw/%e6%9c%83%e8%ad%b0%e6%9c%8d%e5%8b%99/",
+      "type": "external"
+    },
+    {
+      "text": "2025大稻埕夏日節頂樓煙火觀賞專案活動",
+      "url": "https://www.riverview.com.tw/2025%e5%a4%a7%e7%a8%bb%e5%9f%95%e5%a4%8f%e6%97%a5%e7%af%80%e9%a0%82%e6%a8%93%e7%85%99%e7%81%ab%e8%a7%80%e8%b3%9e%e5%b0%88%e6%a1%88%e6%b4%bb%e5%8b%95/",
+      "type": "external"
+    }
+  ],
+  "pdf_links": []
+}

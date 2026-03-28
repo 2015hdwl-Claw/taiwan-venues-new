@@ -1,0 +1,49 @@
+{
+  "tested_at": "2026-03-25T15:00:52.466638",
+  "total_tested": 4,
+  "results": [
+    {
+      "id": 1042,
+      "name": "公務人力發展學院",
+      "type": "會議中心",
+      "url": "https://www.hrd.gov.tw",
+      "page_type": "Static/SSR",
+      "meeting_links_count": 8,
+      "total_links": 180,
+      "success": true
+    },
+    {
+      "id": 1034,
+      "name": "NUZONE展演空間",
+      "type": "展演場地",
+      "url": "https://www.nuzone.com.tw/",
+      "page_type": "Static/SSR",
+      "email": "service@nuzone.com.tw地址",
+      "meeting_links_count": 0,
+      "total_links": 18,
+      "success": true
+    },
+    {
+      "id": 1448,
+      "name": "台北國際會議中心(TICC)",
+      "type": "會議中心",
+      "url": "https://www.ticc.com.tw/",
+      "page_type": "Static/SSR",
+      "email": "ticc@taitra.org.tw",
+      "meeting_links_count": 1,
+      "total_links": 67,
+      "success": true
+    },
+    {
+      "id": 1049,
+      "name": "台北國際展演中心(TWTCA)",
+      "type": "展演場地",
+      "url": "https://www.twtc.com.tw/",
+      "page_type": "Static/SSR",
+      "email": "twtc@taitra.org.tw",
+      "meeting_links_count": 13,
+      "total_links": 74,
+      "success": true
+    }
+  ]
+}

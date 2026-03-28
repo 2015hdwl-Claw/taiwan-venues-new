@@ -1,0 +1,294 @@
+{
+  "venue": "台北老爺大酒店",
+  "venue_id": 1097,
+  "timestamp": "2026-03-27T01:12:57.771773",
+  "main_page": {
+    "url": "https://www.hotelroyal.com.tw/zh-tw/taipei",
+    "status": 200,
+    "size": 262813,
+    "js_frameworks": []
+  },
+  "meeting_links": [
+    {
+      "text": "",
+      "url": "https://www.hotelroyal.com.tw/zh-tw"
+    },
+    {
+      "text": "老爺酒店一覽",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/hotels"
+    },
+    {
+      "text": "老爺酒店",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/hotels#Hotel0"
+    },
+    {
+      "text": "老爺行旅",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/hotels#Hotel1"
+    },
+    {
+      "text": "老爺會館",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/hotels#Hotel2"
+    },
+    {
+      "text": "海外酒店",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/hotels#Hotel3"
+    },
+    {
+      "text": "優惠一覽",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/promotions"
+    },
+    {
+      "text": "票券優惠",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/promotions/voucheroffer"
+    },
+    {
+      "text": "住宿優惠",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/promotions/rooms"
+    },
+    {
+      "text": "餐飲優惠",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/promotions/dining"
+    },
+    {
+      "text": "宴會會議",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/promotions/meeting"
+    },
+    {
+      "text": "老爺式旅行",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/promotions/royalexplorer"
+    },
+    {
+      "text": "老爺行旅",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/promotions/theplace"
+    },
+    {
+      "text": "特別企劃",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/promotions/travel"
+    },
+    {
+      "text": "展覽一覽",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/exhibition"
+    },
+    {
+      "text": "當期焦點",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/exhibition#processingExhibition"
+    },
+    {
+      "text": "歷年展覽",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/exhibition#historyExhibition"
+    },
+    {
+      "text": "關於集團一覽",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/about"
+    },
+    {
+      "text": "集團介紹",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/about/Intro"
+    },
+    {
+      "text": "得獎榮耀",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/about/Awards"
+    },
+    {
+      "text": "公告中心",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/about/Mediacenter"
+    },
+    {
+      "text": "聯絡我們",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/about/Contactus"
+    },
+    {
+      "text": "加入老爺",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/about/Joinus"
+    },
+    {
+      "text": "老爺好食",
+      "url": "https://www.hotelroyal.shop/?utm_source=web_HRG&utm_medium=header&utm_campaign=foodie"
+    },
+    {
+      "text": "票券專區",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/Tickets"
+    },
+    {
+      "text": "訂閱/取消電子報",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/Newsletter"
+    },
+    {
+      "text": "EN",
+      "url": "https://www.hotelroyal.com.tw/en-us"
+    },
+    {
+      "text": "日本語",
+      "url": "https://www.hotelroyal.com.tw/ja-jp"
+    },
+    {
+      "text": "한국어",
+      "url": "https://www.hotelroyal.com.tw/ko-kr"
+    },
+    {
+      "text": "老爺管顧",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/Management"
+    },
+    {
+      "text": "",
+      "url": "https://www.instagram.com/hotelroyalgroup/"
+    },
+    {
+      "text": "",
+      "url": "https://www.facebook.com/hotelroyalgroup"
+    },
+    {
+      "text": "",
+      "url": "https://x.com/hotelroyalgroup"
+    },
+    {
+      "text": "",
+      "url": "https://www.youtube.com/@hotelroyalgroup"
+    },
+    {
+      "text": "",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/taipei/linkedin.com/company/老爺酒店集團"
+    },
+    {
+      "text": "知本老爺酒店",
+      "url": "https://tlathena.ec-hotel.net/webhotel-v4/0162/?utm_source=web&utm_medium=booking-button"
+    },
+    {
+      "text": "新竹老爺酒店",
+      "url": "https://tlathena.ec-hotel.net/webhotel-v4/0232/?utm_source=web&utm_medium=booking-button"
+    },
+    {
+      "text": "礁溪老爺酒店",
+      "url": "https://tlathena.ec-hotel.net/webhotel-v4/0132/?utm_source=web&utm_medium=booking-button"
+    },
+    {
+      "text": "北投老爺酒店",
+      "url": "https://tlathena.ec-hotel.net/webhotel-v4/0312/?utm_source=web&utm_medium=booking-button"
+    },
+    {
+      "text": "台北老爺酒店",
+      "url": "https://tlathena.ec-hotel.net/webhotel-v4/0839/?utm_source=web&utm_medium=bookingbutton"
+    },
+    {
+      "text": "台南老爺行旅",
+      "url": "https://tlathena.ec-hotel.net/webhotel-v4/0315/?utm_source=web&utm_medium=booking-button"
+    },
+    {
+      "text": "台中大毅老爺行旅",
+      "url": "https://tlathena.ec-hotel.net/webhotel-v4/0776/?utm_source=web&utm_medium=bookingbutton"
+    },
+    {
+      "text": "南港老爺行旅",
+      "url": "https://tlathena.ec-hotel.net/webhotel-v4/0832/?utm_source=web&utm_medium=booking-button"
+    },
+    {
+      "text": "老爺會館台北南西",
+      "url": "https://tlathena.ec-hotel.net/webhotel-v4/0329/?utm_source=web&utm_medium=booking-button"
+    },
+    {
+      "text": "老爺會館台北林森",
+      "url": "https://tlathena.ec-hotel.net/webhotel-v4/0330/?utm_source=web&utm_medium=booking-button"
+    },
+    {
+      "text": "更多消息",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/Promotions"
+    },
+    {
+      "text": "住宿優惠2026/03/062026/04/30老爺酒店集團 ✕ 王品集團｜開工 in 援住宿優惠－入住贈瘋美食會員點數",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/Promotions/5283"
+    },
+    {
+      "text": "住宿優惠2026/01/012026/12/30老爺酒店集團｜2026 一泊一食住宿優惠",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/Promotions/5256"
+    },
+    {
+      "text": "酒店一覽",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/Hotels"
+    },
+    {
+      "text": "知本老爺酒店",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/chihpen"
+    },
+    {
+      "text": "新竹老爺酒店",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/hsinchu"
+    },
+    {
+      "text": "礁溪老爺酒店",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/chiaohsi"
+    },
+    {
+      "text": "北投老爺酒店",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/beitou"
+    },
+    {
+      "text": "台北老爺酒店",
+      "url": "http://www.royal-taipei.com.tw/?utm_source=web&utm_medium=booking-button"
+    },
+    {
+      "text": "台南老爺行旅",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/tainan"
+    },
+    {
+      "text": "台中大毅老爺行旅",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/taichung"
+    },
+    {
+      "text": "南港老爺行旅",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/nangang"
+    },
+    {
+      "text": "老爺會館台北南西",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/nanxi"
+    },
+    {
+      "text": "老爺會館台北林森",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/linsen"
+    },
+    {
+      "text": "帛琉老爺酒店",
+      "url": "https://www.palau-royal-resort.com/"
+    },
+    {
+      "text": "西貢老爺酒店",
+      "url": "https://www.hotelnikkosaigon.com.vn/"
+    },
+    {
+      "text": "2025年老爺閃購節｜聯合住宿券使用說明 (贈送券使用效期至 2025/11/30)202505/06202606/30",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/Tickets/4434"
+    },
+    {
+      "text": "2025年台北旅展｜聯合住宿券使用說明 (贈送券使用效期至 2026/05/31)202511/04202611/30",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/Tickets/4934"
+    },
+    {
+      "text": "2025年台北旅展｜聯合餐飲券使用說明 (贈送券使用效期至 2026/05/31 )202511/04202611/30",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/Tickets/4938"
+    },
+    {
+      "text": "更多展覽",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/Exhibition"
+    },
+    {
+      "text": "more",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/taichung/Exhibition/4547"
+    },
+    {
+      "text": "more",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/tainan/Exhibition/4594"
+    },
+    {
+      "text": "Hotels",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/taipei/#index_hotels"
+    },
+    {
+      "text": "閱讀完整內容",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/about/mediacenter/5305"
+    },
+    {
+      "text": "隱私權政策",
+      "url": "https://www.hotelroyal.com.tw/zh-tw/Privacy"
+    }
+  ],
+  "pdf_links": []
+}

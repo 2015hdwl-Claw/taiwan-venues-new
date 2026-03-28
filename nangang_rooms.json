@@ -1,0 +1,71 @@
+[
+  {
+    "id": "1500-13-福軒",
+    "name": "福軒（1館3樓）",
+    "nameEn": "福軒",
+    "area": 83.5,
+    "areaUnit": "㎡",
+    "height": 3.9,
+    "capacity": {
+      "theater": 60,
+      "standard": 48,
+      "classroom": 32,
+      "uShape": 28,
+      "horseshoe": 20
+    },
+    "price": {
+      "weekday": 13800,
+      "holiday": 13800
+    },
+    "floor": "1館3樓",
+    "source": "tainex_official"
+  },
+  {
+    "id": "1500-13-宴會廳全室",
+    "name": "宴會廳（1館3樓全室）",
+    "nameEn": "宴會廳全室",
+    "area": 671.0,
+    "areaUnit": "㎡",
+    "height": 3.9,
+    "capacity": {
+      "theater": 372,
+      "standard": 264,
+      "classroom": 160,
+      "uShape": 92,
+      "horseshoe": 88
+    },
+    "price": {},
+    "floor": "1館3樓",
+    "source": "tainex_official"
+  },
+  {
+    "id": "1500-14-401",
+    "name": "401（1館4樓）",
+    "nameEn": "401",
+    "area": 375.7,
+    "areaUnit": "㎡",
+    "height": 3.5,
+    "capacity": {},
+    "price": {
+      "weekday": 39900,
+      "holiday": 39900
+    },
+    "floor": "1館4樓",
+    "source": "tainex_official"
+  },
+  {
+    "id": "1500-15-500",
+    "name": "500（1館5樓）",
+    "nameEn": "500",
+    "area": 159.8,
+    "areaUnit": "㎡",
+    "height": 2.8,
+    "capacity": {},
+    "price": {
+      "weekday": 16700,
+      "holiday": 16700
+    },
+    "floor": "1館5樓",
+    "source": "tainex_official"
+  }
+]

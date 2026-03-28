@@ -1,0 +1,31 @@
+{
+  "venue_id": 1042,
+  "venue_name": "公務人力發展學院",
+  "stage1": {
+    "url": "https://www.hrd.gov.tw/",
+    "timestamp": "2026-03-26T18:15:32.404327",
+    "http_status": 200,
+    "final_url": "https://www.hrd.gov.tw/",
+    "content_type": "text/html; charset=utf-8",
+    "page_type": "HTML",
+    "js_frameworks": [],
+    "loading_method": "Static/SSR",
+    "inline_json_count": 1,
+    "html_keywords": [
+      "會議",
+      "場地"
+    ],
+    "data_location": "HTML_structure"
+  },
+  "stage2": {
+    "base_url": "https://www.hrd.gov.tw/",
+    "timestamp": "2026-03-26T18:15:32.588432",
+    "meeting_links_count": 16,
+    "pdf_links_count": 2,
+    "page_text_length": 3708,
+    "phones": [
+      "026-03-26"
+    ]
+  },
+  "timestamp": "2026-03-26T18:15:32.593142"
+}

@@ -1,0 +1,51 @@
+{
+  "timestamp": "2026-03-26T23:52:58.899152",
+  "hcph": {
+    "巴哈廳": {
+      "weekday": 7000,
+      "holiday": 7500
+    },
+    "羅西尼廳": {
+      "weekday": 8500,
+      "holiday": 9000
+    },
+    "鄧肯廳": {
+      "weekday": 5000,
+      "holiday": 5000
+    },
+    "達爾文廳": {
+      "weekday": 7000,
+      "holiday": 7500
+    },
+    "牛頓廳": {
+      "weekday": 6000,
+      "holiday": 6500
+    },
+    "愛因斯坦廳": {
+      "weekday": 11000,
+      "holiday": 12000
+    },
+    "愛迪生廳": {
+      "weekday": 7500,
+      "holiday": 8000
+    }
+  },
+  "wuri": {
+    "瓦特廳": {
+      "weekday": 22000,
+      "holiday": 24000
+    },
+    "巴本廳": {
+      "weekday": 8000,
+      "holiday": 9000
+    },
+    "富蘭克林廳": {
+      "weekday": 14500,
+      "holiday": 16000
+    },
+    "史蒂文生廳": {
+      "weekday": 9000,
+      "holiday": 10000
+    }
+  }
+}

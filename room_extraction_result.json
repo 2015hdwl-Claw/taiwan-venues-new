@@ -1,0 +1,13 @@
+{
+  "success": false,
+  "rooms": [],
+  "source": null,
+  "metadata": {
+    "venue_id": 1499,
+    "venue_url": "https://www.meeting.com.tw/khh/",
+    "extractedAt": "2026-03-26T08:18:24.482511",
+    "steps": [
+      "尋找會議室頁面: 失敗"
+    ]
+  }
+}

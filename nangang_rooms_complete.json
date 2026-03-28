@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "1500-01",
+    "name": "福軒",
+    "nameEn": "Fu Xuan",
+    "floor": "3樓",
+    "area": 83.5,
+    "areaUnit": "㎡",
+    "areaSqm": 83.5,
+    "areaPing": 25.3,
+    "dimensions": {
+      "length": 9.6,
+      "width": 8.7,
+      "height": 3.9
+    },
+    "capacity": {
+      "theater": 60,
+      "banquet": 48,
+      "classroom": 32,
+      "uShape": 20,
+      "cocktail": 28,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 13800,
+      "holiday": 16600,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "日間: 08:00-12:00/13:00-17:00, 夜間: 18:00-22:00"
+    },
+    "equipment": "免費提供基本配備：無線麥克風2支、主講桌1座、接待桌1桌、資訊看板1個、海報架(直)2支",
+    "equipmentList": [
+      "無線麥克風 2支",
+      "主講桌 1座",
+      "接待桌 1桌",
+      "資訊看板 1個",
+      "海報架(直) 2支"
+    ],
+    "features": "挑高 3.9 公尺",
+    "source": "官方 PDF: 外貿協會台北南港展覽館1館會議室租用收費基準 (2021)",
+    "lastUpdated": "2026-03-26T14:33:58.902448"
+  },
+  {
+    "id": "1500-02",
+    "name": "401會議室",
+    "nameEn": "Meeting Room 401",
+    "floor": "4樓",
+    "area": 375.7,
+    "areaUnit": "㎡",
+    "areaSqm": 375.7,
+    "areaPing": 113.7,
+    "dimensions": {
+      "length": 20.2,
+      "width": 18.6,
+      "height": 3.5
+    },
+    "capacity": {
+      "theater": 384,
+      "banquet": 216,
+      "classroom": 144,
+      "uShape": 52,
+      "cocktail": 72,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 39900,
+      "holiday": 47900,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "日間: 08:00-12:00/13:00-17:00, 夜間: 18:00-22:00"
+    },
+    "equipment": "免費提供基本配備：無線麥克風2支、主講桌1座、接待桌1桌、資訊看板1個、海報架(直)2支",
+    "equipmentList": [
+      "無線麥克風 2支",
+      "主講桌 1座",
+      "接待桌 1桌",
+      "資訊看板 1個",
+      "海報架(直) 2支"
+    ],
+    "features": "挑高 3.5 公尺",
+    "source": "官方 PDF: 外貿協會台北南港展覽館1館會議室租用收費基準 (2021)",
+    "lastUpdated": "2026-03-26T14:33:58.902493"
+  },
+  {
+    "id": "1500-03",
+    "name": "402會議室",
+    "nameEn": "Meeting Room 402",
+    "floor": "4樓",
+    "area": 372.6,
+    "areaUnit": "㎡",
+    "areaSqm": 372.6,
+    "areaPing": 112.7,
+    "dimensions": {
+      "length": 27.0,
+      "width": 13.8,
+      "height": 3.5
+    },
+    "capacity": {
+      "theater": 396,
+      "banquet": 224,
+      "classroom": 168,
+      "uShape": 62,
+      "cocktail": 80,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 39400,
+      "holiday": 47300,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "日間: 08:00-12:00/13:00-17:00, 夜間: 18:00-22:00"
+    },
+    "equipment": "免費提供基本配備：無線麥克風2支、主講桌1座、接待桌1桌、資訊看板1個、海報架(直)2支",
+    "equipmentList": [
+      "無線麥克風 2支",
+      "主講桌 1座",
+      "接待桌 1桌",
+      "資訊看板 1個",
+      "海報架(直) 2支"
+    ],
+    "features": "挑高 3.5 公尺",
+    "source": "官方 PDF: 外貿協會台北南港展覽館1館會議室租用收費基準 (2021)",
+    "lastUpdated": "2026-03-26T14:33:58.902509"
+  },
+  {
+    "id": "1500-04",
+    "name": "402a會議室",
+    "nameEn": "Meeting Room 402a",
+    "floor": "4樓",
+    "area": 121.4,
+    "areaUnit": "㎡",
+    "areaSqm": 121.4,
+    "areaPing": 36.7,
+    "dimensions": {
+      "length": 8.8,
+      "width": 13.8,
+      "height": 3.5
+    },
+    "capacity": {
+      "theater": 100,
+      "banquet": 72,
+      "classroom": 56,
+      "uShape": 26,
+      "cocktail": 36,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 12900,
+      "holiday": 15500,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "日間: 08:00-12:00/13:00-17:00, 夜間: 18:00-22:00"
+    },
+    "equipment": "免費提供基本配備：無線麥克風2支、主講桌1座、接待桌1桌、資訊看板1個、海報架(直)2支",
+    "equipmentList": [
+      "無線麥克風 2支",
+      "主講桌 1座",
+      "接待桌 1桌",
+      "資訊看板 1個",
+      "海報架(直) 2支"
+    ],
+    "features": "挑高 3.5 公尺",
+    "source": "官方 PDF: 外貿協會台北南港展覽館1館會議室租用收費基準 (2021)",
+    "lastUpdated": "2026-03-26T14:33:58.902518"
+  },
+  {
+    "id": "1500-05",
+    "name": "402b會議室",
+    "nameEn": "Meeting Room 402b",
+    "floor": "4樓",
+    "area": 122.8,
+    "areaUnit": "㎡",
+    "areaSqm": 122.8,
+    "areaPing": 37.1,
+    "dimensions": {
+      "length": 8.9,
+      "width": 13.8,
+      "height": 3.5
+    },
+    "capacity": {
+      "theater": 110,
+      "banquet": 72,
+      "classroom": 56,
+      "uShape": 26,
+      "cocktail": 36,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 12900,
+      "holiday": 15500,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "日間: 08:00-12:00/13:00-17:00, 夜間: 18:00-22:00"
+    },
+    "equipment": "免費提供基本配備：無線麥克風2支、主講桌1座、接待桌1桌、資訊看板1個、海報架(直)2支",
+    "equipmentList": [
+      "無線麥克風 2支",
+      "主講桌 1座",
+      "接待桌 1桌",
+      "資訊看板 1個",
+      "海報架(直) 2支"
+    ],
+    "features": "挑高 3.5 公尺",
+    "source": "官方 PDF: 外貿協會台北南港展覽館1館會議室租用收費基準 (2021)",
+    "lastUpdated": "2026-03-26T14:33:58.902530"
+  },
+  {
+    "id": "1500-06",
+    "name": "402c會議室",
+    "nameEn": "Meeting Room 402c",
+    "floor": "4樓",
+    "area": 128.3,
+    "areaUnit": "㎡",
+    "areaSqm": 128.3,
+    "areaPing": 38.8,
+    "dimensions": {
+      "length": 9.3,
+      "width": 13.8,
+      "height": 3.5
+    },
+    "capacity": {
+      "theater": 110,
+      "banquet": 72,
+      "classroom": 56,
+      "uShape": 26,
+      "cocktail": 36,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 13600,
+      "holiday": 16300,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "日間: 08:00-12:00/13:00-17:00, 夜間: 18:00-22:00"
+    },
+    "equipment": "免費提供基本配備：無線麥克風2支、主講桌1座、接待桌1桌、資訊看板1個、海報架(直)2支",
+    "equipmentList": [
+      "無線麥克風 2支",
+      "主講桌 1座",
+      "接待桌 1桌",
+      "資訊看板 1個",
+      "海報架(直) 2支"
+    ],
+    "features": "挑高 3.5 公尺",
+    "source": "官方 PDF: 外貿協會台北南港展覽館1館會議室租用收費基準 (2021)",
+    "lastUpdated": "2026-03-26T14:33:58.902538"
+  },
+  {
+    "id": "1500-07",
+    "name": "402a+b會議室",
+    "nameEn": "Meeting Room 402a+b",
+    "floor": "4樓",
+    "area": 244.3,
+    "areaUnit": "㎡",
+    "areaSqm": 244.3,
+    "areaPing": 73.9,
+    "dimensions": {
+      "length": 17.7,
+      "width": 13.8,
+      "height": 3.5
+    },
+    "capacity": {
+      "theater": 234,
+      "banquet": 144,
+      "classroom": 108,
+      "uShape": 42,
+      "cocktail": 56,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 25800,
+      "holiday": 31000,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "日間: 08:00-12:00/13:00-17:00, 夜間: 18:00-22:00"
+    },
+    "equipment": "免費提供基本配備：無線麥克風2支、主講桌1座、接待桌1桌、資訊看板1個、海報架(直)2支",
+    "equipmentList": [
+      "無線麥克風 2支",
+      "主講桌 1座",
+      "接待桌 1桌",
+      "資訊看板 1個",
+      "海報架(直) 2支"
+    ],
+    "features": "挑高 3.5 公尺",
+    "source": "官方 PDF: 外貿協會台北南港展覽館1館會議室租用收費基準 (2021)",
+    "lastUpdated": "2026-03-26T14:33:58.902548"
+  },
+  {
+    "id": "1500-08",
+    "name": "402b+c會議室",
+    "nameEn": "Meeting Room 402b+c",
+    "floor": "4樓",
+    "area": 251.2,
+    "areaUnit": "㎡",
+    "areaSqm": 251.2,
+    "areaPing": 76.0,
+    "dimensions": {
+      "length": 18.2,
+      "width": 13.8,
+      "height": 3.5
+    },
+    "capacity": {
+      "theater": 234,
+      "banquet": 144,
+      "classroom": 108,
+      "uShape": 42,
+      "cocktail": 56,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 26500,
+      "holiday": 31800,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "日間: 08:00-12:00/13:00-17:00, 夜間: 18:00-22:00"
+    },
+    "equipment": "免費提供基本配備：無線麥克風2支、主講桌1座、接待桌1桌、資訊看板1個、海報架(直)2支",
+    "equipmentList": [
+      "無線麥克風 2支",
+      "主講桌 1座",
+      "接待桌 1桌",
+      "資訊看板 1個",
+      "海報架(直) 2支"
+    ],
+    "features": "挑高 3.5 公尺",
+    "source": "官方 PDF: 外貿協會台北南港展覽館1館會議室租用收費基準 (2021)",
+    "lastUpdated": "2026-03-26T14:33:58.902558"
+  },
+  {
+    "id": "1500-09",
+    "name": "403會議室",
+    "nameEn": "Meeting Room 403",
+    "floor": "4樓",
+    "area": 149.5,
+    "areaUnit": "㎡",
+    "areaSqm": 149.5,
+    "areaPing": 45.2,
+    "dimensions": {
+      "length": 8.4,
+      "width": 17.8,
+      "height": 3.5
+    },
+    "capacity": {
+      "theater": 125,
+      "banquet": 92,
+      "classroom": 68,
+      "uShape": 34,
+      "cocktail": 44,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 15600,
+      "holiday": 18700,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "日間: 08:00-12:00/13:00-17:00, 夜間: 18:00-22:00"
+    },
+    "equipment": "免費提供基本配備：無線麥克風2支、主講桌1座、接待桌1桌、資訊看板1個、海報架(直)2支",
+    "equipmentList": [
+      "無線麥克風 2支",
+      "主講桌 1座",
+      "接待桌 1桌",
+      "資訊看板 1個",
+      "海報架(直) 2支"
+    ],
+    "features": "挑高 3.5 公尺",
+    "source": "官方 PDF: 外貿協會台北南港展覽館1館會議室租用收費基準 (2021)",
+    "lastUpdated": "2026-03-26T14:33:58.902566"
+  },
+  {
+    "id": "1500-10",
+    "name": "404會議室",
+    "nameEn": "Meeting Room 404",
+    "floor": "4樓",
+    "area": 133.5,
+    "areaUnit": "㎡",
+    "areaSqm": 133.5,
+    "areaPing": 40.4,
+    "dimensions": {
+      "length": 9.3,
+      "width": 14.3,
+      "height": 3.5
+    },
+    "capacity": {
+      "theater": 90,
+      "banquet": 72,
+      "classroom": 48,
+      "uShape": 26,
+      "cocktail": 36,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 14000,
+      "holiday": 16800,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "日間: 08:00-12:00/13:00-17:00, 夜間: 18:00-22:00"
+    },
+    "equipment": "免費提供基本配備：無線麥克風2支、主講桌1座、接待桌1桌、資訊看板1個、海報架(直)2支",
+    "equipmentList": [
+      "無線麥克風 2支",
+      "主講桌 1座",
+      "接待桌 1桌",
+      "資訊看板 1個",
+      "海報架(直) 2支"
+    ],
+    "features": "挑高 3.5 公尺",
+    "source": "官方 PDF: 外貿協會台北南港展覽館1館會議室租用收費基準 (2021)",
+    "lastUpdated": "2026-03-26T14:33:58.902574"
+  },
+  {
+    "id": "1500-11",
+    "name": "500會議室",
+    "nameEn": "Meeting Room 500",
+    "floor": "5樓",
+    "area": 159.8,
+    "areaUnit": "㎡",
+    "areaSqm": 159.8,
+    "areaPing": 48.3,
+    "dimensions": {
+      "length": 9.7,
+      "width": 16.5,
+      "height": 2.8
+    },
+    "capacity": {
+      "theater": 140,
+      "banquet": 116,
+      "classroom": 72,
+      "uShape": 46,
+      "cocktail": 52,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 16700,
+      "holiday": 20000,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "日間: 08:00-12:00/13:00-17:00, 夜間: 18:00-22:00"
+    },
+    "equipment": "免費提供基本配備：無線麥克風2支、主講桌1座、接待桌1桌、資訊看板1個、海報架(直)2支",
+    "equipmentList": [
+      "無線麥克風 2支",
+      "主講桌 1座",
+      "接待桌 1桌",
+      "資訊看板 1個",
+      "海報架(直) 2支"
+    ],
+    "features": "挑高 2.8 公尺",
+    "source": "官方 PDF: 外貿協會台北南港展覽館1館會議室租用收費基準 (2021)",
+    "lastUpdated": "2026-03-26T14:33:58.902582"
+  },
+  {
+    "id": "1500-12",
+    "name": "501會議室",
+    "nameEn": "Meeting Room 501",
+    "floor": "5樓",
+    "area": 131.1,
+    "areaUnit": "㎡",
+    "areaSqm": 131.1,
+    "areaPing": 39.7,
+    "dimensions": {
+      "length": 9.3,
+      "width": 14.1,
+      "height": 2.8
+    },
+    "capacity": {
+      "theater": 105,
+      "banquet": 84,
+      "classroom": 56,
+      "uShape": 30,
+      "cocktail": 36,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 13800,
+      "holiday": 16600,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "日間: 08:00-12:00/13:00-17:00, 夜間: 18:00-22:00"
+    },
+    "equipment": "免費提供基本配備：無線麥克風2支、主講桌1座、接待桌1桌、資訊看板1個、海報架(直)2支",
+    "equipmentList": [
+      "無線麥克風 2支",
+      "主講桌 1座",
+      "接待桌 1桌",
+      "資訊看板 1個",
+      "海報架(直) 2支"
+    ],
+    "features": "挑高 2.8 公尺",
+    "source": "官方 PDF: 外貿協會台北南港展覽館1館會議室租用收費基準 (2021)",
+    "lastUpdated": "2026-03-26T14:33:58.902589"
+  },
+  {
+    "id": "1500-13",
+    "name": "502會議室",
+    "nameEn": "Meeting Room 502",
+    "floor": "5樓",
+    "area": 102.3,
+    "areaUnit": "㎡",
+    "areaSqm": 102.3,
+    "areaPing": 30.9,
+    "dimensions": {
+      "length": 7.6,
+      "width": 13.5,
+      "height": 2.8
+    },
+    "capacity": {
+      "theater": 95,
+      "banquet": 68,
+      "classroom": 34,
+      "uShape": 26,
+      "cocktail": 32,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 10700,
+      "holiday": 12800,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "日間: 08:00-12:00/13:00-17:00, 夜間: 18:00-22:00"
+    },
+    "equipment": "免費提供基本配備：無線麥克風2支、主講桌1座、接待桌1桌、資訊看板1個、海報架(直)2支",
+    "equipmentList": [
+      "無線麥克風 2支",
+      "主講桌 1座",
+      "接待桌 1桌",
+      "資訊看板 1個",
+      "海報架(直) 2支"
+    ],
+    "features": "挑高 2.8 公尺",
+    "source": "官方 PDF: 外貿協會台北南港展覽館1館會議室租用收費基準 (2021)",
+    "lastUpdated": "2026-03-26T14:33:58.902599"
+  },
+  {
+    "id": "1500-14",
+    "name": "503會議室",
+    "nameEn": "Meeting Room 503",
+    "floor": "5樓",
+    "area": 150.9,
+    "areaUnit": "㎡",
+    "areaSqm": 150.9,
+    "areaPing": 45.7,
+    "dimensions": {
+      "length": 9.7,
+      "width": 15.6,
+      "height": 2.8
+    },
+    "capacity": {
+      "theater": 110,
+      "banquet": 84,
+      "classroom": 56,
+      "uShape": 30,
+      "cocktail": 36,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 15600,
+      "holiday": 18700,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "日間: 08:00-12:00/13:00-17:00, 夜間: 18:00-22:00"
+    },
+    "equipment": "免費提供基本配備：無線麥克風2支、主講桌1座、接待桌1桌、資訊看板1個、海報架(直)2支",
+    "equipmentList": [
+      "無線麥克風 2支",
+      "主講桌 1座",
+      "接待桌 1桌",
+      "資訊看板 1個",
+      "海報架(直) 2支"
+    ],
+    "features": "挑高 2.8 公尺",
+    "source": "官方 PDF: 外貿協會台北南港展覽館1館會議室租用收費基準 (2021)",
+    "lastUpdated": "2026-03-26T14:33:58.902607"
+  },
+  {
+    "id": "1500-15",
+    "name": "504會議室",
+    "nameEn": "Meeting Room 504",
+    "floor": "5樓",
+    "area": 505.4,
+    "areaUnit": "㎡",
+    "areaSqm": 505.4,
+    "areaPing": 152.9,
+    "dimensions": {
+      "length": 26.6,
+      "width": 19.0,
+      "height": 2.8
+    },
+    "capacity": {
+      "theater": 504,
+      "banquet": 360,
+      "classroom": 224,
+      "uShape": 68,
+      "cocktail": 84,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 52700,
+      "holiday": 63300,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "日間: 08:00-12:00/13:00-17:00, 夜間: 18:00-22:00"
+    },
+    "equipment": "免費提供基本配備：無線麥克風2支、主講桌1座、接待桌1桌、資訊看板1個、海報架(直)2支",
+    "equipmentList": [
+      "無線麥克風 2支",
+      "主講桌 1座",
+      "接待桌 1桌",
+      "資訊看板 1個",
+      "海報架(直) 2支"
+    ],
+    "features": "挑高 2.8 公尺",
+    "source": "官方 PDF: 外貿協會台北南港展覽館1館會議室租用收費基準 (2021)",
+    "lastUpdated": "2026-03-26T14:33:58.902614"
+  },
+  {
+    "id": "1500-16",
+    "name": "504a會議室",
+    "nameEn": "Meeting Room 504a",
+    "floor": "5樓",
+    "area": 184.3,
+    "areaUnit": "㎡",
+    "areaSqm": 184.3,
+    "areaPing": 55.8,
+    "dimensions": {
+      "length": 9.7,
+      "width": 19.0,
+      "height": 2.8
+    },
+    "capacity": {
+      "theater": 165,
+      "banquet": 120,
+      "classroom": 80,
+      "uShape": 38,
+      "cocktail": 44,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 19300,
+      "holiday": 23200,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "日間: 08:00-12:00/13:00-17:00, 夜間: 18:00-22:00"
+    },
+    "equipment": "免費提供基本配備：無線麥克風2支、主講桌1座、接待桌1桌、資訊看板1個、海報架(直)2支",
+    "equipmentList": [
+      "無線麥克風 2支",
+      "主講桌 1座",
+      "接待桌 1桌",
+      "資訊看板 1個",
+      "海報架(直) 2支"
+    ],
+    "features": "挑高 2.8 公尺",
+    "source": "官方 PDF: 外貿協會台北南港展覽館1館會議室租用收費基準 (2021)",
+    "lastUpdated": "2026-03-26T14:33:58.902622"
+  },
+  {
+    "id": "1500-17",
+    "name": "504b會議室",
+    "nameEn": "Meeting Room 504b",
+    "floor": "5樓",
+    "area": 169.1,
+    "areaUnit": "㎡",
+    "areaSqm": 169.1,
+    "areaPing": 51.2,
+    "dimensions": {
+      "length": 8.9,
+      "width": 19.0,
+      "height": 2.8
+    },
+    "capacity": {
+      "theater": 150,
+      "banquet": 120,
+      "classroom": 80,
+      "uShape": 38,
+      "cocktail": 44,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 17600,
+      "holiday": 21100,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "日間: 08:00-12:00/13:00-17:00, 夜間: 18:00-22:00"
+    },
+    "equipment": "免費提供基本配備：無線麥克風2支、主講桌1座、接待桌1桌、資訊看板1個、海報架(直)2支",
+    "equipmentList": [
+      "無線麥克風 2支",
+      "主講桌 1座",
+      "接待桌 1桌",
+      "資訊看板 1個",
+      "海報架(直) 2支"
+    ],
+    "features": "挑高 2.8 公尺",
+    "source": "官方 PDF: 外貿協會台北南港展覽館1館會議室租用收費基準 (2021)",
+    "lastUpdated": "2026-03-26T14:33:58.902630"
+  },
+  {
+    "id": "1500-18",
+    "name": "504c會議室",
+    "nameEn": "Meeting Room 504c",
+    "floor": "5樓",
+    "area": 152.0,
+    "areaUnit": "㎡",
+    "areaSqm": 152.0,
+    "areaPing": 46.0,
+    "dimensions": {
+      "length": 8.0,
+      "width": 19.0,
+      "height": 2.8
+    },
+    "capacity": {
+      "theater": 150,
+      "banquet": 120,
+      "classroom": 80,
+      "uShape": 38,
+      "cocktail": 44,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 15800,
+      "holiday": 19000,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "日間: 08:00-12:00/13:00-17:00, 夜間: 18:00-22:00"
+    },
+    "equipment": "免費提供基本配備：無線麥克風2支、主講桌1座、接待桌1桌、資訊看板1個、海報架(直)2支",
+    "equipmentList": [
+      "無線麥克風 2支",
+      "主講桌 1座",
+      "接待桌 1桌",
+      "資訊看板 1個",
+      "海報架(直) 2支"
+    ],
+    "features": "挑高 2.8 公尺",
+    "source": "官方 PDF: 外貿協會台北南港展覽館1館會議室租用收費基準 (2021)",
+    "lastUpdated": "2026-03-26T14:33:58.902640"
+  },
+  {
+    "id": "1500-19",
+    "name": "504a+b會議室",
+    "nameEn": "Meeting Room 504a+b",
+    "floor": "5樓",
+    "area": 353.4,
+    "areaUnit": "㎡",
+    "areaSqm": 353.4,
+    "areaPing": 106.9,
+    "dimensions": {
+      "length": 18.6,
+      "width": 19.0,
+      "height": 2.8
+    },
+    "capacity": {
+      "theater": 336,
+      "banquet": 216,
+      "classroom": 144,
+      "uShape": 48,
+      "cocktail": 64,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 36900,
+      "holiday": 44300,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "日間: 08:00-12:00/13:00-17:00, 夜間: 18:00-22:00"
+    },
+    "equipment": "免費提供基本配備：無線麥克風2支、主講桌1座、接待桌1桌、資訊看板1個、海報架(直)2支",
+    "equipmentList": [
+      "無線麥克風 2支",
+      "主講桌 1座",
+      "接待桌 1桌",
+      "資訊看板 1個",
+      "海報架(直) 2支"
+    ],
+    "features": "挑高 2.8 公尺",
+    "source": "官方 PDF: 外貿協會台北南港展覽館1館會議室租用收費基準 (2021)",
+    "lastUpdated": "2026-03-26T14:33:58.902648"
+  },
+  {
+    "id": "1500-20",
+    "name": "504b+c會議室",
+    "nameEn": "Meeting Room 504b+c",
+    "floor": "5樓",
+    "area": 321.1,
+    "areaUnit": "㎡",
+    "areaSqm": 321.1,
+    "areaPing": 97.1,
+    "dimensions": {
+      "length": 16.9,
+      "width": 19.0,
+      "height": 2.8
+    },
+    "capacity": {
+      "theater": 312,
+      "banquet": 216,
+      "classroom": 128,
+      "uShape": 48,
+      "cocktail": 64,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 33400,
+      "holiday": 40100,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "日間: 08:00-12:00/13:00-17:00, 夜間: 18:00-22:00"
+    },
+    "equipment": "免費提供基本配備：無線麥克風2支、主講桌1座、接待桌1桌、資訊看板1個、海報架(直)2支",
+    "equipmentList": [
+      "無線麥克風 2支",
+      "主講桌 1座",
+      "接待桌 1桌",
+      "資訊看板 1個",
+      "海報架(直) 2支"
+    ],
+    "features": "挑高 2.8 公尺",
+    "source": "官方 PDF: 外貿協會台北南港展覽館1館會議室租用收費基準 (2021)",
+    "lastUpdated": "2026-03-26T14:33:58.902655"
+  },
+  {
+    "id": "1500-21",
+    "name": "505會議室",
+    "nameEn": "Meeting Room 505",
+    "floor": "5樓",
+    "area": 511.1,
+    "areaUnit": "㎡",
+    "areaSqm": 511.1,
+    "areaPing": 154.6,
+    "dimensions": {
+      "length": 26.9,
+      "width": 19.0,
+      "height": 2.7
+    },
+    "capacity": {
+      "theater": 504,
+      "banquet": 360,
+      "classroom": 224,
+      "uShape": 68,
+      "cocktail": 84,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 53300,
+      "holiday": 64000,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "日間: 08:00-12:00/13:00-17:00, 夜間: 18:00-22:00"
+    },
+    "equipment": "免費提供基本配備：無線麥克風2支、主講桌1座、接待桌1桌、資訊看板1個、海報架(直)2支",
+    "equipmentList": [
+      "無線麥克風 2支",
+      "主講桌 1座",
+      "接待桌 1桌",
+      "資訊看板 1個",
+      "海報架(直) 2支"
+    ],
+    "features": "挑高 2.7 公尺",
+    "source": "官方 PDF: 外貿協會台北南港展覽館1館會議室租用收費基準 (2021)",
+    "lastUpdated": "2026-03-26T14:33:58.902687"
+  },
+  {
+    "id": "1500-22",
+    "name": "505a會議室",
+    "nameEn": "Meeting Room 505a",
+    "floor": "5樓",
+    "area": 178.6,
+    "areaUnit": "㎡",
+    "areaSqm": 178.6,
+    "areaPing": 54.0,
+    "dimensions": {
+      "length": 9.4,
+      "width": 19.0,
+      "height": 2.7
+    },
+    "capacity": {
+      "theater": 165,
+      "banquet": 120,
+      "classroom": 80,
+      "uShape": 38,
+      "cocktail": 44,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 18600,
+      "holiday": 22300,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "日間: 08:00-12:00/13:00-17:00, 夜間: 18:00-22:00"
+    },
+    "equipment": "免費提供基本配備：無線麥克風2支、主講桌1座、接待桌1桌、資訊看板1個、海報架(直)2支",
+    "equipmentList": [
+      "無線麥克風 2支",
+      "主講桌 1座",
+      "接待桌 1桌",
+      "資訊看板 1個",
+      "海報架(直) 2支"
+    ],
+    "features": "挑高 2.7 公尺",
+    "source": "官方 PDF: 外貿協會台北南港展覽館1館會議室租用收費基準 (2021)",
+    "lastUpdated": "2026-03-26T14:33:58.902695"
+  },
+  {
+    "id": "1500-23",
+    "name": "505b會議室",
+    "nameEn": "Meeting Room 505b",
+    "floor": "5樓",
+    "area": 171.0,
+    "areaUnit": "㎡",
+    "areaSqm": 171.0,
+    "areaPing": 51.7,
+    "dimensions": {
+      "length": 9.0,
+      "width": 19.0,
+      "height": 2.7
+    },
+    "capacity": {
+      "theater": 150,
+      "banquet": 120,
+      "classroom": 80,
+      "uShape": 38,
+      "cocktail": 44,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 17800,
+      "holiday": 21400,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "日間: 08:00-12:00/13:00-17:00, 夜間: 18:00-22:00"
+    },
+    "equipment": "免費提供基本配備：無線麥克風2支、主講桌1座、接待桌1桌、資訊看板1個、海報架(直)2支",
+    "equipmentList": [
+      "無線麥克風 2支",
+      "主講桌 1座",
+      "接待桌 1桌",
+      "資訊看板 1個",
+      "海報架(直) 2支"
+    ],
+    "features": "挑高 2.7 公尺",
+    "source": "官方 PDF: 外貿協會台北南港展覽館1館會議室租用收費基準 (2021)",
+    "lastUpdated": "2026-03-26T14:33:58.902705"
+  },
+  {
+    "id": "1500-24",
+    "name": "505c會議室",
+    "nameEn": "Meeting Room 505c",
+    "floor": "5樓",
+    "area": 161.5,
+    "areaUnit": "㎡",
+    "areaSqm": 161.5,
+    "areaPing": 48.9,
+    "dimensions": {
+      "length": 8.5,
+      "width": 19.0,
+      "height": 2.7
+    },
+    "capacity": {
+      "theater": 150,
+      "banquet": 120,
+      "classroom": 80,
+      "uShape": 38,
+      "cocktail": 44,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 16900,
+      "holiday": 20300,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "日間: 08:00-12:00/13:00-17:00, 夜間: 18:00-22:00"
+    },
+    "equipment": "免費提供基本配備：無線麥克風2支、主講桌1座、接待桌1桌、資訊看板1個、海報架(直)2支",
+    "equipmentList": [
+      "無線麥克風 2支",
+      "主講桌 1座",
+      "接待桌 1桌",
+      "資訊看板 1個",
+      "海報架(直) 2支"
+    ],
+    "features": "挑高 2.7 公尺",
+    "source": "官方 PDF: 外貿協會台北南港展覽館1館會議室租用收費基準 (2021)",
+    "lastUpdated": "2026-03-26T14:33:58.902715"
+  },
+  {
+    "id": "1500-25",
+    "name": "505a+b會議室",
+    "nameEn": "Meeting Room 505a+b",
+    "floor": "5樓",
+    "area": 349.6,
+    "areaUnit": "㎡",
+    "areaSqm": 349.6,
+    "areaPing": 105.7,
+    "dimensions": {
+      "length": 18.4,
+      "width": 19.0,
+      "height": 2.7
+    },
+    "capacity": {
+      "theater": 336,
+      "banquet": 216,
+      "classroom": 144,
+      "uShape": 48,
+      "cocktail": 64,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 36400,
+      "holiday": 43700,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "日間: 08:00-12:00/13:00-17:00, 夜間: 18:00-22:00"
+    },
+    "equipment": "免費提供基本配備：無線麥克風2支、主講桌1座、接待桌1桌、資訊看板1個、海報架(直)2支",
+    "equipmentList": [
+      "無線麥克風 2支",
+      "主講桌 1座",
+      "接待桌 1桌",
+      "資訊看板 1個",
+      "海報架(直) 2支"
+    ],
+    "features": "挑高 2.7 公尺",
+    "source": "官方 PDF: 外貿協會台北南港展覽館1館會議室租用收費基準 (2021)",
+    "lastUpdated": "2026-03-26T14:33:58.902723"
+  },
+  {
+    "id": "1500-26",
+    "name": "505b+c會議室",
+    "nameEn": "Meeting Room 505b+c",
+    "floor": "5樓",
+    "area": 332.5,
+    "areaUnit": "㎡",
+    "areaSqm": 332.5,
+    "areaPing": 100.6,
+    "dimensions": {
+      "length": 17.5,
+      "width": 19.0,
+      "height": 2.7
+    },
+    "capacity": {
+      "theater": 312,
+      "banquet": 216,
+      "classroom": 128,
+      "uShape": 48,
+      "cocktail": 64,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 34700,
+      "holiday": 41700,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "日間: 08:00-12:00/13:00-17:00, 夜間: 18:00-22:00"
+    },
+    "equipment": "免費提供基本配備：無線麥克風2支、主講桌1座、接待桌1桌、資訊看板1個、海報架(直)2支",
+    "equipmentList": [
+      "無線麥克風 2支",
+      "主講桌 1座",
+      "接待桌 1桌",
+      "資訊看板 1個",
+      "海報架(直) 2支"
+    ],
+    "features": "挑高 2.7 公尺",
+    "source": "官方 PDF: 外貿協會台北南港展覽館1館會議室租用收費基準 (2021)",
+    "lastUpdated": "2026-03-26T14:33:58.902731"
+  },
+  {
+    "id": "1500-27",
+    "name": "506會議室",
+    "nameEn": "Meeting Room 506",
+    "floor": "5樓",
+    "area": 176.7,
+    "areaUnit": "㎡",
+    "areaSqm": 176.7,
+    "areaPing": 53.5,
+    "dimensions": {
+      "length": 9.3,
+      "width": 19.0,
+      "height": 2.7
+    },
+    "capacity": {
+      "theater": 165,
+      "banquet": 120,
+      "classroom": 80,
+      "uShape": 38,
+      "cocktail": 44,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 18500,
+      "holiday": 22200,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "日間: 08:00-12:00/13:00-17:00, 夜間: 18:00-22:00"
+    },
+    "equipment": "免費提供基本配備：無線麥克風2支、主講桌1座、接待桌1桌、資訊看板1個、海報架(直)2支",
+    "equipmentList": [
+      "無線麥克風 2支",
+      "主講桌 1座",
+      "接待桌 1桌",
+      "資訊看板 1個",
+      "海報架(直) 2支"
+    ],
+    "features": "挑高 2.7 公尺",
+    "source": "官方 PDF: 外貿協會台北南港展覽館1館會議室租用收費基準 (2021)",
+    "lastUpdated": "2026-03-26T14:33:58.902742"
+  },
+  {
+    "id": "1500-28",
+    "name": "507會議室",
+    "nameEn": "Meeting Room 507",
+    "floor": "5樓",
+    "area": 176.7,
+    "areaUnit": "㎡",
+    "areaSqm": 176.7,
+    "areaPing": 53.5,
+    "dimensions": {
+      "length": 9.3,
+      "width": 19.0,
+      "height": 2.7
+    },
+    "capacity": {
+      "theater": 165,
+      "banquet": 120,
+      "classroom": 80,
+      "uShape": 38,
+      "cocktail": 44,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 18500,
+      "holiday": 22200,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "日間: 08:00-12:00/13:00-17:00, 夜間: 18:00-22:00"
+    },
+    "equipment": "免費提供基本配備：無線麥克風2支、主講桌1座、接待桌1桌、資訊看板1個、海報架(直)2支",
+    "equipmentList": [
+      "無線麥克風 2支",
+      "主講桌 1座",
+      "接待桌 1桌",
+      "資訊看板 1個",
+      "海報架(直) 2支"
+    ],
+    "features": "挑高 2.7 公尺",
+    "source": "官方 PDF: 外貿協會台北南港展覽館1館會議室租用收費基準 (2021)",
+    "lastUpdated": "2026-03-26T14:33:58.902749"
+  }
+]

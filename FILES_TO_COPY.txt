@@ -1,0 +1,231 @@
+==============================================================================
+Taiwan Venues Project - Files to Copy for Handover
+交接檔案清單 - 台灣場地資料庫專案
+==============================================================================
+Date: 2026-03-28
+Status: Ready for Handover ✅
+
+==============================================================================
+SECTION 1: CRITICAL FILES (Must Copy) - 必須複製的檔案
+==============================================================================
+
+1. venues.json (535 KB)
+   - Main database with 80 venues
+   - 392 meeting rooms
+   - Average quality: 72.2/100
+
+2. CLAUDE.md (13 KB)
+   - Project configuration
+   - Workflow instructions
+   - Scraper versions and usage
+
+3. KNOWLEDGE_BASE.md (33 KB)
+   - Comprehensive knowledge base
+   - Problem-solving guides
+   - Best practices
+
+4. HANDOVER_REPORT.md (19 KB)
+   - Complete handover documentation
+   - Current status and statistics
+   - Next steps recommendations
+
+5. QUICK_REFERENCE.md (5 KB)
+   - Quick start guide
+   - Common commands
+   - Troubleshooting tips
+
+==============================================================================
+SECTION 2: MEMORY FILES (Must Copy) - 記憶檔案（必須複製）
+==============================================================================
+
+Directory: memory/
+
+1. MEMORY.md (4.1 KB)
+   - Memory index
+   - Links to all memory files
+
+2. three_stage_mandatory.md
+   - ⚠️ MANDATORY: Three-stage scraping workflow
+   - Do NOT skip any stage
+
+3. pdfplumber_success_patterns.md
+   - PDF extraction best practices
+   - Chinese PDF table parsing
+
+4. venue_subspace_structure.md
+   - SubSpace structure design
+   - Partitioned venue handling
+
+5. complete_room_structure_standard.md
+   - 30-field room data standard
+   - NULL value tracking
+
+6. pdf_data_validation_workflow.md
+   - PDF validation workflow
+   - Completeness checks
+
+7. pdf_extraction_complete_workflow.md
+   - Complete PDF extraction workflow
+   - V2 three-stage process
+
+8. venue_completeness_analysis.md
+   - Top 10 venues analysis
+   - Common issues
+
+9. no_more_reports_rule.md
+   - ⚠️ RULE: Do NOT generate reports
+   - Focus on actual work
+
+10. Other memory files:
+    - deep_scraping_javascript_variables.md
+    - deep_scraping_redefined.md
+
+==============================================================================
+SECTION 3: SCRAPER SCRIPTS (Optional) - 爬蟲腳本（選擇性）
+==============================================================================
+
+Core Scrapers:
+1. intelligent_scraper_v3.py - Fast single-page scraping
+2. full_site_scraper_v4.py - Complete multi-page scraping
+3. full_site_scraper_v4_enhanced.py - V4 + PDF extraction
+4. deep_scrape_all_zero_rooms.py - Deep scraping for 0-room venues
+5. three_stage_scraper.py - Strict three-stage workflow
+
+Utility Scripts:
+- Various update and fix scripts (50+ files)
+- Test scripts (test_*.py)
+- Report generation scripts
+
+Note: Can be re-created if needed, but useful for reference
+
+==============================================================================
+SECTION 4: BACKUP FILES (Optional) - 備份檔案（選擇性）
+==============================================================================
+
+Pattern: venues.json.backup.{description}_{YYYYMMDD_HHMMSS}.json
+
+Recent Backups:
+- venues.json.backup.deep_scrape_20260328_055923.json
+- venues.json.backup.remove_10_20260328_055501.json
+- venues.json.backup.fix_add_20260328_054245.json
+- venues.json.backup.threestage_20260328_230928.json
+- [50+ more backup files]
+
+Recommendation: Keep latest 5-10 backups
+
+==============================================================================
+SECTION 5: MINIMUM REQUIRED FILES - 最少需求檔案
+==============================================================================
+
+If you have limited space, copy AT MINIMUM:
+
+1. venues.json (535 KB)
+2. CLAUDE.md (13 KB)
+3. KNOWLEDGE_BASE.md (33 KB)
+4. memory/three_stage_mandatory.md (⚠️ CRITICAL)
+5. memory/pdfplumber_success_patterns.md
+6. memory/venue_subspace_structure.md
+
+Total: ~600 KB
+
+==============================================================================
+SECTION 6: VERIFICATION COMMANDS - 驗證指令
+==============================================================================
+
+After copying files, run these commands to verify:
+
+1. Check file count:
+   python -c "import json; venues = json.load(open('venues.json')); print(f'Total venues: {len(venues)}')"
+   Expected: Total venues: 80
+
+2. Check quality score:
+   python -c "import json; venues = json.load(open('venues.json')); scores = [v.get('metadata', {}).get('qualityScore', 0) for v in venues]; print(f'Average quality: {sum(scores)/len(scores):.1f}')"
+   Expected: Average quality: 72.2
+
+3. Check room data:
+   python -c "import json; venues = json.load(open('venues.json')); print(f'Venues with rooms: {sum(1 for v in venues if v.get(\"rooms\"))}')"
+   Expected: Venues with rooms: 69
+
+==============================================================================
+SECTION 7: COPY COMMANDS - 複製指令
+==============================================================================
+
+Method 1: Using scp (Secure Copy)
+-----------------------------------
+scp -r taiwan-venues-new/ user@new-machine:/path/to/destination/
+
+Method 2: Using rsync (Recommended)
+------------------------------------
+rsync -avz --progress taiwan-venues-new/ user@new-machine:/path/to/destination/
+
+Method 3: Manual Copy
+------------------------------------
+1. Copy entire folder to external drive
+2. Transfer to new machine
+3. Extract and verify
+
+==============================================================================
+SECTION 8: POST-COPY CHECKLIST - 複製後檢查清單
+==============================================================================
+
+Database Integrity:
+☐ venues.json exists
+☐ Contains 80 venues
+☐ Average quality: 72.2
+☐ 69 venues with room data
+
+Documentation:
+☐ CLAUDE.md exists
+☐ KNOWLEDGE_BASE.md exists
+☐ memory/ directory exists
+☐ memory/three_stage_mandatory.md exists
+
+Functionality:
+☐ Can read venues.json
+☐ Can write to venues.json
+☐ UTF-8 encoding works
+☐ No JSON parse errors
+
+==============================================================================
+SECTION 9: TROUBLESHOOTING - 故障排除
+==============================================================================
+
+Problem: "UnicodeEncodeError"
+Solution: Add console wrapper (see QUICK_REFERENCE.md)
+
+Problem: "Venue not found"
+Solution: Check venue ID exists before accessing
+
+Problem: "PDF extraction empty"
+Solution: Use pdfplumber with text strategy
+
+Problem: "HTTP 403/202"
+Solution: Try alternative URL or browser-based scraping
+
+==============================================================================
+NOTES
+==============================================================================
+
+1. Total files in project: 150+
+2. Critical files: 5 main files + 10 memory files = 15 files
+3. Recommended to copy: All 15 critical files + top 5 scraper scripts
+4. Backup files: Optional, but keep latest 5-10
+
+==============================================================================
+CONTACT & SUPPORT
+==============================================================================
+
+For questions or issues:
+1. Read HANDOVER_REPORT.md (comprehensive)
+2. Read QUICK_REFERENCE.md (quick start)
+3. Check memory/ files (lessons learned)
+4. Refer to CLAUDE.md (project config)
+
+==============================================================================
+END OF FILE LIST
+==============================================================================
+
+Date: 2026-03-28
+Status: ✅ Ready for Handover
+Project: Taiwan Venues Database (活動大師)
+Version: Final (80 venues, 86.2% complete)

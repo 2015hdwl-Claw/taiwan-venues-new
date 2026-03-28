@@ -1,0 +1,1372 @@
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.nuzone.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.nuzone.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.nuzone.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.hrd.gov.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.hrd.gov.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.hrd.gov.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.hrd.gov.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.hrd.gov.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.hrd.gov.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.hrd.gov.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.hrd.gov.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.hrd.gov.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.hrd.gov.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.hrd.gov.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.hrd.gov.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.hrd.gov.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.courtyardtaipei.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.courtyardtaipei.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.courtyardtaipei.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.courtyardtaipei.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.courtyardtaipei.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.courtyardtaipei.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.courtyardtaipei.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.courtyardtaipei.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.courtyardtaipei.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ntut.edu.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ntut.edu.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ntut.edu.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'aps-staff.ntut.edu.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'aps-staff.ntut.edu.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ntut.edu.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ntut.edu.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ntut.edu.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.twtc.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.twtc.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.twtc.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.twtc.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.twtc.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.twtc.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.twtc.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.twtc.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.twtc.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.google.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'taipei.landishotelsresorts.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'taipei.landishotelsresorts.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'taipei.landishotelsresorts.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'taipei.landishotelsresorts.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'taipei.landishotelsresorts.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'taipei.landishotelsresorts.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.brotherhotel.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.brotherhotel.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.brotherhotel.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.brotherhotel.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.brotherhotel.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.brotherhotel.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.denwell.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.denwell.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.denwell.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ambiencehotel.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ambiencehotel.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ambiencehotel.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ambiencehotel.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ambiencehotel.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ambassador-hotels.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ambassador-hotels.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ambassador-hotels.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ambassador-hotels.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ambassador-hotels.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ambassador-hotels.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ambassador-hotels.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ambassador-hotels.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ambassador-hotels.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ambassador-hotels.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.grand-hotel.org'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.grand-hotel.org'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.grand-hotel.org'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.grand-hotel.org'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.grand-hotel.org'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.grand-hotel.org'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.grand-hotel.org'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.grand-hotel.org'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.sheratongrandtaipei.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.sheratongrandtaipei.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.sheratongrandtaipei.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.sheratongrandtaipei.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.sheratongrandtaipei.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.sheratongrandtaipei.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.sheratongrandtaipei.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.lemeridien-taipei.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.lemeridien-taipei.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.lemeridien-taipei.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.lemeridien-taipei.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.lemeridien-taipei.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.lemeridien-taipei.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.lemeridien-taipei.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.lemeridien-taipei.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.humblehousehotels.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.humblehousehotels.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.humblehousehotels.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.humblehousehotels.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.humblehousehotels.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'drive.google.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.humblehousehotels.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.eclathotels.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.eclathotels.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.eclathotels.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.eclathotels.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'reservations.travelclick.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'bookings.travelclick.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.eclathotels.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.citizenm.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.marriott.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.citizenm.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.marriott.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.citizenm.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.marriott.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.citizenm.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.marriott.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.marriott.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.mandarinoriental.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.mandarinoriental.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.mandarinoriental.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.mandarinoriental.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.mandarinoriental.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.mandarinoriental.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.mandarinoriental.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.mandarinoriental.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.mandarinoriental.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.mandarinoriental.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.mandarinoriental.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.mandarinoriental.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.mandarinoriental.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.regenttaiwan.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.regenttaiwan.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.regenttaiwan.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.regenttaiwan.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.regenttaiwan.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.regenttaiwan.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.theillumehotel.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.theillumehotel.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.theillumehotel.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.theillumehotel.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.theillumehotel.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.theillumehotel.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.theillumehotel.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.theillumehotel.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.grandmayfull.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.grandmayfull.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.grandmayfull.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.tablecheck.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.grandmayfull.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.grandmayfull.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.grandmayfull.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.hotelroyal.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.hotelroyal.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.hotelroyal.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.hotelroyal.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.hotelroyal.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.hotelroyal.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.lemeridien.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'le-meridien.marriott.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.lemeridien.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'le-meridien.marriott.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'le-meridien.marriott.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.marriott.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'serve360.marriott.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.taipeigarden.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.taipeigarden.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.taipeigarden.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.taipeigarden.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.taipeigarden.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.taipeigarden.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.taipeigarden.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.taipeimarriott.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.taipeimarriott.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.taipeimarriott.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.taipeimarriott.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.taipeimarriott.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.marriott.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.marriott.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.taipeimarriott.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.taipeimarriott.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.pengyuan.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.pengyuan.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.pengyuan.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.pengyuan.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.sanwant.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.sanwant.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.sanwant.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.grandvictoria.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.grandvictoria.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'grandvictoria.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'grandvictoria.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'grandvictoria.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'grandvictoria.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.taipeigarden.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.taipeigarden.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.taipeigarden.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.taipeigarden.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.taipeigarden.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.taipeigarden.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.taipeigarden.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.huashan1914.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.huashan1914.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.huashan1914.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.huashan1914.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.huashan1914.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.huashan1914.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.huashan1914.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.huashan1914.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.huashan1914.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.huashan1914.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.huashan1914.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.riverview.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.riverview.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.riverview.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.riverview.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.riverview.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.meeting.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.meeting.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.meeting.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.meeting.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.meeting.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.meeting.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.meeting.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.meeting.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.meeting.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.77-67.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host '77-67.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.77-67.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host '77-67.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.77-67.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host '77-67.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host '77-67.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.77-67.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host '77-67.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host '77-67.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.77-67.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host '77-67.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host '77-67.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ticc.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ticc.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ticc.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ticc.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ticc.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ticc.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ticc.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ticc.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ticc.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ticc.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ticc.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ticc.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.ticc.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.sce.ntnu.edu.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.sce.ntnu.edu.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.sce.ntnu.edu.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.sce.ntnu.edu.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.sce.ntnu.edu.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.sce.ntnu.edu.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.sce.ntnu.edu.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.sce.ntnu.edu.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.sce.ntnu.edu.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.sce.ntnu.edu.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.sce.ntnu.edu.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.meeting.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.meeting.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.meeting.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.meeting.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.meeting.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.meeting.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.meeting.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.meeting.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.meeting.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.meeting.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.meeting.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.meeting.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.meeting.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.meeting.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.meeting.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.meeting.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.meeting.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.meeting.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.meeting.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.meeting.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.meeting.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.meeting.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+C:\Users\le202\AppData\Roaming\Python\Python314\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'www.meeting.com.tw'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+載入 venues.json...
+找到 40 個目標場地
+================================================================================
+
+分批爬取階段：每次處理 10 個場地
+================================================================================
+
+批次 1/4：場地 1-10
+================================================================================
+
+[1] ID 1034: NUZONE展演空間
+URL: https://www.nuzone.com.tw/
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: Static/SSR
+[2/7] 爬取首頁...
+    會議: 0, 價格: 0, 規則: 0, 交通: 0, 平面圖: 0
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 0 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 無
+   平面圖: 無
+
+[2] ID 1042: 公務人力發展學院
+URL: https://www.hrd.gov.tw
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: WordPress API
+[2/7] 爬取首頁...
+    會議: 5, 價格: 2, 規則: 3, 交通: 5, 平面圖: 3
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 46 個
+   價格: 10 筆
+   規則: 1 項
+   交通: 無
+   平面圖: 無
+
+[3] ID 1043: 台北六福萬怡酒店 Courtyard by Marriott Taipei
+URL: https://www.courtyardtaipei.com.tw/zh-TW/
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: Static/SSR
+[2/7] 爬取首頁...
+    會議: 5, 價格: 0, 規則: 0, 交通: 1, 平面圖: 3
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 4 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 有
+   平面圖: 無
+
+[4] ID 1045: 北科大創新育成中心
+URL: https://www.ntut.edu.tw
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: Static/SSR
+[2/7] 爬取首頁...
+    會議: 1, 價格: 0, 規則: 2, 交通: 1, 平面圖: 1
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 0 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 有
+   平面圖: 無
+
+[5] ID 1049: 台北世貿中心(TWTCA)展覽大樓
+URL: https://www.twtc.com.tw/
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: Static/SSR
+[2/7] 爬取首頁...
+    會議: 5, 價格: 0, 規則: 2, 交通: 3, 平面圖: 0
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 19 個
+   價格: 0 筆
+   規則: 2 項
+   交通: 無
+   平面圖: 無
+
+[6] ID 1051: 台北亞都麗緻大飯店(LandisTaipei)
+URL: https://taipei.landishotelsresorts.com/
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: WordPress API
+[2/7] 爬取首頁...
+    會議: 3, 價格: 0, 規則: 0, 交通: 1, 平面圖: 0
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 6 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 無
+   平面圖: 無
+
+[7] ID 1053: 台北兄弟大飯店(BrotherTaipei)
+URL: https://www.brotherhotel.com.tw/?cat=75
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: Static/SSR
+[2/7] 爬取首頁...
+    會議: 2, 價格: 0, 規則: 0, 交通: 1, 平面圖: 0
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 109 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 有
+   平面圖: 無
+
+[8] ID 1057: 台北典華
+URL: https://www.denwell.com/
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: Static/SSR
+[2/7] 爬取首頁...
+    會議: 0, 價格: 0, 規則: 0, 交通: 0, 平面圖: 0
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 0 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 無
+   平面圖: 無
+
+[9] ID 1068: 台北喜瑞飯店
+URL: https://www.ambiencehotel.com.tw/
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: WordPress API
+[2/7] 爬取首頁...
+    會議: 1, 價格: 0, 規則: 0, 交通: 1, 平面圖: 0
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 8 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 有
+   平面圖: 無
+
+[10] ID 1069: 台北國賓大飯店(AmbassadorTaipei)
+URL: https://www.ambassador-hotels.com/tc/taipei
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: Static/SSR
+[2/7] 爬取首頁...
+    會議: 4, 價格: 0, 規則: 0, 交通: 0, 平面圖: 1
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 0 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 無
+   平面圖: 無
+
+批次 1 完成，已處理 10/40 個場地
+批次備份: venues.json.backup.batch_v2_batch1_20260325_163351
+
+批次 2/4：場地 11-20
+================================================================================
+
+[11] ID 1072: 台北圓山大飯店(Grand Hotel Taipei)
+URL: https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: WordPress API
+[2/7] 爬取首頁...
+    會議: 5, 價格: 0, 規則: 0, 交通: 1, 平面圖: 2
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 0 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 有
+   平面圖: 無
+
+[12] ID 1075: 台北寒舍喜來登大飯店
+URL: https://www.sheratongrandtaipei.com/
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: Static/SSR
+[2/7] 爬取首頁...
+    會議: 2, 價格: 0, 規則: 1, 交通: 1, 平面圖: 0
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 25 個
+   價格: 0 筆
+   規則: 1 項
+   交通: 有
+   平面圖: 無
+
+[13] ID 1076: 台北寒舍艾美酒店(LeMeridienTaipei)
+URL: https://www.lemeridien-taipei.com
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: Static/SSR
+[2/7] 爬取首頁...
+    會議: 4, 價格: 0, 規則: 4, 交通: 2, 平面圖: 0
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 3 個
+   價格: 0 筆
+   規則: 1 項
+   交通: 有
+   平面圖: 無
+
+[14] ID 1077: 台北艾麗酒店
+URL: https://www.humblehousehotels.com/
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: Static/SSR
+[2/7] 爬取首頁...
+    會議: 4, 價格: 0, 規則: 2, 交通: 0, 平面圖: 1
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 0 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 無
+   平面圖: 無
+
+[15] ID 1082: 台北怡亨酒店 Hotel Éclat Taipei
+URL: https://www.eclathotels.com/zt/taipei
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: Static/SSR
+[2/7] 爬取首頁...
+    會議: 5, 價格: 0, 規則: 0, 交通: 0, 平面圖: 0
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 0 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 無
+   平面圖: 無
+
+[16] ID 1083: 台北北門世民酒店 citizenM Taipei North Gate
+URL: https://www.citizenm.com/hotels/asia/taipei/taipei-north-gate
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: WordPress API
+[2/7] 爬取首頁...
+    會議: 0, 價格: 1, 規則: 0, 交通: 4, 平面圖: 0
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 0 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 無
+   平面圖: 無
+
+[17] ID 1085: 台北文華東方酒店(MOHTaipei)
+URL: https://www.mandarinoriental.com/taipei
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: Static/SSR
+[2/7] 爬取首頁...
+    會議: 4, 價格: 4, 規則: 0, 交通: 0, 平面圖: 0
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 0 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 無
+   平面圖: 無
+
+[18] ID 1086: 台北晶華酒店 Regent Taipei
+URL: https://www.regenttaiwan.com/
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: Static/SSR
+[2/7] 爬取首頁...
+    會議: 5, 價格: 0, 規則: 0, 交通: 0, 平面圖: 0
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 0 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 無
+   平面圖: 無
+
+[19] ID 1090: 茹曦酒店 ILLUME TAIPEI
+URL: https://www.theillumehotel.com/zh/
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: Static/SSR
+[2/7] 爬取首頁...
+    會議: 5, 價格: 0, 規則: 0, 交通: 1, 平面圖: 1
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 0 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 有
+   平面圖: 無
+
+[20] ID 1095: 台北美福大飯店
+URL: https://www.grandmayfull.com/
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: WordPress API
+[2/7] 爬取首頁...
+    會議: 5, 價格: 0, 規則: 0, 交通: 0, 平面圖: 1
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 0 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 無
+   平面圖: 無
+
+批次 2 完成，已處理 20/40 個場地
+批次備份: venues.json.backup.batch_v2_batch2_20260325_163452
+
+批次 3/4：場地 21-30
+================================================================================
+
+[21] ID 1097: 台北老爺大酒店(RoyalInnTaipei)
+URL: https://www.hotelroyal.com.tw/zh-tw/taipei
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: WordPress API
+[2/7] 爬取首頁...
+    會議: 2, 價格: 0, 規則: 0, 交通: 0, 平面圖: 0
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 0 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 無
+   平面圖: 無
+
+[22] ID 1099: 台北艾美酒店
+URL: https://www.lemeridien.com/taipei
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: WordPress API
+[2/7] 爬取首頁...
+    會議: 2, 價格: 1, 規則: 0, 交通: 0, 平面圖: 0
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 0 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 無
+   平面圖: 無
+
+[23] ID 1100: 台北花園大酒店(TGHotel)
+URL: https://www.taipeigarden.com.tw/
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: WordPress API
+[2/7] 爬取首頁...
+    會議: 5, 價格: 0, 規則: 0, 交通: 1, 平面圖: 1
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 0 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 有
+   平面圖: 無
+
+[24] ID 1103: 台北萬豪酒店(MarriottTaipei)
+URL: https://www.taipeimarriott.com.tw/
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: Static/SSR
+[2/7] 爬取首頁...
+    會議: 5, 價格: 0, 規則: 0, 交通: 2, 平面圖: 0
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 28 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 有
+   平面圖: 無
+
+[25] ID 1116: 彭園婚宴會館
+URL: https://www.pengyuan.com.tw
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: Static/SSR
+[2/7] 爬取首頁...
+    會議: 2, 價格: 0, 規則: 1, 交通: 0, 平面圖: 0
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 2 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 無
+   平面圖: 無
+
+[26] ID 1121: 神旺大飯店
+URL: https://www.sanwant.com
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: Static/SSR
+[2/7] 爬取首頁...
+    會議: 0, 價格: 0, 規則: 0, 交通: 0, 平面圖: 0
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 0 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 無
+   平面圖: 無
+
+[27] ID 1122: 維多麗亞酒店
+URL: https://www.grandvictoria.com.tw/
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: WordPress API
+[2/7] 爬取首頁...
+    會議: 5, 價格: 2, 規則: 0, 交通: 2, 平面圖: 0
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 0 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 有
+   平面圖: 無
+
+[28] ID 1124: 花園大酒店
+URL: https://www.taipeigarden.com.tw
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: WordPress API
+[2/7] 爬取首頁...
+    會議: 5, 價格: 0, 規則: 0, 交通: 1, 平面圖: 1
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 0 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 有
+   平面圖: 無
+
+[29] ID 1125: 華山1914文化創意產業園區(Huashan1914)(Huashan1914)
+URL: https://www.huashan1914.com
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: Static/SSR
+[2/7] 爬取首頁...
+    會議: 1, 價格: 0, 規則: 0, 交通: 3, 平面圖: 1
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 0 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 有
+   平面圖: 無
+
+[30] ID 1126: 豪景大酒店
+URL: https://www.riverview.com.tw/
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: WordPress API
+[2/7] 爬取首頁...
+    會議: 2, 價格: 0, 規則: 0, 交通: 1, 平面圖: 0
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 95 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 有
+   平面圖: 無
+
+批次 3 完成，已處理 30/40 個場地
+批次備份: venues.json.backup.batch_v2_batch3_20260325_163600
+
+批次 4/4：場地 31-40
+================================================================================
+
+[31] ID 1128: 集思台大會議中心(NTUCC)
+URL: https://www.meeting.com.tw/ntu/
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: Static/SSR
+[2/7] 爬取首頁...
+    會議: 5, 價格: 1, 規則: 0, 交通: 2, 平面圖: 0
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 0 個
+   價格: 2 筆
+   規則: 0 項
+   交通: 有
+   平面圖: 無
+
+[32] ID 1129: 青青婚宴會館
+URL: https://www.77-67.com/
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: WordPress API
+[2/7] 爬取首頁...
+    會議: 5, 價格: 0, 規則: 0, 交通: 0, 平面圖: 0
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 0 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 無
+   平面圖: 無
+
+[33] ID 1448: 台北國際會議中心(TICC)
+URL: https://www.ticc.com.tw/
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: Static/SSR
+[2/7] 爬取首頁...
+    會議: 4, 價格: 1, 規則: 1, 交通: 1, 平面圖: 2
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 0 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 無
+   平面圖: 無
+
+[34] ID 1493: 師大進修推廣學院
+URL: https://www.sce.ntnu.edu.tw/home/index.php
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: Static/SSR
+[2/7] 爬取首頁...
+    會議: 2, 價格: 0, 規則: 2, 交通: 1, 平面圖: 1
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 94 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 無
+   平面圖: 無
+
+[35] ID 1494: 集思交通部國際會議中心(MOTC)
+URL: https://www.meeting.com.tw/motc/
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: Static/SSR
+[2/7] 爬取首頁...
+    會議: 5, 價格: 0, 規則: 0, 交通: 2, 平面圖: 0
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 0 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 有
+   平面圖: 無
+
+[36] ID 1495: 集思北科大會議中心(Tech)
+URL: https://www.meeting.com.tw/
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: Static/SSR
+[2/7] 爬取首頁...
+    會議: 0, 價格: 0, 規則: 0, 交通: 0, 平面圖: 0
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 0 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 無
+   平面圖: 無
+
+[37] ID 1496: 集思竹科會議中心(HSPH)
+URL: https://www.meeting.com.tw/
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: Static/SSR
+[2/7] 爬取首頁...
+    會議: 0, 價格: 0, 規則: 0, 交通: 0, 平面圖: 0
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 0 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 無
+   平面圖: 無
+
+[38] ID 1497: 集思台中文心會議中心(TC)
+URL: https://www.meeting.com.tw/
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: Static/SSR
+[2/7] 爬取首頁...
+    會議: 0, 價格: 0, 規則: 0, 交通: 0, 平面圖: 0
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 0 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 無
+   平面圖: 無
+
+[39] ID 1498: 集思台中新烏日會議中心(WURI)
+URL: https://www.meeting.com.tw/
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: Static/SSR
+[2/7] 爬取首頁...
+    會議: 0, 價格: 0, 規則: 0, 交通: 0, 平面圖: 0
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 0 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 無
+   平面圖: 無
+
+[40] ID 1499: 集思國際會議高雄分公司(KHH)
+URL: https://www.meeting.com.tw/
+------------------------------------------------------------
+[1/7] 檢測網頁技術類型...
+    網頁類型: Static/SSR
+[2/7] 爬取首頁...
+    會議: 0, 價格: 0, 規則: 0, 交通: 0, 平面圖: 0
+[3/7] 爬取會議室資料...
+[4/7] 爬取價格資訊...
+[5/7] 爬取規則資訊...
+[6/7] 爬取交通資訊...
+[7/7] 爬取平面圖資訊...
+✅ 成功
+   會議室: 0 個
+   價格: 0 筆
+   規則: 0 項
+   交通: 無
+   平面圖: 無
+
+批次 4 完成，已處理 40/40 個場地
+批次備份: venues.json.backup.batch_v2_batch4_20260325_163627
+Traceback (most recent call last):
+  File "C:\Users\le202\Documents\taiwan-venues-new\batch_scrape_venues_v2.py", line 548, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\le202\Documents\taiwan-venues-new\batch_scrape_venues_v2.py", line 505, in main
+    for venue in test_venues:
+                 ^^^^^^^^^^^
+NameError: name 'test_venues' is not defined. Did you mean: 'target_venues'?

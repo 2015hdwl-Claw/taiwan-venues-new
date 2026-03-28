@@ -1,0 +1,155 @@
+{
+  "venue": "華山1914文化創意產業園區",
+  "venue_id": 1125,
+  "total_venues": 24,
+  "venues_with_price": [
+    {
+      "name": "中3館2樓-拱廳",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=15",
+      "price": 50000,
+      "price_found": true
+    },
+    {
+      "name": "中2館2樓-果酒練舞場",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=20",
+      "price": 33000,
+      "price_found": true
+    },
+    {
+      "name": "東3B-烏梅劇院",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=21",
+      "price": 88000,
+      "price_found": true
+    }
+  ],
+  "venues_without_price": [
+    {
+      "name": "西1館",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=16",
+      "price": null,
+      "price_found": false
+    },
+    {
+      "name": "西2館",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=17",
+      "price": null,
+      "price_found": false
+    },
+    {
+      "name": "西5-1館",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=18",
+      "price": null,
+      "price_found": false
+    },
+    {
+      "name": "西5-2館",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=35",
+      "price": null,
+      "price_found": false
+    },
+    {
+      "name": "中5B 鍋爐室",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=19",
+      "price": null,
+      "price_found": false
+    },
+    {
+      "name": "中4B 2樓演講廳",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=13",
+      "price": null,
+      "price_found": false
+    },
+    {
+      "name": "中4B 2樓",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=12",
+      "price": null,
+      "price_found": false
+    },
+    {
+      "name": "中4B 1樓",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=11",
+      "price": null,
+      "price_found": false
+    },
+    {
+      "name": "中4A 紅酒作業場",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=10",
+      "price": null,
+      "price_found": false
+    },
+    {
+      "name": "中7A",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=41",
+      "price": null,
+      "price_found": false
+    },
+    {
+      "name": "東2A",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=26",
+      "price": null,
+      "price_found": false
+    },
+    {
+      "name": "東2B",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=28",
+      "price": null,
+      "price_found": false
+    },
+    {
+      "name": "東2C",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=29",
+      "price": null,
+      "price_found": false
+    },
+    {
+      "name": "東2D",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=30",
+      "price": null,
+      "price_found": false
+    },
+    {
+      "name": "華山劇場",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=22",
+      "price": null,
+      "price_found": false
+    },
+    {
+      "name": "樹前草地",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=34",
+      "price": null,
+      "price_found": false
+    },
+    {
+      "name": "中3館前廣場",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=25",
+      "price": null,
+      "price_found": false
+    },
+    {
+      "name": "忠孝三角",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=23",
+      "price": null,
+      "price_found": false
+    },
+    {
+      "name": "金八廣場",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=24",
+      "price": null,
+      "price_found": false
+    },
+    {
+      "name": "中7B",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=42",
+      "price": null,
+      "price_found": false
+    },
+    {
+      "name": "西4",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=33",
+      "price": null,
+      "price_found": false
+    }
+  ],
+  "price_coverage": "3/24",
+  "timestamp": "2026-03-26T21:12:51.534828"
+}

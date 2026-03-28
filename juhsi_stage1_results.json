@@ -1,0 +1,320 @@
+{
+  "venue": "茹曦酒店",
+  "venue_id": 1090,
+  "timestamp": "2026-03-27T01:09:41.919682",
+  "main_page": {
+    "url": "https://www.theillumehotel.com/zh/",
+    "status": 200,
+    "size": 635595,
+    "js_frameworks": [
+      "Angular"
+    ]
+  },
+  "meeting_links": [
+    {
+      "text": "gsm@theillumehotel.com",
+      "url": "https://www.theillumehotel.com/zh/mailto:gsm@theillumehotel.com"
+    },
+    {
+      "text": "聯絡我們",
+      "url": "https://www.theillumehotel.com/zh/overview-of-illume-taipei/contact-us/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/"
+    },
+    {
+      "text": "繁體中文",
+      "url": "https://www.theillumehotel.com/zh/?"
+    },
+    {
+      "text": "English",
+      "url": "https://www.theillumehotel.com/"
+    },
+    {
+      "text": "日本語",
+      "url": "https://www.theillumehotel.com/ja/"
+    },
+    {
+      "text": "한국어",
+      "url": "https://www.theillumehotel.com/ko_kr/"
+    },
+    {
+      "text": "前往訂房",
+      "url": "https://be.synxis.com/?Hotel=3618&Chain=21125&locale=zh-TW"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/taipei-hotel-near-taipei-arena-2026/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/taipei-rainy-day-itinerary/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/taipei-staycation-halfboard-package/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/sunny-buffet-southeast-asian-buffet-in-taipei-must-try-dishes-reservation-guide/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/2026-taipei-lantern-festival-accommodation-guide/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/sustainable-stay-taipei-hotel-part-1/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/taipei-hotel-for-southeast-asia-business-travelers/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/category/discover-taipei/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/double-delight-dine-and-stay-package/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/event-goers-stay/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/taiwan-high-speed-rail-promotion/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/2026-southeast-asian-theme-sunny-buffet/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/buffet-birthday-promotion/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/senior-citizen-discount/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/buffet-weekend-afternoont-tea/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/end-of-year-party-2/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/perfect-match-wedding-privileges-package/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/wedding-packages/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/category/offers-and-promotions/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/myofascial-release-massage-taipei-hotel/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/winter-operations-notice-for-outdoor-swimming-pool/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/illume-taipei-introduces-eco-friendly-self-service-water-dispensers/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/muslim-friendly-hospitality/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/smoke-free-policy/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/sustainability-at-gym/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/illume-taipei-scam-alert/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/eco-friendly-hotel-taipei/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/rooms-and-suites/premier-room/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/rooms-and-suites/premier-triple-room/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/rooms-and-suites/premier-family-room/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/rooms-and-suites/premier-suite/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/rooms-and-suites/residence-suite/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/rooms-and-suites/executive-suite/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/rooms-and-suites/standard-room/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/rooms-and-suites/deluxe-suite/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/rooms-and-suites/"
+    },
+    {
+      "text": "Sunny Buffet 自助餐廳",
+      "url": "https://www.theillumehotel.com/zh/restaurants-and-bars/sunny-buffet/"
+    },
+    {
+      "text": "Opera 雞尾酒吧",
+      "url": "https://www.theillumehotel.com/zh/restaurants-and-bars/opera-cocktail-bar/"
+    },
+    {
+      "text": "八和和牛燒肉專門店",
+      "url": "https://www.theillumehotel.com/zh/restaurants-and-bars/bahoyakiniku-specialty-restaurant/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/restaurants-and-bars/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/meetings-events/wedding/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/meetings-events/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/meetings-events/request-for-proposal/"
+    },
+    {
+      "text": "設施與服務",
+      "url": "https://www.theillumehotel.com/zh/the-premier-leisure-and-business-facilities/"
+    },
+    {
+      "text": "我們的故事",
+      "url": "https://www.theillumehotel.com/zh/overview-of-illume-taipei/"
+    },
+    {
+      "text": "常見問題",
+      "url": "https://www.theillumehotel.com/zh/overview-of-illume-taipei/frequently-asked-questions/"
+    },
+    {
+      "text": "茹曦光影集",
+      "url": "https://www.theillumehotel.com/zh/overview-of-illume-taipei/illume-gallery/"
+    },
+    {
+      "text": "隱私權政策",
+      "url": "https://www.theillumehotel.com/zh/overview-of-illume-taipei/privacy-policy/"
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/category/hotel-notice/"
+    },
+    {
+      "text": "立即訂房",
+      "url": "https://be.synxis.com/?Hotel=3618&Chain=21125&_gl=1*jymc8*_ga*MTQ2OTI3NzE4Mi4xNzA0NzAwNjg3*_ga_X7ZQW2G86S*MTczODgxODkyMC4xMjIuMS4xNzM4ODE4OTMwLjUwLjAuMA.."
+    },
+    {
+      "text": "",
+      "url": "https://www.theillumehotel.com/zh/premier-deluxe-room/"
+    },
+    {
+      "text": "了解更多",
+      "url": "https://www.theillumehotel.com/the-premier-leisure-and-business-facilities/#welness"
+    },
+    {
+      "text": "了解更多",
+      "url": "https://www.theillumehotel.com/the-premier-leisure-and-business-facilities/#coworking"
+    },
+    {
+      "text": "了解更多",
+      "url": "https://www.theillumehotel.com/the-premier-leisure-and-business-facilities/#pool"
+    },
+    {
+      "text": "台北飯店超值優惠｜WHR 會員期間限定，每晚 NT$3,288 起",
+      "url": "https://www.theillumehotel.com/zh/?p=14387"
+    },
+    {
+      "text": "Sunny Buffet 亞洲美饌吃到飽饗宴NEW",
+      "url": "https://www.theillumehotel.com/zh/?p=13937"
+    },
+    {
+      "text": "點亮回憶序章：江蕙演唱會限定餐飲禮遇，尊享 Sunny Buffet 85 折光采",
+      "url": "https://www.theillumehotel.com/zh/?p=15215"
+    },
+    {
+      "text": "Father’s Day Feast: A Culinary Journey of Light & Appreciati",
+      "url": "https://www.theillumehotel.com/zh/?p=15226"
+    },
+    {
+      "text": "持續更新：台北小巨蛋與台北大巨蛋的最佳活動指南POPULAR",
+      "url": "https://www.theillumehotel.com/zh/taipei-events-guide/"
+    },
+    {
+      "text": "茹曦酒店：點亮你與孩子的光影旅程 — 台北家庭住宿的溫暖首選",
+      "url": "https://www.theillumehotel.com/zh/family-friendly-taipei-hotel/"
+    },
+    {
+      "text": "入住台北森林系飯店｜從茹曦出發的城市綠意散步提案",
+      "url": "https://www.theillumehotel.com/zh/forest-inspired/"
+    },
+    {
+      "text": "台北夜市推薦｜從茹曦酒店出發玩轉饒河、遼寧與臨江夜市｜台北飯店攻略",
+      "url": "https://www.theillumehotel.com/zh/taipei-hotel-for-night-market/"
+    },
+    {
+      "text": "台北飯店推薦｜松山區二日遊輕旅行住宿指南",
+      "url": "https://www.theillumehotel.com/zh/taipei-hotel-guide-relaxing-songshan-2-day-getaway/"
+    },
+    {
+      "text": "2025 台北大巨蛋住宿推薦｜輕鬆入住、安心觀賽首選台北飯店",
+      "url": "https://www.theillumehotel.com/zh/where-to-stay-for-taipei-dome-2025/"
+    },
+    {
+      "text": "無障礙宣告",
+      "url": "https://www.theillumehotel.com/zh/overview-of-illume-taipei/accessibility-statement/"
+    },
+    {
+      "text": "網站地圖",
+      "url": "https://www.theillumehotel.com/zh/overview-of-illume-taipei/site-map/"
+    },
+    {
+      "text": "性騷擾防治辦法",
+      "url": "https://www.theillumehotel.com/zh/overview-of-illume-taipei/sexual-harassment-prevention/"
+    },
+    {
+      "text": "隱私權政策",
+      "url": "https://www.theillumehotel.com/zh/privacy-policy/"
+    }
+  ],
+  "pdf_links": []
+}

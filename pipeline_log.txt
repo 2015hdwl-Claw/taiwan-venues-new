@@ -1,0 +1,284 @@
+Running full pipeline...
+================================================================================
+ACTIVITY MASTER - Data Flow Pipeline
+================================================================================
+
+Started at: 2026-03-26 07:50:26
+
+[OK] Input files found
+
+--------------------------------------------------------------------------------
+STAGE 1: Converting venues.json to raw.json
+--------------------------------------------------------------------------------
+================================================================================
+Converting venues.json to raw.json
+================================================================================
+
+Loading venues.json...
+Loaded 45 venues
+
+Saving to data/raw.json...
+
+================================================================================
+Conversion Complete
+================================================================================
+
+Total venues: 45
+Success: 45
+With warnings: 127
+
+Output: data/raw.json
+[OK] Stage 1 complete
+
+--------------------------------------------------------------------------------
+STAGE 2: Converting raw.json to verified.json
+--------------------------------------------------------------------------------
+================================================================================
+Converting raw.json to verified.json
+================================================================================
+
+Loading data/raw.json...
+Loaded 45 entries
+
+Verifying venue 1034...
+  [PASS] Score: 60
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1042...
+  [FAIL] ['Room 0 (1F 前瞻廳): Area must be a number: ', 'Room 1 (1F 前瞻廳): Area must be a number: ', 'Room 2 (1F 前瞻廳): Area must be a number: ']
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1043...
+  [FAIL] ['Room 0 (卓越客房Superior Room): Area must be a number: ', 'Room 1 (豪華客房Deluxe Room): Area must be a number: ']
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1045...
+  [FAIL] ['Room 0 (國際會議廳): Area must be a number: 約50坪', 'Room 1 (會議室A): Area must be a number: 約15坪', 'Room 2 (會議室B): Area must be a number: 約10坪']
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1049...
+  [FAIL] ['Room 0 (世貿一館會議室介紹及場地佈置): Area must be a number: ', 'Room 1 (世貿一館會議室介紹及場地佈置): Area must be a number: ', 'Room 2 (會議室介紹): Area must be a number: ']
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1051...
+  [FAIL] ['Room 0 (Other Room Type): Area must be a number: ', 'Room 1 (Other Room Type): Area must be a number: ']
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1053...
+  [FAIL] ['Room 0 (訂餐洽詢專線：(02)2712-3456 轉 花香廳(鐵板燒)): Area must be a number: ', 'Room 1 (訂餐洽詢專線：(02)2712-3456 轉 桂花廳): Area must be a number: ', 'Room 2 (訂餐洽詢專線：(02)2712-3456 轉 薔薇廳(自助餐)): Area must be a number: ']
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1055...
+  [PASS] Score: 10
+  [WARN] ['Missing phone number', 'Missing email', 'No rooms data']
+
+Verifying venue 1057...
+  [PASS] Score: 35
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1068...
+  [FAIL] ['Room 0 (Our Rooms): Area must be a number: ']
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1069...
+  [PASS] Score: 35
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1072...
+  [PASS] Score: 35
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1075...
+  [FAIL] ['Room 0 (宴會廳-福廳/祿廳): Area must be a number: ', 'Room 1 (宴會廳-壽廳/喜廳): Area must be a number: ', 'Room 2 (多功能會議廳): Area must be a number: ']
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1076...
+  [FAIL] ['Room 0 (二樓多功能宴會廳): Area must be a number: ']
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1077...
+  [PASS] Score: 35
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1082...
+  [PASS] Score: 60
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1083...
+  [PASS] Score: 60
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1085...
+  [PASS] Score: 35
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1086...
+  [PASS] Score: 35
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1090...
+  [PASS] Score: 35
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1095...
+  [PASS] Score: 35
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1097...
+  [PASS] Score: 35
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1099...
+  [PASS] Score: 60
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1100...
+  [PASS] Score: 35
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1103...
+  [FAIL] ['Room 0 (萬豪廳): Area must be a number: ', 'Room 1 (萬豪一廳): Area must be a number: ', 'Room 2 (寰宇廳): Area must be a number: ']
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1107...
+  [PASS] Score: 60
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 67.0']
+
+Verifying venue 1109...
+  [PASS] Score: 35
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 55.0']
+
+Verifying venue 1116...
+  [FAIL] ['Room 0 (彭園婚宴會館 - 湘菜、婚宴場地、尾牙餐廳): Area must be a number: ', 'Room 1 (彭園婚宴會館 - 湘菜、婚宴場地、尾牙餐廳): Area must be a number: ']
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1121...
+  [PASS] Score: 35
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1122...
+  [PASS] Score: 35
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1124...
+  [PASS] Score: 35
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1125...
+  [PASS] Score: 35
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1126...
+  [FAIL] ['Room 0 (會議室): Area must be a number: ', 'Room 1 (會議室): Area must be a number: ', 'Room 2 (萊茵廳): Area must be a number: ']
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1128...
+  [PASS] Score: 65
+  [WARN] ['Missing phone number', 'Missing email']
+
+Verifying venue 1129...
+  [PASS] Score: 35
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1334...
+  [FAIL] ['Room 0 (多功能活動室): Area must be a number: 約40坪', 'Room 1 (會議室): Area must be a number: 約15坪']
+  [WARN] ['Missing phone number', 'Missing email']
+
+Verifying venue 1448...
+  [PASS] Score: 35
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1493...
+  [FAIL] ['Room 0 (1F藝文展覽廳): Area must be a number: ', 'Room 1 (1F藝文展覽廳): Area must be a number: ', 'Room 2 (1F藝文展覽廳): Area must be a number: ']
+  [WARN] ['Missing phone number', 'Missing email', 'Low confidence score: 0']
+
+Verifying venue 1494...
+  [PASS] Score: 55
+  [WARN] ['Missing phone number', 'Missing email']
+
+Verifying venue 1495...
+  [FAIL] ['Room 5 (集思北科大會議中心): Area must be a number: None']
+  [WARN] ['Missing phone number', 'Missing email']
+
+Verifying venue 1496...
+  [FAIL] ['Room 4 (莎士比亞廳): Area must be a number: None']
+  [WARN] ['Missing phone number', 'Missing email']
+
+Verifying venue 1497...
+  [PASS] Score: 55
+  [WARN] ['Missing phone number', 'Missing email']
+
+Verifying venue 1498...
+  [PASS] Score: 70
+  [WARN] ['Missing phone number', 'Missing email']
+
+Verifying venue 1499...
+  [PASS] Score: 0
+  [WARN] ['Missing phone number', 'Missing email', 'No rooms data']
+
+Verifying venue 1500...
+  [FAIL] ['Room 0 (福軒（1館3樓）): Invalid area unit: ㎡', 'Room 1 (401（1館4樓）): Invalid area unit: ㎡', 'Room 2 (402（1館4樓）): Invalid area unit: ㎡']
+
+Saving to data/verified.json...
+
+================================================================================
+Verification Complete
+================================================================================
+
+Total venues: 45
+Passed: 28
+Failed: 17
+With warnings: 44
+Average quality: 43
+
+Output: data/verified.json
+[OK] Stage 2 complete
+
+--------------------------------------------------------------------------------
+STAGE 3: Converting verified.json to venues.json
+--------------------------------------------------------------------------------
+================================================================================
+Converting verified.json to venues.json
+================================================================================
+
+Backup created: data\backups\venues_before_verified_20260326_075026_0df73872.json
+
+Loading data/verified.json...
+Loaded 45 verified entries
+
+Saving to venues.json...
+
+================================================================================
+Conversion Complete
+================================================================================
+
+Total venues: 45
+Updated: 45
+
+Output: venues.json
+[OK] Stage 3 complete
+
+================================================================================
+PIPELINE COMPLETE
+================================================================================
+
+Data Flow:
+  sources.json (45 sources)
+     ↓
+  raw.json (45 entries)
+     ↓
+  verified.json (45 entries, 62% pass rate)
+     ↓
+  venues.json (45 venues with new architecture)
+
+New Architecture Fields Added:
+Traceback (most recent call last):
+  File "C:\Users\le202\Documents\taiwan-venues-new\converters\run_data_flow.py", line 198, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\le202\Documents\taiwan-venues-new\converters\run_data_flow.py", line 190, in main
+    success = run_full_pipeline()
+  File "C:\Users\le202\Documents\taiwan-venues-new\converters\run_data_flow.py", line 107, in run_full_pipeline
+    print("  \u2713 sourceId")
+    ~~~~~^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'cp950' codec can't encode character '\u2713' in position 2: illegal multibyte sequence

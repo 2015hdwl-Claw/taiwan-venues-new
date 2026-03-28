@@ -1,0 +1,45 @@
+{
+  "venue": "TICC",
+  "venue_id": 1448,
+  "url": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_VenueIntroduction.jsp&ctNode=321&CtUnit=98&BaseDSD=7&mp=1",
+  "total_images": 7,
+  "venue_images": 0,
+  "images": [
+    {
+      "url": "xslgip/style1/images/ticc/img-hero.jpg",
+      "alt": "",
+      "source": "img_tag"
+    },
+    {
+      "url": "xslgip/style1/images/ticc/floor/1F.jpg",
+      "alt": "",
+      "source": "img_tag"
+    },
+    {
+      "url": "xslgip/style1/images/ticc/floor/2F.jpg",
+      "alt": "",
+      "source": "img_tag"
+    },
+    {
+      "url": "xslgip/style1/images/ticc/floor/3F.jpg",
+      "alt": "",
+      "source": "img_tag"
+    },
+    {
+      "url": "xslgip/style1/images/ticc/floor/4F.jpg",
+      "alt": "",
+      "source": "img_tag"
+    },
+    {
+      "url": "xslgip/style1/images/ticc/floor/5F.jpg",
+      "alt": "",
+      "source": "img_tag"
+    },
+    {
+      "url": "xslgip/style1/images/ticc/floor/6F.jpg",
+      "alt": "",
+      "source": "img_tag"
+    }
+  ],
+  "timestamp": "2026-03-26T20:39:24.188798"
+}

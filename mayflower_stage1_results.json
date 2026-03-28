@@ -1,0 +1,92 @@
+{
+  "venue": "台北美福大飯店",
+  "venue_id": 1095,
+  "timestamp": "2026-03-27T01:11:36.943202",
+  "main_page": {
+    "url": "https://www.grandmayfull.com/",
+    "status": 200,
+    "size": 45942,
+    "js_frameworks": [
+      "jQuery"
+    ]
+  },
+  "meeting_links": [
+    {
+      "text": "線上訂位",
+      "url": "https://www.tablecheck.com/zh-TW/grand-mayfull-hotel-taipei-palette-buffet/reserve/landing?require_venue=true"
+    },
+    {
+      "text": "線上訂房",
+      "url": "https://book-directonline.com/properties/GrandMayfullHotelTaipeiDirect"
+    },
+    {
+      "text": "美福套房",
+      "url": "https://www.grandmayfull.com/room/detail/11"
+    },
+    {
+      "text": "宴會會議",
+      "url": "https://www.grandmayfull.com/#"
+    },
+    {
+      "text": "宴會會議",
+      "url": "https://www.grandmayfull.com/events"
+    },
+    {
+      "text": "環景導覽",
+      "url": "https://www.grandmayfull.com/events/tour_guide"
+    },
+    {
+      "text": "婚宴專案",
+      "url": "https://www.grandmayfull.com/events/wedding"
+    },
+    {
+      "text": "會議專案",
+      "url": "https://www.grandmayfull.com/events/meeting-package"
+    },
+    {
+      "text": "春酒尾牙",
+      "url": "https://www.grandmayfull.com/events/year_end_party"
+    },
+    {
+      "text": "宴會廳",
+      "url": "https://www.grandmayfull.com/events/ballroom"
+    },
+    {
+      "text": "會議廳",
+      "url": "https://www.grandmayfull.com/events/meeting"
+    },
+    {
+      "text": "喜福/萬福/鴻福廳/鴻福會所",
+      "url": "https://www.grandmayfull.com/events/Xifu_Wanfu_Hongfu"
+    },
+    {
+      "text": "商務中心",
+      "url": "https://www.grandmayfull.com/events/business-center"
+    },
+    {
+      "text": "美福星級外燴",
+      "url": "https://www.grandmayfull.com/events/caterer"
+    },
+    {
+      "text": "美福GO購",
+      "url": "https://shop.grandmayfull.com"
+    },
+    {
+      "text": "餐飲翠意端陽 早鳥驚喜Mar 25, 2026重五端陽，台北美福行政主廚王志孚集結海味鮮食及臘味三寶，以質感雙層容器盛裝",
+      "url": "https://www.grandmayfull.com/posts/1557"
+    },
+    {
+      "text": "客房美福慢調 悠晨旅宿時光Feb 26, 2026喧鬧的城市，快節奏的生活步調，最奢侈的享受是那份能夠恣意賴床的慵懶，2",
+      "url": "https://www.grandmayfull.com/posts/1545"
+    },
+    {
+      "text": "",
+      "url": "https://www.tripadvisor.com.tw/Hotel_Review-g293913-d10161540-Reviews-Grand_Mayfull_Hotel_Taipei-Taipei.html"
+    }
+  ],
+  "pdf_links": [
+    "https://www.grandmayfull.com/uploads/files/2026%20Ocard%E7%BE%8E%E7%A6%8F%E9%9B%86%E9%BB%9E%E5%8D%A1EDM.pdf",
+    "https://www.grandmayfull.com/uploads/20260304_135050_490.pdf",
+    "/uploads/2026_map.pdf"
+  ]
+}

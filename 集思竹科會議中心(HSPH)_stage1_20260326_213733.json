@@ -1,0 +1,27 @@
+{
+  "venue": "集思竹科會議中心(HSPH)",
+  "venue_id": 1496,
+  "url": "https://www.meeting.com.tw/hsp/",
+  "stage1": {
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "page_type": "HTML",
+    "js_frameworks": [
+      "jQuery"
+    ],
+    "loading_method": "動態渲染 (可能需要 JS)",
+    "json_ld_count": 0,
+    "has_embedded_json": false,
+    "has_meeting_keywords": true,
+    "anti_scraping": "未檢測到",
+    "cookies_count": 0,
+    "has_session_token": false,
+    "links": {
+      "total": 57,
+      "meeting": 19,
+      "pricing": 0,
+      "contact": 1
+    }
+  },
+  "timestamp": "2026-03-26T21:37:33.460975"
+}

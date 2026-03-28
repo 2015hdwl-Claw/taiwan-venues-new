@@ -1,0 +1,46 @@
+{
+  "venue": "台北文華東方酒店",
+  "venue_id": 1085,
+  "timestamp": "2026-03-27T01:07:51.986928",
+  "main_page": {
+    "url": "https://www.mandarinoriental.com/taipei",
+    "status": 200,
+    "size": 694289,
+    "js_frameworks": []
+  },
+  "meeting_links": [
+    {
+      "text": "The Oriental Lounge",
+      "url": "https://www.mandarinoriental.com/taipei/en/taipei/songshan/stay/the-oriental-lounge"
+    },
+    {
+      "text": "The Mandarin Cake Shop",
+      "url": "https://www.mandarinoriental.com/taipei/en/taipei/songshan/dine/the-mandarin-cake-shop"
+    },
+    {
+      "text": "Events",
+      "url": "https://www.mandarinoriental.com/taipei/en/taipei/songshan/events"
+    },
+    {
+      "text": "Hong Kong - Mandarin Oriental",
+      "url": "https://www.mandarinoriental.com/taipei/en/hong-kong/victoria-harbour"
+    },
+    {
+      "text": "Live Chat",
+      "url": "https://askaway.mandarinoriental.com/motpe"
+    },
+    {
+      "text": "Regional Sales Offices",
+      "url": "https://mandarinoriental.com/contact-information#regional-sales-offices"
+    },
+    {
+      "text": "Media Centre",
+      "url": "https://press.mandarinoriental.com/"
+    },
+    {
+      "text": "Facebook",
+      "url": "https://www.facebook.com/MandarinOrientalTaipeiTaiwan"
+    }
+  ],
+  "pdf_links": []
+}

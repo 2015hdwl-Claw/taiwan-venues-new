@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   台北世貿中心
+  </title>
+  <link href="./img/icon/app-icon@192.png" rel="icon" sizes="192x192"/>
+  <link href="./img/icon/app-icon@128.png" rel="icon" sizes="128x128"/>
+  <link href="./img/icon/app-icon@128.png" rel="apple-touch-icon" sizes="128x128"/>
+  <link href="./img/icon/app-icon@128.png" rel="apple-touch-icon-precomposed" sizes="128x128"/>
+  <link href="./css/reset.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="./css/remixicon/remixicon.css" rel="stylesheet"/>
+  <link href="./css/swiper/swiper-bundle.css" rel="stylesheet"/>
+  <link href="./css/swiper/swiper-bundle.min.css" rel="stylesheet"/>
+  <link href="./plugins/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css" rel="stylesheet"/>
+  <link href="./plugins/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" rel="stylesheet"/>
+  <link href="./css/index.css" rel="stylesheet"/>
+  <link href="./css/rwd.css" rel="stylesheet"/>
+  <link href="./css/style.css" rel="stylesheet"/>
+  <style type="text/css">
+   html {
+            touch-action: manipulation;
+        }
+
+        body {
+            background: url(../img/img/bg05.png);
+            background-size: cover;
+            background-blend-mode: lighten;
+            position: relative;
+            background-attachment: fixed;
+        }
+
+        .gototop {
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            font-family: verdana;
+            text-align: center;
+            background: #ccc;
+            color: #fff;
+            position: fixed;
+            bottom: 20px;
+            right: 10px;
+            border-radius: 50%;
+            text-decoration: none;
+            cursor: pointer; /*先隱藏*/
+            display: none;
+            z-index: 999999 !important;
+        }
+
+        body .guideBar {
+            top: 15%;
+        }
+
+        .navbar-header {
+            height: 80px;
+        }
+
+        @media (min-width: 992px) {
+          .dropdown:hover .dropdown-menu {
+            display: block;
+            margin-top: 0; /* 避免跳動 */
+          }
+        }
+
+        .dropdown-menu {
+          padding-top: 0 !important;
+          z-index: 1000;
+        }
+
+        .thirdDropdownBtn:hover .thirdDropdown-menu {
+            display: block;
+        }
+
+        .twtcNavbar {
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        body .owl-theme .owl-nav .owl-next, body .owl-theme .owl-nav .owl-prev {
+            color: #f6f6f7;
+            position: relative;
+            height: 40px;
+            width: 35px;
+            background-color: #26349e;
+            top: -5px;
+        }
+
+            body .owl-theme .owl-nav .owl-next, body .owl-theme .owl-nav .owl-prev:hover {
+                background-color: #26349e;
+            }
+
+        .owl-prev span, .owl-next span {
+            position: relative;
+            top: -20px;
+        }
+
+        body .owl-theme .owl-nav [class*=owl-]:hover {
+            background-color: #353895;
+        }
+
+        /* body .twtcBlock .twtcNewsWrapper a .twtcNewsCard {
+            min-height: 60px;
+        }
+
+        body .twtcBlock {
+            margin-top: 30px;
+            padding: 10px;
+        }
+*/
+  </style>
+ </head>
+ <body>
+  <form action="./meeting11" autocomplete="off" id="form1" method="post">
+   <div class="aspNetHidden">
+    <input id="__EVENTTARGET" name="__EVENTTARGET" type="hidden" value=""/>
+    <input id="__EVENTARGUMENT" name="__EVENTARGUMENT" type="hidden" value=""/>
+    <input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="haQp/i6zfpOSFpLIlyxY8XKL2pRR04e3lobHtsLc6kE6Vv5S4Pb6MoKrLf1iRCvGe2anRMBjxkcQDBlIyfWxxybz/nZpW3DrRyn75dlEtFc="/>
+   </div>
+   <script type="text/javascript">
+    //<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+   </script>
+   <div class="aspNetHidden">
+    <input id="__VIEWSTATEGENERATOR" name="__VIEWSTATEGENERATOR" type="hidden" value="69B82617"/>
+    <input id="__EVENTVALIDATION" name="__EVENTVALIDATION" type="hidden" value="mdBJH7gyEhpzhCCzjInuiuW9eTXKcF/hvV0NwfCxbvsecJEN6g97psq2J97U804UH+RfMxk3al8AdaBx6uAUOYcpze7UylV5ppaPMR7FZ5ess9KlWjbh87zvFrub2t0m"/>
+   </div>
+   <div>
+    <div class="d-flex justify-content-center">
+     <div class="mx-auto">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+       <div class="twtcNavbar">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+         <a class="navbar-brand" href="/">
+          <img alt="twtcLogo" class="twtcLogo" src="./img/logo/twtcLogo.png"/>
+         </a>
+         <button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button">
+          <span class="navbar-toggler-icon">
+          </span>
+          <span class="icon-bar">
+          </span>
+          <span class="icon-bar">
+          </span>
+          <span class="icon-bar">
+          </span>
+         </button>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+         <ul class="nav navbar-nav twtcNavbar-nav">
+          <li class="dropdown">
+           <a aria-expanded="false" aria-haspopup="false" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">
+            <font color="#777777">
+             中心簡介
+            </font>
+           </a>
+           <div class="dropdown-menu">
+            <ul class="secDropdownMenu container">
+             <li class="container-single">
+              <a href="./about">
+               台北世貿中心簡介
+              </a>
+             </li>
+             <li class="container-single">
+              <a href="./ESG?p=home">
+               ESG ＆ CSR
+              </a>
+             </li>
+             <li class="container-single">
+              <a href="./decoration">
+               展覽大樓主要設施及面積一覽表
+              </a>
+             </li>
+             <li class="container-single">
+              <a href="./traffic">
+               交通資訊
+              </a>
+             </li>
+             <li class="container-single">
+              <a href="./Restaurant">
+               餐飲服務
+              </a>
+             </li>
+             <li class="container-single">
+              <a href="./service">
+               服務設施
+              </a>
+             </li>
+            </ul>
+           </div>
+          </li>
+          <li class="dropdown">
+           <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">
+            <font color="#777777">
+             展覽檔期
+            </font>
+           </a>
+           <div class="dropdown-menu">
+            <ul class="secDropdownMenu container">
+             <li class="container-single">
+              <a href="./exhibition?p=home">
+               展覽總表
+              </a>
+             </li>
+             <li class="container-single">
+              <a href="./exhibition?p=menu1">
+               世貿一館
+              </a>
+             </li>
+             <li class="container-single">
+              <a href="https://www.tainex.com.tw/event" rel="noopener noreferrer" target="_blank">
+               南港展覽館
+              </a>
+             </li>
+             <li class="container-single">
+              <a href="https://www.ticec.com.tw/wSite/sp?xdUrl=/wSite/ap/sp_ActInfo_Front.jsp&amp;ctNode=441&amp;CtUnit=200&amp;BaseDSD=7&amp;mp=1" rel="noopener noreferrer" target="_blank">
+               臺中國際會展中心
+              </a>
+             </li>
+            </ul>
+           </div>
+          </li>
+          <li class="dropdown">
+           <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">
+            <font color="#777777">
+             活動場地
+            </font>
+           </a>
+           <div class="dropdown-menu">
+            <ul class="secDropdownMenu container">
+             <li class="container-single">
+              <a href="./Floor1">
+               1樓展場
+              </a>
+             </li>
+             <li class="container-single">
+              <a href="./exh">
+               展覽場地租借
+              </a>
+             </li>
+             <li class="container-single">
+              <a href="./download">
+               下載專區(主辦單位/裝潢商)
+              </a>
+             </li>
+            </ul>
+           </div>
+          </li>
+          <li class="dropdown">
+           <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">
+            <font color="#777777">
+             會議室
+            </font>
+           </a>
+           <div class="dropdown-menu">
+            <ul class="secDropdownMenu container">
+             <li>
+              <a class="thirdDropdownBtn" href="#">
+               世貿一館會議室介紹及場地佈置
+               <span class="caret">
+               </span>
+              </a>
+              <div class="thirdDropdown-menu">
+               <ul class="thirdDropdownMenu container">
+                <li class="container-single">
+                 <a href="./meeting?p=menu1">
+                  會議室介紹
+                 </a>
+                </li>
+                <li class="container-single">
+                 <a href="./meeting1">
+                  第一會議室
+                 </a>
+                </li>
+                <li class="container-single">
+                 <a href="./meeting11">
+                  A+會議室
+                 </a>
+                </li>
+                <li class="container-single">
+                 <a href="./meeting2">
+                  第二會議室
+                 </a>
+                </li>
+                <li class="container-single">
+                 <a href="./meeting3">
+                  第三會議室
+                 </a>
+                </li>
+               </ul>
+               <ul class="thirdDropdownMenu container">
+                <li class="container-single">
+                 <a href="./meeting4">
+                  第四會議室
+                 </a>
+                </li>
+                <li class="container-single">
+                 <a href="./meeting5">
+                  第五會議室
+                 </a>
+                </li>
+                <li class="container-single">
+                 <a href="./meeting345">
+                  第三四五會議室(打通)
+                 </a>
+                </li>
+                <li class="container-single">
+                 <a href="./meeting22">
+                  一樓貴賓室
+                 </a>
+                </li>
+                <li class="container-single">
+                 <a href="./meeting15">
+                  第一五會議室間廊廳
+                 </a>
+                </li>
+               </ul>
+              </div>
+             </li>
+             <li class="container-single">
+              <a href="./meeting_form">
+               會議室表單下載
+              </a>
+             </li>
+            </ul>
+           </div>
+          </li>
+          <li class="dropdown-toggle-single">
+           <a href="https://mart.twtc.com.tw/home" rel="noopener noreferrer" target="_blank">
+            <font color="#777777">
+             辦公室及共享辦公室
+            </font>
+           </a>
+          </li>
+          <li class="dropdown">
+           <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">
+            <font color="#777777">
+             媒體中心
+            </font>
+           </a>
+           <div class="dropdown-menu">
+            <ul class="secDropdownMenu container">
+             <li class="dropdown-toggle-single">
+              <a href="./news">
+               最新消息
+              </a>
+             </li>
+             <li class="container-single">
+              <a href="./video">
+               影音專區
+              </a>
+             </li>
+             <li class="container-single">
+              <a href="./event_album_list">
+               精選照片剪影
+              </a>
+             </li>
+             <li class="container-single">
+              <a href="./link">
+               友善連結
+              </a>
+             </li>
+            </ul>
+           </div>
+          </li>
+          <li class="dropdown-toggle-single">
+           <a href="./repair">
+            <font color="#777777">
+             設施維護
+            </font>
+           </a>
+          </li>
+          <li class="dropdown-toggle-single">
+           <a href="./contact-us">
+            <font color="#777777">
+             聯絡我們
+            </font>
+           </a>
+          </li>
+          <li class="dropdown laguageMenuBox">
+           <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle laguageMenuTitle" data-toggle="dropdown" href="#" role="button">
+            語言
+           </a>
+           <ul class="dropdown-menu laguageMenu" style="width: fit-content; top: 50px;">
+            <li>
+             <a href="#">
+              中文
+             </a>
+            </li>
+            <li>
+             <a href="javascript:__doPostBack('ctl00$LinkButton1','')" id="LinkButton1">
+              English
+             </a>
+            </li>
+           </ul>
+          </li>
+         </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+       </div>
+       <!-- /.container-fluid -->
+      </nav>
+     </div>
+    </div>
+    <!-- page content -->
+    <div class="col-xs-12" style="background: rgb(250, 250, 250);">
+     <div class="col-xs-12 mt10 page_title_frame">
+      <!-- page_title -->
+      <div class="page_title text-center headTop">
+       <h1>
+        會議室出租
+       </h1>
+      </div>
+      <!-- /page_title -->
+     </div>
+     <div class="col-xs-12 mt10">
+      <div class="col-xs-12 date_content_block">
+       <div class="col-xs-12 content_block">
+        <div class="col-xs-12">
+         <h2>
+          A+會議室
+         </h2>
+         <div class="col-sm-6 p0">
+          <p>
+           教室型可容納48人、標準型可容納72人、劇院型可容納108人 適合舉辦各類型會議、展覽、記者會、產品展示會或頒獎典禮等活動。
+          </p>
+          <br/>
+          <!--
+                        <a id="body_HyperLink1" class="btn btn-default btn-primary mb10 mr10" href="./img/meeting/A%e6%9c%83%e8%ad%b0%e5%ae%a4%e6%a8%99%e6%ba%96%e5%9e%8b.jpg" target="_blank" style="font-size: 20px;">標準型</a>
+						-->
+          <a class="btn btn-default btn-primary mb10 mr10" href="./img/meeting/AType_Classroom.jpg" id="body_HyperLink2" style="font-size: 20px;" target="_blank">
+           教室型
+          </a>
+          <!--						
+                        <a id="body_HyperLink3" class="btn btn-default btn-primary mb10 mr10" href="./img/meeting/A%e6%9c%83%e8%ad%b0%e5%ae%a4%e5%8a%87%e9%99%a2%e5%9e%8b2.jpg" target="_blank" style="font-size: 20px;">劇院型</a>
+						-->
+         </div>
+         <div class="col-sm-6">
+          <img alt="A+會議室" src="./img/meeting/A會議室.jpg" style="width: 100%"/>
+         </div>
+        </div>
+        <div class="col-xs-12 mt20">
+         <p>
+          單位：新臺幣/元（未稅）
+         </p>
+         <div class="table-responsive">
+          <table bgcolor="#5077B8" cellpadding="5" cellspacing="1" class="table table-bordered">
+           <tbody>
+            <tr>
+             <td bgcolor="#E0EDFF" class="word_01" colspan="3" valign="top">
+              <div align="center">
+               標準容量 (人)
+              </div>
+             </td>
+             <td bgcolor="#E0EDFF" class="word_01" rowspan="2" valign="middle">
+              <div align="center">
+               面積
+               <br/>
+               (平方公尺/坪)
+              </div>
+             </td>
+             <td bgcolor="#E0EDFF" class="word_01" rowspan="2" valign="middle">
+              <div align="center">
+               尺寸
+               <br/>
+               （長×寬×高）公尺
+               <br/>
+              </div>
+             </td>
+             <td bgcolor="#E0EDFF" class="word_01" rowspan="2" valign="middle">
+              <div align="center">
+               週一到週五日間
+               <br/>
+               每時段租金
+              </div>
+             </td>
+             <td bgcolor="#E0EDFF" class="word_01" rowspan="2" valign="middle">
+              <div align="center">
+               例假日及夜間
+               <br/>
+               每時段租金
+              </div>
+             </td>
+            </tr>
+            <tr>
+             <td bgcolor="#F0F7FF" class="word_01" valign="top">
+              <div align="center">
+               劇院型
+              </div>
+             </td>
+             <td bgcolor="#F0F7FF" class="word_01" valign="top">
+              <div align="center">
+               標準型
+              </div>
+             </td>
+             <td bgcolor="#F0F7FF" class="word_01" valign="top">
+              <div align="center">
+               教室型
+              </div>
+             </td>
+            </tr>
+            <tr>
+             <td bgcolor="#FFFFFF" class="word_01" valign="top">
+              <div align="center">
+               108
+              </div>
+             </td>
+             <td bgcolor="#FFFFFF" class="word_01" valign="top">
+              <div align="center">
+               72
+              </div>
+             </td>
+             <td bgcolor="#FFFFFF" class="word_01" valign="top">
+              <div align="center">
+               48
+              </div>
+             </td>
+             <td bgcolor="#FFFFFF" class="word_01" valign="top">
+              <div align="center">
+               145/45
+              </div>
+             </td>
+             <td bgcolor="#FFFFFF" class="word_01" valign="top">
+              <div align="center">
+               16.3×8.9×2.7
+              </div>
+             </td>
+             <td bgcolor="#FFFFFF" class="word_01" valign="top">
+              <div align="center">
+               17,000
+              </div>
+             </td>
+             <td bgcolor="#FFFFFF" class="word_01" valign="top">
+              <div align="center">
+               20,400
+              </div>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </div>
+         <p>
+         </p>
+         <h2>
+          備註
+         </h2>
+         <ol style="list-style: circle">
+          <li>
+           日間時段係指 8:00 ~ 12:00 / 13:00 ~ 17:00，夜間時段係指 18:00 ~ 22:00。
+          </li>
+          <li>
+           例假日(星期六、星期日及其他國定假日),依「計價單位」加收20%之場地費。
+          </li>
+          <li>
+           佈置或拆場(08:00-22:00)，租金按當日日間租金定價六折計。
+          </li>
+          <li>
+           逾時使用未達一小時者，按該時段定價四分之一計收逾時租金，超過一小時未滿四小時者，以整時段租金計價。
+          </li>
+          <li>
+           上述場地費稅金外加。
+          </li>
+          <li>
+           本表價格如有變動不另行通知。
+          </li>
+          <li>
+           借用台北世界貿易中心展覽大樓2樓會議室請電冾 02-2725-5200 分機 2224
+          </li>
+         </ol>
+        </div>
+        <div class="col-xs-12 mb20">
+         <a class="btn btn-default btn-primary mb10" href="./meeting_form" id="body_hlDownload" style="font-size: 18px;">
+          借用會議室相關規定
+         </a>
+         <br/>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <!-- /page content -->
+    <footer>
+     <div class="container-fluid footerBlock">
+      <div class="twtcFooter" style="margin-top: 30px;">
+       <ul>
+        <li>
+         <h4>
+          台北世界貿易中心
+         </h4>
+        </li>
+        <li>
+         <p>
+          886-2-27255200
+         </p>
+        </li>
+        <li>
+         <p>
+          臺北市信義路五段五號
+         </p>
+        </li>
+        <li>
+         <p style="margin-bottom: 0;">
+          <a href="./contact-us">
+           twtc@taitra.org.tw
+          </a>
+         </p>
+        </li>
+        <li>
+         <p>
+          <p style="margin-bottom: 0;">
+           <a href="./Privacy">
+            免責聲明
+           </a>
+          </p>
+         </p>
+        </li>
+       </ul>
+      </div>
+      <div style="margin-top: 30px;">
+       <img alt="" class="logo2" src="./img/logo/5BC4F3B8.png"/>
+       <img alt="" class="twtcLogo" src="./img/logo/twtcLogo.png"/>
+      </div>
+     </div>
+     <!-- Copyright -->
+     <div class="text-center p-3 twtcCopyRight">
+      © COPYRIGHT 2020. TAIPEI WORLD TRADE CENTER. ALL RIGHTS RESERVED
+     </div>
+     <!-- Copyright -->
+    </footer>
+    <div class="guideBar">
+     <div class="guideBarBox" style="width: 160px;">
+      <div class="iconBox">
+       <ul>
+        <li>
+         <a href="./search_result">
+          <i class="ri-search-line">
+          </i>
+         </a>
+        </li>
+        <li>
+         <a href="./exhibition?p=menu1">
+          <i class="ri-calendar-line">
+          </i>
+         </a>
+        </li>
+        <li>
+         <a href="./traffic">
+          <i class="ri-map-pin-line">
+          </i>
+         </a>
+        </li>
+        <li>
+         <a href="mailto:twtc@taitra.org.tw">
+          <i class="ri-mail-line">
+          </i>
+         </a>
+        </li>
+        <li>
+         <a href="./Privacy">
+          <i class="ri-mail-line">
+          </i>
+         </a>
+        </li>
+       </ul>
+       <div class="fishIcon">
+        <a href="https://chat.seasalt.ai/chat/fca6cbea9bca449ab7740d681f01ebcb?Channel=TWTC_C" rel="noopener noreferrer" target="_blank">
+         <img src="https://chat.seasalt.ai/api/v1/conversations/async/config/0873b6dd0468432ebd74d2ca2111301a/webchat_widget_icon?1735523193562" style="border-radius: 50%; box-shadow: 1px 2px 8px 0px #000;"/>
+        </a>
+       </div>
+      </div>
+      <div class="guideBarArrow">
+       <i class="ri-arrow-left-s-line">
+       </i>
+      </div>
+     </div>
+    </div>
+    <div class="gototop">
+     TOP
+    </div>
+    <script crossorigin="anonymous" integrity="" src="./js/jquery.min.js">
+    </script>
+    <script src="./plugins/OwlCarousel2-2.3.4/dist/owl.carousel.min.js">
+    </script>
+    <script src="./plugins/bootstrap-5.3.3-dist/js/bootstrap.js">
+    </script>
+    <script src="./js/swiper/swiper-bundle.js">
+    </script>
+    <script src="./js/swiper/swiper-bundle.min.js">
+    </script>
+    <script crossorigin="anonymous" integrity="sha256-I7mznqYTCAUiVrmSG/HA3maYvPDATj5PKXityGFo/24=" src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.Marquee/1.5.0/jquery.marquee.min.js">
+    </script>
+    <script src="./js/index.js">
+    </script>
+    <script>
+     $(function () {
+                    $(window).scroll(function () {
+                        var scroll = $(window).scrollTop();
+                        // 當卷軸超過70px,.gototop就淡入，如果小於就淡出
+                        if (scroll >= 70) {
+                            $(".gototop").fadeIn();
+                        } else {
+                            $(".gototop").fadeOut();
+                        }
+                    });
+
+                    // 當我按下.gototop時，添加動畫讓卷軸跑道最上面
+                    $('.gototop').click(function () {
+                        $('html,body').animate({
+                            scrollTop: $('html').offset().top
+                        });
+                    });
+                });
+    </script>
+   </div>
+  </form>
+  <script>
+   //var owlCarouselActive = document.getElementsByClassName("owl-item active");
+        //owlCarouselActive[0].style.opacity = 0.3; //get first item
+        //owlCarouselActive[owlCarouselActive.length - 1].style.opacity = 0.3;;
+  </script>
+ </body>
+</html>

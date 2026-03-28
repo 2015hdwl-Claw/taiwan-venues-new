@@ -1,0 +1,1486 @@
+[
+  {
+    "success": false,
+    "id": 1043,
+    "error": "404 Client Error: Not Found for url: https://www.courtyardtaipei.com.tw/zh-TW/"
+  },
+  {
+    "success": true,
+    "id": 1051,
+    "currentQuality": 34,
+    "newQuality": 34,
+    "qualityImprovement": 0,
+    "rooms": [
+      {
+        "name": "Other Room Type",
+        "floor": "2F",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "Other Room Type",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      }
+    ],
+    "roomsCount": 2,
+    "priceData": {
+      "hasPriceInfo": false,
+      "priceInHTML": false,
+      "hasPDF": false,
+      "pdfUrls": [],
+      "extractedPrices": {},
+      "pricePages": [
+        "https://taipei.landishotelsresorts.com/accommodation-list.php",
+        "https://taipei.landishotelsresorts.com/news-list.php"
+      ]
+    },
+    "newRoomsFound": 0
+  },
+  {
+    "success": true,
+    "id": 1053,
+    "currentQuality": 50,
+    "newQuality": 50,
+    "qualityImprovement": 0,
+    "rooms": [
+      {
+        "name": "訂餐洽詢專線：(02)2712-3456 轉 花香廳(鐵板燒)",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "訂餐洽詢專線：(02)2712-3456 轉 桂花廳",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "訂餐洽詢專線：(02)2712-3456 轉 薔薇廳(自助餐)",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "和風便當無法於廳內享用，僅提供外帶。",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "菊花廳(日本料理)",
+        "floor": "3\n\n\nF",
+        "capacity": null,
+        "area": "",
+        "equipment": "",
+        "id": "r1053000"
+      },
+      {
+        "name": "菊花廳(日本料理)",
+        "floor": "1F",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "菊花廳(日本料理)",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "蝶花廳及酒廊(義式料理.台菜宵夜)",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": "",
+        "id": "r1053001"
+      },
+      {
+        "name": "梅花廳(粵菜飲茶)",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": "",
+        "id": "r1053002"
+      },
+      {
+        "name": "蘭花廳(台菜海鮮)",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": "",
+        "id": "r1053003"
+      },
+      {
+        "name": "薔薇廳(中西合璧自助餐)",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": "",
+        "id": "r1053004"
+      },
+      {
+        "name": "花香廳(鐵板燒)",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": "",
+        "id": "r1053005"
+      },
+      {
+        "name": "桂花廳(川菜小吃)",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": "",
+        "id": "r1053006"
+      }
+    ],
+    "roomsCount": 13,
+    "priceData": {
+      "hasPriceInfo": false,
+      "priceInHTML": false,
+      "hasPDF": false,
+      "pdfUrls": [],
+      "extractedPrices": {},
+      "pricePages": [
+        "https://redirect.fastbooking.com/DIRECTORY/dispoprice.phtml?showPromotions=1&Hotelnames=ASIATWTPBrother&Clusternames=ASIATWTPBrother&locale=zh_Hant_HK&currency=TWD"
+      ]
+    },
+    "newRoomsFound": 7
+  },
+  {
+    "success": false,
+    "id": 1057,
+    "error": "403 Client Error: Forbidden for url: https://www.denwell.com/"
+  },
+  {
+    "success": true,
+    "id": 1068,
+    "currentQuality": 32,
+    "newQuality": 32,
+    "qualityImprovement": 0,
+    "rooms": [
+      {
+        "name": "Our Rooms",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      }
+    ],
+    "roomsCount": 1,
+    "priceData": {
+      "hasPriceInfo": false,
+      "priceInHTML": false,
+      "hasPDF": false,
+      "pdfUrls": [],
+      "extractedPrices": {},
+      "pricePages": []
+    },
+    "newRoomsFound": 0
+  },
+  {
+    "success": true,
+    "id": 1069,
+    "currentQuality": 40,
+    "newQuality": 40,
+    "qualityImprovement": 0,
+    "rooms": [
+      {
+        "name": "國賓中餐廳 線上訂位"
+      },
+      {
+        "name": "國賓中餐廳"
+      },
+      {
+        "name": "天母國賓中餐廳"
+      },
+      {
+        "name": "線上訂位A CUT 線上訂位國賓中餐廳 線上訂位",
+        "id": "r1069000"
+      },
+      {
+        "id": "1069-05",
+        "name": "銀行信用卡年度住宿訂房優惠",
+        "source": "card"
+      }
+    ],
+    "roomsCount": 5,
+    "priceData": {
+      "hasPriceInfo": false,
+      "priceInHTML": false,
+      "hasPDF": false,
+      "pdfUrls": [],
+      "extractedPrices": {},
+      "pricePages": []
+    },
+    "newRoomsFound": 2
+  },
+  {
+    "success": true,
+    "id": 1072,
+    "currentQuality": 40,
+    "newQuality": 46,
+    "qualityImprovement": 6,
+    "rooms": [
+      {
+        "name": "圓苑餐廳"
+      },
+      {
+        "name": "金龍餐廳"
+      },
+      {
+        "name": "松鶴餐廳"
+      },
+      {
+        "name": "花園咖啡廳"
+      },
+      {
+        "name": "圓山牛排館"
+      },
+      {
+        "id": "r1072000",
+        "name": "大會廳 12F",
+        "capacity": null,
+        "area": null,
+        "equipment": [
+          "投影機",
+          "音響設備",
+          "螢幕"
+        ],
+        "price": null,
+        "images": null
+      },
+      {
+        "id": "r1072003",
+        "name": "場地設施：挑高舞臺、單槍投影設備、電動螢幕、音響系統、燈光特效",
+        "capacity": null,
+        "area": null,
+        "equipment": [
+          "投影機",
+          "音響設備",
+          "螢幕"
+        ],
+        "price": null,
+        "images": null
+      }
+    ],
+    "roomsCount": 7,
+    "priceData": {
+      "hasPriceInfo": false,
+      "priceInHTML": false,
+      "hasPDF": false,
+      "pdfUrls": [],
+      "extractedPrices": {},
+      "pricePages": []
+    },
+    "newRoomsFound": 4
+  },
+  {
+    "success": true,
+    "id": 1075,
+    "currentQuality": 42,
+    "newQuality": 52,
+    "qualityImprovement": 10,
+    "rooms": [
+      {
+        "name": "宴會廳-福廳/祿廳",
+        "floor": "2樓",
+        "capacity": null,
+        "area": "",
+        "equipment": "麥克風"
+      },
+      {
+        "name": "宴會廳-壽廳/喜廳",
+        "floor": "2樓",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "多功能會議廳",
+        "floor": "1樓",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "萬豪旅享家・餐飲消費適用餐廳",
+        "floor": "1F",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "萬豪旅享家・餐飲消費適用餐廳",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "id": "r1075000",
+        "name": "客房介紹",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": [
+          "https://www.sheratongrandtaipei.com/files/pages_15973114171159v9j51_l.jpg"
+        ]
+      },
+      {
+        "id": "r1075001",
+        "name": "精選美饌",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": null
+      },
+      {
+        "id": "r1075002",
+        "name": "宴會會議",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": [
+          "https://www.sheratongrandtaipei.com/files/pages_1730459392142vj6g96_l.jpg"
+        ]
+      },
+      {
+        "id": "r1075003",
+        "name": "飯店設施",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": null
+      },
+      {
+        "id": "r1075004",
+        "name": "票券規範",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": [
+          "https://www.sheratongrandtaipei.com/files/pages_169634581013bdl5s91_l.jpg"
+        ]
+      },
+      {
+        "id": "r1075005",
+        "name": "寒舍生活App",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": null
+      },
+      {
+        "id": "r1075006",
+        "name": "飯店簡介",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": [
+          "https://www.sheratongrandtaipei.com/files/pages_15973113951159v8v01_l.jpg"
+        ]
+      },
+      {
+        "id": "r1075007",
+        "name": "聯絡我們",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": null
+      },
+      {
+        "id": "r1075008",
+        "name": "SUKHOTHAI・「暹羅宋干」潑水節饗宴",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": null
+      },
+      {
+        "id": "r1075010",
+        "name": "Where the World Comes Together",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": null
+      }
+    ],
+    "roomsCount": 15,
+    "priceData": {
+      "hasPriceInfo": false,
+      "priceInHTML": false,
+      "hasPDF": false,
+      "pdfUrls": [],
+      "extractedPrices": {},
+      "pricePages": []
+    },
+    "newRoomsFound": 12
+  },
+  {
+    "success": true,
+    "id": 1076,
+    "currentQuality": 42,
+    "newQuality": 39,
+    "qualityImprovement": -3,
+    "rooms": [
+      {
+        "name": "二樓多功能宴會廳",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": "麥克風"
+      },
+      {
+        "id": "r1076000",
+        "name": "餐廳內用餐",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": null
+      }
+    ],
+    "roomsCount": 2,
+    "priceData": {
+      "hasPriceInfo": false,
+      "priceInHTML": false,
+      "hasPDF": false,
+      "pdfUrls": [],
+      "extractedPrices": {},
+      "pricePages": []
+    },
+    "newRoomsFound": 1
+  },
+  {
+    "success": true,
+    "id": 1077,
+    "currentQuality": 32,
+    "newQuality": 32,
+    "qualityImprovement": 0,
+    "rooms": [
+      {
+        "name": "Grand Ballroom"
+      }
+    ],
+    "roomsCount": 1,
+    "priceData": {
+      "hasPriceInfo": false,
+      "priceInHTML": false,
+      "hasPDF": false,
+      "pdfUrls": [],
+      "extractedPrices": {},
+      "pricePages": []
+    },
+    "newRoomsFound": 0
+  },
+  {
+    "success": true,
+    "id": 1082,
+    "currentQuality": 92,
+    "newQuality": 68,
+    "qualityImprovement": -24,
+    "rooms": [
+      {
+        "name": "會議室",
+        "capacity": null,
+        "area": 15,
+        "price": {
+          "halfDay": 10000,
+          "fullDay": 18000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "視訊會議"
+        ],
+        "images": [],
+        "id": "1082-01",
+        "length": 7.7,
+        "width": 6.4,
+        "sqm": 50,
+        "dimensions": "7.7x6.4x3m",
+        "shape": "長方形（推算）"
+      },
+      {
+        "id": "r1082000",
+        "name": "台北怡亨酒店Line@＋Facebook擴大招募!!",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": [
+          "https://image-tc.galaxy.tf/wipng-b4vhxive6qp6w0ecn6qfhvzd9/20220208-01_standard.png?rotate=0&crop=0%2C0%2C560%2C420"
+        ]
+      },
+      {
+        "id": "r1082001",
+        "name": "豪華客房",
+        "capacity": null,
+        "area": 7.5,
+        "equipment": null,
+        "price": null,
+        "images": [
+          "https://image-tc.galaxy.tf/wijpeg-49sf1014yy958cxn2fb6alobj/deluxe1_standard.jpg?crop=118%2C0%2C1365%2C1024"
+        ]
+      },
+      {
+        "id": "r1082002",
+        "name": "頂級豪華客房",
+        "capacity": null,
+        "area": 8.0,
+        "equipment": null,
+        "price": null,
+        "images": [
+          "https://image-tc.galaxy.tf/wijpeg-if05do23cuz4u6gycg6qvubc/grand-deluxe1_standard.jpg?crop=118%2C0%2C1365%2C1024"
+        ]
+      },
+      {
+        "id": "r1082003",
+        "name": "尊榮客房",
+        "capacity": null,
+        "area": 9.5,
+        "equipment": null,
+        "price": null,
+        "images": [
+          "https://image-tc.galaxy.tf/wijpeg-6ro07xpyjte7obg1g2ov5qfr/premier1_standard.jpg?crop=118%2C0%2C1365%2C1024"
+        ]
+      }
+    ],
+    "roomsCount": 5,
+    "priceData": {
+      "hasPriceInfo": false,
+      "priceInHTML": false,
+      "hasPDF": false,
+      "pdfUrls": [],
+      "extractedPrices": {},
+      "pricePages": []
+    },
+    "newRoomsFound": 6
+  },
+  {
+    "success": true,
+    "id": 1083,
+    "currentQuality": 92,
+    "newQuality": 53,
+    "qualityImprovement": -39,
+    "rooms": [
+      {
+        "name": "會議室",
+        "capacity": null,
+        "area": 55,
+        "price": {
+          "halfDay": 25000,
+          "fullDay": 45000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "視訊會議",
+          "高速網路"
+        ],
+        "images": [],
+        "id": "1083-01",
+        "length": 15.4,
+        "width": 11.8,
+        "sqm": 182,
+        "dimensions": "15.4x11.8x3m",
+        "shape": "長方形（推算）"
+      },
+      {
+        "id": "r1083000",
+        "name": "The Americas",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": null
+      },
+      {
+        "id": "r1083001",
+        "name": "Europe",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": null
+      },
+      {
+        "id": "r1083002",
+        "name": "a new breed of hotels in the center of it all",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": [
+          "https://cache.marriott.com/is/image/marriotts7prod/cm-washingtondc-noma-wnm-206-31494"
+        ]
+      },
+      {
+        "id": "r1083003",
+        "name": "more than just a place to sleep",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": null
+      }
+    ],
+    "roomsCount": 5,
+    "priceData": {
+      "hasPriceInfo": false,
+      "priceInHTML": false,
+      "hasPDF": false,
+      "pdfUrls": [],
+      "extractedPrices": {},
+      "pricePages": [
+        "https://www.citizenm.com/online-hotel-booking.mi#bestrate"
+      ]
+    },
+    "newRoomsFound": 4
+  },
+  {
+    "success": true,
+    "id": 1085,
+    "currentQuality": 46,
+    "newQuality": 48,
+    "qualityImprovement": 2,
+    "rooms": [
+      {
+        "name": "Connecting Rooms Available"
+      },
+      {
+        "name": "Powder Room"
+      },
+      {
+        "name": "Accessible Rooms Available"
+      },
+      {
+        "name": "Connecting Room or Suite Available"
+      },
+      {
+        "name": "Study Room"
+      },
+      {
+        "name": "Soundproof Media Room"
+      },
+      {
+        "name": "Steam Room"
+      },
+      {
+        "name": "Dining Room for Eight"
+      },
+      {
+        "id": "r1085000",
+        "name": "Rooms",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+        ]
+      }
+    ],
+    "roomsCount": 9,
+    "priceData": {
+      "hasPriceInfo": false,
+      "priceInHTML": false,
+      "hasPDF": false,
+      "pdfUrls": [],
+      "extractedPrices": {},
+      "pricePages": [
+        "https://www.mandarinoriental.com/en/taipei/songshan/celebrate",
+        "https://www.mandarinoriental.com/en/abu-dhabi/emirates-palace",
+        "https://www.mandarinoriental.com/en/contact-information",
+        "https://www.mandarinoriental.com/en/offers/best-rate-promise"
+      ]
+    },
+    "newRoomsFound": 1
+  },
+  {
+    "success": true,
+    "id": 1086,
+    "currentQuality": 36,
+    "newQuality": 42,
+    "qualityImprovement": 6,
+    "rooms": [
+      {
+        "name": "迎接星級餐廳重新開幕，珠寶華服與滿額禮讚齊聚 麗晶精品「春季購物節」優雅登場"
+      },
+      {
+        "name": "佳餚美饌 查看全部 三燔本家 azie 栢麗廳 上庭酒廊 ROBIN'S 牛排屋 ROBIN'S 鐵板燒 晶華軒 蘭亭 館外餐飲 麗晶精品星級美饌"
+      },
+      {
+        "name": "栢麗廳"
+      },
+      {
+        "id": "r1086000",
+        "name": "晶華美食到你家",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": null
+      },
+      {
+        "id": "r1086002",
+        "name": "台北晶華酒店",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": null
+      },
+      {
+        "id": "r1086003",
+        "name": "入住晶華，加購高鐵車票另享優惠",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": null
+      }
+    ],
+    "roomsCount": 6,
+    "priceData": {
+      "hasPriceInfo": false,
+      "priceInHTML": false,
+      "hasPDF": false,
+      "pdfUrls": [],
+      "extractedPrices": {},
+      "pricePages": []
+    },
+    "newRoomsFound": 5
+  },
+  {
+    "success": true,
+    "id": 1090,
+    "currentQuality": 38,
+    "newQuality": 41,
+    "qualityImprovement": 3,
+    "rooms": [
+      {
+        "name": "客房與套房 Open Rooms And Suites"
+      },
+      {
+        "name": "Sunny Buffet 自助餐廳"
+      },
+      {
+        "name": "專業會議室，滿足企業活動需求"
+      },
+      {
+        "name": "瑜珈教室與舒適放鬆空間"
+      },
+      {
+        "id": "r1090000",
+        "name": "查看所有旅遊指南",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": [
+          "https://theillumehotel.wppro.work/wp-content/uploads/2025/04/260223_步行-5-分鐘到台北小巨蛋，-看完輕鬆回飯店。.webp",
+          "https://theillumehotel.wppro.work/wp-content/uploads/2026/03/260321_台北一泊二食專案微度假：獻給饕客的都會逸遊-1.webp",
+          "https://theillumehotel.wppro.work/wp-content/uploads/2026/03/260225_2026-Sunny-Buffet-南洋料理主題｜台北熱帶風味自助盛宴-1.webp"
+        ]
+      }
+    ],
+    "roomsCount": 5,
+    "priceData": {
+      "hasPriceInfo": false,
+      "priceInHTML": false,
+      "hasPDF": false,
+      "pdfUrls": [],
+      "extractedPrices": {},
+      "pricePages": []
+    },
+    "newRoomsFound": 1
+  },
+  {
+    "success": true,
+    "id": 1095,
+    "currentQuality": 38,
+    "newQuality": 38,
+    "qualityImprovement": 0,
+    "rooms": [
+      {
+        "name": "News News Room F&B Others"
+      },
+      {
+        "name": "Room"
+      },
+      {
+        "name": "Prestige Room"
+      },
+      {
+        "name": "Ballroom"
+      }
+    ],
+    "roomsCount": 4,
+    "priceData": {
+      "hasPriceInfo": false,
+      "priceInHTML": false,
+      "hasPDF": true,
+      "pdfUrls": [],
+      "extractedPrices": {},
+      "pricePages": []
+    },
+    "newRoomsFound": 0
+  },
+  {
+    "success": true,
+    "id": 1097,
+    "currentQuality": 32,
+    "newQuality": 34,
+    "qualityImprovement": 2,
+    "rooms": [
+      {
+        "name": "老爺會館"
+      },
+      {
+        "id": "r1097000",
+        "name": "已完成連結複製",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": null
+      }
+    ],
+    "roomsCount": 2,
+    "priceData": {
+      "hasPriceInfo": false,
+      "priceInHTML": false,
+      "hasPDF": false,
+      "pdfUrls": [],
+      "extractedPrices": {},
+      "pricePages": []
+    },
+    "newRoomsFound": 1
+  },
+  {
+    "success": true,
+    "id": 1099,
+    "currentQuality": 92,
+    "newQuality": 64,
+    "qualityImprovement": -28,
+    "rooms": [
+      {
+        "name": "艾美廳",
+        "capacity": null,
+        "area": 100,
+        "price": {
+          "halfDay": 100000,
+          "fullDay": 190000
+        },
+        "equipment": [
+          "頂級投影",
+          "專業音響",
+          "舞台",
+          "燈光"
+        ],
+        "images": [],
+        "id": "1099-01",
+        "length": 20.7,
+        "width": 15.9,
+        "sqm": 331,
+        "dimensions": "20.7x15.9x3m",
+        "shape": "長方形（推算）"
+      },
+      {
+        "id": "r1099000",
+        "name": "FEATURED HOTEL: LE MERIDIEN MELBOURNE",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": null
+      }
+    ],
+    "roomsCount": 2,
+    "priceData": {
+      "hasPriceInfo": false,
+      "priceInHTML": false,
+      "hasPDF": false,
+      "pdfUrls": [],
+      "extractedPrices": {},
+      "pricePages": [
+        "http://serve360.marriott.com/"
+      ]
+    },
+    "newRoomsFound": 1
+  },
+  {
+    "success": true,
+    "id": 1100,
+    "currentQuality": 34,
+    "newQuality": 34,
+    "qualityImprovement": 0,
+    "rooms": [
+      {
+        "name": "美饌饗宴 饗聚廚房 PRIME ONE 牛排館 翠庭中餐廳 花園thai thai 花比麵包坊"
+      },
+      {
+        "name": "翠庭中餐廳",
+        "id": "r1100000"
+      }
+    ],
+    "roomsCount": 2,
+    "priceData": {
+      "hasPriceInfo": false,
+      "priceInHTML": false,
+      "hasPDF": false,
+      "pdfUrls": [],
+      "extractedPrices": {},
+      "pricePages": []
+    },
+    "newRoomsFound": 2
+  },
+  {
+    "success": true,
+    "id": 1103,
+    "currentQuality": 50,
+    "newQuality": 52,
+    "qualityImprovement": 2,
+    "rooms": [
+      {
+        "name": "萬豪廳",
+        "floor": "5樓",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "萬豪一廳",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "寰宇廳",
+        "floor": "36樓",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "福祿壽廳",
+        "floor": "5樓",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "四季廳",
+        "floor": "3樓",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "宜華廳",
+        "floor": "5樓",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "博覽廳",
+        "floor": "3樓",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "祿廳－24人",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "120人－福祿壽廳",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "【台北萬豪】 4月餐廳營業時間異動通知",
+        "floor": "5樓",
+        "capacity": null,
+        "area": "",
+        "equipment": "螢幕",
+        "id": "r1103000",
+        "images": [
+          "https://www.taipeimarriott.com.tw/files/news_1774269919151o6me_s.jpg"
+        ]
+      },
+      {
+        "name": "【台北萬豪】 4月餐廳營業時間異動通知",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "id": "r1103001",
+        "name": "【台北萬豪】謝師宴專案",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": [
+          "https://www.taipeimarriott.com.tw/files/news_9685748228b7b151_s.jpg"
+        ]
+      },
+      {
+        "id": "r1103002",
+        "name": "【雙重豪禮 萬點加乘】住房專案",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": [
+          "https://www.taipeimarriott.com.tw/files/news_1278134821xo00151_s.jpg"
+        ]
+      },
+      {
+        "id": "r1103003",
+        "name": "【住宿加100元，早餐多一件】住房專案",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": [
+          "https://www.taipeimarriott.com.tw/files/news_177184367614xufsf_s.jpg"
+        ]
+      },
+      {
+        "id": "r1103004",
+        "name": "【Garden Kitchen】兒童節 ‧ 童樂時光",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": [
+          "https://www.taipeimarriott.com.tw/files/news_87510058190fdh151_s.jpg"
+        ]
+      },
+      {
+        "id": "r1103005",
+        "name": "【Lobby Lounge】Happy Hour 暢飲歡樂時光",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": [
+          "https://www.taipeimarriott.com.tw/files/news_76786828179f4vx41_s.jpg"
+        ]
+      },
+      {
+        "id": "r1103006",
+        "name": "【Garden Kitchen】主餐1+1 限定優惠",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": [
+          "https://www.taipeimarriott.com.tw/files/news_3713271816bfx1x41_s.jpg"
+        ]
+      },
+      {
+        "id": "r1103007",
+        "name": "【可可假期‧一泊二食】住房專案",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": [
+          "https://www.taipeimarriott.com.tw/files/news_2577911813qvkmw41_s.jpg"
+        ]
+      }
+    ],
+    "roomsCount": 18,
+    "priceData": {
+      "hasPriceInfo": false,
+      "priceInHTML": false,
+      "hasPDF": false,
+      "pdfUrls": [],
+      "extractedPrices": {},
+      "pricePages": []
+    },
+    "newRoomsFound": 8
+  },
+  {
+    "success": true,
+    "id": 1116,
+    "currentQuality": 34,
+    "newQuality": 49,
+    "qualityImprovement": 15,
+    "rooms": [
+      {
+        "name": "彭園婚宴會館 - 湘菜、婚宴場地、尾牙餐廳",
+        "floor": "2樓",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "彭園婚宴會館 - 湘菜、婚宴場地、尾牙餐廳",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "id": "r1116000",
+        "name": "彭園新店館全新廳房 多元夢幻色系營造專屬婚禮",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": [
+          "https://www.pengyuan.com.tw/images/serenity.jpg"
+        ]
+      },
+      {
+        "id": "r1116001",
+        "name": "2026謝師宴專案，北部首選口碑第一！推薦彭園餐廳",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": [
+          "https://www.pengyuan.com.tw/upload/pictures/news/4325_青春版724x322.jpg"
+        ]
+      },
+      {
+        "id": "r1116002",
+        "name": "春酒還在找場地?2026北北基桃聚餐宴會必推彭園",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": [
+          "https://www.pengyuan.com.tw/upload/pictures/news/0259_尾牙春酒 (724x 322 像素).jpg"
+        ]
+      },
+      {
+        "id": "r1116003",
+        "name": "2026結婚好日已出爐了!彭園婚宴場地日日是好日，時時是好時，預計明年結婚的新人們可以開始準備囉！",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": [
+          "https://www.pengyuan.com.tw/upload/pictures/news/2914_喜憨兒724_0.jpg"
+        ]
+      },
+      {
+        "id": "r1116004",
+        "name": "選好婚期快下手！2025婚宴優惠專案超值攻略，彭園婚宴新人們挑婚禮場地下定前必看優惠！",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": [
+          "https://www.pengyuan.com.tw/upload/pictures/news/0815_2025首看下定.jpg"
+        ]
+      },
+      {
+        "id": "r1116005",
+        "name": "浪漫見證選彭園 戶外婚禮場地推薦",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": [
+          "https://www.pengyuan.com.tw/upload/pictures/news/1157_浪漫見證 (1).png"
+        ]
+      }
+    ],
+    "roomsCount": 8,
+    "priceData": {
+      "hasPriceInfo": false,
+      "priceInHTML": false,
+      "hasPDF": false,
+      "pdfUrls": [],
+      "extractedPrices": {},
+      "pricePages": []
+    },
+    "newRoomsFound": 6
+  },
+  {
+    "success": true,
+    "id": 1121,
+    "currentQuality": 34,
+    "newQuality": 34,
+    "qualityImprovement": 0,
+    "rooms": [
+      {
+        "name": "關於我們 品牌故事 主廚介紹 餐廳位置"
+      },
+      {
+        "name": "餐廳位置"
+      }
+    ],
+    "roomsCount": 2,
+    "priceData": {
+      "hasPriceInfo": false,
+      "priceInHTML": false,
+      "hasPDF": false,
+      "pdfUrls": [],
+      "extractedPrices": {},
+      "pricePages": []
+    },
+    "newRoomsFound": 0
+  },
+  {
+    "success": true,
+    "id": 1122,
+    "currentQuality": 50,
+    "newQuality": 50,
+    "qualityImprovement": 0,
+    "rooms": [
+      {
+        "name": "雙囍中餐廳 營運調整公告"
+      },
+      {
+        "name": "LA FESTA餐廳",
+        "id": "r1122000"
+      },
+      {
+        "name": "雙囍中餐廳"
+      },
+      {
+        "name": "大宴會廳 1F"
+      },
+      {
+        "name": "維多麗亞廳 3F"
+      },
+      {
+        "name": "天璽廳 3F"
+      },
+      {
+        "name": "N°168 PRIME-台北“米其林指南”推薦餐廳"
+      },
+      {
+        "name": "雙囍-粵菜為底的多元中式料理餐廳"
+      },
+      {
+        "name": "挑高8米現代時尚英式劇院宴會廳"
+      },
+      {
+        "name": "4處戶外證婚場地，宴會廳可延伸至戶外花園"
+      },
+      {
+        "name": "婚宴宴會 大宴會廳 1F 天璽廳 3F 婚宴場地 維多麗亞廳 3F"
+      },
+      {
+        "name": "餐飲美饌 N°168 PRIME 牛排館(大直本館) LA FESTA餐廳 雙囍中餐廳"
+      },
+      {
+        "name": "媒體資訊 維多麗亞酒店加入『全球奢華精品酒店聯盟』-SLH 雙囍中餐廳營運調整公告"
+      },
+      {
+        "name": "雙囍中餐廳營運調整公告"
+      }
+    ],
+    "roomsCount": 14,
+    "priceData": {
+      "hasPriceInfo": false,
+      "priceInHTML": false,
+      "hasPDF": false,
+      "pdfUrls": [],
+      "extractedPrices": {},
+      "pricePages": [
+        "javascript:void(0)",
+        "javascript:void(0);"
+      ]
+    },
+    "newRoomsFound": 2
+  },
+  {
+    "success": true,
+    "id": 1124,
+    "currentQuality": 34,
+    "newQuality": 34,
+    "qualityImprovement": 0,
+    "rooms": [
+      {
+        "name": "美饌饗宴 饗聚廚房 PRIME ONE 牛排館 翠庭中餐廳 花園thai thai 花比麵包坊"
+      },
+      {
+        "name": "翠庭中餐廳",
+        "id": "r1124000"
+      }
+    ],
+    "roomsCount": 2,
+    "priceData": {
+      "hasPriceInfo": false,
+      "priceInHTML": false,
+      "hasPDF": false,
+      "pdfUrls": [],
+      "extractedPrices": {},
+      "pricePages": []
+    },
+    "newRoomsFound": 2
+  },
+  {
+    "success": true,
+    "id": 1126,
+    "currentQuality": 46,
+    "newQuality": 50,
+    "qualityImprovement": 4,
+    "rooms": [
+      {
+        "name": "會議室",
+        "floor": "12樓",
+        "capacity": {
+          "theater": 100
+        },
+        "area": "",
+        "equipment": "麥克風, 螢幕, 白板",
+        "id": "r1126000"
+      },
+      {
+        "name": "會議室",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "萊茵廳",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "星河廳",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "麗景廳",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "教室型",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "麗景廳",
+        "floor": "12樓",
+        "capacity": null,
+        "area": "",
+        "equipment": "麥克風, 螢幕, 白板"
+      }
+    ],
+    "roomsCount": 7,
+    "priceData": {
+      "hasPriceInfo": false,
+      "priceInHTML": false,
+      "hasPDF": false,
+      "pdfUrls": [],
+      "extractedPrices": {},
+      "pricePages": []
+    },
+    "newRoomsFound": 1
+  },
+  {
+    "success": true,
+    "id": 1129,
+    "currentQuality": 50,
+    "newQuality": 50,
+    "qualityImprovement": 0,
+    "rooms": [
+      {
+        "name": "凱薩廳神木庭院",
+        "id": "r1129000"
+      },
+      {
+        "name": "香榭廳"
+      },
+      {
+        "name": "法頌廳"
+      },
+      {
+        "name": "維也納廳",
+        "id": "r1129003"
+      },
+      {
+        "name": "巴洛克廳",
+        "id": "r1129005"
+      },
+      {
+        "name": "普羅旺斯廳",
+        "id": "r1129006"
+      },
+      {
+        "name": "凱特廳"
+      },
+      {
+        "name": "凱旋廳"
+      },
+      {
+        "name": "愛麗絲廳"
+      },
+      {
+        "name": "富城廳"
+      },
+      {
+        "name": "樹廈廳"
+      },
+      {
+        "id": "1129-12",
+        "name": "凱薩廳",
+        "source": "list"
+      }
+    ],
+    "roomsCount": 12,
+    "priceData": {
+      "hasPriceInfo": false,
+      "priceInHTML": false,
+      "hasPDF": false,
+      "pdfUrls": [],
+      "extractedPrices": {},
+      "pricePages": []
+    },
+    "newRoomsFound": 7
+  }
+]

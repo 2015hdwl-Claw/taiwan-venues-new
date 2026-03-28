@@ -1,0 +1,110 @@
+{
+  "venue": "師大進修推廣學院",
+  "venue_id": 1493,
+  "url": "https://www.sce.ntnu.edu.tw/home/space/",
+  "total_rooms": 12,
+  "rooms": [
+    {
+      "name": "演講堂",
+      "floor": "1樓",
+      "capacity_min": 148,
+      "capacity_max": 148,
+      "description": "",
+      "image_url": null
+    },
+    {
+      "name": "視聽教室",
+      "floor": "2樓",
+      "capacity_min": 88,
+      "capacity_max": 88,
+      "description": "",
+      "image_url": null
+    },
+    {
+      "name": "會議室",
+      "floor": "2樓",
+      "capacity_min": 40,
+      "capacity_max": 40,
+      "description": "",
+      "image_url": null
+    },
+    {
+      "name": "大教室",
+      "floor": null,
+      "capacity_min": 40,
+      "capacity_max": 40,
+      "description": "",
+      "image_url": null
+    },
+    {
+      "name": "小教室",
+      "floor": null,
+      "capacity_min": 24,
+      "capacity_max": 24,
+      "description": "",
+      "image_url": null
+    },
+    {
+      "name": "講座教室",
+      "floor": "3樓",
+      "capacity_min": 34,
+      "capacity_max": 34,
+      "description": "",
+      "image_url": null
+    },
+    {
+      "name": "電腦教室",
+      "floor": null,
+      "capacity_min": 35,
+      "capacity_max": 40,
+      "description": "",
+      "image_url": null
+    },
+    {
+      "name": "視訊會議室",
+      "floor": null,
+      "capacity_min": 17,
+      "capacity_max": 17,
+      "description": "",
+      "image_url": null
+    },
+    {
+      "name": "研討室",
+      "floor": null,
+      "capacity_min": 12,
+      "capacity_max": 12,
+      "description": "",
+      "image_url": null
+    },
+    {
+      "name": "階梯教室",
+      "floor": null,
+      "capacity_min": 111,
+      "capacity_max": 111,
+      "description": "",
+      "image_url": null
+    },
+    {
+      "name": "大教室",
+      "floor": null,
+      "capacity_min": 30,
+      "capacity_max": 30,
+      "description": "",
+      "image_url": null
+    },
+    {
+      "name": "大教室",
+      "floor": null,
+      "capacity_min": 40,
+      "capacity_max": 40,
+      "description": "",
+      "image_url": null
+    }
+  ],
+  "areas": [],
+  "prices": [],
+  "equipment": [
+    "網路"
+  ],
+  "timestamp": "2026-03-26T20:53:40.091660"
+}

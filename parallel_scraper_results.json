@@ -1,0 +1,834 @@
+[
+  {
+    "success": true,
+    "id": 1082,
+    "name": "台北怡亨酒店 Hotel Éclat Taipei",
+    "url": "https://www.eclathotels.com/zt/taipei",
+    "final_url": "https://www.eclathotels.com/zt/taipei",
+    "pages_discovered": 1,
+    "meeting_links": [],
+    "phones": [
+      "057812736"
+    ],
+    "emails": [
+      "taipei@eclathotels.com"
+    ],
+    "mrt_stations": []
+  },
+  {
+    "success": false,
+    "id": 1043,
+    "name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+    "error": "404 Client Error: Not Found for url: https://www.courtyardtaipei.com.tw/zh-TW/",
+    "pages_discovered": 0
+  },
+  {
+    "success": false,
+    "id": 1057,
+    "name": "台北典華",
+    "error": "403 Client Error: Forbidden for url: https://www.denwell.com/",
+    "pages_discovered": 0
+  },
+  {
+    "success": true,
+    "id": 1045,
+    "name": "北科大創新育成中心",
+    "url": "https://www.ntut.edu.tw",
+    "final_url": "https://www.ntut.edu.tw/",
+    "pages_discovered": 2,
+    "meeting_links": [
+      {
+        "text": "場地租借系統",
+        "url": "https://aps-staff.ntut.edu.tw/arearent/ActionServlet"
+      }
+    ],
+    "phones": [
+      "04-1007-2038",
+      "02507230818",
+      "04-1129-1339",
+      "04-1007-8521",
+      "04-1007-8520",
+      "04-1007-6296",
+      "04-1007-9292",
+      "04-1007-1512",
+      "04-1007-1991",
+      "04-1007-1474"
+    ],
+    "emails": [
+      "ttassist@ntut.edu.tw"
+    ],
+    "mrt_stations": [
+      "捷運忠孝新生站"
+    ]
+  },
+  {
+    "success": true,
+    "id": 1069,
+    "name": "台北國賓大飯店(AmbassadorTaipei)",
+    "url": "https://www.ambassador-hotels.com/tc/taipei",
+    "final_url": "https://www.ambassador-hotels.com/tc/taipei",
+    "pages_discovered": 3,
+    "meeting_links": [
+      {
+        "text": "婚宴會議",
+        "url": "https://www.ambassador-hotels.com/tc/offers#events"
+      },
+      {
+        "text": "婚宴會議",
+        "url": "https://www.ambassador-hotels.com/tc/offers#events"
+      }
+    ],
+    "phones": [],
+    "emails": [],
+    "mrt_stations": [
+      "捷運雙連站"
+    ]
+  },
+  {
+    "success": true,
+    "id": 1053,
+    "name": "台北兄弟大飯店(BrotherTaipei)",
+    "url": "https://www.brotherhotel.com.tw/?cat=75",
+    "final_url": "https://www.brotherhotel.com.tw/?cat=75",
+    "pages_discovered": 3,
+    "meeting_links": [
+      {
+        "text": "會議專案",
+        "url": "https://www.brotherhotel.com.tw/?cat=76"
+      },
+      {
+        "text": "會議專案",
+        "url": "https://www.brotherhotel.com.tw/?cat=76"
+      }
+    ],
+    "phones": [
+      "02-27173334",
+      "0227123456",
+      "02-27123456"
+    ],
+    "emails": [
+      "service@brotherhotel.com.tw"
+    ],
+    "mrt_stations": []
+  },
+  {
+    "success": true,
+    "id": 1109,
+    "name": "台大綜合體育館",
+    "url": "https://www.ntu.edu.tw",
+    "final_url": "https://www.ntu.edu.tw/",
+    "pages_discovered": 4,
+    "meeting_links": [
+      {
+        "text": "2026 èºå¤§æéµè±ç¯èºå¤§ä¹ç¾ æå½±å¾µä»¶ 2026 NTU Azalea Fesitival",
+        "url": "https://event.ntu.edu.tw/azalea/2026/"
+      },
+      {
+        "text": "èºå¤§è³½è»éå¯«ä¸åµéä»¥ä¾æ°éç¨ç¢Reaching the next mile: NTU Racing reaches new milestone with the first-ever completion of all events at 2025 FSAE Japan",
+        "url": "https://sec.ntu.edu.tw/epaper/article.asp?num=1668&sn=39626"
+      },
+      {
+        "text": "2026 èºå¤§æéµè±ç¯ NTU Azalea Festival~2026/3/31",
+        "url": "https://event.ntu.edu.tw/azalea/2026/"
+      }
+    ],
+    "phones": [
+      "0880416627",
+      "02-2362-7651",
+      "02-3366-3366",
+      "03031545424",
+      "02304251002",
+      "04091940242",
+      "065015090",
+      "01198712276"
+    ],
+    "emails": [],
+    "mrt_stations": []
+  },
+  {
+    "success": true,
+    "id": 1083,
+    "name": "台北北門世民酒店 citizenM Taipei North Gate",
+    "url": "https://www.citizenm.com/hotels/asia/taipei/taipei-north-gate",
+    "final_url": "https://www.marriott.com/brands/citizenm.mi",
+    "pages_discovered": 1,
+    "meeting_links": [],
+    "phones": [
+      "02973-2412",
+      "02666-4214",
+      "02683-2866",
+      "05181438100",
+      "04494-2921",
+      "03018-2466",
+      "030620268",
+      "02661-3226",
+      "02608-4178",
+      "04495-2091"
+    ],
+    "emails": [],
+    "mrt_stations": []
+  },
+  {
+    "success": true,
+    "id": 1097,
+    "name": "台北老爺大酒店(RoyalInnTaipei)",
+    "url": "https://www.hotelroyal.com.tw/zh-tw/taipei",
+    "final_url": "https://www.hotelroyal.com.tw/zh-tw",
+    "pages_discovered": 2,
+    "meeting_links": [
+      {
+        "text": "宴會會議",
+        "url": "https://www.hotelroyal.com.tw/zh-tw/promotions/meeting"
+      }
+    ],
+    "phones": [
+      "00680419300"
+    ],
+    "emails": [],
+    "mrt_stations": []
+  },
+  {
+    "success": true,
+    "id": 1121,
+    "name": "神旺大飯店",
+    "url": "https://www.sanwant.com",
+    "final_url": "https://www.sanwant.com/",
+    "pages_discovered": 1,
+    "meeting_links": [],
+    "phones": [],
+    "emails": [],
+    "mrt_stations": []
+  },
+  {
+    "success": true,
+    "id": 1099,
+    "name": "台北艾美酒店",
+    "url": "https://www.lemeridien.com/taipei",
+    "final_url": "https://le-meridien.marriott.com/",
+    "pages_discovered": 4,
+    "meeting_links": [
+      {
+        "text": "MEETINGS",
+        "url": "https://le-meridien.marriott.com/programmes/meetings-and-events/"
+      },
+      {
+        "text": "EXPLORE MORE",
+        "url": "https://le-meridien.marriott.com/programmes/meetings-and-events/"
+      },
+      {
+        "text": "Meetings",
+        "url": "https://www.marriott.com/meeting-event-hotels/meeting-planning.mi"
+      }
+    ],
+    "phones": [
+      "0668192971",
+      "042865550",
+      "028621600",
+      "06351993017",
+      "07012864213",
+      "01010-3362",
+      "0233777070",
+      "0222659600",
+      "038931888",
+      "02755070185"
+    ],
+    "emails": [],
+    "mrt_stations": []
+  },
+  {
+    "success": true,
+    "id": 1334,
+    "name": "台北中山運動中心",
+    "url": "https://cssc.cyc.org.tw/",
+    "final_url": "https://cssc.cyc.org.tw/",
+    "pages_discovered": 9,
+    "meeting_links": [
+      {
+        "text": "臺北市運動中心場地預約",
+        "url": "http://booking.tpsc.sporetrofit.com"
+      },
+      {
+        "text": "場地預訂",
+        "url": "https://scr.cyc.org.tw/tp01.aspx"
+      },
+      {
+        "text": "場所-南區青少年活動中心",
+        "url": "https://styac.cyc.org.tw/"
+      },
+      {
+        "text": "場所-北區青少年活動中心-桃漾館",
+        "url": "https://ntyac.cyc.org.tw/"
+      },
+      {
+        "text": "南區青少年活動中心",
+        "url": "https://styac.cyc.org.tw/"
+      },
+      {
+        "text": "北區青少年活動中心-桃漾館",
+        "url": "https://ntyac.cyc.org.tw/"
+      },
+      {
+        "text": "南區青少年活動中心",
+        "url": "https://styac.cyc.org.tw/"
+      },
+      {
+        "text": "北區青少年活動中心-桃漾館",
+        "url": "https://ntyac.cyc.org.tw/"
+      }
+    ],
+    "phones": [
+      "029625856",
+      "02-2560-4894",
+      "0864375335",
+      "051859356",
+      "02-2581-1060",
+      "01704261702"
+    ],
+    "emails": [
+      "cssc@cyc.tw"
+    ],
+    "mrt_stations": []
+  },
+  {
+    "success": true,
+    "id": 1494,
+    "name": "集思交通部國際會議中心(MOTC)",
+    "url": "https://www.meeting.com.tw/motc/",
+    "final_url": "https://www.meeting.com.tw/motc/",
+    "pages_discovered": 23,
+    "meeting_links": [
+      {
+        "text": "會議中心",
+        "url": "https://www.meeting.com.tw/motc/#"
+      },
+      {
+        "text": "集思交通部國際會議中心",
+        "url": "https://www.meeting.com.tw/motc/index.php"
+      },
+      {
+        "text": "集思台大會議中心",
+        "url": "https://www.meeting.com.tw/ntu/index.php"
+      },
+      {
+        "text": "集思北科大會議中心",
+        "url": "https://www.meeting.com.tw/ntut/index.php"
+      },
+      {
+        "text": "集思竹科會議中心",
+        "url": "https://www.meeting.com.tw/hsp/index.php"
+      },
+      {
+        "text": "集思台中文心會議中心",
+        "url": "https://www.meeting.com.tw/wenxin/index.php"
+      },
+      {
+        "text": "集思台中新烏日會議中心",
+        "url": "https://www.meeting.com.tw/xinwuri/index.php"
+      },
+      {
+        "text": "集思國際會議 高雄分公司",
+        "url": "https://www.meeting.com.tw/kaohsiung/index.php"
+      },
+      {
+        "text": "活動紀錄",
+        "url": "https://www.meeting.com.tw/motc/activity-list-2025.php"
+      },
+      {
+        "text": "國際會議廳",
+        "url": "https://www.meeting.com.tw/motc/plenary-hall.php"
+      },
+      {
+        "text": "202會議室",
+        "url": "https://www.meeting.com.tw/motc/room-202.php"
+      },
+      {
+        "text": "201會議室",
+        "url": "https://www.meeting.com.tw/motc/room-201.php"
+      },
+      {
+        "text": "集思交通部國際會議中心",
+        "url": "https://www.meeting.com.tw/motc/index.php"
+      },
+      {
+        "text": "",
+        "url": "https://zh-tw.facebook.com/meeting.gismotc/"
+      },
+      {
+        "text": "集思台大會議中心",
+        "url": "https://www.meeting.com.tw/ntu/index.php"
+      },
+      {
+        "text": "集思北科大會議中心",
+        "url": "https://www.meeting.com.tw/ntut/index.php"
+      },
+      {
+        "text": "集思竹科會議中心",
+        "url": "https://www.meeting.com.tw/hsp/index.php"
+      },
+      {
+        "text": "集思台中文心會議中心",
+        "url": "https://www.meeting.com.tw/wenxin/index.php"
+      },
+      {
+        "text": "集思台中新烏日會議中心",
+        "url": "https://www.meeting.com.tw/xinwuri/index.php"
+      },
+      {
+        "text": "集思國際會議 高雄分公司",
+        "url": "https://www.meeting.com.tw/kaohsiung/index.php"
+      },
+      {
+        "text": "集思國際會議顧問",
+        "url": "https://www.gisgroup.com/"
+      },
+      {
+        "text": "嘉和國際會議視聽",
+        "url": "https://www.gisavsolutions.com/"
+      }
+    ],
+    "phones": [
+      "0223214946"
+    ],
+    "emails": [
+      "giswxcc@gisgroup.com",
+      "gisxinwuri@gisgroup.com",
+      "hsp.office@gisgroup.com",
+      "meeting@gisgroup.com",
+      "motc@gisgroup.com",
+      "gistaipeitechcc@gisgroup.com"
+    ],
+    "mrt_stations": []
+  },
+  {
+    "success": true,
+    "id": 1495,
+    "name": "集思北科大會議中心(Tech)",
+    "url": "https://www.meeting.com.tw/",
+    "final_url": "https://www.meeting.com.tw/",
+    "pages_discovered": 2,
+    "meeting_links": [
+      {
+        "text": "",
+        "url": "https://www.icctainan.com/meeting"
+      }
+    ],
+    "phones": [],
+    "emails": [
+      "giswxcc@gisgroup.com",
+      "gisxinwuri@gisgroup.com",
+      "hsp.office@gisgroup.com",
+      "meeting@gisgroup.com",
+      "motc@gisgroup.com",
+      "gistaipeitechcc@gisgroup.com"
+    ],
+    "mrt_stations": []
+  },
+  {
+    "success": true,
+    "id": 1496,
+    "name": "集思竹科會議中心(HSPH)",
+    "url": "https://www.meeting.com.tw/",
+    "final_url": "https://www.meeting.com.tw/",
+    "pages_discovered": 2,
+    "meeting_links": [
+      {
+        "text": "",
+        "url": "https://www.icctainan.com/meeting"
+      }
+    ],
+    "phones": [],
+    "emails": [
+      "giswxcc@gisgroup.com",
+      "gisxinwuri@gisgroup.com",
+      "hsp.office@gisgroup.com",
+      "meeting@gisgroup.com",
+      "motc@gisgroup.com",
+      "gistaipeitechcc@gisgroup.com"
+    ],
+    "mrt_stations": []
+  },
+  {
+    "success": true,
+    "id": 1129,
+    "name": "青青婚宴會館",
+    "url": "https://www.77-67.com/",
+    "final_url": "https://77-67.com/",
+    "pages_discovered": 13,
+    "meeting_links": [
+      {
+        "text": "空間介紹",
+        "url": "https://www.77-67.com/#"
+      },
+      {
+        "text": "會議專案",
+        "url": "https://www.77-67.com/meeting-chinchin"
+      },
+      {
+        "text": "會議專案",
+        "url": "https://www.77-67.com/meeting-wind"
+      },
+      {
+        "text": "會議專案",
+        "url": "https://www.77-67.com/meeting-grace"
+      },
+      {
+        "text": "會議宴席",
+        "url": "https://www.77-67.com/%e5%b0%be%e7%89%99%e6%98%a5%e9%85%92%e5%a4%a7%e5%9e%8b%e5%a0%b4%e5%9c%b0%e9%a6%96%e9%81%b8%ef%bc%818%e5%80%8b%e6%8c%91%e9%81%b8%e9%97%9c%e9%8d%b5%ef%bc%8c%e7%b5%95%e5%b0%8d%e8%ae%93%e8%80%81%e9%97%86/"
+      },
+      {
+        "text": "會議餐點",
+        "url": "https://www.77-67.com/商務會議場地如何挑選5大重點帶你選出最佳場地"
+      },
+      {
+        "text": "",
+        "url": "https://room.qubby.io/?spaceId=56118391"
+      },
+      {
+        "text": "場地瀏覽",
+        "url": "https://www.77-67.com/tp-77"
+      },
+      {
+        "text": "場地瀏覽",
+        "url": "https://www.77-67.com/grace-wed/"
+      },
+      {
+        "text": "場地瀏覽",
+        "url": "https://www.77-67.com/77-windmill"
+      },
+      {
+        "text": "場地瀏覽",
+        "url": "https://www.77-67.com/77-starlight"
+      },
+      {
+        "text": "桃園婚宴場地推薦｜Buffet 婚禮-青青風車莊園",
+        "url": "https://77-67.com/%e5%a9%9a%e7%a6%ae2026-buffet%e5%a9%9a%e7%a6%ae-%e9%9d%92%e9%9d%92%e9%a2%a8%e8%bb%8a%e8%8e%8a%e5%9c%92/"
+      }
+    ],
+    "phones": [
+      "0250321-0099",
+      "07789-1200"
+    ],
+    "emails": [],
+    "mrt_stations": []
+  },
+  {
+    "success": true,
+    "id": 1126,
+    "name": "豪景大酒店",
+    "url": "https://www.riverview.com.tw/",
+    "final_url": "https://www.riverview.com.tw/",
+    "pages_discovered": 5,
+    "meeting_links": [
+      {
+        "text": "會議服務",
+        "url": "https://www.riverview.com.tw/%e6%9c%83%e8%ad%b0%e6%9c%8d%e5%8b%99/"
+      },
+      {
+        "text": "會議服務",
+        "url": "https://www.riverview.com.tw/%e6%9c%83%e8%ad%b0%e6%9c%8d%e5%8b%99/"
+      },
+      {
+        "text": "2025大稻埕夏日節頂樓煙火觀賞專案活動",
+        "url": "https://www.riverview.com.tw/2025%e5%a4%a7%e7%a8%bb%e5%9f%95%e5%a4%8f%e6%97%a5%e7%af%80%e9%a0%82%e6%a8%93%e7%85%99%e7%81%ab%e8%a7%80%e8%b3%9e%e5%b0%88%e6%a1%88%e6%b4%bb%e5%8b%95/"
+      },
+      {
+        "text": "會議服務",
+        "url": "https://www.riverview.com.tw/%e6%9c%83%e8%ad%b0%e6%9c%8d%e5%8b%99/"
+      }
+    ],
+    "phones": [
+      "027842660",
+      "032767502",
+      "02-2361-3737",
+      "0746033308",
+      "02-2311-3131"
+    ],
+    "emails": [
+      "sales@riverview.com.tw"
+    ],
+    "mrt_stations": []
+  },
+  {
+    "success": true,
+    "id": 1497,
+    "name": "集思台中文心會議中心(TC)",
+    "url": "https://www.meeting.com.tw/",
+    "final_url": "https://www.meeting.com.tw/",
+    "pages_discovered": 2,
+    "meeting_links": [
+      {
+        "text": "",
+        "url": "https://www.icctainan.com/meeting"
+      }
+    ],
+    "phones": [],
+    "emails": [
+      "giswxcc@gisgroup.com",
+      "gisxinwuri@gisgroup.com",
+      "hsp.office@gisgroup.com",
+      "meeting@gisgroup.com",
+      "motc@gisgroup.com",
+      "gistaipeitechcc@gisgroup.com"
+    ],
+    "mrt_stations": []
+  },
+  {
+    "success": true,
+    "id": 1103,
+    "name": "台北萬豪酒店(MarriottTaipei)",
+    "url": "https://www.taipeimarriott.com.tw/",
+    "final_url": "https://www.taipeimarriott.com.tw/",
+    "pages_discovered": 3,
+    "meeting_links": [
+      {
+        "text": "會議&宴會",
+        "url": "https://www.taipeimarriott.com.tw/websev?cat=page&subcat=17"
+      },
+      {
+        "text": "會議 & 宴會",
+        "url": "https://www.taipeimarriott.com.tw/websev?cat=page&id=39"
+      }
+    ],
+    "phones": [],
+    "emails": [],
+    "mrt_stations": [
+      "站使用Cookies分析技術以提供更優質的網站"
+    ]
+  },
+  {
+    "success": true,
+    "id": 1448,
+    "name": "台北國際會議中心(TICC)",
+    "url": "https://www.ticc.com.tw/",
+    "final_url": "https://www.ticc.com.tw/wSite/mp?mp=1",
+    "pages_discovered": 12,
+    "meeting_links": [
+      {
+        "text": "活動行事曆",
+        "url": "https://www.ticc.com.tw/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1"
+      },
+      {
+        "text": "精彩活動集錦",
+        "url": "https://www.ticc.com.tw/lp?ctNode=319&CtUnit=97&BaseDSD=7&mp=1"
+      },
+      {
+        "text": "場地導覽",
+        "url": "https://www.ticc.com.tw/np?ctNode=320&mp=1"
+      },
+      {
+        "text": "場地介紹",
+        "url": "https://www.ticc.com.tw/sp?xdUrl=/wSite/ap/lp_VenueIntroduction.jsp&ctNode=321&CtUnit=98&BaseDSD=7&mp=1"
+      },
+      {
+        "text": "場地查詢",
+        "url": "https://www.ticc.com.tw/sp?xdUrl=/wSite/ap/lp_VenueSearch.jsp&ctNode=322&CtUnit=99&BaseDSD=7&mp=1"
+      },
+      {
+        "text": "活動行事曆",
+        "url": "https://www.ticc.com.tw/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1"
+      },
+      {
+        "text": "場地查詢",
+        "url": "https://www.ticc.com.tw/sp?xdUrl=/wSite/ap/lp_VenueSearch.jsp&ctNode=322&CtUnit=99&BaseDSD=7&mp=1"
+      },
+      {
+        "text": "活動行事曆",
+        "url": "https://www.ticc.com.tw/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1"
+      },
+      {
+        "text": "「2026國際經貿新局對台灣的機會與挑戰」研討會  2026/03/25",
+        "url": "https://www.ticc.com.tw/sp?xdUrl=/wSite/ap/cp_Activity.jsp&ctNode=318&mp=1&bId=7758"
+      },
+      {
+        "text": "「115年國際媒體邀訪」評選會議  2026/03/26",
+        "url": "https://www.ticc.com.tw/sp?xdUrl=/wSite/ap/cp_Activity.jsp&ctNode=318&mp=1&bId=8040"
+      },
+      {
+        "text": "台灣婦產科醫學會115年度年會暨擴大學術研討會  2026/03/28",
+        "url": "https://www.ticc.com.tw/sp?xdUrl=/wSite/ap/cp_Activity.jsp&ctNode=318&mp=1&bId=7411"
+      }
+    ],
+    "phones": [
+      "03360058478",
+      "01175018219",
+      "00000000000",
+      "07563799119",
+      "03344464446",
+      "01854681765"
+    ],
+    "emails": [
+      "ticc@taitra.org.tw"
+    ],
+    "mrt_stations": []
+  },
+  {
+    "success": true,
+    "id": 1498,
+    "name": "集思台中新烏日會議中心(WURI)",
+    "url": "https://www.meeting.com.tw/",
+    "final_url": "https://www.meeting.com.tw/",
+    "pages_discovered": 2,
+    "meeting_links": [
+      {
+        "text": "",
+        "url": "https://www.icctainan.com/meeting"
+      }
+    ],
+    "phones": [],
+    "emails": [
+      "giswxcc@gisgroup.com",
+      "gisxinwuri@gisgroup.com",
+      "hsp.office@gisgroup.com",
+      "meeting@gisgroup.com",
+      "motc@gisgroup.com",
+      "gistaipeitechcc@gisgroup.com"
+    ],
+    "mrt_stations": []
+  },
+  {
+    "success": true,
+    "id": 1499,
+    "name": "集思國際會議高雄分公司(KHH)",
+    "url": "https://www.meeting.com.tw/",
+    "final_url": "https://www.meeting.com.tw/",
+    "pages_discovered": 2,
+    "meeting_links": [
+      {
+        "text": "",
+        "url": "https://www.icctainan.com/meeting"
+      }
+    ],
+    "phones": [],
+    "emails": [
+      "giswxcc@gisgroup.com",
+      "gisxinwuri@gisgroup.com",
+      "hsp.office@gisgroup.com",
+      "meeting@gisgroup.com",
+      "motc@gisgroup.com",
+      "gistaipeitechcc@gisgroup.com"
+    ],
+    "mrt_stations": []
+  },
+  {
+    "success": true,
+    "id": 1085,
+    "name": "台北文華東方酒店(MOHTaipei)",
+    "url": "https://www.mandarinoriental.com/taipei",
+    "final_url": "https://www.mandarinoriental.com/en/taipei/songshan",
+    "pages_discovered": 4,
+    "meeting_links": [
+      {
+        "text": "Events",
+        "url": "https://www.mandarinoriental.com/en/taipei/songshan/events"
+      },
+      {
+        "text": "Events",
+        "url": "https://www.mandarinoriental.com/en/taipei/songshan/events"
+      },
+      {
+        "text": "See More",
+        "url": "https://www.mandarinoriental.com/en/taipei/songshan/events"
+      }
+    ],
+    "phones": [
+      "072191508",
+      "0548628922",
+      "050-3347181",
+      "02123498888",
+      "055200000",
+      "02672373600",
+      "07358412769",
+      "02523112888",
+      "07313030374",
+      "08585499870"
+    ],
+    "emails": [
+      "motpe-sales@mohg.com",
+      "molut-reservations@mohg.com",
+      "mogva-reservations@mohg.com",
+      "modes-reservations@mohg.com",
+      "mojkt-reservations@mohg.com",
+      "mokul-reservations@mohg.com",
+      "mocan-reservations@mohg.com",
+      "moprg-reservations@mohg.com",
+      "lmhkg-reservations@mohg.com",
+      "moryd-reservations@mohg.com"
+    ],
+    "mrt_stations": []
+  },
+  {
+    "success": true,
+    "id": 1068,
+    "name": "台北喜瑞飯店",
+    "url": "https://www.ambiencehotel.com.tw/",
+    "final_url": "https://www.ambiencehotel.com.tw/tw/",
+    "pages_discovered": 2,
+    "meeting_links": [
+      {
+        "text": "喜瑞飯店 X 點點善 + 設計師吳孝儒(PILI)空間大改造",
+        "url": "https://ww.ambiencehotel.com.tw/tw/pili/"
+      }
+    ],
+    "phones": [
+      "09310303823",
+      "012756844",
+      "046669569",
+      "058698111",
+      "0923235033",
+      "092946529",
+      "0923211401"
+    ],
+    "emails": [
+      "ambience@taipeiinn.com.tw"
+    ],
+    "mrt_stations": []
+  },
+  {
+    "success": true,
+    "id": 1125,
+    "name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "url": "https://www.huashan1914.com",
+    "final_url": "https://www.huashan1914.com/w/huashan1914/index",
+    "pages_discovered": 7,
+    "meeting_links": [
+      {
+        "text": "找活動",
+        "url": "https://www.huashan1914.com/exhibition"
+      },
+      {
+        "text": "場地介紹",
+        "url": "https://www.huashan1914.com/AppPlaceList"
+      },
+      {
+        "text": "找活動",
+        "url": "https://www.huashan1914.com/exhibition"
+      },
+      {
+        "text": "場地介紹",
+        "url": "https://www.huashan1914.com/AppPlaceList"
+      },
+      {
+        "text": "【園區公告】2026春節園區商家營業時間一覽表\n2026.02.11\n\r\n\r\n\r\n\r\n2026 春節連假 來華山走馬看花 好事開花！\r\n\r\n祝各位 馬上有錢 馬上好運\r\n\r\n\r\n\r\n歡迎大家告訴大家📣\r\n\r\n除夕 全園區休館！\r\n\r\n特展活動、部分店家 初...\n\n園區公告",
+        "url": "https://www.huashan1914.com/w/huashan1914/news_26021116112978241"
+      },
+      {
+        "text": "傳 音樂展演空間",
+        "url": "https://www.huashan1914.com/w/huashan1914/CustomShops_17072615244330041"
+      }
+    ],
+    "phones": [
+      "08161611397",
+      "08201545162",
+      "02261742057",
+      "08041503191",
+      "02021126383",
+      "01094038065",
+      "08282121177",
+      "08201549017",
+      "08161636401",
+      "03211148019"
+    ],
+    "emails": [],
+    "mrt_stations": []
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "venue": "集思台中新烏日會議中心(WURI)",
+  "venue_id": 1498,
+  "url": "https://www.meeting.com.tw/wuri/",
+  "stage1": {
+    "http_status": 404,
+    "content_type": "text/html",
+    "page_type": "HTML",
+    "js_frameworks": [
+      "jQuery"
+    ],
+    "loading_method": "動態渲染 (可能需要 JS)",
+    "json_ld_count": 0,
+    "has_embedded_json": false,
+    "has_meeting_keywords": false,
+    "anti_scraping": "未檢測到",
+    "cookies_count": 0,
+    "has_session_token": false,
+    "links": {
+      "total": 8,
+      "meeting": 1,
+      "pricing": 0,
+      "contact": 0
+    }
+  },
+  "timestamp": "2026-03-26T21:39:31.371181"
+}

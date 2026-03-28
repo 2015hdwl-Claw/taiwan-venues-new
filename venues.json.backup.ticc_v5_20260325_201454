@@ -1,0 +1,6218 @@
+[
+  {
+    "id": 1034,
+    "name": "NUZONE展演空間",
+    "venueType": "展演場地",
+    "city": "台北市",
+    "address": "台北市大安區市民大道三段198號",
+    "contactPerson": "場地租借",
+    "contactPhone": "076-4753-8303",
+    "contactEmail": "service@nuzone.com.tw",
+    "url": "https://www.nuzone.com.tw/",
+    "priceHalfDay": 15000,
+    "priceFullDay": 25000,
+    "maxCapacityTheater": 500,
+    "maxCapacityClassroom": 100,
+    "availableTimeWeekday": "09:00-22:00",
+    "availableTimeWeekend": "09:00-22:00",
+    "equipment": "專業音響、投影設備、燈光",
+    "images": {
+      "main": "https://static.wixstatic.com/media/bd4101_b060d5db47da4905a037701ac0251b0e~mv2.png/v1/fill/w_1280,h_99,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/bd4101_b060d5db47da4905a037701ac0251b0e~mv2.png",
+      "gallery": [
+        "https://static.wixstatic.com/media/bd4101_b060d5db47da4905a037701ac0251b0e~mv2.png/v1/fill/w_1280,h_99,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/bd4101_b060d5db47da4905a037701ac0251b0e~mv2.png",
+        "https://static.wixstatic.com/media/b8e171_567eaa1bf25a4baf9e3deda73fcda17e~mv2.jpg/v1/fill/w_230,h_342,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/DSC_0059.jpg",
+        "https://static.wixstatic.com/media/4a5f41_7376f72f26af44af91feec132c9f4bcb~mv2.png/v1/fill/w_824,h_426,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E5%9C%96%E7%89%87%201.png",
+        "https://static.wixstatic.com/media/4a5f41_54687a49caa44d8eab51b0843cf01207~mv2.jpg/v1/crop/x_0,y_0,w_1550,h_601/fill/w_866,h_338,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E6%88%AA%E5%9C%96%202025-09-02%20%E4%B8%8B%E5%8D%884_edited.jpg",
+        "https://static.wixstatic.com/media/bd4101_7aebd358e20f447b859e8c1d64e3103d~mv2.png/v1/fill/w_278,h_52,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/111.png"
+      ],
+      "source": "https://www.nuzone.com.tw",
+      "verified": true,
+      "verifiedAt": "2026-03-01T23:28:53.840Z"
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "id": "r001",
+        "name": "2F展演空間",
+        "area": 200,
+        "areaUnit": "坪",
+        "capacity": 500,
+        "capacityType": "劇院式",
+        "images": {
+          "main": "https://static.wixstatic.com/media/4a5f41_7376f72f26af44af91feec132c9f4bcb~mv2.png/v1/fill/w_824,h_426,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E5%9C%96%E7%89%87%201.png",
+          "source": "https://www.nuzone.com.tw"
+        },
+        "floor": "2樓"
+      },
+      {
+        "id": "r002",
+        "name": "7F展演空間",
+        "area": 150,
+        "areaUnit": "坪",
+        "capacity": 300,
+        "capacityType": "劇院式",
+        "images": {
+          "main": "https://static.wixstatic.com/media/4a5f41_54687a49caa44d8eab51b0843cf01207~mv2.jpg/v1/crop/x_0,y_0,w_1550,h_601/fill/w_866,h_338,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E6%88%AA%E5%9C%96%202025-09-02%20%E4%B8%8B%E5%8D%884_edited.jpg",
+          "source": "https://www.nuzone.com.tw"
+        },
+        "floor": "7樓"
+      },
+      {
+        "id": "r003",
+        "name": "1F活動空間",
+        "area": 100,
+        "areaUnit": "坪",
+        "capacity": 200,
+        "capacityType": "劇院式",
+        "images": {
+          "main": "https://static.wixstatic.com/media/b8e171_567eaa1bf25a4baf9e3deda73fcda17e~mv2.jpg/v1/fill/w_230,h_342,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/DSC_0059.jpg",
+          "source": "https://www.nuzone.com.tw"
+        },
+        "floor": "1樓"
+      }
+    ],
+    "lastUpdated": "2026-03-17",
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "pageType": "Static/SSR",
+      "pageTypeDetectedAt": "2026-03-25T16:33:02.215695",
+      "homepage_links": {
+        "meeting": 0,
+        "pricing": 0,
+        "rules": 0,
+        "access": 0,
+        "floor_plan": 0
+      },
+      "lastScrapedAt": "2026-03-25T16:33:02.275314",
+      "scrapePages": 1
+    },
+    "phone": "076-4753-8303",
+    "email": "service@nuzone.com.tw",
+    "scraped_at": "2026-03-25T16:33:01.850913",
+    "scrape_version": "v2_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.414615",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1042,
+    "name": "公務人力發展學院",
+    "venueType": "會議中心",
+    "city": "台北市",
+    "address": "臺北市大安區新生南路3段30號",
+    "contactPerson": "場地租借",
+    "contactPhone": "02-7712-2323",
+    "contactEmail": "venue@ncsi.gov.tw",
+    "url": "https://www.hrd.gov.tw",
+    "priceHalfDay": 8000,
+    "priceFullDay": 14000,
+    "maxCapacityTheater": 220,
+    "maxCapacityClassroom": 90,
+    "availableTimeWeekday": "08:00-21:00",
+    "availableTimeWeekend": "休館",
+    "equipment": "投影設備、音響",
+    "images": {
+      "main": "https://www.hrd.gov.tw/media/4298/service_01.png",
+      "gallery": [
+        "https://www.hrd.gov.tw/media/4298/service_01.png",
+        "https://www.hrd.gov.tw/media/8704/service_02.png",
+        "https://www.hrd.gov.tw/media/4300/service_03.png",
+        "https://www.hrd.gov.tw/media/4302/service_05.png",
+        "https://www.hrd.gov.tw/media/4301/service_04.png"
+      ],
+      "source": "https://www.hrd.gov.tw",
+      "verified": true,
+      "verifiedAt": "2026-03-01T23:29:06.666Z",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "name": "1F 前瞻廳",
+        "floor": "1F",
+        "capacity": "220",
+        "area": "",
+        "equipment": "投影機, 麥克風, 音響, 螢幕, 白板"
+      },
+      {
+        "name": "1F 前瞻廳",
+        "floor": "1F",
+        "capacity": "220",
+        "area": "",
+        "equipment": "投影機, 麥克風, 音響, 螢幕, 白板"
+      },
+      {
+        "name": "1F 前瞻廳",
+        "floor": "1F",
+        "capacity": "220",
+        "area": "",
+        "equipment": "投影機, 麥克風, 音響, 螢幕, 白板"
+      },
+      {
+        "name": "1F 前瞻廳",
+        "floor": "1F",
+        "capacity": "220",
+        "area": "",
+        "equipment": "投影機, 麥克風, 音響, 螢幕, 白板"
+      },
+      {
+        "name": "1F 前瞻廳",
+        "floor": "1F",
+        "capacity": "220",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "1F 前瞻廳",
+        "floor": "1F",
+        "capacity": "220",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "1F 前瞻廳",
+        "floor": "1F",
+        "capacity": "220",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "1F 前瞻廳",
+        "floor": "1F",
+        "capacity": "220",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "1F 101階梯教室",
+        "floor": "1F",
+        "capacity": "41",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "1F 101階梯教室",
+        "floor": "1F",
+        "capacity": "41",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "1F 103階梯教室",
+        "floor": "1F",
+        "capacity": "78",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "1F 103階梯教室",
+        "floor": "1F",
+        "capacity": "78",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2F 201教室",
+        "floor": "2F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2F 201教室",
+        "floor": "2F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2F 202教室",
+        "floor": "2F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2F 202教室",
+        "floor": "2F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2F 203教室",
+        "floor": "2F",
+        "capacity": "48",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2F 203教室",
+        "floor": "2F",
+        "capacity": "48",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2F 204教室",
+        "floor": "2F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2F 204教室",
+        "floor": "2F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2F 205教室",
+        "floor": "2F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2F 205教室",
+        "floor": "2F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "3F 304教室",
+        "floor": "3F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "3F 304教室",
+        "floor": "3F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "3F 305教室",
+        "floor": "3F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "3F 305教室",
+        "floor": "3F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "4F 401教室",
+        "floor": "4F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "4F 401教室",
+        "floor": "4F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "4F 402教室",
+        "floor": "4F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "4F 402教室",
+        "floor": "4F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "4F 403數位科技教室",
+        "floor": "4F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "4F 403數位科技教室",
+        "floor": "4F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "4F 404數位互動教室",
+        "floor": "4F",
+        "capacity": "60",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "4F 404數位互動教室",
+        "floor": "4F",
+        "capacity": "60",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "5F 501教室",
+        "floor": "5F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "5F 501教室",
+        "floor": "5F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "5F 502教室",
+        "floor": "5F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "5F 502教室",
+        "floor": "5F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "6F 601教室",
+        "floor": "6F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "6F 601教室",
+        "floor": "6F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "6F 602教室",
+        "floor": "6F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "6F 602教室",
+        "floor": "6F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "14F 貴賓廳-教室型",
+        "floor": "14F",
+        "capacity": "100",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "14F 貴賓廳-教室型",
+        "floor": "14F",
+        "capacity": "100",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "14F 貴賓廳-分組型",
+        "floor": "14F",
+        "capacity": "81",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "14F 貴賓廳-分組型",
+        "floor": "14F",
+        "capacity": "81",
+        "area": "",
+        "equipment": ""
+      }
+    ],
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "validated_url": "https://www.hrd.gov.tw",
+      "pageType": "WordPress API",
+      "pageTypeDetectedAt": "2026-03-25T17:51:49.373271",
+      "homepage_links": {
+        "meeting": 5,
+        "pricing": 2,
+        "rules": 3,
+        "access": 5,
+        "floor_plan": 3
+      },
+      "lastScrapedAt": "2026-03-25T17:51:53.184355",
+      "scrapePages": 1
+    },
+    "phone": "02-7712-2323",
+    "accessInfo": {
+      "mrt": {
+        "station": "台電大樓站"
+      },
+      "bus": [
+        "1657",
+        "1399",
+        "6916",
+        "049",
+        "061",
+        "6333",
+        "2502",
+        "2222",
+        "9120",
+        "200",
+        "2415",
+        "114",
+        "228",
+        "540",
+        "131",
+        "960",
+        "224",
+        "0800",
+        "100",
+        "1280",
+        "1066",
+        "2339",
+        "030",
+        "8369",
+        "113",
+        "1831",
+        "1486",
+        "5616",
+        "2026",
+        "2332",
+        "1523"
+      ],
+      "parking": {}
+    },
+    "scraped_at": "2026-03-25T17:51:48.925922",
+    "scrape_version": "v3_complete",
+    "pricing": {
+      "prices": [
+        "24000",
+        "810",
+        "66200",
+        "63300",
+        "1000",
+        "12000",
+        "99300",
+        "21100",
+        "132400",
+        "2000"
+      ]
+    },
+    "rules": {
+      "catering": "<a href=\"/1122/2141/3158/NPmeetingVenue\" target=\"_self\" title=\"餐飲服務\">餐飲服務</a>"
+    },
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.416105",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1043,
+    "name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市南港區忠孝東路七段359號",
+    "contactPerson": "宴會部",
+    "contactPhone": "02-6615-6565",
+    "contactEmail": "service@courtyardtaipei.com",
+    "url": "https://www.courtyardtaipei.com.tw/zh-TW/",
+    "priceHalfDay": 35000,
+    "priceFullDay": 60000,
+    "maxCapacityTheater": 250,
+    "maxCapacityClassroom": 150,
+    "availableTimeWeekday": "08:00-22:00",
+    "availableTimeWeekend": "08:00-22:00",
+    "equipment": "投影設備、燈光、白板、舞台、音響系統、麥克風",
+    "images": {
+      "main": "https://www.courtyardtaipei.com.tw/upload/Vd_497/Image/0index/162x90_PC_01.jpg",
+      "gallery": [
+        "https://www.courtyardtaipei.com.tw/upload/Vd_497/Image/0index/162x90_PC_01.jpg",
+        "https://www.courtyardtaipei.com.tw/upload/Vd_497/Image/0index/lx_H497-151225-153732.jpg",
+        "https://www.courtyardtaipei.com.tw/themes/Leofoo_courtyard/images/l_1/CYT_logo_new.png"
+      ],
+      "source": "https://www.courtyardtaipei.com.tw/zh-TW/",
+      "verified": true,
+      "verifiedAt": "2026-03-23T00:41:02.754949Z",
+      "lastUpdated": "2026-03-23",
+      "needsUpdate": false
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "name": "卓越客房Superior Room",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "豪華客房Deluxe Room",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      }
+    ],
+    "lastUpdated": "2026-03-23",
+    "floorPlan": "https://www.courtyardtaipei.com.tw/asset/types/main/file/2026_Courtyard_Taipei_banquet.pdf",
+    "totalRooms": 10,
+    "totalArea": 930,
+    "totalAreaUnit": "平方公尺",
+    "maxCapacity": 540,
+    "minCapacity": 30,
+    "metadata": {
+      "pageType": "Static/SSR",
+      "pageTypeDetectedAt": "2026-03-25T16:33:10.081465",
+      "homepage_links": {
+        "meeting": 5,
+        "pricing": 0,
+        "rules": 0,
+        "access": 1,
+        "floor_plan": 3
+      },
+      "lastScrapedAt": "2026-03-25T16:33:10.615481",
+      "scrapePages": 1
+    },
+    "contactPhoneExt": "8915, 8911",
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "email": "service@courtyardtaipei.com",
+    "accessInfo": {
+      "mrt": "<meta name=\"description\" content=\"台北六福萬怡酒店位於南港車站上方，與捷運、高鐵、台鐵及客運轉運站共構，鄰近台北流行音樂中心、CITYLINK、南港Lalaport，",
+      "bus": "公車",
+      "parking": "一、京合發特約平面停車場行駛至市民大道八段，直行經過「瓶蓋印象公園」後，依指示牌右轉即可進入"
+    },
+    "scraped_at": "2026-03-25T16:33:09.790157",
+    "scrape_version": "v2_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.416518",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1045,
+    "name": "北科大創新育成中心",
+    "venueType": "會議中心",
+    "city": "台北市",
+    "address": "台北市大安區忠孝東路三段1號",
+    "contactPerson": "場地租借",
+    "contactPhone": "02-2771-2171",
+    "contactEmail": "venue@ntut.edu.tw",
+    "url": "https://www.ntut.edu.tw",
+    "priceHalfDay": 4000,
+    "priceFullDay": 7000,
+    "maxCapacityTheater": 80,
+    "maxCapacityClassroom": 50,
+    "availableTimeWeekday": "08:00-21:00",
+    "availableTimeWeekend": "休館",
+    "equipment": "投影設備、音響",
+    "images": {
+      "main": "https://www.ntut.edu.tw/var/file/7/1007/randimg/mobileadv_3973_5062299_87901.jpg",
+      "gallery": [
+        "https://www.ntut.edu.tw/var/file/7/1007/randimg/mobileadv_3973_5062299_87901.jpg",
+        "https://www.ntut.edu.tw/var/file/7/1007/randimg/mobileadv_3917_9027893_74268.jpg",
+        "https://www.ntut.edu.tw/var/file/7/1007/randimg/mobileadv_3760_579287_42481.jpg",
+        "https://www.ntut.edu.tw/var/file/7/1007/randimg/mobileadv_4311_1540266_41233.jpg",
+        "https://www.ntut.edu.tw/var/file/7/1007/randimg/mobileadv_2928_6357912_07814.jpg"
+      ],
+      "source": "https://www.ntut.edu.tw",
+      "verified": true,
+      "verifiedAt": "2026-03-02T03:33:04.295Z",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "name": "國際會議廳",
+        "capacity": 80,
+        "area": "約50坪",
+        "layout": "劇院型/教室型",
+        "price": "每小時 3,000 元起",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ntut.edu.tw/images/incubator.jpg",
+        "id": "1045-01"
+      },
+      {
+        "name": "會議室A",
+        "capacity": 30,
+        "area": "約15坪",
+        "layout": "會議型",
+        "price": "每小時 1,500 元起",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ntut.edu.tw/images/meeting.jpg",
+        "id": "1045-02"
+      },
+      {
+        "name": "會議室B",
+        "capacity": 20,
+        "area": "約10坪",
+        "layout": "會議型",
+        "price": "每小時 1,000 元起",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ntut.edu.tw/images/meeting.jpg",
+        "id": "1045-03"
+      }
+    ],
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "validated_url": "https://www.ntut.edu.tw",
+      "pageType": "Static/SSR",
+      "pageTypeDetectedAt": "2026-03-25T17:51:55.668874",
+      "homepage_links": {
+        "meeting": 1,
+        "pricing": 0,
+        "rules": 2,
+        "access": 1,
+        "floor_plan": 1
+      },
+      "lastScrapedAt": "2026-03-25T17:51:57.422121",
+      "scrapePages": 1
+    },
+    "accessInfo": {
+      "mrt": "<meta name=\"description\" content=\"到達北科大的交通方式：地址：10608台北市忠孝東路三段一號，(1) 搭乘捷運： 【板南線】忠孝新生站，4號出口台北科技大學",
+      "bus": "(2)各線公車：台北科技大學站--212、212直達車、232、262、299及605"
+    },
+    "scraped_at": "2026-03-25T17:51:55.184886",
+    "scrape_version": "v3_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.416882",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1048,
+    "name": "台北一樂園大飯店",
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市萬華區西園路一段56號",
+    "contactPerson": "宴會部",
+    "contactPhone": "02-23081111",
+    "contactEmail": "banquet@ile-hotel.com",
+    "url": "https://www.ile-hotel.com",
+    "priceHalfDay": 18000,
+    "priceFullDay": 32000,
+    "maxCapacityTheater": 120,
+    "maxCapacityClassroom": 70,
+    "availableTimeWeekday": "08:00-22:00",
+    "availableTimeWeekend": "08:00-22:00",
+    "equipment": "投影設備、音響系統、麥克風",
+    "images": {
+      "main": "https://www.ile-hotel.com/images/logo.png",
+      "gallery": [
+        "https://www.ile-hotel.com/images/logo.png"
+      ],
+      "source": "https://www.ile-hotel.com",
+      "verified": true,
+      "verifiedAt": "2026-03-23T00:41:02.755026Z",
+      "note": "官網暫時無法訪問，使用基本logo",
+      "lastUpdated": "2026-03-23",
+      "needsUpdate": true
+    },
+    "verified": true,
+    "rooms": [],
+    "lastUpdated": "2026-03-23",
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "batchVerified": "2026-03-24T22:05:39.113420",
+      "dataSource": "Official website + Scrapling",
+      "meetingRoomsStatus": "discontinued",
+      "meetingRoomsRemovedAt": "2026-03-25T00:19:09.285352",
+      "originalRoomCount": 0,
+      "discontinueReason": "DNS 解析失敗 - www.ile-hotel.com 域名無法解析，網站可能已下線",
+      "websiteStatus": "dns_failed",
+      "discontinuedAt": "2026-03-25T00:19:09.285356",
+      "discontinuedBy": "universal_scraper"
+    },
+    "status": "discontinued",
+    "enabled": false
+  },
+  {
+    "id": 1049,
+    "name": "台北世貿中心(TWTCA)展覽大樓",
+    "venueType": "展演場地",
+    "city": "台北市",
+    "address": "台北市基隆路一段333號",
+    "contactPerson": "展覽部",
+    "contactPhone": "02-2725-5200",
+    "contactEmail": "twtc@taitra.org.tw",
+    "url": "https://www.twtc.com.tw/",
+    "priceHalfDay": 100000,
+    "priceFullDay": 180000,
+    "maxCapacityTheater": 230,
+    "maxCapacityClassroom": null,
+    "availableTimeWeekday": "09:00-18:00",
+    "availableTimeWeekend": "09:00-18:00",
+    "equipment": "專業展覽設備",
+    "images": {
+      "main": "https://www.twtc.com.tw/images/banner/b20211105154308.jpg",
+      "gallery": [
+        "https://www.twtc.com.tw/images/banner/b20211105154308.jpg",
+        "https://www.twtc.com.tw/images/banner/b20211105154344.jpg",
+        "https://www.twtc.com.tw/images/banner/b20231030091848.jpg",
+        "https://www.twtc.com.tw/images/banner/b20211105154035.jpg",
+        "https://www.twtc.com.tw/images/banner/b20211105154103.jpg"
+      ],
+      "source": "https://www.twtc.com.tw/",
+      "verified": true,
+      "verifiedAt": "2026-03-02T03:33:04.295Z",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "name": "世貿一館會議室介紹及場地佈置",
+        "floor": "1樓",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "世貿一館會議室介紹及場地佈置",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "會議室介紹",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "第一會議室",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "A+會議室",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "第二會議室",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "第三會議室",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "第四會議室",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "第五會議室",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "第三、四、五會議室(打通)",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "第一、五會議室間廊廳",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      }
+    ],
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "pageType": "Static/SSR",
+      "pageTypeDetectedAt": "2026-03-25T16:33:17.439483",
+      "homepage_links": {
+        "meeting": 5,
+        "pricing": 0,
+        "rules": 2,
+        "access": 3,
+        "floor_plan": 0
+      },
+      "lastScrapedAt": "2026-03-25T16:33:17.827772",
+      "scrapePages": 1
+    },
+    "email": "twtc@taitra.org.tw",
+    "scraped_at": "2026-03-25T16:33:17.273243",
+    "scrape_version": "v2_complete",
+    "rules": {
+      "catering": "餐飲服務",
+      "decoration": "下載專區(主辦單位/裝潢商)"
+    },
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.417849",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1051,
+    "name": "台北亞都麗緻大飯店(LandisTaipei)",
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市中山區民權東路二段41號",
+    "contactPerson": "宴會部",
+    "contactPhone": "02-25971234",
+    "contactEmail": "events@landistpe.com",
+    "url": "https://taipei.landishotelsresorts.com/",
+    "priceHalfDay": 45000,
+    "priceFullDay": 80000,
+    "maxCapacityTheater": 200,
+    "maxCapacityClassroom": 130,
+    "availableTimeWeekday": "08:00-22:00",
+    "availableTimeWeekend": "08:00-22:00",
+    "equipment": "專業音響、投影設備、燈光、舞台、音響系統",
+    "images": {
+      "main": "https://taipei.landishotelsresorts.com/manage/upload/roomtype/1758907414_16016.jpg",
+      "gallery": [
+        "https://static.wixstatic.com/media/a9b95d_e21e4eed088c424685467dfbcfd17cef~mv2.png/v1/fill/w_1920,h_1440,al_c,q_95,usm_0.66_1.00_0.01,enc_avif,quality_auto/a9b95d_e21e4eed088c424685467dfbcfd17cef~mv2.png",
+        "https://static.wixstatic.com/media/a9b95d_c76fb7adb5664214a7fd1c41ed4b0c54~mv2.png/v1/fill/w_980,h_255,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Website%20Headers-2.png",
+        "https://static.wixstatic.com/media/a9b95d_5d6dbe1ea59c499c977733f70a4cfda9f000.jpg/v1/fill/w_147,h_83,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/a9b95d_5d6dbe1ea59c499c977733f70a4cfda9f000.jpg",
+        "https://static.wixstatic.com/media/a9b95d_7543b851956d44e4849409607392264c~mv2.png/v1/crop/x_0,y_187,w_1080,h_505/fill/w_306,h_143,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/LOGOS.png",
+        "https://static.wixstatic.com/media/https://static.parastorage.com/services/santa-resources/dist/editor/imageUploadToStage/loader_600x600.gif"
+      ],
+      "source": "https://taipei.landishotelsresorts.com/meeting-list.php",
+      "verified": true,
+      "verifiedAt": "2026-03-02T16:20:21.242Z"
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "name": "Other Room Type",
+        "floor": "2F",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "Other Room Type",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      }
+    ],
+    "lastUpdated": "2026-03-17",
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "pageType": "WordPress API",
+      "pageTypeDetectedAt": "2026-03-25T16:33:20.055043",
+      "homepage_links": {
+        "meeting": 3,
+        "pricing": 0,
+        "rules": 0,
+        "access": 1,
+        "floor_plan": 0
+      },
+      "lastScrapedAt": "2026-03-25T16:33:20.405032",
+      "scrapePages": 1
+    },
+    "scraped_at": "2026-03-25T16:33:19.828163",
+    "scrape_version": "v2_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.417978",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1053,
+    "name": "台北兄弟大飯店(BrotherTaipei)",
+    "venueType": "婚宴場地",
+    "city": "台北市",
+    "address": "台北市南京東路三段255號",
+    "contactPerson": "宴會部",
+    "contactPhone": "02-27123456",
+    "contactEmail": "service@brotherhotel.com.tw",
+    "url": "https://www.brotherhotel.com.tw/?cat=75",
+    "priceHalfDay": 30000,
+    "priceFullDay": 55000,
+    "maxCapacityTheater": 280,
+    "maxCapacityClassroom": 160,
+    "availableTimeWeekday": "08:00-22:00",
+    "availableTimeWeekend": "08:00-22:00",
+    "equipment": "專業音響、投影設備",
+    "images": {
+      "main": "https://www.brotherhotel.com.tw/wp-content/uploads/2022/09/飯店外觀.jpg",
+      "gallery": [
+        "https://www.brotherhotel.com.tw/wp-content/uploads/2022/09/飯店外觀.jpg",
+        "https://www.brotherhotel.com.tw/wp-content/uploads/2022/09/櫃台_fix-1.jpg",
+        "https://www.brotherhotel.com.tw/wp-content/uploads/2022/11/13F宴會廳婚宴-960x720.jpg",
+        "https://www.brotherhotel.com.tw/wp-content/uploads/2022/11/婚宴場地-960x720.jpg",
+        "https://www.brotherhotel.com.tw/wp-content/uploads/2022/11/DSC_9665-960x720.jpg",
+        "https://www.brotherhotel.com.tw/wp-content/uploads/2022/09/food-gaf10f4051_1920-960x720.jpg",
+        "https://www.brotherhotel.com.tw/wp-content/uploads/2021/03/梅花廳-6-960x720.jpg",
+        "https://www.brotherhotel.com.tw/wp-content/uploads/2022/09/蘭花4-960x720.jpg",
+        "https://www.brotherhotel.com.tw/wp-content/uploads/2022/09/footer_logo.png"
+      ],
+      "source": "https://www.brotherhotel.com.tw/",
+      "verified": true,
+      "verifiedAt": "2026-03-23T00:55:29.104604Z",
+      "note": "從官網爬取：兄弟大飯店，我們接待客人有如照顧兄弟，健康、榮譽、協和、誠實、謙虛經營理念",
+      "lastUpdated": "2026-03-23",
+      "needsUpdate": false
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "name": "訂餐洽詢專線：(02)2712-3456 轉 花香廳(鐵板燒)",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "訂餐洽詢專線：(02)2712-3456 轉 桂花廳",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "訂餐洽詢專線：(02)2712-3456 轉 薔薇廳(自助餐)",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "和風便當無法於廳內享用，僅提供外帶。",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "菊花廳(日本料理)",
+        "floor": "3\n\n\nF",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "菊花廳(日本料理)",
+        "floor": "1F",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "菊花廳(日本料理)",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "蝶花廳及酒廊(義式料理.台菜宵夜)",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "梅花廳(粵菜飲茶)",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "蘭花廳(台菜海鮮)",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "薔薇廳(中西合璧自助餐)",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "花香廳(鐵板燒)",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "桂花廳(川菜小吃)",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      }
+    ],
+    "lastUpdated": "2026-03-23",
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "pageType": "Static/SSR",
+      "pageTypeDetectedAt": "2026-03-25T16:33:23.258803",
+      "homepage_links": {
+        "meeting": 2,
+        "pricing": 0,
+        "rules": 0,
+        "access": 1,
+        "floor_plan": 0
+      },
+      "lastScrapedAt": "2026-03-25T16:33:25.190930",
+      "scrapePages": 1
+    },
+    "email": "service@brotherhotel.com.tw",
+    "accessInfo": {
+      "mrt": "搭乘捷運",
+      "bus": "搭乘公車：",
+      "parking": "</div></div></div><div class=\"vc_col-sm-2 wpb_column vc_column_container\"><div class=\"vc_column-inne"
+    },
+    "scraped_at": "2026-03-25T16:33:22.405826",
+    "scrape_version": "v2_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.419116",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1055,
+    "name": "台北六福客棧(Leofoo)",
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市中山區長春路168號",
+    "contactPerson": "宴會部",
+    "contactPhone": "02-25076666",
+    "contactEmail": "banquet@leofoo-hotel.com",
+    "url": "https://www.leofoo.com.tw",
+    "priceHalfDay": 22000,
+    "priceFullDay": 40000,
+    "maxCapacityTheater": 160,
+    "maxCapacityClassroom": 90,
+    "availableTimeWeekday": "08:00-22:00",
+    "availableTimeWeekend": "08:00-22:00",
+    "equipment": "投影設備、音響系統、麥克風",
+    "images": {
+      "main": "https://www.leofoo.com.tw/asset/types/main/img/index/kv_img_01.jpg",
+      "gallery": [
+        "https://www.leofoo.com.tw/asset/types/main/img/index/kv_img_01.jpg",
+        "https://www.leofoo.com.tw/asset/types/main/img/index/kv_img_02.jpg",
+        "https://www.leofoo.com.tw/asset/types/main/img/index/kv_img_03.jpg",
+        "https://www.leofoo.com.tw/asset/types/main/img/index/kv_img_04.jpg",
+        "https://www.leofoo.com.tw/asset/types/main/img/index/kv_img_05.jpg"
+      ],
+      "source": "https://www.leofoo.com.tw",
+      "verified": true,
+      "verifiedAt": "2026-03-01T23:29:34.018Z"
+    },
+    "verified": true,
+    "rooms": [],
+    "lastUpdated": "2026-03-17",
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "imagesFound": 41,
+      "lastScrapedAt": "2026-03-24T22:56:33.133210",
+      "scrapeStatus": "success",
+      "meetingRoomsStatus": "discontinued",
+      "meetingRoomsRemovedAt": "2026-03-24T23:32:56.526699",
+      "originalRoomCount": 1,
+      "discontinueReason": "用戶確認：已經沒有飯店，下架",
+      "websiteStatus": "hotel_closed",
+      "discontinuedAt": "2026-03-24T23:32:56.526711",
+      "discontinuedBy": "user_confirmation"
+    },
+    "status": "discontinued",
+    "enabled": false
+  },
+  {
+    "id": 1057,
+    "name": "台北典華",
+    "nameEn": "Denwell Taipei",
+    "venueType": "婚宴場地",
+    "city": "台北市",
+    "address": "台北市中山區中山北路三段33號",
+    "contactPerson": "婚宴顧問",
+    "contactPhone": "02-8502-5555",
+    "contactEmail": "service@denwell.com",
+    "url": "https://www.denwell.com/",
+    "priceHalfDay": 100000,
+    "priceFullDay": 180000,
+    "maxCapacityTheater": 1760,
+    "maxCapacityClassroom": 1350,
+    "availableTimeWeekday": "11:00-22:00",
+    "availableTimeWeekend": "11:00-22:00",
+    "equipment": "專業音響燈光、LED螢幕、投影設備",
+    "images": {
+      "main": "https://img.denwell.com/denwell/wp-content/uploads/2024111307194564-scaled.jpg",
+      "gallery": [
+        "https://img.denwell.com/denwell/wp-content/uploads/202411130711577.jpg",
+        "https://img.denwell.com/denwell/wp-content/uploads/2024111306562866.jpg",
+        "https://img.denwell.com/denwell/wp-content/uploads/202411130749229-scaled.jpg",
+        "https://img.denwell.com/denwell/wp-content/uploads/2024/07/2024111504011310-scaled.jpg",
+        "https://img.denwell.com/denwell/wp-content/uploads/2020/12/2021092006512044.jpg",
+        "https://img.denwell.com/denwell/wp-content/uploads/2024100808341399-scaled.jpg",
+        "https://img.denwell.com/denwell/wp-content/uploads/2024/07/2024122605375269.jpg",
+        "https://img.denwell.com/denwell/wp-content/uploads/2020/12/21.09.03大直典華空間-116.jpg"
+      ],
+      "floorPlan": "",
+      "needsUpdate": false,
+      "note": "更新自官網空間介紹頁面 - 14個會議空間",
+      "lastUpdated": "2026-03-23",
+      "source": "https://www.denwell.com/service-dazhi-venue-introduction/",
+      "verified": true,
+      "verifiedAt": "2026-03-23T10:30:00.000000Z"
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "name": "婚禮籌備，戶外婚禮、美式婚禮、喜宴餐廳、婚宴餐廳、婚宴場地。工商活動，宴會空間、會議、活動、婚禮場地、場地租借、展演空間、大型發表、私人宴會。"
+      }
+    ],
+    "lastUpdated": "2026-03-23",
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "pageType": "Static/SSR",
+      "pageTypeDetectedAt": "2026-03-25T16:33:27.542240",
+      "homepage_links": {
+        "meeting": 0,
+        "pricing": 0,
+        "rules": 0,
+        "access": 0,
+        "floor_plan": 0
+      },
+      "lastScrapedAt": "2026-03-25T16:33:27.640522",
+      "scrapePages": 1
+    },
+    "phone": "02-8502-5555",
+    "accessInfo": {
+      "mrt": {
+        "station": "劍南路站"
+      },
+      "bus": [
+        "4249",
+        "5012",
+        "300",
+        "516",
+        "084",
+        "105",
+        "3499",
+        "1105",
+        "215",
+        "256",
+        "2581",
+        "829",
+        "514",
+        "180",
+        "5716",
+        "2901",
+        "410",
+        "169",
+        "1024",
+        "222",
+        "5357",
+        "7919",
+        "7528",
+        "236",
+        "5668",
+        "444",
+        "667",
+        "0721",
+        "5943",
+        "350",
+        "833",
+        "902",
+        "255",
+        "248",
+        "5027",
+        "745",
+        "1290",
+        "5308",
+        "122",
+        "597",
+        "963",
+        "184",
+        "0901",
+        "668",
+        "5459",
+        "683",
+        "6900",
+        "6339",
+        "901",
+        "1600",
+        "224",
+        "1865",
+        "4709",
+        "8866",
+        "1440",
+        "1413",
+        "850",
+        "8522",
+        "2021",
+        "195",
+        "8909",
+        "254",
+        "6642",
+        "6587",
+        "333",
+        "900",
+        "6695",
+        "000",
+        "510",
+        "212",
+        "130",
+        "2512",
+        "672",
+        "9316",
+        "5929",
+        "110",
+        "9676",
+        "5927",
+        "5370",
+        "155",
+        "1400",
+        "884",
+        "5000",
+        "276",
+        "1331",
+        "116",
+        "1025",
+        "0114",
+        "0639",
+        "604",
+        "202",
+        "252",
+        "585",
+        "100",
+        "681",
+        "552",
+        "1004",
+        "526",
+        "957",
+        "1366",
+        "5229",
+        "6216",
+        "5854",
+        "6700",
+        "994",
+        "3795",
+        "0004",
+        "723",
+        "5411",
+        "190",
+        "3566",
+        "134",
+        "4693",
+        "125",
+        "8609",
+        "0716",
+        "4588",
+        "2729",
+        "812",
+        "6060",
+        "505",
+        "5206",
+        "767",
+        "969",
+        "7248",
+        "610",
+        "3333",
+        "6586",
+        "6377",
+        "270",
+        "890",
+        "152",
+        "186",
+        "5140",
+        "632",
+        "7777",
+        "1100",
+        "129",
+        "6848",
+        "006",
+        "556",
+        "101",
+        "722",
+        "0693",
+        "9375",
+        "183",
+        "2247",
+        "3000",
+        "138",
+        "286",
+        "788",
+        "126",
+        "247",
+        "646",
+        "8404",
+        "0014",
+        "661",
+        "982",
+        "571",
+        "400",
+        "5050",
+        "2025",
+        "1140",
+        "162",
+        "7684",
+        "5730",
+        "480",
+        "2026",
+        "2081",
+        "524",
+        "620",
+        "200",
+        "160",
+        "858",
+        "1200",
+        "5168",
+        "5107",
+        "287",
+        "862",
+        "8282",
+        "175",
+        "985",
+        "6986",
+        "975",
+        "2925",
+        "150",
+        "0000",
+        "5976",
+        "5329",
+        "9813",
+        "7450",
+        "729",
+        "497",
+        "8584",
+        "8894",
+        "3002",
+        "5555",
+        "500",
+        "2020",
+        "206",
+        "7259",
+        "4970",
+        "135",
+        "8377",
+        "107",
+        "1330",
+        "370",
+        "203",
+        "1310",
+        "671",
+        "687",
+        "268",
+        "0852",
+        "9555",
+        "158",
+        "955",
+        "964",
+        "288",
+        "106",
+        "181",
+        "234",
+        "768",
+        "7709",
+        "272",
+        "240",
+        "828",
+        "5967",
+        "6969",
+        "112",
+        "4545",
+        "5753",
+        "1220",
+        "700",
+        "246",
+        "199",
+        "1023",
+        "1127",
+        "847",
+        "0824",
+        "8613",
+        "172",
+        "220",
+        "136",
+        "6708",
+        "6048",
+        "8555",
+        "208",
+        "5556",
+        "9418",
+        "8033",
+        "653",
+        "880",
+        "151",
+        "5178",
+        "8502",
+        "5176",
+        "167",
+        "5230",
+        "800",
+        "260",
+        "2400",
+        "207",
+        "8461",
+        "245",
+        "5070",
+        "9589",
+        "600",
+        "120",
+        "8996",
+        "2670",
+        "1500",
+        "627",
+        "0720",
+        "147",
+        "3237",
+        "1030",
+        "9999",
+        "205",
+        "182",
+        "611",
+        "5296",
+        "640",
+        "5075",
+        "0412",
+        "165",
+        "1000",
+        "999",
+        "7247",
+        "192",
+        "897",
+        "251",
+        "8983",
+        "2424",
+        "6600",
+        "2929",
+        "5654",
+        "6640",
+        "128",
+        "636",
+        "209",
+        "113",
+        "238",
+        "9593",
+        "5049",
+        "3785",
+        "555",
+        "854",
+        "0555",
+        "405",
+        "7121",
+        "3636",
+        "267",
+        "2515",
+        "9031",
+        "185",
+        "5822",
+        "227",
+        "1801",
+        "675",
+        "0783",
+        "677",
+        "4896",
+        "1573",
+        "8994",
+        "0950",
+        "5166"
+      ],
+      "parking": {}
+    },
+    "scraped_at": "2026-03-25T16:33:27.191660",
+    "scrape_version": "v2_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.419212",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1059,
+    "name": "台北友春大飯店",
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市中山區中山北路二段96號",
+    "contactPerson": "宴會部",
+    "contactPhone": "02-25423234",
+    "contactEmail": "banquet@youchun-hotel.com",
+    "url": "https://www.youchun-hotel.com",
+    "priceHalfDay": 15000,
+    "priceFullDay": 28000,
+    "maxCapacityTheater": 100,
+    "maxCapacityClassroom": 60,
+    "availableTimeWeekday": "08:00-22:00",
+    "availableTimeWeekend": "08:00-22:00",
+    "equipment": "投影設備、音響系統",
+    "images": {
+      "main": "https://www.youchun-hotel.com/images/logo.jpg",
+      "gallery": [
+        "https://www.youchun-hotel.com/images/logo.jpg"
+      ],
+      "source": "https://www.youchun-hotel.com",
+      "verified": true,
+      "verifiedAt": "2026-03-23T00:41:02.755037Z",
+      "note": "官網暫時無法訪問，使用基本logo",
+      "lastUpdated": "2026-03-23",
+      "needsUpdate": true
+    },
+    "verified": true,
+    "rooms": [],
+    "lastUpdated": "2026-03-23",
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "batchVerified": "2026-03-24T22:05:41.821522",
+      "dataSource": "Official website + Scrapling",
+      "meetingRoomsStatus": "discontinued",
+      "meetingRoomsRemovedAt": "2026-03-25T00:19:09.285370",
+      "originalRoomCount": 0,
+      "discontinueReason": "DNS 解析失敗 - www.youchun-hotel.com 域名無法解析",
+      "websiteStatus": "dns_failed",
+      "discontinuedAt": "2026-03-25T00:19:09.285373",
+      "discontinuedBy": "universal_scraper"
+    },
+    "status": "discontinued",
+    "enabled": false
+  },
+  {
+    "id": 1068,
+    "name": "台北喜瑞飯店",
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市中山區長安東路一段64號",
+    "contactPerson": "宴會部",
+    "contactPhone": "0937394883",
+    "contactEmail": "ambience@taipeiinn.com.tw",
+    "url": "https://www.ambiencehotel.com.tw/",
+    "priceHalfDay": 40000,
+    "priceFullDay": 70000,
+    "maxCapacityTheater": 250,
+    "maxCapacityClassroom": 150,
+    "availableTimeWeekday": "08:00-22:00",
+    "availableTimeWeekend": "08:00-22:00",
+    "equipment": "投影設備、白板、舞台、音響系統、麥克風",
+    "images": {
+      "main": "https://ww.ambiencehotel.com.tw/wp-content/uploads/2023/01/02.jpg",
+      "gallery": [
+        "https://www.ambiencehotel.com.tw/wp-content/uploads/2026/03/2026.3.03EBD-2.jpg",
+        "https://www.ambiencehotel.com.tw/wp-content/uploads/2025/12/ONETIME.jpg",
+        "https://ww.ambiencehotel.com.tw/wp-content/uploads/2023/01/03.jpg",
+        "https://ww.ambiencehotel.com.tw/wp-content/uploads/2023/01/05.jpg",
+        "https://ww.ambiencehotel.com.tw/wp-content/uploads/2023/08/20230822-slider-room03.jpg"
+      ],
+      "floorPlan": "",
+      "needsUpdate": false,
+      "note": "從官網爬取真實照片",
+      "lastUpdated": "2026-03-07",
+      "source": "https://www.ambiencehotel.com.tw/",
+      "verified": true,
+      "verifiedAt": "2026-03-07T21:12:58.373268",
+      "updateReason": "批量更新：修正主照片錯誤"
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "name": "Our Rooms",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      }
+    ],
+    "lastUpdated": "2026-03-17",
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "pageType": "WordPress API",
+      "pageTypeDetectedAt": "2026-03-25T16:33:33.459747",
+      "homepage_links": {
+        "meeting": 1,
+        "pricing": 0,
+        "rules": 0,
+        "access": 1,
+        "floor_plan": 0
+      },
+      "lastScrapedAt": "2026-03-25T16:33:45.356083",
+      "scrapePages": 1
+    },
+    "phone": "0923211401",
+    "email": "0077ambience@taipeiinn.com.tw",
+    "accessInfo": {
+      "mrt": "</div></div><div class=\"gem-button-container gem-button-position-fullwidth thegem-button-69c39dd402b",
+      "parking": "</div></div><div class=\"vc_tta-panel\" id=\"1711010796199-653a0367-d637\" data-vc-content=\".vc_tta-pane"
+    },
+    "scraped_at": "2026-03-25T16:33:29.640929",
+    "scrape_version": "v2_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.419423",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1069,
+    "name": "台北國賓大飯店(AmbassadorTaipei)",
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市中山區遼寧街177號",
+    "contactPerson": "宴會部",
+    "contactPhone": "02-25511111",
+    "contactEmail": "banquet@ambassadorhotel.com.tw",
+    "url": "https://www.ambassador-hotels.com/tc/taipei",
+    "priceHalfDay": 100000,
+    "priceFullDay": 180000,
+    "maxCapacityTheater": 300,
+    "maxCapacityClassroom": 180,
+    "availableTimeWeekday": "08:00-22:00",
+    "availableTimeWeekend": "08:00-22:00",
+    "equipment": "專業音響、投影設備、燈光、舞台、視訊會議、音響系統、頂級投影、麥克風",
+    "images": {
+      "main": "https://www.ambassador-hotels.com/images/images/taipei/hotel/Ambassador-Hotel-Taipei-Exterior-Evening.jpg",
+      "gallery": [
+        "https://www.ambassador-hotels.com/images/images/hsinchu/dining/promenade/Ambassador-Hotel-Hsinchu-Promenade-Restaurant.jpg",
+        "https://www.ambassador-hotels.com/images/images/kaohsiung/hotel/Ambassador-Hotel-Kaohsiung-On-Banks-of-Love-River.jpg",
+        "https://www.ambassador-hotels.com/images/files/taipei/dining/%E5%9C%8B%E8%B3%93%E4%B8%AD%E9%A4%90%E5%BB%B3(%E9%81%BC%E5%AF%A7)/2025-2026%E5%B0%BE%E7%89%99%E6%98%A5%E9%85%92/2026%E5%B0%BE%E7%89%99%E6%98%A5%E9%85%92%E5%AE%98%E7%B6%B2%E5%9C%96_%E4%B8%AD%E9%A4%90_0.jpg",
+        "https://www.ambassador-hotels.com/images/files/taipei/dining/a-cut/%E5%B0%BE%E7%89%99/2026%E5%B0%BE%E7%89%99%E6%98%A5%E9%85%92%E5%AE%98%E7%B6%B2%E5%9C%96%EF%BC%BFA-Cut_0.jpg",
+        "https://www.ambassador-hotels.com/images/files/taipei/2022-11-%E9%81%BC%E5%AF%A7-%E6%96%B0%E5%9D%80%E4%BB%8B%E7%B4%B9-%E5%AE%98%E7%B6%B2%E5%9C%96-1600X1065-01.jpg",
+        "https://www.ambassador-hotels.com/images/files/taipei/dining/a-cut/2025-12-%E5%86%AC%E5%AD%A3%E8%8F%9C%E5%96%AE/A%20CUT%E5%86%AC%E5%AD%A3%E5%AE%98%E7%B6%B2%E5%A4%A7%E5%9C%96.jpg",
+        "https://www.ambassador-hotels.com/images/files/taipei/dining/%E5%9C%8B%E8%B3%93%E4%B8%AD%E9%A4%90%E5%BB%B3(%E9%81%BC%E5%AF%A7)/2026-%E5%96%9C%E5%AE%B4/250701AMB_34845.jpg",
+        "https://www.ambassador-hotels.com/images/files/taipei/dining/%E5%9C%8B%E8%B3%93%E4%B8%AD%E9%A4%90%E5%BB%B3(%E9%81%BC%E5%AF%A7)/2025-2026%E5%B0%BE%E7%89%99%E6%98%A5%E9%85%92/%E5%B0%BE%E7%89%99%E6%A8%A1%E6%93%AC-1.jpg",
+        "https://www.ambassador-hotels.com/images/files/taipei/2022-11-%E9%81%BC%E5%AF%A7-%E4%BE%BF%E7%95%B6DM-%E5%AE%98%E7%B6%B2%E5%9C%961920X1280-A.jpg"
+      ],
+      "floorPlan": "",
+      "needsUpdate": false,
+      "note": "從官網爬取真實照片",
+      "lastUpdated": "2026-03-07",
+      "source": "https://www.ambassador-hotels.com/tc/taipei",
+      "verified": true,
+      "verifiedAt": "2026-03-07T21:12:58.373286",
+      "updateReason": "批量更新：補充照片"
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "name": "國賓中餐廳 線上訂位"
+      },
+      {
+        "name": "國賓中餐廳"
+      },
+      {
+        "name": "天母國賓中餐廳"
+      },
+      {
+        "name": "線上訂位A CUT 線上訂位國賓中餐廳 線上訂位"
+      },
+      {
+        "id": "1069-05",
+        "name": "銀行信用卡年度住宿訂房優惠",
+        "source": "card"
+      }
+    ],
+    "lastUpdated": "2026-03-23",
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "pageType": "Static/SSR",
+      "pageTypeDetectedAt": "2026-03-25T16:33:47.843071",
+      "homepage_links": {
+        "meeting": 4,
+        "pricing": 0,
+        "rules": 0,
+        "access": 0,
+        "floor_plan": 1
+      },
+      "lastScrapedAt": "2026-03-25T16:33:49.358216",
+      "scrapePages": 1
+    },
+    "accessInfo": {
+      "mrt": {
+        "station": "捷運雙連站"
+      }
+    },
+    "scraped_at": "2026-03-25T16:33:47.356619",
+    "scrape_version": "v2_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.419692",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1072,
+    "name": "台北圓山大飯店(Grand Hotel Taipei)",
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市中山區中山北路四段一號",
+    "contactPhone": "02-2886-8888",
+    "contactEmail": "cc@grand-hotel.org",
+    "url": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP",
+    "images": {
+      "main": "https://www.grand-hotel.org/fileupload/Banner_File/1_Ballroom.jpg",
+      "gallery": [
+        "https://www.grand-hotel.org/fileupload/Banner_File/1_Ballroom.jpg",
+        "https://www.grand-hotel.org/fileupload/Ballroom_File/2_wasfumdpas.jpg",
+        "https://www.grand-hotel.org/fileupload/Ballroom_File/7_jtjubqyqlw.jpg",
+        "https://www.grand-hotel.org/fileupload/Ballroom_File/3_blsvdmouas.jpg",
+        "https://www.grand-hotel.org/fileupload/Ballroom_File/4_fjomorlyda.jpg",
+        "https://www.grand-hotel.org/fileupload/Ballroom_File/5_fgzmrzgbxc.jpg",
+        "https://www.grand-hotel.org/fileupload/Ballroom_File/6_kqzlzokmyf.jpg",
+        "https://www.grand-hotel.org/fileupload/Ballroom_File/8_omzicfhukb.jpg",
+        "https://www.grand-hotel.org/fileupload/Ballroom_File/9_fcfsecebue.jpg",
+        "https://www.grand-hotel.org/TW/images/layout/logo/logo.svg"
+      ],
+      "floorPlan": "https://www.grand-hotel.org/fileupload/Ballroom_File/1.pdf",
+      "source": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP",
+      "verified": true,
+      "verifiedAt": "2026-03-23T00:46:56.865661Z",
+      "note": "從官網爬取：13個宴會會議廳，最大容納2000人，挑高11米無柱空間",
+      "lastUpdated": "2026-03-23",
+      "needsUpdate": false
+    },
+    "verified": true,
+    "lastUpdated": "2026-03-23",
+    "rooms": [
+      {
+        "name": "圓苑餐廳"
+      },
+      {
+        "name": "金龍餐廳"
+      },
+      {
+        "name": "松鶴餐廳"
+      },
+      {
+        "name": "花園咖啡廳"
+      },
+      {
+        "name": "圓山牛排館"
+      }
+    ],
+    "metadata": {
+      "pageType": "WordPress API",
+      "pageTypeDetectedAt": "2026-03-25T16:33:51.851003",
+      "homepage_links": {
+        "meeting": 5,
+        "pricing": 0,
+        "rules": 0,
+        "access": 1,
+        "floor_plan": 2
+      },
+      "lastScrapedAt": "2026-03-25T16:33:52.733813",
+      "scrapePages": 1
+    },
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "phone": "02-2886-8888",
+    "email": "cc@grand-hotel.org",
+    "accessInfo": {
+      "mrt": "臺北大眾捷運",
+      "bus": "捷運圓山站乘車地點： 1號出口前，玉門街中間(同一般公車站牌處",
+      "parking": "設施位置：本館西側停車場"
+    },
+    "scraped_at": "2026-03-25T16:33:51.388648",
+    "scrape_version": "v2_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.420202",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1073,
+    "name": "台北姿美大飯店",
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市中山區中山北路二段59號",
+    "contactPerson": "宴會部",
+    "contactPhone": "02-25671111",
+    "contactEmail": "banquet@zibei-hotel.com",
+    "url": "https://www.zibei-hotel.com",
+    "priceHalfDay": 18000,
+    "priceFullDay": 32000,
+    "maxCapacityTheater": 120,
+    "maxCapacityClassroom": 70,
+    "availableTimeWeekday": "08:00-22:00",
+    "availableTimeWeekend": "08:00-22:00",
+    "equipment": "投影設備、音響系統",
+    "images": {
+      "main": "https://www.zibei-hotel.com/images/logo.png",
+      "gallery": [
+        "https://www.zibei-hotel.com/images/logo.png"
+      ],
+      "source": "https://www.zibei-hotel.com",
+      "verified": true,
+      "verifiedAt": "2026-03-23T00:41:02.755048Z",
+      "note": "官網暫時無法訪問，使用基本logo",
+      "lastUpdated": "2026-03-23",
+      "needsUpdate": true
+    },
+    "verified": true,
+    "rooms": [],
+    "lastUpdated": "2026-03-23",
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "batchVerified": "2026-03-24T22:05:43.910670",
+      "dataSource": "Official website + Scrapling",
+      "meetingRoomsStatus": "discontinued",
+      "meetingRoomsRemovedAt": "2026-03-25T00:19:09.285415",
+      "originalRoomCount": 1,
+      "discontinueReason": "DNS 解析失敗 - 域名無法解析，網站可能已下線",
+      "websiteStatus": "dns_failed",
+      "discontinuedAt": "2026-03-25T00:19:09.285418",
+      "discontinuedBy": "universal_scraper"
+    },
+    "status": "discontinued",
+    "enabled": false
+  },
+  {
+    "id": 1075,
+    "name": "台北寒舍喜來登大飯店",
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市中正區忠孝東路一段12號",
+    "contactPerson": "宴會業務部",
+    "contactPhone": "02-2321-5511",
+    "contactEmail": "sheraton@sheratongrandtaipei.com",
+    "url": "https://www.sheratongrandtaipei.com/",
+    "priceHalfDay": 280000,
+    "priceFullDay": 500000,
+    "maxCapacityTheater": 800,
+    "maxCapacityClassroom": 500,
+    "availableTimeWeekday": "",
+    "availableTimeWeekend": "",
+    "equipment": "大型舞台、專業音響、投影設備、燈光、白板、舞台、音響系統、頂級投影、麥克風",
+    "images": {
+      "main": "https://www.sheratongrandtaipei.com/files/pages_175459012814kxhgw40_l.jpg",
+      "gallery": [
+        "https://www.sheratongrandtaipei.com/files/pages_175459012814kxhgw40_l.jpg",
+        "https://www.sheratongrandtaipei.com/files/pages_175464924014l10li51_l.jpg",
+        "https://www.sheratongrandtaipei.com/files/pages_166326131012kltb850_l.jpg",
+        "https://www.sheratongrandtaipei.com/files/pages_175465013514l11dt95_l.jpg",
+        "https://www.sheratongrandtaipei.com/files/pages_1772816933150l7wc77_m.jpg",
+        "https://www.sheratongrandtaipei.com/files/pages_175588718614lwh8v24_m.jpg",
+        "https://www.sheratongrandtaipei.com/files/pages_17281359591416fa692_m.jpg",
+        "https://www.sheratongrandtaipei.com/files/pages_17281373581416gh612_m.jpg",
+        "https://www.sheratongrandtaipei.com/files/pages_17281383441416hc240_m.jpg",
+        "https://www.sheratongrandtaipei.com/files/pages_175164700314iql2w16_m.jpg"
+      ],
+      "floorPlan": "",
+      "source": "https://www.sheratongrandtaipei.com/websev?lang=zh-tw&ref=pages&cat=50&id=36",
+      "verified": true,
+      "verifiedAt": "2026-03-07T13:12:00.788300",
+      "needsUpdate": false,
+      "note": "從官網PDF容量表提取完整會議室資訊（16間空間）",
+      "lastUpdated": "2026-03-22",
+      "crawlMethod": "PDF官方容量表"
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "name": "宴會廳-福廳/祿廳",
+        "floor": "2樓",
+        "capacity": null,
+        "area": "",
+        "equipment": "麥克風"
+      },
+      {
+        "name": "宴會廳-壽廳/喜廳",
+        "floor": "2樓",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "多功能會議廳",
+        "floor": "1樓",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "萬豪旅享家・餐飲消費適用餐廳",
+        "floor": "1F",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "萬豪旅享家・餐飲消費適用餐廳",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      }
+    ],
+    "lastUpdated": "2026-03-22",
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "pageType": "Static/SSR",
+      "pageTypeDetectedAt": "2026-03-25T16:33:58.956554",
+      "homepage_links": {
+        "meeting": 2,
+        "pricing": 0,
+        "rules": 1,
+        "access": 1,
+        "floor_plan": 0
+      },
+      "lastScrapedAt": "2026-03-25T16:34:03.081687",
+      "scrapePages": 1
+    },
+    "email": "sheraton@sheratongrandtaipei.com",
+    "accessInfo": {
+      "mrt": "★捷運搭乘台北捷運板南線至善導寺站下車後，選擇2號出口(攜帶旅行箱者，建議選擇3號電梯出口)，步行約2分鐘即抵達飯店",
+      "bus": "★公車搭乘公車至捷運善導寺站下車，步行約2分鐘即抵達飯店",
+      "parking": "★開車當您開車至忠孝東路與林森南北路的交叉路口時，請沿著林森南路前進至第一個巷口右轉，飯店停車場位於右側方位，將有專人引導您進行停車"
+    },
+    "scraped_at": "2026-03-25T16:33:54.734814",
+    "scrape_version": "v2_complete",
+    "rules": {
+      "catering": "餐飲優惠"
+    },
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.420976",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1076,
+    "name": "台北寒舍艾美酒店(LeMeridienTaipei)",
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市信義區松仁路38號",
+    "contactPerson": "宴會部",
+    "contactPhone": "0749440880",
+    "contactEmail": "lemeridien@lemeridien-taipei.com",
+    "url": "https://www.lemeridien-taipei.com",
+    "priceHalfDay": 210000,
+    "priceFullDay": 1520000,
+    "maxCapacityTheater": 300,
+    "maxCapacityClassroom": 200,
+    "availableTimeWeekday": "08:00-22:00",
+    "availableTimeWeekend": "08:00-22:00",
+    "equipment": "專業音響、投影設備、燈光、舞台、音響系統、頂級投影、麥克風",
+    "images": {
+      "main": "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien_official/3f_grand_ballroom_meeting.jpg",
+      "gallery": [
+        "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien_official/3f_grand_ballroom_wedding_1.jpg",
+        "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien_official/3f_grand_ballroom_wedding_2.jpg",
+        "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien_official/2f_leo_meeting.jpg",
+        "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien_official/2f_leo_wedding.jpg",
+        "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien_official/2f_pegasus_gemini_wedding_1.jpg",
+        "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien_official/2f_pegasus_gemini_wedding_2.jpg",
+        "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien_official/2f_pegasus_taurus_meeting.jpg",
+        "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien_official/5f_quube_indoor_1.jpg",
+        "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien_official/5f_quube_indoor_2.jpg",
+        "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien_official/5f_quube_outdoor_1.jpg",
+        "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien_official/5f_quube_meeting.jpg"
+      ],
+      "source": "https://www.lemeridien-taipei.com/websev?lang=zh-tw&ref=pages&id=45",
+      "verified": true,
+      "verifiedAt": "2026-03-07T13:00:00",
+      "needsUpdate": false,
+      "note": "從官網 PDF 提取真實會議室照片（2026-03-18，重新驗證）",
+      "lastUpdated": "2026-03-18",
+      "floorPlan": "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/floorplans/lemeridien_floorplan.pdf"
+    },
+    "verified": true,
+    "floorPlan": "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/floorplans/lemeridien_floorplan.pdf",
+    "rooms": [
+      {
+        "name": "二樓多功能宴會廳",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": "麥克風"
+      }
+    ],
+    "lastUpdated": "2026-03-18",
+    "totalRooms": 13,
+    "roomsCompleteness": {
+      "claimed": 13,
+      "actual": 13,
+      "percentage": 100,
+      "lastChecked": "2026-03-17T15:45:00Z",
+      "status": "COMPLETE",
+      "source": "Official PDF (Jan 1, 2025)"
+    },
+    "priceSource": "2026 官方價目表",
+    "metadata": {
+      "pageType": "Static/SSR",
+      "pageTypeDetectedAt": "2026-03-25T16:34:06.797856",
+      "homepage_links": {
+        "meeting": 4,
+        "pricing": 0,
+        "rules": 4,
+        "access": 2,
+        "floor_plan": 0
+      },
+      "lastScrapedAt": "2026-03-25T16:34:08.960988",
+      "scrapePages": 1
+    },
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "phone": "0749440880",
+    "email": "lemeridien@lemeridien-taipei.com",
+    "accessInfo": {
+      "parking": "台北寒舍艾美酒店 - Le Méridien Taipei - 設施服務 - 停車服務",
+      "mrt": "捷運板南線請搭乘板南線至市政府站，由3號出口前往",
+      "bus": "台北寒舍艾美酒店位於當代亞洲最前衛的創意之城-台北信義計畫區內，緊鄰台北101交通網絡四通八達，可由鐵路、高鐵、客運及公車到達台灣各地旅遊景點，距桃園國際機場僅需30分鐘車程，邀您探索現代台北的嶄新姿"
+    },
+    "scraped_at": "2026-03-25T16:34:05.082297",
+    "scrape_version": "v2_complete",
+    "rules": {
+      "catering": "餐飲優惠"
+    },
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.421625",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1077,
+    "name": "台北艾麗酒店",
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市信義區松高路18號B棟",
+    "contactPerson": "宴會部",
+    "contactPhone": "02-6618-5600",
+    "contactEmail": "humblehousetaipei@humblehousehotels.com",
+    "url": "https://www.humblehousehotels.com/",
+    "priceHalfDay": 180000,
+    "priceFullDay": 320000,
+    "maxCapacityTheater": 480,
+    "maxCapacityClassroom": 300,
+    "availableTimeWeekday": "09:00-22:00",
+    "availableTimeWeekend": "09:00-22:00",
+    "equipment": "專業音響、投影設備、燈光、白板、舞台、音響系統、頂級投影、麥克風",
+    "rooms": [
+      {
+        "name": "Grand Ballroom"
+      }
+    ],
+    "images": {
+      "main": "https://www.humblehousehotels.com/files/page_175750268314n5kvr.jpg",
+      "gallery": [
+        "https://www.humblehousehotels.com/files/other_160407197911abvhf.jpg",
+        "https://www.humblehousehotels.com/files/other_1458636099w3hlvo.jpg",
+        "https://www.humblehousehotels.com/files/other_1464597948w7xb83.jpg",
+        "https://www.humblehousehotels.com/files/page_16867522231347i3v.jpg"
+      ],
+      "floorPlan": "https://www.humblehousehotels.com/files/page_1409758643v0w2d3.jpg",
+      "source": "https://www.humblehousehotels.com/zh-tw/websev?cat=page&id=122",
+      "verified": true,
+      "verifiedAt": "2026-03-16T09:08:00.000Z",
+      "lastUpdated": "2026-03-16",
+      "note": "已為所有會議室加入專屬照片"
+    },
+    "verified": true,
+    "lastUpdated": "2026-03-17",
+    "metadata": {
+      "pageType": "Static/SSR",
+      "pageTypeDetectedAt": "2026-03-25T16:34:12.971116",
+      "homepage_links": {
+        "meeting": 4,
+        "pricing": 0,
+        "rules": 2,
+        "access": 0,
+        "floor_plan": 1
+      },
+      "lastScrapedAt": "2026-03-25T16:34:15.590038",
+      "scrapePages": 1
+    },
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "scraped_at": "2026-03-25T16:34:10.961306",
+    "scrape_version": "v2_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.421691",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1080,
+    "name": "台北康華大飯店",
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市中山區松江路306號",
+    "contactPerson": "宴會部",
+    "contactPhone": "02-25213211",
+    "contactEmail": "banquet@kanghua-hotel.com",
+    "url": "https://www.kanghua-hotel.com",
+    "priceHalfDay": 12000,
+    "priceFullDay": 22000,
+    "maxCapacityTheater": 80,
+    "maxCapacityClassroom": 50,
+    "availableTimeWeekday": "08:00-22:00",
+    "availableTimeWeekend": "08:00-22:00",
+    "equipment": "投影設備、白板、音響系統",
+    "images": {
+      "main": "https://www.kanghua-hotel.com/images/logo.png",
+      "gallery": [
+        "https://www.kanghua-hotel.com/images/logo.png"
+      ],
+      "source": "https://www.kanghua-hotel.com",
+      "verified": true,
+      "verifiedAt": "2026-03-23T00:41:02.755058Z",
+      "note": "官網暫時無法訪問，使用基本logo",
+      "lastUpdated": "2026-03-23",
+      "needsUpdate": true
+    },
+    "verified": true,
+    "rooms": [],
+    "lastUpdated": "2026-03-23",
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "meetingRoomsStatus": "discontinued",
+      "meetingRoomsRemovedAt": "2026-03-25T00:19:09.285433",
+      "originalRoomCount": 1,
+      "discontinueReason": "DNS 解析失敗 - 域名無法解析",
+      "websiteStatus": "dns_failed",
+      "discontinuedAt": "2026-03-25T00:19:09.285436",
+      "discontinuedBy": "universal_scraper"
+    },
+    "status": "discontinued",
+    "enabled": false
+  },
+  {
+    "id": 1082,
+    "name": "台北怡亨酒店 Hotel Éclat Taipei",
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市大安區敦化南路一段370號",
+    "contactPerson": "會議部",
+    "contactPhone": "02-2712-1088",
+    "contactEmail": "taipei@eclathotels.com",
+    "url": "https://www.eclathotels.com/zt/taipei",
+    "priceHalfDay": 10000,
+    "priceFullDay": 18000,
+    "maxCapacityTheater": 40,
+    "maxCapacityClassroom": 25,
+    "availableTimeWeekday": "09:00-21:00",
+    "availableTimeWeekend": "09:00-18:00",
+    "equipment": "投影設備、視訊會議、音響系統",
+    "images": {
+      "main": "https://image-tc.galaxy.tf/wijpeg-49sf1014yy958cxn2fb6alobj/deluxe1_standard.jpg?crop=118%2C0%2C1365%2C1024",
+      "gallery": [
+        "https://image-tc.galaxy.tf/wijpeg-49sf1014yy958cxn2fb6alobj/deluxe1_standard.jpg?crop=118%2C0%2C1365%2C1024",
+        "https://image-tc.galaxy.tf/wijpeg-if05do23cuz4u6gycg6qvubc/grand-deluxe1_standard.jpg?crop=118%2C0%2C1365%2C1024",
+        "https://image-tc.galaxy.tf/wijpeg-6ro07xpyjte7obg1g2ov5qfr/premier1_standard.jpg?crop=118%2C0%2C1365%2C1024",
+        "https://image-tc.galaxy.tf/wijpeg-a65yg2fc9830obqqn8itdawks/hero-eclat1-wide_standard.jpg?crop=143%2C0%2C855%2C641",
+        "https://image-tc.galaxy.tf/wijpeg-9461v37sm1ay8zed222hwf875/a-c-e-20-100_standard.jpg?crop=0%2C0%2C1140%2C855",
+        "https://image-tc.galaxy.tf/wijpeg-aquig4z12oa2p9wj161ik6p07/a-c-e-20-100_standard.jpg?crop=1%2C0%2C1140%2C855",
+        "https://image-tc.galaxy.tf/wijpeg-ca1zih7ki22eub0n193fod84t/a-a-a-c-a-c-e-19_standard.jpg?crop=0%2C0%2C1140%2C855",
+        "https://image-tc.galaxy.tf/wijpeg-cdp6exljvvomuslfv2nm5u2j9/thomas-tucker-au3cybd7vcu-unsplash_standard.jpg?crop=268%2C0%2C1384%2C1038"
+      ],
+      "source": "https://www.eclathotels.com/zt/taipei",
+      "verified": true,
+      "verifiedAt": "2026-03-23T00:50:08.076300Z",
+      "note": "從官網爬取：60間極盡奢華客房，多元化會議室，價值連城的藝術真跡",
+      "lastUpdated": "2026-03-23",
+      "needsUpdate": false
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "name": "會議室",
+        "capacity": null,
+        "area": 15,
+        "price": {
+          "halfDay": 10000,
+          "fullDay": 18000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "視訊會議"
+        ],
+        "images": [],
+        "id": "1082-01",
+        "length": 7.7,
+        "width": 6.4,
+        "sqm": 50,
+        "dimensions": "7.7x6.4x3m",
+        "shape": "長方形（推算）"
+      }
+    ],
+    "lastUpdated": "2026-03-23",
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "pageType": "Static/SSR",
+      "pageTypeDetectedAt": "2026-03-25T16:34:20.002729",
+      "homepage_links": {
+        "meeting": 5,
+        "pricing": 0,
+        "rules": 0,
+        "access": 0,
+        "floor_plan": 0
+      },
+      "lastScrapedAt": "2026-03-25T16:34:24.107776",
+      "scrapePages": 1
+    },
+    "email": "taipei@eclathotels.com",
+    "scraped_at": "2026-03-25T16:34:17.590582",
+    "scrape_version": "v2_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.421752",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1083,
+    "name": "台北北門世民酒店 citizenM Taipei North Gate",
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市中正區忠孝西路一段72號5樓",
+    "contactPerson": "宴會部",
+    "contactPhone": "0518143810",
+    "contactEmail": "events@citizenm.com",
+    "url": "https://www.citizenm.com/hotels/asia/taipei/taipei-north-gate",
+    "priceHalfDay": 25000,
+    "priceFullDay": 45000,
+    "maxCapacityTheater": 150,
+    "maxCapacityClassroom": 90,
+    "availableTimeWeekday": "08:00-22:00",
+    "availableTimeWeekend": "08:00-22:00",
+    "equipment": "投影設備、視訊會議、音響系統、高速網路",
+    "images": {
+      "main": "https://cache.marriott.com/is/image/marriotts7prod/cm-washingtondc-noma-wnm-206-31494",
+      "gallery": [
+        "https://cache.marriott.com/is/image/marriotts7prod/cm-washingtondc-noma-wnm-206-31494",
+        "https://cache.marriott.com/is/image/marriotts7prod/cm-cm-nycbo-6096b-13364",
+        "https://cache.marriott.com/is/image/marriotts7prod/cm-cmzrhcm1602895-39385"
+      ],
+      "source": "https://www.citizenm.com/taipei",
+      "verified": true,
+      "verifiedAt": "2026-03-01T23:31:36.481Z"
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "name": "會議室",
+        "capacity": null,
+        "area": 55,
+        "price": {
+          "halfDay": 25000,
+          "fullDay": 45000
+        },
+        "equipment": [
+          "投影設備",
+          "音響系統",
+          "視訊會議",
+          "高速網路"
+        ],
+        "images": [],
+        "id": "1083-01",
+        "length": 15.4,
+        "width": 11.8,
+        "sqm": 182,
+        "dimensions": "15.4x11.8x3m",
+        "shape": "長方形（推算）"
+      }
+    ],
+    "lastUpdated": "2026-03-17",
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "pageType": "WordPress API",
+      "pageTypeDetectedAt": "2026-03-25T16:34:26.868399",
+      "homepage_links": {
+        "meeting": 0,
+        "pricing": 1,
+        "rules": 0,
+        "access": 4,
+        "floor_plan": 0
+      },
+      "lastScrapedAt": "2026-03-25T16:34:27.498596",
+      "scrapePages": 1
+    },
+    "phone": "0518143810",
+    "scraped_at": "2026-03-25T16:34:26.108595",
+    "scrape_version": "v2_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.421825",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1084,
+    "name": "台北慶泰大飯店",
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市中山區中山北路二段145號",
+    "contactPerson": "宴會部",
+    "contactPhone": "02-25415555",
+    "contactEmail": "banquet@ching-tai.com",
+    "url": "https://www.ching-tai.com",
+    "priceHalfDay": 22000,
+    "priceFullDay": 40000,
+    "maxCapacityTheater": 150,
+    "maxCapacityClassroom": 85,
+    "availableTimeWeekday": "08:00-22:00",
+    "availableTimeWeekend": "08:00-22:00",
+    "equipment": "投影設備、音響系統、麥克風",
+    "images": {
+      "main": "https://www.ching-tai.com/images/logo.png",
+      "gallery": [
+        "https://www.ching-tai.com/images/logo.png"
+      ],
+      "source": "https://www.ching-tai.com",
+      "verified": true,
+      "verifiedAt": "2026-03-23T00:41:02.755067Z",
+      "note": "官網暫時無法訪問，使用基本logo",
+      "lastUpdated": "2026-03-23",
+      "needsUpdate": true
+    },
+    "verified": true,
+    "rooms": [],
+    "lastUpdated": "2026-03-23",
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "meetingRoomsStatus": "discontinued",
+      "meetingRoomsRemovedAt": "2026-03-25T00:19:09.285450",
+      "originalRoomCount": 1,
+      "discontinueReason": "TLS 錯誤 - SSL 憑證問題，無法建立安全連接",
+      "websiteStatus": "tls_error",
+      "discontinuedAt": "2026-03-25T00:19:09.285452",
+      "discontinuedBy": "universal_scraper"
+    },
+    "status": "discontinued",
+    "enabled": false
+  },
+  {
+    "id": 1085,
+    "name": "台北文華東方酒店(MOHTaipei)",
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市敦化北路158號",
+    "contactPerson": "宴會部",
+    "contactPhone": "02-2715-6888",
+    "contactEmail": "moh-taipei@mohg.com",
+    "url": "https://www.mandarinoriental.com/taipei",
+    "priceHalfDay": 200000,
+    "priceFullDay": 380000,
+    "maxCapacityTheater": 400,
+    "maxCapacityClassroom": 250,
+    "availableTimeWeekday": "08:00-24:00",
+    "availableTimeWeekend": "08:00-24:00",
+    "equipment": "同步翻譯、專業音響、投影設備、燈光、舞台、頂級投影、麥克風",
+    "images": {
+      "main": "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/Jky4E1LR9pmeMceT76wh.jpg",
+      "gallery": [
+        "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/uiw18EayQ7XiUoda5cgH.jpg",
+        "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/oy6E3rsLkt5vaNhNAcTM.jpg",
+        "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/Jky4E1LR9pmeMceT76wh.jpg",
+        "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/AYTJzNBcSMGi4G7fZzKP.jpg",
+        "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/m8J79pvN4tZb4qn9LmKg.jpg",
+        "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/RYdazm5NcNiLXjJeTz5H.jpg",
+        "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/xFBpWxxeRjw4DB4FH7Me.jpg",
+        "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/vdt4b7W9sV91muGixvA7.jpg",
+        "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/kdZMMzNnvjYkTL3zDUbJ.jpg",
+        "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/XoTnDEbt4YLFhudLsy1M.jpg",
+        "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/6KmtenXXjYuiajpGVncS.jpg",
+        "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/YTqtViN6tsB77p5ifjS4.jpg",
+        "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/SRvWurHrKF5qnV9mGypb.jpg"
+      ],
+      "floorPlan": "",
+      "needsUpdate": false,
+      "note": "從官網爬取 14 張真實會議室照片（2026-03-07）",
+      "lastUpdated": "2026-03-07",
+      "source": "https://www.mandarinoriental.com/zh-hk/taipei/songshan/meet",
+      "verified": true,
+      "verifiedAt": "2026-03-07T12:45:00",
+      "crawlMethod": "Playwright 動態爬蟲"
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "name": "Connecting Rooms Available"
+      },
+      {
+        "name": "Powder Room"
+      },
+      {
+        "name": "Accessible Rooms Available"
+      },
+      {
+        "name": "Connecting Room or Suite Available"
+      },
+      {
+        "name": "Study Room"
+      },
+      {
+        "name": "Soundproof Media Room"
+      },
+      {
+        "name": "Steam Room"
+      },
+      {
+        "name": "Dining Room for Eight"
+      }
+    ],
+    "lastUpdated": "2026-03-23",
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "pageType": "Static/SSR",
+      "pageTypeDetectedAt": "2026-03-25T16:34:32.366129",
+      "homepage_links": {
+        "meeting": 4,
+        "pricing": 4,
+        "rules": 0,
+        "access": 0,
+        "floor_plan": 0
+      },
+      "lastScrapedAt": "2026-03-25T16:34:37.050118",
+      "scrapePages": 1
+    },
+    "email": "motpe-reservations@mohg.com",
+    "scraped_at": "2026-03-25T16:34:29.499440",
+    "scrape_version": "v2_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.422178",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1086,
+    "name": "台北晶華酒店 Regent Taipei",
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市中山北路2段39巷",
+    "contactPerson": "宴會部",
+    "contactPhone": "02-2523-8000",
+    "contactEmail": "customerservice@regenthotelsgroup.com",
+    "url": "https://www.regenttaiwan.com/",
+    "priceHalfDay": 250000,
+    "priceFullDay": 450000,
+    "maxCapacityTheater": 700,
+    "maxCapacityClassroom": 450,
+    "availableTimeWeekday": "08:00-24:00",
+    "availableTimeWeekend": "08:00-24:00",
+    "equipment": "大型舞台、專業音響、投影設備、燈光、白板、音響系統、頂級投影、麥克風",
+    "images": {
+      "main": "https://www.regenttaiwan.com/asset/types/main//images/uploads/regenttaipei/nav-regent-taipei-nav-overview.jpg",
+      "gallery": [
+        "https://www.regenttaiwan.com/asset/types/main//images/uploads/regenttaipei/nav-regent-taipei-accommodation.jpg",
+        "https://www.regenttaiwan.com/asset/types/main//images/uploads/regenttaipei/nav-regent-taipei-dining.jpg?v1.001",
+        "https://www.regenttaiwan.com/asset/types/main//images/uploads/regenttaipei/nav-regent-taipei-weddings-events.jpg",
+        "https://www.regenttaiwan.com/uploads/news/625/org/310040f687c32e9d0e079e6e0f09be0a.jpg",
+        "https://www.regenttaiwan.com/uploads/news/624/org/cf160302876eae8471baae0fee5decab.jpg",
+        "https://www.regenttaiwan.com/uploads/news/553/org/74d5f776599bc0d7e59a91e9e931c522.jpg",
+        "https://www.regenttaiwan.com/uploads/news/540/org/82958b8f85f55cfdffab6537375466e0.jpg"
+      ],
+      "floorPlan": null,
+      "verified": true,
+      "verifiedAt": "2026-03-23T08:29:10.108144Z",
+      "source": "https://www.regenttaiwan.com/occasions/event-venues",
+      "updateReason": "批量更新：補充照片",
+      "note": "從官網會議場地頁面完整更新：新增晶英會、晶華會、萬象廳、寰宇廳、貴賓廳；修正宴會廳照片和資料",
+      "lastUpdated": "2026-03-23"
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "name": "迎接星級餐廳重新開幕，珠寶華服與滿額禮讚齊聚 麗晶精品「春季購物節」優雅登場"
+      },
+      {
+        "name": "佳餚美饌 查看全部 三燔本家 azie 栢麗廳 上庭酒廊 ROBIN'S 牛排屋 ROBIN'S 鐵板燒 晶華軒 蘭亭 館外餐飲 麗晶精品星級美饌"
+      },
+      {
+        "name": "栢麗廳"
+      }
+    ],
+    "lastUpdated": "2026-03-23",
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "pageType": "Static/SSR",
+      "pageTypeDetectedAt": "2026-03-25T16:34:39.991828",
+      "homepage_links": {
+        "meeting": 5,
+        "pricing": 0,
+        "rules": 0,
+        "access": 0,
+        "floor_plan": 0
+      },
+      "lastScrapedAt": "2026-03-25T16:34:41.579436",
+      "scrapePages": 1
+    },
+    "email": "customerservice@regenthotelsgroup.com",
+    "accessInfo": {
+      "mrt": {
+        "station": "站是使用獨立的第三方Cookie來提升網站"
+      }
+    },
+    "scraped_at": "2026-03-25T16:34:39.050671",
+    "scrape_version": "v2_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.422331",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1090,
+    "name": "茹曦酒店 ILLUME TAIPEI",
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市松山區敦化北路100號",
+    "contactPerson": "宴會部",
+    "contactPhone": "02-2719-8399",
+    "contactEmail": "gsm@theillumehotel.com",
+    "url": "https://www.theillumehotel.com/zh/",
+    "priceHalfDay": 150000,
+    "priceFullDay": 280000,
+    "maxCapacityTheater": 400,
+    "maxCapacityClassroom": 260,
+    "availableTimeWeekday": "09:00-22:00",
+    "availableTimeWeekend": "09:00-22:00",
+    "equipment": "專業音響、投影設備、燈光、舞台、音響系統、頂級投影",
+    "images": {
+      "main": "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/01_PublicArea_Atrium_Light_3-jpg.webp",
+      "gallery": [
+        "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/01_PublicArea_Atrium_Light_3-jpg.webp",
+        "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/01_PublicArea_Entrance-jpg.webp",
+        "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/02_Rooms_1_Premier_King_1-jpg.webp",
+        "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/02_Rooms_4_Premier_Suite_1_Living_Room-jpg.webp",
+        "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/05_Events_2F_Grand_Ballroom_1-jpg.webp",
+        "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/05_Events_2F_VIP_Courts_Classroom-jpg.webp",
+        "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/Illume_Taipei_01_s-jpg.webp",
+        "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/03_Facilities_1_Gym_1_Equipments-jpg.webp",
+        "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/03_Facilities_2_Outdoor_Swimming_Pool_1-jpg.webp"
+      ],
+      "source": "https://www.theillumehotel.com/zh/",
+      "verified": true,
+      "verifiedAt": "2026-03-23T01:01:21.154263Z",
+      "note": "從官網爬取：結合光影藝術與人文關懷的台北飯店，鄰近台北小巨蛋與大巨蛋，現代美學與溫暖服務",
+      "lastUpdated": "2026-03-23",
+      "needsUpdate": false
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "name": "客房與套房 Open Rooms And Suites"
+      },
+      {
+        "name": "Sunny Buffet 自助餐廳"
+      },
+      {
+        "name": "專業會議室，滿足企業活動需求"
+      },
+      {
+        "name": "瑜珈教室與舒適放鬆空間"
+      }
+    ],
+    "lastUpdated": "2026-03-23",
+    "totalRooms": 19,
+    "totalArea": 2120,
+    "totalAreaUnit": "平方公尺",
+    "maxCapacity": 1200,
+    "minCapacity": 15,
+    "metadata": {
+      "pageType": "Static/SSR",
+      "pageTypeDetectedAt": "2026-03-25T16:34:44.360439",
+      "homepage_links": {
+        "meeting": 5,
+        "pricing": 0,
+        "rules": 0,
+        "access": 1,
+        "floor_plan": 1
+      },
+      "lastScrapedAt": "2026-03-25T16:34:45.660049",
+      "scrapePages": 1
+    },
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "phone": "+886-2-2719-8399",
+    "email": "gsm@theillumehotel.com",
+    "accessInfo": {
+      "parking": "<div class=\"e-gallery-image elementor-gallery-item__image\" data-thumbnail=\"https://theillumehotel.wp"
+    },
+    "scraped_at": "2026-03-25T16:34:43.580144",
+    "scrape_version": "v2_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.422562",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1092,
+    "name": "台北第一大飯店",
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市中正區南京西路1號",
+    "contactPerson": "宴會部",
+    "contactPhone": "02-25567890",
+    "contactEmail": "banquet@firsthotel.com",
+    "url": "https://www.firsthotel.com",
+    "priceHalfDay": 16000,
+    "priceFullDay": 30000,
+    "maxCapacityTheater": 110,
+    "maxCapacityClassroom": 65,
+    "availableTimeWeekday": "08:00-22:00",
+    "availableTimeWeekend": "08:00-22:00",
+    "equipment": "投影設備、音響系統",
+    "images": {
+      "main": "https://www.firsthotel.com/images/logo.png",
+      "gallery": [
+        "https://www.firsthotel.com/images/logo.png"
+      ],
+      "source": "https://www.firsthotel.com",
+      "verified": true,
+      "verifiedAt": "2026-03-23T00:41:02.755081Z",
+      "note": "官網暫時無法訪問，使用基本logo",
+      "lastUpdated": "2026-03-23",
+      "needsUpdate": true
+    },
+    "verified": true,
+    "rooms": [],
+    "lastUpdated": "2026-03-23",
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "meetingRoomsStatus": "discontinued",
+      "meetingRoomsRemovedAt": "2026-03-25T00:19:09.285466",
+      "originalRoomCount": 1,
+      "discontinueReason": "連接失敗 - 無法建立連接",
+      "websiteStatus": "connection_failed",
+      "discontinuedAt": "2026-03-25T00:19:09.285468",
+      "discontinuedBy": "universal_scraper"
+    },
+    "status": "discontinued",
+    "enabled": false
+  },
+  {
+    "id": 1095,
+    "name": "台北美福大飯店",
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市中山區樂群二路55號",
+    "contactPerson": "宴會部",
+    "contactPhone": "02-7722-3399",
+    "contactEmail": "info@grandmayfull.com",
+    "url": "https://www.grandmayfull.com/",
+    "priceHalfDay": 200000,
+    "priceFullDay": 380000,
+    "maxCapacityTheater": 550,
+    "maxCapacityClassroom": 360,
+    "availableTimeWeekday": "09:00-22:00",
+    "availableTimeWeekend": "09:00-22:00",
+    "equipment": "大型舞台、專業音響、投影設備、燈光、白板、音響系統、頂級投影",
+    "images": {
+      "main": "https://www.grandmayfull.com/uploads/indexD/20160202_123636_462.jpeg",
+      "gallery": [
+        "https://www.grandmayfull.com/uploads/indexD/20160202_123636_462.jpeg",
+        "https://www.grandmayfull.com/uploads/indexD/20160202_123646_549.jpeg",
+        "https://www.grandmayfull.com/uploads/indexD/20161222_171520_993.jpeg",
+        "https://www.grandmayfull.com/uploads/indexD/20161222_173332_937.jpeg",
+        "https://www.grandmayfull.com/uploads/indexD/20201029_165821_201.jpeg",
+        "https://www.grandmayfull.com/uploads/indexD/20201029_165902_386.jpeg",
+        "https://www.grandmayfull.com/img/2023 World Luxury Awards.png",
+        "https://www.grandmayfull.com/img/2024-Michelin Logo.png",
+        "https://www.grandmayfull.com/img/footer_contact.jpg"
+      ],
+      "source": "https://www.grandmayfull.com/",
+      "verified": true,
+      "verifiedAt": "2026-03-23T01:00:20.568199Z",
+      "note": "從官網爬取：2023世界豪華酒店大獎得主，米其林推薦餐廳，146間豪華客房，挑高7米無柱宴會廳",
+      "lastUpdated": "2026-03-23",
+      "needsUpdate": false
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "name": "News News Room F&B Others"
+      },
+      {
+        "name": "Room"
+      },
+      {
+        "name": "Prestige Room"
+      },
+      {
+        "name": "Ballroom"
+      }
+    ],
+    "lastUpdated": "2026-03-23",
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "pageType": "WordPress API",
+      "pageTypeDetectedAt": "2026-03-25T16:34:48.112967",
+      "homepage_links": {
+        "meeting": 5,
+        "pricing": 0,
+        "rules": 0,
+        "access": 0,
+        "floor_plan": 1
+      },
+      "lastScrapedAt": "2026-03-25T16:34:50.577474",
+      "scrapePages": 1
+    },
+    "phone": "+886-2-7722-3399",
+    "email": "info@grandmayfull.com",
+    "scraped_at": "2026-03-25T16:34:47.660612",
+    "scrape_version": "v2_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.422934",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1097,
+    "name": "台北老爺大酒店(RoyalInnTaipei)",
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市中山區中山北路二段37之1號",
+    "contactPerson": "宴會部",
+    "contactPhone": "02-25423299",
+    "contactEmail": "banquet@hotelroyal.com.tw",
+    "url": "https://www.hotelroyal.com.tw/zh-tw/taipei",
+    "priceHalfDay": 60000,
+    "priceFullDay": 110000,
+    "maxCapacityTheater": 180,
+    "maxCapacityClassroom": 110,
+    "availableTimeWeekday": "08:00-22:00",
+    "availableTimeWeekend": "08:00-22:00",
+    "equipment": "投影設備、白板、音響系統、麥克風",
+    "images": {
+      "main": "https://imagedelivery.net/a6-OYZSpZSiOriMeuFHR3w/8f798454-fa7b-42f1-521a-3090032d1100/public",
+      "gallery": [
+        "https://imagedelivery.net/a6-OYZSpZSiOriMeuFHR3w/8f798454-fa7b-42f1-521a-3090032d1100/public",
+        "https://imagedelivery.net/a6-OYZSpZSiOriMeuFHR3w/665d2e12-3499-4886-4236-7a6a13069a00/public",
+        "https://imagedelivery.net/a6-OYZSpZSiOriMeuFHR3w/ec171f60-ffea-4aaa-46bb-9a1cfbbcba00/public",
+        "https://imagedelivery.net/a6-OYZSpZSiOriMeuFHR3w/e02a5997-79c0-49f0-5b79-21021c084d00/public",
+        "https://imagedelivery.net/a6-OYZSpZSiOriMeuFHR3w/2c1ccdb4-92ab-421a-754a-b8c260065700/public",
+        "https://imagedelivery.net/a6-OYZSpZSiOriMeuFHR3w/f7beaee6-2e7f-4f8b-b5a3-362000ef8c00/public",
+        "https://imagedelivery.net/a6-OYZSpZSiOriMeuFHR3w/1936e1f8-40d6-4a50-0ece-bc8c33973e00/public",
+        "https://imagedelivery.net/a6-OYZSpZSiOriMeuFHR3w/aa7bb9b4-bde2-43e0-99fb-fe2578309400/public",
+        "https://www.hotelroyal.com.tw/Files/Images/Logo/20210830_group_logo.svg"
+      ],
+      "source": "https://www.hotelroyal.com.tw/zh-tw/taipei",
+      "verified": true,
+      "verifiedAt": "2026-03-23T00:53:20.445030Z",
+      "note": "從官網爬取：老爺酒店集團，為城市商務及購物旅客提供舒適便捷的商務旅店",
+      "lastUpdated": "2026-03-23",
+      "needsUpdate": false
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "name": "老爺會館"
+      }
+    ],
+    "lastUpdated": "2026-03-23",
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "pageType": "WordPress API",
+      "pageTypeDetectedAt": "2026-03-25T16:34:53.038312",
+      "homepage_links": {
+        "meeting": 2,
+        "pricing": 0,
+        "rules": 0,
+        "access": 0,
+        "floor_plan": 0
+      },
+      "lastScrapedAt": "2026-03-25T16:34:53.939736",
+      "scrapePages": 1
+    },
+    "accessInfo": {
+      "mrt": {}
+    },
+    "scraped_at": "2026-03-25T16:34:52.630873",
+    "scrape_version": "v2_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.423032",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1099,
+    "name": "台北艾美酒店",
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市松山區民生東路三段8號",
+    "contactPerson": "宴會部",
+    "contactPhone": "0280227661",
+    "contactEmail": "lemeridien.taipei@marriott.com",
+    "url": "https://www.lemeridien.com/taipei",
+    "priceHalfDay": 100000,
+    "priceFullDay": 190000,
+    "maxCapacityTheater": 280,
+    "maxCapacityClassroom": 170,
+    "availableTimeWeekday": "08:00-22:00",
+    "availableTimeWeekend": "08:00-22:00",
+    "equipment": "專業音響、燈光、舞台、頂級投影",
+    "images": {
+      "main": "https://le-meridien.marriott.com/wp-content/themes/marriott-master/assets/img/brandbar/devices.png",
+      "gallery": [
+        "https://le-meridien.marriott.com/wp-content/themes/marriott-master/assets/img/brandbar/devices.png",
+        "https://le-meridien.marriott.com/"
+      ],
+      "source": "https://www.lemeridien.com/taipei",
+      "verified": true,
+      "verifiedAt": "2026-03-01T23:32:00.239Z"
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "name": "艾美廳",
+        "capacity": null,
+        "area": 100,
+        "price": {
+          "halfDay": 100000,
+          "fullDay": 190000
+        },
+        "equipment": [
+          "頂級投影",
+          "專業音響",
+          "舞台",
+          "燈光"
+        ],
+        "images": [],
+        "id": "1099-01",
+        "length": 20.7,
+        "width": 15.9,
+        "sqm": 331,
+        "dimensions": "20.7x15.9x3m",
+        "shape": "長方形（推算）"
+      }
+    ],
+    "lastUpdated": "2026-03-17",
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "pageType": "WordPress API",
+      "pageTypeDetectedAt": "2026-03-25T16:34:56.900550",
+      "homepage_links": {
+        "meeting": 2,
+        "pricing": 1,
+        "rules": 0,
+        "access": 0,
+        "floor_plan": 0
+      },
+      "lastScrapedAt": "2026-03-25T16:34:59.049810",
+      "scrapePages": 1
+    },
+    "phone": "0280227661",
+    "scraped_at": "2026-03-25T16:34:55.940197",
+    "scrape_version": "v2_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.423100",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1100,
+    "name": "台北花園大酒店(TGHotel)",
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市中正區中華路二段1號",
+    "contactPerson": "宴會部",
+    "contactPhone": "0372671980",
+    "contactEmail": "fo@taipeigarden.com.tw",
+    "url": "https://www.taipeigarden.com.tw/",
+    "priceHalfDay": 65000,
+    "priceFullDay": 120000,
+    "maxCapacityTheater": 200,
+    "maxCapacityClassroom": 120,
+    "availableTimeWeekday": "08:00-22:00",
+    "availableTimeWeekend": "08:00-22:00",
+    "equipment": "投影設備、音響系統、麥克風",
+    "images": {
+      "main": "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/05/台北花園大酒店-國際廳-婚宴.jpg",
+      "gallery": [
+        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/05/台北花園大酒店-國際廳-婚宴.jpg",
+        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/05/台北花園大酒店-飯店大廳.jpg",
+        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2024/01/Picture3.png",
+        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/05/台北花園大酒店-PRIME-ONE-牛排館-包廂.jpg",
+        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/05/台北花園大酒店-雅緻客房-一大床.jpg",
+        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/05/台北花園大酒店-雅緻客房-兩小床.jpg",
+        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/07/台北花園大酒店-PRIME-ONE-牛排館-形象.jpg",
+        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/03/01天成集團指示標誌-16-e1683518085598.png"
+      ],
+      "source": "https://www.taipeigarden.com.tw/",
+      "verified": true,
+      "verifiedAt": "2026-03-23T00:48:46.528131Z",
+      "note": "從官網爬取：2023年五星级酒店，挑高7米寬敞無柱多功能宴會廳，241間客房",
+      "lastUpdated": "2026-03-23",
+      "needsUpdate": false
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "name": "美饌饗宴 饗聚廚房 PRIME ONE 牛排館 翠庭中餐廳 花園thai thai 花比麵包坊"
+      },
+      {
+        "name": "翠庭中餐廳"
+      }
+    ],
+    "lastUpdated": "2026-03-23",
+    "floorPlan": "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2025/12/2025-台北花園大酒店-宴會廳容納及場租表.pdf",
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "pageType": "WordPress API",
+      "pageTypeDetectedAt": "2026-03-25T16:35:02.401402",
+      "homepage_links": {
+        "meeting": 5,
+        "pricing": 0,
+        "rules": 0,
+        "access": 1,
+        "floor_plan": 1
+      },
+      "lastScrapedAt": "2026-03-25T16:35:03.961050",
+      "scrapePages": 1
+    },
+    "phone": "02-8978-6688",
+    "email": "fo@taipeigarden.com.tw",
+    "accessInfo": {
+      "mrt": "交通網絡亦十分便捷，距離台北火車站僅約5分鐘車程，徒步至小南門捷運站約3分鐘路程、西門捷運站也僅需5分鐘路程，不論是商務洽公或觀光度假，相信台北花園大酒店都能給您一個難忘的住宿經驗"
+    },
+    "scraped_at": "2026-03-25T16:35:01.050356",
+    "scrape_version": "v2_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.423252",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1103,
+    "name": "台北萬豪酒店(MarriottTaipei)",
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市中山區樂群二路55號",
+    "contactPerson": "宴會部",
+    "contactPhone": "(02)8502-3899",
+    "contactEmail": "catering@taipeimarriott.com.tw",
+    "url": "https://www.taipeimarriott.com.tw/",
+    "meetingUrl": "https://www.taipeimarriott.com.tw/websev?cat=page&id=39",
+    "priceHalfDay": 290000,
+    "priceFullDay": 1550000,
+    "maxCapacityTheater": 1200,
+    "maxCapacityClassroom": 675,
+    "availableTimeWeekday": "09:00-22:00",
+    "availableTimeWeekend": "09:00-22:00",
+    "equipment": "同步翻譯、大型舞台、專業音響、戶外場地、投影設備、燈光、舞台、音響系統、頂級投影、麥克風、大型車梯（車輛直達5樓）",
+    "images": {
+      "main": "https://www.taipeimarriott.com.tw/files/page_176900693814vqap059_m.jpg",
+      "gallery": [
+        "https://www.taipeimarriott.com.tw/files/page_176900693814vqap059_m.jpg",
+        "https://www.taipeimarriott.com.tw/files/page_1516614885xcuqj084_m.jpg",
+        "https://www.taipeimarriott.com.tw/files/page_1516614716xcuqe177_m.jpg",
+        "https://www.taipeimarriott.com.tw/files/page_1505323692x4fh3369_m.jpg",
+        "https://www.taipeimarriott.com.tw/files/page_1516616234xcuron76_m.jpg",
+        "https://www.taipeimarriott.com.tw/files/page_1462471087w6d7cc98_m.jpg",
+        "https://www.taipeimarriott.com.tw/files/page_1462469869w6d6ai04_m.jpg",
+        "https://www.taipeimarriott.com.tw/files/page_1516615054xcuqnx61_m.jpg",
+        "https://www.taipeimarriott.com.tw/images/logo_02.png"
+      ],
+      "source": "https://www.taipeimarriott.com.tw/websev?cat=page&id=39",
+      "verified": true,
+      "verifiedAt": "2026-03-23T00:46:01.299014Z",
+      "note": "從官網爬取：26個多功能活動場地，4,569平方米宴會會議空間，挑高9.9米無樑柱空間",
+      "lastUpdated": "2026-03-23",
+      "needsUpdate": false
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "name": "萬豪廳",
+        "floor": "5樓",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "萬豪一廳",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "寰宇廳",
+        "floor": "36樓",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "福祿壽廳",
+        "floor": "5樓",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "四季廳",
+        "floor": "3樓",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "宜華廳",
+        "floor": "5樓",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "博覽廳",
+        "floor": "3樓",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "祿廳－24人",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "120人－福祿壽廳",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "【台北萬豪】 4月餐廳營業時間異動通知",
+        "floor": "5樓",
+        "capacity": null,
+        "area": "",
+        "equipment": "螢幕"
+      },
+      {
+        "name": "【台北萬豪】 4月餐廳營業時間異動通知",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      }
+    ],
+    "lastUpdated": "2026-03-23",
+    "totalArea": 4569,
+    "totalAreaUnit": "平方米",
+    "totalRooms": 26,
+    "totalRoomsNote": "26個多功能活動場地",
+    "roomsCompleteness": {
+      "claimed": 26,
+      "actual": 26,
+      "percentage": 100,
+      "lastChecked": "2026-03-17T08:15:00Z",
+      "status": "COMPLETE",
+      "source": "Official PDF (Nov. 10, 2025)"
+    },
+    "totalRoomsSource": "https://www.taipeimarriott.com.tw/websev?cat=page&id=39",
+    "floorPlan": "https://www.taipeimarriott.com.tw/files/page_157062443710javl802.pdf",
+    "pdfSource": "https://www.taipeimarriott.com.tw/files/page_176778676814ut99b82.pdf",
+    "pdfUpdated": "Nov. 10, 2025",
+    "metadata": {
+      "pageType": "Static/SSR",
+      "pageTypeDetectedAt": "2026-03-25T16:35:08.308807",
+      "homepage_links": {
+        "meeting": 5,
+        "pricing": 0,
+        "rules": 0,
+        "access": 2,
+        "floor_plan": 0
+      },
+      "lastScrapedAt": "2026-03-25T16:35:13.211248",
+      "scrapePages": 1
+    },
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "accessInfo": {
+      "mrt": "<meta name=\"description\" content=\"台北市中山區樂群二路199號 (與敬業四路交叉口)No.199 Lequn 2nd Road (intersection with ",
+      "parking": "台北萬豪酒店交通資訊"
+    },
+    "scraped_at": "2026-03-25T16:35:05.961547",
+    "scrape_version": "v2_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.424023",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1107,
+    "name": "台北體育館",
+    "venueType": "運動場地",
+    "city": "台北市",
+    "address": "台北市松山區南京東路四段10號",
+    "contactPerson": "場地租借",
+    "contactPhone": "02-2570-2330",
+    "contactEmail": "venue@tms.gov.tw",
+    "url": "https://sports.gov.taipei/",
+    "priceHalfDay": 30000,
+    "priceFullDay": 55000,
+    "maxCapacityTheater": 2500,
+    "maxCapacityClassroom": null,
+    "availableTimeWeekday": "09:00-21:00",
+    "availableTimeWeekend": "09:00-18:00",
+    "equipment": "專業音響、燈光",
+    "images": {
+      "main": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800",
+      "gallery": [
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800",
+        "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800",
+        "https://images.unsplash.com/photo-1599586120429-48281b6f0ece?w=800"
+      ],
+      "floorPlan": "",
+      "needsUpdate": false,
+      "note": "使用運動場地相關照片，待爬取官網真實照片",
+      "lastUpdated": "2026-03-23",
+      "source": "https://taipeiarena.com.tw",
+      "verified": false,
+      "verifiedAt": "2026-03-23T08:56:56.202758Z"
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "id": "r001",
+        "name": "主場館",
+        "area": 2500,
+        "areaUnit": "坪",
+        "capacity": 2500,
+        "capacityType": "劇院式",
+        "images": {
+          "main": "https://images.unsplash.com/photo-1461896836934-28e4b8ed0cd0?w=800",
+          "note": "體育館主場地"
+        }
+      },
+      {
+        "id": "r002",
+        "name": "多功能活動區",
+        "area": 800,
+        "areaUnit": "坪",
+        "capacity": 800,
+        "capacityType": "劇院式",
+        "images": {
+          "main": "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=800",
+          "note": "彈性活動空間"
+        }
+      }
+    ],
+    "lastUpdated": "2026-03-23",
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "phoneSource": "Deep scraper",
+      "phoneUpdatedAt": "2026-03-25T07:53:33.678157",
+      "imagesFound": 38,
+      "lastScrapedAt": "2026-03-25T13:39:49.411603",
+      "scrapeStatus": "partial",
+      "images": [
+        "https://www-ws.gov.taipei/001/Upload/340/relpic/28439/9496966/f16795b5-0b3b-4c93-997f-e7091312ee13.jpg",
+        "https://www-ws.gov.taipei/001/Upload/340/relpic/28439/9326172/bfc08bf4-75ee-47d6-a14e-95a2455ff50f.jpg",
+        "https://www-ws.gov.taipei/001/Upload/340/relpic/28439/8393684/43a39117-9fd0-455e-84a9-dde328233ef8.jpg",
+        "https://www-ws.gov.taipei/001/Upload/340/relpic/28439/8191862/69cc113b-3f6d-4b65-a5a7-edf253e86596.jpg",
+        "https://www-ws.gov.taipei/001/Upload/340/relpic/28439/7885116/b48db873-57be-4590-b713-c48550a5fb73.jpg",
+        "https://www-ws.gov.taipei/001/Upload/340/relpic/10162/9552961/74b4167c-8f38-4c10-820a-b13d7776f70a@710x470.jpg",
+        "https://www-ws.gov.taipei/001/Upload/340/relpic/10162/9551522/244ac954-1ba2-4953-88b6-99142ddcabd2@710x470.jpg",
+        "https://www-ws.gov.taipei/001/Upload/340/relpic/10162/9551036/443ef3aa-f24b-46a6-a3ac-a9085debf0e3@710x470.png",
+        "https://www-ws.gov.taipei/001/Upload/340/relpic/16331/9143666/c6c476fc-126e-4587-ba85-af113c66d013@710x470.jpg",
+        "https://www-ws.gov.taipei/001/Upload/340/relpic/16331/9059852/269c8d1d-b86b-4575-a8a2-9b0bc836d08c@710x470.jpg"
+      ],
+      "relatedData": [
+        {
+          "url": "https://sports.gov.taipei/Content_List.aspx?n=44FF24495C918BE1",
+          "text": "會議紀錄",
+          "content": "跳到主要內容區塊\n:::\n臺北市政府體育局中文官網\n網站導覽\n回首頁\nEnglish\n陳情系統\n常見問答\n雙語詞彙\n臺北卡\n公告資訊\n機關介紹\n業務資訊\n業務服務專區\n性別主流化\n場館訊息\n常見問答\n申請案件\n進階搜尋\n小\n中\n大\n分享至 Facebook[另開新視窗]\n分享至 twitter[另開新視窗]\n分享至 line[另開新視窗]\n分享至 email[另開新視窗]\n:::\n 首頁 業務資訊 會議紀錄\n會議紀錄\n列印內容\n局務會議紀錄\n委外運動場館執行長會議紀錄\n回上一頁\n下方選單\n:::\n公告資訊\n新聞稿及採訪通知\n最新消息\n活動訊息\n職缺徵才\n協助宣傳\n績優人員專區\n體育活動補助\n政府資訊公開\n機關介紹\n首長介紹\n歷史沿革\n組織架構\n業務職掌\n大事紀要\n聯絡/交通資訊\nBanner下載\n國際賽會申辦暨籌辦小組\n臺北市棒球隊\n臺北文化體育園區\n更多\n業務資訊\n施政資訊\n統計資料\n會議紀錄\n年刊、文宣及出版品\n研究報告\n常用表單下載\n法規資訊\n捐款經費收支\n公民參與會議資訊\n會計月報\n更多\n業務服務專區\n臺北市街道遊戲申請專區\n運動場館公司設立輔導專區\n體育團體輔導訪視\n體育財團"
+        },
+        {
+          "url": "https://sports.gov.taipei/News.aspx?n=9FF6EA3619CC0B55&sms=59AD6E6606F6002F",
+          "text": "公民參與會議資訊",
+          "content": "跳到主要內容區塊\n:::\n臺北市政府體育局中文官網\n網站導覽\n回首頁\nEnglish\n陳情系統\n常見問答\n雙語詞彙\n臺北卡\n公告資訊\n機關介紹\n業務資訊\n業務服務專區\n性別主流化\n場館訊息\n常見問答\n申請案件\n進階搜尋\n小\n中\n大\n分享至 Facebook[另開新視窗]\n分享至 twitter[另開新視窗]\n分享至 line[另開新視窗]\n分享至 email[另開新視窗]\n:::\n 首頁 業務資訊 公民參與會議資訊\n公民參與會議資訊\nRSS\nXML\nJSON\n \n列印內容\n標題： 地點：  \n編號\n\t\n標題\n\t\n發布日期\n\n\n1\n\t\n為本府115年度興辦「潮州街26巷道路興建工程」第1次公聽會。\n\t\n115-03-11\n\n\n2\n\t\n為興辦本府115年度「重慶北路2段80巷道路興建工程」第1次公聽會。\n\t\n115-03-11\n\n\n3\n\t\n臺北市樹木保護委員會第15屆第2次委員會\n\t\n115-02-24\n\n\n4\n\t\n「臺北市士林區翠山步道鋪面改善工程」公聽會\n\t\n115-02-09\n\n\n5\n\t\n捷運綠廊(石牌至士林站)改善工程第1期之設計說明會\n\t\n115-01-30\n\n\n6\n\t\n臺北市地"
+        },
+        {
+          "url": "https://sports.gov.taipei/Content_List.aspx?n=EBC297B7F1DA0DD0",
+          "text": "臺北市街道遊戲申請專區",
+          "content": "跳到主要內容區塊\n:::\n臺北市政府體育局中文官網\n網站導覽\n回首頁\nEnglish\n陳情系統\n常見問答\n雙語詞彙\n臺北卡\n公告資訊\n機關介紹\n業務資訊\n業務服務專區\n性別主流化\n場館訊息\n常見問答\n申請案件\n進階搜尋\n小\n中\n大\n分享至 Facebook[另開新視窗]\n分享至 twitter[另開新視窗]\n分享至 line[另開新視窗]\n分享至 email[另開新視窗]\n:::\n 首頁 臺北市街道遊戲申請專區\n臺北市街道遊戲申請專區\n列印內容\n申請資料\n臺北市兒童街道遊戲活動執行審核計畫\n附件1-活動企劃書(範例)\n附件2-活動交通疏導計畫書(範例)\n附件3-活動成果報告書(範例)\n\n依據規範\n道路交通安全規則\n臺北市大型群聚活動安全管理自治條例\n臺北市使用道路舉辦臨時活動管理辦法\n \n回上一頁\n下方選單\n:::\n公告資訊\n新聞稿及採訪通知\n最新消息\n活動訊息\n職缺徵才\n協助宣傳\n績優人員專區\n體育活動補助\n政府資訊公開\n機關介紹\n首長介紹\n歷史沿革\n組織架構\n業務職掌\n大事紀要\n聯絡/交通資訊\nBanner下載\n國際賽會申辦暨籌辦小組\n臺北市棒球隊\n臺北文化體育園區\n更多\n業務資訊"
+        },
+        {
+          "url": "https://sports.gov.taipei/cp.aspx?n=644585FA35CC0967",
+          "text": "臺北市特定族群體適能指導證照參考名單申請認可計畫",
+          "content": "跳到主要內容區塊\n:::\n臺北市政府體育局中文官網\n網站導覽\n回首頁\nEnglish\n陳情系統\n常見問答\n雙語詞彙\n臺北卡\n公告資訊\n機關介紹\n業務資訊\n業務服務專區\n性別主流化\n場館訊息\n常見問答\n申請案件\n進階搜尋\n小\n中\n大\n分享至 Facebook[另開新視窗]\n分享至 twitter[另開新視窗]\n分享至 line[另開新視窗]\n分享至 email[另開新視窗]\n:::\n 首頁 業務服務專區 臺北市特定族群體適能指導證照參考名單申請認可計畫\n臺北市特定族群體適能指導證照參考名單申請認可計畫\n列印內容\n臺北市特定族群體適能指導證照參考名單申請認可計畫\n\n一、 受理機關：臺北市政府體育局（臺北市松山區南京東路4段10號）\n\n二、 受理對象：本府或本府各機關委託之單位；國民體育法第3條第1、2款之各體育團體；或辦理體育活動之民間團體。\n\n三、 受理期間：每年1-4月、7-10月，分上下半年2梯次受理審核。\n\n四、 應備文件：\n\n(一) 臺北市特定族群體適能指導證照參考名單申請認可表及申請表上所應備文件（如附件）。\n\n(二) 運動指導證照（樣張）。\n\n(三) 其它相關佐證資料。\n\n五"
+        },
+        {
+          "url": "https://sports.gov.taipei/News.aspx?n=BE82F155C8B68FE3&sms=174A537D018A226C",
+          "text": "性別平等專案小組會議紀錄",
+          "content": "跳到主要內容區塊\n:::\n臺北市政府體育局中文官網\n網站導覽\n回首頁\nEnglish\n陳情系統\n常見問答\n雙語詞彙\n臺北卡\n公告資訊\n機關介紹\n業務資訊\n業務服務專區\n性別主流化\n場館訊息\n常見問答\n申請案件\n進階搜尋\n小\n中\n大\n分享至 Facebook[另開新視窗]\n分享至 twitter[另開新視窗]\n分享至 line[另開新視窗]\n分享至 email[另開新視窗]\n:::\n 首頁 性別主流化 性別平等專案小組會議紀錄\n性別平等專案小組會議紀錄\nRSS\nXML\nJSON\n \n列印內容\n標題： 內容：  \n編號\n\t\n標題\n\t\n發布日期\n\n\n1\n\t\n臺北市政府體育局115年性別平等專案小組第1次會議紀錄\n\t\n115-03-09\n\n\n2\n\t\n臺北市政府體育局114年性別平等專案小組第3次會議紀錄\n\t\n115-01-15\n\n\n3\n\t\n臺北市政府體育局114年性別平等專案小組第2次會議紀錄\n\t\n114-11-25\n\n\n4\n\t\n臺北市政府體育局114年性別平等專案小組第1次會議紀錄\n\t\n114-03-18\n\n\n5\n\t\n臺北市政府體育局113年性別平等專案小組第3次會議紀錄\n\t\n114-03-"
+        }
+      ],
+      "lastDeepScrapedAt": "2026-03-25T07:53:33.678157",
+      "deepScrapeStatus": "success",
+      "scrapeConfidenceScore": 67.0,
+      "scrapeVersion": "V4-Practical",
+      "pagesDiscovered": 32,
+      "fullSiteScraped": true
+    },
+    "phone": "02-2570-2330",
+    "accessInfo": {
+      "mrt": {
+        "station": "小巨蛋站"
+      },
+      "bus": [
+        "4406",
+        "9534",
+        "1050",
+        "711",
+        "7020",
+        "222",
+        "630",
+        "000",
+        "8452",
+        "1515",
+        "7544",
+        "115",
+        "400",
+        "905",
+        "1098",
+        "2014",
+        "875",
+        "903",
+        "1802",
+        "556",
+        "288",
+        "279",
+        "707",
+        "700",
+        "282",
+        "500",
+        "902",
+        "113",
+        "306",
+        "307",
+        "2002",
+        "262",
+        "909",
+        "2720",
+        "6384",
+        "275",
+        "668",
+        "277",
+        "248",
+        "675",
+        "906",
+        "605",
+        "1803",
+        "688",
+        "2413",
+        "100",
+        "8889",
+        "967",
+        "3207",
+        "1999",
+        "2570",
+        "047",
+        "652",
+        "727",
+        "2021",
+        "901",
+        "913",
+        "343",
+        "680",
+        "797",
+        "2257",
+        "2330"
+      ]
+    }
+  },
+  {
+    "id": 1109,
+    "name": "台大綜合體育館",
+    "venueType": "運動場地",
+    "city": "台北市",
+    "address": "台北市大安區羅斯福路四段1號",
+    "contactPerson": "場地租借",
+    "contactPhone": "02-3366-3366",
+    "contactEmail": "venue@ntu.edu.tw",
+    "url": "https://www.ntu.edu.tw",
+    "priceHalfDay": 40000,
+    "priceFullDay": 70000,
+    "maxCapacityTheater": 2000,
+    "maxCapacityClassroom": null,
+    "availableTimeWeekday": "09:00-21:00",
+    "availableTimeWeekend": "09:00-18:00",
+    "equipment": "專業音響、燈光",
+    "images": {
+      "main": "https://event.ntu.edu.tw/azalea/2026/images/slide01.jpg",
+      "gallery": [
+        "https://sec.ntu.edu.tw/epaper/images/mainbg.jpg",
+        "https://sec.ntu.edu.tw/schinfo_asp/images/epaper/36304_8260.jpg",
+        "https://sec.ntu.edu.tw/schinfo_asp/images/epaper/36306_9118.jpg",
+        "https://sec.ntu.edu.tw/schinfo_asp/images/epaper/36305_7145.jpg"
+      ],
+      "source": "https://event.ntu.edu.tw/azalea/2026/",
+      "verified": true,
+      "verifiedAt": "2026-03-02T16:20:21.245Z"
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "name": "GRB圖書館亮點實驗室"
+      }
+    ],
+    "lastUpdated": "2026-03-17",
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "phoneSource": "Deep scraper",
+      "phoneUpdatedAt": "2026-03-25T07:53:51.532330",
+      "pdfLinks": [
+        "https://ntuweb.cloud.ntu.edu.tw/ntufocus/2024-2025.pdf#page=43"
+      ],
+      "pdfLinksUpdatedAt": "2026-03-25T07:53:51.532330",
+      "imagesFound": 40,
+      "lastScrapedAt": "2026-03-25T13:55:07.297826",
+      "scrapeStatus": "partial",
+      "roomsSource": "Deep scraper",
+      "roomsUpdatedAt": "2026-03-25T07:53:51.532330",
+      "images": [
+        "https://www.ntu.edu.tw/images/photo-nav-about-cover-1.jpg",
+        "https://www.ntu.edu.tw/images/photo-nav-about-cover-2.jpg",
+        "https://www.ntu.edu.tw/images/photo-nav-about-cover-3.jpg",
+        "https://www.ntu.edu.tw/images/resized/cover-azalea-1366w.jpeg",
+        "https://www.ntu.edu.tw/images/resized/cover-13-1366w.jpeg",
+        "https://www.ntu.edu.tw/images/resized/cover-12-1366w.jpeg",
+        "https://www.ntu.edu.tw/images/index/cover-15-mobile.jpg",
+        "https://www.ntu.edu.tw/images/index/cover-7-mobile.jpg",
+        "https://www.ntu.edu.tw/images/index/btn-banner-scroll-move.svg",
+        "https://www.ntu.edu.tw/images/resized/2465_20260319_top-420w.jpeg"
+      ],
+      "relatedData": [
+        {
+          "url": "https://www.ntu.edu.tw/campus/campus.html#campus03",
+          "text": "網路服務\n\n校園網路、校務信箱帳號申請等相關服務",
+          "content": "跳到主要內容\n:::\n認識臺大\n\n認識臺大\n\n有關臺大行政組織臺大校史地圖與交通資訊資訊公開/年報永續臺大校園環景校務評鑑專區\n教學\n\n教學\n\n學術單位其他教學單位\n研究\n\n研究\n\n臺大研究跨領域研究研究單位研究服務學術典藏政府研究資訊GRB圖書館亮點實驗室\n招生\n校園\n網站導覽\nEnglish\nmyNTU\n使用對象\n學生\n教職員\n校友\n訪客\n創校百年捐款\n搜尋\n:::\n首頁>校園\n校園生活\n\n廣闊而綠意盎然、校園是美好生活的開始\n\n社團\n\n400+\n\n獎助學金\n\n4億+\n\n宿舍\n\n26\n\n生活資訊\n行事曆\n生活便利通\n學生住宿服務\n社團活動資訊\n保健中心門診\n臺大校園傳染病管制網\n學生安全守護網\n交通與停車\n緊急聯絡電話\n場館空間資訊網\n教職員工文康活動\n網路服務\nmyNTU臺大人入口網\nNTU Mail電子郵件服務\niNTU臺大校園智慧行動資訊服務\n臺大校園網路使用問題回報系統\n學習資源\n數位學習網\n臺大學習諮詢\n臺大演講網\n臺大開放式課程\nCoursera\nNTU COOL\n圖書館各項服務\n計中資訊應用課程\n華語學習\n外文學習\n推廣教育\n其他資源\n紫錐花運動\n內政部警政署165反"
+        },
+        {
+          "url": "https://admissions.ntu.edu.tw/zh-hant/news/%f0%9f%93%a2-transfer-admission-2026-international-sophomore-september-entry-opening-soon-2/",
+          "text": "2026年國際生二年級(轉學)9月入學即將開放申請！~2026/3/27",
+          "content": "Skip to content\n\n台大國際事務處\n\nOpen House\n學習\n探索\n費用與獎學金\n申請\nEN\n\nMENU\n\nHome / Explore / Latest News /  2026年國際生二年級(轉學)9月入學開放申請中！\n\n2026.1.28\n\n 2026年國際生二年級(轉學)9月入學開放申請中！\n\n 正在尋找更適合自己的學術方向，或一個真正符合您目標的大學環境嗎？\n\n在臺大，轉學生為校園注入全新視角、大膽的目標與源源不絕的活力。\n\n如果您期待更契合的學術發展、更豐富多元的校園生活，以及通往更廣闊未來的嶄新機會，現在正是加入世界頂尖大學的最佳時刻！ \n\n \n\n 誠摯邀請您參加線上說明會，深入了解申請流程，並即時與我們互動、提問。\n\n 2026 年 3 月 11 日｜18:30–19:30（GMT+8）\n\n 即日起開放報名！\n\n 掃描 QR Code 或點擊連結報名：\n\nhttps://forms.gle/u5kj1CFBRHgVwKzW9\n\n \n\n 申請期間\n\n 2026 年 3 月 2 日（上午 11:00）至 3 月 27 日（下午 4:00）（GMT+8）\n\n"
+        }
+      ],
+      "lastDeepScrapedAt": "2026-03-25T07:53:51.532330",
+      "deepScrapeStatus": "success",
+      "scrapeConfidenceScore": 55.0,
+      "scrapeVersion": "Fast-Parallel",
+      "pagesDiscovered": 4,
+      "fullSiteScraped": true
+    },
+    "phone": "02-3366-3366",
+    "accessInfo": {
+      "parking": {}
+    }
+  },
+  {
+    "id": 1116,
+    "name": "彭園婚宴會館",
+    "venueType": "婚宴場地",
+    "city": "台北市",
+    "address": "台北市林森北路380號",
+    "contactPerson": "婚宴顧問",
+    "contactPhone": "02-2551-9157",
+    "contactEmail": "wedding@pengyuan.com.tw",
+    "url": "https://www.pengyuan.com.tw",
+    "priceHalfDay": 80000,
+    "priceFullDay": 140000,
+    "maxCapacityTheater": 250,
+    "maxCapacityClassroom": 280,
+    "availableTimeWeekday": "11:00-22:00",
+    "availableTimeWeekend": "11:00-22:00",
+    "equipment": "專業音響燈光、投影設備",
+    "images": {
+      "main": "https://www.pengyuan.com.tw/images/serenity.jpg",
+      "gallery": [
+        "https://www.pengyuan.com.tw/upload/pictures/news/5702_first dance(724x 322 像素).jpg",
+        "https://www.pengyuan.com.tw/upload/pictures/news/0259_尾牙春酒 (724x 322 像素).jpg",
+        "https://www.pengyuan.com.tw/upload/pictures/news/1240_一周年視覺 V1_724_322.jpg",
+        "https://www.pengyuan.com.tw/upload/pictures/news/2914_喜憨兒724_0.jpg",
+        "https://www.pengyuan.com.tw/upload/pictures/news/0212_拍拍印970_0.jpg",
+        "https://www.pengyuan.com.tw/upload/pictures/news/0815_2025首看下定.jpg"
+      ],
+      "source": "https://www.pengyuan.com.tw",
+      "verified": true,
+      "verifiedAt": "2026-03-07T21:12:58.373328",
+      "updateReason": "批量更新：修正主照片錯誤",
+      "needsUpdate": false,
+      "note": "從官網爬取真實照片",
+      "lastUpdated": "2026-03-07"
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "name": "彭園婚宴會館 - 湘菜、婚宴場地、尾牙餐廳",
+        "floor": "2樓",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "彭園婚宴會館 - 湘菜、婚宴場地、尾牙餐廳",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      }
+    ],
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "pageType": "Static/SSR",
+      "pageTypeDetectedAt": "2026-03-25T16:35:16.277102",
+      "homepage_links": {
+        "meeting": 2,
+        "pricing": 0,
+        "rules": 1,
+        "access": 0,
+        "floor_plan": 0
+      },
+      "lastScrapedAt": "2026-03-25T16:35:17.242589",
+      "scrapePages": 1
+    },
+    "phone": "02-2551-9157",
+    "accessInfo": {
+      "mrt": {
+        "station": "捷運雙連站"
+      }
+    },
+    "scraped_at": "2026-03-25T16:35:15.213616",
+    "scrape_version": "v2_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.424137",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1121,
+    "name": "神旺大飯店",
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市大安區忠孝東路四段172號",
+    "contactPerson": "宴會部",
+    "contactPhone": "02-2772-2121",
+    "contactEmail": "events@sanwant.com",
+    "url": "https://www.sanwant.com",
+    "priceHalfDay": 85000,
+    "priceFullDay": 160000,
+    "maxCapacityTheater": 240,
+    "maxCapacityClassroom": 140,
+    "availableTimeWeekday": "09:00-22:00",
+    "availableTimeWeekend": "09:00-22:00",
+    "equipment": "專業音響、投影設備、麥克風",
+    "images": {
+      "main": "https://www.sanwant.com/wp-content/uploads/2023/01/sanwant-logo.png",
+      "gallery": [
+        "https://www.sanwant.com/wp-content/uploads/2023/01/sanwant-logo.png"
+      ],
+      "source": "https://www.sanwant.com",
+      "verified": true,
+      "verifiedAt": "2026-03-23T00:39:12.597171Z",
+      "note": "手動更新：神旺商務酒店，位於大安區，提供會議場地服務",
+      "lastUpdated": "2026-03-23",
+      "needsUpdate": false
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "name": "關於我們 品牌故事 主廚介紹 餐廳位置"
+      },
+      {
+        "name": "餐廳位置"
+      }
+    ],
+    "lastUpdated": "2026-03-23",
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "pageType": "Static/SSR",
+      "pageTypeDetectedAt": "2026-03-25T16:35:19.459295",
+      "homepage_links": {
+        "meeting": 0,
+        "pricing": 0,
+        "rules": 0,
+        "access": 0,
+        "floor_plan": 0
+      },
+      "lastScrapedAt": "2026-03-25T16:35:19.474205",
+      "scrapePages": 1
+    },
+    "scraped_at": "2026-03-25T16:35:19.243162",
+    "scrape_version": "v2_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.424234",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1122,
+    "name": "維多麗亞酒店",
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市104中山區敬業四路168號",
+    "contactPerson": "宴會部",
+    "contactPhone": "+886-2-8502-0000",
+    "contactEmail": "service@grandvictoria.com.tw",
+    "url": "https://www.grandvictoria.com.tw/",
+    "priceHalfDay": 60000,
+    "priceFullDay": 300000,
+    "maxCapacityTheater": 300,
+    "maxCapacityClassroom": 240,
+    "availableTimeWeekday": "09:00-22:00",
+    "availableTimeWeekend": "09:00-22:00",
+    "equipment": "專業音響、投影設備、舞台",
+    "images": {
+      "main": "https://grandvictoria.com.tw/wp-content/uploads/sites/237/2022/05/官網-首圖2.jpg",
+      "gallery": [
+        "https://grandvictoria.com.tw/wp-content/uploads/sites/237/2022/05/官網-首圖2.jpg",
+        "https://grandvictoria.com.tw/wp-content/uploads/sites/237/2023/05/官網logo.png"
+      ],
+      "source": "https://www.grandvictoria.com.tw/",
+      "verified": true,
+      "verifiedAt": "2026-03-23T00:38:36.451717Z",
+      "note": "從官網爬取：挑高8米現代時尚英式劇院宴會廳，3個宴會廳（大宴會廳1F、維多麗亞廳3F、天璽廳3F）",
+      "lastUpdated": "2026-03-23",
+      "needsUpdate": false
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "name": "雙囍中餐廳 營運調整公告"
+      },
+      {
+        "name": "LA FESTA餐廳"
+      },
+      {
+        "name": "雙囍中餐廳"
+      },
+      {
+        "name": "大宴會廳 1F"
+      },
+      {
+        "name": "維多麗亞廳 3F"
+      },
+      {
+        "name": "天璽廳 3F"
+      },
+      {
+        "name": "N°168 PRIME-台北“米其林指南”推薦餐廳"
+      },
+      {
+        "name": "雙囍-粵菜為底的多元中式料理餐廳"
+      },
+      {
+        "name": "挑高8米現代時尚英式劇院宴會廳"
+      },
+      {
+        "name": "4處戶外證婚場地，宴會廳可延伸至戶外花園"
+      },
+      {
+        "name": "婚宴宴會 大宴會廳 1F 天璽廳 3F 婚宴場地 維多麗亞廳 3F"
+      },
+      {
+        "name": "餐飲美饌 N°168 PRIME 牛排館(大直本館) LA FESTA餐廳 雙囍中餐廳"
+      },
+      {
+        "name": "媒體資訊 維多麗亞酒店加入『全球奢華精品酒店聯盟』-SLH 雙囍中餐廳營運調整公告"
+      },
+      {
+        "name": "雙囍中餐廳營運調整公告"
+      }
+    ],
+    "lastUpdated": "2026-03-23",
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "pageType": "WordPress API",
+      "pageTypeDetectedAt": "2026-03-25T16:35:22.152250",
+      "homepage_links": {
+        "meeting": 5,
+        "pricing": 2,
+        "rules": 0,
+        "access": 2,
+        "floor_plan": 0
+      },
+      "lastScrapedAt": "2026-03-25T16:35:22.429230",
+      "scrapePages": 1
+    },
+    "phone": "+886-2-8502-0000",
+    "email": "service@grandvictoria.com.tw",
+    "accessInfo": {
+      "mrt": "<meta itemprop=\"name\" content=\"交通位置 - 維多麗亞酒店  鄰近捷運劍南站  飯店在 台北市\"/>",
+      "bus": "公車 可搭乘28、222、247、267、268、內湖幹線(287)、620、646、72、902、紅2、藍7、藍26等數十路公車可到達美麗華站，步行約3分鐘即到達維多麗亞酒店",
+      "parking": "<meta itemprop=\"description\" content=\"交通位置 維多麗亞酒店  鄰近捷運劍南站 - 開車（本飯店備有停車場）  中山高方向過林口交流道後靠右側二車道行駛，順勢上高"
+    },
+    "scraped_at": "2026-03-25T16:35:21.475264",
+    "scrape_version": "v2_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.424997",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1124,
+    "name": "花園大酒店",
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市中正區中華路二段1號",
+    "contactPerson": "宴會部",
+    "contactPhone": "0372671980",
+    "contactEmail": "fo@taipeigarden.com.tw",
+    "url": "https://www.taipeigarden.com.tw",
+    "priceHalfDay": 75000,
+    "priceFullDay": 140000,
+    "maxCapacityTheater": 220,
+    "maxCapacityClassroom": 130,
+    "availableTimeWeekday": "09:00-22:00",
+    "availableTimeWeekend": "09:00-22:00",
+    "equipment": "投影設備、音響系統、麥克風",
+    "images": {
+      "main": "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/05/台北花園大酒店-國際廳-婚宴.jpg",
+      "gallery": [
+        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/05/台北花園大酒店-國際廳-婚宴.jpg",
+        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/05/台北花園大酒店-飯店大廳.jpg",
+        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2024/01/Picture3.png"
+      ],
+      "source": "https://www.taipeigarden.com.tw",
+      "verified": true,
+      "verifiedAt": "2026-03-23T00:38:36.451794Z",
+      "note": "從官網爬取：2023年五星级酒店，挑高7米寬敞無柱多功能宴會廳，241間客房",
+      "lastUpdated": "2026-03-23",
+      "needsUpdate": false
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "name": "美饌饗宴 饗聚廚房 PRIME ONE 牛排館 翠庭中餐廳 花園thai thai 花比麵包坊"
+      },
+      {
+        "name": "翠庭中餐廳"
+      }
+    ],
+    "lastUpdated": "2026-03-23",
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "pageType": "WordPress API",
+      "pageTypeDetectedAt": "2026-03-25T16:35:24.460640",
+      "homepage_links": {
+        "meeting": 5,
+        "pricing": 0,
+        "rules": 0,
+        "access": 1,
+        "floor_plan": 1
+      },
+      "lastScrapedAt": "2026-03-25T16:35:24.882604",
+      "scrapePages": 1
+    },
+    "phone": "02-8978-6688",
+    "email": "fo@taipeigarden.com.tw",
+    "accessInfo": {
+      "mrt": "交通網絡亦十分便捷，距離台北火車站僅約5分鐘車程，徒步至小南門捷運站約3分鐘路程、西門捷運站也僅需5分鐘路程，不論是商務洽公或觀光度假，相信台北花園大酒店都能給您一個難忘的住宿經驗"
+    },
+    "scraped_at": "2026-03-25T16:35:24.429571",
+    "scrape_version": "v2_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.425145",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1125,
+    "name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "venueType": "展演場地",
+    "city": "台北市",
+    "address": "台北市中正區八德路一段1號",
+    "contactPerson": "場地租借服務",
+    "contactPhone": "0810183911",
+    "contactEmail": "service@huashan1914.com",
+    "url": "https://www.huashan1914.com",
+    "priceHalfDay": 25000,
+    "priceFullDay": 45000,
+    "maxCapacityTheater": 350,
+    "maxCapacityClassroom": 200,
+    "availableTimeWeekday": "09:00-22:00",
+    "availableTimeWeekend": "09:00-22:00",
+    "equipment": "基本燈光、空調、電力供應",
+    "images": {
+      "main": "https://media.huashan1914.com/WebUPD/huashan1914/Index/%E6%89%BE%E6%B4%BB%E5%8B%95(1).png",
+      "gallery": [
+        "https://media.huashan1914.com/WebUPD/huashan1914/Index/%E6%89%BE%E6%B4%BB%E5%8B%95(1).png",
+        "https://media.huashan1914.com/WebUPD/huashan1914/Index/20210810_%E5%AE%98%E7%B6%B2%E6%8F%9B%E5%9C%96-08.png",
+        "https://media.huashan1914.com/WebUPD/huashan1914/Index/720%E7%9C%8B%E8%A6%8B%E8%8F%AF%E5%B1%B1.png",
+        "https://media.huashan1914.com/WebUPD/huashan1914/Index/%E7%B7%9A%E4%B8%8A%E5%AE%A2%E6%9C%8D.png",
+        "https://media.huashan1914.com/WebUPD/huashan1914/Index/%E5%B8%B8%E8%A6%8B%E5%95%8F%E9%A1%8C2_23011910283762374.png"
+      ],
+      "source": "https://www.huashan1914.com",
+      "verified": true,
+      "verifiedAt": "2026-03-01T23:32:42.320Z"
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "name": "東2A"
+      },
+      {
+        "name": "東2B"
+      },
+      {
+        "name": "東2C"
+      },
+      {
+        "name": "東2D"
+      },
+      {
+        "name": "東2A館"
+      },
+      {
+        "name": "東2B館"
+      },
+      {
+        "name": "東2C館"
+      },
+      {
+        "name": "東2D館"
+      },
+      {
+        "name": "中7B"
+      },
+      {
+        "name": "中7A"
+      },
+      {
+        "name": "中5B"
+      },
+      {
+        "name": "中3館"
+      },
+      {
+        "name": "中4A"
+      },
+      {
+        "name": "中4B"
+      },
+      {
+        "name": "西5之2"
+      },
+      {
+        "name": "西5之1"
+      },
+      {
+        "name": "西1"
+      },
+      {
+        "name": "西2"
+      },
+      {
+        "name": "西4"
+      },
+      {
+        "name": "烏梅劇院"
+      },
+      {
+        "name": "樹前草地"
+      },
+      {
+        "name": "中3館前廣場"
+      },
+      {
+        "name": "忠孝三角"
+      },
+      {
+        "name": "華山劇場"
+      },
+      {
+        "name": "金八廣場"
+      },
+      {
+        "name": "果酒練舞場"
+      }
+    ],
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "pageType": "Static/SSR",
+      "pageTypeDetectedAt": "2026-03-25T16:35:36.053978",
+      "homepage_links": {
+        "meeting": 1,
+        "pricing": 0,
+        "rules": 0,
+        "access": 3,
+        "floor_plan": 1
+      },
+      "lastScrapedAt": "2026-03-25T16:35:53.641907",
+      "scrapePages": 1
+    },
+    "phone": "0810183911",
+    "accessInfo": {
+      "mrt": "<div class=\"card-title\"><img alt=\"\" src=\"../../Websites/huashan1914/images/traffic-03.png\" /> <span>",
+      "bus": "<div class=\"card-title\"><img alt=\"\" src=\"../../Websites/huashan1914/images/traffic-02.png\" /> <span>",
+      "parking": "停車場入口處在忠孝東路上"
+    },
+    "scraped_at": "2026-03-25T16:35:26.883180",
+    "scrape_version": "v2_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.426542",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1126,
+    "name": "豪景大酒店",
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市中正區中華路一段41號",
+    "contactPerson": "宴會部",
+    "contactPhone": "02-2311-3131",
+    "contactEmail": "sales@riverview.com.tw",
+    "url": "https://www.riverview.com.tw/",
+    "priceHalfDay": 60000,
+    "priceFullDay": 110000,
+    "maxCapacityTheater": 180,
+    "maxCapacityClassroom": 110,
+    "availableTimeWeekday": "09:00-22:00",
+    "availableTimeWeekend": "09:00-22:00",
+    "equipment": "投影設備、音響系統、麥克風",
+    "images": {
+      "main": "https://example.com/main.jpg",
+      "gallery": [
+        "https://example.com/photo1.jpg",
+        "https://example.com/photo2.jpg"
+      ],
+      "source": "https://example.com",
+      "verified": true,
+      "verifiedAt": "2026-03-23T08:46:03.064286Z",
+      "note": "測試更新",
+      "lastUpdated": "2026-03-23",
+      "needsUpdate": false
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "name": "會議室",
+        "floor": "12樓",
+        "capacity": null,
+        "area": "",
+        "equipment": "麥克風, 螢幕, 白板"
+      },
+      {
+        "name": "會議室",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "萊茵廳",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "星河廳",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "麗景廳",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "教室型",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "麗景廳",
+        "floor": "12樓",
+        "capacity": null,
+        "area": "",
+        "equipment": "麥克風, 螢幕, 白板"
+      }
+    ],
+    "lastUpdated": "2026-03-23",
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "pageType": "WordPress API",
+      "pageTypeDetectedAt": "2026-03-25T16:35:57.296206",
+      "homepage_links": {
+        "meeting": 2,
+        "pricing": 0,
+        "rules": 0,
+        "access": 1,
+        "floor_plan": 0
+      },
+      "lastScrapedAt": "2026-03-25T16:35:58.940411",
+      "scrapePages": 1
+    },
+    "phone": "02-2311-3131",
+    "email": "sales@riverview.com.tw",
+    "accessInfo": {
+      "mrt": "乘車至臺北轉運站後，可搭乘捷運至西門站(6號出口成都路)，再步行約10分鐘至酒店，或搭乘計程車至酒店，車程約5-10分鐘",
+      "parking": "</div></div></div><div class=\"vc_col-sm-6 wpb_column vc_column_container animate_afb\" style=\"animati"
+    },
+    "scraped_at": "2026-03-25T16:35:55.642576",
+    "scrape_version": "v2_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.427276",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1128,
+    "name": "集思台大會議中心(NTUCC)",
+    "venueType": "會議中心",
+    "city": "台北市",
+    "address": "台北市大安區羅斯福路四段85號",
+    "contactPerson": "場地租借",
+    "contactPhone": "02-3366-9366",
+    "contactEmail": "meeting@gisgroup.com",
+    "url": "https://www.meeting.com.tw/ntu/",
+    "priceHalfDay": 12000,
+    "priceFullDay": 22000,
+    "maxCapacityTheater": 400,
+    "maxCapacityClassroom": 100,
+    "availableTimeWeekday": "08:00-21:00",
+    "availableTimeWeekend": "休館",
+    "equipment": "專業投影設備、音響",
+    "images": {
+      "main": "https://www.meeting.com.tw/ntu/images/floor-ntu.png",
+      "gallery": [
+        "https://images.unsplash.com/photo-1497215842964-222b430dc094?w=800",
+        "https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?w=800"
+      ],
+      "floorPlan": "",
+      "needsUpdate": false,
+      "note": "照片來源：Unsplash（高品質示意照片）",
+      "lastUpdated": "2026-03-17",
+      "source": "https://www.meeting.com.tw/ntu/index.php",
+      "verified": true,
+      "verifiedAt": "2026-03-02T16:20:21.245Z"
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "id": "1128-01",
+        "name": "國際會議廳",
+        "capacity": null,
+        "area": 253.6,
+        "areaUnit": "坪",
+        "price": {
+          "weekday": 44000,
+          "holiday": 48000
+        },
+        "source": "pdf_20250401"
+      },
+      {
+        "id": "1128-02",
+        "name": "蘇格拉底廳",
+        "capacity": null,
+        "area": 59.8,
+        "areaUnit": "坪",
+        "price": {
+          "weekday": 19000,
+          "holiday": 21000
+        },
+        "source": "pdf_20250401"
+      },
+      {
+        "id": "1128-03",
+        "name": "柏拉圖廳",
+        "capacity": null,
+        "area": 69.3,
+        "areaUnit": "坪",
+        "price": {
+          "weekday": 16000,
+          "holiday": 18000
+        },
+        "source": "pdf_20250401"
+      },
+      {
+        "id": "1128-04",
+        "name": "講者休息室",
+        "capacity": null,
+        "area": 5.1,
+        "areaUnit": "坪",
+        "price": {
+          "weekday": 2500,
+          "holiday": 3000
+        },
+        "source": "pdf_20250401"
+      },
+      {
+        "id": "1128-05",
+        "name": "洛克廳",
+        "capacity": null,
+        "area": 37.7,
+        "areaUnit": "坪",
+        "price": {
+          "weekday": 10000,
+          "holiday": 11000
+        },
+        "source": "pdf_20250401"
+      },
+      {
+        "id": "1128-06",
+        "name": "亞歷山大廳",
+        "capacity": null,
+        "area": 31.3,
+        "areaUnit": "坪",
+        "price": {
+          "weekday": 7000,
+          "holiday": 8000
+        },
+        "source": "pdf_20250401"
+      },
+      {
+        "id": "1128-07",
+        "name": "阿基米德廳",
+        "capacity": null,
+        "area": 31.3,
+        "areaUnit": "坪",
+        "price": {
+          "weekday": 7000,
+          "holiday": 8000
+        },
+        "source": "pdf_20250401"
+      },
+      {
+        "id": "1128-08",
+        "name": "亞里斯多德廳",
+        "capacity": null,
+        "area": 10.5,
+        "areaUnit": "坪",
+        "price": {
+          "weekday": 3500,
+          "holiday": 4000
+        },
+        "source": "pdf_20250401"
+      },
+      {
+        "id": "1128-09",
+        "name": "達文西廳",
+        "capacity": null,
+        "area": 41.4,
+        "areaUnit": "坪",
+        "price": {
+          "weekday": 6500,
+          "holiday": 7000
+        },
+        "source": "pdf_20250401"
+      },
+      {
+        "id": "1128-10",
+        "name": "拉斐爾廳",
+        "capacity": null,
+        "area": 41.4,
+        "areaUnit": "坪",
+        "price": {
+          "weekday": 8500,
+          "holiday": 9500
+        },
+        "source": "pdf_20250401"
+      },
+      {
+        "id": "1128-11",
+        "name": "米開朗基羅廳",
+        "capacity": null,
+        "area": 41.4,
+        "areaUnit": "坪",
+        "price": {
+          "weekday": 8500,
+          "holiday": 9500
+        },
+        "source": "pdf_20250401"
+      },
+      {
+        "id": "1128-12",
+        "name": "尼采廳",
+        "capacity": null,
+        "area": 41.4,
+        "areaUnit": "坪",
+        "price": {
+          "weekday": 6500,
+          "holiday": 7000
+        },
+        "source": "pdf_20250401"
+      }
+    ],
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "validated_url": "https://www.meeting.com.tw/ntu/",
+      "pageType": "Static/SSR",
+      "pageTypeDetectedAt": "2026-03-25T17:51:59.570726",
+      "homepage_links": {
+        "meeting": 5,
+        "pricing": 1,
+        "rules": 0,
+        "access": 2,
+        "floor_plan": 0
+      },
+      "lastScrapedAt": "2026-03-25T17:52:00.064939",
+      "scrapePages": 1
+    },
+    "email": "meeting@gisgroup.com",
+    "accessInfo": {
+      "parking": "<meta name=\"description\" content=\"集思交通部國際會議中心位於仁愛路與杭州南路口，為公辦民營之會議場地，擁有獨立出入動線及附屬停車場地",
+      "mrt": "<div class=\"col-md-2 col-sm-2 col-xs-2\"><img src=\"../images/common/icon-location-01.svg\" alt=\"捷運\"/><",
+      "bus": "<div class=\"col-md-2 col-sm-2 col-xs-2\"><img src=\"../images/common/icon-location-02.svg\" alt=\"公車\"/><"
+    },
+    "scraped_at": "2026-03-25T17:51:59.423136",
+    "scrape_version": "v3_complete",
+    "pricing": {
+      "prices": [
+        "21000",
+        "19000"
+      ]
+    },
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.428601",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1129,
+    "name": "青青婚宴會館",
+    "venueType": "婚宴場地",
+    "city": "台北市",
+    "address": "台北市士林區至善路2段266巷",
+    "contactPerson": "婚宴顧問",
+    "contactPhone": "02-8667-6767",
+    "contactEmail": "wedding@qingqing.com.tw",
+    "url": "https://www.77-67.com/",
+    "priceHalfDay": 60000,
+    "priceFullDay": 100000,
+    "maxCapacityTheater": 400,
+    "maxCapacityClassroom": 220,
+    "availableTimeWeekday": "11:00-22:00",
+    "availableTimeWeekend": "11:00-22:00",
+    "equipment": "專業音響燈光",
+    "images": {
+      "main": "https://www.77-67.com/wp-content/uploads/2024/10/青青食尚花園會館-cdn.jpg",
+      "gallery": [
+        "https://www.77-67.com/wp-content/uploads/2024/10/青青食尚花園會館-cdn.jpg",
+        "https://www.77-67.com/wp-content/uploads/2024/10/青青格麗絲莊園＿icn.jpg",
+        "https://www.77-67.com/wp-content/uploads/2024/10/青青風車莊園.jpg",
+        "https://www.77-67.com/wp-content/uploads/2024/10/青青南港星光wedding.jpg",
+        "https://www.77-67.com/wp-content/uploads/2023/12/青青戶外婚禮06-1.jpg",
+        "https://www.77-67.com/wp-content/uploads/2024/08/460651929_1042045757923961_4932139221916449438_n.jpg",
+        "https://www.77-67.com/wp-content/uploads/2025/04/20250321-0099-1.jpg",
+        "https://www.77-67.com/wp-content/uploads/2023/10/img-section-5_01_v2.jpg",
+        "https://www.77-67.com/wp-content/uploads/2023/12/青青食尚花園會館戶外婚禮場景04.jpg",
+        "https://www.77-67.com/wp-content/uploads/2023/12/青青星光Wedding場景02.jpg"
+      ],
+      "source": "https://www.77-67.com/",
+      "verified": true,
+      "verifiedAt": "2026-03-23T01:01:41.423309Z",
+      "note": "從官網爬取：青青國際婚宴餐飲集團，自家人辦婚禮的心，台北青青食尚花園會館，多樣獨特的婚禮服務，花園婚禮、教堂婚禮、戶外場景",
+      "lastUpdated": "2026-03-23",
+      "needsUpdate": false
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "name": "凱薩廳神木庭院"
+      },
+      {
+        "name": "香榭廳"
+      },
+      {
+        "name": "法頌廳"
+      },
+      {
+        "name": "維也納廳"
+      },
+      {
+        "name": "巴洛克廳"
+      },
+      {
+        "name": "普羅旺斯廳"
+      },
+      {
+        "name": "凱特廳"
+      },
+      {
+        "name": "凱旋廳"
+      },
+      {
+        "name": "愛麗絲廳"
+      },
+      {
+        "name": "富城廳"
+      },
+      {
+        "name": "樹廈廳"
+      },
+      {
+        "id": "1129-12",
+        "name": "凱薩廳",
+        "source": "list"
+      }
+    ],
+    "lastUpdated": "2026-03-23",
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "pageType": "WordPress API",
+      "pageTypeDetectedAt": "2026-03-25T16:36:05.030655",
+      "homepage_links": {
+        "meeting": 5,
+        "pricing": 0,
+        "rules": 0,
+        "access": 0,
+        "floor_plan": 0
+      },
+      "lastScrapedAt": "2026-03-25T16:36:07.265218",
+      "scrapePages": 1
+    },
+    "email": "webshop@77-67.com",
+    "scraped_at": "2026-03-25T16:36:03.350317",
+    "scrape_version": "v2_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.429166",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1334,
+    "name": "台北中山運動中心",
+    "venueType": "運動場地",
+    "city": "台北市",
+    "address": "台北市中山區中山北路二段44巷2號",
+    "contactPerson": "場地租借",
+    "contactPhone": "02-2581-1060",
+    "contactEmail": "cssc@cyc.tw",
+    "url": "https://cssc.cyc.org.tw/",
+    "priceHalfDay": 3000,
+    "priceFullDay": 5500,
+    "maxCapacityTheater": 55,
+    "maxCapacityClassroom": 32,
+    "availableTimeWeekday": "06:00-22:00",
+    "availableTimeWeekend": "06:00-22:00",
+    "equipment": "音響、空調",
+    "images": {
+      "main": "https://cssc.cyc.org.tw/upload/banner/粉專封面頁.jpg",
+      "gallery": [
+        "https://cssc.cyc.org.tw/upload/venue_logo/中山.jpg",
+        "https://cssc.cyc.org.tw/images/activity.jpg",
+        "https://cssc.cyc.org.tw/upload/banner/LINE_ALBUM_樂活_第四梯_728～81_250802_61.jpg"
+      ],
+      "floorPlan": "",
+      "needsUpdate": false,
+      "note": "使用官網照片和會議室照片",
+      "lastUpdated": "2026-03-23",
+      "source": "https://cssc.cyc.org.tw/",
+      "verified": true,
+      "verifiedAt": "2026-03-23T08:57:36.577207Z"
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "name": "多功能活動室",
+        "capacity": 55,
+        "area": "約40坪",
+        "layout": "活動型",
+        "price": "每小時 1,500 元起",
+        "equipment": "音響設備、投影設備",
+        "photo": "https://cssc.cyc.org.tw/images/activity.jpg",
+        "id": "1334-01"
+      },
+      {
+        "name": "會議室",
+        "capacity": 30,
+        "area": "約15坪",
+        "layout": "會議型",
+        "price": "每小時 800 元起",
+        "equipment": "投影設備、白板",
+        "photo": "https://cssc.cyc.org.tw/images/meeting.jpg",
+        "id": "1334-02"
+      }
+    ],
+    "lastUpdated": "2026-03-23",
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "phoneSource": "Deep scraper",
+      "phoneUpdatedAt": "2026-03-25T07:58:56.946315",
+      "emailSource": "Deep scraper",
+      "emailUpdatedAt": "2026-03-25T07:58:56.946315",
+      "imagesFound": 12,
+      "lastScrapedAt": "2026-03-25T13:55:07.297865",
+      "scrapeStatus": "verified",
+      "rulesAndDocs": {
+        "has_floor_plan": true
+      },
+      "rulesAndDocsUpdatedAt": "2026-03-25T07:58:56.946315",
+      "images": [
+        "https://cssc.cyc.org.tw/contents/frontend/images/fb0.png",
+        "https://cssc.cyc.org.tw/contents/frontend/images/number.png",
+        "https://cssc.cyc.org.tw/upload/banner/TRX%E5%88%8A%E9%A0%AD3.png",
+        "https://cssc.cyc.org.tw/upload/banner/DSC0990714.png",
+        "https://cssc.cyc.org.tw/upload/banner/LINE_ALBUM_%E6%A8%82%E6%B4%BB_%E7%AC%AC%E5%9B%9B%E6%A2%AF_728%EF%BD%9E81_250802_61.jpg",
+        "https://cssc.cyc.org.tw/upload/banner/222222.jpg",
+        "https://cssc.cyc.org.tw/contents/frontend/images/bg-shoes.png",
+        "https://cssc.cyc.org.tw/contents/frontend/images/bg-phone.png",
+        "https://cssc.cyc.org.tw/contents/frontend/images/arrow1.png",
+        "https://cssc.cyc.org.tw/contents/frontend/images/arrow2.png"
+      ],
+      "relatedData": [
+        {
+          "url": "http://booking.tpsc.sporetrofit.com/",
+          "text": "臺北市運動中心場地預約",
+          "content": "臺北市運動中心預約系統 \n我要預約\n \n註冊\n \n登入\n \n場地須知\n \n預約須知\n APP下載\n語系: 中文(繁體)\n先選擇運動中心與運動類型選擇預約日期選擇預約時段確認預約\n\n您選擇的是：[您尚未選擇區域] - [您尚未選擇運動類型]\n\n所有運動中心\n中正\n內湖\n北投\n大安\n大同\n士林\n松山\n萬華\n文山\n信義\n中山\n運動中心 介紹\n游泳池及健身房即時人流\n內湖\n松山\n北投\n萬華\n中正\n中山\n士林\n南港\n文山\n信義\n大同\n大安\n\n© 2017-2025 All Rights Reserved. 智聯運動科技"
+        },
+        {
+          "url": "https://scr.cyc.org.tw/tp01.aspx",
+          "text": "場地預訂",
+          "content": "首頁 | 會員註冊/登入 | 回官網 | Facebook 粉絲團\n\n\n\n\n\n\n最新消息\n\t\n\t\t\n\t\t\n\t\t\n\n本系統建議Google Chrome瀏覽器使用"
+        }
+      ],
+      "lastDeepScrapedAt": "2026-03-25T07:58:56.946315",
+      "deepScrapeStatus": "success",
+      "scrapeConfidenceScore": 85.0,
+      "scrapeVersion": "Fast-Parallel",
+      "pagesDiscovered": 9,
+      "fullSiteScraped": true
+    },
+    "phone": "02-2581-1060",
+    "email": "cssc@cyc.tw",
+    "accessInfo": {
+      "mrt": {
+        "station": "運行天宮站"
+      },
+      "bus": [
+        "280",
+        "527",
+        "306",
+        "150",
+        "505",
+        "6000",
+        "1717",
+        "247",
+        "282",
+        "605",
+        "220",
+        "636",
+        "811",
+        "518",
+        "2581",
+        "539",
+        "3000",
+        "109",
+        "612",
+        "290",
+        "219",
+        "638",
+        "288",
+        "797",
+        "9141",
+        "261",
+        "203",
+        "260",
+        "2560",
+        "1060",
+        "266",
+        "643",
+        "800",
+        "659",
+        "214",
+        "227",
+        "226",
+        "1000",
+        "642",
+        "277",
+        "4785",
+        "222",
+        "100",
+        "279",
+        "317",
+        "292",
+        "218",
+        "310",
+        "287",
+        "820",
+        "221",
+        "4894"
+      ],
+      "parking": {
+        "spaces": 219
+      }
+    }
+  },
+  {
+    "id": 1448,
+    "name": "台北國際會議中心(TICC)",
+    "venueType": "會議中心",
+    "city": "台北市",
+    "address": "台北市信義區信義路五段1號",
+    "contactPerson": "",
+    "contactPhone": "02-2725-5200",
+    "contactEmail": "ticc@taitra.org.tw",
+    "url": "https://www.ticc.com.tw/",
+    "priceHalfDay": 159000,
+    "priceFullDay": 170000,
+    "maxCapacityTheater": 3100,
+    "maxCapacityClassroom": null,
+    "availableTimeWeekday": "",
+    "availableTimeWeekend": "",
+    "equipment": "",
+    "images": {
+      "main": "https://www.ticc.com.tw/wSite/public/Img/f1687945050916.jpg",
+      "gallery": [
+        "https://www.ticc.com.tw/wSite/public/Img/f1687945050916.jpg",
+        "https://www.ticc.com.tw/wSite/public/Img/f1687945053932.jpg",
+        "https://www.ticc.com.tw/wSite/public/Img/f1687945057150.jpg",
+        "https://www.ticc.com.tw/wSite/public/Img/f1687945060025.jpg",
+        "https://www.ticc.com.tw/wSite/public/Img/f1687945063635.jpg",
+        "https://www.ticc.com.tw/wSite/public/Img/f1687945066135.jpg"
+      ],
+      "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
+      "verified": true,
+      "verifiedAt": "2026-03-02T09:52:23.503Z",
+      "needsUpdate": false,
+      "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
+      "lastUpdated": "2026-03-17"
+    },
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂全場",
+        "capacityTheater": 973,
+        "capacityClassroom": 899,
+        "capacityU": 170,
+        "areaSqm": 973,
+        "areaPing": 899,
+        "dimensions": null,
+        "priceWeekday": 3100,
+        "priceWeekend": 2973,
+        "priceExhibition": 159000,
+        "source": "pdf_v2_complete"
+      },
+      {
+        "name": "大會堂半場",
+        "capacityTheater": null,
+        "capacityClassroom": null,
+        "capacityU": null,
+        "areaSqm": null,
+        "areaPing": null,
+        "dimensions": null,
+        "priceWeekday": null,
+        "priceWeekend": null,
+        "priceExhibition": null,
+        "source": "pdf_v2_complete"
+      },
+      {
+        "name": "101 全室",
+        "capacityTheater": 744,
+        "capacityClassroom": 720,
+        "capacityU": 101,
+        "areaSqm": null,
+        "areaPing": null,
+        "dimensions": null,
+        "priceWeekday": null,
+        "priceWeekend": null,
+        "priceExhibition": null,
+        "source": "pdf_v2_complete"
+      },
+      {
+        "name": "744",
+        "capacityTheater": 480,
+        "capacityClassroom": null,
+        "capacityU": null,
+        "areaSqm": null,
+        "areaPing": null,
+        "dimensions": null,
+        "priceWeekday": null,
+        "priceWeekend": null,
+        "priceExhibition": null,
+        "source": "pdf_v2_complete"
+      },
+      {
+        "name": "648",
+        "capacityTheater": 640,
+        "capacityClassroom": 500,
+        "capacityU": 256,
+        "areaSqm": 640,
+        "areaPing": 193,
+        "dimensions": "25.8×25.3×5.6",
+        "priceWeekday": 67000,
+        "priceWeekend": 80000,
+        "priceExhibition": 87500,
+        "source": "pdf_v2_complete"
+      },
+      {
+        "name": "101A/D",
+        "capacityTheater": 500,
+        "capacityClassroom": 148,
+        "capacityU": 120,
+        "areaSqm": 148,
+        "areaPing": 44,
+        "dimensions": "12.9×11.5×5.6",
+        "priceWeekday": 18000,
+        "priceWeekend": 21000,
+        "priceExhibition": 23500,
+        "source": "pdf_v2_complete"
+      },
+      {
+        "name": "101B/C",
+        "capacityTheater": 176,
+        "capacityClassroom": 152,
+        "capacityU": 120,
+        "areaSqm": 176,
+        "areaPing": 53,
+        "dimensions": "12.9×13.7×5.6",
+        "priceWeekday": 22000,
+        "priceWeekend": 27000,
+        "priceExhibition": 29000,
+        "source": "pdf_v2_complete"
+      },
+      {
+        "name": "101AB/CD",
+        "capacityTheater": 372,
+        "capacityClassroom": 272,
+        "capacityU": null,
+        "areaSqm": null,
+        "areaPing": null,
+        "dimensions": null,
+        "priceWeekday": null,
+        "priceWeekend": null,
+        "priceExhibition": null,
+        "source": "pdf_v2_complete"
+      },
+      {
+        "name": "372",
+        "capacityTheater": 208,
+        "capacityClassroom": null,
+        "capacityU": null,
+        "areaSqm": null,
+        "areaPing": null,
+        "dimensions": null,
+        "priceWeekday": null,
+        "priceWeekend": null,
+        "priceExhibition": null,
+        "source": "pdf_v2_complete"
+      },
+      {
+        "name": "340",
+        "capacityTheater": 326,
+        "capacityClassroom": 128,
+        "capacityU": 98,
+        "areaSqm": 326,
+        "areaPing": 98,
+        "dimensions": "12.9×25.3×5.6",
+        "priceWeekday": 39000,
+        "priceWeekend": 45000,
+        "priceExhibition": 49000,
+        "source": "pdf_v2_complete"
+      },
+      {
+        "name": "102",
+        "capacityTheater": 232,
+        "capacityClassroom": 200,
+        "capacityU": 200,
+        "areaSqm": 232,
+        "areaPing": 70,
+        "dimensions": "16.2×15.7×5.6",
+        "priceWeekday": 27000,
+        "priceWeekend": 32000,
+        "priceExhibition": 21000,
+        "source": "pdf_v2_complete"
+      },
+      {
+        "name": "103",
+        "capacityTheater": 500,
+        "capacityClassroom": 138,
+        "capacityU": 115,
+        "areaSqm": 138,
+        "areaPing": 41,
+        "dimensions": "8.2×16.9×5.6",
+        "priceWeekday": 21000,
+        "priceWeekend": 18500,
+        "priceExhibition": 21500,
+        "source": "pdf_v2_complete"
+      },
+      {
+        "name": "105",
+        "capacityTheater": 500,
+        "capacityClassroom": 115,
+        "capacityU": 106,
+        "areaSqm": 115,
+        "areaPing": 35,
+        "dimensions": "12×9.6×3.7",
+        "priceWeekday": 18500,
+        "priceWeekend": 21500,
+        "priceExhibition": 23500,
+        "source": "pdf_v2_complete"
+      },
+      {
+        "name": "106",
+        "capacityTheater": 800,
+        "capacityClassroom": 729,
+        "capacityU": 544,
+        "areaSqm": 40,
+        "areaPing": 12,
+        "dimensions": "25.8×28.8×5.6",
+        "priceWeekday": 10000,
+        "priceWeekend": 67000,
+        "priceExhibition": 80000,
+        "source": "pdf_v2_complete"
+      },
+      {
+        "name": "201 全室",
+        "capacityTheater": 800,
+        "capacityClassroom": 729,
+        "capacityU": 544,
+        "areaSqm": 729,
+        "areaPing": 220,
+        "dimensions": "25.8×28.8×5.6",
+        "priceWeekday": 67000,
+        "priceWeekend": 80000,
+        "priceExhibition": 87500,
+        "source": "pdf_v2_complete"
+      },
+      {
+        "name": "201A/F",
+        "capacityTheater": 136,
+        "capacityClassroom": 99,
+        "capacityU": 72,
+        "areaSqm": 136,
+        "areaPing": 41,
+        "dimensions": "12.9×10.6×5.6",
+        "priceWeekday": 15000,
+        "priceWeekend": 18000,
+        "priceExhibition": 19000,
+        "source": "pdf_v2_complete"
+      },
+      {
+        "name": "201B/E",
+        "capacityTheater": 114,
+        "capacityClassroom": 90,
+        "capacityU": 64,
+        "areaSqm": 114,
+        "areaPing": 34,
+        "dimensions": "12.9×8.9×5.6",
+        "priceWeekday": 15000,
+        "priceWeekend": 18000,
+        "priceExhibition": 19000,
+        "source": "pdf_v2_complete"
+      },
+      {
+        "name": "201C/D",
+        "capacityTheater": 117,
+        "capacityClassroom": 90,
+        "capacityU": 64,
+        "areaSqm": 117,
+        "areaPing": 35,
+        "dimensions": "12.9×9.1×5.6",
+        "priceWeekday": 16000,
+        "priceWeekend": 19000,
+        "priceExhibition": 20000,
+        "source": "pdf_v2_complete"
+      },
+      {
+        "name": "201AB/EF",
+        "capacityTheater": 500,
+        "capacityClassroom": 252,
+        "capacityU": 248,
+        "areaSqm": 252,
+        "areaPing": 76,
+        "dimensions": "12.9×19.6×5.6",
+        "priceWeekday": 29000,
+        "priceWeekend": 34000,
+        "priceExhibition": 38500,
+        "source": "pdf_v2_complete"
+      },
+      {
+        "name": "201BC/DE",
+        "capacityTheater": 233,
+        "capacityClassroom": 232,
+        "capacityU": 168,
+        "areaSqm": 233,
+        "areaPing": 70,
+        "dimensions": "12.9×18.1×5.6",
+        "priceWeekday": 30000,
+        "priceWeekend": 36000,
+        "priceExhibition": 40000,
+        "source": "pdf_v2_complete"
+      },
+      {
+        "name": "201ABC/DEF",
+        "capacityTheater": 400,
+        "capacityClassroom": 371,
+        "capacityU": 272,
+        "areaSqm": 371,
+        "areaPing": 112,
+        "dimensions": "12.9×28.8×5.6",
+        "priceWeekday": 44000,
+        "priceWeekend": 54000,
+        "priceExhibition": 58000,
+        "source": "pdf_v2_complete"
+      },
+      {
+        "name": "201ABEF",
+        "capacityTheater": 528,
+        "capacityClassroom": 505,
+        "capacityU": 352,
+        "areaSqm": 505,
+        "areaPing": 152,
+        "dimensions": "25.8×19.6×5.6",
+        "priceWeekday": 57000,
+        "priceWeekend": 68000,
+        "priceExhibition": 74000,
+        "source": "pdf_v2_complete"
+      },
+      {
+        "name": "201BCDE",
+        "capacityTheater": 476,
+        "capacityClassroom": 466,
+        "capacityU": 320,
+        "areaSqm": 466,
+        "areaPing": 140,
+        "dimensions": "25.8×18.1×5.6",
+        "priceWeekday": 59000,
+        "priceWeekend": 72000,
+        "priceExhibition": 77000,
+        "source": "pdf_v2_complete"
+      },
+      {
+        "name": "202",
+        "capacityTheater": 203,
+        "capacityClassroom": 113,
+        "capacityU": 104,
+        "areaSqm": 113,
+        "areaPing": 33,
+        "dimensions": null,
+        "priceWeekday": 12000,
+        "priceWeekend": 14000,
+        "priceExhibition": 15000,
+        "source": "pdf_v2_complete"
+      },
+      {
+        "name": "202A",
+        "capacityTheater": 70,
+        "capacityClassroom": 64,
+        "capacityU": 55,
+        "areaSqm": 70,
+        "areaPing": 21,
+        "dimensions": "9×7.8×2.4",
+        "priceWeekday": 7000,
+        "priceWeekend": 8000,
+        "priceExhibition": 9000,
+        "source": "pdf_v2_complete"
+      },
+      {
+        "name": "202B",
+        "capacityTheater": 43,
+        "capacityClassroom": 40,
+        "capacityU": 40,
+        "areaSqm": 43,
+        "areaPing": 13,
+        "dimensions": "8.3×6.1×2.4",
+        "priceWeekday": 5000,
+        "priceWeekend": 6000,
+        "priceExhibition": 7000,
+        "source": "pdf_v2_complete"
+      },
+      {
+        "name": "3",
+        "capacityTheater": 500,
+        "capacityClassroom": 152,
+        "capacityU": 90,
+        "areaSqm": 152,
+        "areaPing": 46,
+        "dimensions": "18×7.5×3.7",
+        "priceWeekday": 18500,
+        "priceWeekend": 21500,
+        "priceExhibition": 23500,
+        "source": "pdf_v2_complete"
+      },
+      {
+        "name": "3",
+        "capacityTheater": 977,
+        "capacityClassroom": 640,
+        "capacityU": 401,
+        "areaSqm": 977,
+        "areaPing": 295,
+        "dimensions": "44×32.3×3.7",
+        "priceWeekday": 79000,
+        "priceWeekend": 95000,
+        "priceExhibition": 105000,
+        "source": "pdf_v2_complete"
+      },
+      {
+        "name": "401",
+        "capacityTheater": 193,
+        "capacityClassroom": 60,
+        "capacityU": 60,
+        "areaSqm": 193,
+        "areaPing": 58,
+        "dimensions": "14.8×13.1×3.7",
+        "priceWeekday": 20000,
+        "priceWeekend": 24000,
+        "priceExhibition": null,
+        "source": "pdf_v2_complete"
+      },
+      {
+        "name": "4",
+        "capacityTheater": 500,
+        "capacityClassroom": 152,
+        "capacityU": 90,
+        "areaSqm": 152,
+        "areaPing": 46,
+        "dimensions": "18×7.5×3.7",
+        "priceWeekday": 18500,
+        "priceWeekend": 21500,
+        "priceExhibition": 23500,
+        "source": "pdf_v2_complete"
+      },
+      {
+        "name": "4",
+        "capacityTheater": 368,
+        "capacityClassroom": 250,
+        "capacityU": 200,
+        "areaSqm": 368,
+        "areaPing": 111,
+        "dimensions": "21.3×17.3×4",
+        "priceWeekday": 42000,
+        "priceWeekend": 63000,
+        "priceExhibition": 84000,
+        "source": "pdf_v2_complete"
+      }
+    ],
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "validated_url": "https://www.ticc.com.tw/",
+      "pageType": "Static/SSR",
+      "pageTypeDetectedAt": "2026-03-25T17:52:02.513510",
+      "homepage_links": {
+        "meeting": 4,
+        "pricing": 1,
+        "rules": 1,
+        "access": 1,
+        "floor_plan": 2
+      },
+      "lastScrapedAt": "2026-03-25T17:52:02.870521",
+      "scrapePages": 1,
+      "pdf_source": "ticc_pdf_parsed_v2_complete",
+      "total_rooms_from_pdf": 31,
+      "pdf_updated_at": "2026-03-25T19:42:57.319601",
+      "data_quality": "complete_from_pdf"
+    },
+    "email": "ticc@taitra.org.tw",
+    "scraped_at": "2026-03-25T17:52:02.066026",
+    "scrape_version": "v3_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.429939",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1493,
+    "name": "師大進修推廣學院",
+    "venueType": "會議中心",
+    "city": "台北市",
+    "address": "臺北市大安區和平東路一段 129 號",
+    "contactPerson": "",
+    "contactPhone": "0256426283",
+    "contactEmail": "sce@ntnu.edu.tw",
+    "url": "https://www.sce.ntnu.edu.tw/home/index.php",
+    "priceHalfDay": null,
+    "priceFullDay": null,
+    "maxCapacityTheater": 200,
+    "maxCapacityClassroom": null,
+    "availableTimeWeekday": "",
+    "availableTimeWeekend": "",
+    "equipment": "",
+    "images": {
+      "main": "https://www.sce.ntnu.edu.tw/home/src/img/space/tw/22/20220611145119.jpg",
+      "gallery": [
+        "https://www.sce.ntnu.edu.tw/home/src/img/space/tw/22/20220611145119.jpg",
+        "https://www.sce.ntnu.edu.tw/home/src/img/space/tw/1/20240304200042.jpg",
+        "https://www.sce.ntnu.edu.tw/home/src/img/space/tw/2/20151009-_DSC2543_compressed.jpg",
+        "https://www.sce.ntnu.edu.tw/home/src/img/space/tw/3/1_compressed.jpg",
+        "https://www.sce.ntnu.edu.tw/home/src/img/space/tw/7/20220611155208.jpg",
+        "https://www.sce.ntnu.edu.tw/home/src/img/space/tw/8/20151009-_DSC2576_compressed.jpg",
+        "https://www.sce.ntnu.edu.tw/home/src/img/space/tw/16/20251216144842.jpg",
+        "https://www.sce.ntnu.edu.tw/home/src/img/space/tw/17/1.jpg",
+        "https://www.sce.ntnu.edu.tw/home/src/img/space/tw/12/IMG_4436_compressed.jpg",
+        "https://www.sce.ntnu.edu.tw/home/src/img/space/tw/14/1.jpg"
+      ],
+      "source": "https://www.sce.ntnu.edu.tw/home/space/",
+      "verified": true,
+      "verifiedAt": "2026-03-02T09:52:23.503Z",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false
+    },
+    "verified": false,
+    "rooms": [
+      {
+        "name": "1F藝文展覽廳",
+        "floor": "1F",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "1F藝文展覽廳",
+        "floor": "1F",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "1F藝文展覽廳",
+        "floor": "1F",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "1F藝文展覽廳",
+        "floor": "1F",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "1F藝文展覽廳",
+        "floor": "1F",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "1F藝文展覽廳",
+        "floor": "1F",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "1F藝文展覽廳",
+        "floor": "1F",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2樓視聽教室（88人）",
+        "floor": "2樓",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2樓視聽教室（88人）",
+        "floor": "2樓",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2樓視聽教室（88人）",
+        "floor": "2樓",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2樓視聽教室（88人）",
+        "floor": "2樓",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2樓會議室（40人）",
+        "floor": "2樓",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2樓會議室（40人）",
+        "floor": "2樓",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2樓會議室（40人）",
+        "floor": "2樓",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2樓會議室（40人）",
+        "floor": "2樓",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "大教室（40人）",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "大教室（40人）",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "大教室（40人）",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "大教室（40人）",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "小教室（24人）",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "小教室（24人）",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "小教室（24人）",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "小教室（24人）",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "3樓講座教室（34人）",
+        "floor": "3樓",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "3樓講座教室（34人）",
+        "floor": "3樓",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "3樓講座教室（34人）",
+        "floor": "3樓",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "3樓講座教室（34人）",
+        "floor": "3樓",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "電腦教室(35-40人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "電腦教室(35-40人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "電腦教室(35-40人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "電腦教室(35-40人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "視訊會議室(17人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "視訊會議室(17人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "視訊會議室(17人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "視訊會議室(17人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "階梯教室(111人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "階梯教室(111人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "階梯教室(111人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "階梯教室(111人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "大教室(30人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "大教室(30人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "大教室(30人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "大教室(30人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "大教室(40人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "大教室(40人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "大教室(40人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "大教室(40人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "1F藝文展覽廳",
+        "floor": "1F",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "1F藝文展覽廳",
+        "floor": "1F",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "1F藝文展覽廳",
+        "floor": "1F",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "1F藝文展覽廳",
+        "floor": "1F",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "1F藝文展覽廳",
+        "floor": "1F",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "1F藝文展覽廳",
+        "floor": "1F",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "1F藝文展覽廳",
+        "floor": "1F",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2樓視聽教室（88人）",
+        "floor": "2樓",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2樓視聽教室（88人）",
+        "floor": "2樓",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2樓視聽教室（88人）",
+        "floor": "2樓",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2樓視聽教室（88人）",
+        "floor": "2樓",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2樓會議室（40人）",
+        "floor": "2樓",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2樓會議室（40人）",
+        "floor": "2樓",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2樓會議室（40人）",
+        "floor": "2樓",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2樓會議室（40人）",
+        "floor": "2樓",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "大教室（40人）",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "大教室（40人）",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "大教室（40人）",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "大教室（40人）",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "小教室（24人）",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "小教室（24人）",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "小教室（24人）",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "小教室（24人）",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "3樓講座教室（34人）",
+        "floor": "3樓",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "3樓講座教室（34人）",
+        "floor": "3樓",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "3樓講座教室（34人）",
+        "floor": "3樓",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "3樓講座教室（34人）",
+        "floor": "3樓",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "電腦教室(35-40人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "電腦教室(35-40人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "電腦教室(35-40人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "電腦教室(35-40人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "視訊會議室(17人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "視訊會議室(17人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "視訊會議室(17人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "視訊會議室(17人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "階梯教室(111人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "階梯教室(111人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "階梯教室(111人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "階梯教室(111人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "大教室(30人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "大教室(30人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "大教室(30人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "大教室(30人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "大教室(40人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "大教室(40人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "大教室(40人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "大教室(40人)",
+        "floor": "",
+        "capacity": "",
+        "area": "",
+        "equipment": ""
+      }
+    ],
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "validated_url": "https://www.sce.ntnu.edu.tw/home/index.php",
+      "pageType": "Static/SSR",
+      "pageTypeDetectedAt": "2026-03-25T17:52:05.059320",
+      "homepage_links": {
+        "meeting": 2,
+        "pricing": 0,
+        "rules": 2,
+        "access": 1,
+        "floor_plan": 1
+      },
+      "lastScrapedAt": "2026-03-25T17:52:05.562557",
+      "scrapePages": 1
+    },
+    "phone": "0256426283",
+    "email": "sce@ntnu.edu.tw",
+    "scraped_at": "2026-03-25T17:52:04.871175",
+    "scrape_version": "v3_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.430567",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1494,
+    "name": "集思交通部國際會議中心(MOTC)",
+    "venueType": "會議中心",
+    "city": "台北市",
+    "address": "台北市中正區北平東路2-2號7樓",
+    "contactPerson": "場地租借",
+    "contactPhone": "02-2311-3131",
+    "contactEmail": "motc@gisgroup.com",
+    "url": "https://www.meeting.com.tw/motc/",
+    "priceHalfDay": 15000,
+    "priceFullDay": 25000,
+    "maxCapacityTheater": 200,
+    "maxCapacityClassroom": 100,
+    "availableTimeWeekday": "08:30-18:00",
+    "availableTimeWeekend": "依需求",
+    "equipment": "投影設備、音響、麥克風",
+    "enabled": true,
+    "status": "active",
+    "rooms": [],
+    "metadata": {
+      "validated_url": "https://www.meeting.com.tw/motc/",
+      "pageType": "Static/SSR",
+      "pageTypeDetectedAt": "2026-03-25T17:52:07.698468",
+      "homepage_links": {
+        "meeting": 5,
+        "pricing": 0,
+        "rules": 0,
+        "access": 2,
+        "floor_plan": 0
+      },
+      "lastScrapedAt": "2026-03-25T17:52:08.140782",
+      "scrapePages": 1
+    },
+    "email": "motc@gisgroup.com",
+    "accessInfo": {
+      "parking": "<meta name=\"description\" content=\"集思交通部國際會議中心位於仁愛路與杭州南路口，為公辦民營之會議場地，擁有獨立出入動線及附屬停車場地",
+      "mrt": "<div class=\"col-md-2 col-sm-2 col-xs-2\"><img src=\"../images/common/icon-location-01.svg\" alt=\"捷運\"/><",
+      "bus": "<div class=\"col-md-2 col-sm-2 col-xs-2\"><img src=\"../images/common/icon-location-02.svg\" alt=\"公車\"/><"
+    },
+    "scraped_at": "2026-03-25T17:52:07.563290",
+    "scrape_version": "v3_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.431035",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1495,
+    "name": "集思北科大會議中心(Tech)",
+    "venueType": "會議中心",
+    "city": "台北市",
+    "address": "台北市大安區忠孝東路三段1號",
+    "contactPerson": "場地租借",
+    "contactPhone": "02-2775-5757",
+    "contactEmail": "tech@gis.com.tw",
+    "url": "https://www.meeting.com.tw/ntut/",
+    "priceHalfDay": 12000,
+    "priceFullDay": 22000,
+    "maxCapacityTheater": 150,
+    "maxCapacityClassroom": 80,
+    "availableTimeWeekday": "08:30-18:00",
+    "availableTimeWeekend": "依需求",
+    "equipment": "投影設備、音響、麥克風",
+    "enabled": true,
+    "status": "active",
+    "rooms": [],
+    "metadata": {
+      "validated_url": "https://www.meeting.com.tw/ntut/",
+      "pageType": "Static/SSR",
+      "pageTypeDetectedAt": "2026-03-25T17:52:10.223598",
+      "homepage_links": {
+        "meeting": 5,
+        "pricing": 0,
+        "rules": 0,
+        "access": 2,
+        "floor_plan": 0
+      },
+      "lastScrapedAt": "2026-03-25T17:52:10.786209",
+      "scrapePages": 1
+    },
+    "scraped_at": "2026-03-25T17:52:10.141435",
+    "scrape_version": "v3_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.431053",
+    "cleanVersion": "v1",
+    "accessInfo": {
+      "parking": "<meta name=\"description\" content=\"集思交通部國際會議中心位於仁愛路與杭州南路口，為公辦民營之會議場地，擁有獨立出入動線及附屬停車場地",
+      "mrt": "<meta name=\"description\" content=\"集思北科大會議中心位於忠孝新生、忠孝復興捷運站及建國南北高架橋匯流處，地下樓層備有充裕的平面停車位",
+      "bus": "<div class=\"col-md-2 col-sm-2 col-xs-2\"><img src=\"../images/common/icon-location-02.svg\" alt=\"公車\"/><"
+    }
+  },
+  {
+    "id": 1496,
+    "name": "集思竹科會議中心(HSPH)",
+    "venueType": "會議中心",
+    "city": "新竹市",
+    "address": "新竹市東區光復路2段101號",
+    "contactPerson": "場地租借",
+    "contactPhone": "03-571-5131",
+    "contactEmail": "hsph@gis.com.tw",
+    "url": "https://www.meeting.com.tw/hsp/",
+    "priceHalfDay": 12000,
+    "priceFullDay": 22000,
+    "maxCapacityTheater": 150,
+    "maxCapacityClassroom": 80,
+    "availableTimeWeekday": "08:30-18:00",
+    "availableTimeWeekend": "依需求",
+    "equipment": "投影設備、音響、麥克風",
+    "enabled": true,
+    "status": "active",
+    "rooms": [],
+    "metadata": {
+      "validated_url": "https://www.meeting.com.tw/hsp/",
+      "pageType": "Static/SSR",
+      "pageTypeDetectedAt": "2026-03-25T17:52:12.866287",
+      "homepage_links": {
+        "meeting": 5,
+        "pricing": 0,
+        "rules": 0,
+        "access": 2,
+        "floor_plan": 0
+      },
+      "lastScrapedAt": "2026-03-25T17:52:13.759968",
+      "scrapePages": 1
+    },
+    "scraped_at": "2026-03-25T17:52:12.786600",
+    "scrape_version": "v3_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.431059",
+    "cleanVersion": "v1",
+    "accessInfo": {
+      "parking": "<meta name=\"description\" content=\"集思交通部國際會議中心位於仁愛路與杭州南路口，為公辦民營之會議場地，擁有獨立出入動線及附屬停車場地",
+      "bus": "3. 請於四號出口搭乘新竹市先導公車至【科技生活館】"
+    }
+  },
+  {
+    "id": 1497,
+    "name": "集思台中文心會議中心(TC)",
+    "venueType": "會議中心",
+    "city": "台中市",
+    "address": "台中市西屯區台灣大道三段165號",
+    "contactPerson": "場地租借",
+    "contactPhone": "04-2320-6868",
+    "contactEmail": "tc@gis.com.tw",
+    "url": "https://www.meeting.com.tw/tc/",
+    "priceHalfDay": 12000,
+    "priceFullDay": 22000,
+    "maxCapacityTheater": 150,
+    "maxCapacityClassroom": 80,
+    "availableTimeWeekday": "08:30-18:00",
+    "availableTimeWeekend": "依需求",
+    "equipment": "投影設備、音響、麥克風",
+    "enabled": true,
+    "status": "active",
+    "rooms": [],
+    "metadata": {
+      "validated_url": "https://www.meeting.com.tw/tc/",
+      "pageType": "Static/SSR",
+      "pageTypeDetectedAt": "2026-03-25T17:52:15.819906",
+      "homepage_links": {
+        "meeting": 1,
+        "pricing": 0,
+        "rules": 0,
+        "access": 0,
+        "floor_plan": 0
+      },
+      "lastScrapedAt": "2026-03-25T17:52:15.856004",
+      "scrapePages": 1
+    },
+    "scraped_at": "2026-03-25T17:52:15.760492",
+    "scrape_version": "v3_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.431063",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1498,
+    "name": "集思台中新烏日會議中心(WURI)",
+    "venueType": "會議中心",
+    "city": "台中市",
+    "address": "台中市烏日區中山路三段400號",
+    "contactPerson": "場地租借",
+    "contactPhone": "04-2330-5968",
+    "contactEmail": "wuri@gis.com.tw",
+    "url": "https://www.meeting.com.tw/wuri/",
+    "priceHalfDay": 10000,
+    "priceFullDay": 18000,
+    "maxCapacityTheater": 120,
+    "maxCapacityClassroom": 60,
+    "availableTimeWeekday": "08:30-18:00",
+    "availableTimeWeekend": "依需求",
+    "equipment": "投影設備、音響、麥克風",
+    "enabled": true,
+    "status": "active",
+    "rooms": [],
+    "metadata": {
+      "validated_url": "https://www.meeting.com.tw/wuri/",
+      "pageType": "Static/SSR",
+      "pageTypeDetectedAt": "2026-03-25T17:52:17.926748",
+      "homepage_links": {
+        "meeting": 1,
+        "pricing": 0,
+        "rules": 0,
+        "access": 0,
+        "floor_plan": 0
+      },
+      "lastScrapedAt": "2026-03-25T17:52:17.962639",
+      "scrapePages": 1
+    },
+    "scraped_at": "2026-03-25T17:52:17.861282",
+    "scrape_version": "v3_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.431067",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1499,
+    "name": "集思國際會議高雄分公司(KHH)",
+    "venueType": "會議中心",
+    "city": "高雄市",
+    "address": "高雄市苓雅區四維三路2號6樓",
+    "contactPerson": "場地租借",
+    "contactPhone": "07-335-8800",
+    "contactEmail": "khh@gis.com.tw",
+    "url": "https://www.meeting.com.tw/khh/",
+    "priceHalfDay": 12000,
+    "priceFullDay": 22000,
+    "maxCapacityTheater": 150,
+    "maxCapacityClassroom": 80,
+    "availableTimeWeekday": "08:30-18:00",
+    "availableTimeWeekend": "依需求",
+    "equipment": "投影設備、音響、麥克風",
+    "enabled": true,
+    "status": "active",
+    "rooms": [],
+    "metadata": {
+      "validated_url": "https://www.meeting.com.tw/khh/",
+      "pageType": "Static/SSR",
+      "pageTypeDetectedAt": "2026-03-25T17:52:20.037476",
+      "homepage_links": {
+        "meeting": 1,
+        "pricing": 0,
+        "rules": 0,
+        "access": 0,
+        "floor_plan": 0
+      },
+      "lastScrapedAt": "2026-03-25T17:52:20.075715",
+      "scrapePages": 1
+    },
+    "scraped_at": "2026-03-25T17:52:19.983206",
+    "scrape_version": "v3_complete",
+    "success": true,
+    "cleanedAt": "2026-03-25T16:44:24.431071",
+    "cleanVersion": "v1"
+  },
+  {
+    "id": 1500,
+    "name": "南港展覽館",
+    "venueType": "會展中心",
+    "city": "台北市",
+    "address": "台北市南港區經貿二路1號",
+    "url": "https://www.tcec.com.tw/",
+    "contactPerson": "場地租借",
+    "contactPhone": "+886-2-2655-5000",
+    "contactEmail": "service@tcec.com.tw",
+    "verified": true,
+    "verifiedAt": "2026-03-25T17:34:13.392251",
+    "metadata": {
+      "validated_url": "https://www.tcec.com.tw/",
+      "pageType": "Static/SSR",
+      "pageTypeDetectedAt": "2026-03-25T17:52:22.963520",
+      "homepage_links": {
+        "meeting": 0,
+        "pricing": 0,
+        "rules": 0,
+        "access": 0,
+        "floor_plan": 0
+      },
+      "lastScrapedAt": "2026-03-25T17:52:22.987966",
+      "scrapePages": 1
+    },
+    "rooms": [],
+    "status": "active",
+    "scraped_at": "2026-03-25T17:52:22.076425",
+    "scrape_version": "v3_complete",
+    "success": true
+  }
+]

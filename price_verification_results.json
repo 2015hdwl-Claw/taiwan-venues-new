@@ -1,0 +1,56 @@
+{
+  "timestamp": "2026-03-26T23:51:58.080876",
+  "hcph": {
+    "venue": "集思竹科會議中心",
+    "correct_prices": {
+      "巴哈廳": {
+        "weekday": 0,
+        "holiday": 500
+      },
+      "羅西尼廳": {
+        "weekday": 500,
+        "holiday": 0
+      },
+      "鄧肯廳": {
+        "weekday": 0,
+        "holiday": 0
+      },
+      "達爾文廳": {
+        "weekday": 0,
+        "holiday": 500
+      },
+      "牛頓廳": {
+        "weekday": 0,
+        "holiday": 500
+      },
+      "愛因斯坦廳": {
+        "weekday": 0,
+        "holiday": 0
+      },
+      "愛迪生廳": {
+        "weekday": 500,
+        "holiday": 0
+      }
+    },
+    "issues": 7
+  },
+  "wuri": {
+    "venue": "集思台中新烏日會議中心",
+    "correct_prices": {
+      "瓦特廳": {
+        "weekday": 0,
+        "holiday": 0
+      },
+      "富蘭克林廳": {
+        "weekday": 500,
+        "holiday": 0
+      },
+      "史蒂文生廳": {
+        "weekday": 0,
+        "holiday": 0
+      }
+    },
+    "issues": 3
+  },
+  "total_issues": 10
+}

@@ -1,0 +1,306 @@
+[
+  {
+    "id": "1049-01",
+    "name": "第一會議室",
+    "nameEn": "Meeting Room 1",
+    "floor": null,
+    "area": null,
+    "areaUnit": "㎡",
+    "areaSqm": 236.0,
+    "areaPing": 73.0,
+    "dimensions": {
+      "length": null,
+      "width": null,
+      "height": null
+    },
+    "capacity": {
+      "theater": null,
+      "banquet": null,
+      "classroom": null,
+      "uShape": null,
+      "cocktail": null,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 23700,
+      "holiday": 28440,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": 23700,
+      "note": null
+    },
+    "equipment": null,
+    "equipmentList": [],
+    "features": null,
+    "source": "官方 PDF 2025.10: 會議室暨設備價目表",
+    "lastUpdated": "2026-03-26T12:35:57.647720"
+  },
+  {
+    "id": "1049-02",
+    "name": "第二會議室",
+    "nameEn": "Meeting Room 2",
+    "floor": null,
+    "area": null,
+    "areaUnit": "㎡",
+    "areaSqm": 169.0,
+    "areaPing": 52.0,
+    "dimensions": {
+      "length": null,
+      "width": null,
+      "height": null
+    },
+    "capacity": {
+      "theater": null,
+      "banquet": null,
+      "classroom": null,
+      "uShape": null,
+      "cocktail": null,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 18000,
+      "holiday": 21600,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": 18000,
+      "note": null
+    },
+    "equipment": null,
+    "equipmentList": [],
+    "features": null,
+    "source": "官方 PDF 2025.10",
+    "lastUpdated": "2026-03-26T12:35:57.647766"
+  },
+  {
+    "id": "1049-03",
+    "name": "第三會議室",
+    "nameEn": "Meeting Room 3",
+    "floor": null,
+    "area": null,
+    "areaUnit": "㎡",
+    "areaSqm": 220.0,
+    "areaPing": 68.0,
+    "dimensions": {
+      "length": null,
+      "width": null,
+      "height": null
+    },
+    "capacity": {
+      "theater": null,
+      "banquet": null,
+      "classroom": null,
+      "uShape": null,
+      "cocktail": null,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 23400,
+      "holiday": 28080,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": 23400,
+      "note": null
+    },
+    "equipment": null,
+    "equipmentList": [],
+    "features": null,
+    "source": "官方 PDF 2025.10",
+    "lastUpdated": "2026-03-26T12:35:57.647781"
+  },
+  {
+    "id": "1049-04",
+    "name": "第四會議室",
+    "nameEn": "Meeting Room 4",
+    "floor": null,
+    "area": null,
+    "areaUnit": "㎡",
+    "areaSqm": 145.0,
+    "areaPing": 45.0,
+    "dimensions": {
+      "length": null,
+      "width": null,
+      "height": null
+    },
+    "capacity": {
+      "theater": null,
+      "banquet": null,
+      "classroom": null,
+      "uShape": null,
+      "cocktail": null,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 15500,
+      "holiday": 18600,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": 15500,
+      "note": null
+    },
+    "equipment": null,
+    "equipmentList": [],
+    "features": null,
+    "source": "官方 PDF 2025.10",
+    "lastUpdated": "2026-03-26T12:35:57.647789"
+  },
+  {
+    "id": "1049-05",
+    "name": "第五會議室",
+    "nameEn": "Meeting Room 5",
+    "floor": null,
+    "area": null,
+    "areaUnit": "㎡",
+    "areaSqm": 236.0,
+    "areaPing": 73.0,
+    "dimensions": {
+      "length": null,
+      "width": null,
+      "height": null
+    },
+    "capacity": {
+      "theater": null,
+      "banquet": null,
+      "classroom": null,
+      "uShape": null,
+      "cocktail": null,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 23700,
+      "holiday": 28440,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": 23700,
+      "note": null
+    },
+    "equipment": null,
+    "equipmentList": [],
+    "features": null,
+    "source": "官方 PDF 2025.10",
+    "lastUpdated": "2026-03-26T12:35:57.647796"
+  },
+  {
+    "id": "1049-06",
+    "name": "A+會議室",
+    "nameEn": "A+ Meeting Room",
+    "floor": null,
+    "area": null,
+    "areaUnit": "㎡",
+    "areaSqm": 145.0,
+    "areaPing": 45.0,
+    "dimensions": {
+      "length": null,
+      "width": null,
+      "height": null
+    },
+    "capacity": {
+      "theater": null,
+      "banquet": null,
+      "classroom": null,
+      "uShape": null,
+      "cocktail": null,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 17000,
+      "holiday": 20400,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": 17000,
+      "note": null
+    },
+    "equipment": null,
+    "equipmentList": [],
+    "features": null,
+    "source": "官方 PDF 2025.10",
+    "lastUpdated": "2026-03-26T12:35:57.647803"
+  },
+  {
+    "id": "1049-07",
+    "name": "第1、5間廊廳",
+    "nameEn": "Lobby 1&5",
+    "floor": null,
+    "area": null,
+    "areaUnit": "㎡",
+    "areaSqm": 4.5,
+    "areaPing": 31.6,
+    "dimensions": {
+      "length": null,
+      "width": null,
+      "height": null
+    },
+    "capacity": {
+      "theater": null,
+      "banquet": null,
+      "classroom": null,
+      "uShape": null,
+      "cocktail": null,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 10000,
+      "holiday": 12000,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": 10000,
+      "note": null
+    },
+    "equipment": null,
+    "equipmentList": [],
+    "features": "位於第1及第5會議室之間的廊廳",
+    "source": "官方 PDF 2025.10",
+    "lastUpdated": "2026-03-26T12:35:57.647813"
+  },
+  {
+    "id": "1049-08",
+    "name": "1樓貴賓室",
+    "nameEn": "VIP Room 1F",
+    "floor": null,
+    "area": null,
+    "areaUnit": "㎡",
+    "areaSqm": 104.0,
+    "areaPing": 31.4,
+    "dimensions": {
+      "length": null,
+      "width": null,
+      "height": null
+    },
+    "capacity": {
+      "theater": null,
+      "banquet": null,
+      "classroom": null,
+      "uShape": null,
+      "cocktail": null,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": 10000,
+      "holiday": 12000,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": 10000,
+      "note": null
+    },
+    "equipment": null,
+    "equipmentList": [],
+    "features": "1樓貴賓室",
+    "source": "官方 PDF 2025.10",
+    "lastUpdated": "2026-03-26T12:35:57.647819"
+  }
+]

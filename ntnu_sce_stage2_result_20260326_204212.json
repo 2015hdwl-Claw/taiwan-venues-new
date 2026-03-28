@@ -1,0 +1,58 @@
+{
+  "venue": "師大進修推廣學院",
+  "venue_id": 1493,
+  "url": "https://www.sce.ntnu.edu.tw/home/space/",
+  "http_status": 200,
+  "cookies": 1,
+  "capacities": [
+    "148",
+    "88",
+    "40",
+    "40",
+    "24",
+    "34",
+    "40",
+    "17",
+    "12",
+    "111"
+  ],
+  "areas": [],
+  "floors": [
+    "2樓",
+    "0",
+    "2",
+    "3樓",
+    "9",
+    "7",
+    "1",
+    "1樓",
+    "3",
+    "8",
+    "6",
+    "4",
+    "5",
+    "1F"
+  ],
+  "tables_count": 1,
+  "total_links": 34,
+  "venue_links": 6,
+  "pdf_links": [
+    {
+      "text": "本院交通資訊下載",
+      "url": "https://www.sce.ntnu.edu.tw/../src/upload/20150925115719.pdf"
+    },
+    {
+      "text": "林口校區場地租借申請表",
+      "url": "https://www.sce.ntnu.edu.tw/../src/upload/20240429102226.pdf"
+    },
+    {
+      "text": "進修推廣學院場地申請表(校外廠商)",
+      "url": "https://www.sce.ntnu.edu.tw/../src/upload/20250528163032.pdf"
+    },
+    {
+      "text": "進修推廣學院場地申請表(校內系所)",
+      "url": "https://www.sce.ntnu.edu.tw/../src/upload/20250528164838.pdf"
+    }
+  ],
+  "has_data": true
+}

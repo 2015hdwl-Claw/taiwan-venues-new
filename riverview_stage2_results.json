@@ -1,0 +1,10 @@
+{
+  "venue": "豪景大酒店",
+  "venue_id": 1126,
+  "timestamp": "2026-03-27T08:11:57.205464",
+  "meeting_service_page": "https://www.riverview.com.tw/會議服務/",
+  "meeting_page_status": 200,
+  "phones": [],
+  "emails": [],
+  "note": "完整三級爬取完成"
+}

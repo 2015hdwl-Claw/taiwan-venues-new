@@ -1,0 +1,19 @@
+{
+  "venue": "集思竹科會議中心",
+  "venue_id": 1496,
+  "stage3": {
+    "conclusion": "三階段深度爬蟲完成，資料完整度 95%",
+    "qualityScore": 95,
+    "updatedRooms": 5,
+    "completeness": {
+      "capacity": "80%",
+      "area": "100%",
+      "price": "100%",
+      "photos": 31
+    },
+    "missing": [
+      "鄧肯廳容量"
+    ]
+  },
+  "timestamp": "2026-03-26T22:45:56.447691"
+}

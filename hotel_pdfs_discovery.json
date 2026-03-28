@@ -1,0 +1,27 @@
+[
+  {
+    "venue": "Taipei Marriott",
+    "base_url": "https://www.taipeimarriott.com.tw/",
+    "pdfs": [],
+    "meeting_pages": [
+      {
+        "url": "https://www.taipeimarriott.com.tw/websev?cat=page&subcat=17",
+        "text": "會議&宴會"
+      },
+      {
+        "url": "https://www.taipeimarriott.com.tw/websev?cat=page&id=39",
+        "text": "會議 & 宴會"
+      },
+      {
+        "url": "https://www.taipeimarriott.com.tw/websev?cat=page&subcat=7",
+        "text": "婚宴"
+      }
+    ]
+  },
+  {
+    "venue": "Mandarin Oriental Taipei",
+    "base_url": "https://www.mandarinoriental.com/taipei",
+    "pdfs": [],
+    "meeting_pages": []
+  }
+]

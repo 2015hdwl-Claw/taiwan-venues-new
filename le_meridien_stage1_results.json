@@ -1,0 +1,78 @@
+{
+  "venue": "台北寒舍艾美酒店",
+  "venue_id": 1076,
+  "timestamp": "2026-03-27T01:03:33.153177",
+  "main_page": {
+    "url": "https://www.lemeridien-taipei.com",
+    "status": 200,
+    "size": 73373,
+    "js_frameworks": []
+  },
+  "meeting_links": [
+    {
+      "text": "宴會專案",
+      "url": "https://www.lemeridien-taipei.com/websev?lang=zh-tw&ref=pages&cat=43&type=0"
+    },
+    {
+      "text": "婚宴專案",
+      "url": "https://www.lemeridien-taipei.com/websev?lang=zh-tw&ref=pages&cat=6&type=0"
+    },
+    {
+      "text": "會議專案",
+      "url": "https://www.lemeridien-taipei.com/websev?lang=zh-tw&ref=pages&cat=36&type=0"
+    },
+    {
+      "text": "關於艾美",
+      "url": "https://www.lemeridien-taipei.comjavascript: return false;"
+    },
+    {
+      "text": "寒舍食譜",
+      "url": "https://www.lemeridien-taipei.com/websev?lang=zh-tw&ref=pages&id=4"
+    },
+    {
+      "text": "艾美行政客房",
+      "url": "https://www.lemeridien-taipei.com/websev?lang=zh-tw&ref=pages&id=22"
+    },
+    {
+      "text": "艾美套房",
+      "url": "https://www.lemeridien-taipei.com/websev?lang=zh-tw&ref=pages&id=28"
+    },
+    {
+      "text": "宴會廳",
+      "url": "https://www.lemeridien-taipei.com/websev?lang=zh-tw&ref=pages&id=45"
+    },
+    {
+      "text": "多功能宴會廳",
+      "url": "https://www.lemeridien-taipei.com/websev?lang=zh-tw&ref=pages&id=8"
+    },
+    {
+      "text": "婚宴專案",
+      "url": "https://www.lemeridien-taipei.com/websev?lang=zh-tw&ref=pages&id=157"
+    },
+    {
+      "text": "會議專案",
+      "url": "https://www.lemeridien-taipei.com/websev?lang=zh-tw&ref=pages&id=10"
+    },
+    {
+      "text": "寒舍生活App",
+      "url": "https://www.lemeridien-taipei.com/websev?lang=zh-tw&ref=pages&id=412"
+    },
+    {
+      "text": "寒舍食譜",
+      "url": "https://www.tablecheck.com/zh-TW/le-meridien-taipei-my-humble-house/reserve/landing"
+    },
+    {
+      "text": "寒舍餐旅",
+      "url": "https://www.mhh-group.com"
+    },
+    {
+      "text": "寒舍艾麗",
+      "url": "https://www.humblehousehotels.com"
+    },
+    {
+      "text": "",
+      "url": "https://www.instagram.com/lemeridientaipei/"
+    }
+  ],
+  "pdf_links": []
+}

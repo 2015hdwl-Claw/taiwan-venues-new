@@ -1,0 +1,344 @@
+[
+  {
+    "id": "1085-01",
+    "name": "大宴會廳",
+    "nameEn": "The Grand Ballroom",
+    "floor": "B2",
+    "area": 960,
+    "areaUnit": "㎡",
+    "areaSqm": 960,
+    "areaPing": 290,
+    "dimensions": {
+      "length": 37.0,
+      "width": 26.0,
+      "height": 7.3
+    },
+    "capacity": {
+      "theater": 1170,
+      "banquet": 780,
+      "classroom": 624,
+      "uShape": null,
+      "cocktail": null,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": null,
+      "holiday": null,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "需詢問 - PDF未提供價格資料"
+    },
+    "equipment": null,
+    "equipmentList": [],
+    "features": "挑高7.3公尺",
+    "source": "官方 PDF: Meeting Facilities Fact Sheet (Page 8)",
+    "lastUpdated": "2026-03-26T12:56:07.048423"
+  },
+  {
+    "id": "1085-02",
+    "name": "大宴會廳壹",
+    "nameEn": "The Grand Ballroom I",
+    "floor": "B2",
+    "area": 580,
+    "areaUnit": "㎡",
+    "areaSqm": 580,
+    "areaPing": 175,
+    "dimensions": {
+      "length": 22.0,
+      "width": 26.0,
+      "height": 7.3
+    },
+    "capacity": {
+      "theater": 608,
+      "banquet": 384,
+      "classroom": 351,
+      "uShape": null,
+      "cocktail": null,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": null,
+      "holiday": null,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "需詢問 - PDF未提供價格資料"
+    },
+    "equipment": null,
+    "equipmentList": [],
+    "features": "挑高7.3公尺",
+    "source": "官方 PDF: Meeting Facilities Fact Sheet (Page 8)",
+    "lastUpdated": "2026-03-26T12:56:07.048470"
+  },
+  {
+    "id": "1085-03",
+    "name": "大宴會廳貳",
+    "nameEn": "The Grand Ballroom II",
+    "floor": "B2",
+    "area": 380,
+    "areaUnit": "㎡",
+    "areaSqm": 380,
+    "areaPing": 115,
+    "dimensions": {
+      "length": 14.5,
+      "width": 26.0,
+      "height": 7.3
+    },
+    "capacity": {
+      "theater": 399,
+      "banquet": 240,
+      "classroom": 234,
+      "uShape": null,
+      "cocktail": null,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": null,
+      "holiday": null,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "需詢問 - PDF未提供價格資料"
+    },
+    "equipment": null,
+    "equipmentList": [],
+    "features": "挑高7.3公尺",
+    "source": "官方 PDF: Meeting Facilities Fact Sheet (Page 8)",
+    "lastUpdated": "2026-03-26T12:56:07.048484"
+  },
+  {
+    "id": "1085-04",
+    "name": "迎賓區",
+    "nameEn": "Pre Function Area",
+    "floor": "B2",
+    "area": 605,
+    "areaUnit": "㎡",
+    "areaSqm": 605,
+    "areaPing": 180,
+    "dimensions": {
+      "length": null,
+      "width": null,
+      "height": null
+    },
+    "capacity": {
+      "theater": null,
+      "banquet": null,
+      "classroom": null,
+      "uShape": null,
+      "cocktail": null,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": null,
+      "holiday": null,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "需詢問 - PDF未提供價格資料"
+    },
+    "equipment": null,
+    "equipmentList": [],
+    "features": null,
+    "source": "官方 PDF: Meeting Facilities Fact Sheet (Page 8)",
+    "lastUpdated": "2026-03-26T12:56:07.048495"
+  },
+  {
+    "id": "1085-05",
+    "name": "文華廳",
+    "nameEn": "The Mandarin Ballroom",
+    "floor": "B2",
+    "area": 500,
+    "areaUnit": "㎡",
+    "areaSqm": 500,
+    "areaPing": 150,
+    "dimensions": {
+      "length": 25.0,
+      "width": 20.0,
+      "height": 4.0
+    },
+    "capacity": {
+      "theater": 490,
+      "banquet": 336,
+      "classroom": 300,
+      "uShape": null,
+      "cocktail": null,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": null,
+      "holiday": null,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "需詢問 - PDF未提供價格資料"
+    },
+    "equipment": null,
+    "equipmentList": [],
+    "features": "挑高4.0公尺",
+    "source": "官方 PDF: Meeting Facilities Fact Sheet (Page 8)",
+    "lastUpdated": "2026-03-26T12:56:07.048505"
+  },
+  {
+    "id": "1085-06",
+    "name": "文華廳壹",
+    "nameEn": "The Mandarin Ballroom I",
+    "floor": "B2",
+    "area": 260,
+    "areaUnit": "㎡",
+    "areaSqm": 260,
+    "areaPing": 80,
+    "dimensions": {
+      "length": 12.8,
+      "width": 20.0,
+      "height": 4.0
+    },
+    "capacity": {
+      "theater": 308,
+      "banquet": 144,
+      "classroom": 150,
+      "uShape": null,
+      "cocktail": null,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": null,
+      "holiday": null,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "需詢問 - PDF未提供價格資料"
+    },
+    "equipment": null,
+    "equipmentList": [],
+    "features": "挑高4.0公尺",
+    "source": "官方 PDF: Meeting Facilities Fact Sheet (Page 8)",
+    "lastUpdated": "2026-03-26T12:56:07.048513"
+  },
+  {
+    "id": "1085-07",
+    "name": "文華廳貳",
+    "nameEn": "The Mandarin Ballroom II",
+    "floor": "B2",
+    "area": 240,
+    "areaUnit": "㎡",
+    "areaSqm": 240,
+    "areaPing": 70,
+    "dimensions": {
+      "length": 11.8,
+      "width": 20.0,
+      "height": 4.0
+    },
+    "capacity": {
+      "theater": 280,
+      "banquet": 144,
+      "classroom": 150,
+      "uShape": null,
+      "cocktail": null,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": null,
+      "holiday": null,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "需詢問 - PDF未提供價格資料"
+    },
+    "equipment": null,
+    "equipmentList": [],
+    "features": "挑高4.0公尺",
+    "source": "官方 PDF: Meeting Facilities Fact Sheet (Page 8)",
+    "lastUpdated": "2026-03-26T12:56:07.048521"
+  },
+  {
+    "id": "1085-08",
+    "name": "東方廳壹",
+    "nameEn": "Oriental I",
+    "floor": "B2",
+    "area": 120,
+    "areaUnit": "㎡",
+    "areaSqm": 120,
+    "areaPing": 35,
+    "dimensions": {
+      "length": 10.4,
+      "width": 11.5,
+      "height": 3.4
+    },
+    "capacity": {
+      "theater": 112,
+      "banquet": 60,
+      "classroom": 60,
+      "uShape": null,
+      "cocktail": null,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": null,
+      "holiday": null,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "需詢問 - PDF未提供價格資料"
+    },
+    "equipment": null,
+    "equipmentList": [],
+    "features": "挑高3.4公尺",
+    "source": "官方 PDF: Meeting Facilities Fact Sheet (Page 8)",
+    "lastUpdated": "2026-03-26T12:56:07.048532"
+  },
+  {
+    "id": "1085-09",
+    "name": "東方廳貳",
+    "nameEn": "Oriental II",
+    "floor": "B2",
+    "area": 50,
+    "areaUnit": "㎡",
+    "areaSqm": 50,
+    "areaPing": 15,
+    "dimensions": {
+      "length": 6.0,
+      "width": 8.5,
+      "height": 3.4
+    },
+    "capacity": {
+      "theater": 36,
+      "banquet": 12,
+      "classroom": 18,
+      "uShape": null,
+      "cocktail": null,
+      "roundTable": null
+    },
+    "price": {
+      "weekday": null,
+      "holiday": null,
+      "morning": null,
+      "afternoon": null,
+      "evening": null,
+      "fullDay": null,
+      "hourly": null,
+      "note": "需詢問 - PDF未提供價格資料"
+    },
+    "equipment": null,
+    "equipmentList": [],
+    "features": "挑高3.4公尺",
+    "source": "官方 PDF: Meeting Facilities Fact Sheet (Page 8)",
+    "lastUpdated": "2026-03-26T12:56:07.048541"
+  }
+]

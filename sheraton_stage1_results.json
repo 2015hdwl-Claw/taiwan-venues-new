@@ -1,0 +1,28 @@
+{
+  "venue": "台北喜瑞飯店",
+  "venue_id": 1068,
+  "timestamp": "2026-03-27T00:57:34.890299",
+  "main_page": {
+    "url": "https://www.ambiencehotel.com.tw/",
+    "status": 200,
+    "size": 334520,
+    "js_frameworks": [
+      "jQuery"
+    ]
+  },
+  "meeting_links": [
+    {
+      "text": "喜瑞飯店 X 點點善 + 設計師吳孝儒(PILI)空間大改造",
+      "url": "https://ww.ambiencehotel.com.tw/tw/pili/"
+    },
+    {
+      "text": "胡旺來★★★★★超乎想像的住宿體驗這次入住喜瑞的Elite room，純白色系的內裝與親切的服務品質，讓我在一開始變覺得",
+      "url": "https://www.tripadvisor.com.tw/ShowUserReviews-g13808671-d598759-r708174163-Ambience_Hotel-Zhongshan_District_Taipei.html"
+    },
+    {
+      "text": "蹲蹲 鄭★★★★★值得推薦的飯店第一次入住喜瑞，從捷運站走到飯店時，不到十分鐘抵達，很顯眼很好找，入眼簾是間明亮的飯店，",
+      "url": "https://www.tripadvisor.com.tw/ShowUserReviews-g13808671-d598759-r710537007-Ambience_Hotel-Zhongshan_District_Taipei.html"
+    }
+  ],
+  "pdf_links": []
+}

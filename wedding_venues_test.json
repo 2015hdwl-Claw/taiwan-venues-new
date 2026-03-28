@@ -1,0 +1,66 @@
+{
+  "tested_at": "2026-03-25T15:08:52.809013",
+  "total_wedding_venues": 26,
+  "tested_count": 5,
+  "results": [
+    {
+      "id": 1043,
+      "name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+      "venueType": "飯店場地",
+      "url": "https://www.courtyardtaipei.com.tw/zh-TW/",
+      "tested_at": "2026-03-25T15:08:34.963221",
+      "pageType": "Static/SSR",
+      "email": "service@courtyardtaipei.com",
+      "banquet_links_count": 6,
+      "total_links": 71,
+      "success": true
+    },
+    {
+      "id": 1051,
+      "name": "台北亞都麗緻大飯店(LandisTaipei)",
+      "venueType": "飯店場地",
+      "url": "https://taipei.landishotelsresorts.com/",
+      "tested_at": "2026-03-25T15:08:36.140163",
+      "pageType": "WordPress API",
+      "banquet_links_count": 1,
+      "total_links": 55,
+      "success": true
+    },
+    {
+      "id": 1053,
+      "name": "台北兄弟大飯店(BrotherTaipei)",
+      "venueType": "婚宴場地",
+      "url": "https://www.brotherhotel.com.tw/?cat=75",
+      "tested_at": "2026-03-25T15:08:37.135944",
+      "pageType": "JavaScript (CSR)",
+      "email": "us台北市南京東路三段255號02-2712345602-27173334service@brotherhotel.com.tw",
+      "banquet_links_count": 6,
+      "total_links": 99,
+      "success": true
+    },
+    {
+      "id": 1057,
+      "name": "台北典華",
+      "venueType": "婚宴場地",
+      "url": "https://www.denwell.com/",
+      "tested_at": "2026-03-25T15:08:39.068251",
+      "pageType": "WordPress API",
+      "phone": "02-8502-5555",
+      "banquet_links_count": 45,
+      "total_links": 150,
+      "success": true
+    },
+    {
+      "id": 1068,
+      "name": "台北喜瑞飯店",
+      "venueType": "飯店場地",
+      "url": "https://www.ambiencehotel.com.tw/",
+      "tested_at": "2026-03-25T15:08:41.410573",
+      "pageType": "WordPress API",
+      "email": "0077ambience@taipeiinn.com.tw",
+      "banquet_links_count": 0,
+      "total_links": 173,
+      "success": true
+    }
+  ]
+}

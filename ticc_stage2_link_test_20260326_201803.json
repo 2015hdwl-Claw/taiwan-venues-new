@@ -1,0 +1,45 @@
+{
+  "venue": "TICC",
+  "venue_id": 1448,
+  "test_date": "2026-03-26T20:18:03.883292",
+  "total_links": 8,
+  "working_links": [],
+  "failed_links": [
+    {
+      "text": "場地導覽",
+      "href": "https://www.ticc.com.tw/np?ctNode=320&mp=1",
+      "status": 404
+    },
+    {
+      "text": "場地介紹",
+      "href": "https://www.ticc.com.tw/sp?xdUrl=/wSite/ap/lp_VenueIntroduction.jsp&ctNode=321&CtUnit=98&BaseDSD=7&mp=1",
+      "status": 404
+    },
+    {
+      "text": "場地查詢",
+      "href": "https://www.ticc.com.tw/sp?xdUrl=/wSite/ap/lp_VenueSearch.jsp&ctNode=322&CtUnit=99&BaseDSD=7&mp=1",
+      "status": 404
+    },
+    {
+      "text": "場地查詢",
+      "href": "https://www.ticc.com.tw/sp?xdUrl=/wSite/ap/lp_VenueSearch.jsp&ctNode=322&CtUnit=99&BaseDSD=7&mp=1",
+      "status": 404
+    },
+    {
+      "text": "「115年國際媒體邀訪」評選會議2026/03/26",
+      "href": "https://www.ticc.com.tw/sp?xdUrl=/wSite/ap/cp_Activity.jsp&ctNode=318&mp=1&bId=8040",
+      "status": 404
+    },
+    {
+      "text": "「2026年亞洲會展產業論壇執行案」招標評選會議2026/03/31",
+      "href": "https://www.ticc.com.tw/sp?xdUrl=/wSite/ap/cp_Activity.jsp&ctNode=318&mp=1&bId=8041",
+      "status": 404
+    },
+    {
+      "text": "「2026年IMEX設計裝潢施工招標案」評選會議2026/04/01",
+      "href": "https://www.ticc.com.tw/sp?xdUrl=/wSite/ap/cp_Activity.jsp&ctNode=318&mp=1&bId=8042",
+      "status": 404
+    }
+  ],
+  "success_rate": "0/8"
+}

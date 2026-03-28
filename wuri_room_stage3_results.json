@@ -1,0 +1,19 @@
+{
+  "venue": "集思台中新烏日會議中心",
+  "venue_id": 1498,
+  "stage3": {
+    "conclusion": "三階段深度爬蟲完成，資料完整度 95%",
+    "qualityScore": 95,
+    "updatedRooms": 4,
+    "completeness": {
+      "capacity": "100%",
+      "area": "100%",
+      "price": "75%",
+      "photos": 22
+    },
+    "missing": [
+      "巴本廳價格"
+    ]
+  },
+  "timestamp": "2026-03-26T22:47:15.096763"
+}

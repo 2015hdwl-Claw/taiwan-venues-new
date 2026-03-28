@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   經濟部國貿署入口網
+  </title>
+  <link href="images/favicon.ico" rel="SHORTCUT ICON" type="image/x-icon"/>
+  <link href="css/style.css" rel="stylesheet"/>
+  <link href="css/floating_message.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <div id="slideNotice">
+   👋 嗨～如果您是要造訪「台灣會展網」，已經搬家囉！
+   <br/>
+   請前往新網址
+   <a href="https://mice.meettaiwan.com/meettaiwan/home/" target="_blank">
+    https://mice.meettaiwan.com/meettaiwan/home/
+   </a>
+   <br/>
+   記得更新書籤喔！
+   <br/>
+   <button onclick="closeNotice()">
+    我知道了
+   </button>
+  </div>
+  <script>
+   function closeNotice() {
+			document.getElementById('slideNotice').style.display = 'none';
+			localStorage.setItem('noticeShown', 'true');
+		  }
+		  window.onload = function() {
+			if (!localStorage.getItem('noticeShown')) {
+			  document.getElementById('slideNotice').classList.add('show');
+			}
+		  }
+  </script>
+  <main class="index">
+   <div class="wrap">
+    <h1 class="main-title">
+     <span class="cn">
+      臺灣貿易服務資訊網
+     </span>
+    </h1>
+    <div class="accordion-container">
+     <div class="accordion">
+      <div class="accordion-item">
+       <h2 class="accordion-header">
+        <span class="txt">
+         貿易產業拓展網
+        </span>
+        <button class="accordion-button accordion-toggle active">
+         <img alt="" src="images/icon_arrowdown_white.png"/>
+        </button>
+       </h2>
+       <div class="accordion-collapse active">
+        <div class="accordion-body">
+         <div class="inner">
+          <div class="link-list">
+           <div class="link-item">
+            <a href="https://industry.meettaiwan.com/smartmachinery/">
+             <span class="inner-text">
+              <h2 class="sub-title">
+               智慧機械海外推廣計畫
+              </h2>
+              <p class="caption">
+               經濟部國際貿易署推動「智慧機械海外推廣計畫」，展示臺灣智慧機械整體解決方案，透過國際展覽整合行銷活動、買主洽談、數位行銷等，提高臺灣智慧機械的全球知名度，塑造臺灣為最佳供應者，協助業者爭取國際商機。
+              </p>
+             </span>
+             <img class="pic" src="images/imgC-2.jpg"/>
+            </a>
+           </div>
+           <div class="link-item">
+            <a href="https://industry.meettaiwan.com/textiles">
+             <span class="inner-text">
+              <h2 class="sub-title">
+               紡織品整合行銷與商機開發計畫
+              </h2>
+              <p class="caption">
+               貿易署為協助我國優勢紡織品在國際市場之佔有率，持續推動「紡織品整合行銷與商機開發計畫」。除歐美市場外，亦有系統的開發新興市場，期能透過推廣永續創新紡織品，協助紡織業拓銷海外市場。
+              </p>
+             </span>
+             <img class="pic" src="images/industry_textiles.png"/>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="accordion-item">
+       <h2 class="accordion-header">
+        <span class="txt">
+         貿易市場拓展網
+        </span>
+        <button class="accordion-button accordion-toggle active">
+         <img alt="" src="images/icon_arrowdown_white.png"/>
+        </button>
+       </h2>
+       <div class="accordion-collapse active">
+        <div class="accordion-body">
+         <div class="inner">
+          <div class="link-list">
+           <div class="link-item">
+            <a href="https://market.meettaiwan.com/taitraesource">
+             <span class="inner-text">
+              <h2 class="sub-title">
+               貿協全球資訊網
+              </h2>
+              <p class="caption">
+               本網站提供各國貿易實務與總體經濟資訊，前者包括各國進出口商、關稅稅率、進出口貿易統計、貿易相關服務業等，後者包括基本經濟概況、投資環境資訊、主要產業與市場環境、與我經貿往來現況及我對當地拓展活動。
+              </p>
+             </span>
+             <img class="pic" src="images/imgD-1.jpg"/>
+            </a>
+           </div>
+           <div class="link-item">
+            <a href="https://market.meettaiwan.com/tppo/">
+             <span class="inner-text">
+              <h2 class="sub-title">
+               經濟部補助公協會辦理貿易推廣專案辦公室
+              </h2>
+              <p class="caption">
+               配合貿易法將公協會辦理推廣貿易業務納入補助對象，貿易署自87年度起，逐年於推廣貿易基金項下編列經費，針對公協會參加國際展覽予以補助，以協助公協會結合會員廠商共同拓展海外市場，並提高我國商品之能見度。
+              </p>
+             </span>
+             <img class="pic" src="images/market_tppo.jpg"/>
+            </a>
+           </div>
+           <div class="link-item">
+            <a href="https://market.meettaiwan.com/imdp/">
+             <span class="inner-text">
+              <h2 class="sub-title">
+               補助業界開發國際市場計畫
+              </h2>
+              <p class="caption">
+               經濟部國際貿易署委託中華民國管理科學學會執行補助計畫，協助國內廠商開發國際市場。不同於傳統參展或拓銷活動，本計畫採專案補助方式，協助廠商布建海外行銷通路，推廣臺灣產品並提升出口競爭力。
+              </p>
+             </span>
+             <img class="pic" src="images/market_imdp.jpg"/>
+            </a>
+           </div>
+           <div class="link-item">
+            <a href="https://market.meettaiwan.com/d-imdp/">
+             <span class="inner-text">
+              <h2 class="sub-title">
+               補助廠商分散及開拓海外市場計畫
+              </h2>
+              <p class="caption">
+               經濟部國際貿易署委託中華民國管理科學學會執行補助計畫，協助公司、商號布建海外行銷通路。透過專案補助與專業諮詢輔導機制，分散市場、強化出口拓銷，提升我國企業國際競爭力。
+              </p>
+             </span>
+             <img class="pic" src="images/market_d-imdp.jpg"/>
+            </a>
+           </div>
+           <div class="link-item">
+            <a href="https://market.meettaiwan.com/espo">
+             <span class="inner-text">
+              <h2 class="sub-title">
+               補助公司或商號參加海外國際展覽
+              </h2>
+              <p class="caption">
+               經濟部國際貿易署為協助國內個別廠商赴海外參加國際展覽，辦理經濟部補助公司或商號參加海外國際展覽業務計畫，歡迎公司或商號申請補助。
+              </p>
+             </span>
+             <img class="pic" src="images/market_espo.png"/>
+            </a>
+           </div>
+           <div class="link-item">
+            <a href="https://market.meettaiwan.com/mvp-plan/">
+             <span class="inner-text">
+              <h2 class="sub-title">
+               新興市場情報誌
+              </h2>
+              <p class="caption">
+               本網站提供即時商情、活動及廠商成功案例等，供業者參考運用。
+              </p>
+             </span>
+             <img class="pic" src="images/market_mvp-plan.png"/>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="accordion-item">
+       <h2 class="accordion-header">
+        <span class="txt">
+         貿易人才培育網
+        </span>
+        <button class="accordion-button accordion-toggle">
+         <img alt="" src="images/icon_arrowdown_white.png"/>
+        </button>
+       </h2>
+       <div class="accordion-collapse">
+        <div class="accordion-body">
+         <div class="inner">
+          <div class="link-list">
+           <div class="link-item">
+            <a href="https://talent.meettaiwan.com/iti">
+             <span class="inner-text">
+              <h2 class="sub-title">
+               外貿協會
+               <br/>
+               國際企業人才培訓中心
+              </h2>
+              <p class="caption">
+               本中心主要訓練政策以訓練品質、訓練績效及訓練發展方向設有四項：
+               <br/>
+               1.配合政府政策及企業需求，規劃符合市場期待的委訓課程。
+               <br/>
+               2.聘請具理論及實務的資深講師，提供多元經貿及外語職能專業學習管道及終身學習機會。
+               <br/>
+               3.提供專業訓練以填補人力職能落差，協助企業提升營運及數位轉型能力。
+               <br/>
+               4.締造國際鏈結，提升海外競爭力，以國家級經貿人才培育學院為目標。
+              </p>
+             </span>
+             <img class="pic" src="images/imgE-1.jpg"/>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="accordion-item">
+       <h2 class="accordion-header">
+        <span class="txt">
+         貿易會展服務網
+        </span>
+        <button class="accordion-button accordion-toggle">
+         <img alt="" src="images/icon_arrowdown_white.png"/>
+        </button>
+       </h2>
+       <div class="accordion-collapse">
+        <div class="accordion-body">
+         <div class="inner">
+          <div class="link-list">
+           <div class="link-item">
+            <a href="https://mice.meettaiwan.com/meettaiwan/home/">
+             <span class="inner-text">
+              <h2 class="sub-title">
+               臺灣會展網
+              </h2>
+              <p class="caption">
+               臺灣會展網內容涵蓋我國會展活動、產業現況、會展補捐助、場地導覽及會展人才培育等資訊，提供豐富且完整資訊供國內外會展主辦單位查閱。
+              </p>
+             </span>
+             <img class="pic" src="images/imgF-1.jpg"/>
+            </a>
+           </div>
+           <div class="link-item">
+            <a href="https://mice.meettaiwan.com/meettaiwan/training">
+             <span class="inner-text">
+              <h2 class="sub-title">
+               會展人才培育網
+              </h2>
+              <p class="caption">
+               會展人才培育網是一個專為推動會展產業人才培育與認證的平台，旨在培育我國會展產業從業人員的專業技能，建立會展產業認證制度及人才資料庫，逐步提升人才素質，促使台灣會展人才資源適才適用。網站提供最新的會展課程資訊、認證考試、業界活動及就業媒合服務，促進年輕世代進入會展產業，推動產業可持續發展。
+              </p>
+             </span>
+             <img class="pic" src="images/imgF-2.jpg"/>
+            </a>
+           </div>
+           <div class="link-item">
+            <a href="https://mice.meettaiwan.com/meettaiwan/netzero">
+             <span class="inner-text">
+              <h2 class="sub-title">
+               會展產業節能減碳專區
+              </h2>
+              <p class="caption">
+               透過碳排計算工具及填寫線上檢測量表，提供使用者在會展產業五大優先減碳項目中進行碳排計算、檢視企業營運節能減碳之成效，以利主辦單位、會展業者及參與者制定相應之減碳計畫。
+              </p>
+             </span>
+             <img class="pic" src="images/imgF-3.jpg"/>
+            </a>
+           </div>
+           <div class="link-item">
+            <a href="https://mice.meettaiwan.com/meettaiwan/bizfun">
+             <span class="inner-text">
+              <h2 class="sub-title">
+               TAIWAN BIZ FUN
+              </h2>
+              <p class="caption">
+               專為國際商務旅客與會展參與者打造的體驗平台，整合臺灣各地「好吃、好玩、好買、好健康」的精選內容。透過展會周邊活動與主題旅遊推薦，帶領來臺訪客輕鬆認識城市風景與多元文化，發掘臺灣最真實的美食與觀光魅力。
+              </p>
+             </span>
+             <img class="pic" src="images/market_bizfun.jpg"/>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="accordion-item">
+       <h2 class="accordion-header">
+        <span class="txt">
+         貿易綜合服務網
+        </span>
+        <button class="accordion-button accordion-toggle">
+         <img alt="" src="images/icon_arrowdown_white.png"/>
+        </button>
+       </h2>
+       <div class="accordion-collapse">
+        <div class="accordion-body">
+         <div class="inner">
+          <div class="link-list">
+           <div class="link-item">
+            <a href="https://service.meettaiwan.com/gpa">
+             <span class="inner-text">
+              <h2 class="sub-title">
+               全球政府採購商機網
+              </h2>
+              <p class="caption">
+               提供全球政府採購相關標案與商情資訊，亦包含政府採購相關介紹、金融協助服務、相關活動等。
+              </p>
+             </span>
+             <img class="pic" src="images/imgG-2.jpg"/>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </main>
+  <footer>
+   <div class="wrap">
+    <div class="flex-row">
+     <div class="logo">
+      <img alt="logo" src="images/Logo.png"/>
+     </div>
+     <span>
+      經濟部國際貿易署　版權所有2026©
+     </span>
+    </div>
+   </div>
+  </footer>
+  <script>
+   const accordionItems = document.querySelectorAll(".accordion-item")
+
+        accordionItems.forEach(accordionItem => {
+            const accordionBtn = accordionItem.querySelector(".accordion-toggle");
+            const accordionCollapse = accordionItem.querySelector(".accordion-collapse");
+
+            accordionBtn.addEventListener("click", function(){
+                this.classList.toggle('active');
+                accordionCollapse.classList.toggle('active');
+            });
+        });
+  </script>
+  <script>
+   (function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9e26184f5b154a61',t:'MTc3NDUyNzQ3NQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();
+  </script>
+ </body>
+</html>

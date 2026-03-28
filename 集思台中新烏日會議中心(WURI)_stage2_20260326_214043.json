@@ -1,0 +1,103 @@
+{
+  "venue": "集思台中新烏日會議中心(WURI)",
+  "venue_id": 1498,
+  "stage2": {
+    "homepage_links": 15,
+    "working_links": 10,
+    "failed_links": 5,
+    "data_sources": 6,
+    "total_rooms_found": 22,
+    "rooms": [
+      {
+        "name": "301會議室",
+        "source": "https://www.meeting.com.tw/xinwuri/index.php"
+      },
+      {
+        "name": "303會議室",
+        "source": "https://www.meeting.com.tw/xinwuri/index.php"
+      },
+      {
+        "name": "401會議室",
+        "source": "https://www.meeting.com.tw/xinwuri/index.php"
+      },
+      {
+        "name": "402會議室",
+        "source": "https://www.meeting.com.tw/xinwuri/index.php"
+      },
+      {
+        "name": "國際會議廳",
+        "source": "https://www.meeting.com.tw/motc/index.php"
+      },
+      {
+        "name": "202會議室",
+        "source": "https://www.meeting.com.tw/motc/index.php"
+      },
+      {
+        "name": "201會議室",
+        "source": "https://www.meeting.com.tw/motc/index.php"
+      },
+      {
+        "name": "巴哈廳",
+        "source": "https://www.meeting.com.tw/hsp/index.php"
+      },
+      {
+        "name": "羅西尼廳",
+        "source": "https://www.meeting.com.tw/hsp/index.php"
+      },
+      {
+        "name": "鄧肯廳",
+        "source": "https://www.meeting.com.tw/hsp/index.php"
+      },
+      {
+        "name": "愛因斯坦廳",
+        "source": "https://www.meeting.com.tw/hsp/index.php"
+      },
+      {
+        "name": "愛迪生廳",
+        "source": "https://www.meeting.com.tw/hsp/index.php"
+      },
+      {
+        "name": "G1+G2會議室",
+        "source": "https://www.meeting.com.tw/wenxin/index.php"
+      },
+      {
+        "name": "G1會議室",
+        "source": "https://www.meeting.com.tw/wenxin/index.php"
+      },
+      {
+        "name": "G2會議室",
+        "source": "https://www.meeting.com.tw/wenxin/index.php"
+      },
+      {
+        "name": "G3會議室",
+        "source": "https://www.meeting.com.tw/wenxin/index.php"
+      },
+      {
+        "name": "各地，共有6大場館為大小活動提供高靈活度空間",
+        "source": "https://www.gisgroup.com/"
+      },
+      {
+        "name": "隊熟悉會議活動與會展市場，為您提供合適的空間",
+        "source": "https://www.gisgroup.com/"
+      },
+      {
+        "name": "營運計劃及完整的供應商網絡，量身訂作會展空間",
+        "source": "https://www.gisgroup.com/"
+      },
+      {
+        "name": "個開放學習的創新場域，園區內包含職人手作空間",
+        "source": "https://www.gisgroup.com/"
+      },
+      {
+        "name": "、課程體驗、共享空間",
+        "source": "https://www.gisgroup.com/"
+      },
+      {
+        "name": "企業會議室",
+        "source": "https://www.gisavsolutions.com/"
+      }
+    ],
+    "pdf_links": []
+  },
+  "timestamp": "2026-03-26T21:40:43.021723"
+}

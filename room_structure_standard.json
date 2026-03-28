@@ -1,0 +1,38 @@
+{
+  "id": null,
+  "name": null,
+  "nameEn": null,
+  "floor": null,
+  "area": null,
+  "areaUnit": null,
+  "areaSqm": null,
+  "areaPing": null,
+  "dimensions": {
+    "length": null,
+    "width": null,
+    "height": null
+  },
+  "capacity": {
+    "theater": null,
+    "banquet": null,
+    "classroom": null,
+    "uShape": null,
+    "cocktail": null,
+    "roundTable": null
+  },
+  "price": {
+    "weekday": null,
+    "holiday": null,
+    "morning": null,
+    "afternoon": null,
+    "evening": null,
+    "fullDay": null,
+    "hourly": null,
+    "note": null
+  },
+  "equipment": null,
+  "equipmentList": [],
+  "features": null,
+  "source": null,
+  "lastUpdated": null
+}

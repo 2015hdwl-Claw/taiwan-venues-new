@@ -1,0 +1,35 @@
+{
+  "venue": "華山1914",
+  "venue_id": 1125,
+  "test_date": "2026-03-26T20:20:06.272533",
+  "total_links": 5,
+  "working_links": [
+    {
+      "text": "場地介紹",
+      "href": "https://www.huashan1914.com/AppPlaceList",
+      "has_venue_info": false
+    },
+    {
+      "text": "相關附件",
+      "href": "https://www.huashan1914.com/AppPlaceAnnex",
+      "has_venue_info": false
+    },
+    {
+      "text": "申請辦法",
+      "href": "https://www.huashan1914.com/w/huashan1914/AppPlace",
+      "has_venue_info": true
+    },
+    {
+      "text": "媒體拍攝線上申請",
+      "href": "https://www.huashan1914.com/AppPlace1",
+      "has_venue_info": false
+    },
+    {
+      "text": "傳 音樂展演空間",
+      "href": "https://www.huashan1914.com/w/huashan1914/CustomShops_17072615244330041",
+      "has_venue_info": true
+    }
+  ],
+  "failed_links": [],
+  "success_rate": "5/5"
+}

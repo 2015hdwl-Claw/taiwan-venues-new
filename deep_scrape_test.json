@@ -1,0 +1,597 @@
+[
+  {
+    "id": 1042,
+    "name": "公務人力發展學院",
+    "url": "https://www.hrd.gov.tw",
+    "scraped_at": "2026-03-25T15:40:50.876813",
+    "scrape_pages": [
+      "https://www.hrd.gov.tw"
+    ],
+    "data": {
+      "homepage": {
+        "url": "https://www.hrd.gov.tw",
+        "title": "中文網-行政院人事行政總處公務人力發展學院",
+        "meeting_links": [
+          {
+            "text": "場地查詢",
+            "url": "https://www.hrd.gov.tw/1123/2127/?q=場地查詢"
+          },
+          {
+            "text": "場地設施",
+            "url": "https://www.hrd.gov.tw/1122/2141/Normalnodelist"
+          },
+          {
+            "text": "會議場地",
+            "url": "https://www.hrd.gov.tw/1122/2141/3157/NPmeetingVenue"
+          },
+          {
+            "text": "餐飲服務",
+            "url": "https://www.hrd.gov.tw/1122/2141/3158/NPmeetingVenue"
+          },
+          {
+            "text": "住宿設施",
+            "url": "https://www.hrd.gov.tw/1122/2141/3159/NPmeetingVenue"
+          },
+          {
+            "text": "其他服務",
+            "url": "https://www.hrd.gov.tw/1122/2141/3160/NPmeetingVenue"
+          },
+          {
+            "text": "場地查詢及預約",
+            "url": "https://www.hrd.gov.tw/1122/2141/49777/SPHtml"
+          }
+        ],
+        "pricing_links": [
+          {
+            "text": "南投院區接受委託訓練收費標準",
+            "url": "https://www.hrd.gov.tw/1122/2140/2168/4748/post"
+          },
+          {
+            "text": "南投院區接受委託訓練收費標準",
+            "url": "https://www.hrd.gov.tw/1122/2140/2168/"
+          }
+        ],
+        "rules_links": [
+          {
+            "text": "學員須知",
+            "url": "https://www.hrd.gov.tw/1123/2127/?q=學員須知"
+          },
+          {
+            "text": "行政規則",
+            "url": "https://www.hrd.gov.tw/1122/2142/47563/47569/Lpsimplelist"
+          },
+          {
+            "text": "學員須知",
+            "url": "https://www.hrd.gov.tw/1122/2140/2164/20943/20944/4164/"
+          }
+        ],
+        "access_links": [
+          {
+            "text": "交通位置",
+            "url": "https://www.hrd.gov.tw/1122/2139/2149/NodelistIMG"
+          },
+          {
+            "text": "臺北院區",
+            "url": "https://www.hrd.gov.tw/1122/2139/2149/20979/SPTrafficLocation"
+          },
+          {
+            "text": "南投院區",
+            "url": "https://www.hrd.gov.tw/1122/2139/2149/20980/SPTrafficLocation"
+          },
+          {
+            "text": "交通位置",
+            "url": "https://www.hrd.gov.tw/1122/2139/2149/"
+          },
+          {
+            "text": "交通位置",
+            "url": "https://service.hrd.gov.tw/reservation"
+          },
+          {
+            "text": "交通路線圖",
+            "url": "https://www.hrd.gov.tw/1122/2139/2149/20979/"
+          },
+          {
+            "text": "交通路線圖",
+            "url": "https://www.hrd.gov.tw/1122/2139/2149/20980/"
+          },
+          {
+            "text": "",
+            "url": "https://accessibility.moda.gov.tw/Applications/Detail?category=20251021134543"
+          }
+        ],
+        "floor_plan_links": [
+          {
+            "text": "網站導覽",
+            "url": "https://www.hrd.gov.tw/1123/2125/"
+          },
+          {
+            "text": "學院導覽",
+            "url": "https://www.hrd.gov.tw/1122/2141/4314/NodelistIMG"
+          },
+          {
+            "text": "學院導覽",
+            "url": "https://www.hrd.gov.tw/1122/2141/4314/"
+          }
+        ],
+        "contact_links": []
+      },
+      "meeting_rooms": {
+        "total_links_found": 7,
+        "detailed_pages_scraped": 3,
+        "rooms": [
+          {
+            "name": "Google 搜尋引擎",
+            "source": "https://www.hrd.gov.tw/1123/2127/?q=場地查詢",
+            "raw_html": "<div class=\"wrapper\">\n<header class=\"header\">\n<div class=\"container\">\n<a accesskey=\"U\" class=\"accesskey\" href=\"#aU\" id=\"aU\" tabindex=\"2\" title=\"上方功能區塊\">:::</a>\n<nav class=\"navigation\">\n<!-- 一組ul預設靠右 可"
+          },
+          {
+            "name": "主選單",
+            "source": "https://www.hrd.gov.tw/1122/2141/Normalnodelist",
+            "raw_html": "<div class=\"wrapper\">\n<header class=\"header\">\n<div class=\"container\">\n<a accesskey=\"U\" class=\"accesskey\" href=\"#aU\" id=\"aU\" tabindex=\"2\" title=\"上方功能區塊\">:::</a>\n<nav class=\"navigation\">\n<!-- 一組ul預設靠右 可"
+          },
+          {
+            "name": "場地設施",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/NPmeetingVenue",
+            "raw_html": "<div class=\"wrapper\">\n<header class=\"header\">\n<div class=\"container\">\n<a accesskey=\"U\" class=\"accesskey\" href=\"#aU\" id=\"aU\" tabindex=\"2\" title=\"上方功能區塊\">:::</a>\n<nav class=\"navigation\">\n<!-- 一組ul預設靠右 可"
+          },
+          {
+            "name": "會議場地",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/NPmeetingVenue",
+            "raw_html": "<div class=\"content\">\n<!-- breadcrumb路徑 -->\n<div class=\"breadcrumb\">\n<span></span>\n<ul>\n<li>\r\n                現在位置：\r\n            </li>\n<li>\n<a href=\"/\">首頁</a>\n</li>\n<li>\n<a href=\"/1122/2141/Normalnode"
+          },
+          {
+            "name": "1F 前瞻廳",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/NPmeetingVenue",
+            "raw_html": "<section class=\"lp\">\n<div class=\"btn_grp choose_location\">\n<a class=\"btn btn-green active\" href=\"/1122/2141/3157/?nodeId=12634\" title=\"臺北院區\">臺北院區</a>\n<a class=\"btn\" href=\"/1122/2141/3157/?nodeId=3162\""
+          },
+          {
+            "name": "1F 101階梯教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/NPmeetingVenue",
+            "raw_html": "<li>\n<a href=\"/1122/2141/3157/12634/12655/meetingVenue\" title=\"1F 101階梯教室\">\n<div class=\"imgOuter\">\n<img alt=\"\" src=\"/media/1019/101.jpg?width=400\"/>\n</div>\n<div class=\"caption\">\n<h3>1F 101階梯教室</h3>\n<u"
+          },
+          {
+            "name": "1F 103階梯教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/NPmeetingVenue",
+            "raw_html": "<li>\n<a href=\"/1122/2141/3157/12634/12659/meetingVenue\" title=\"1F 103階梯教室\">\n<div class=\"imgOuter\">\n<img alt=\"\" src=\"/media/1020/103.jpg?width=400\"/>\n</div>\n<div class=\"caption\">\n<h3>1F 103階梯教室</h3>\n<u"
+          },
+          {
+            "name": "2F 201教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/NPmeetingVenue",
+            "raw_html": "<li>\n<a href=\"/1122/2141/3157/12634/12665/meetingVenue\" title=\"2F 201教室\">\n<div class=\"imgOuter\">\n<img alt=\"\" src=\"/media/1021/201_1.jpg?width=400\"/>\n</div>\n<div class=\"caption\">\n<h3>2F 201教室</h3>\n<ul>"
+          },
+          {
+            "name": "2F 202教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/NPmeetingVenue",
+            "raw_html": "<li>\n<a href=\"/1122/2141/3157/12634/12669/meetingVenue\" title=\"2F 202教室\">\n<div class=\"imgOuter\">\n<img alt=\"\" src=\"/media/1022/202.jpg?width=400\"/>\n</div>\n<div class=\"caption\">\n<h3>2F 202教室</h3>\n<ul>\n<"
+          },
+          {
+            "name": "2F 203教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/NPmeetingVenue",
+            "raw_html": "<li>\n<a href=\"/1122/2141/3157/12634/12673/meetingVenue\" title=\"2F 203教室\">\n<div class=\"imgOuter\">\n<img alt=\"\" src=\"/media/1023/203.jpg?width=400\"/>\n</div>\n<div class=\"caption\">\n<h3>2F 203教室</h3>\n<ul>\n<"
+          },
+          {
+            "name": "2F 204教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/NPmeetingVenue",
+            "raw_html": "<li>\n<a href=\"/1122/2141/3157/12634/12677/meetingVenue\" title=\"2F 204教室\">\n<div class=\"imgOuter\">\n<img alt=\"\" src=\"/media/1024/204.jpg?width=400\"/>\n</div>\n<div class=\"caption\">\n<h3>2F 204教室</h3>\n<ul>\n<"
+          },
+          {
+            "name": "2F 205教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/NPmeetingVenue",
+            "raw_html": "<li>\n<a href=\"/1122/2141/3157/12634/12679/meetingVenue\" title=\"2F 205教室\">\n<div class=\"imgOuter\">\n<img alt=\"\" src=\"/media/1024/204.jpg?width=400\"/>\n</div>\n<div class=\"caption\">\n<h3>2F 205教室</h3>\n<ul>\n<"
+          },
+          {
+            "name": "3F 303研討室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/NPmeetingVenue",
+            "raw_html": "<li>\n<a href=\"/1122/2141/3157/12634/12683/meetingVenue\" title=\"3F 303研討室\">\n<div class=\"imgOuter\">\n<img alt=\"\" src=\"/media/1025/303s.jpg?width=400\"/>\n</div>\n<div class=\"caption\">\n<h3>3F 303研討室</h3>\n<ul"
+          },
+          {
+            "name": "3F 304教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/NPmeetingVenue",
+            "raw_html": "<li>\n<a href=\"/1122/2141/3157/12634/12687/meetingVenue\" title=\"3F 304教室\">\n<div class=\"imgOuter\">\n<img alt=\"\" src=\"/media/1026/n2011321113539s.jpg?width=400\"/>\n</div>\n<div class=\"caption\">\n<h3>3F 304教室"
+          },
+          {
+            "name": "3F 305教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/NPmeetingVenue",
+            "raw_html": "<li>\n<a href=\"/1122/2141/3157/12634/12692/meetingVenue\" title=\"3F 305教室\">\n<div class=\"imgOuter\">\n<img alt=\"\" src=\"/media/1028/n2011321113539s.jpg?width=400\"/>\n</div>\n<div class=\"caption\">\n<h3>3F 305教室"
+          },
+          {
+            "name": "4F 401教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/NPmeetingVenue",
+            "raw_html": "<li>\n<a href=\"/1122/2141/3157/12634/12695/meetingVenue\" title=\"4F 401教室\">\n<div class=\"imgOuter\">\n<img alt=\"\" src=\"/media/1029/n2011318143112s.jpg?width=400\"/>\n</div>\n<div class=\"caption\">\n<h3>4F 401教室"
+          },
+          {
+            "name": "4F 402教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/NPmeetingVenue",
+            "raw_html": "<li>\n<a href=\"/1122/2141/3157/12634/12705/meetingVenue\" title=\"4F 402教室\">\n<div class=\"imgOuter\">\n<img alt=\"\" src=\"/media/1029/n2011318143112s.jpg?width=400\"/>\n</div>\n<div class=\"caption\">\n<h3>4F 402教室"
+          },
+          {
+            "name": "4F 403數位科技教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/NPmeetingVenue",
+            "raw_html": "<li>\n<a href=\"/1122/2141/3157/12634/12709/meetingVenue\" title=\"4F 403數位科技教室\">\n<div class=\"imgOuter\">\n<img alt=\"\" src=\"/media/7857/會議場地-4f-403數位科技教室.png?width=400\"/>\n</div>\n<div class=\"caption\">\n<h3>4F"
+          },
+          {
+            "name": "4F 404數位互動教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/NPmeetingVenue",
+            "raw_html": "<li>\n<a href=\"/1122/2141/3157/12634/12714/meetingVenue\" title=\"4F 404數位互動教室\">\n<div class=\"imgOuter\">\n<img alt=\"\" src=\"/media/10534/附檔2_404數位互動教室-11205修.jpg?width=400\"/>\n</div>\n<div class=\"caption\">\n<h"
+          },
+          {
+            "name": "5F 501教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/NPmeetingVenue",
+            "raw_html": "<li>\n<a href=\"/1122/2141/3157/12634/12722/meetingVenue\" title=\"5F 501教室\">\n<div class=\"imgOuter\">\n<img alt=\"\" src=\"/media/4311/img_1072s.jpg?width=400\"/>\n</div>\n<div class=\"caption\">\n<h3>5F 501教室</h3>\n"
+          },
+          {
+            "name": "5F 502教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/NPmeetingVenue",
+            "raw_html": "<li>\n<a href=\"/1122/2141/3157/12634/12730/meetingVenue\" title=\"5F 502教室\">\n<div class=\"imgOuter\">\n<img alt=\"\" src=\"/media/1035/n2011318143328s.jpg?width=400\"/>\n</div>\n<div class=\"caption\">\n<h3>5F 502教室"
+          },
+          {
+            "name": "6F 601教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/NPmeetingVenue",
+            "raw_html": "<li>\n<a href=\"/1122/2141/3157/12634/12734/meetingVenue\" title=\"6F 601教室\">\n<div class=\"imgOuter\">\n<img alt=\"\" src=\"/media/1036/601s.jpg?width=400\"/>\n</div>\n<div class=\"caption\">\n<h3>6F 601教室</h3>\n<ul>\n"
+          },
+          {
+            "name": "6F 602教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/NPmeetingVenue",
+            "raw_html": "<li>\n<a href=\"/1122/2141/3157/12634/12741/meetingVenue\" title=\"6F 602教室\">\n<div class=\"imgOuter\">\n<img alt=\"\" src=\"/media/1037/601s.jpg?width=400\"/>\n</div>\n<div class=\"caption\">\n<h3>6F 602教室</h3>\n<ul>\n"
+          },
+          {
+            "name": "14F 貴賓廳-教室型",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/NPmeetingVenue",
+            "raw_html": "<li>\n<a href=\"/1122/2141/3157/12634/12651/meetingVenue\" title=\"14F 貴賓廳-教室型\">\n<div class=\"imgOuter\">\n<img alt=\"\" src=\"/media/1018/14fs.jpg?width=400\"/>\n</div>\n<div class=\"caption\">\n<h3>14F 貴賓廳-教室型</h3>"
+          },
+          {
+            "name": "14F 貴賓廳-分組型",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/NPmeetingVenue",
+            "raw_html": "<li>\n<a href=\"/1122/2141/3157/12634/12661/meetingVenue\" title=\"14F 貴賓廳-分組型\">\n<div class=\"imgOuter\">\n<img alt=\"\" src=\"/media/7856/會議場地-14f-貴賓廳-分組型.jpg?width=400\"/>\n</div>\n<div class=\"caption\">\n<h3>14F "
+          }
+        ],
+        "total_rooms_found": 25
+      },
+      "pricing": {
+        "links_found": 2,
+        "pages_scraped": 2,
+        "price_info": [
+          {
+            "page": "https://www.hrd.gov.tw/1122/2140/2168/4748/post",
+            "prices": [
+              "1,060",
+              "810",
+              "2,000",
+              "1,000",
+              "33,100"
+            ]
+          }
+        ]
+      },
+      "rules": {
+        "links_found": 3,
+        "rules_extracted": {
+          "catering": "認識學院\n\n\n學院簡介\n\n\n使命與願景\n\n\n院長介紹\n\n\n交通位置\n\n\n臺北院區\n\n\n南投院區\n\n\n\n\n電話聯繫表\n\n\n學院簡介影片\n\n\n\n\n訓練資訊\n\n\n年度訓練計畫\n\n\n訓練班期資訊\n\n\n服務園地",
+          "smoking": null,
+          "decoration": null,
+          "noise": null,
+          "cleanup": null,
+          "deposit": null,
+          "cancellation": null
+        }
+      },
+      "access": {
+        "links_found": 8,
+        "access_info": {
+          "mrt": {
+            "station": "捷運\n搭乘捷運(松山新店線)至台電大樓站"
+          },
+          "bus": {
+            "routes": [
+              "1號",
+              "3號",
+              "2號"
+            ]
+          },
+          "parking": "停車至辛亥路右轉即可進入停車場\n\n\n由國道3號(北二高)\n請由木柵交流道下，沿辛亥路經過新生南路，即可在右前方看到公務人力發展學院(臺北院區)，進入停車場",
+          "car": "停車至辛亥路右轉即可進入停車場\n\n\n由國道3號(北二高)\n請由木柵交流道下，沿辛亥路經過新生南路，即可在右前方看到公務人力發展學院(臺北院區)，進入停車場"
+        }
+      },
+      "floor_plan": {
+        "links_found": 3,
+        "floor_plan": {}
+      }
+    },
+    "success": true,
+    "total_pages_scraped": 1
+  },
+  {
+    "id": 1049,
+    "name": "台北國際展演中心(TWTCA)",
+    "url": "https://www.twtc.com.tw",
+    "scraped_at": "2026-03-25T15:40:57.045445",
+    "scrape_pages": [
+      "https://www.twtc.com.tw"
+    ],
+    "data": {
+      "homepage": {
+        "url": "https://www.twtc.com.tw",
+        "title": "台北世貿中心",
+        "meeting_links": [
+          {
+            "text": "活動場地",
+            "url": "https://www.twtc.com.tw#"
+          },
+          {
+            "text": "展覽場地租借",
+            "url": "https://www.twtc.com.tw/exh"
+          },
+          {
+            "text": "會議室介紹",
+            "url": "https://www.twtc.com.tw/meeting?p=menu1"
+          },
+          {
+            "text": "第一會議室",
+            "url": "https://www.twtc.com.tw/meeting1"
+          },
+          {
+            "text": "A+會議室",
+            "url": "https://www.twtc.com.tw/meeting11"
+          },
+          {
+            "text": "第二會議室",
+            "url": "https://www.twtc.com.tw/meeting2"
+          },
+          {
+            "text": "第三會議室",
+            "url": "https://www.twtc.com.tw/meeting3"
+          },
+          {
+            "text": "第四會議室",
+            "url": "https://www.twtc.com.tw/meeting4"
+          },
+          {
+            "text": "第五會議室",
+            "url": "https://www.twtc.com.tw/meeting5"
+          },
+          {
+            "text": "第三四五會議室(打通)",
+            "url": "https://www.twtc.com.tw/meeting345"
+          },
+          {
+            "text": "一樓貴賓室",
+            "url": "https://www.twtc.com.tw/meeting22"
+          },
+          {
+            "text": "第一五會議室間廊廳",
+            "url": "https://www.twtc.com.tw/meeting15"
+          },
+          {
+            "text": "會議室表單下載",
+            "url": "https://www.twtc.com.tw/meeting_form"
+          },
+          {
+            "text": "",
+            "url": "https://mart.twtc.com.tw/home/taionespace"
+          }
+        ],
+        "pricing_links": [],
+        "rules_links": [
+          {
+            "text": "展覽場地租借",
+            "url": "https://www.twtc.com.tw/exh"
+          },
+          {
+            "text": "2025/02/05 修正「外貿協會世貿一館展覽場借用實施規範」第五條第二項第二款及第七條第一項第五款並於即日起實施，敬請參考。",
+            "url": "https://www.twtc.com.tw/news-detail.aspx?sn=2339"
+          }
+        ],
+        "access_links": [
+          {
+            "text": "交通資訊",
+            "url": "https://www.twtc.com.tw/traffic"
+          },
+          {
+            "text": "捷運",
+            "url": "https://www.google.com/search?q=%E5%8F%B0%E5%8C%97%E4%B8%96%E8%B2%BF%E4%B8%80%E9%A4%A8+%E6%8D%B7%E9%81%8B&rlz=1C1FKPE_zh-TWTW956TW957&sxsrf=AOaemvKDHe4O4yj5R55P1RK7hZkFDLTtEw%3A1631000212600&ei=lBY3YdiDJILDmAWaroLQCw&oq=%E6%8D%B7%E9%81%8B+%E5%8F%B0%E5%8C%97%E4%B8%96%E8%B2%BF&gs_lcp=Cgdnd3Mtd2l6EAEYADIGCAAQCBAeMgYIABAIEB4yBggAEAgQHjIGCAAQCBAeMgYIABAIEB4yBggAEAgQHjoHCCMQsAMQJzoHCAAQRxCwAzoICAAQsQMQgwE6BQgAELEDOgUIABDNAjoECAAQQzoFCAAQgAQ6AggmOgQIABAeOgYIABAEEB5KBAhBGABQoT1YhVlg72poAXACeACAAaoBiAGhBZIBBDExLjGYAQCgAQHIAQnAAQE&sclient=gws-wiz"
+          },
+          {
+            "text": "停車場",
+            "url": "https://www.twtc.com.tw#"
+          }
+        ],
+        "floor_plan_links": [],
+        "contact_links": []
+      },
+      "meeting_rooms": {
+        "total_links_found": 14,
+        "detailed_pages_scraped": 3,
+        "rooms": [
+          {
+            "name": "展覽檔期表",
+            "source": "https://www.twtc.com.tw#",
+            "raw_html": "<div>\n<div class=\"d-flex justify-content-center\">\n<div class=\"mx-auto\">\n<nav class=\"navbar navbar-expand-lg navbar-light bg-light\">\n<div class=\"twtcNavbar\">\n<!-- Brand and toggle get grouped for bette"
+          },
+          {
+            "name": "展覽場地租借",
+            "source": "https://www.twtc.com.tw/exh",
+            "raw_html": "<div>\n<div class=\"d-flex justify-content-center\">\n<div class=\"mx-auto\">\n<nav class=\"navbar navbar-expand-lg navbar-light bg-light\">\n<div class=\"twtcNavbar\">\n<!-- Brand and toggle get grouped for bette"
+          },
+          {
+            "name": "世貿一館會議室介紹及場地佈置",
+            "source": "https://www.twtc.com.tw/meeting?p=menu1",
+            "raw_html": "<div>\n<div class=\"d-flex justify-content-center\">\n<div class=\"mx-auto\">\n<nav class=\"navbar navbar-expand-lg navbar-light bg-light\">\n<div class=\"twtcNavbar\">\n<!-- Brand and toggle get grouped for bette"
+          },
+          {
+            "name": "會議室介紹",
+            "source": "https://www.twtc.com.tw/meeting?p=menu1",
+            "raw_html": "<div class=\"col-xs-12 mt10\">\n<div class=\"col-xs-12 date_content_block\">\n<ul class=\"nav nav-tabs date_tab\">\n<li class=\"active\" id=\"p1\" style=\"width: 100%\">\n<a data-toggle=\"tab\" href=\"#menu1\" style=\"fon"
+          },
+          {
+            "name": "第一會議室",
+            "source": "https://www.twtc.com.tw/meeting?p=menu1",
+            "raw_html": "<div class=\"col-xs-12 content_block2\">\n<hr/>\n<div class=\"sub\" id=\"1\">\n<h2 class=\"sub_title\"><span>第一會議室</span></h2>\n<p>教室型可容納84人、標準型可容納144人、劇院型可容納250人 適合舉辦各類型會議、展覽、記者會、產品展示會或頒獎典禮等活動。</p>\n<img alt=\"第1會"
+          },
+          {
+            "name": "A+會議室",
+            "source": "https://www.twtc.com.tw/meeting?p=menu1",
+            "raw_html": "<div class=\"sub\" id=\"11\">\n<h2 class=\"sub_title\"><span>A+會議室</span></h2>\n<p>教室型可容納48人、標準型可容納72人、劇院型可容納108人 適合舉辦各類型會議、展覽、記者會、產品展示會或頒獎典禮等活動。</p>\n<img alt=\"A+會議室\" src=\"./img/meeting/A會議室.jpg\" style=\"width"
+          },
+          {
+            "name": "第二會議室",
+            "source": "https://www.twtc.com.tw/meeting?p=menu1",
+            "raw_html": "<div class=\"sub\" id=\"2\">\n<h2 class=\"sub_title\"><span>第二會議室</span></h2>\n<p>教室型可容納60人、標準型可容納100人、劇院型可容納160人， 適合舉辦各類型會議、展覽、記者會、產品展示會或頒獎典禮等活動。</p>\n<img alt=\"第2會議室\" src=\"./img/meeting/第2會議室.jpg\" style=\"wid"
+          },
+          {
+            "name": "第三會議室",
+            "source": "https://www.twtc.com.tw/meeting?p=menu1",
+            "raw_html": "<div class=\"sub\" id=\"3\">\n<h2 class=\"sub_title\"><span>第三會議室</span></h2>\n<p>教室型可容納70人、標準型可容納120人、劇院型可容納200人， 適合舉辦各類型會議、展覽、記者會、產品展示會或頒獎典禮等活動。</p>\n<img alt=\"第3會議室\" src=\"./img/meeting/第3會議室.jpg\" style=\"wid"
+          },
+          {
+            "name": "第四會議室",
+            "source": "https://www.twtc.com.tw/meeting?p=menu1",
+            "raw_html": "<div class=\"sub\" id=\"4\">\n<h2 class=\"sub_title\"><span>第四會議室</span></h2>\n<p>教室型可容納48人、標準型可容納72人、劇院型可容納108人， 適合舉辦各類型會議、展覽、記者會、產品展示會或頒獎典禮等活動。</p>\n<img alt=\"第4會議室\" src=\"./img/meeting/第4會議室.jpg\" style=\"widt"
+          },
+          {
+            "name": "第五會議室",
+            "source": "https://www.twtc.com.tw/meeting?p=menu1",
+            "raw_html": "<div class=\"sub\" id=\"5\">\n<h2 class=\"sub_title\"><span>第五會議室</span></h2>\n<p>教室型可容納84人、標準型可容納144人、劇院型可容納250人 適合舉辦各類型會議、展覽、記者會、產品展示會或頒獎典禮等活動。</p>\n<img alt=\"第5會議室\" src=\"./img/meeting/第5會議室.jpg\" style=\"widt"
+          },
+          {
+            "name": "第三、四、五會議室(打通)",
+            "source": "https://www.twtc.com.tw/meeting?p=menu1",
+            "raw_html": "<div class=\"sub\" id=\"345\">\n<h2 class=\"sub_title\"><span>第三、四、五會議室(打通)</span></h2>\n<p>三、四、五會議室(打通)，最大容量劇院型約可容納500人，並可彈性隔間為中、小型會議室，適合舉辦各類型會議、展覽、記者會、產品展示會或頒獎典禮等活動。</p>\n<img alt=\"第3,4,5會議室\" src=\"./img/meet"
+          },
+          {
+            "name": "一樓貴賓室",
+            "source": "https://www.twtc.com.tw/meeting?p=menu1",
+            "raw_html": "<div class=\"sub\" id=\"22\">\n<h2 class=\"sub_title\"><span>一樓貴賓室</span></h2>\n<img alt=\"一樓貴賓室\" src=\"./img/meeting/一樓貴賓室1.jpg\" style=\"width: 100%; max-width: 500px;\"/>\n<div class=\"mt10\">\n<a href=\"./meeting22"
+          },
+          {
+            "name": "第一、五會議室間廊廳",
+            "source": "https://www.twtc.com.tw/meeting?p=menu1",
+            "raw_html": "<div class=\"sub\" id=\"15\">\n<h2 class=\"sub_title\"><span>第一、五會議室間廊廳</span></h2>\n<img alt=\"第1,5會議室\" src=\"./img/meeting/第一、五會議室間廊廳1.jpg\" style=\"width: 100%; max-width: 500px;\"/>\n<div class=\"mt10\">\n<a href="
+          }
+        ],
+        "total_rooms_found": 13
+      },
+      "pricing": {
+        "links_found": 0,
+        "pages_scraped": 0,
+        "price_info": []
+      },
+      "rules": {
+        "links_found": 2,
+        "rules_extracted": {
+          "catering": "台北世貿中心\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n中心簡介\n\n\n台北世貿中心簡介\nESG ＆ CSR\n展覽大樓主要設施及面積一覽表\n交通資訊\n餐飲服務\n服務設施\n",
+          "smoking": null,
+          "decoration": "台北世貿中心\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n中心簡介\n\n\n台北世貿中心簡介\nESG ＆ CSR\n展覽大樓主要設施及面積一覽表\n交通資訊\n餐飲服務\n服務設施\n",
+          "noise": null,
+          "cleanup": null,
+          "deposit": null,
+          "cancellation": null
+        }
+      },
+      "access": {
+        "links_found": 3,
+        "access_info": {}
+      },
+      "floor_plan": {
+        "links_found": 0,
+        "floor_plan": {}
+      }
+    },
+    "success": true,
+    "total_pages_scraped": 1
+  },
+  {
+    "id": 1448,
+    "name": "台北國際會議中心(TICC)",
+    "url": "https://www.ticc.com.tw/",
+    "scraped_at": "2026-03-25T15:40:59.598595",
+    "scrape_pages": [
+      "https://www.ticc.com.tw/"
+    ],
+    "data": {
+      "homepage": {
+        "url": "https://www.ticc.com.tw/",
+        "title": "外貿協會台北國際會議中心",
+        "meeting_links": [
+          {
+            "text": "場地導覽",
+            "url": "https://www.ticc.com.tw/np?ctNode=320&mp=1"
+          },
+          {
+            "text": "場地介紹",
+            "url": "https://www.ticc.com.tw/sp?xdUrl=/wSite/ap/lp_VenueIntroduction.jsp&ctNode=321&CtUnit=98&BaseDSD=7&mp=1"
+          },
+          {
+            "text": "場地查詢",
+            "url": "https://www.ticc.com.tw/sp?xdUrl=/wSite/ap/lp_VenueSearch.jsp&ctNode=322&CtUnit=99&BaseDSD=7&mp=1"
+          },
+          {
+            "text": "「115年國際媒體邀訪」評選會議  2026/03/26",
+            "url": "https://www.ticc.com.tw/sp?xdUrl=/wSite/ap/cp_Activity.jsp&ctNode=318&mp=1&bId=8040"
+          }
+        ],
+        "pricing_links": [
+          {
+            "text": "價目表",
+            "url": "https://www.ticc.com.tw/lp?ctNode=335&CtUnit=109&BaseDSD=7&mp=1"
+          }
+        ],
+        "rules_links": [
+          {
+            "text": "詳情與租借規範",
+            "url": "https://www.ticc.com.tw/lp?ctNode=336&CtUnit=110&BaseDSD=7&mp=1"
+          }
+        ],
+        "access_links": [
+          {
+            "text": "交通資訊",
+            "url": "https://www.ticc.com.tw/np?ctNode=314&CtUnit=93&BaseDSD=7&mp=1"
+          }
+        ],
+        "floor_plan_links": [
+          {
+            "text": "網站導覽",
+            "url": "https://www.ticc.com.tw/sitemap?mp=1"
+          },
+          {
+            "text": "場地導覽",
+            "url": "https://www.ticc.com.tw/np?ctNode=320&mp=1"
+          }
+        ],
+        "contact_links": []
+      },
+      "meeting_rooms": {
+        "total_links_found": 4,
+        "detailed_pages_scraped": 0,
+        "rooms": [],
+        "total_rooms_found": 0
+      },
+      "pricing": {
+        "links_found": 1,
+        "pages_scraped": 1,
+        "price_info": []
+      },
+      "rules": {
+        "links_found": 1,
+        "rules_extracted": {
+          "catering": null,
+          "smoking": null,
+          "decoration": null,
+          "noise": null,
+          "cleanup": null,
+          "deposit": null,
+          "cancellation": null
+        }
+      },
+      "access": {
+        "links_found": 1,
+        "access_info": {}
+      },
+      "floor_plan": {
+        "links_found": 2,
+        "floor_plan": {}
+      }
+    },
+    "success": true,
+    "total_pages_scraped": 1
+  }
+]

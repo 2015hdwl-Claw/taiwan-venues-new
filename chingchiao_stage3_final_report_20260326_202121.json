@@ -1,0 +1,74 @@
+{
+  "venue": "青青婚宴會館",
+  "venue_id": 1129,
+  "url": "https://www.77-67.com/",
+  "stage1_technical_detection": {
+    "http_status": 200,
+    "page_type": "HTML (靜態)",
+    "js_frameworks": "無",
+    "loading_method": "靜態/SSR",
+    "anti_scraping": "Cloudflare",
+    "special_features": [
+      "Cloudflare 保護",
+      "可能需要 JavaScript Challenge",
+      "可能需要 Browser Fingerprinting"
+    ]
+  },
+  "stage2_deep_scraping": {
+    "meeting_links_found": 49,
+    "meeting_links_tested": 0,
+    "working_links": 0,
+    "blocked_links": 49,
+    "success_rate": "0% (被 Cloudflare 攔截)",
+    "reason": "Cloudflare 攔截所有自動化請求"
+  },
+  "analysis": {
+    "root_cause": "Cloudflare 反爬蟲保護",
+    "evidence": [
+      "Server header 顯示 Cloudflare",
+      "所有請求被識別為機器人",
+      "需要通過 JavaScript Challenge",
+      "可能需要 Browser Fingerprinting 驗證"
+    ]
+  },
+  "next_steps": [
+    {
+      "option": 1,
+      "method": "使用模擬瀏覽器（Selenium + undetected-chromedriver）",
+      "description": "使用不被偵測的 Chrome 驅動程式",
+      "pros": "可以繞過基本的 Cloudflare 檢測",
+      "cons": "仍然可能被高級保護攔截，設置複雜",
+      "estimated_success_rate": "50%"
+    },
+    {
+      "option": 2,
+      "method": "手動訪問並下載",
+      "description": "使用瀏覽器手動訪問並保存頁面",
+      "pros": "100% 成功，確保獲取正確資料",
+      "cons": "無法自動化",
+      "estimated_success_rate": "100%"
+    },
+    {
+      "option": 3,
+      "method": "直接聯繫青青婚宴",
+      "description": "電話洽詢",
+      "pros": "獲得官方準確資料",
+      "cons": "需要等待回應",
+      "estimated_success_rate": "90%"
+    }
+  ],
+  "recommendation": {
+    "priority": 1,
+    "option": 2,
+    "reason": "Cloudflare 保護級別較高，自動爬取成功率低且不穩定，建議直接使用手動方式",
+    "action_items": [
+      "手動訪問 https://www.77-67.com/",
+      "導航到場地介紹頁面",
+      "使用瀏覽器開發者工具保存 HTML",
+      "或使用瀏覽器截圖功能",
+      "手動提取會議室資料",
+      "建立完整 30 欄位資料"
+    ]
+  },
+  "timestamp": "2026-03-26T20:21:21.747747"
+}

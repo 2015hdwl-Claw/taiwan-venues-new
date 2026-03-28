@@ -1,0 +1,8 @@
+TICC (ID 1448)
+會議室: 31
+PDF source: ticc_pdf_parsed_v2
+Total rooms from PDF: 31
+Room 1: {'name': '大會堂全場', 'capacity': '973', 'area': '973m2'}
+Room 2: {'name': '大會堂半場', 'capacity': None, 'area': None}
+Room 3: {'name': '101 全室', 'capacity': '744', 'area': None}
+

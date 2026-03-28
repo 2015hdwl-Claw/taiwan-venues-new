@@ -1,0 +1,625 @@
+{
+  "scraped_at": "2026-03-25T16:30:53.108676",
+  "statistics": {
+    "total": 5,
+    "success": 5,
+    "failed": 0,
+    "skipped": 0
+  },
+  "results": [
+    {
+      "id": 1034,
+      "scraped_at": "2026-03-25T16:30:35.251440",
+      "scrape_version": "v2_complete",
+      "metadata": {
+        "pageType": "Static/SSR",
+        "pageTypeDetectedAt": "2026-03-25T16:30:35.759623",
+        "homepage_links": {
+          "meeting": 0,
+          "pricing": 0,
+          "rules": 0,
+          "access": 0,
+          "floor_plan": 0
+        },
+        "lastScrapedAt": "2026-03-25T16:30:35.819449",
+        "scrapePages": 1
+      },
+      "success": true
+    },
+    {
+      "id": 1042,
+      "scraped_at": "2026-03-25T16:30:37.819917",
+      "scrape_version": "v2_complete",
+      "metadata": {
+        "pageType": "WordPress API",
+        "pageTypeDetectedAt": "2026-03-25T16:30:38.185946",
+        "homepage_links": {
+          "meeting": 5,
+          "pricing": 2,
+          "rules": 3,
+          "access": 5,
+          "floor_plan": 3
+        },
+        "lastScrapedAt": "2026-03-25T16:30:41.653477",
+        "scrapePages": 1
+      },
+      "rooms": [
+        {
+          "name": "1F 前瞻廳",
+          "floor": "1F",
+          "capacity": "220",
+          "area": "",
+          "equipment": "投影機, 麥克風, 音響, 螢幕, 白板"
+        },
+        {
+          "name": "1F 前瞻廳",
+          "floor": "1F",
+          "capacity": "220",
+          "area": "",
+          "equipment": "投影機, 麥克風, 音響, 螢幕, 白板"
+        },
+        {
+          "name": "1F 前瞻廳",
+          "floor": "1F",
+          "capacity": "220",
+          "area": "",
+          "equipment": "投影機, 麥克風, 音響, 螢幕, 白板"
+        },
+        {
+          "name": "1F 前瞻廳",
+          "floor": "1F",
+          "capacity": "220",
+          "area": "",
+          "equipment": "投影機, 麥克風, 音響, 螢幕, 白板"
+        },
+        {
+          "name": "1F 前瞻廳",
+          "floor": "1F",
+          "capacity": "220",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "1F 前瞻廳",
+          "floor": "1F",
+          "capacity": "220",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "1F 前瞻廳",
+          "floor": "1F",
+          "capacity": "220",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "1F 前瞻廳",
+          "floor": "1F",
+          "capacity": "220",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "1F 101階梯教室",
+          "floor": "1F",
+          "capacity": "41",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "1F 101階梯教室",
+          "floor": "1F",
+          "capacity": "41",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "1F 103階梯教室",
+          "floor": "1F",
+          "capacity": "78",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "1F 103階梯教室",
+          "floor": "1F",
+          "capacity": "78",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2F 201教室",
+          "floor": "2F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2F 201教室",
+          "floor": "2F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2F 202教室",
+          "floor": "2F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2F 202教室",
+          "floor": "2F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2F 203教室",
+          "floor": "2F",
+          "capacity": "48",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2F 203教室",
+          "floor": "2F",
+          "capacity": "48",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2F 204教室",
+          "floor": "2F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2F 204教室",
+          "floor": "2F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2F 205教室",
+          "floor": "2F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2F 205教室",
+          "floor": "2F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "3F 304教室",
+          "floor": "3F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "3F 304教室",
+          "floor": "3F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "3F 305教室",
+          "floor": "3F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "3F 305教室",
+          "floor": "3F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "4F 401教室",
+          "floor": "4F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "4F 401教室",
+          "floor": "4F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "4F 402教室",
+          "floor": "4F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "4F 402教室",
+          "floor": "4F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "4F 403數位科技教室",
+          "floor": "4F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "4F 403數位科技教室",
+          "floor": "4F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "4F 404數位互動教室",
+          "floor": "4F",
+          "capacity": "60",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "4F 404數位互動教室",
+          "floor": "4F",
+          "capacity": "60",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "5F 501教室",
+          "floor": "5F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "5F 501教室",
+          "floor": "5F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "5F 502教室",
+          "floor": "5F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "5F 502教室",
+          "floor": "5F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "6F 601教室",
+          "floor": "6F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "6F 601教室",
+          "floor": "6F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "6F 602教室",
+          "floor": "6F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "6F 602教室",
+          "floor": "6F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "14F 貴賓廳-教室型",
+          "floor": "14F",
+          "capacity": "100",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "14F 貴賓廳-教室型",
+          "floor": "14F",
+          "capacity": "100",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "14F 貴賓廳-分組型",
+          "floor": "14F",
+          "capacity": "81",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "14F 貴賓廳-分組型",
+          "floor": "14F",
+          "capacity": "81",
+          "area": "",
+          "equipment": ""
+        }
+      ],
+      "pricing": {
+        "prices": [
+          "21100",
+          "24000",
+          "84400",
+          "810",
+          "36000",
+          "66200",
+          "63300",
+          "99300",
+          "1000",
+          "2000"
+        ]
+      },
+      "rules": {
+        "catering": "<a href=\"/1122/2141/3158/NPmeetingVenue\" target=\"_self\" title=\"餐飲服務\">餐飲服務</a>"
+      },
+      "success": true
+    },
+    {
+      "id": 1043,
+      "scraped_at": "2026-03-25T16:30:43.653980",
+      "scrape_version": "v2_complete",
+      "metadata": {
+        "pageType": "Static/SSR",
+        "pageTypeDetectedAt": "2026-03-25T16:30:43.916753",
+        "homepage_links": {
+          "meeting": 5,
+          "pricing": 0,
+          "rules": 0,
+          "access": 1,
+          "floor_plan": 3
+        },
+        "lastScrapedAt": "2026-03-25T16:30:44.429036",
+        "scrapePages": 1
+      },
+      "rooms": [
+        {
+          "name": "卓越客房Superior Room",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "卓越客房Superior Room",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "豪華客房Deluxe Room",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "豪華客房Deluxe Room",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        }
+      ],
+      "accessInfo": {
+        "mrt": "<meta name=\"description\" content=\"台北六福萬怡酒店位於南港車站上方，與捷運、高鐵、台鐵及客運轉運站共構，鄰近台北流行音樂中心、CITYLINK、南港Lalaport，",
+        "bus": "<div class=\"trafficb_title\">公車</div>",
+        "parking": "<p>一、京合發特約平面停車場<br>行駛至市民大道八段，直行經過「瓶蓋印象公園」後，依指示牌右轉即可進入"
+      },
+      "success": true
+    },
+    {
+      "id": 1045,
+      "scraped_at": "2026-03-25T16:30:46.429499",
+      "scrape_version": "v2_complete",
+      "metadata": {
+        "pageType": "Static/SSR",
+        "pageTypeDetectedAt": "2026-03-25T16:30:46.807039",
+        "homepage_links": {
+          "meeting": 1,
+          "pricing": 0,
+          "rules": 2,
+          "access": 1,
+          "floor_plan": 1
+        },
+        "lastScrapedAt": "2026-03-25T16:30:48.467166",
+        "scrapePages": 1
+      },
+      "accessInfo": {
+        "mrt": "<meta name=\"description\" content=\"到達北科大的交通方式：地址：10608台北市忠孝東路三段一號，(1) 搭乘捷運： 【板南線】忠孝新生站，4號出口台北科技大學",
+        "bus": "(2)各線公車：台北科技大學站--212、212直達車、232、262、299及605"
+      },
+      "success": true
+    },
+    {
+      "id": 1049,
+      "scraped_at": "2026-03-25T16:30:50.467695",
+      "scrape_version": "v2_complete",
+      "metadata": {
+        "pageType": "Static/SSR",
+        "pageTypeDetectedAt": "2026-03-25T16:30:50.698017",
+        "homepage_links": {
+          "meeting": 5,
+          "pricing": 0,
+          "rules": 2,
+          "access": 3,
+          "floor_plan": 0
+        },
+        "lastScrapedAt": "2026-03-25T16:30:51.076254",
+        "scrapePages": 1
+      },
+      "rooms": [
+        {
+          "name": "世貿一館會議室介紹及場地佈置",
+          "floor": "1樓",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "世貿一館會議室介紹及場地佈置",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "世貿一館會議室介紹及場地佈置",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "世貿一館會議室介紹及場地佈置",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "會議室介紹",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "會議室介紹",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "會議室介紹",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "會議室介紹",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "會議室介紹",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "會議室介紹",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "第一會議室",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "第一會議室",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "A+會議室",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "第二會議室",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "第三會議室",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "第四會議室",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "第五會議室",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "第三、四、五會議室(打通)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "第一、五會議室間廊廳",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        }
+      ],
+      "rules": {
+        "catering": "<li class=\"container-single\"><a href=\"./Restaurant\">餐飲服務</a></li>",
+        "decoration": "<li class=\"container-single\"><a href=\"./download\">下載專區(主辦單位/裝潢商)</a></li>"
+      },
+      "success": true
+    }
+  ]
+}

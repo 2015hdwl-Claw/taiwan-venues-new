@@ -1,0 +1,69 @@
+[
+  {
+    "page": "會議&宴會頁面",
+    "url": "https://www.taipeimarriott.com.tw/websev?cat=page&subcat=17",
+    "pdfs": [],
+    "rooms": [
+      "會議",
+      "會議",
+      "會議",
+      "會議",
+      "會議",
+      "會議空間",
+      "會議對硬體設備的需求",
+      "宴會廳",
+      "Ballroom",
+      "Ballroom"
+    ],
+    "capacities": [],
+    "prices": []
+  },
+  {
+    "page": "會議 & 宴會頁面",
+    "url": "https://www.taipeimarriott.com.tw/websev?cat=page&id=39",
+    "pdfs": [
+      {
+        "url": "https://www.taipeimarriott.com.tw/files/page_176778676814ut99b82.pdf",
+        "text": "場租表"
+      },
+      {
+        "url": "https://www.taipeimarriott.com.tw/files/page_157062443710javl802.pdf",
+        "text": "場地簡介"
+      }
+    ],
+    "rooms": [
+      "會議",
+      "會議",
+      "會議",
+      "會議",
+      "會議",
+      "會議場域",
+      "會議需求",
+      "會議空間",
+      "會議及宴會專案請洽"
+    ],
+    "capacities": [
+      24,
+      120
+    ],
+    "prices": []
+  },
+  {
+    "page": "婚宴頁面",
+    "url": "https://www.taipeimarriott.com.tw/websev?cat=page&subcat=7",
+    "pdfs": [],
+    "rooms": [
+      "會議",
+      "會議",
+      "會議對硬體設備的需求",
+      "宴會廳",
+      "Ballroom",
+      "Ballroom",
+      "Ballroom",
+      "Ballroom",
+      "Ballroom"
+    ],
+    "capacities": [],
+    "prices": []
+  }
+]

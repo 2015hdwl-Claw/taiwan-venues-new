@@ -1,0 +1,8 @@
+Backup: venues.json.backup.fix1448_20260325_194257
+
+TICC updated with 31 rooms from PDF
+Rooms: 大會堂全場 - 973
+         648 - 640
+         101A/D - 500
+venues.json updated
+Backup: venues.json.backup.fix1448_20260325_194257

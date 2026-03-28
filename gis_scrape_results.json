@@ -1,0 +1,148 @@
+[
+  {
+    "venue_id": 1494,
+    "venue_name": "集思交通部會議中心(MOTC)",
+    "rooms": [
+      {
+        "id": "1494-room_202",
+        "name": "集思交通部國際會議中心",
+        "nameEn": "集思交通部國際會議中心",
+        "area": 30.0,
+        "areaUnit": "坪",
+        "dimensions": null,
+        "floor": "2樓",
+        "capacity": {},
+        "source": "gis_official"
+      },
+      {
+        "id": "1494-room_201",
+        "name": "集思交通部國際會議中心",
+        "nameEn": "集思交通部國際會議中心",
+        "area": 34.0,
+        "areaUnit": "坪",
+        "dimensions": null,
+        "floor": "2樓",
+        "capacity": {},
+        "source": "gis_official"
+      },
+      {
+        "id": "1494-plenary_hall",
+        "name": "集思交通部國際會議中心",
+        "nameEn": "集思交通部國際會議中心",
+        "area": 121.0,
+        "areaUnit": "坪",
+        "dimensions": null,
+        "floor": "3樓",
+        "capacity": {},
+        "source": "gis_official"
+      }
+    ],
+    "total": 3
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科技會議中心(Tech)",
+    "rooms": [
+      {
+        "id": "1495-room_201",
+        "name": "集思北科大會議中心",
+        "nameEn": "集思北科大會議中心",
+        "area": 46.0,
+        "areaUnit": "坪",
+        "dimensions": null,
+        "floor": "2樓",
+        "capacity": {},
+        "source": "gis_official"
+      },
+      {
+        "id": "1495-room_202",
+        "name": "集思北科大會議中心",
+        "nameEn": "集思北科大會議中心",
+        "area": 23.0,
+        "areaUnit": "坪",
+        "dimensions": null,
+        "floor": "2樓",
+        "capacity": {},
+        "source": "gis_official"
+      },
+      {
+        "id": "1495-room_203",
+        "name": "集思北科大會議中心",
+        "nameEn": "集思北科大會議中心",
+        "area": 20.0,
+        "areaUnit": "坪",
+        "dimensions": null,
+        "floor": "2樓",
+        "capacity": {},
+        "source": "gis_official"
+      },
+      {
+        "id": "1495-room_204",
+        "name": "集思北科大會議中心",
+        "nameEn": "集思北科大會議中心",
+        "area": 25.0,
+        "areaUnit": "坪",
+        "dimensions": null,
+        "floor": "2樓",
+        "capacity": {},
+        "source": "gis_official"
+      },
+      {
+        "id": "1495-room_205",
+        "name": "集思北科大會議中心",
+        "nameEn": "集思北科大會議中心",
+        "area": 25.0,
+        "areaUnit": "坪",
+        "dimensions": null,
+        "floor": "2樓",
+        "capacity": {},
+        "source": "gis_official"
+      },
+      {
+        "id": "1495-room_301",
+        "name": "集思北科大會議中心",
+        "nameEn": "集思北科大會議中心",
+        "area": null,
+        "areaUnit": null,
+        "dimensions": null,
+        "floor": "3樓",
+        "capacity": {},
+        "source": "gis_official"
+      },
+      {
+        "id": "1495-room_302",
+        "name": "集思北科大會議中心",
+        "nameEn": "集思北科大會議中心",
+        "area": 23.0,
+        "areaUnit": "坪",
+        "dimensions": null,
+        "floor": "3樓",
+        "capacity": {},
+        "source": "gis_official"
+      },
+      {
+        "id": "1495-room_303",
+        "name": "集思北科大會議中心",
+        "nameEn": "集思北科大會議中心",
+        "area": 25.0,
+        "areaUnit": "坪",
+        "dimensions": null,
+        "floor": "3樓",
+        "capacity": {},
+        "source": "gis_official"
+      },
+      {
+        "id": "1495-room_304",
+        "name": "集思北科大會議中心",
+        "nameEn": "集思北科大會議中心",
+        "area": 25.0,
+        "areaUnit": "坪",
+        "dimensions": null,
+        "floor": "3樓",
+        "capacity": {},
+        "source": "gis_official"
+      }
+    ],
+    "total": 9
+  }
+]

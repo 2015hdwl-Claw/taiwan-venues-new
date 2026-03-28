@@ -1,0 +1,81 @@
+[
+  {
+    "id": 1051,
+    "url": "https://taipei.landishotelsresorts.com/",
+    "scraped_at": "2026-03-23T17:03:11.864309",
+    "images": [],
+    "contact": {
+      "phone": "0262027202820"
+    },
+    "rooms": []
+  },
+  {
+    "id": 1068,
+    "url": "https://www.ambiencehotel.com.tw/",
+    "scraped_at": "2026-03-23T17:03:23.466530",
+    "images": [],
+    "contact": {
+      "email": "0077ambience@taipeiinn.com.tw"
+    },
+    "rooms": []
+  },
+  {
+    "id": 1069,
+    "url": "https://www.ambassador-hotels.com/tc/taipei",
+    "scraped_at": "2026-03-23T17:03:25.521328",
+    "images": [],
+    "contact": {},
+    "rooms": []
+  },
+  {
+    "id": 1085,
+    "url": "https://www.mandarinoriental.com/taipei",
+    "scraped_at": "2026-03-23T17:03:30.347626",
+    "images": [],
+    "contact": {
+      "email": "motpe-reservations@mohg.com"
+    },
+    "rooms": []
+  },
+  {
+    "id": 1086,
+    "url": "https://www.regenttaiwan.com",
+    "scraped_at": "2026-03-23T17:03:32.750216",
+    "images": [],
+    "contact": {},
+    "rooms": []
+  },
+  {
+    "id": 1090,
+    "url": "https://www.theillumehotel.com/zh/",
+    "scraped_at": "2026-03-23T17:03:34.797897",
+    "images": [
+      "https://theillumehotel.wppro.work/wp-content/uploads/2025/09/2.webp",
+      "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/02_Rooms_4_Premier_Suite_1_Living_Room-jpg.webp",
+      "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/02_Rooms_5_Residence_1_Living_Room-jpg.webp",
+      "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/02_Rooms_6_Executive_Suite_1_Living_Room-jpg.webp",
+      "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/02_Rooms_7_Deluxe_Suite_1_Living_Room-jpg.webp",
+      "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/05_Events_5F_Junior_Ballroom_1-jpg.webp",
+      "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/05_Events_2F_Grand_Ballroom_2-jpg.webp",
+      "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/02_Rooms_7_Deluxe_Suite_1_Living_Room-jpg.webp",
+      "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/02_Rooms_5_Residence_1_Living_Room-jpg.webp",
+      "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/02_Rooms_6_Executive_Suite_1_Living_Room-jpg.webp"
+    ],
+    "contact": {
+      "phone": "02-2719-83992",
+      "email": "gsm@theillumehotel.com"
+    },
+    "rooms": []
+  },
+  {
+    "id": 1122,
+    "url": "https://www.grandvictoria.com.tw/",
+    "scraped_at": "2026-03-23T17:03:37.532577",
+    "images": [],
+    "contact": {
+      "phone": "+886-2-8502-0000",
+      "email": "service@grandvictoria.com.tw"
+    },
+    "rooms": []
+  }
+]

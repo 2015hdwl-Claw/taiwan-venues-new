@@ -1,0 +1,30 @@
+{
+  "venue": "台北亞都麗緻大飯店",
+  "venue_id": 1051,
+  "timestamp": "2026-03-27T00:55:42.162613",
+  "main_page": {
+    "url": "https://taipei.landishotelsresorts.com/",
+    "status": 200,
+    "size": 48480,
+    "js_frameworks": []
+  },
+  "meeting_links": [
+    {
+      "text": "Meeting",
+      "url": "https://taipei.landishotelsresorts.com/meeting-list.php"
+    },
+    {
+      "text": "Wedding",
+      "url": "https://taipei.landishotelsresorts.com/wedding-list.php"
+    },
+    {
+      "text": "Meeting",
+      "url": "https://taipei.landishotelsresorts.com/meeting-detail.php?id=2"
+    },
+    {
+      "text": "Meeting",
+      "url": "https://taipei.landishotelsresorts.com/meeting-detail.php?id=3"
+    }
+  ],
+  "pdf_links": []
+}

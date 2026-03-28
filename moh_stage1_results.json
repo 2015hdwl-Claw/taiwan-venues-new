@@ -1,0 +1,18 @@
+{
+  "venue": "台北文華東方酒店",
+  "venue_id": 1085,
+  "timestamp": "2026-03-27T00:40:48.455268",
+  "main_page": {
+    "url": "https://www.mandarinoriental.com/taipei",
+    "status": 200,
+    "size": 694289,
+    "js_frameworks": []
+  },
+  "meeting_links": [
+    {
+      "text": "Events",
+      "url": "https://www.mandarinoriental.com/taipei/en/taipei/songshan/events"
+    }
+  ],
+  "pdf_links": []
+}

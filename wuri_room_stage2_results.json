@@ -1,0 +1,92 @@
+{
+  "venue": "集思台中新烏日會議中心",
+  "timestamp": "2026-03-26T22:46:49.668294",
+  "rooms": [
+    {
+      "name": "瓦特廳",
+      "url": "https://www.meeting.com.tw/xinwuri/room-301.php",
+      "photos": [
+        "https://www.meeting.com.tw/xinwuri/images/lease/301-slider-w1.jpg",
+        "https://www.meeting.com.tw/xinwuri/images/lease/301-slider-w2.jpg",
+        "https://www.meeting.com.tw/xinwuri/images/lease/301-slider-w3.jpg",
+        "https://www.meeting.com.tw/xinwuri/images/lease/301-slider-w4.jpg",
+        "https://www.meeting.com.tw/xinwuri/images/lease/301-slider-w5.jpg"
+      ],
+      "equipment": [
+        "麥克風"
+      ],
+      "floor": null,
+      "areaPing": 82.0,
+      "areaSqm": 271.08,
+      "capacity": 270,
+      "price": 0,
+      "dimensions": null,
+      "success": true
+    },
+    {
+      "name": "巴本廳",
+      "url": "https://www.meeting.com.tw/xinwuri/room-303.php",
+      "photos": [
+        "https://www.meeting.com.tw/xinwuri/images/lease/303-slider-w1.jpg",
+        "https://www.meeting.com.tw/xinwuri/images/lease/303-slider-w2.jpg",
+        "https://www.meeting.com.tw/xinwuri/images/lease/303-slider-w3.jpg",
+        "https://www.meeting.com.tw/xinwuri/images/lease/303-slider-w4.jpg",
+        "https://www.meeting.com.tw/xinwuri/images/lease/303-slider-w5.jpg"
+      ],
+      "equipment": [
+        "麥克風"
+      ],
+      "floor": null,
+      "areaPing": 23.0,
+      "areaSqm": 76.03,
+      "capacity": 66,
+      "price": null,
+      "dimensions": null,
+      "success": true
+    },
+    {
+      "name": "富蘭克林廳",
+      "url": "https://www.meeting.com.tw/xinwuri/room-401.php",
+      "photos": [
+        "https://www.meeting.com.tw/xinwuri/images/lease/401-slider-w1.jpg",
+        "https://www.meeting.com.tw/xinwuri/images/lease/401-slider-w2.jpg",
+        "https://www.meeting.com.tw/xinwuri/images/lease/401-slider-w3.jpg",
+        "https://www.meeting.com.tw/xinwuri/images/lease/401-slider-w4.jpg",
+        "https://www.meeting.com.tw/xinwuri/images/lease/401-slider-w5.jpg"
+      ],
+      "equipment": [
+        "麥克風"
+      ],
+      "floor": null,
+      "areaPing": 48.0,
+      "areaSqm": 158.68,
+      "capacity": 156,
+      "price": 500,
+      "dimensions": null,
+      "success": true
+    },
+    {
+      "name": "史蒂文生廳",
+      "url": "https://www.meeting.com.tw/xinwuri/room-402.php",
+      "photos": [
+        "https://www.meeting.com.tw/xinwuri/images/lease/402-slider-w1.jpg",
+        "https://www.meeting.com.tw/xinwuri/images/lease/402-slider-w2.jpg",
+        "https://www.meeting.com.tw/xinwuri/images/lease/402-slider-w3.jpg",
+        "https://www.meeting.com.tw/xinwuri/images/lease/402-slider-w4.jpg",
+        "https://www.meeting.com.tw/xinwuri/images/lease/402-slider-w5.jpg",
+        "https://www.meeting.com.tw/xinwuri/images/lease/402-slider-w6.jpg",
+        "https://www.meeting.com.tw/xinwuri/images/lease/402-slider-w7.jpg"
+      ],
+      "equipment": [
+        "麥克風"
+      ],
+      "floor": null,
+      "areaPing": 28.0,
+      "areaSqm": 92.56,
+      "capacity": 78,
+      "price": 0,
+      "dimensions": null,
+      "success": true
+    }
+  ]
+}

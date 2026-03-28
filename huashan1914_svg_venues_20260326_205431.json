@@ -1,0 +1,201 @@
+{
+  "venue": "華山1914文化創意產業園區",
+  "venue_id": 1125,
+  "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceList",
+  "total_venues": 24,
+  "venues": [
+    {
+      "name": "西1館",
+      "url": "AppPlaceInfo?pid=16",
+      "full_url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=16"
+    },
+    {
+      "name": "西2館",
+      "url": "AppPlaceInfo?pid=17",
+      "full_url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=17"
+    },
+    {
+      "name": "西5-1館",
+      "url": "AppPlaceInfo?pid=18",
+      "full_url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=18"
+    },
+    {
+      "name": "西5-2館",
+      "url": "AppPlaceInfo?pid=35",
+      "full_url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=35"
+    },
+    {
+      "name": "中5B 鍋爐室",
+      "url": "AppPlaceInfo?pid=19",
+      "full_url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=19"
+    },
+    {
+      "name": "中4B 2樓演講廳",
+      "url": "AppPlaceInfo?pid=13",
+      "full_url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=13"
+    },
+    {
+      "name": "中4B 2樓",
+      "url": "AppPlaceInfo?pid=12",
+      "full_url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=12"
+    },
+    {
+      "name": "中4B 1樓",
+      "url": "AppPlaceInfo?pid=11",
+      "full_url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=11"
+    },
+    {
+      "name": "中4A 紅酒作業場",
+      "url": "AppPlaceInfo?pid=10",
+      "full_url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=10"
+    },
+    {
+      "name": "中7A",
+      "url": "AppPlaceInfo?pid=41",
+      "full_url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=41"
+    },
+    {
+      "name": "中3館2樓-拱廳",
+      "url": "AppPlaceInfo?pid=15",
+      "full_url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=15"
+    },
+    {
+      "name": "中2館2樓-果酒練舞場",
+      "url": "AppPlaceInfo?pid=20",
+      "full_url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=20"
+    },
+    {
+      "name": "東2A",
+      "url": "AppPlaceInfo?pid=26",
+      "full_url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=26"
+    },
+    {
+      "name": "東2B",
+      "url": "AppPlaceInfo?pid=28",
+      "full_url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=28"
+    },
+    {
+      "name": "東2C",
+      "url": "AppPlaceInfo?pid=29",
+      "full_url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=29"
+    },
+    {
+      "name": "東2D",
+      "url": "AppPlaceInfo?pid=30",
+      "full_url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=30"
+    },
+    {
+      "name": "東3B-烏梅劇院",
+      "url": "AppPlaceInfo?pid=21",
+      "full_url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=21"
+    },
+    {
+      "name": "華山劇場",
+      "url": "AppPlaceInfo?pid=22",
+      "full_url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=22"
+    },
+    {
+      "name": "樹前草地",
+      "url": "AppPlaceInfo?pid=34",
+      "full_url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=34"
+    },
+    {
+      "name": "中3館前廣場",
+      "url": "AppPlaceInfo?pid=25",
+      "full_url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=25"
+    },
+    {
+      "name": "忠孝三角",
+      "url": "AppPlaceInfo?pid=23",
+      "full_url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=23"
+    },
+    {
+      "name": "金八廣場",
+      "url": "AppPlaceInfo?pid=24",
+      "full_url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=24"
+    },
+    {
+      "name": "中7B",
+      "url": "AppPlaceInfo?pid=42",
+      "full_url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=42"
+    },
+    {
+      "name": "西4",
+      "url": "AppPlaceInfo?pid=33",
+      "full_url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=33"
+    }
+  ],
+  "areas_found": 20,
+  "floors": [
+    "3B",
+    "189",
+    "85",
+    "450",
+    "94",
+    "5",
+    "5B",
+    "76",
+    "200",
+    "2",
+    "55",
+    "100",
+    "160",
+    "2F",
+    "20",
+    "40",
+    "30",
+    "205",
+    "02",
+    "4B",
+    "141",
+    "800",
+    "09",
+    "350",
+    "175",
+    "50",
+    "52",
+    "88",
+    "180",
+    "000",
+    "74",
+    "1",
+    "250",
+    "126",
+    "300",
+    "1000",
+    "33",
+    "7",
+    "230",
+    "4",
+    "150",
+    "21",
+    "18",
+    "1165",
+    "B",
+    "1200",
+    "65",
+    "1262",
+    "120",
+    "80",
+    "103",
+    "00",
+    "7B",
+    "3",
+    "63",
+    "2B",
+    "1914",
+    "60",
+    "24",
+    "600",
+    "70",
+    "2358",
+    "1F",
+    "84"
+  ],
+  "prices": [
+    88000,
+    33000,
+    50000
+  ],
+  "timestamp": "2026-03-26T20:54:31.560099"
+}

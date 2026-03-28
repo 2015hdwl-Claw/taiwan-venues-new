@@ -1,0 +1,84 @@
+{
+  "version": "2.0",
+  "description": "場地爬蟲配置 - 可以針對每個場地自定義提取規則",
+  "venues": [
+    {
+      "venue_id": 1076,
+      "name": "台北寒舍艾美酒店",
+      "official_website": "https://www.lemeridien-taipei.com/websev?lang=zh-tw&ref=pages&id=60",
+      "sources": {
+        "website": "https://www.lemeridien-taipei.com/websev?lang=zh-tw&ref=pages&id=60",
+        "pricing_gdrive": "https://drive.google.com/file/d/15lZk6_UtcDDQAMvetsohTM0rL9XOGxeT/view",
+        "dimensions_gdrive": "https://drive.google.com/file/d/1b1WskKAw6LtykEwHe-uG6HYrNRfq7r5n/view"
+      },
+      "extractors": [
+        {
+          "type": "text_pattern",
+          "description": "使用正則表達式從文字中提取會議室資訊",
+          "patterns": [
+            {
+              "name": "會議室列表",
+              "regex": "(軒轅廳|室宿廳|角宿廳|河鼓廳|北河廳|畢宿廳|QUUBE|艾美廳|翡翠廳|珍珠廳|琥珀廳).{0,200}",
+              "field_mappings": {
+                "name": 1
+              }
+            }
+          ]
+        }
+      ],
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1043,
+      "name": "台北六福萬怡酒店",
+      "official_website": "https://www.courtyardtaipei.com.tw/wedding/meeting",
+      "sources": {
+        "website": "https://www.courtyardtaipei.com.tw/wedding/meeting",
+        "pricing_pdf": "https://www.courtyardtaipei.com.tw/asset/types/main/file/2026_Courtyard_Taipei_banquet.pdf",
+        "dimensions_pdf": "https://www.courtyardtaipei.com.tw/userfiles/shop-1/file/%E5%AE%B9%E7%B4%8D%E8%A1%A8.pdf"
+      },
+      "extractors": [
+        {
+          "type": "text_pattern",
+          "description": "提取所有會議室名稱",
+          "patterns": [
+            {
+              "name": "所有會議室",
+              "regex": "(超新星宴會廳|山廳|海廳|林廳|水廳|晶廳|雲廳|風廳|光廳|戶外證婚區).{0,100}"
+            }
+          ]
+        }
+      ],
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1090,
+      "name": "茹曦酒店 ILLUME TAIPEI",
+      "official_website": "https://www.theillumehotel.com/zh/",
+      "sources": {
+        "website": "https://www.theillumehotel.com/zh/"
+      },
+      "extractors": [
+        {
+          "type": "text_pattern",
+          "patterns": [
+            {
+              "name": "主要場地",
+              "regex": "(茹曦廳|斯賓諾莎宴會廳|貴賓軒|玉蘭軒).{0,100}"
+            }
+          ]
+        }
+      ],
+      "selectors": {},
+      "enabled": true
+    }
+  ],
+  "global_settings": {
+    "default_concurrent": 5,
+    "timeout": 30,
+    "retry_attempts": 3,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+  }
+}

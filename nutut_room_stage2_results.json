@@ -1,0 +1,236 @@
+{
+  "venue": "集思北科大會議中心",
+  "timestamp": "2026-03-26T23:57:23.932936",
+  "pdf_prices": {
+    "感恩廳": {
+      "weekday": 24500,
+      "holiday": 27000
+    },
+    "貝塔廳": {
+      "weekday": 3,
+      "holiday": 117
+    },
+    "噶瑪廳": {
+      "weekday": 2,
+      "holiday": 45
+    },
+    "卡博廳": {
+      "weekday": 2,
+      "holiday": 30
+    },
+    "西特廳": {
+      "weekday": 2,
+      "holiday": 57
+    },
+    "瑞特廳": {
+      "weekday": 2,
+      "holiday": 45
+    },
+    "艾爾法廳": {
+      "weekday": 3,
+      "holiday": 117
+    },
+    "奧米伽廳": {
+      "weekday": 2,
+      "holiday": 45
+    },
+    "西格瑪廳": {
+      "weekday": 2,
+      "holiday": 45
+    },
+    "岱爾達廳": {
+      "weekday": 2,
+      "holiday": 45
+    }
+  },
+  "rooms": [
+    {
+      "name": "感恩廳",
+      "url": "https://www.meeting.com.tw/ntut/the-lecture-hall.php",
+      "photos": [
+        "https://www.meeting.com.tw/ntut/images/lease/lecture-hall-slider-1.jpg",
+        "https://www.meeting.com.tw/ntut/images/lease/lecture-hall-slider-2.jpg",
+        "https://www.meeting.com.tw/ntut/images/lease/lecture-hall-slider-3.jpg",
+        "https://www.meeting.com.tw/ntut/images/lease/lecture-hall-slider-4.jpg"
+      ],
+      "capacity": 160,
+      "areaPing": 103.0,
+      "areaSqm": 340.5,
+      "floor": "2",
+      "price": {
+        "weekday": 24500,
+        "holiday": 27000
+      },
+      "success": true
+    },
+    {
+      "name": "貝塔廳",
+      "url": "https://www.meeting.com.tw/ntut/room-201.php",
+      "photos": [
+        "https://www.meeting.com.tw/ntut/images/lease/room201-slider-1.jpg",
+        "https://www.meeting.com.tw/ntut/images/lease/room201-slider-2.jpg",
+        "https://www.meeting.com.tw/ntut/images/lease/room201-slider-3.jpg",
+        "https://www.meeting.com.tw/ntut/images/lease/room201-slider-4.jpg"
+      ],
+      "capacity": 160,
+      "areaPing": 46.0,
+      "areaSqm": 152.07,
+      "floor": "2",
+      "price": {
+        "weekday": 3,
+        "holiday": 117
+      },
+      "success": true
+    },
+    {
+      "name": "噶瑪廳",
+      "url": "https://www.meeting.com.tw/ntut/room-202.php",
+      "photos": [
+        "https://www.meeting.com.tw/ntut/images/lease/room202-slider-1.jpg",
+        "https://www.meeting.com.tw/ntut/images/lease/room202-slider-2.jpg",
+        "https://www.meeting.com.tw/ntut/images/lease/room202-slider-3.jpg",
+        "https://www.meeting.com.tw/ntut/images/lease/room202-slider-4.jpg"
+      ],
+      "capacity": 70,
+      "areaPing": 23.0,
+      "areaSqm": 76.03,
+      "floor": "2",
+      "price": {
+        "weekday": 2,
+        "holiday": 45
+      },
+      "success": true
+    },
+    {
+      "name": "卡博廳",
+      "url": "https://www.meeting.com.tw/ntut/room-203.php",
+      "photos": [
+        "https://www.meeting.com.tw/ntut/images/lease/room203-slider-1.jpg",
+        "https://www.meeting.com.tw/ntut/images/lease/room203-slider-2.jpg",
+        "https://www.meeting.com.tw/ntut/images/lease/room203-slider-3.jpg",
+        "https://www.meeting.com.tw/ntut/images/lease/room203-slider-4.jpg"
+      ],
+      "capacity": 56,
+      "areaPing": 20.0,
+      "areaSqm": 66.12,
+      "floor": "2",
+      "price": {
+        "weekday": 2,
+        "holiday": 30
+      },
+      "success": true
+    },
+    {
+      "name": "西特廳",
+      "url": "https://www.meeting.com.tw/ntut/room-204.php",
+      "photos": [
+        "https://www.meeting.com.tw/ntut/images/lease/room204-slider-1.jpg",
+        "https://www.meeting.com.tw/ntut/images/lease/room204-slider-2.jpg",
+        "https://www.meeting.com.tw/ntut/images/lease/room204-slider-3.jpg",
+        "https://www.meeting.com.tw/ntut/images/lease/room204-slider-4.jpg"
+      ],
+      "capacity": 57,
+      "areaPing": 25.0,
+      "areaSqm": 82.64,
+      "floor": "2",
+      "price": {
+        "weekday": 2,
+        "holiday": 57
+      },
+      "success": true
+    },
+    {
+      "name": "瑞特廳",
+      "url": "https://www.meeting.com.tw/ntut/room-205.php",
+      "photos": [
+        "https://www.meeting.com.tw/ntut/images/lease/room205-slider-01.jpg",
+        "https://www.meeting.com.tw/ntut/images/lease/room205-slider-02.jpg",
+        "https://www.meeting.com.tw/ntut/images/lease/room205-slider-03.jpg",
+        "https://www.meeting.com.tw/ntut/images/lease/room205-slider-04.jpg"
+      ],
+      "capacity": 70,
+      "areaPing": 25.0,
+      "areaSqm": 82.64,
+      "floor": "2",
+      "price": {
+        "weekday": 2,
+        "holiday": 45
+      },
+      "success": true
+    },
+    {
+      "name": "艾爾法廳",
+      "url": "https://www.meeting.com.tw/ntut/room-301.php",
+      "photos": [
+        "https://www.meeting.com.tw/ntut/images/lease/room301-slider-1.jpg",
+        "https://www.meeting.com.tw/ntut/images/lease/room301-slider-2.jpg",
+        "https://www.meeting.com.tw/ntut/images/lease/room301-slider-3.jpg",
+        "https://www.meeting.com.tw/ntut/images/lease/room301-slider-4.jpg"
+      ],
+      "capacity": 160,
+      "floor": "3",
+      "price": {
+        "weekday": 3,
+        "holiday": 117
+      },
+      "success": true
+    },
+    {
+      "name": "奧米伽廳",
+      "url": "https://www.meeting.com.tw/ntut/room-302.php",
+      "photos": [
+        "https://www.meeting.com.tw/ntut/images/lease/room302-slider-1.jpg",
+        "https://www.meeting.com.tw/ntut/images/lease/room302-slider-2.jpg",
+        "https://www.meeting.com.tw/ntut/images/lease/room302-slider-3.jpg",
+        "https://www.meeting.com.tw/ntut/images/lease/room302-slider-4.jpg"
+      ],
+      "capacity": 70,
+      "areaPing": 23.0,
+      "areaSqm": 76.03,
+      "floor": "3",
+      "price": {
+        "weekday": 2,
+        "holiday": 45
+      },
+      "success": true
+    },
+    {
+      "name": "西格瑪廳",
+      "url": "https://www.meeting.com.tw/ntut/room-303.php",
+      "photos": [
+        "https://www.meeting.com.tw/ntut/images/lease/room303-slider-1.jpg",
+        "https://www.meeting.com.tw/ntut/images/lease/room303-slider-2.jpg",
+        "https://www.meeting.com.tw/ntut/images/lease/room303-slider-3.jpg",
+        "https://www.meeting.com.tw/ntut/images/lease/room303-slider-4.jpg"
+      ],
+      "capacity": 70,
+      "areaPing": 25.0,
+      "areaSqm": 82.64,
+      "floor": "3",
+      "price": {
+        "weekday": 2,
+        "holiday": 45
+      },
+      "success": true
+    },
+    {
+      "name": "岱爾達廳",
+      "url": "https://www.meeting.com.tw/ntut/room-304.php",
+      "photos": [
+        "https://www.meeting.com.tw/ntut/images/lease/room304-slider-1.jpg",
+        "https://www.meeting.com.tw/ntut/images/lease/room304-slider-2.jpg",
+        "https://www.meeting.com.tw/ntut/images/lease/room304-slider-3.jpg",
+        "https://www.meeting.com.tw/ntut/images/lease/room304-slider-4.jpg"
+      ],
+      "capacity": 70,
+      "areaPing": 25.0,
+      "areaSqm": 82.64,
+      "floor": "3",
+      "price": {
+        "weekday": 2,
+        "holiday": 45
+      },
+      "success": true
+    }
+  ]
+}

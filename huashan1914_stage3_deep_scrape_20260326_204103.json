@@ -1,0 +1,367 @@
+{
+  "venue": "華山1914",
+  "venue_id": 1125,
+  "pages": [
+    {
+      "name": "申請辦法",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlace",
+      "file": "huashan1914_page1_20260326_204102.html",
+      "rooms": [
+        {
+          "name": "戶外空間",
+          "nameEn": null,
+          "floor": null,
+          "capacity": {},
+          "area": {},
+          "price": {},
+          "equipment": null,
+          "source": "https://www.huashan1914.com/w/huashan1914/AppPlace"
+        },
+        {
+          "name": "中7A館",
+          "nameEn": null,
+          "floor": null,
+          "capacity": {},
+          "area": {},
+          "price": {},
+          "equipment": null,
+          "source": "https://www.huashan1914.com/w/huashan1914/AppPlace"
+        },
+        {
+          "name": "華山劇場",
+          "nameEn": null,
+          "floor": null,
+          "capacity": {},
+          "area": {},
+          "price": {},
+          "equipment": null,
+          "source": "https://www.huashan1914.com/w/huashan1914/AppPlace"
+        },
+        {
+          "name": "西5-1館",
+          "nameEn": null,
+          "floor": null,
+          "capacity": {},
+          "area": {},
+          "price": {},
+          "equipment": null,
+          "source": "https://www.huashan1914.com/w/huashan1914/AppPlace"
+        },
+        {
+          "name": "中7B館",
+          "nameEn": null,
+          "floor": null,
+          "capacity": {},
+          "area": {},
+          "price": {},
+          "equipment": null,
+          "source": "https://www.huashan1914.com/w/huashan1914/AppPlace"
+        },
+        {
+          "name": "使用空間",
+          "nameEn": null,
+          "floor": null,
+          "capacity": {},
+          "area": {},
+          "price": {},
+          "equipment": null,
+          "source": "https://www.huashan1914.com/w/huashan1914/AppPlace"
+        },
+        {
+          "name": "表演藝術場館",
+          "nameEn": null,
+          "floor": null,
+          "capacity": {},
+          "area": {},
+          "price": {},
+          "equipment": null,
+          "source": "https://www.huashan1914.com/w/huashan1914/AppPlace"
+        },
+        {
+          "name": "西1館",
+          "nameEn": null,
+          "floor": null,
+          "capacity": {},
+          "area": {},
+          "price": {},
+          "equipment": null,
+          "source": "https://www.huashan1914.com/w/huashan1914/AppPlace"
+        },
+        {
+          "name": "各場館",
+          "nameEn": null,
+          "floor": null,
+          "capacity": {},
+          "area": {},
+          "price": {},
+          "equipment": null,
+          "source": "https://www.huashan1914.com/w/huashan1914/AppPlace"
+        },
+        {
+          "name": "場地租借每日每館",
+          "nameEn": null,
+          "floor": null,
+          "capacity": {},
+          "area": {},
+          "price": {},
+          "equipment": null,
+          "source": "https://www.huashan1914.com/w/huashan1914/AppPlace"
+        },
+        {
+          "name": "西2館",
+          "nameEn": null,
+          "floor": null,
+          "capacity": {},
+          "area": {},
+          "price": {},
+          "equipment": null,
+          "source": "https://www.huashan1914.com/w/huashan1914/AppPlace"
+        },
+        {
+          "name": "【一般場館",
+          "nameEn": null,
+          "floor": null,
+          "capacity": {},
+          "area": {},
+          "price": {},
+          "equipment": null,
+          "source": "https://www.huashan1914.com/w/huashan1914/AppPlace"
+        },
+        {
+          "name": "鍋爐室",
+          "nameEn": null,
+          "floor": null,
+          "capacity": {},
+          "area": {},
+          "price": {},
+          "equipment": null,
+          "source": "https://www.huashan1914.com/w/huashan1914/AppPlace"
+        },
+        {
+          "name": "山1914表演藝術場館",
+          "nameEn": null,
+          "floor": null,
+          "capacity": {},
+          "area": {},
+          "price": {},
+          "equipment": null,
+          "source": "https://www.huashan1914.com/w/huashan1914/AppPlace"
+        },
+        {
+          "name": "✻✻藝文場館",
+          "nameEn": null,
+          "floor": null,
+          "capacity": {},
+          "area": {},
+          "price": {},
+          "equipment": null,
+          "source": "https://www.huashan1914.com/w/huashan1914/AppPlace"
+        },
+        {
+          "name": "西5-2館",
+          "nameEn": null,
+          "floor": null,
+          "capacity": {},
+          "area": {},
+          "price": {},
+          "equipment": null,
+          "source": "https://www.huashan1914.com/w/huashan1914/AppPlace"
+        },
+        {
+          "name": "藝文場館",
+          "nameEn": null,
+          "floor": null,
+          "capacity": {},
+          "area": {},
+          "price": {},
+          "equipment": null,
+          "source": "https://www.huashan1914.com/w/huashan1914/AppPlace"
+        },
+        {
+          "name": "清酒工坊2F-拱廳",
+          "nameEn": null,
+          "floor": null,
+          "capacity": {},
+          "area": {},
+          "price": {},
+          "equipment": null,
+          "source": "https://www.huashan1914.com/w/huashan1914/AppPlace"
+        },
+        {
+          "name": "米酒作業場演講廳",
+          "nameEn": null,
+          "floor": null,
+          "capacity": {},
+          "area": {},
+          "price": {},
+          "equipment": null,
+          "source": "https://www.huashan1914.com/w/huashan1914/AppPlace"
+        },
+        {
+          "name": "【藝文場館",
+          "nameEn": null,
+          "floor": null,
+          "capacity": {},
+          "area": {},
+          "price": {},
+          "equipment": null,
+          "source": "https://www.huashan1914.com/w/huashan1914/AppPlace"
+        }
+      ],
+      "areas": [
+        1.0,
+        2.0
+      ],
+      "potential_rooms": [
+        "戶外空間",
+        "中7A館",
+        "華山劇場",
+        "西5-1館",
+        "中7B館",
+        "使用空間",
+        "表演藝術場館",
+        "西1館",
+        "各場館",
+        "場地租借每日每館",
+        "西2館",
+        "【一般場館",
+        "鍋爐室",
+        "山1914表演藝術場館",
+        "✻✻藝文場館",
+        "西5-2館",
+        "藝文場館",
+        "清酒工坊2F-拱廳",
+        "米酒作業場演講廳",
+        "【藝文場館"
+      ],
+      "tables_count": 2,
+      "first_table_has_info": true,
+      "links_count": 83,
+      "venue_links": [
+        {
+          "text": "場地介紹",
+          "href": "AppPlaceList"
+        },
+        {
+          "text": "場地介紹",
+          "href": "AppPlaceList"
+        },
+        {
+          "text": "場地租借",
+          "href": "javascript:;"
+        },
+        {
+          "text": "場地租借",
+          "href": "AppPlace"
+        },
+        {
+          "text": "場地介紹",
+          "href": "https://www.huashan1914.com/w/huashan1914/AppPlaceList"
+        }
+      ]
+    },
+    {
+      "name": "傳音樂展演空間",
+      "url": "https://www.huashan1914.com/w/huashan1914/CustomShops_17072615244330041",
+      "file": "huashan1914_page2_20260326_204103.html",
+      "rooms": [
+        {
+          "name": "Legacy音樂展演空間",
+          "nameEn": null,
+          "floor": null,
+          "capacity": {},
+          "area": {},
+          "price": {},
+          "equipment": null,
+          "source": "https://www.huashan1914.com/w/huashan1914/CustomShops_17072615244330041"
+        },
+        {
+          "name": "戶外空間",
+          "nameEn": null,
+          "floor": null,
+          "capacity": {},
+          "area": {},
+          "price": {},
+          "equipment": null,
+          "source": "https://www.huashan1914.com/w/huashan1914/CustomShops_17072615244330041"
+        },
+        {
+          "name": "5坪，挑高8米的寬闊空間",
+          "nameEn": null,
+          "floor": null,
+          "capacity": {},
+          "area": {},
+          "price": {},
+          "equipment": null,
+          "source": "https://www.huashan1914.com/w/huashan1914/CustomShops_17072615244330041"
+        },
+        {
+          "name": "華山創意文化園區中五館",
+          "nameEn": null,
+          "floor": null,
+          "capacity": {},
+          "area": {},
+          "price": {},
+          "equipment": null,
+          "source": "https://www.huashan1914.com/w/huashan1914/CustomShops_17072615244330041"
+        },
+        {
+          "name": "音樂展演空間",
+          "nameEn": null,
+          "floor": null,
+          "capacity": {},
+          "area": {},
+          "price": {},
+          "equipment": null,
+          "source": "https://www.huashan1914.com/w/huashan1914/CustomShops_17072615244330041"
+        },
+        {
+          "name": "中5館",
+          "nameEn": null,
+          "floor": null,
+          "capacity": {},
+          "area": {},
+          "price": {},
+          "equipment": null,
+          "source": "https://www.huashan1914.com/w/huashan1914/CustomShops_17072615244330041"
+        }
+      ],
+      "areas": [
+        225.0,
+        8.0,
+        225.0,
+        8.0,
+        225.0,
+        225.0
+      ],
+      "potential_rooms": [
+        "Legacy音樂展演空間",
+        "戶外空間",
+        "5坪，挑高8米的寬闊空間",
+        "華山創意文化園區中五館",
+        "音樂展演空間",
+        "中5館"
+      ],
+      "links_count": 71,
+      "venue_links": [
+        {
+          "text": "場地介紹",
+          "href": "AppPlaceList"
+        },
+        {
+          "text": "場地介紹",
+          "href": "AppPlaceList"
+        },
+        {
+          "text": "Legacy 傳 音樂展演空間",
+          "href": "https://www.legacy.com.tw/page/topic/taipei/"
+        },
+        {
+          "text": "Legacy 傳 音樂展演空間",
+          "href": "https://www.facebook.com/LegacyHomePage"
+        }
+      ]
+    }
+  ],
+  "total_rooms": 0
+}

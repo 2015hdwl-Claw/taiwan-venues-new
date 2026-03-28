@@ -1,0 +1,13 @@
+{
+  "venue": "台北中山運動中心",
+  "venue_id": 1334,
+  "stage2": {
+    "homepage_links": 2,
+    "working_links": 2,
+    "failed_links": 0,
+    "data_sources": 1,
+    "total_rooms_found": 0,
+    "rooms": []
+  },
+  "timestamp": "2026-03-26T21:34:40.094334"
+}

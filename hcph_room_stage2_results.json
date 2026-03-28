@@ -1,0 +1,121 @@
+{
+  "venue": "集思竹科會議中心",
+  "timestamp": "2026-03-26T22:45:25.476594",
+  "rooms": [
+    {
+      "name": "巴哈廳",
+      "url": "https://www.meeting.com.tw/hsp/bach.php",
+      "photos": [
+        "https://www.meeting.com.tw/hsp/images/lease/bach-1.jpg",
+        "https://www.meeting.com.tw/hsp/images/lease/bach-2.jpg",
+        "https://www.meeting.com.tw/hsp/images/lease/bach-3.jpg",
+        "https://www.meeting.com.tw/hsp/images/lease/bach-4.jpg",
+        "https://www.meeting.com.tw/hsp/images/lease/bach-5.jpg",
+        "https://www.meeting.com.tw/hsp/images/lease/bach-6.jpg",
+        "https://www.meeting.com.tw/hsp/images/lease/bach-7.jpg",
+        "https://www.meeting.com.tw/hsp/images/lease/bach-8.jpg"
+      ],
+      "equipment": [
+        "麥克風",
+        "螢幕"
+      ],
+      "floor": null,
+      "areaPing": 28.0,
+      "areaSqm": 92.56,
+      "capacity": 90,
+      "price": 0,
+      "dimensions": null,
+      "success": true
+    },
+    {
+      "name": "羅西尼廳",
+      "url": "https://www.meeting.com.tw/hsp/rossini.php",
+      "photos": [
+        "https://www.meeting.com.tw/hsp/images/lease/rossini-1.jpg",
+        "https://www.meeting.com.tw/hsp/images/lease/rossini-2.jpg",
+        "https://www.meeting.com.tw/hsp/images/lease/rossini-3.jpg",
+        "https://www.meeting.com.tw/hsp/images/lease/rossini-4.jpg",
+        "https://www.meeting.com.tw/hsp/images/lease/rossini-5.jpg",
+        "https://www.meeting.com.tw/hsp/images/lease/rossini-6.jpg",
+        "https://www.meeting.com.tw/hsp/images/lease/rossini-7.jpg",
+        "https://www.meeting.com.tw/hsp/images/lease/rossini-8.jpg"
+      ],
+      "equipment": [
+        "麥克風",
+        "螢幕"
+      ],
+      "floor": null,
+      "areaPing": 43.0,
+      "areaSqm": 142.15,
+      "capacity": 140,
+      "price": 500,
+      "dimensions": null,
+      "success": true
+    },
+    {
+      "name": "鄧肯廳",
+      "url": "https://www.meeting.com.tw/hsp/duncan.php",
+      "photos": [
+        "https://www.meeting.com.tw/hsp/images/lease/duncan-slider-01.jpg",
+        "https://www.meeting.com.tw/hsp/images/lease/duncan-slider-02.jpg",
+        "https://www.meeting.com.tw/hsp/images/lease/duncan-slider-03.jpg",
+        "https://www.meeting.com.tw/hsp/images/lease/duncan-slider-04.jpg",
+        "https://www.meeting.com.tw/hsp/images/lease/duncan-slider-07.jpg"
+      ],
+      "equipment": [
+        "音響"
+      ],
+      "floor": null,
+      "areaPing": 25.0,
+      "areaSqm": 82.64,
+      "capacity": null,
+      "price": 0,
+      "dimensions": null,
+      "success": true
+    },
+    {
+      "name": "愛因斯坦廳",
+      "url": "https://www.meeting.com.tw/hsp/einstein.php",
+      "photos": [
+        "https://www.meeting.com.tw/hsp/images/lease/einstein-1.jpg",
+        "https://www.meeting.com.tw/hsp/images/lease/einstein-2.jpg",
+        "https://www.meeting.com.tw/hsp/images/lease/einstein-3.jpg",
+        "https://www.meeting.com.tw/hsp/images/lease/einstein-4.jpg",
+        "https://www.meeting.com.tw/hsp/images/lease/einstein-5.jpg",
+        "https://www.meeting.com.tw/hsp/images/lease/einstein-6.jpg"
+      ],
+      "equipment": [
+        "麥克風",
+        "螢幕"
+      ],
+      "floor": null,
+      "areaPing": 63.0,
+      "areaSqm": 208.27,
+      "capacity": 155,
+      "price": 0,
+      "dimensions": null,
+      "success": true
+    },
+    {
+      "name": "愛迪生廳",
+      "url": "https://www.meeting.com.tw/hsp/edison.php",
+      "photos": [
+        "https://www.meeting.com.tw/hsp/images/lease/edison-1.jpg",
+        "https://www.meeting.com.tw/hsp/images/lease/edison-2.jpg",
+        "https://www.meeting.com.tw/hsp/images/lease/edison-3.jpg",
+        "https://www.meeting.com.tw/hsp/images/lease/edison-4.jpg"
+      ],
+      "equipment": [
+        "麥克風",
+        "螢幕"
+      ],
+      "floor": null,
+      "areaPing": 28.0,
+      "areaSqm": 92.56,
+      "capacity": 75,
+      "price": 500,
+      "dimensions": null,
+      "success": true
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "filename": "gis_ntu_2025.pdf",
+    "rooms": [
+      {
+        "name": "253.6坪",
+        "nameEn": "253.6坪",
+        "venue_id": 1128,
+        "capacity": {},
+        "area": 59.8,
+        "source": "gis_official_pdf",
+        "areaUnit": "坪",
+        "id": "1128-253.6坪"
+      }
+    ],
+    "total": 1
+  },
+  {
+    "venue_id": 1494,
+    "venue_name": "集思交通部會議中心(MOTC)",
+    "filename": "gis_motc_2025.pdf",
+    "rooms": [
+      {
+        "name": "121坪",
+        "nameEn": "121坪",
+        "venue_id": 1494,
+        "capacity": {},
+        "area": 28.0,
+        "source": "gis_official_pdf",
+        "areaUnit": "坪",
+        "id": "1494-121坪"
+      },
+      {
+        "name": "142坪",
+        "nameEn": "142坪",
+        "venue_id": 1494,
+        "capacity": {},
+        "area": 60.0,
+        "source": "gis_official_pdf",
+        "areaUnit": "坪",
+        "id": "1494-142坪"
+      },
+      {
+        "name": "108人/",
+        "nameEn": "108人/",
+        "venue_id": 1494,
+        "capacity": {},
+        "area": 34.0,
+        "source": "gis_official_pdf",
+        "areaUnit": "坪",
+        "id": "1494-108人/"
+      },
+      {
+        "name": "會議空間",
+        "nameEn": "會議空間",
+        "venue_id": 1494,
+        "capacity": {},
+        "area": 30.0,
+        "source": "gis_official_pdf",
+        "areaUnit": "坪",
+        "id": "1494-會議空間"
+      }
+    ],
+    "total": 4
+  },
+  {
+    "venue_id": 1497,
+    "venue_name": "集思中國醫會議中心(TC)",
+    "filename": "gis_tc_2025.pdf",
+    "rooms": [
+      {
+        "name": "201會議室",
+        "nameEn": "201會議室",
+        "venue_id": 1497,
+        "capacity": {},
+        "area": 63.0,
+        "source": "gis_official_pdf",
+        "areaUnit": "坪",
+        "id": "1497-201會議室"
+      },
+      {
+        "name": "202會議室",
+        "nameEn": "202會議室",
+        "venue_id": 1497,
+        "capacity": {},
+        "area": 28.0,
+        "source": "gis_official_pdf",
+        "areaUnit": "坪",
+        "id": "1497-202會議室"
+      },
+      {
+        "name": "203會議室",
+        "nameEn": "203會議室",
+        "venue_id": 1497,
+        "capacity": {},
+        "area": 33.0,
+        "source": "gis_official_pdf",
+        "areaUnit": "坪",
+        "id": "1497-203會議室"
+      },
+      {
+        "name": "205會議室",
+        "nameEn": "205會議室",
+        "venue_id": 1497,
+        "capacity": {},
+        "area": 21.0,
+        "source": "gis_official_pdf",
+        "areaUnit": "坪",
+        "id": "1497-205會議室"
+      },
+      {
+        "name": "401會議室",
+        "nameEn": "401會議室",
+        "venue_id": 1497,
+        "capacity": {},
+        "area": 28.0,
+        "source": "gis_official_pdf",
+        "areaUnit": "坪",
+        "id": "1497-401會議室"
+      },
+      {
+        "name": "403會議室",
+        "nameEn": "403會議室",
+        "venue_id": 1497,
+        "capacity": {},
+        "area": 43.0,
+        "source": "gis_official_pdf",
+        "areaUnit": "坪",
+        "id": "1497-403會議室"
+      },
+      {
+        "name": "402會議室",
+        "nameEn": "402會議室",
+        "venue_id": 1497,
+        "capacity": {},
+        "area": 25.0,
+        "source": "gis_official_pdf",
+        "areaUnit": "坪",
+        "id": "1497-402會議室"
+      }
+    ],
+    "total": 7
+  }
+]

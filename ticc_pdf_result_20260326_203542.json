@@ -1,0 +1,22 @@
+{
+  "venue": "TICC",
+  "venue_id": 1448,
+  "pdf_url": "https://www.ticc.com.tw/wSite/public/Attachment/f1771909923900.pdf",
+  "pdf_file": "ticc_official_20260326_203540.pdf",
+  "text_file": "ticc_pdf_text_20260326_203542.txt",
+  "total_pages": 1,
+  "rooms_found": [
+    "宴會廳",
+    "401會議室",
+    "201會議室"
+  ],
+  "capacities": [
+    "10"
+  ],
+  "areas": [],
+  "prices": [
+    "10,000"
+  ],
+  "tables_count": 1,
+  "timestamp": "2026-03-26T20:35:42.159007"
+}

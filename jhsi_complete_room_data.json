@@ -1,0 +1,149 @@
+{
+  "巴哈廳": {
+    "name": "巴哈廳",
+    "areaPing": 28.0,
+    "dimensions": null,
+    "price": 0,
+    "floor": "4F",
+    "photos": [
+      "https://www.meeting.com.tw/hsp/images/lease/bach-1.jpg",
+      "https://www.meeting.com.tw/hsp/images/lease/bach-2.jpg",
+      "https://www.meeting.com.tw/hsp/images/lease/bach-3.jpg",
+      "https://www.meeting.com.tw/hsp/images/lease/bach-4.jpg",
+      "https://www.meeting.com.tw/hsp/images/lease/bach-5.jpg",
+      "https://www.meeting.com.tw/hsp/images/lease/bach-6.jpg",
+      "https://www.meeting.com.tw/hsp/images/lease/bach-7.jpg",
+      "https://www.meeting.com.tw/hsp/images/lease/bach-8.jpg"
+    ],
+    "photoCount": 8
+  },
+  "羅西尼廳": {
+    "name": "羅西尼廳",
+    "areaPing": 43.0,
+    "dimensions": null,
+    "price": 500,
+    "floor": "4F",
+    "photos": [
+      "https://www.meeting.com.tw/hsp/images/lease/rossini-1.jpg",
+      "https://www.meeting.com.tw/hsp/images/lease/rossini-2.jpg",
+      "https://www.meeting.com.tw/hsp/images/lease/rossini-3.jpg",
+      "https://www.meeting.com.tw/hsp/images/lease/rossini-4.jpg",
+      "https://www.meeting.com.tw/hsp/images/lease/rossini-5.jpg",
+      "https://www.meeting.com.tw/hsp/images/lease/rossini-6.jpg",
+      "https://www.meeting.com.tw/hsp/images/lease/rossini-7.jpg",
+      "https://www.meeting.com.tw/hsp/images/lease/rossini-8.jpg"
+    ],
+    "photoCount": 8
+  },
+  "鄧肯廳": {
+    "name": "鄧肯廳",
+    "areaPing": 25.0,
+    "dimensions": null,
+    "price": 0,
+    "floor": "4F",
+    "photos": [
+      "https://www.meeting.com.tw/hsp/images/lease/duncan-slider-01.jpg",
+      "https://www.meeting.com.tw/hsp/images/lease/duncan-slider-02.jpg",
+      "https://www.meeting.com.tw/hsp/images/lease/duncan-slider-03.jpg",
+      "https://www.meeting.com.tw/hsp/images/lease/duncan-slider-04.jpg",
+      "https://www.meeting.com.tw/hsp/images/lease/duncan-slider-07.jpg"
+    ],
+    "photoCount": 5
+  },
+  "愛因斯坦廳": {
+    "name": "愛因斯坦廳",
+    "areaPing": 63.0,
+    "dimensions": null,
+    "price": 0,
+    "floor": "2F",
+    "photos": [
+      "https://www.meeting.com.tw/hsp/images/lease/einstein-1.jpg",
+      "https://www.meeting.com.tw/hsp/images/lease/einstein-2.jpg",
+      "https://www.meeting.com.tw/hsp/images/lease/einstein-3.jpg",
+      "https://www.meeting.com.tw/hsp/images/lease/einstein-4.jpg",
+      "https://www.meeting.com.tw/hsp/images/lease/einstein-5.jpg",
+      "https://www.meeting.com.tw/hsp/images/lease/einstein-6.jpg"
+    ],
+    "photoCount": 6
+  },
+  "愛迪生廳": {
+    "name": "愛迪生廳",
+    "areaPing": 28.0,
+    "dimensions": null,
+    "price": 500,
+    "floor": "2F",
+    "photos": [
+      "https://www.meeting.com.tw/hsp/images/lease/edison-1.jpg",
+      "https://www.meeting.com.tw/hsp/images/lease/edison-2.jpg",
+      "https://www.meeting.com.tw/hsp/images/lease/edison-3.jpg",
+      "https://www.meeting.com.tw/hsp/images/lease/edison-4.jpg"
+    ],
+    "photoCount": 4
+  },
+  "瓦特廳": {
+    "name": "瓦特廳",
+    "originalName": "301會議室",
+    "areaPing": 82.0,
+    "dimensions": null,
+    "price": 0,
+    "floor": "3F",
+    "photos": [
+      "https://www.meeting.com.tw/xinwuri/images/lease/301-slider-w1.jpg",
+      "https://www.meeting.com.tw/xinwuri/images/lease/301-slider-w2.jpg",
+      "https://www.meeting.com.tw/xinwuri/images/lease/301-slider-w3.jpg",
+      "https://www.meeting.com.tw/xinwuri/images/lease/301-slider-w4.jpg",
+      "https://www.meeting.com.tw/xinwuri/images/lease/301-slider-w5.jpg"
+    ],
+    "photoCount": 5
+  },
+  "巴本廳": {
+    "name": "巴本廳",
+    "originalName": "303會議室",
+    "areaPing": 23.0,
+    "dimensions": null,
+    "price": null,
+    "floor": "3F",
+    "photos": [
+      "https://www.meeting.com.tw/xinwuri/images/lease/303-slider-w1.jpg",
+      "https://www.meeting.com.tw/xinwuri/images/lease/303-slider-w2.jpg",
+      "https://www.meeting.com.tw/xinwuri/images/lease/303-slider-w3.jpg",
+      "https://www.meeting.com.tw/xinwuri/images/lease/303-slider-w4.jpg",
+      "https://www.meeting.com.tw/xinwuri/images/lease/303-slider-w5.jpg"
+    ],
+    "photoCount": 5
+  },
+  "富蘭克林廳": {
+    "name": "富蘭克林廳",
+    "originalName": "401會議室",
+    "areaPing": 48.0,
+    "dimensions": null,
+    "price": 500,
+    "floor": "4F",
+    "photos": [
+      "https://www.meeting.com.tw/xinwuri/images/lease/401-slider-w1.jpg",
+      "https://www.meeting.com.tw/xinwuri/images/lease/401-slider-w2.jpg",
+      "https://www.meeting.com.tw/xinwuri/images/lease/401-slider-w3.jpg",
+      "https://www.meeting.com.tw/xinwuri/images/lease/401-slider-w4.jpg",
+      "https://www.meeting.com.tw/xinwuri/images/lease/401-slider-w5.jpg"
+    ],
+    "photoCount": 5
+  },
+  "史蒂文生廳": {
+    "name": "史蒂文生廳",
+    "originalName": "402會議室",
+    "areaPing": 28.0,
+    "dimensions": null,
+    "price": 0,
+    "floor": "4F",
+    "photos": [
+      "https://www.meeting.com.tw/xinwuri/images/lease/402-slider-w1.jpg",
+      "https://www.meeting.com.tw/xinwuri/images/lease/402-slider-w2.jpg",
+      "https://www.meeting.com.tw/xinwuri/images/lease/402-slider-w3.jpg",
+      "https://www.meeting.com.tw/xinwuri/images/lease/402-slider-w4.jpg",
+      "https://www.meeting.com.tw/xinwuri/images/lease/402-slider-w5.jpg",
+      "https://www.meeting.com.tw/xinwuri/images/lease/402-slider-w6.jpg",
+      "https://www.meeting.com.tw/xinwuri/images/lease/402-slider-w7.jpg"
+    ],
+    "photoCount": 7
+  }
+}

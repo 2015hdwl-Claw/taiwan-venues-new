@@ -1,0 +1,245 @@
+{
+  "venue": "華山1914文化創意產業園區",
+  "venue_id": 1125,
+  "total_venues": 23,
+  "venues_with_price": [
+    {
+      "name": "西1館",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=16",
+      "price": 5000,
+      "all_prices": [
+        5000,
+        6000,
+        9000,
+        126000
+      ],
+      "price_found": true
+    },
+    {
+      "name": "西2館",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=17",
+      "price": 5000,
+      "all_prices": [
+        5000,
+        6000,
+        9000,
+        84000
+      ],
+      "price_found": true
+    },
+    {
+      "name": "西5-1館",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=18",
+      "price": 5000,
+      "all_prices": [
+        5000,
+        6000,
+        9000,
+        84000
+      ],
+      "price_found": true
+    },
+    {
+      "name": "中5B 鍋爐室",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=19",
+      "price": 10000,
+      "all_prices": [
+        10000,
+        40000
+      ],
+      "price_found": true
+    },
+    {
+      "name": "中4B 2樓演講廳",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=13",
+      "price": 10000,
+      "all_prices": [
+        10000,
+        20000
+      ],
+      "price_found": true
+    },
+    {
+      "name": "中4B 2樓",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=12",
+      "price": 10000,
+      "all_prices": [
+        10000,
+        60000
+      ],
+      "price_found": true
+    },
+    {
+      "name": "中4B 1樓",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=11",
+      "price": 10000,
+      "all_prices": [
+        10000,
+        63000
+      ],
+      "price_found": true
+    },
+    {
+      "name": "中4A 紅酒作業場",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=10",
+      "price": 10000,
+      "all_prices": [
+        10000,
+        100000
+      ],
+      "price_found": true
+    },
+    {
+      "name": "中7A",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=41",
+      "price": 10000,
+      "all_prices": [
+        10000,
+        60000
+      ],
+      "price_found": true
+    },
+    {
+      "name": "中3館2樓-拱廳",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=15",
+      "price": 50000,
+      "all_prices": [
+        50000
+      ],
+      "price_found": true
+    },
+    {
+      "name": "中2館2樓-果酒練舞場",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=20",
+      "price": 33000,
+      "all_prices": [
+        33000
+      ],
+      "price_found": true
+    },
+    {
+      "name": "東2A",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=26",
+      "price": 10000,
+      "all_prices": [
+        10000,
+        52000
+      ],
+      "price_found": true
+    },
+    {
+      "name": "東2B",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=28",
+      "price": 10000,
+      "all_prices": [
+        10000,
+        55000
+      ],
+      "price_found": true
+    },
+    {
+      "name": "東2C",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=29",
+      "price": 10000,
+      "all_prices": [
+        10000,
+        65000
+      ],
+      "price_found": true
+    },
+    {
+      "name": "東2D",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=30",
+      "price": 10000,
+      "all_prices": [
+        10000,
+        55000
+      ],
+      "price_found": true
+    },
+    {
+      "name": "東3B-烏梅劇院",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=21",
+      "price": 88000,
+      "all_prices": [
+        88000
+      ],
+      "price_found": true
+    },
+    {
+      "name": "華山劇場",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=22",
+      "price": 10000,
+      "all_prices": [
+        10000,
+        126000
+      ],
+      "price_found": true
+    },
+    {
+      "name": "樹前草地",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=34",
+      "price": 10000,
+      "all_prices": [
+        10000,
+        60000
+      ],
+      "price_found": true
+    },
+    {
+      "name": "中3館前廣場",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=25",
+      "price": 10000,
+      "all_prices": [
+        10000,
+        60000
+      ],
+      "price_found": true
+    },
+    {
+      "name": "忠孝三角",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=23",
+      "price": 10000,
+      "all_prices": [
+        10000,
+        60000
+      ],
+      "price_found": true
+    },
+    {
+      "name": "金八廣場",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=24",
+      "price": 10000,
+      "all_prices": [
+        10000,
+        60000
+      ],
+      "price_found": true
+    },
+    {
+      "name": "中7B",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=42",
+      "price": 10000,
+      "all_prices": [
+        10000,
+        80000
+      ],
+      "price_found": true
+    },
+    {
+      "name": "西4",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=33",
+      "price": 5000,
+      "all_prices": [
+        5000,
+        6000,
+        9000,
+        70000
+      ],
+      "price_found": true
+    }
+  ],
+  "venues_without_price": [],
+  "price_coverage": "23/23",
+  "timestamp": "2026-03-26T21:14:28.059211"
+}

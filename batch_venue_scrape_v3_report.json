@@ -1,0 +1,1285 @@
+{
+  "scraped_at": "2026-03-25T17:52:25.015886",
+  "statistics": {
+    "total": 12,
+    "success": 12,
+    "failed": 0,
+    "skipped": 0,
+    "pdfs_found": 11,
+    "pdfs_parsed": 11,
+    "detail_pages_found": 0,
+    "tables_parsed": 0
+  },
+  "results": [
+    {
+      "id": 1042,
+      "scraped_at": "2026-03-25T17:51:48.925922",
+      "scrape_version": "v3_complete",
+      "metadata": {
+        "validated_url": "https://www.hrd.gov.tw",
+        "pageType": "WordPress API",
+        "pageTypeDetectedAt": "2026-03-25T17:51:49.373271",
+        "homepage_links": {
+          "meeting": 5,
+          "pricing": 2,
+          "rules": 3,
+          "access": 5,
+          "floor_plan": 3
+        },
+        "lastScrapedAt": "2026-03-25T17:51:53.184355",
+        "scrapePages": 1
+      },
+      "rooms": [
+        {
+          "name": "1F 前瞻廳",
+          "floor": "1F",
+          "capacity": "220",
+          "area": "",
+          "equipment": "投影機, 麥克風, 音響, 螢幕, 白板"
+        },
+        {
+          "name": "1F 前瞻廳",
+          "floor": "1F",
+          "capacity": "220",
+          "area": "",
+          "equipment": "投影機, 麥克風, 音響, 螢幕, 白板"
+        },
+        {
+          "name": "1F 前瞻廳",
+          "floor": "1F",
+          "capacity": "220",
+          "area": "",
+          "equipment": "投影機, 麥克風, 音響, 螢幕, 白板"
+        },
+        {
+          "name": "1F 前瞻廳",
+          "floor": "1F",
+          "capacity": "220",
+          "area": "",
+          "equipment": "投影機, 麥克風, 音響, 螢幕, 白板"
+        },
+        {
+          "name": "1F 前瞻廳",
+          "floor": "1F",
+          "capacity": "220",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "1F 前瞻廳",
+          "floor": "1F",
+          "capacity": "220",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "1F 前瞻廳",
+          "floor": "1F",
+          "capacity": "220",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "1F 前瞻廳",
+          "floor": "1F",
+          "capacity": "220",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "1F 101階梯教室",
+          "floor": "1F",
+          "capacity": "41",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "1F 101階梯教室",
+          "floor": "1F",
+          "capacity": "41",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "1F 103階梯教室",
+          "floor": "1F",
+          "capacity": "78",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "1F 103階梯教室",
+          "floor": "1F",
+          "capacity": "78",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2F 201教室",
+          "floor": "2F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2F 201教室",
+          "floor": "2F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2F 202教室",
+          "floor": "2F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2F 202教室",
+          "floor": "2F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2F 203教室",
+          "floor": "2F",
+          "capacity": "48",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2F 203教室",
+          "floor": "2F",
+          "capacity": "48",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2F 204教室",
+          "floor": "2F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2F 204教室",
+          "floor": "2F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2F 205教室",
+          "floor": "2F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2F 205教室",
+          "floor": "2F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "3F 304教室",
+          "floor": "3F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "3F 304教室",
+          "floor": "3F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "3F 305教室",
+          "floor": "3F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "3F 305教室",
+          "floor": "3F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "4F 401教室",
+          "floor": "4F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "4F 401教室",
+          "floor": "4F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "4F 402教室",
+          "floor": "4F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "4F 402教室",
+          "floor": "4F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "4F 403數位科技教室",
+          "floor": "4F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "4F 403數位科技教室",
+          "floor": "4F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "4F 404數位互動教室",
+          "floor": "4F",
+          "capacity": "60",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "4F 404數位互動教室",
+          "floor": "4F",
+          "capacity": "60",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "5F 501教室",
+          "floor": "5F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "5F 501教室",
+          "floor": "5F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "5F 502教室",
+          "floor": "5F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "5F 502教室",
+          "floor": "5F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "6F 601教室",
+          "floor": "6F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "6F 601教室",
+          "floor": "6F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "6F 602教室",
+          "floor": "6F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "6F 602教室",
+          "floor": "6F",
+          "capacity": "30",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "14F 貴賓廳-教室型",
+          "floor": "14F",
+          "capacity": "100",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "14F 貴賓廳-教室型",
+          "floor": "14F",
+          "capacity": "100",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "14F 貴賓廳-分組型",
+          "floor": "14F",
+          "capacity": "81",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "14F 貴賓廳-分組型",
+          "floor": "14F",
+          "capacity": "81",
+          "area": "",
+          "equipment": ""
+        }
+      ],
+      "pricing": {
+        "prices": [
+          "24000",
+          "810",
+          "66200",
+          "63300",
+          "1000",
+          "12000",
+          "99300",
+          "21100",
+          "132400",
+          "2000"
+        ]
+      },
+      "rules": {
+        "catering": "<a href=\"/1122/2141/3158/NPmeetingVenue\" target=\"_self\" title=\"餐飲服務\">餐飲服務</a>"
+      },
+      "success": true
+    },
+    {
+      "id": 1045,
+      "scraped_at": "2026-03-25T17:51:55.184886",
+      "scrape_version": "v3_complete",
+      "metadata": {
+        "validated_url": "https://www.ntut.edu.tw",
+        "pageType": "Static/SSR",
+        "pageTypeDetectedAt": "2026-03-25T17:51:55.668874",
+        "homepage_links": {
+          "meeting": 1,
+          "pricing": 0,
+          "rules": 2,
+          "access": 1,
+          "floor_plan": 1
+        },
+        "lastScrapedAt": "2026-03-25T17:51:57.422121",
+        "scrapePages": 1
+      },
+      "accessInfo": {
+        "mrt": "<meta name=\"description\" content=\"到達北科大的交通方式：地址：10608台北市忠孝東路三段一號，(1) 搭乘捷運： 【板南線】忠孝新生站，4號出口台北科技大學",
+        "bus": "(2)各線公車：台北科技大學站--212、212直達車、232、262、299及605"
+      },
+      "success": true
+    },
+    {
+      "id": 1128,
+      "scraped_at": "2026-03-25T17:51:59.423136",
+      "scrape_version": "v3_complete",
+      "metadata": {
+        "validated_url": "https://www.meeting.com.tw/ntu/",
+        "pageType": "Static/SSR",
+        "pageTypeDetectedAt": "2026-03-25T17:51:59.570726",
+        "homepage_links": {
+          "meeting": 5,
+          "pricing": 1,
+          "rules": 0,
+          "access": 2,
+          "floor_plan": 0
+        },
+        "lastScrapedAt": "2026-03-25T17:52:00.064939",
+        "scrapePages": 1
+      },
+      "pricing": {
+        "prices": [
+          "21000",
+          "19000"
+        ]
+      },
+      "accessInfo": {
+        "parking": "<meta name=\"description\" content=\"集思交通部國際會議中心位於仁愛路與杭州南路口，為公辦民營之會議場地，擁有獨立出入動線及附屬停車場地",
+        "mrt": "<div class=\"col-md-2 col-sm-2 col-xs-2\"><img src=\"../images/common/icon-location-01.svg\" alt=\"捷運\"/><",
+        "bus": "<div class=\"col-md-2 col-sm-2 col-xs-2\"><img src=\"../images/common/icon-location-02.svg\" alt=\"公車\"/><"
+      },
+      "success": true
+    },
+    {
+      "id": 1448,
+      "scraped_at": "2026-03-25T17:52:02.066026",
+      "scrape_version": "v3_complete",
+      "metadata": {
+        "validated_url": "https://www.ticc.com.tw/",
+        "pageType": "Static/SSR",
+        "pageTypeDetectedAt": "2026-03-25T17:52:02.513510",
+        "homepage_links": {
+          "meeting": 4,
+          "pricing": 1,
+          "rules": 1,
+          "access": 1,
+          "floor_plan": 2
+        },
+        "lastScrapedAt": "2026-03-25T17:52:02.870521",
+        "scrapePages": 1
+      },
+      "success": true
+    },
+    {
+      "id": 1493,
+      "scraped_at": "2026-03-25T17:52:04.871175",
+      "scrape_version": "v3_complete",
+      "metadata": {
+        "validated_url": "https://www.sce.ntnu.edu.tw/home/index.php",
+        "pageType": "Static/SSR",
+        "pageTypeDetectedAt": "2026-03-25T17:52:05.059320",
+        "homepage_links": {
+          "meeting": 2,
+          "pricing": 0,
+          "rules": 2,
+          "access": 1,
+          "floor_plan": 1
+        },
+        "lastScrapedAt": "2026-03-25T17:52:05.562557",
+        "scrapePages": 1
+      },
+      "rooms": [
+        {
+          "name": "1F藝文展覽廳",
+          "floor": "1F",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "1F藝文展覽廳",
+          "floor": "1F",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "1F藝文展覽廳",
+          "floor": "1F",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "1F藝文展覽廳",
+          "floor": "1F",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "1F藝文展覽廳",
+          "floor": "1F",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "1F藝文展覽廳",
+          "floor": "1F",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "1F藝文展覽廳",
+          "floor": "1F",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2樓視聽教室（88人）",
+          "floor": "2樓",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2樓視聽教室（88人）",
+          "floor": "2樓",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2樓視聽教室（88人）",
+          "floor": "2樓",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2樓視聽教室（88人）",
+          "floor": "2樓",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2樓會議室（40人）",
+          "floor": "2樓",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2樓會議室（40人）",
+          "floor": "2樓",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2樓會議室（40人）",
+          "floor": "2樓",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2樓會議室（40人）",
+          "floor": "2樓",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "大教室（40人）",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "大教室（40人）",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "大教室（40人）",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "大教室（40人）",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "小教室（24人）",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "小教室（24人）",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "小教室（24人）",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "小教室（24人）",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "3樓講座教室（34人）",
+          "floor": "3樓",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "3樓講座教室（34人）",
+          "floor": "3樓",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "3樓講座教室（34人）",
+          "floor": "3樓",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "3樓講座教室（34人）",
+          "floor": "3樓",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "電腦教室(35-40人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "電腦教室(35-40人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "電腦教室(35-40人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "電腦教室(35-40人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "視訊會議室(17人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "視訊會議室(17人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "視訊會議室(17人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "視訊會議室(17人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "階梯教室(111人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "階梯教室(111人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "階梯教室(111人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "階梯教室(111人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "大教室(30人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "大教室(30人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "大教室(30人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "大教室(30人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "大教室(40人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "大教室(40人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "大教室(40人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "大教室(40人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "1F藝文展覽廳",
+          "floor": "1F",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "1F藝文展覽廳",
+          "floor": "1F",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "1F藝文展覽廳",
+          "floor": "1F",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "1F藝文展覽廳",
+          "floor": "1F",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "1F藝文展覽廳",
+          "floor": "1F",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "1F藝文展覽廳",
+          "floor": "1F",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "1F藝文展覽廳",
+          "floor": "1F",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2樓視聽教室（88人）",
+          "floor": "2樓",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2樓視聽教室（88人）",
+          "floor": "2樓",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2樓視聽教室（88人）",
+          "floor": "2樓",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2樓視聽教室（88人）",
+          "floor": "2樓",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2樓會議室（40人）",
+          "floor": "2樓",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2樓會議室（40人）",
+          "floor": "2樓",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2樓會議室（40人）",
+          "floor": "2樓",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "2樓會議室（40人）",
+          "floor": "2樓",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "大教室（40人）",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "大教室（40人）",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "大教室（40人）",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "大教室（40人）",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "小教室（24人）",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "小教室（24人）",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "小教室（24人）",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "小教室（24人）",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "3樓講座教室（34人）",
+          "floor": "3樓",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "3樓講座教室（34人）",
+          "floor": "3樓",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "3樓講座教室（34人）",
+          "floor": "3樓",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "3樓講座教室（34人）",
+          "floor": "3樓",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "電腦教室(35-40人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "電腦教室(35-40人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "電腦教室(35-40人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "電腦教室(35-40人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "視訊會議室(17人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "視訊會議室(17人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "視訊會議室(17人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "視訊會議室(17人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "階梯教室(111人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "階梯教室(111人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "階梯教室(111人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "階梯教室(111人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "大教室(30人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "大教室(30人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "大教室(30人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "大教室(30人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "大教室(40人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "大教室(40人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "大教室(40人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        },
+        {
+          "name": "大教室(40人)",
+          "floor": "",
+          "capacity": "",
+          "area": "",
+          "equipment": ""
+        }
+      ],
+      "success": true
+    },
+    {
+      "id": 1494,
+      "scraped_at": "2026-03-25T17:52:07.563290",
+      "scrape_version": "v3_complete",
+      "metadata": {
+        "validated_url": "https://www.meeting.com.tw/motc/",
+        "pageType": "Static/SSR",
+        "pageTypeDetectedAt": "2026-03-25T17:52:07.698468",
+        "homepage_links": {
+          "meeting": 5,
+          "pricing": 0,
+          "rules": 0,
+          "access": 2,
+          "floor_plan": 0
+        },
+        "lastScrapedAt": "2026-03-25T17:52:08.140782",
+        "scrapePages": 1
+      },
+      "accessInfo": {
+        "parking": "<meta name=\"description\" content=\"集思交通部國際會議中心位於仁愛路與杭州南路口，為公辦民營之會議場地，擁有獨立出入動線及附屬停車場地",
+        "mrt": "<div class=\"col-md-2 col-sm-2 col-xs-2\"><img src=\"../images/common/icon-location-01.svg\" alt=\"捷運\"/><",
+        "bus": "<div class=\"col-md-2 col-sm-2 col-xs-2\"><img src=\"../images/common/icon-location-02.svg\" alt=\"公車\"/><"
+      },
+      "success": true
+    },
+    {
+      "id": 1495,
+      "scraped_at": "2026-03-25T17:52:10.141435",
+      "scrape_version": "v3_complete",
+      "metadata": {
+        "validated_url": "https://www.meeting.com.tw/ntut/",
+        "pageType": "Static/SSR",
+        "pageTypeDetectedAt": "2026-03-25T17:52:10.223598",
+        "homepage_links": {
+          "meeting": 5,
+          "pricing": 0,
+          "rules": 0,
+          "access": 2,
+          "floor_plan": 0
+        },
+        "lastScrapedAt": "2026-03-25T17:52:10.786209",
+        "scrapePages": 1
+      },
+      "accessInfo": {
+        "parking": "<meta name=\"description\" content=\"集思交通部國際會議中心位於仁愛路與杭州南路口，為公辦民營之會議場地，擁有獨立出入動線及附屬停車場地",
+        "mrt": "<meta name=\"description\" content=\"集思北科大會議中心位於忠孝新生、忠孝復興捷運站及建國南北高架橋匯流處，地下樓層備有充裕的平面停車位",
+        "bus": "<div class=\"col-md-2 col-sm-2 col-xs-2\"><img src=\"../images/common/icon-location-02.svg\" alt=\"公車\"/><"
+      },
+      "success": true
+    },
+    {
+      "id": 1496,
+      "scraped_at": "2026-03-25T17:52:12.786600",
+      "scrape_version": "v3_complete",
+      "metadata": {
+        "validated_url": "https://www.meeting.com.tw/hsp/",
+        "pageType": "Static/SSR",
+        "pageTypeDetectedAt": "2026-03-25T17:52:12.866287",
+        "homepage_links": {
+          "meeting": 5,
+          "pricing": 0,
+          "rules": 0,
+          "access": 2,
+          "floor_plan": 0
+        },
+        "lastScrapedAt": "2026-03-25T17:52:13.759968",
+        "scrapePages": 1
+      },
+      "accessInfo": {
+        "parking": "<meta name=\"description\" content=\"集思交通部國際會議中心位於仁愛路與杭州南路口，為公辦民營之會議場地，擁有獨立出入動線及附屬停車場地",
+        "bus": "3. 請於四號出口搭乘新竹市先導公車至【科技生活館】"
+      },
+      "success": true
+    },
+    {
+      "id": 1497,
+      "scraped_at": "2026-03-25T17:52:15.760492",
+      "scrape_version": "v3_complete",
+      "metadata": {
+        "validated_url": "https://www.meeting.com.tw/tc/",
+        "pageType": "Static/SSR",
+        "pageTypeDetectedAt": "2026-03-25T17:52:15.819906",
+        "homepage_links": {
+          "meeting": 1,
+          "pricing": 0,
+          "rules": 0,
+          "access": 0,
+          "floor_plan": 0
+        },
+        "lastScrapedAt": "2026-03-25T17:52:15.856004",
+        "scrapePages": 1
+      },
+      "success": true
+    },
+    {
+      "id": 1498,
+      "scraped_at": "2026-03-25T17:52:17.861282",
+      "scrape_version": "v3_complete",
+      "metadata": {
+        "validated_url": "https://www.meeting.com.tw/wuri/",
+        "pageType": "Static/SSR",
+        "pageTypeDetectedAt": "2026-03-25T17:52:17.926748",
+        "homepage_links": {
+          "meeting": 1,
+          "pricing": 0,
+          "rules": 0,
+          "access": 0,
+          "floor_plan": 0
+        },
+        "lastScrapedAt": "2026-03-25T17:52:17.962639",
+        "scrapePages": 1
+      },
+      "success": true
+    },
+    {
+      "id": 1499,
+      "scraped_at": "2026-03-25T17:52:19.983206",
+      "scrape_version": "v3_complete",
+      "metadata": {
+        "validated_url": "https://www.meeting.com.tw/khh/",
+        "pageType": "Static/SSR",
+        "pageTypeDetectedAt": "2026-03-25T17:52:20.037476",
+        "homepage_links": {
+          "meeting": 1,
+          "pricing": 0,
+          "rules": 0,
+          "access": 0,
+          "floor_plan": 0
+        },
+        "lastScrapedAt": "2026-03-25T17:52:20.075715",
+        "scrapePages": 1
+      },
+      "success": true
+    },
+    {
+      "id": 1500,
+      "scraped_at": "2026-03-25T17:52:22.076425",
+      "scrape_version": "v3_complete",
+      "metadata": {
+        "validated_url": "https://www.tcec.com.tw/",
+        "pageType": "Static/SSR",
+        "pageTypeDetectedAt": "2026-03-25T17:52:22.963520",
+        "homepage_links": {
+          "meeting": 0,
+          "pricing": 0,
+          "rules": 0,
+          "access": 0,
+          "floor_plan": 0
+        },
+        "lastScrapedAt": "2026-03-25T17:52:22.987966",
+        "scrapePages": 1
+      },
+      "success": true
+    }
+  ]
+}

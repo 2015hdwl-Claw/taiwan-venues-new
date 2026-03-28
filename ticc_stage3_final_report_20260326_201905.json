@@ -1,0 +1,113 @@
+{
+  "venue": "TICC（台北國際會議中心）",
+  "venue_id": 1448,
+  "url": "https://www.ticc.com.tw/",
+  "stage1_technical_detection": {
+    "http_status": 200,
+    "page_type": "HTML (靜態)",
+    "js_frameworks": "無",
+    "loading_method": "靜態/SSR",
+    "anti_scraping": "無明顯機制",
+    "special_features": [
+      "發現 JavaScript 重定向",
+      "發現 Google Maps iframe",
+      "發現 3 個表單",
+      "可能使用動態載入"
+    ]
+  },
+  "stage2_deep_scraping": {
+    "meeting_links_found": 8,
+    "meeting_links_tested": 8,
+    "working_links": 0,
+    "failed_links": 7,
+    "success_rate": "0%",
+    "tested_links": [
+      {
+        "text": "台灣會展",
+        "url": "https://www.meettaiwan.com/",
+        "status": 200,
+        "note": "外部網站"
+      },
+      {
+        "text": "場地導覽",
+        "url": "https://www.ticc.com.tw/np?ctNode=320&mp=1",
+        "status": 404,
+        "note": "失效"
+      },
+      {
+        "text": "場地介紹",
+        "url": "https://www.ticc.com.tw/sp?xdUrl=/wSite/ap/lp_VenueIntroduction.jsp",
+        "status": 404,
+        "note": "失效"
+      },
+      {
+        "text": "場地查詢",
+        "url": "https://www.ticc.com.tw/sp?xdUrl=/wSite/ap/lp_VenueSearch.jsp",
+        "status": 404,
+        "note": "失效"
+      },
+      {
+        "text": "詳情與租借規範",
+        "url": "https://www.ticc.com.tw/lp?ctNode=336",
+        "status": 404,
+        "note": "失效"
+      }
+    ]
+  },
+  "analysis": {
+    "root_cause": "TICC 網站使用動態載入或需要特殊會話管理",
+    "evidence": [
+      "主頁 HTTP 200 但所有子頁面 404",
+      "發現 JavaScript 重定向",
+      "發現多個表單（可能用於動態請求）",
+      "URL 包含 JSP 參數（如 ?xdUrl=）可能需要後端處理"
+    ]
+  },
+  "next_steps": [
+    {
+      "option": 1,
+      "method": "使用模擬瀏覽器（Selenium）",
+      "description": "模擬真實瀏覽器行為，執行 JavaScript",
+      "pros": "可以處理動態載入和 JavaScript",
+      "cons": "速度較慢，需要安裝瀏覽器驅動",
+      "estimated_success_rate": "70%"
+    },
+    {
+      "option": 2,
+      "method": "分析網站 API",
+      "description": "檢查網站使用的 API 端點",
+      "pros": "直接獲取資料，效率高",
+      "cons": "需要逆向工程 API",
+      "estimated_success_rate": "60%"
+    },
+    {
+      "option": 3,
+      "method": "手動訪問並下載",
+      "description": "使用瀏覽器手動訪問並保存頁面",
+      "pros": "確保獲取正確資料",
+      "cons": "無法自動化",
+      "estimated_success_rate": "100%"
+    },
+    {
+      "option": 4,
+      "method": "直接聯繫 TICC",
+      "description": "Email: ticc@taitra.org.tw",
+      "pros": "獲得官方準確資料",
+      "cons": "需要等待回應",
+      "estimated_success_rate": "90%"
+    }
+  ],
+  "recommendation": {
+    "priority": 1,
+    "option": 3,
+    "reason": "TICC 的自動爬取成功率極低（0%），建議優先使用手動方式確保資料正確性",
+    "action_items": [
+      "手動訪問 TICC 官網",
+      "尋找會議室資料頁面",
+      "下載或截圖保存",
+      "手動提取會議室資料",
+      "如果無法找到，聯繫 ticc@taitra.org.tw"
+    ]
+  },
+  "timestamp": "2026-03-26T20:19:05.263178"
+}

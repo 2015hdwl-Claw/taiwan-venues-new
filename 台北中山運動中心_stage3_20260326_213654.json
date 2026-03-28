@@ -1,0 +1,22 @@
+{
+  "venue": "台北中山運動中心",
+  "venue_id": 1334,
+  "stage3": {
+    "conclusion": "官網未提供場地資料，使用外部預約系統",
+    "data_source": "需要直接聯繫",
+    "current_rooms": 2,
+    "missing_data": [
+      "詳細會議室資料",
+      "尺寸",
+      "設備清單",
+      "場地照片"
+    ],
+    "recommended_action": "聯繫場地或預約系統提供商"
+  },
+  "complete_analysis": {
+    "stage1": "技術檢測完成",
+    "stage2": "深度爬蟲完成",
+    "stage3": "驗證完成 - 無場地資料可爬取"
+  },
+  "timestamp": "2026-03-26T21:36:54.670490"
+}

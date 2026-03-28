@@ -1,0 +1,175 @@
+[
+  {
+    "venue_id": 1448,
+    "venue_name": "台北國際會議中心(TICC)",
+    "stage1": {
+      "url": "https://www.ticc.com.tw/",
+      "timestamp": "2026-03-26T20:02:40.395319",
+      "http_status": 200,
+      "final_url": "https://www.ticc.com.tw/wSite/mp?mp=1",
+      "content_type": "text/html;charset=utf-8",
+      "page_type": "HTML",
+      "js_frameworks": [],
+      "loading_method": "Static/SSR",
+      "inline_json_count": 6,
+      "html_keywords": [
+        "會議",
+        "場地",
+        "宴會",
+        "婚宴"
+      ],
+      "data_location": "HTML_structure"
+    },
+    "stage2": {
+      "base_url": "https://www.ticc.com.tw/",
+      "timestamp": "2026-03-26T20:02:40.906312",
+      "meeting_links_count": 13,
+      "pdf_links_count": 1,
+      "page_text_length": 2008,
+      "potential_rooms": [
+        "5200\n會"
+      ],
+      "emails": [
+        "ticc@taitra.org.tw"
+      ]
+    },
+    "timestamp": "2026-03-26T20:02:40.909168"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區",
+    "stage1": {
+      "url": "https://www.huashan1914.com",
+      "timestamp": "2026-03-26T20:02:42.910104",
+      "http_status": 200,
+      "final_url": "https://www.huashan1914.com/w/huashan1914/index",
+      "content_type": "text/html; charset=utf-8",
+      "page_type": "HTML",
+      "js_frameworks": [],
+      "loading_method": "Static/SSR",
+      "inline_json_count": 13,
+      "html_keywords": [
+        "場地"
+      ],
+      "data_location": "HTML_structure"
+    },
+    "stage2": {
+      "base_url": "https://www.huashan1914.com",
+      "timestamp": "2026-03-26T20:02:50.906980",
+      "meeting_links_count": 6,
+      "pdf_links_count": 0,
+      "page_text_length": 6680
+    },
+    "timestamp": "2026-03-26T20:02:50.911080"
+  },
+  {
+    "venue_id": 1053,
+    "venue_name": "台北兄弟大飯店",
+    "stage1": {
+      "url": "https://www.brotherhotel.com.tw/?cat=75",
+      "timestamp": "2026-03-26T20:02:52.912234",
+      "http_status": 200,
+      "final_url": "https://www.brotherhotel.com.tw/?cat=75",
+      "content_type": "text/html; charset=UTF-8",
+      "page_type": "HTML",
+      "js_frameworks": [],
+      "loading_method": "Static/SSR",
+      "json_ld_count": 1,
+      "inline_json_count": 25,
+      "html_keywords": [
+        "會議",
+        "婚宴"
+      ],
+      "data_location": "HTML_structure"
+    },
+    "stage2": {
+      "base_url": "https://www.brotherhotel.com.tw/?cat=75",
+      "timestamp": "2026-03-26T20:02:53.467011",
+      "meeting_links_count": 8,
+      "pdf_links_count": 0,
+      "page_text_length": 3538,
+      "phones": [
+        "02-27123456",
+        "02-27173334"
+      ],
+      "emails": [
+        "02-2712345602-27173334service@brotherhotel.com.tw"
+      ]
+    },
+    "timestamp": "2026-03-26T20:02:53.470289"
+  },
+  {
+    "venue_id": 1493,
+    "venue_name": "師大進修推廣學院",
+    "stage1": {
+      "url": "https://www.sce.ntnu.edu.tw/home/index.php",
+      "timestamp": "2026-03-26T20:02:55.471937",
+      "http_status": 200,
+      "final_url": "https://www.sce.ntnu.edu.tw/home/index.php",
+      "content_type": "text/html; charset=UTF-8",
+      "page_type": "HTML",
+      "js_frameworks": [],
+      "loading_method": "Static/SSR",
+      "inline_json_count": 6,
+      "html_keywords": [
+        "場地"
+      ],
+      "data_location": "HTML_structure",
+      "cookies": 1
+    },
+    "stage2": {
+      "base_url": "https://www.sce.ntnu.edu.tw/home/index.php",
+      "timestamp": "2026-03-26T20:02:55.620911",
+      "meeting_links_count": 2,
+      "pdf_links_count": 0,
+      "page_text_length": 1120,
+      "phones": [
+        "026-03-18",
+        "026-03-12",
+        "026-03-11",
+        "026-02-10",
+        "026-02-08"
+      ],
+      "emails": [
+        "sce@ntnu.edu.tw"
+      ]
+    },
+    "timestamp": "2026-03-26T20:02:55.622826"
+  },
+  {
+    "venue_id": 1129,
+    "venue_name": "青青婚宴會館",
+    "stage1": {
+      "url": "https://www.77-67.com/",
+      "timestamp": "2026-03-26T20:02:57.624433",
+      "http_status": 200,
+      "final_url": "https://77-67.com/",
+      "content_type": "text/html; charset=UTF-8",
+      "page_type": "HTML",
+      "js_frameworks": [],
+      "loading_method": "Static/SSR",
+      "json_ld_count": 1,
+      "inline_json_count": 26,
+      "html_keywords": [
+        "會議",
+        "場地",
+        "婚宴"
+      ],
+      "data_location": "HTML_structure",
+      "anti_scraping": "Cloudflare"
+    },
+    "stage2": {
+      "base_url": "https://www.77-67.com/",
+      "timestamp": "2026-03-26T20:02:58.367438",
+      "meeting_links_count": 49,
+      "pdf_links_count": 0,
+      "page_text_length": 4363,
+      "phones": [
+        "025-12-15",
+        "025-09-19",
+        "024-12-18"
+      ]
+    },
+    "timestamp": "2026-03-26T20:02:58.374423"
+  }
+]

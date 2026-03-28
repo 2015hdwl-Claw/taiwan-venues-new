@@ -1,0 +1,40 @@
+{
+  "venue": "台北兄弟大飯店",
+  "venue_id": 1053,
+  "timestamp": "2026-03-27T00:46:18.891053",
+  "main_page": {
+    "url": "https://www.brotherhotel.com.tw/?cat=75",
+    "status": 200,
+    "size": 236328,
+    "js_frameworks": [
+      "jQuery"
+    ]
+  },
+  "meeting_links": [
+    {
+      "text": "婚宴專案",
+      "url": "https://www.brotherhotel.com.tw/?cat=75"
+    },
+    {
+      "text": "會議專案",
+      "url": "https://www.brotherhotel.com.tw/?cat=76"
+    },
+    {
+      "text": "關於兄弟",
+      "url": "https://www.brotherhotel.com.tw/#about"
+    },
+    {
+      "text": "【桂花廳-川菜小吃】Love Forever 超值婚宴專案",
+      "url": "https://www.brotherhotel.com.tw/?p=5374"
+    },
+    {
+      "text": "【蘭花廳-台菜海鮮】Love Forever 超值婚宴專案",
+      "url": "https://www.brotherhotel.com.tw/?p=5372"
+    },
+    {
+      "text": "【梅花廳-粵菜飲茶】Love Forever 超值婚宴專案",
+      "url": "https://www.brotherhotel.com.tw/?p=5370"
+    }
+  ],
+  "pdf_links": []
+}

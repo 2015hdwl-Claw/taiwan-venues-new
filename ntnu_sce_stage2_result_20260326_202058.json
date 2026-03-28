@@ -1,0 +1,30 @@
+{
+  "venue": "師大進修推廣學院",
+  "venue_id": 1493,
+  "url": "https://www.sce.ntnu.edu.tw/home/space/",
+  "http_status": 200,
+  "cookies": 1,
+  "capacities": [
+    "148",
+    "88",
+    "40",
+    "40",
+    "24",
+    "34",
+    "40",
+    "17",
+    "12",
+    "111"
+  ],
+  "areas": [],
+  "floors": [
+    "3樓",
+    "2樓",
+    "1樓",
+    "1F"
+  ],
+  "tables_count": 1,
+  "total_links": 34,
+  "venue_links": 6,
+  "has_data": true
+}

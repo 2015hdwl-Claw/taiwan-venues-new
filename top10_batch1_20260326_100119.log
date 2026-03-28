@@ -1,0 +1,2 @@
+usage: full_site_scraper_v4.py [-h] [--test TEST] [--batch] [--sample SAMPLE]
+full_site_scraper_v4.py: error: unrecognized arguments: --ids 1053,1122,1129,1493,1128

@@ -1,0 +1,332 @@
+{
+  "cleanedAt": "2026-03-25T16:44:24.463318",
+  "statistics": {
+    "venues_processed": 40,
+    "rooms_before": 557,
+    "rooms_after": 204,
+    "duplicates_removed": 353,
+    "html_cleaned": 34
+  },
+  "venues_summary": [
+    {
+      "id": 1034,
+      "name": "NUZONE展演空間",
+      "rooms_count": 3,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": false
+    },
+    {
+      "id": 1042,
+      "name": "公務人力發展學院",
+      "rooms_count": 20,
+      "has_pricing": true,
+      "has_rules": true,
+      "has_access": true
+    },
+    {
+      "id": 1043,
+      "name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+      "rooms_count": 2,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": true
+    },
+    {
+      "id": 1045,
+      "name": "北科大創新育成中心",
+      "rooms_count": 3,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": true
+    },
+    {
+      "id": 1049,
+      "name": "台北世貿中心(TWTCA)展覽大樓",
+      "rooms_count": 11,
+      "has_pricing": false,
+      "has_rules": true,
+      "has_access": false
+    },
+    {
+      "id": 1051,
+      "name": "台北亞都麗緻大飯店(LandisTaipei)",
+      "rooms_count": 2,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": false
+    },
+    {
+      "id": 1053,
+      "name": "台北兄弟大飯店(BrotherTaipei)",
+      "rooms_count": 13,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": true
+    },
+    {
+      "id": 1057,
+      "name": "台北典華",
+      "rooms_count": 1,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": true
+    },
+    {
+      "id": 1068,
+      "name": "台北喜瑞飯店",
+      "rooms_count": 1,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": true
+    },
+    {
+      "id": 1069,
+      "name": "台北國賓大飯店(AmbassadorTaipei)",
+      "rooms_count": 5,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": true
+    },
+    {
+      "id": 1072,
+      "name": "台北圓山大飯店(Grand Hotel Taipei)",
+      "rooms_count": 5,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": true
+    },
+    {
+      "id": 1075,
+      "name": "台北寒舍喜來登大飯店",
+      "rooms_count": 5,
+      "has_pricing": false,
+      "has_rules": true,
+      "has_access": true
+    },
+    {
+      "id": 1076,
+      "name": "台北寒舍艾美酒店(LeMeridienTaipei)",
+      "rooms_count": 1,
+      "has_pricing": false,
+      "has_rules": true,
+      "has_access": true
+    },
+    {
+      "id": 1077,
+      "name": "台北艾麗酒店",
+      "rooms_count": 1,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": false
+    },
+    {
+      "id": 1082,
+      "name": "台北怡亨酒店 Hotel Éclat Taipei",
+      "rooms_count": 1,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": false
+    },
+    {
+      "id": 1083,
+      "name": "台北北門世民酒店 citizenM Taipei North Gate",
+      "rooms_count": 1,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": false
+    },
+    {
+      "id": 1085,
+      "name": "台北文華東方酒店(MOHTaipei)",
+      "rooms_count": 8,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": false
+    },
+    {
+      "id": 1086,
+      "name": "台北晶華酒店 Regent Taipei",
+      "rooms_count": 3,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": true
+    },
+    {
+      "id": 1090,
+      "name": "茹曦酒店 ILLUME TAIPEI",
+      "rooms_count": 4,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": true
+    },
+    {
+      "id": 1095,
+      "name": "台北美福大飯店",
+      "rooms_count": 4,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": false
+    },
+    {
+      "id": 1097,
+      "name": "台北老爺大酒店(RoyalInnTaipei)",
+      "rooms_count": 1,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": true
+    },
+    {
+      "id": 1099,
+      "name": "台北艾美酒店",
+      "rooms_count": 1,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": false
+    },
+    {
+      "id": 1100,
+      "name": "台北花園大酒店(TGHotel)",
+      "rooms_count": 2,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": true
+    },
+    {
+      "id": 1103,
+      "name": "台北萬豪酒店(MarriottTaipei)",
+      "rooms_count": 11,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": true
+    },
+    {
+      "id": 1116,
+      "name": "彭園婚宴會館",
+      "rooms_count": 2,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": true
+    },
+    {
+      "id": 1121,
+      "name": "神旺大飯店",
+      "rooms_count": 2,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": false
+    },
+    {
+      "id": 1122,
+      "name": "維多麗亞酒店",
+      "rooms_count": 14,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": true
+    },
+    {
+      "id": 1124,
+      "name": "花園大酒店",
+      "rooms_count": 2,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": true
+    },
+    {
+      "id": 1125,
+      "name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+      "rooms_count": 26,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": true
+    },
+    {
+      "id": 1126,
+      "name": "豪景大酒店",
+      "rooms_count": 7,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": true
+    },
+    {
+      "id": 1128,
+      "name": "集思台大會議中心(NTUCC)",
+      "rooms_count": 12,
+      "has_pricing": true,
+      "has_rules": false,
+      "has_access": true
+    },
+    {
+      "id": 1129,
+      "name": "青青婚宴會館",
+      "rooms_count": 12,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": false
+    },
+    {
+      "id": 1448,
+      "name": "台北國際會議中心(TICC)",
+      "rooms_count": 7,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": false
+    },
+    {
+      "id": 1493,
+      "name": "師大進修推廣學院",
+      "rooms_count": 11,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": false
+    },
+    {
+      "id": 1494,
+      "name": "集思交通部國際會議中心(MOTC)",
+      "rooms_count": 0,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": true
+    },
+    {
+      "id": 1495,
+      "name": "集思北科大會議中心(Tech)",
+      "rooms_count": 0,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": false
+    },
+    {
+      "id": 1496,
+      "name": "集思竹科會議中心(HSPH)",
+      "rooms_count": 0,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": false
+    },
+    {
+      "id": 1497,
+      "name": "集思台中文心會議中心(TC)",
+      "rooms_count": 0,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": false
+    },
+    {
+      "id": 1498,
+      "name": "集思台中新烏日會議中心(WURI)",
+      "rooms_count": 0,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": false
+    },
+    {
+      "id": 1499,
+      "name": "集思國際會議高雄分公司(KHH)",
+      "rooms_count": 0,
+      "has_pricing": false,
+      "has_rules": false,
+      "has_access": false
+    }
+  ]
+}

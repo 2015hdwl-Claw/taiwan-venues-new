@@ -1,0 +1,130 @@
+{
+  "venue": "集思北科大會議中心",
+  "venue_id": 1495,
+  "timestamp": "2026-03-26T23:56:54.081300",
+  "base_url": "https://www.meeting.com.tw/ntut/",
+  "rooms_found": 12,
+  "pdfs_found": 7,
+  "rooms": [
+    {
+      "name": "活動紀錄",
+      "url": "https://www.meeting.com.tw/ntut/activity-list-2025.php",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "room_images": 0,
+      "has_price": false,
+      "has_capacity": false,
+      "has_area": false
+    },
+    {
+      "name": "交通資訊",
+      "url": "https://www.meeting.com.tw/ntut/location.php",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "room_images": 0,
+      "has_price": false,
+      "has_capacity": false,
+      "has_area": false
+    },
+    {
+      "name": "感恩廳",
+      "url": "https://www.meeting.com.tw/ntut/the-lecture-hall.php",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "room_images": 8,
+      "has_price": false,
+      "has_capacity": true,
+      "has_area": true
+    },
+    {
+      "name": "貝塔廳",
+      "url": "https://www.meeting.com.tw/ntut/room-201.php",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "room_images": 8,
+      "has_price": false,
+      "has_capacity": true,
+      "has_area": true
+    },
+    {
+      "name": "噶瑪廳",
+      "url": "https://www.meeting.com.tw/ntut/room-202.php",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "room_images": 8,
+      "has_price": false,
+      "has_capacity": true,
+      "has_area": true
+    },
+    {
+      "name": "卡博廳",
+      "url": "https://www.meeting.com.tw/ntut/room-203.php",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "room_images": 8,
+      "has_price": false,
+      "has_capacity": true,
+      "has_area": true
+    },
+    {
+      "name": "西特廳",
+      "url": "https://www.meeting.com.tw/ntut/room-204.php",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "room_images": 8,
+      "has_price": false,
+      "has_capacity": true,
+      "has_area": true
+    },
+    {
+      "name": "瑞特廳",
+      "url": "https://www.meeting.com.tw/ntut/room-205.php",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "room_images": 8,
+      "has_price": false,
+      "has_capacity": true,
+      "has_area": true
+    },
+    {
+      "name": "艾爾法廳",
+      "url": "https://www.meeting.com.tw/ntut/room-301.php",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "room_images": 8,
+      "has_price": false,
+      "has_capacity": true,
+      "has_area": false
+    },
+    {
+      "name": "奧米伽廳",
+      "url": "https://www.meeting.com.tw/ntut/room-302.php",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "room_images": 8,
+      "has_price": false,
+      "has_capacity": true,
+      "has_area": true
+    },
+    {
+      "name": "西格瑪廳",
+      "url": "https://www.meeting.com.tw/ntut/room-303.php",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "room_images": 8,
+      "has_price": false,
+      "has_capacity": true,
+      "has_area": true
+    },
+    {
+      "name": "岱爾達廳",
+      "url": "https://www.meeting.com.tw/ntut/room-304.php",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "room_images": 8,
+      "has_price": false,
+      "has_capacity": true,
+      "has_area": true
+    }
+  ]
+}

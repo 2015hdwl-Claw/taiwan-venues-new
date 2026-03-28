@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "<string>", line 22, in <module>
+    print(f'{i:2d}. {name:20s} | 容量: {cap:10s} | 面積: {area}')
+                                       ^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__
+ID 1448 TICC 狀態:
+- 名稱: 台北國際會議中心(TICC)
+- 會議室數量: 31
+
+前 10 個會議室:
+ 1. 大會堂全場                | 容量: 973        | 面積: 973m2

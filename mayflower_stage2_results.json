@@ -1,0 +1,9 @@
+{
+  "venue": "台北美福大飯店",
+  "venue_id": 1095,
+  "timestamp": "2026-03-27T01:11:55.524116",
+  "ballroom_page_fetched": true,
+  "meeting_page_fetched": true,
+  "pdfs_checked": 2,
+  "note": "jQuery website, easier to scrape than Angular. Ballroom and meeting pages have detailed information."
+}

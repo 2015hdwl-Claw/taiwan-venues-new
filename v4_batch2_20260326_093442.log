@@ -1,0 +1,332 @@
+[2026-03-26 09:34:44] INFO: Fetched (200) <GET https://taipei.landishotelsresorts.com/> (referer: https://www.google.com/)
+[2026-03-26 09:35:00] INFO: Fetched (200) <GET https://taipei.landishotelsresorts.com/contact> (referer: https://www.google.com/)
+[2026-03-26 09:35:00] INFO: Fetched (200) <GET https://taipei.landishotelsresorts.com/contact-us> (referer: https://www.google.com/)
+[2026-03-26 09:35:01] INFO: Fetched (200) <GET https://taipei.landishotelsresorts.com/meeting-list.php> (referer: https://www.google.com/)
+[2026-03-26 09:35:01] INFO: Fetched (200) <GET https://taipei.landishotelsresorts.com/meeting> (referer: https://www.google.com/)
+[2026-03-26 09:35:01] INFO: Fetched (200) <GET https://taipei.landishotelsresorts.com/meetings> (referer: https://www.google.com/)
+[2026-03-26 09:35:01] INFO: Fetched (200) <GET https://taipei.landishotelsresorts.com/banquet> (referer: https://www.google.com/)
+[2026-03-26 09:35:01] INFO: Fetched (200) <GET https://taipei.landishotelsresorts.com/banquets> (referer: https://www.google.com/)
+[2026-03-26 09:35:02] INFO: Fetched (200) <GET https://taipei.landishotelsresorts.com/events> (referer: https://www.google.com/)
+[2026-03-26 09:35:02] INFO: Fetched (200) <GET https://taipei.landishotelsresorts.com/mice> (referer: https://www.google.com/)
+[2026-03-26 09:35:02] INFO: Fetched (200) <GET https://taipei.landishotelsresorts.com/conference> (referer: https://www.google.com/)
+[2026-03-26 09:35:02] INFO: Fetched (200) <GET https://taipei.landishotelsresorts.com/access> (referer: https://www.google.com/)
+[2026-03-26 09:35:03] INFO: Fetched (200) <GET https://taipei.landishotelsresorts.com/location> (referer: https://www.google.com/)
+[2026-03-26 09:35:03] INFO: Fetched (200) <GET https://taipei.landishotelsresorts.com/traffic> (referer: https://www.google.com/)
+[2026-03-26 09:35:03] INFO: Fetched (200) <GET https://taipei.landishotelsresorts.com/transport> (referer: https://www.google.com/)
+[2026-03-26 09:35:04] INFO: Fetched (200) <GET https://www.brotherhotel.com.tw/?cat=75> (referer: https://www.google.com/)
+[2026-03-26 09:35:24] INFO: Fetched (200) <GET https://www.brotherhotel.com.tw/?cat=75/contact> (referer: https://www.google.com/)
+[2026-03-26 09:35:25] INFO: Fetched (200) <GET https://www.brotherhotel.com.tw/?cat=75/contact-us> (referer: https://www.google.com/)
+[2026-03-26 09:35:25] INFO: Fetched (200) <GET https://www.brotherhotel.com.tw/?cat=75/meeting> (referer: https://www.google.com/)
+[2026-03-26 09:35:26] INFO: Fetched (200) <GET https://www.brotherhotel.com.tw/?cat=75/meetings> (referer: https://www.google.com/)
+[2026-03-26 09:35:26] INFO: Fetched (200) <GET https://www.brotherhotel.com.tw/?cat=75/banquet> (referer: https://www.google.com/)
+[2026-03-26 09:35:27] INFO: Fetched (200) <GET https://www.brotherhotel.com.tw/?cat=75/banquets> (referer: https://www.google.com/)
+[2026-03-26 09:35:27] INFO: Fetched (200) <GET https://www.brotherhotel.com.tw/?cat=75/events> (referer: https://www.google.com/)
+[2026-03-26 09:35:28] INFO: Fetched (200) <GET https://www.brotherhotel.com.tw/?cat=75/mice> (referer: https://www.google.com/)
+[2026-03-26 09:35:28] INFO: Fetched (200) <GET https://www.brotherhotel.com.tw/?cat=75/conference> (referer: https://www.google.com/)
+[2026-03-26 09:35:29] INFO: Fetched (200) <GET https://www.brotherhotel.com.tw/?page_id=3072> (referer: https://www.google.com/)
+[2026-03-26 09:35:29] INFO: Fetched (200) <GET https://www.brotherhotel.com.tw/?cat=75/access> (referer: https://www.google.com/)
+[2026-03-26 09:35:30] INFO: Fetched (200) <GET https://www.brotherhotel.com.tw/?cat=75/location> (referer: https://www.google.com/)
+[2026-03-26 09:35:30] INFO: Fetched (200) <GET https://www.brotherhotel.com.tw/?cat=75/traffic> (referer: https://www.google.com/)
+[2026-03-26 09:35:31] INFO: Fetched (200) <GET https://www.brotherhotel.com.tw/?cat=75/transport> (referer: https://www.google.com/)
+[2026-03-26 09:35:31] INFO: Fetched (200) <GET https://www.denwell.com/> (referer: https://www.google.com/)
+[2026-03-26 09:35:52] INFO: Fetched (200) <GET https://www.denwell.com/%e5%a4%a7%e7%9b%b4-%e4%ba%a4%e9%80%9a%e8%b3%87%e8%a8%8a/> (referer: https://www.google.com/)
+[2026-03-26 09:35:58] INFO: Fetched (200) <GET https://www.ambiencehotel.com.tw/tw/> (referer: https://www.google.com/)
+[2026-03-26 09:37:00] INFO: Fetched (200) <GET https://www.ambiencehotel.com.tw/tw/contact-t/> (referer: https://www.google.com/)
+[2026-03-26 09:37:04] INFO: Fetched (200) <GET https://www.ambiencehotel.com.tw/en/contact-e/> (referer: https://www.google.com/)
+[2026-03-26 09:37:09] INFO: Fetched (200) <GET https://www.ambiencehotel.com.tw/tw/location-t/> (referer: https://www.google.com/)
+[2026-03-26 09:37:14] INFO: Fetched (200) <GET https://www.ambiencehotel.com.tw/en/location-e/> (referer: https://www.google.com/)
+[2026-03-26 09:37:15] INFO: Fetched (200) <GET https://www.ambassador-hotels.com/tc/taipei> (referer: https://www.google.com/)
+[2026-03-26 09:37:31] INFO: Fetched (200) <GET https://www.ambassador-hotels.com/tc/contact-us> (referer: https://www.google.com/)
+[2026-03-26 09:37:32] INFO: Fetched (200) <GET https://www.ambassador-hotels.com/tc/contact-us> (referer: https://www.google.com/)
+[2026-03-26 09:37:32] INFO: Fetched (404) <GET https://www.ambassador-hotels.com/tc/taipei/contact> (referer: https://www.google.com/)
+[2026-03-26 09:37:32] INFO: Fetched (200) <GET https://www.ambassador-hotels.com/tc/taipei/contact-us> (referer: https://www.google.com/)
+[2026-03-26 09:37:32] INFO: Fetched (200) <GET https://www.ambassador-hotels.com/tc/offers#events> (referer: https://www.google.com/)
+[2026-03-26 09:37:33] INFO: Fetched (404) <GET https://www.ambassador-hotels.com/tc/taipei/meeting> (referer: https://www.google.com/)
+[2026-03-26 09:37:33] INFO: Fetched (404) <GET https://www.ambassador-hotels.com/tc/taipei/meetings> (referer: https://www.google.com/)
+[2026-03-26 09:37:33] INFO: Fetched (404) <GET https://www.ambassador-hotels.com/tc/taipei/banquet> (referer: https://www.google.com/)
+[2026-03-26 09:37:33] INFO: Fetched (404) <GET https://www.ambassador-hotels.com/tc/taipei/banquets> (referer: https://www.google.com/)
+[2026-03-26 09:37:34] INFO: Fetched (200) <GET https://www.ambassador-hotels.com/tc/taipei/events> (referer: https://www.google.com/)
+[2026-03-26 09:37:34] INFO: Fetched (404) <GET https://www.ambassador-hotels.com/tc/taipei/mice> (referer: https://www.google.com/)
+[2026-03-26 09:37:34] INFO: Fetched (404) <GET https://www.ambassador-hotels.com/tc/taipei/conference> (referer: https://www.google.com/)
+[2026-03-26 09:37:34] INFO: Fetched (404) <GET https://www.ambassador-hotels.com/tc/taipei/access> (referer: https://www.google.com/)
+[2026-03-26 09:37:35] INFO: Fetched (404) <GET https://www.ambassador-hotels.com/tc/taipei/location> (referer: https://www.google.com/)
+[2026-03-26 09:37:35] INFO: Fetched (404) <GET https://www.ambassador-hotels.com/tc/taipei/traffic> (referer: https://www.google.com/)
+[2026-03-26 09:37:35] INFO: Fetched (404) <GET https://www.ambassador-hotels.com/tc/taipei/transport> (referer: https://www.google.com/)
+[2026-03-26 09:37:35] INFO: Fetched (200) <GET https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP> (referer: https://www.google.com/)
+[2026-03-26 09:37:52] INFO: Fetched (200) <GET https://www.grand-hotel.org/TW/official/news.aspx?gh=TP&type=3> (referer: https://www.google.com/)
+[2026-03-26 09:37:52] INFO: Fetched (200) <GET https://www.grand-hotel.org/TW/official/about-traffic.aspx?gh=TP> (referer: https://www.google.com/)
+[2026-03-26 09:37:54] INFO: Fetched (200) <GET https://www.sheratongrandtaipei.com/> (referer: https://www.google.com/)
+[2026-03-26 09:38:28] INFO: Fetched (200) <GET https://www.sheratongrandtaipei.com/websev?lang=zh-tw&ref=pages&cat=50&id=36> (referer: https://www.google.com/)
+[2026-03-26 09:38:30] INFO: Fetched (200) <GET https://www.sheratongrandtaipei.com/websev?lang=zh-tw&ref=pages&cat=5&id=35> (referer: https://www.google.com/)
+[2026-03-26 09:38:30] INFO: Fetched (200) <GET https://www.lemeridien-taipei.com/> (referer: https://www.google.com/)
+[2026-03-26 09:38:57] INFO: Fetched (200) <GET https://www.lemeridien-taipei.com/websev?lang=zh-tw&ref=pages&id=1> (referer: https://www.google.com/)
+[2026-03-26 09:38:58] INFO: Fetched (200) <GET https://www.lemeridien-taipei.com/websev?lang=zh-tw&ref=pages&cat=43&type=0> (referer: https://www.google.com/)
+[2026-03-26 09:38:58] INFO: Fetched (200) <GET https://www.lemeridien-taipei.com/websev?lang=zh-tw&ref=pages&cat=36&type=0> (referer: https://www.google.com/)
+[2026-03-26 09:38:59] INFO: Fetched (200) <GET https://www.lemeridien-taipei.com/websev?lang=zh-tw&ref=pages&id=45> (referer: https://www.google.com/)
+[2026-03-26 09:39:00] INFO: Fetched (200) <GET https://www.lemeridien-taipei.com/websev?lang=zh-tw&ref=pages&id=8> (referer: https://www.google.com/)
+[2026-03-26 09:39:01] INFO: Fetched (200) <GET https://www.lemeridien-taipei.com/websev?lang=zh-tw&ref=pages&id=10> (referer: https://www.google.com/)
+[2026-03-26 09:39:01] INFO: Fetched (200) <GET https://www.lemeridien-taipei.com/websev?lang=zh-tw&ref=pages&id=602> (referer: https://www.google.com/)
+[2026-03-26 09:39:03] INFO: Fetched (200) <GET https://www.humblehousehotels.com/> (referer: https://www.google.com/)
+[2026-03-26 09:39:36] INFO: Fetched (200) <GET https://www.humblehousehotels.com/en/websev?cat=contact> (referer: https://www.google.com/)
+[2026-03-26 09:39:37] INFO: Fetched (200) <GET https://www.humblehousehotels.com/en/websev?cat=page&id=37> (referer: https://www.google.com/)
+[2026-03-26 09:39:38] INFO: Fetched (200) <GET https://www.eclathotels.com/zt/taipei> (referer: https://www.google.com/)
+
+🚀 V4 全站爬蟲批次處理
+================================================================================
+📊 可處理場地總數: 31
+📝 本次處理: 10 個場地
+⚠️  注意：全站爬取較慢，建議每次處理 3-5 個場地
+
+
+################################################################################
+# 進度: [1/10]
+################################################################################
+
+================================================================================
+🏢 場地 [1051] 台北亞都麗緻大飯店(LandisTaipei)
+🔗 URL: https://taipei.landishotelsresorts.com/
+================================================================================
+
+🔍 開始發現頁面: https://taipei.landishotelsresorts.com/
+   → 抓取首頁...
+   → 導航列發現: 1 個頁面
+   → Footer 發現: 0 個頁面
+   → URL 模式猜測: 19 個頁面
+   ✅ 共發現 20 個唯一頁面
+🏷️  頁面分類:
+   meeting: 8 個
+   access: 4 個
+   contact: 2 個
+   policy: 3 個
+   gallery: 3 個
+
+📥 提取資料:
+
+################################################################################
+# 進度: [2/10]
+################################################################################
+
+================================================================================
+🏢 場地 [1053] 台北兄弟大飯店(BrotherTaipei)
+🔗 URL: https://www.brotherhotel.com.tw/?cat=75
+================================================================================
+
+🔍 開始發現頁面: https://www.brotherhotel.com.tw/?cat=75
+   → 抓取首頁...
+   → 導航列發現: 1 個頁面
+   → Footer 發現: 0 個頁面
+   → URL 模式猜測: 19 個頁面
+   ✅ 共發現 20 個唯一頁面
+🏷️  頁面分類:
+   access: 5 個
+   meeting: 7 個
+   contact: 2 個
+   policy: 3 個
+   gallery: 3 個
+
+📥 提取資料:
+   ✅ 基本資訊: 電話=N/A, Email=service@brotherhotel.com.tw
+   ✅ 會議室: 7 個
+   ✅ 交通資訊: 捷運=南京復興站
+
+✅ 已更新 venues.json
+
+################################################################################
+# 進度: [3/10]
+################################################################################
+
+================================================================================
+🏢 場地 [1057] 台北典華
+🔗 URL: https://www.denwell.com/
+================================================================================
+
+🔍 開始發現頁面: https://www.denwell.com/
+   → 抓取首頁...
+   → 導航列發現: 1 個頁面
+   → Footer 發現: 0 個頁面
+   → URL 模式猜測: 0 個頁面
+   ✅ 共發現 1 個唯一頁面
+🏷️  頁面分類:
+   access: 1 個
+
+📥 提取資料:
+   ✅ 交通資訊: 捷運=劍南路站
+
+✅ 已更新 venues.json
+
+################################################################################
+# 進度: [4/10]
+################################################################################
+
+================================================================================
+🏢 場地 [1068] 台北喜瑞飯店
+🔗 URL: https://www.ambiencehotel.com.tw/
+================================================================================
+
+🔍 開始發現頁面: https://www.ambiencehotel.com.tw/
+   → 抓取首頁...
+   → 導航列發現: 3 個頁面
+   → Footer 發現: 0 個頁面
+   → URL 模式猜測: 3 個頁面
+   ✅ 共發現 6 個唯一頁面
+🏷️  頁面分類:
+   gallery: 2 個
+   access: 2 個
+   contact: 2 個
+
+📥 提取資料:
+   ✅ 基本資訊: 電話=0937394883, Email=ambience@taipeiinn.com.tw
+   ✅ 交通資訊: 捷運=N/A
+
+✅ 已更新 venues.json
+
+################################################################################
+# 進度: [5/10]
+################################################################################
+
+================================================================================
+🏢 場地 [1069] 台北國賓大飯店(AmbassadorTaipei)
+🔗 URL: https://www.ambassador-hotels.com/tc/taipei
+================================================================================
+
+🔍 開始發現頁面: https://www.ambassador-hotels.com/tc/taipei
+   → 抓取首頁...
+   → 導航列發現: 2 個頁面
+   → Footer 發現: 1 個頁面
+   → URL 模式猜測: 15 個頁面
+   ✅ 共發現 18 個唯一頁面
+🏷️  頁面分類:
+   meeting: 8 個
+   gallery: 3 個
+   contact: 3 個
+   access: 4 個
+
+📥 提取資料:
+   ✅ 基本資訊: 電話=N/A, Email=N/A
+   ✅ 會議室: 2 個
+
+✅ 已更新 venues.json
+
+################################################################################
+# 進度: [6/10]
+################################################################################
+
+================================================================================
+🏢 場地 [1072] 台北圓山大飯店(Grand Hotel Taipei)
+🔗 URL: https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP
+================================================================================
+
+🔍 開始發現頁面: https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP
+   → 抓取首頁...
+   → 導航列發現: 2 個頁面
+   → Footer 發現: 1 個頁面
+   → URL 模式猜測: 0 個頁面
+   ✅ 共發現 2 個唯一頁面
+🏷️  頁面分類:
+   access: 1 個
+   meeting: 1 個
+
+📥 提取資料:
+   ✅ 交通資訊: 捷運=圓山站
+
+✅ 已更新 venues.json
+
+################################################################################
+# 進度: [7/10]
+################################################################################
+
+================================================================================
+🏢 場地 [1075] 台北寒舍喜來登大飯店
+🔗 URL: https://www.sheratongrandtaipei.com/
+================================================================================
+
+🔍 開始發現頁面: https://www.sheratongrandtaipei.com/
+   → 抓取首頁...
+   → 導航列發現: 3 個頁面
+   → Footer 發現: 0 個頁面
+   → URL 模式猜測: 0 個頁面
+   ✅ 共發現 3 個唯一頁面
+🏷️  頁面分類:
+   meeting: 1 個
+   access: 1 個
+   policy: 1 個
+
+📥 提取資料:
+   ✅ 會議室: 2 個
+   ✅ 交通資訊: 捷運=至善導寺站
+
+✅ 已更新 venues.json
+
+################################################################################
+# 進度: [8/10]
+################################################################################
+
+================================================================================
+🏢 場地 [1076] 台北寒舍艾美酒店(LeMeridienTaipei)
+🔗 URL: https://www.lemeridien-taipei.com
+================================================================================
+
+🔍 開始發現頁面: https://www.lemeridien-taipei.com
+   → 抓取首頁...
+   → 導航列發現: 8 個頁面
+   → Footer 發現: 2 個頁面
+   → URL 模式猜測: 0 個頁面
+   ✅ 共發現 8 個唯一頁面
+🏷️  頁面分類:
+   meeting: 5 個
+   access: 1 個
+   policy: 1 個
+   contact: 1 個
+
+📥 提取資料:
+   ✅ 基本資訊: 電話=0749440880, Email=lemeridien@lemeridien-taipei.com
+   ✅ 交通資訊: 捷運=至市政府站
+
+✅ 已更新 venues.json
+
+################################################################################
+# 進度: [9/10]
+################################################################################
+
+================================================================================
+🏢 場地 [1077] 台北艾麗酒店
+🔗 URL: https://www.humblehousehotels.com/
+================================================================================
+
+🔍 開始發現頁面: https://www.humblehousehotels.com/
+   → 抓取首頁...
+   → 導航列發現: 3 個頁面
+   → Footer 發現: 0 個頁面
+   → URL 模式猜測: 0 個頁面
+   ✅ 共發現 3 個唯一頁面
+🏷️  頁面分類:
+   contact: 1 個
+   meeting: 1 個
+   gallery: 1 個
+
+📥 提取資料:
+   ✅ 基本資訊: 電話=N/A, Email=humblehousetaipei@humblehousehotels.com
+
+✅ 已更新 venues.json
+
+################################################################################
+# 進度: [10/10]
+################################################################################
+
+================================================================================
+🏢 場地 [1082] 台北怡亨酒店 Hotel Éclat Taipei
+🔗 URL: https://www.eclathotels.com/zt/taipei
+================================================================================
+
+🔍 開始發現頁面: https://www.eclathotels.com/zt/taipei
+   → 抓取首頁...
+   → 導航列發現: 0 個頁面
+   → Footer 發現: 0 個頁面
+   → URL 模式猜測: 0 個頁面
+   ✅ 共發現 0 個唯一頁面
+
+================================================================================
+✅ 批次處理完成
+   處理: 10 個場地
+   成功: 9 個
+================================================================================

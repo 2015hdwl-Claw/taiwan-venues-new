@@ -1,0 +1,4 @@
+{
+  "error": "'str' object has no attribute 'get'",
+  "stage3_failed": true
+}

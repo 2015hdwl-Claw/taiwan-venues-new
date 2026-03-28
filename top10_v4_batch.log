@@ -1,0 +1,143 @@
+[2026-03-26 10:01:39] INFO: Fetched (200) <GET https://www.eclathotels.com/zt/taipei> (referer: https://www.google.com/)
+[2026-03-26 10:02:04] INFO: Fetched (200) <GET https://www.marriott.com/brands/citizenm.mi> (referer: https://www.google.com/)
+[2026-03-26 10:02:40] INFO: Fetched (200) <GET https://www.mandarinoriental.com/en/taipei/songshan> (referer: https://www.google.com/)
+[2026-03-26 10:03:14] INFO: Fetched (200) <GET https://www.mandarinoriental.com/en/taipei/songshan/events> (referer: https://www.google.com/)
+[2026-03-26 10:03:15] INFO: Fetched (200) <GET https://www.regenttaiwan.com/> (referer: https://www.google.com/)
+[2026-03-26 10:03:37] INFO: Fetched (200) <GET https://www.regenttaiwan.com/overview/contact-us> (referer: https://www.google.com/)
+[2026-03-26 10:03:38] INFO: Fetched (200) <GET https://www.regenttaiwan.com/occasions> (referer: https://www.google.com/)
+[2026-03-26 10:03:38] INFO: Fetched (200) <GET https://www.regenttaiwan.com/occasions/meetings-events> (referer: https://www.google.com/)
+[2026-03-26 10:03:38] INFO: Fetched (200) <GET https://www.theillumehotel.com/zh/> (referer: https://www.google.com/)
+[2026-03-26 10:04:11] INFO: Fetched (200) <GET https://www.theillumehotel.com/zh/> (referer: https://www.google.com/)
+[2026-03-26 10:04:12] INFO: Fetched (200) <GET https://www.theillumehotel.com/zh/> (referer: https://www.google.com/)
+[2026-03-26 10:04:12] INFO: Fetched (200) <GET https://www.theillumehotel.com/zh/meetings-events/> (referer: https://www.google.com/)
+[2026-03-26 10:04:13] INFO: Fetched (200) <GET https://www.theillumehotel.com/zh/> (referer: https://www.google.com/)
+[2026-03-26 10:04:14] INFO: Fetched (200) <GET https://www.theillumehotel.com/zh/> (referer: https://www.google.com/)
+[2026-03-26 10:04:15] INFO: Fetched (200) <GET https://www.theillumehotel.com/zh/> (referer: https://www.google.com/)
+[2026-03-26 10:04:16] INFO: Fetched (200) <GET https://www.theillumehotel.com/zh/> (referer: https://www.google.com/)
+[2026-03-26 10:04:17] INFO: Fetched (200) <GET https://www.theillumehotel.com/zh/> (referer: https://www.google.com/)
+[2026-03-26 10:04:18] INFO: Fetched (200) <GET https://www.theillumehotel.com/zh/> (referer: https://www.google.com/)
+[2026-03-26 10:04:19] INFO: Fetched (200) <GET https://www.theillumehotel.com/zh/> (referer: https://www.google.com/)
+[2026-03-26 10:04:20] INFO: Fetched (200) <GET https://www.theillumehotel.com/zh/> (referer: https://www.google.com/)
+[2026-03-26 10:04:26] INFO: Fetched (200) <GET https://www.theillumehotel.com/zh/> (referer: https://www.google.com/)
+[2026-03-26 10:04:32] INFO: Fetched (200) <GET https://www.theillumehotel.com/zh/> (referer: https://www.google.com/)
+[2026-03-26 10:04:38] INFO: Fetched (200) <GET https://www.theillumehotel.com/zh/> (referer: https://www.google.com/)
+
+🚀 V4 全站爬蟲批次處理
+================================================================================
+📊 可處理場地總數: 22
+📝 本次處理: 5 個場地
+⚠️  注意：全站爬取較慢，建議每次處理 3-5 個場地
+
+
+################################################################################
+# 進度: [1/5]
+################################################################################
+
+================================================================================
+🏢 場地 [1082] 台北怡亨酒店 Hotel Éclat Taipei
+🔗 URL: https://www.eclathotels.com/zt/taipei
+================================================================================
+
+🔍 開始發現頁面: https://www.eclathotels.com/zt/taipei
+   → 抓取首頁...
+   → 導航列發現: 0 個頁面
+   → Footer 發現: 0 個頁面
+   → URL 模式猜測: 0 個頁面
+   ✅ 共發現 0 個唯一頁面
+
+################################################################################
+# 進度: [2/5]
+################################################################################
+
+================================================================================
+🏢 場地 [1083] 台北北門世民酒店 citizenM Taipei North Gate
+🔗 URL: https://www.citizenm.com/hotels/asia/taipei/taipei-north-gate
+================================================================================
+
+🔍 開始發現頁面: https://www.citizenm.com/hotels/asia/taipei/taipei-north-gate
+   → 抓取首頁...
+   → 導航列發現: 0 個頁面
+   → Footer 發現: 0 個頁面
+   → URL 模式猜測: 0 個頁面
+   ✅ 共發現 0 個唯一頁面
+
+################################################################################
+# 進度: [3/5]
+################################################################################
+
+================================================================================
+🏢 場地 [1085] 台北文華東方酒店(MOHTaipei)
+🔗 URL: https://www.mandarinoriental.com/taipei
+================================================================================
+
+🔍 開始發現頁面: https://www.mandarinoriental.com/taipei
+   → 抓取首頁...
+   → 導航列發現: 2 個頁面
+   → Footer 發現: 0 個頁面
+   → URL 模式猜測: 0 個頁面
+   ✅ 共發現 2 個唯一頁面
+🏷️  頁面分類:
+   gallery: 1 個
+   meeting: 1 個
+
+📥 提取資料:
+
+################################################################################
+# 進度: [4/5]
+################################################################################
+
+================================================================================
+🏢 場地 [1086] 台北晶華酒店 Regent Taipei
+🔗 URL: https://www.regenttaiwan.com/
+================================================================================
+
+🔍 開始發現頁面: https://www.regenttaiwan.com/
+   → 抓取首頁...
+   → 導航列發現: 5 個頁面
+   → Footer 發現: 0 個頁面
+   → URL 模式猜測: 0 個頁面
+   ✅ 共發現 5 個唯一頁面
+🏷️  頁面分類:
+   contact: 1 個
+   meeting: 2 個
+   gallery: 1 個
+   policy: 1 個
+
+📥 提取資料:
+   ✅ 基本資訊: 電話=N/A, Email=customerservice@regenthotelsgroup.com
+
+✅ 已更新 venues.json
+
+################################################################################
+# 進度: [5/5]
+################################################################################
+
+================================================================================
+🏢 場地 [1090] 茹曦酒店 ILLUME TAIPEI
+🔗 URL: https://www.theillumehotel.com/zh/
+================================================================================
+
+🔍 開始發現頁面: https://www.theillumehotel.com/zh/
+   → 抓取首頁...
+   → 導航列發現: 1 個頁面
+   → Footer 發現: 0 個頁面
+   → URL 模式猜測: 19 個頁面
+   ✅ 共發現 20 個唯一頁面
+🏷️  頁面分類:
+   meeting: 8 個
+   access: 4 個
+   contact: 2 個
+   policy: 3 個
+   gallery: 3 個
+
+📥 提取資料:
+   ✅ 基本資訊: 電話=02-2719-8399, Email=gsm@theillumehotel.com
+   ✅ 交通資訊: 捷運=至台北車站
+
+✅ 已更新 venues.json
+
+================================================================================
+✅ 批次處理完成
+   處理: 5 個場地
+   成功: 3 個
+================================================================================

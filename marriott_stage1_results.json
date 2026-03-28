@@ -1,0 +1,46 @@
+{
+  "venue": "台北萬豪酒店",
+  "venue_id": 1103,
+  "timestamp": "2026-03-27T00:44:29.065345",
+  "main_page": {
+    "url": "https://www.taipeimarriott.com.tw/",
+    "status": 200,
+    "size": 37420,
+    "js_frameworks": []
+  },
+  "meeting_links": [
+    {
+      "text": "萬豪套房",
+      "url": "https://www.taipeimarriott.com.tw//websev?cat=page&id=18"
+    },
+    {
+      "text": "會議&宴會",
+      "url": "https://www.taipeimarriott.com.tw//websev?cat=page&subcat=17"
+    },
+    {
+      "text": "會議 & 宴會",
+      "url": "https://www.taipeimarriott.com.tw//websev?cat=page&id=39"
+    },
+    {
+      "text": "萬豪廳",
+      "url": "https://www.taipeimarriott.com.tw//websev?cat=page&id=96"
+    },
+    {
+      "text": "萬豪一廳",
+      "url": "https://www.taipeimarriott.com.tw//websev?cat=page&id=95"
+    },
+    {
+      "text": "婚宴",
+      "url": "https://www.taipeimarriott.com.tw//websev?cat=page&subcat=7"
+    },
+    {
+      "text": "台北萬豪酒店",
+      "url": "https://www.taipeimarriott.com.tw//websev?cat=page&id=5"
+    },
+    {
+      "text": "萬豪國際簡介",
+      "url": "https://www.taipeimarriott.com.tw//websev?cat=page&id=7"
+    }
+  ],
+  "pdf_links": []
+}

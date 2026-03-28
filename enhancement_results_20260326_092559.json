@@ -1,0 +1,349 @@
+[
+  {
+    "success": false,
+    "id": 1043,
+    "name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+    "error": "HTTP 404",
+    "reason": "HTTP錯誤（404）"
+  },
+  {
+    "success": true,
+    "id": 1049,
+    "name": "台北世貿中心(TWTCA)展覽大樓",
+    "rooms_processed": 11,
+    "rooms_enhanced": 5,
+    "enhanced_data": [
+      {
+        "name": "世貿一館會議室介紹及場地佈置",
+        "floor": "1樓",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": null
+      },
+      {
+        "name": "世貿一館會議室介紹及場地佈置",
+        "floor": "",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": null
+      },
+      {
+        "name": "會議室介紹",
+        "floor": "",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": null
+      },
+      {
+        "name": "第一會議室",
+        "floor": "",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": null
+      },
+      {
+        "name": "A+會議室",
+        "floor": "",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": null
+      }
+    ],
+    "page_content_length": 1612
+  },
+  {
+    "success": true,
+    "id": 1051,
+    "name": "台北亞都麗緻大飯店(LandisTaipei)",
+    "rooms_processed": 2,
+    "rooms_enhanced": 2,
+    "enhanced_data": [
+      {
+        "name": "Other Room Type",
+        "floor": "2F",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": null
+      },
+      {
+        "name": "Other Room Type",
+        "floor": "",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": null
+      }
+    ],
+    "page_content_length": 3619
+  },
+  {
+    "success": true,
+    "id": 1053,
+    "name": "台北兄弟大飯店(BrotherTaipei)",
+    "rooms_processed": 13,
+    "rooms_enhanced": 5,
+    "enhanced_data": [
+      {
+        "name": "訂餐洽詢專線：(02)2712-3456 轉 花香廳(鐵板燒)",
+        "floor": "",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": 150,
+        "images": null
+      },
+      {
+        "name": "訂餐洽詢專線：(02)2712-3456 轉 桂花廳",
+        "floor": "",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": 150,
+        "images": null
+      },
+      {
+        "name": "訂餐洽詢專線：(02)2712-3456 轉 薔薇廳(自助餐)",
+        "floor": "",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": 150,
+        "images": null
+      },
+      {
+        "name": "和風便當無法於廳內享用，僅提供外帶。",
+        "floor": "",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": 150,
+        "images": null
+      },
+      {
+        "name": "菊花廳(日本料理)",
+        "floor": "3\n\n\nF",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": 150,
+        "images": null
+      }
+    ],
+    "page_content_length": 3538
+  },
+  {
+    "success": false,
+    "id": 1057,
+    "name": "台北典華",
+    "error": "HTTP 403",
+    "reason": "HTTP錯誤（403）"
+  },
+  {
+    "success": true,
+    "id": 1068,
+    "name": "台北喜瑞飯店",
+    "rooms_processed": 1,
+    "rooms_enhanced": 1,
+    "enhanced_data": [
+      {
+        "name": "Our Rooms",
+        "floor": "",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": null
+      }
+    ],
+    "page_content_length": 3694
+  },
+  {
+    "success": true,
+    "id": 1069,
+    "name": "台北國賓大飯店(AmbassadorTaipei)",
+    "rooms_processed": 5,
+    "rooms_enhanced": 5,
+    "enhanced_data": [
+      {
+        "name": "國賓中餐廳 線上訂位",
+        "capacity": null,
+        "area": null,
+        "price": null,
+        "equipment": null,
+        "images": null
+      },
+      {
+        "name": "國賓中餐廳",
+        "capacity": null,
+        "area": null,
+        "price": null,
+        "equipment": null,
+        "images": null
+      },
+      {
+        "name": "天母國賓中餐廳",
+        "capacity": null,
+        "area": null,
+        "price": null,
+        "equipment": null,
+        "images": null
+      },
+      {
+        "name": "線上訂位A CUT 線上訂位國賓中餐廳 線上訂位",
+        "capacity": null,
+        "area": null,
+        "price": null,
+        "equipment": null,
+        "images": null
+      },
+      {
+        "id": "1069-05",
+        "name": "銀行信用卡年度住宿訂房優惠",
+        "source": "card",
+        "capacity": null,
+        "area": null,
+        "price": null,
+        "equipment": null,
+        "images": null
+      }
+    ],
+    "page_content_length": 1302
+  },
+  {
+    "success": true,
+    "id": 1072,
+    "name": "台北圓山大飯店(Grand Hotel Taipei)",
+    "rooms_processed": 5,
+    "rooms_enhanced": 5,
+    "enhanced_data": [
+      {
+        "name": "圓苑餐廳",
+        "capacity": null,
+        "area": null,
+        "price": null,
+        "equipment": "音響, 螢幕",
+        "images": null
+      },
+      {
+        "name": "金龍餐廳",
+        "capacity": null,
+        "area": null,
+        "price": null,
+        "equipment": "音響, 螢幕",
+        "images": null
+      },
+      {
+        "name": "松鶴餐廳",
+        "capacity": null,
+        "area": null,
+        "price": null,
+        "equipment": "音響, 螢幕",
+        "images": null
+      },
+      {
+        "name": "花園咖啡廳",
+        "capacity": null,
+        "area": null,
+        "price": null,
+        "equipment": "音響, 螢幕",
+        "images": null
+      },
+      {
+        "name": "圓山牛排館",
+        "capacity": null,
+        "area": null,
+        "price": null,
+        "equipment": "音響, 螢幕",
+        "images": null
+      }
+    ],
+    "page_content_length": 2850
+  },
+  {
+    "success": true,
+    "id": 1075,
+    "name": "台北寒舍喜來登大飯店",
+    "rooms_processed": 5,
+    "rooms_enhanced": 5,
+    "enhanced_data": [
+      {
+        "name": "宴會廳-福廳/祿廳",
+        "floor": "2樓",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": null
+      },
+      {
+        "name": "宴會廳-壽廳/喜廳",
+        "floor": "2樓",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": null
+      },
+      {
+        "name": "多功能會議廳",
+        "floor": "1樓",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": null
+      },
+      {
+        "name": "萬豪旅享家・餐飲消費適用餐廳",
+        "floor": "1F",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": null
+      },
+      {
+        "name": "萬豪旅享家・餐飲消費適用餐廳",
+        "floor": "",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": null
+      }
+    ],
+    "page_content_length": 5472
+  },
+  {
+    "success": true,
+    "id": 1076,
+    "name": "台北寒舍艾美酒店(LeMeridienTaipei)",
+    "rooms_processed": 1,
+    "rooms_enhanced": 1,
+    "enhanced_data": [
+      {
+        "name": "二樓多功能宴會廳",
+        "floor": "",
+        "capacity": null,
+        "area": null,
+        "equipment": null,
+        "price": null,
+        "images": null
+      }
+    ],
+    "page_content_length": 5232
+  }
+]

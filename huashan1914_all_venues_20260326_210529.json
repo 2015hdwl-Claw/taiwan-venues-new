@@ -1,0 +1,453 @@
+{
+  "venue": "華山1914文化創意產業園區",
+  "venue_id": 1125,
+  "total_venues": 24,
+  "venues": [
+    {
+      "name": "西1館",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=16",
+      "capacity": 800,
+      "area": 205.0,
+      "floor": null,
+      "description": "紅磚六合院 西1館(A棟)場地介紹點擊進入-西一館720線上勘景此建物為1918年興建，為日據時代台北市最著名的兩座現代化樟腦精製工廠之一，因見證整個台灣樟腦產業之興衰，經由中央單位核定而成為園區歷史建物群之一。 此建物透過戶外廣場延伸至華山公園大草坪，可串連室內空間做多元使用，獨立進出動線可規劃成接待區或戶外大型視覺設計；或與西二館結合使用，擴展場地腹域及展區的區隔。西1館:場館介紹<請點此下載>、使用須知<請點此下載>、場地平面圖<請點此下載>(場地實際狀況與尺寸請依現場丈量為主)注意事項園區嚴禁使用任何火具。場地租借以「日」為計算單位，使用時間為08:00-22:00；夜間超時(22:00-次日8:00)。西1館以每小時$9,000(稅內) /西2館&西5館每小時$6,000(稅內) /西4館每小時$5,000(稅內)計算。電費另計，每度$5.5元(未稅)，不足1度以1度計算。西一館空調電費為5,000元/日(未稅)。基本清潔費1,000元 , 有宴席需求者另需支付西式餐宴3,000元、中式餐宴5000元之清潔費用。場地租借費用不含任何場地清潔，結束後需自行復原。場地租借辦法",
+      "equipment": "空調",
+      "price": null,
+      "images": [
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A1658_18082312063542513.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/西一-外觀3.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/西一-門1.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/西一-內部1.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/西一-內部6.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/西一-內部4.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/西一-內部3.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/場地介紹_web_西1.jpg"
+      ]
+    },
+    {
+      "name": "西2館",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=17",
+      "capacity": 300,
+      "area": 94.0,
+      "floor": null,
+      "description": "紅磚六合院 西2館(B棟)場地介紹點擊進入-西二館720線上勘景此建物為1930年興建，為日據時代台北市最著名的兩座現代化樟腦精製工場之乾餾工廠，主要做為提煉精製樟腦之場地。因見證整個台灣樟腦產業之興衰，經中央單位核定而成為園區歷史建築群之一。 建物有獨立進出動線，可規劃成接待區或戶外大型視覺設計；或連接西一館，擴展場地腹域。西2館:場館介紹<請點此下載>、使用須知<請點此下載>、場地平面圖<請點此下載>(場地實際狀況與尺寸請依現場丈量為主)注意事項園區嚴禁使用任何火具。場地租借以「日」為計算單位，使用時間為08:00-22:00；夜間超時(22:00-次日8:00)。西1館以每小時$9,000(稅內) /西2館&西5館每小時$6,000(稅內) /西4館每小時$5,000(稅內)計算。電費另計，每度$5.5元(未稅)，不足1度以1度計算。西一館空調電費為5,000元/日(未稅)。基本清潔費1,000元 , 有宴席需求者另需支付西式餐宴3,000元、中式餐宴5000元之清潔費用。場地租借費用不含任何場地清潔，結束後需自行復原。場地租借辦法",
+      "equipment": "投影, 空調",
+      "price": null,
+      "images": [
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/outsidecover_18082312153028782.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/西二-後門.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/西二-前門.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/西二-內部5.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/西二-內部2.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/西二-內部3.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/西二-內部4.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/場地介紹_web_西2.jpg"
+      ]
+    },
+    {
+      "name": "西5-1館",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=18",
+      "capacity": 300,
+      "area": 85.0,
+      "floor": null,
+      "description": "紅磚六合院 西5-1館(E棟)場地介紹點擊進入-西五館720線上勘景此建物為1918年興建，為日據時代台北市最著名的兩座現代化樟腦精製工廠之一，因見證整個台灣樟腦產業之興衰，經由中央單位核定而成為園區歷史建物群之一。建物透過戶外廣場延伸至華山公園大草坪，場館可與戶外廣場串連規劃成接待區或搭設大型主視覺設計西5館:場館介紹<請點此下載>、使用須知<請點此下載>、場地平面圖<請點此下載>(場地實際狀況與尺寸請依現場丈量為主)注意事項園區嚴禁使用任何火具。場地租借以「日」為計算單位，使用時間為08:00-22:00；夜間超時(22:00-次日8:00)。西1館以每小時$9,000(稅內) /西2館&西5館每小時$6,000(稅內) /西4館每小時$5,000(稅內)計算。電費另計，每度$5.5元(未稅)，不足1度以1度計算。西一館空調電費為5,000元/日(未稅)。基本清潔費1,000元 , 有宴席需求者另需支付西式餐宴3,000元、中式餐宴5000元之清潔費用。場地租借費用不含任何場地清潔，結束後需自行復原。場地租借辦法",
+      "equipment": "投影, 空調",
+      "price": null,
+      "images": [
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A2913.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A2920.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A2912.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A2890.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A2895.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A2893.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A2897.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/場地介紹_web_西5-1.jpg"
+      ]
+    },
+    {
+      "name": "西5-2館",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=35",
+      "capacity": null,
+      "area": null,
+      "floor": null,
+      "description": "Error!不好意思，迷失的網頁找不到歸路！你可以回上一頁繼續旅程，或重新前往首頁，發現更多美好 ...",
+      "equipment": null,
+      "price": null,
+      "images": [
+        "https://www.huashan1914.com/images/404_face.png"
+      ]
+    },
+    {
+      "name": "中5B 鍋爐室",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=19",
+      "capacity": 120,
+      "area": 76.0,
+      "floor": null,
+      "description": "最新消息關於華山聽見華山文創華山簡介與理念華山論建歷史華山歷史回顧建物故事華山年報我們的基金會基金會簡介共伴計畫華山文旅學烏梅劇院LanguageEnglish簡中展演地圖來華山交通與地圖遊客服務找活動品好店聊文創提申請場地租借場地介紹相關附件申請辦法品牌進駐市集招商其他服務文宣品放置團體特約導覽拍攝申請非商業攝影申請戶外商業攝影申請媒體拍攝線上申請街頭藝人LanguageEnglish簡中最新消息關於華山聽見華山文創華山簡介與理念華山論建歷史華山歷史回顧建物故事華山年報我們的基金會基金會簡介共伴計畫華山文旅學烏梅劇院展演地圖來華山交通與地圖遊客服務找活動品好店聊文創提申請場地租借場地介紹相關附件申請辦法品牌進駐市集招商其他服務文宣品放置團體特約導覽拍攝申請非商業攝影申請戶外商業攝影申請媒體拍攝線上申請街頭藝人收合",
+      "equipment": "空調",
+      "price": null,
+      "images": [
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A6408cp.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A6392cp.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A6408cp_19051716303920086.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A6400cp.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A6407cp.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A6404cp.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/場地介紹_web_中5B.jpg"
+      ]
+    },
+    {
+      "name": "中4B 2樓演講廳",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=13",
+      "capacity": 80,
+      "area": 60.0,
+      "floor": "2F",
+      "description": "中4B館 米酒作業場2F演講廳場地介紹點擊進入-中四B館二樓演講廳720線上勘景建於1933年11月，為磚造鋼筋樑柱結構之兩層樓建築，屋頂為三連棟南北走向，與平面兩製造場走向垂直。二樓為設置發酵槽而留下多處直徑約五米的圓形穿孔，陽光穿窗而過，灑入室內，形成一、二樓間具穿透性的視覺效果，氛圍獨特。門窗及廊道開口的邊緣，以特別訂製的北投窯業會社未上釉陶磚進行裝飾，別有樸實之美。中4B館:場館介紹<請點此下載>、使用需知<請點此下載>、場地平面圖<請點此下載>(場地實際狀況與尺寸請依現場丈量為主)注意事項園區嚴禁使用任何火具。場地租借以「日」為計算單位，使用時間為08:00-22:00；夜間超時(22:00-次日8:00) 以每小時$10,000(稅內)計算。電費另計，每度$10元(未稅)，不足1度以1度計算。場地租借費用不含任何場地清潔，結束後需自行復原。大型活動(人數達千人)需加裝流動廁所。場地租借辦法",
+      "equipment": "投影, 空調",
+      "price": null,
+      "images": [
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A3677_18100216374966554.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A3680_18100216380559811.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A3675_18100216381339785.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A3678_18100216382230781.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/場地介紹_web_中4B_22090810422855737.jpg"
+      ]
+    },
+    {
+      "name": "中4B 2樓",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=12",
+      "capacity": 250,
+      "area": 160.0,
+      "floor": "2F",
+      "description": "中4B館 米酒作業場 2F場地介紹點擊進入-中四B館720線上勘景建於1933年11月，為磚造鋼筋樑柱結構之兩層樓建築，屋頂為三連棟南北走向，與平面兩製造場走向垂直。二樓為設置發酵槽而留下多處直徑約五米的圓形穿孔，陽光穿窗而過，灑入室內，形成一、二樓間具穿透性的視覺效果，視覺獨特。門窗及廊道開口的邊緣，以特別訂製的北投窯業會社末上釉陶磚進行裝飾，別有樸實之美。中4B館:場館介紹<請點此下載>、使用需知<請點此下載>、場地平面圖<請點此下載>(場地實際狀況與尺寸請依現場丈量為主)注意事項園區嚴禁使用任何火具。場地租借以「日」為計算單位，使用時間為08:00-22:00；夜間超時(22:00-次日8:00) 以每小時$10,000(稅內)計算。電費另計，每度$10元(未稅)，不足1度以1度計算。場地租借費用不含任何場地清潔，結束後需自行復原。大型活動(人數達千人)需加裝流動廁所。場地租借辦法",
+      "equipment": "空調",
+      "price": null,
+      "images": [
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A5002.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A4998.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A5000.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/場地介紹_web_中4B_22090810412049433.jpg"
+      ]
+    },
+    {
+      "name": "中4B 1樓",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=11",
+      "capacity": 250,
+      "area": 160.0,
+      "floor": "1F",
+      "description": "中4B館 米酒作業場1F場地介紹點擊進入-中四B館720線上勘景建於1933年11月，為磚造鋼筋樑柱結構之兩層樓建築，屋頂為三連棟南北走向，與平面兩製造場走向垂直。二樓為設置發酵槽而留下多處直徑約五米的圓形穿孔，陽光穿窗而過，灑入室內，形成一、二樓間具穿透性的視覺效果，視覺獨特。門窗及廊道開口的邊緣，以特別訂製的北投窯業會社末上釉陶磚進行裝飾，別有樸實之美。中4B館:場館介紹<請點此下載>、使用需知<請點此下載>、場地平面圖<請點此下載>(場地實際狀況與尺寸請依現場丈量為主)注意事項園區嚴禁使用任何火具。場地租借以「日」為計算單位，使用時間為08:00-22:00；夜間超時(22:00-次日8:00) 以每小時$10,000(稅內)計算。電費另計，每度$10元(未稅)，不足1度以1度計算。場地租借費用不含任何場地清潔，結束後需自行復原。大型活動(人數達千人)需加裝流動廁所。場地租借辦法",
+      "equipment": "空調",
+      "price": null,
+      "images": [
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A5005.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A4989.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A4979.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A4983.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A4991.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A4995.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/場地介紹_web_中4B.jpg"
+      ]
+    },
+    {
+      "name": "中4A 紅酒作業場",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=10",
+      "capacity": 350,
+      "area": 120.0,
+      "floor": null,
+      "description": "最新消息關於華山聽見華山文創華山簡介與理念華山論建歷史華山歷史回顧建物故事華山年報我們的基金會基金會簡介共伴計畫華山文旅學烏梅劇院LanguageEnglish簡中展演地圖來華山交通與地圖遊客服務找活動品好店聊文創提申請場地租借場地介紹相關附件申請辦法品牌進駐市集招商其他服務文宣品放置團體特約導覽拍攝申請非商業攝影申請戶外商業攝影申請媒體拍攝線上申請街頭藝人LanguageEnglish簡中最新消息關於華山聽見華山文創華山簡介與理念華山論建歷史華山歷史回顧建物故事華山年報我們的基金會基金會簡介共伴計畫華山文旅學烏梅劇院展演地圖來華山交通與地圖遊客服務找活動品好店聊文創提申請場地租借場地介紹相關附件申請辦法品牌進駐市集招商其他服務文宣品放置團體特約導覽拍攝申請非商業攝影申請戶外商業攝影申請媒體拍攝線上申請街頭藝人收合",
+      "equipment": "空調",
+      "price": null,
+      "images": [
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A5007.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A4956.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A4965.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A4962.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A4967.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A4968.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A4975.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A4973.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A4958.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/場地介紹_web_中4A.jpg"
+      ]
+    },
+    {
+      "name": "中7A",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=41",
+      "capacity": 120,
+      "area": 60.0,
+      "floor": null,
+      "description": "中7A館 維修工場場地介紹點擊進入-中七館720線上勘景在1931年落成的廠房，它的前身就是台北酒廠時代的維修工場。工場內原本設有工具以檢修廠區的機具、門窗等。南側小隔間為當時領料的場館空間；西北側玄關方形建築，有水平飾帶與廠房山牆巧妙連接。目前門口還留著閒置時期雀榕與建築共生的痕跡，見證了在閒置時期植物堅韌的生命力。中7館:場館介紹<請點此下載>；中7A館:使用需知<請點此下載>、場地平面圖<請點此下載>(場地實際狀況與尺寸請依現場丈量為主)注意事項園區嚴禁使用任何火具。場地租借以「日」為計算單位，使用時間為08:00-22:00；夜間超時(22:00-次日8:00) 以每小時$10,000(稅內)計算。電費另計，每度$10元(未稅)，不足1度以1度計算。場地租借費用不含任何場地清潔，結束後需自行復原。場地租借辦法",
+      "equipment": "空調",
+      "price": null,
+      "images": [
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A496400.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A494300.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A494000.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A494900.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A494600.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A495400.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A494400.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/場地介紹_web_中7A.jpg"
+      ]
+    },
+    {
+      "name": "中3館2樓-拱廳",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=15",
+      "capacity": 120,
+      "area": 103.0,
+      "floor": "2F",
+      "description": "中3館 2F 拱廳場地介紹點擊進入-中三館720線上勘景前身為1914年清酒工坊，為芳釀社時代第一批建築，於1922年作為總辦公室。立面採大量開窗，採光充足，刻意保留外露的磚造壁面，搭配拱形大門，創造一個別具特色的空間，適合舉辦教育訓練、記者會及小型音樂演出等活動。場地租借辦法注意事項場地面積約 103 坪容納人數建議120人內單日報價$50,000元/天使用建議多功能展演空間場地尺寸電力規格380/220V/175A、190V/110V/75A；團隊外接電箱: 220V/30A、110V/30A現有設備基礎照明、空調、投影機幕(150吋/305x305cm)、40張輕量座椅、93張折 疊椅、簡易燈光音響設備、無線MIC*6。其他說明附件下載拱廳-華山場地租用相關文件(20250714更新).zip2026下半年表演藝術團隊優先申請辦法_26011511084649810.pdf拱廳技術資料(2026.03更新).zip開始申請",
+      "equipment": "投影, 音響, 燈光, 空調",
+      "price": 50000,
+      "images": [
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A6813.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A6809.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6_24030617471745113.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/2_24030617485228716.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/5_24030617492236666.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/4_24030617483380662.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/3_24030617513011620.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/7_24030617474412350.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/場地介紹_web_中3 2F拱廳.jpg"
+      ]
+    },
+    {
+      "name": "中2館2樓-果酒練舞場",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=20",
+      "capacity": 80,
+      "area": 80.0,
+      "floor": "2F",
+      "description": "最新消息關於華山聽見華山文創華山簡介與理念華山論建歷史華山歷史回顧建物故事華山年報我們的基金會基金會簡介共伴計畫華山文旅學烏梅劇院LanguageEnglish簡中展演地圖來華山交通與地圖遊客服務找活動品好店聊文創提申請場地租借場地介紹相關附件申請辦法品牌進駐市集招商其他服務文宣品放置團體特約導覽拍攝申請非商業攝影申請戶外商業攝影申請媒體拍攝線上申請街頭藝人LanguageEnglish簡中最新消息關於華山聽見華山文創華山簡介與理念華山論建歷史華山歷史回顧建物故事華山年報我們的基金會基金會簡介共伴計畫華山文旅學烏梅劇院展演地圖來華山交通與地圖遊客服務找活動品好店聊文創提申請場地租借場地介紹相關附件申請辦法品牌進駐市集招商其他服務文宣品放置團體特約導覽拍攝申請非商業攝影申請戶外商業攝影申請媒體拍攝線上申請街頭藝人收合",
+      "equipment": null,
+      "price": 33000,
+      "images": [
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/C2B_510.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/果酒練舞場 (1).jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/果酒練舞場外走廊.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/場地介紹_web_中2.jpg"
+      ]
+    },
+    {
+      "name": "東2A",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=26",
+      "capacity": 300,
+      "area": 141.0,
+      "floor": null,
+      "description": "東2A館場地介紹點擊進入-東二館720線上勘景四連棟建於1933年3月，獨棟式長形廠房建築，室內為長廊式空間，鋼骨鋼筋混凝土柱樑系統，加強磚造結構，立面有山形山牆作為建築入口，山牆上拱頂石裝飾，牆面有弧拱窗、洗石子窗櫺、洗石邊框裝飾、水平裝飾帶，搭配內部大跨距的鐵桁架石綿瓦屋頂，大尺度室內挑高空間，為舊倉庫注入現代建築特色和功能。東2館:場館介紹<請點此下載>、使用需知<請點此下載>、場地平面圖<請點此下載>(場地實際狀況與尺寸請依現場丈量為主)注意事項園區嚴禁使用任何火具。場地租借以「日」為計算單位，使用時間為08:00-22:00；夜間超時(22:00-次日8:00) 以每小時$10,000(稅內)計算。電費另計，每度$10元(未稅)，不足1度以1度計算。場地租借費用不含任何場地清潔，結束後需自行復原。大型活動(人數達千人)需加裝流動廁所。場地租借辦法",
+      "equipment": "空調",
+      "price": null,
+      "images": [
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/外側.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/東2四連棟1-2_17090218235355410.JPG",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A4889.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A4929.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A4930.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/場地介紹_web_東2A.jpg"
+      ]
+    },
+    {
+      "name": "東2B",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=28",
+      "capacity": 300,
+      "area": 189.0,
+      "floor": null,
+      "description": "東2B館場地介紹點擊進入-東二館720線上勘景四連棟建於1933年3月，獨棟式長形廠房建築，室內為長廊式空間，鋼骨鋼筋混凝土柱樑系統，加強磚造結構，立面有山形山牆作為建築入口，山牆上拱頂石裝飾，牆面有弧拱窗、洗石子窗櫺、洗石邊框裝飾、水平裝飾帶，搭配內部大跨距的鐵桁架石綿瓦屋頂，大尺度室內挑高空間，為舊倉庫注入現代建築特色和功能。東2館:場館介紹<請點此下載>、使用需知<請點此下載>、場地平面圖<請點此下載>(場地實際狀況與尺寸請依現場丈量為主)注意事項園區嚴禁使用任何火具。場地租借以「日」為計算單位，使用時間為08:00-22:00；夜間超時(22:00-次日8:00) 以每小時$10,000(稅內)計算。電費另計，每度$10元(未稅)，不足1度以1度計算。場地租借費用不含任何場地清潔，結束後需自行復原。大型活動(人數達千人)需加裝流動廁所。場地租借辦法",
+      "equipment": "空調",
+      "price": null,
+      "images": [
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/正門外.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/東2四連棟1-2_17090218525703252.JPG",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A4891.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A4925.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A4918.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/場地介紹_web_東2B.jpg"
+      ]
+    },
+    {
+      "name": "東2C",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=29",
+      "capacity": 300,
+      "area": 230.0,
+      "floor": null,
+      "description": "東2C館場地介紹點擊進入-東二館720線上勘景四連棟建於1933年3月，獨棟式長形廠房建築，室內為長廊式空間，鋼骨鋼筋混凝土柱樑系統，加強磚造結構，立面有山形山牆作為建築入口，山牆上拱頂石裝飾，牆面有弧拱窗、洗石子窗櫺、洗石邊框裝飾、水平裝飾帶，搭配內部大跨距的鐵桁架石綿瓦屋頂，大尺度室內挑高空間，為舊倉庫注入現代建築特色和功能。東2館:場館介紹<請點此下載>、使用需知<請點此下載>、場地平面圖<請點此下載>(場地實際狀況與尺寸請依現場丈量為主)注意事項園區嚴禁使用任何火具。場地租借以「日」為計算單位，使用時間為08:00-22:00；夜間超時(22:00-次日8:00) 以每小時$10,000(稅內)計算。電費另計，每度$10元(未稅)，不足1度以1度計算。場地租借費用不含任何場地清潔，結束後需自行復原。大型活動(人數達千人)需加裝流動廁所。場地租借辦法",
+      "equipment": "空調",
+      "price": null,
+      "images": [
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/正門外_19052211135025321.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/東2四連棟1-2_compressed_17090218441897778.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A4893.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A4909.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A4905.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A4913.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/場地介紹_web_東2C.jpg"
+      ]
+    },
+    {
+      "name": "東2D",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=30",
+      "capacity": 300,
+      "area": 189.0,
+      "floor": null,
+      "description": "東2D館場地介紹點擊進入-東二館720線上勘景四連棟建於1933年3月，獨棟式長形廠房建築，室內為長廊式空間，鋼骨鋼筋混凝土柱樑系統，加強磚造結構，立面有山形山牆作為建築入口，山牆上拱頂石裝飾，牆面有弧拱窗、洗石子窗櫺、洗石邊框裝飾、水平裝飾帶，搭配內部大跨距的鐵桁架石綿瓦屋頂，大尺度室內挑高空間，為舊倉庫注入現代建築特色和功能。東2館:場館介紹<請點此下載>、使用需知<請點此下載>、場地平面圖<請點此下載>(場地實際狀況與尺寸請依現場丈量為主)注意事項園區嚴禁使用任何火具。場地租借以「日」為計算單位，使用時間為08:00-22:00；夜間超時(22:00-次日8:00) 以每小時$10,000(稅內)計算。電費另計，每度$10元(未稅)，不足1度以1度計算。場地租借費用不含任何場地清潔，結束後需自行復原。大型活動(人數達千人)需加裝流動廁所。場地租借辦法",
+      "equipment": "空調",
+      "price": null,
+      "images": [
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/外側_19052211142158716.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/東2四連棟1-2_17090218522984357.JPG",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A4895.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A4897.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A4901.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A4903.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/場地介紹_web_東2D.jpg"
+      ]
+    },
+    {
+      "name": "東3B-烏梅劇院",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=21",
+      "capacity": null,
+      "area": 175.0,
+      "floor": null,
+      "description": "東3B 烏梅劇院場地介紹點擊進入-烏梅劇院720線上勘景2016年12月烏梅退去酒廠樣貌，正式以「烏梅劇院」展新姿態於眾人面前現身。 華山1914以行動支持舞蹈、戲劇、音樂之創作，為表演藝術工作者打造全新創作舞台。以身體來訴說故事、以文本來演繹思想、以聲音來傳達情感，期望帶給您更多更多元的藝文體驗。 館內建有階梯式觀眾席、劇場專業設備，以及專屬梳化間。 不論您是表演者或是觀賞者，期待您和我們一起豐富臺灣表演藝術環境，歡迎各界藝文表演夥伴加入華山。除了表演藝術團隊可優先申請，並提供部分檔期開放一般商業活動使用。場地租借辦法注意事項場地面積約175坪容納人數160-250單日報價$88,000元/天使用建議表演類型節目場地尺寸電力規格現有設備其他說明附件下載烏梅劇院技術資料(20250314更新).zip烏梅-華山場地租用相關文件(20250714更新).zip2026下半年表演藝術團隊優先申請辦法_26011511073239645.pdf開始申請",
+      "equipment": null,
+      "price": 88000,
+      "images": [
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A6371cp.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A6368cp.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A6363cp.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A6333cp.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A6352cp.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A6353cp.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A6355cp.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A6356cp.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A6348cp.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/場地介紹_web_東3B.jpg"
+      ]
+    },
+    {
+      "name": "華山劇場",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=22",
+      "capacity": 1200,
+      "area": 450.0,
+      "floor": null,
+      "description": "最新消息關於華山聽見華山文創華山簡介與理念華山論建歷史華山歷史回顧建物故事華山年報我們的基金會基金會簡介共伴計畫華山文旅學烏梅劇院LanguageEnglish簡中展演地圖來華山交通與地圖遊客服務找活動品好店聊文創提申請場地租借場地介紹相關附件申請辦法品牌進駐市集招商其他服務文宣品放置團體特約導覽拍攝申請非商業攝影申請戶外商業攝影申請媒體拍攝線上申請街頭藝人LanguageEnglish簡中最新消息關於華山聽見華山文創華山簡介與理念華山論建歷史華山歷史回顧建物故事華山年報我們的基金會基金會簡介共伴計畫華山文旅學烏梅劇院展演地圖來華山交通與地圖遊客服務找活動品好店聊文創提申請場地租借場地介紹相關附件申請辦法品牌進駐市集招商其他服務文宣品放置團體特約導覽拍攝申請非商業攝影申請戶外商業攝影申請媒體拍攝線上申請街頭藝人收合",
+      "equipment": null,
+      "price": null,
+      "images": [
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A1613.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A1620.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A1623.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A1641.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A1639.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/華山劇場1-4.JPG",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/場地介紹_web_華山劇場 .jpg"
+      ]
+    },
+    {
+      "name": "樹前草地",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=34",
+      "capacity": null,
+      "area": null,
+      "floor": null,
+      "description": "樹前草地場地介紹樹前草地位於華山劇場與遊客服務中心旁，適合辦理戶外小型宣傳活動、戶外廣告物宣傳物設置等。戶外空間:場館介紹<請點此下載>、場地平面圖<請點此下載>(場地實際狀況與尺寸請依現場丈量為主)注意事項園區嚴禁使用任何火具。場地租借以「日」為計算單位，使用時間為08:00-22:00；夜間超時(22:00-次日8:00) 以每小時$10,000(稅內)計算。電費另計，每度$10元(未稅)，不足1度以1度計算。場地租借費用不含任何場地清潔，結束後需自行復原。限高3米以下，實際使用區域依園區規定。場地租借辦法場地面積以現場丈量為準容納人數戶外空間單日報價$60,000/天使用建議期間限定店、展覽場地尺寸戶外空間電力規格視需求調整現有設備其他說明附件下載華山場地租借相關文件_18090414505540081.zip開始申請",
+      "equipment": null,
+      "price": null,
+      "images": [
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A1615.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A1617.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A1618.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A1642.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/場地介紹_web_樹前草地.jpg"
+      ]
+    },
+    {
+      "name": "中3館前廣場",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=25",
+      "capacity": null,
+      "area": null,
+      "floor": null,
+      "description": "中3館 前廣場場地介紹中三前廣場位於中3場館的正前方，有著古色古香的建築為背景，狹長的腹地適合快閃店及舉辦市集。戶外空間:場館介紹<請點此下載>、場地平面圖<請點此下載>(場地實際狀況與尺寸請依現場丈量為主)注意事項園區嚴禁使用任何火具。場地租借以「日」為計算單位，使用時間為08:00-22:00；夜間超時(22:00-次日8:00) 以每小時$10,000(稅內)計算。電費另計，每度$10元(未稅)，不足1度以1度計算。場地租借費用不含任何場地清潔，結束後需自行復原。限高3米以下，實際使用區域依園區規定。場地租借辦法場地面積現場丈量為準容納人數戶外空間單日報價$60,000/天使用建議期間限定店、展覽場地尺寸戶外空間電力規格現有設備其他說明附件下載華山場地租借相關文件_18090414520718714.zip開始申請",
+      "equipment": null,
+      "price": null,
+      "images": [
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A1841.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A1851.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A1847.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A1845.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/場地介紹_web_中3前廣場.jpg"
+      ]
+    },
+    {
+      "name": "忠孝三角",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=23",
+      "capacity": 50,
+      "area": 20.0,
+      "floor": null,
+      "description": "忠孝三角場地介紹忠孝三角位於高塔前靠近忠孝東路八德路的交叉口，是園區內第二大的戶外空間，適合辦理戶外小型宣傳活動、放置戶外宣傳廣告物等。戶外空間:場館介紹<請點此下載>、場地平面圖<請點此下載>(場地實際狀況與尺寸請依現場丈量為主)注意事項園區嚴禁使用任何火具。場地租借以「日」為計算單位，使用時間為08:00-22:00；夜間超時(22:00-次日8:00) 以每小時$10,000(稅內)計算。電費另計，每度$10元(未稅)，不足1度以1度計算。場地租借費用不含任何場地清潔，結束後需自行復原。限高3米以下，實際使用區域依園區規定。場地租借辦法場地面積約 20 坪容納人數預估 30~50 人不等單日報價$60,000/天使用建議記者會、期間限定店、展覽場地尺寸戶外空間電力規格現有設備其他說明附件下載忠孝三角 平面配置圖.pdf華山場地租借相關文件_18090414514658521.zip開始申請",
+      "equipment": null,
+      "price": null,
+      "images": [
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A1825.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A1819.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A1829.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A1824.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/場地介紹_web_忠孝三角.jpg"
+      ]
+    },
+    {
+      "name": "金八廣場",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=24",
+      "capacity": null,
+      "area": null,
+      "floor": null,
+      "description": "金八廣場場地介紹金八廣場位於金山北路與八德路交叉口，新生高架橋旁，為入園首要位置，適合戶外廣告物宣傳物設置。戶外空間:場館介紹<請點此下載>、場地平面圖<請點此下載>(場地實際狀況與尺寸請依現場丈量為主)注意事項園區嚴禁使用任何火具。場地租借以「日」為計算單位，使用時間為08:00-22:00；夜間超時(22:00-次日8:00) 以每小時$10,000(稅內)計算。電費另計，每度$10元(未稅)，不足1度以1度計算。場地租借費用不含任何場地清潔，結束後需自行復原。限高3米以下，實際使用區域依園區規定。場地租借辦法場地面積以現場丈量為準容納人數戶外空間單日報價$60,000/天使用建議期間限定店、戶外廣告物宣傳物設置場地尺寸戶外空間電力規格現有設備其他說明附件下載華山場地租借相關文件_18090414502457620.zip開始申請",
+      "equipment": null,
+      "price": null,
+      "images": [
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A1626.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A1627.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A1629.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A1630.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/場地介紹_web_金八廣場.jpg"
+      ]
+    },
+    {
+      "name": "中7B",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=42",
+      "capacity": 180,
+      "area": 80.0,
+      "floor": null,
+      "description": "中7B館  維修工場場地介紹點擊進入-中七館720線上勘景在1931年落成的廠房，它的前身就是台北酒廠時代的維修工場。工場內原本設有工具以檢修廠區的機具、門窗等。南側小隔間為當時領料的場館空間；西北側玄關方形建築，有水平飾帶與廠房山牆巧妙連接。目前門口還留著閒置時期雀榕與建築共生的痕跡，見證了在閒置時期植物堅韌的生命力。中7館:場館介紹<請點此下載>;中7B館:使用需知<請點此下載>、場地平面圖<請點此下載>(場地實際狀況與尺寸請依現場丈量為主)注意事項園區嚴禁使用任何火具。場地租借以「日」為計算單位，使用時間為08:00-22:00；夜間超時(22:00-次日8:00) 以每小時$10,000(稅內)計算。電費另計，每度$10元(未稅)，不足1度以1度計算。場地租借費用不含任何場地清潔，結束後需自行復原。場地租借辦法",
+      "equipment": "空調",
+      "price": null,
+      "images": [
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A495700.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A493800.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A493400.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A493300.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A493100.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A492900.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/場地介紹_web_中7B.jpg"
+      ]
+    },
+    {
+      "name": "西4",
+      "url": "https://www.huashan1914.com/w/huashan1914/AppPlaceInfo?pid=33",
+      "capacity": 200,
+      "area": 74.0,
+      "floor": null,
+      "description": "紅磚六合院 西4館(D棟)場地介紹點擊進入-西四館720線上勘景此建物為1930年興建，為日據時代台北市最著名的兩座現代化樟腦精製工場之乾餾工廠，主要做為提煉精製樟腦之場地。因見證整個台灣樟腦產業之興衰，經中央單位核定而成為園區歷史建築群之一。 建物有獨立進出動線，場館可與戶外廣場串連規劃成接待區或搭設大型主視覺設計，擴展場地腹域。西4館:場館介紹<請點此下載>、使用須知<請點此下載>、場地平面圖<請點此下載>(場地實際狀況與尺寸請依現場丈量為主)注意事項園區嚴禁使用任何火具。場地租借以「日」為計算單位，使用時間為08:00-22:00；夜間超時(22:00-次日8:00)。西1館以每小時$9,000(稅內) /西2館&西5館每小時$6,000(稅內) /西4館每小時$5,000(稅內)計算。電費另計，每度$5.5元(未稅)，不足1度以1度計算。西一館空調電費為5,000元/日(未稅)。基本清潔費1,000元 , 有宴席需求者另需支付西式餐宴3,000元、中式餐宴5000元之清潔費用。場地租借費用不含任何場地清潔，結束後需自行復原。場地租借辦法",
+      "equipment": "空調",
+      "price": null,
+      "images": [
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A1645.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A1644.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A1647.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A1648.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A1652.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A1654.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/6A9A1651.jpg",
+        "https://media.huashan1914.com/WebUPD/huashan1914/AppPlace/場地介紹_web_西4.jpg"
+      ]
+    }
+  ],
+  "timestamp": "2026-03-26T21:05:29.460721"
+}

@@ -1,0 +1,29 @@
+{
+  "venue": "台北中山運動中心",
+  "venue_id": 1334,
+  "url": "https://cssc.cyc.org.tw/",
+  "stage1": {
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "page_type": "HTML",
+    "js_frameworks": [
+      "jQuery",
+      "jQuery",
+      "jQuery"
+    ],
+    "loading_method": "動態渲染 (可能需要 JS)",
+    "json_ld_count": 0,
+    "has_embedded_json": false,
+    "has_meeting_keywords": true,
+    "anti_scraping": "未檢測到",
+    "cookies_count": 1,
+    "has_session_token": false,
+    "links": {
+      "total": 91,
+      "meeting": 2,
+      "pricing": 0,
+      "contact": 0
+    }
+  },
+  "timestamp": "2026-03-26T21:34:00.001835"
+}

@@ -1,0 +1,36 @@
+{
+  "venue": "TICC",
+  "version": 3,
+  "parsed_at": "2026-03-25T20:12:12.172218",
+  "total_rooms": 2,
+  "rooms": [
+    {
+      "name": "大會堂全場",
+      "capacity_theater": 3100,
+      "capacity_classroom": 899,
+      "capacity_u": null,
+      "capacity_negotiate": null,
+      "area_sqm": 2973,
+      "area_ping": 899,
+      "dimensions": null,
+      "price_weekday": 170000,
+      "price_weekend": null,
+      "price_exhibition": 159000,
+      "booth_3x2": null
+    },
+    {
+      "name": "大會堂半場",
+      "capacity_theater": 1208,
+      "capacity_classroom": 101,
+      "capacity_u": 720,
+      "capacity_negotiate": 27,
+      "area_sqm": null,
+      "area_ping": 744,
+      "dimensions": null,
+      "price_weekday": 123000,
+      "price_weekend": null,
+      "price_exhibition": 112000,
+      "booth_3x2": null
+    }
+  ]
+}

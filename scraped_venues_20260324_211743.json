@@ -1,0 +1,16 @@
+[
+  {
+    "venue_id": 1076,
+    "timestamp": "2026-03-24T21:17:42.823559",
+    "contact_phone": "074944088015",
+    "contact_email": "lemeridien@lemeridien-taipei.com",
+    "address": null,
+    "rooms_count": 0,
+    "rooms": [],
+    "sources": [
+      "https://www.lemeridien-taipei.com"
+    ],
+    "verification_status": "no_data",
+    "issues": []
+  }
+]

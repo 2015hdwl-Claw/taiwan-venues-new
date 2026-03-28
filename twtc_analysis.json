@@ -1,0 +1,93 @@
+{
+  "base_url": "https://www.twtc.com.tw/",
+  "meeting_links": [
+    {
+      "text": "展覽場地租借",
+      "url": "https://www.twtc.com.tw/exh"
+    },
+    {
+      "text": "會議室",
+      "url": "https://www.twtc.com.tw/#"
+    },
+    {
+      "text": "會議室介紹",
+      "url": "https://www.twtc.com.tw/meeting?p=menu1"
+    },
+    {
+      "text": "第一會議室",
+      "url": "https://www.twtc.com.tw/meeting1"
+    },
+    {
+      "text": "A+會議室",
+      "url": "https://www.twtc.com.tw/meeting11"
+    },
+    {
+      "text": "第二會議室",
+      "url": "https://www.twtc.com.tw/meeting2"
+    },
+    {
+      "text": "第三會議室",
+      "url": "https://www.twtc.com.tw/meeting3"
+    },
+    {
+      "text": "第四會議室",
+      "url": "https://www.twtc.com.tw/meeting4"
+    },
+    {
+      "text": "第五會議室",
+      "url": "https://www.twtc.com.tw/meeting5"
+    },
+    {
+      "text": "第三四五會議室(打通)",
+      "url": "https://www.twtc.com.tw/meeting345"
+    }
+  ],
+  "pdf_links": [
+    {
+      "text": "展覽場借用實施規範",
+      "url": "https://www.twtc.com.tw/file/DB/images_G1/%e5%a4%96%e8%b2%bf%e5%8d%94%e6%9c%83%e7%b6%93%e7%87%9f%e7%ae%a1%e7%90%86%e4%b8%96%e8%b2%bf%e4%b8%80%e9%a4%a8%e5%a0%b4%e9%a4%a8%e5%80%9f%e7%94%a8%e5%af%a6%e6%96%bd%e8%a6%8f%e7%af%84.pdf"
+    }
+  ],
+  "detail_links": [
+    {
+      "name": "會議室",
+      "url": "https://www.twtc.com.tw/exh#"
+    },
+    {
+      "name": "會議室介紹",
+      "url": "https://www.twtc.com.tw/meeting?p=menu1"
+    },
+    {
+      "name": "第一會議室",
+      "url": "https://www.twtc.com.tw/meeting1"
+    },
+    {
+      "name": "A+會議室",
+      "url": "https://www.twtc.com.tw/meeting11"
+    },
+    {
+      "name": "第二會議室",
+      "url": "https://www.twtc.com.tw/meeting2"
+    },
+    {
+      "name": "第三會議室",
+      "url": "https://www.twtc.com.tw/meeting3"
+    },
+    {
+      "name": "第四會議室",
+      "url": "https://www.twtc.com.tw/meeting4"
+    },
+    {
+      "name": "第五會議室",
+      "url": "https://www.twtc.com.tw/meeting5"
+    },
+    {
+      "name": "第三四五會議室(打通)",
+      "url": "https://www.twtc.com.tw/meeting345"
+    },
+    {
+      "name": "第一五會議室間廊廳",
+      "url": "https://www.twtc.com.tw/meeting15"
+    }
+  ]
+}

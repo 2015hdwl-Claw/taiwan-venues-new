@@ -1,0 +1,70 @@
+{
+  "venue": "台北六福客棧",
+  "venue_id": 1055,
+  "timestamp": "2026-03-27T00:50:35.209870",
+  "main_page": {
+    "url": "https://www.leofoo.com.tw",
+    "status": 200,
+    "size": 46733,
+    "js_frameworks": []
+  },
+  "meeting_links": [
+    {
+      "text": "關於六福",
+      "url": "https://www.leofoo.com.twjavascript:;"
+    },
+    {
+      "text": "六福首選",
+      "url": "https://www.leofoo.com.tw/business/index/1"
+    },
+    {
+      "text": "六福永續獎",
+      "url": "https://award.leofoo.com.tw/"
+    },
+    {
+      "text": "關於六福",
+      "url": "https://www.leofoo.com.tw/about"
+    },
+    {
+      "text": "",
+      "url": "https://eliteconcept.cyberbiz.co/events/%E5%85%AD%E7%A6%8F%E7%AA%96%E8%97%8F"
+    },
+    {
+      "text": "2026-02-12 |六福旅遊集團周邊財年銷破2億 以限量窖藏金酒，搶攻高價伴手禮市場",
+      "url": "https://www.leofoo.com.tw/newsPage/5"
+    },
+    {
+      "text": "2026-01-16 |2026六福永續獎開跑! 即日起徵件至4/26止",
+      "url": "https://www.leofoo.com.tw/newsPage/17"
+    },
+    {
+      "text": "2026-03-05 |六福奪觀光雙料冠軍 深化永續觀光業布局 六福村、六福萬怡獲台灣觀光金獎肯定",
+      "url": "https://www.leofoo.com.tw/newsPage/19"
+    },
+    {
+      "text": "-0001-11-30 |六福獲選棲蘭及明池遊憩設施ROT案最優申請人 開展營運新動能",
+      "url": "https://www.leofoo.com.tw/newsPage/14"
+    },
+    {
+      "text": "2025-10-23 |國際犀牛外交插旗非洲　六福推動台史永續旅遊及人才交流計劃",
+      "url": "https://www.leofoo.com.tw/newsPage/7"
+    },
+    {
+      "text": "2026-02-05 |勞動部參訪台北六福萬怡酒店　肯定身心障礙任用實務成果",
+      "url": "https://www.leofoo.com.tw/newsPage/18"
+    },
+    {
+      "text": "2025-10-01 |六福啟動「國際犀牛外交計畫」 創台灣史上最大近危動物輸出典範 六福野生動物園 × 韓國愛寶動物園",
+      "url": "https://www.leofoo.com.tw/newsPage/1"
+    },
+    {
+      "text": "2025-10-09 |觀光業史上第一！六福奪PATA亞太旅遊金獎 以多元共融與幸福職場展現永續典範 再登國際舞台",
+      "url": "https://www.leofoo.com.tw/newsPage/6"
+    },
+    {
+      "text": "2025-08-20 |松江南京商圈新樓王  六福酒店式商辦上樑典禮 具ESG認證的頂級獨棟A辦、高端酒店式物業管理",
+      "url": "https://www.leofoo.com.tw/newsPage/8"
+    }
+  ],
+  "pdf_links": []
+}

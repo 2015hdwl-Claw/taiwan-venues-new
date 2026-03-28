@@ -1,0 +1,24 @@
+[
+  {
+    "url": "https://www.mandarinoriental.com/zh-hk/taipei/songshan/meet",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "page_type": "Static HTML",
+    "loading_method": "Server-side",
+    "data_location": null,
+    "anti_scraping": "Cookies required",
+    "accessibility_score": 2,
+    "accessibility_max": 5
+  },
+  {
+    "url": "https://www.mandarinoriental.com/en/taipei/songshan/meet",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "page_type": "Static HTML",
+    "loading_method": "Server-side",
+    "data_location": null,
+    "anti_scraping": "Cookies required",
+    "accessibility_score": 2,
+    "accessibility_max": 5
+  }
+]

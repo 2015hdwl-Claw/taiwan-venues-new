@@ -1,0 +1,527 @@
+[
+  {
+    "id": 1034,
+    "name": "NUZONE展演空間",
+    "venueType": "展演場地",
+    "city": "台北市",
+    "address": "台北市大安區市民大道三段198號",
+    "contactPerson": "場地租借",
+    "contactPhone": "076-4753-8303",
+    "contactEmail": "service@nuzone.com.tw",
+    "url": "https://www.nuzone.com.tw/",
+    "priceHalfDay": 15000,
+    "priceFullDay": 25000,
+    "maxCapacityTheater": 500,
+    "maxCapacityClassroom": 100,
+    "availableTimeWeekday": "09:00-22:00",
+    "availableTimeWeekend": "09:00-22:00",
+    "equipment": "專業音響、投影設備、燈光",
+    "images": {
+      "main": "https://static.wixstatic.com/media/bd4101_b060d5db47da4905a037701ac0251b0e~mv2.png/v1/fill/w_1280,h_99,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/bd4101_b060d5db47da4905a037701ac0251b0e~mv2.png",
+      "gallery": [
+        "https://static.wixstatic.com/media/bd4101_b060d5db47da4905a037701ac0251b0e~mv2.png/v1/fill/w_1280,h_99,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/bd4101_b060d5db47da4905a037701ac0251b0e~mv2.png",
+        "https://static.wixstatic.com/media/b8e171_567eaa1bf25a4baf9e3deda73fcda17e~mv2.jpg/v1/fill/w_230,h_342,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/DSC_0059.jpg",
+        "https://static.wixstatic.com/media/4a5f41_7376f72f26af44af91feec132c9f4bcb~mv2.png/v1/fill/w_824,h_426,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E5%9C%96%E7%89%87%201.png",
+        "https://static.wixstatic.com/media/4a5f41_54687a49caa44d8eab51b0843cf01207~mv2.jpg/v1/crop/x_0,y_0,w_1550,h_601/fill/w_866,h_338,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E6%88%AA%E5%9C%96%202025-09-02%20%E4%B8%8B%E5%8D%884_edited.jpg",
+        "https://static.wixstatic.com/media/bd4101_7aebd358e20f447b859e8c1d64e3103d~mv2.png/v1/fill/w_278,h_52,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/111.png"
+      ],
+      "source": "https://www.nuzone.com.tw",
+      "verified": true,
+      "verifiedAt": "2026-03-01T23:28:53.840Z"
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "id": "r001",
+        "name": "2F展演空間",
+        "area": 200,
+        "areaUnit": "坪",
+        "capacity": 500,
+        "capacityType": "劇院式",
+        "images": {
+          "main": "https://static.wixstatic.com/media/4a5f41_7376f72f26af44af91feec132c9f4bcb~mv2.png/v1/fill/w_824,h_426,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E5%9C%96%E7%89%87%201.png",
+          "source": "https://www.nuzone.com.tw"
+        },
+        "floor": "2樓"
+      },
+      {
+        "id": "r002",
+        "name": "7F展演空間",
+        "area": 150,
+        "areaUnit": "坪",
+        "capacity": 300,
+        "capacityType": "劇院式",
+        "images": {
+          "main": "https://static.wixstatic.com/media/4a5f41_54687a49caa44d8eab51b0843cf01207~mv2.jpg/v1/crop/x_0,y_0,w_1550,h_601/fill/w_866,h_338,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E6%88%AA%E5%9C%96%202025-09-02%20%E4%B8%8B%E5%8D%884_edited.jpg",
+          "source": "https://www.nuzone.com.tw"
+        },
+        "floor": "7樓"
+      },
+      {
+        "id": "r003",
+        "name": "1F活動空間",
+        "area": 100,
+        "areaUnit": "坪",
+        "capacity": 200,
+        "capacityType": "劇院式",
+        "images": {
+          "main": "https://static.wixstatic.com/media/b8e171_567eaa1bf25a4baf9e3deda73fcda17e~mv2.jpg/v1/fill/w_230,h_342,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/DSC_0059.jpg",
+          "source": "https://www.nuzone.com.tw"
+        },
+        "floor": "1樓"
+      }
+    ],
+    "lastUpdated": "2026-03-17",
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "phoneSource": "Official website",
+      "phoneUpdatedAt": "2026-03-24T22:52:30.201518",
+      "emailSource": "Deep scraper",
+      "emailUpdatedAt": "2026-03-25T07:39:47.273964",
+      "imagesFound": 12,
+      "lastScrapedAt": "2026-03-25T13:39:31.222863",
+      "scrapeStatus": "verified",
+      "rulesAndDocs": {
+        "has_floor_plan": true
+      },
+      "rulesAndDocsUpdatedAt": "2026-03-25T07:39:47.273964",
+      "images": [
+        "https://static.wixstatic.com/media/bd4101_b060d5db47da4905a037701ac0251b0e~mv2.png/v1/fill/w_1280,h_99,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/bd4101_b060d5db47da4905a037701ac0251b0e~mv2.png",
+        "https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_36,h_36,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/23fd2a2be53141ed810f4d3dcdcd01fa.png",
+        "https://static.wixstatic.com/media/11062b_cef3b719166a4815b446d4dcfcb6120d~mv2.png/v1/fill/w_36,h_36,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_cef3b719166a4815b446d4dcfcb6120d~mv2.png",
+        "https://static.wixstatic.com/media/22db839dd0a94a1c9dd91dafe2617dc1.png/v1/fill/w_36,h_36,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/22db839dd0a94a1c9dd91dafe2617dc1.png",
+        "https://static.wixstatic.com/media/bd4101_760ab9c6a16f44b4ac3dc9f3f53350b4~mv2.jpg/v1/fill/w_1280,h_672,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/bd4101_760ab9c6a16f44b4ac3dc9f3f53350b4~mv2.jpg",
+        "https://static.wixstatic.com/media/70b627_263bcb6b1103499ab754abb3c7757dde~mv2.png/v1/fill/w_1200,h_630,al_c,q_90,enc_avif,quality_auto/70b627_263bcb6b1103499ab754abb3c7757dde~mv2.png",
+        "https://static.wixstatic.com/media/bd4101_690c815b9d9948ef91b6ff9191ae80f1~mv2.png/v1/fill/w_1280,h_674,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/bd4101_690c815b9d9948ef91b6ff9191ae80f1~mv2.png",
+        "https://static.wixstatic.com/media/b8e171_567eaa1bf25a4baf9e3deda73fcda17e~mv2.jpg/v1/fill/w_230,h_342,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/DSC_0059.jpg",
+        "https://static.wixstatic.com/media/4a5f41_7376f72f26af44af91feec132c9f4bcb~mv2.png/v1/fill/w_824,h_426,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E5%9C%96%E7%89%87%201.png",
+        "https://static.wixstatic.com/media/4a5f41_54687a49caa44d8eab51b0843cf01207~mv2.jpg/v1/crop/x_0,y_0,w_1550,h_601/fill/w_866,h_338,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E6%88%AA%E5%9C%96%202025-09-02%20%E4%B8%8B%E5%8D%884_edited.jpg"
+      ],
+      "lastDeepScrapedAt": "2026-03-25T07:39:47.273964",
+      "deepScrapeStatus": "success",
+      "scrapeConfidenceScore": 85.0,
+      "scrapeVersion": "V4-Practical",
+      "pagesDiscovered": 6,
+      "fullSiteScraped": true
+    },
+    "phone": "076-4753-8303",
+    "email": "service@nuzone.com.tw"
+  },
+  {
+    "id": 1042,
+    "name": "公務人力發展學院",
+    "venueType": "會議中心",
+    "city": "台北市",
+    "address": "臺北市大安區新生南路3段30號",
+    "contactPerson": "場地租借",
+    "contactPhone": "02-7712-2323",
+    "contactEmail": "venue@ncsi.gov.tw",
+    "url": "https://www.hrd.gov.tw",
+    "priceHalfDay": 8000,
+    "priceFullDay": 14000,
+    "maxCapacityTheater": 220,
+    "maxCapacityClassroom": 90,
+    "availableTimeWeekday": "08:00-21:00",
+    "availableTimeWeekend": "休館",
+    "equipment": "投影設備、音響",
+    "images": {
+      "main": "https://www.hrd.gov.tw/media/4298/service_01.png",
+      "gallery": [
+        "https://www.hrd.gov.tw/media/4298/service_01.png",
+        "https://www.hrd.gov.tw/media/8704/service_02.png",
+        "https://www.hrd.gov.tw/media/4300/service_03.png",
+        "https://www.hrd.gov.tw/media/4302/service_05.png",
+        "https://www.hrd.gov.tw/media/4301/service_04.png"
+      ],
+      "source": "https://www.hrd.gov.tw",
+      "verified": true,
+      "verifiedAt": "2026-03-01T23:29:06.666Z",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "name": "1F 前瞻廳"
+      },
+      {
+        "name": "1F 101階梯教室"
+      },
+      {
+        "name": "1F 103階梯教室"
+      },
+      {
+        "name": "2F 201教室"
+      },
+      {
+        "name": "2F 202教室"
+      },
+      {
+        "name": "2F 203教室"
+      },
+      {
+        "name": "1F 恬園餐廳"
+      },
+      {
+        "name": "14F 貴賓廳"
+      },
+      {
+        "name": "B1 交誼廳"
+      }
+    ],
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "phoneSource": "Official website",
+      "phoneUpdatedAt": "2026-03-24T22:52:47.116527",
+      "pdfLinks": [
+        "https://www.hrd.gov.tw/media/10465/112%E5%B9%B4%E6%96%BD%E6%94%BF%E7%9B%AE%E6%A8%99%E8%88%87%E9%87%8D%E9%BB%9E.pdf?mediaDL=true",
+        "https://www.hrd.gov.tw/media/12185/%E6%9C%AC%E5%AD%B8%E9%99%A2114%E5%B9%B4%E4%BF%9D%E6%9C%89%E5%8F%8A%E7%AE%A1%E7%90%86%E5%80%8B%E4%BA%BA%E8%B3%87%E6%96%99%E9%A0%85%E7%9B%AE%E8%A1%A8.pdf?mediaDL=true"
+      ],
+      "pdfLinksUpdatedAt": "2026-03-25T07:38:13.056651",
+      "imagesFound": 28,
+      "lastScrapedAt": "2026-03-25T13:39:31.369190",
+      "scrapeStatus": "partial",
+      "roomsSource": "Deep scraper",
+      "roomsUpdatedAt": "2026-03-25T07:38:13.056651",
+      "rulesAndDocs": {
+        "has_catering_info": true
+      },
+      "rulesAndDocsUpdatedAt": "2026-03-25T07:38:13.056651",
+      "images": [
+        "https://www.hrd.gov.tw/media/4298/service_01.png",
+        "https://www.hrd.gov.tw/media/8704/service_02.png",
+        "https://www.hrd.gov.tw/media/4300/service_03.png",
+        "https://www.hrd.gov.tw/media/4302/service_05.png",
+        "https://www.hrd.gov.tw/media/4301/service_04.png",
+        "https://www.hrd.gov.tw/media/4303/service_06.png",
+        "https://www.hrd.gov.tw/media/12611/115745a.png?width=400",
+        "https://www.hrd.gov.tw/media/12331/%E5%AE%A3%E5%82%B3bn-%E4%BA%8C-_%E5%9C%96%E7%89%87%E7%B4%AB%E6%AC%BE.jpg",
+        "https://www.hrd.gov.tw/media/11091/banner_hahow2024.png",
+        "https://www.hrd.gov.tw/media/10238/%E9%99%84%E4%BB%B63_112mrtbanner.png"
+      ],
+      "relatedData": [
+        {
+          "url": "https://www.hrd.gov.tw/1123/2127/?q=%E5%A0%B4%E5%9C%B0%E6%9F%A5%E8%A9%A2",
+          "text": "場地查詢",
+          "content": "按Enter到主內容區\n回首頁\n網站導覽\nENGLISH\n意見信箱\n常見問答\n字級大小：\n小\n中\n大\n:::\n搜尋 \n熱門關鍵字: 訓練計畫 學員須知 場地查詢\n認識學院\n訓練資訊\n場地設施\n資訊公開\n檔案下載\n:::\n 現在位置：  首頁  Google 搜尋引擎\nGoogle 搜尋引擎\n回上一頁\n友善列印\n網站檢索\n約有 478 項結果 (搜尋時間：0.33 秒)\n\t\n排序依據\n1樓多媒體教室-行政院人事行政總處公務人力發展學院\nhttps://www.hrd.gov.tw/1122/2141/3157/3162/56765/meetingVenue\n行政院人事行政總處公務人力發展學院 › meetingVenue\n5 天前 ... 查詢. 您的瀏覽器不支援JavaScript 或JavaScript已停用. 搜尋. 熱門關鍵字: 訓練計畫 · 學員須知 · 場地查詢. ::: 現在位置：; 首頁 · 場地設施 · 會議場地 · 南投院區; 1樓 ...\n生態池-行政院人事行政總處公務人力發展學院\nhttps://www.hrd.gov.tw/1122/2141/3160/3168"
+        },
+        {
+          "url": "https://www.hrd.gov.tw/1122/2141/Normalnodelist",
+          "text": "場地設施",
+          "content": "按Enter到主內容區\n回首頁\n網站導覽\nENGLISH\n意見信箱\n常見問答\n字級大小：\n小\n中\n大\n:::\n搜尋 \n熱門關鍵字: 訓練計畫 學員須知 場地查詢\n認識學院\n訓練資訊\n場地設施\n資訊公開\n檔案下載\n:::\n主選單\n認識學院\n訓練資訊\n場地設施\n資訊公開\n檔案下載\n 現在位置：  首頁  場地設施\n場地設施\n回上一頁\n友善列印\n1\n學院導覽\n2\n會議場地\n3\n餐飲服務\n4\n住宿設施\n5\n其他服務\n6\n場地查詢及預約\n回上一頁\n學員\n訓練承辦人\n民眾\n講座\n收合/CLOSE\n認識學院\n學院簡介\n使命與願景\n院長介紹\n交通位置\n電話聯繫表\n學院簡介影片\n \n訓練資訊\n年度訓練計畫\n訓練班期資訊\n服務園地\ne等公務園+學習平臺\n標竿論壇\n南投院區接受委託訓練收費標準\n圖書資訊服務\n \n場地設施\n學院導覽\n會議場地\n餐飲服務\n住宿設施\n其他服務\n場地查詢及預約\n \n資訊公開\n年度訓練成果\n檔案應用服務\n政府資訊公開\n促參亮點與ESG措施\n \n檔案下載\n檔案下載\n網路民調\n最新消息\n相關網站\n意見信箱\n常見問答\n:::\n政府網站資料開放宣告\n雙語詞彙對照表\n政府資訊公開\n隱私權及資訊"
+        },
+        {
+          "url": "https://www.hrd.gov.tw/1122/2141/3157/NPmeetingVenue",
+          "text": "會議場地",
+          "content": "按Enter到主內容區\n回首頁\n網站導覽\nENGLISH\n意見信箱\n常見問答\n字級大小：\n小\n中\n大\n:::\n搜尋 \n熱門關鍵字: 訓練計畫 學員須知 場地查詢\n認識學院\n訓練資訊\n場地設施\n資訊公開\n檔案下載\n:::\n場地設施\n學院導覽\n會議場地\n餐飲服務\n住宿設施\n其他服務\n場地查詢及預約\n 現在位置：  首頁  場地設施  會議場地\n會議場地\n回上一頁\n友善列印\n臺北院區\n南投院區\n全部\n1F\n2F\n3F\n4F\n5F\n6F\n14F\n1F 前瞻廳\n場地說明：階梯教室型 場地容量：220 位\n \n1F 101階梯教室\n場地說明：階梯教室型 場地容量：41 位\n \n1F 103階梯教室\n場地說明：階梯戲院型 場地容量：78 位\n \n2F 卓越堂下層\n場地說明：階梯戲院型 場地容量：455 位\n \n2F 卓越堂全場\n場地說明：階梯戲院型 場地容量：712 位\n \n2F 201教室\n場地說明：教室型/U型/分組型 場地容量：30 位\n \n2F 202教室\n場地說明：教室型/U型/分組型 場地容量：30 位\n \n2F 203教室\n場地說明：教室型/U型/分組型 場地容量：48 位\n \n2F "
+        },
+        {
+          "url": "https://www.hrd.gov.tw/1122/2141/3158/NPmeetingVenue",
+          "text": "餐飲服務",
+          "content": "按Enter到主內容區\n回首頁\n網站導覽\nENGLISH\n意見信箱\n常見問答\n字級大小：\n小\n中\n大\n:::\n搜尋 \n熱門關鍵字: 訓練計畫 學員須知 場地查詢\n認識學院\n訓練資訊\n場地設施\n資訊公開\n檔案下載\n:::\n場地設施\n學院導覽\n會議場地\n餐飲服務\n住宿設施\n其他服務\n場地查詢及預約\n 現在位置：  首頁  場地設施  餐飲服務\n餐飲服務\n回上一頁\n友善列印\n臺北院區\n南投院區\n1F 恬園餐廳\n場地說明：1F 恬園餐廳 場地容量：190 位\n \n2F 悅香軒\n場地說明：2F 悅香軒 場地容量：220 位\n \n14F 貴賓廳\n場地說明：14F 貴賓廳 場地容量：100 位\n \nB1 風尚咖啡\n場地說明：B1 風尚咖啡 場地容量：100 位\n \nB1 交誼廳\n場地說明：B1 交誼廳 場地容量：120 位\n共 5筆資料，第 1/1頁，每頁顯示 \n10\n20\n30\n40\n筆 確定\n第一頁\n第1頁\n最後一頁\n\n聯絡電話：02-77122323\n\n「115年度場地使用管理及收費標準（餐飲服務）」\n\n回上一頁\n學員\n訓練承辦人\n民眾\n講座\n收合/CLOSE\n認識學院\n學院簡介\n使命與願景\n"
+        },
+        {
+          "url": "https://www.hrd.gov.tw/1122/2141/3159/NPmeetingVenue",
+          "text": "住宿設施",
+          "content": "按Enter到主內容區\n回首頁\n網站導覽\nENGLISH\n意見信箱\n常見問答\n字級大小：\n小\n中\n大\n:::\n搜尋 \n熱門關鍵字: 訓練計畫 學員須知 場地查詢\n認識學院\n訓練資訊\n場地設施\n資訊公開\n檔案下載\n:::\n場地設施\n學院導覽\n會議場地\n餐飲服務\n住宿設施\n其他服務\n場地查詢及預約\n 現在位置：  首頁  場地設施  住宿設施\n住宿設施\n回上一頁\n友善列印\n臺北院區\n南投院區\n友善套房\n場地說明：友善套房\n \n尊爵套房\n場地說明：尊爵套房\n \n豪華套房\n場地說明：豪華套房\n \n標準單人房\n場地說明：標準單人房\n共 4筆資料，第 1/1頁，每頁顯示 \n10\n20\n30\n40\n筆 確定\n第一頁\n第1頁\n最後一頁\n福華國際文教會館房間住宿說明：\n1.於房間內撥接市內或國內國際長途電話均須付費。\n2.住宿辦理入住時間為15:00起，退房時間為11:00前（參訓學員可延至13:30)。\n註：延遲至15:00前退房，須另加收半日之房租；如超過15:00，則須另收全日房租。\n3.住宿期間，可免費停車（每個房間限1部）。\n4.公務員【含退休】及眷屬、公務機關、龍坡里里民及其他教育訓練及會議"
+        }
+      ],
+      "lastDeepScrapedAt": "2026-03-25T07:38:13.056651",
+      "deepScrapeStatus": "success",
+      "scrapeConfidenceScore": 55.0,
+      "scrapeVersion": "V4-Practical",
+      "pagesDiscovered": 16,
+      "fullSiteScraped": true
+    },
+    "phone": "02-7712-2323",
+    "accessInfo": {
+      "mrt": {
+        "station": "台電大樓站"
+      },
+      "bus": [
+        "1657",
+        "1399",
+        "6916",
+        "049",
+        "061",
+        "6333",
+        "2502",
+        "2222",
+        "9120",
+        "200",
+        "2415",
+        "114",
+        "228",
+        "540",
+        "131",
+        "960",
+        "224",
+        "0800",
+        "100",
+        "1280",
+        "1066",
+        "2339",
+        "030",
+        "8369",
+        "113",
+        "1831",
+        "1486",
+        "5616",
+        "2026",
+        "2332",
+        "1523"
+      ],
+      "parking": {}
+    }
+  },
+  {
+    "id": 1049,
+    "name": "台北世貿中心(TWTCA)展覽大樓",
+    "venueType": "展演場地",
+    "city": "台北市",
+    "address": "台北市基隆路一段333號",
+    "contactPerson": "展覽部",
+    "contactPhone": "02-2725-5200",
+    "contactEmail": "twtc@taitra.org.tw",
+    "url": "https://www.twtc.com.tw/",
+    "priceHalfDay": 100000,
+    "priceFullDay": 180000,
+    "maxCapacityTheater": 230,
+    "maxCapacityClassroom": null,
+    "availableTimeWeekday": "09:00-18:00",
+    "availableTimeWeekend": "09:00-18:00",
+    "equipment": "專業展覽設備",
+    "images": {
+      "main": "https://www.twtc.com.tw/images/banner/b20211105154308.jpg",
+      "gallery": [
+        "https://www.twtc.com.tw/images/banner/b20211105154308.jpg",
+        "https://www.twtc.com.tw/images/banner/b20211105154344.jpg",
+        "https://www.twtc.com.tw/images/banner/b20231030091848.jpg",
+        "https://www.twtc.com.tw/images/banner/b20211105154035.jpg",
+        "https://www.twtc.com.tw/images/banner/b20211105154103.jpg"
+      ],
+      "source": "https://www.twtc.com.tw/",
+      "verified": true,
+      "verifiedAt": "2026-03-02T03:33:04.295Z",
+      "lastUpdated": "2026-03-17",
+      "needsUpdate": false
+    },
+    "verified": true,
+    "rooms": [
+      {
+        "name": "會議室"
+      },
+      {
+        "name": "會議室介紹"
+      },
+      {
+        "name": "第一會議室"
+      },
+      {
+        "name": "A+會議室"
+      },
+      {
+        "name": "第二會議室"
+      },
+      {
+        "name": "第三會議室"
+      },
+      {
+        "name": "第四會議室"
+      },
+      {
+        "name": "第五會議室"
+      },
+      {
+        "name": "第三四五會議室(打通)"
+      },
+      {
+        "name": "第一五會議室間廊廳"
+      },
+      {
+        "name": "會議室表單下載"
+      }
+    ],
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "emailSource": "Deep scraper",
+      "emailUpdatedAt": "2026-03-25T07:39:14.524544",
+      "imagesFound": 10,
+      "lastScrapedAt": "2026-03-25T13:39:31.954350",
+      "scrapeStatus": "partial",
+      "meetingRoomsSource": "https://www.twtc.com.tw/meeting1",
+      "meetingRoomsUpdatedAt": "2026-03-24T23:32:56.526726",
+      "meetingRoomsVerifiedBy": "user",
+      "meetingRoomsNote": "所有會議室資料都在官網裡",
+      "roomsSource": "Deep scraper",
+      "roomsUpdatedAt": "2026-03-25T07:39:14.524544",
+      "images": [
+        "https://www.twtc.com.tw/images/banner/b20260310104626.png",
+        "https://www.twtc.com.tw/images/banner/b20260309114512.png",
+        "https://www.twtc.com.tw/images/banner/b20260225093818.png",
+        "https://www.twtc.com.tw/images/banner/b20260310104037.jpg",
+        "https://www.twtc.com.tw/images/banner/b20211105154035.jpg",
+        "https://www.twtc.com.tw/images/banner/b20211105154021.jpg",
+        "https://www.twtc.com.tw/images/banner/b20211105154344.jpg",
+        "https://www.twtc.com.tw/images/banner/b20211105163507.jpg",
+        "https://www.twtc.com.tw/images/banner/b20231030091848.jpg",
+        "https://www.twtc.com.tw/images/banner/b20211105154308.jpg"
+      ],
+      "lastDeepScrapedAt": "2026-03-25T07:39:14.524544",
+      "deepScrapeStatus": "success",
+      "scrapeConfidenceScore": 67.0,
+      "scrapeVersion": "V4-Practical",
+      "pagesDiscovered": 21,
+      "fullSiteScraped": true
+    },
+    "email": "twtc@taitra.org.tw"
+  },
+  {
+    "id": 1448,
+    "name": "台北國際會議中心(TICC)",
+    "venueType": "會議中心",
+    "city": "台北市",
+    "address": "台北市信義區信義路五段1號",
+    "contactPerson": "",
+    "contactPhone": "02-2725-5200",
+    "contactEmail": "ticc@taitra.org.tw",
+    "url": "https://www.ticc.com.tw/",
+    "priceHalfDay": 159000,
+    "priceFullDay": 170000,
+    "maxCapacityTheater": 3100,
+    "maxCapacityClassroom": null,
+    "availableTimeWeekday": "",
+    "availableTimeWeekend": "",
+    "equipment": "",
+    "images": {
+      "main": "https://www.ticc.com.tw/wSite/public/Img/f1687945050916.jpg",
+      "gallery": [
+        "https://www.ticc.com.tw/wSite/public/Img/f1687945050916.jpg",
+        "https://www.ticc.com.tw/wSite/public/Img/f1687945053932.jpg",
+        "https://www.ticc.com.tw/wSite/public/Img/f1687945057150.jpg",
+        "https://www.ticc.com.tw/wSite/public/Img/f1687945060025.jpg",
+        "https://www.ticc.com.tw/wSite/public/Img/f1687945063635.jpg",
+        "https://www.ticc.com.tw/wSite/public/Img/f1687945066135.jpg"
+      ],
+      "source": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_Activity_1.jsp&ctNode=318&CtUnit=96&BaseDSD=7&mp=1",
+      "verified": true,
+      "verifiedAt": "2026-03-02T09:52:23.503Z",
+      "needsUpdate": false,
+      "note": "照片為大會堂照片，需要更新為該會議室的專屬照片",
+      "lastUpdated": "2026-03-17"
+    },
+    "verified": false,
+    "rooms": [
+      {
+        "name": "大會堂",
+        "capacity": 3100,
+        "area": "約600坪",
+        "layout": "劇院型",
+        "price": "請洽詢",
+        "equipment": "頂級音響燈光、同步翻譯設備、直播系統",
+        "photo": "https://www.ticc.com.tw/images/auditorium.jpg",
+        "id": "1448-01"
+      },
+      {
+        "name": "201會議室",
+        "capacity": 500,
+        "area": "約200坪",
+        "layout": "劇院型/教室型/宴會型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統、同步翻譯設備",
+        "photo": "https://www.ticc.com.tw/images/201.jpg",
+        "id": "1448-02"
+      },
+      {
+        "name": "101會議室",
+        "capacity": 200,
+        "area": "約80坪",
+        "layout": "劇院型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ticc.com.tw/images/101.jpg",
+        "id": "1448-03"
+      },
+      {
+        "name": "102會議室",
+        "capacity": 100,
+        "area": "約50坪",
+        "layout": "會議型/教室型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/102.jpg",
+        "id": "1448-04"
+      },
+      {
+        "name": "103會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/103.jpg",
+        "id": "1448-05"
+      },
+      {
+        "name": "104會議室",
+        "capacity": 50,
+        "area": "約30坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/104.jpg",
+        "id": "1448-06"
+      },
+      {
+        "name": "105會議室",
+        "capacity": 30,
+        "area": "約20坪",
+        "layout": "會議型",
+        "price": "請洽詢",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ticc.com.tw/images/105.jpg",
+        "id": "1448-07"
+      }
+    ],
+    "transportation": {
+      "car": "",
+      "publicTransport": "",
+      "mrt": "",
+      "bus": "",
+      "parking": "",
+      "notes": ""
+    },
+    "metadata": {
+      "emailSource": "Official website",
+      "emailUpdatedAt": "2026-03-25T00:24:42.674916",
+      "imagesFound": 1,
+      "lastScrapedAt": "2026-03-25T13:55:07.297922",
+      "scrapeStatus": "success",
+      "scrapeVersion": "Fast-Parallel",
+      "pagesDiscovered": 12,
+      "fullSiteScraped": true
+    },
+    "email": "ticc@taitra.org.tw"
+  }
+]

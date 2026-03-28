@@ -1,0 +1,140 @@
+[
+  {
+    "id": 1069,
+    "name": "台北國賓大飯店(AmbassadorTaipei)",
+    "url": "https://www.ambassador-hotels.com/tc/taipei",
+    "scraped_at": "2026-03-23T21:31:54.389571",
+    "pages": [
+      {
+        "url": "https://www.ambassador-hotels.com/tc/offers#events",
+        "title": "婚宴會議",
+        "info": []
+      },
+      {
+        "url": "https://www.ambassador-hotels.com/tc/offers#events",
+        "title": "婚宴會議",
+        "info": []
+      },
+      {
+        "url": "https://www.ambassador-hotels.com/tc/offers/2026-TP-wedding",
+        "title": "更多詳情",
+        "info": []
+      },
+      {
+        "url": "https://www.ambassador-hotels.com/tc/offers/2025-2026-TP-尾牙春酒專案",
+        "title": "更多詳情",
+        "info": []
+      }
+    ],
+    "pdfs": [],
+    "venue_info": []
+  },
+  {
+    "id": 1085,
+    "name": "台北文華東方酒店(MOHTaipei)",
+    "url": "https://www.mandarinoriental.com/taipei",
+    "scraped_at": "2026-03-23T21:32:00.770208",
+    "pages": [
+      {
+        "url": "https://www.mandarinoriental.com/en/taipei/songshan/events",
+        "title": "Events",
+        "info": []
+      },
+      {
+        "url": "https://www.mandarinoriental.com/en/taipei/songshan/events",
+        "title": "Events",
+        "info": []
+      },
+      {
+        "url": "https://www.mandarinoriental.com/en/taipei/songshan/events",
+        "title": "See More",
+        "info": []
+      }
+    ],
+    "pdfs": [],
+    "venue_info": []
+  },
+  {
+    "id": 1086,
+    "name": "台北晶華酒店 Regent Taipei",
+    "url": "https://www.regenttaiwan.com",
+    "scraped_at": "2026-03-23T21:32:10.081531",
+    "pages": [
+      {
+        "url": "https://www.regenttaiwan.com/overview/news-events",
+        "title": "最新消息",
+        "info": []
+      },
+      {
+        "url": "https://www.regenttaiwan.com/overview/news-events",
+        "title": "最新消息",
+        "info": []
+      },
+      {
+        "url": "https://www.regenttaiwan.com/occasions",
+        "title": "婚宴會議",
+        "info": []
+      },
+      {
+        "url": "https://www.regenttaiwan.com/occasions/weddings",
+        "title": "婚宴專案",
+        "info": []
+      },
+      {
+        "url": "https://www.regenttaiwan.com/occasions/2025Graduation_Party",
+        "title": "謝師宴專案",
+        "info": []
+      }
+    ],
+    "pdfs": [],
+    "venue_info": []
+  },
+  {
+    "id": 1090,
+    "name": "茹曦酒店 ILLUME TAIPEI",
+    "url": "https://www.theillumehotel.com/zh/",
+    "scraped_at": "2026-03-23T21:32:18.177690",
+    "pages": [
+      {
+        "url": "https://www.theillumehotel.com/zh/perfect-match-wedding-privileges-package/",
+        "title": "",
+        "info": []
+      },
+      {
+        "url": "https://www.theillumehotel.com/zh/wedding-packages/",
+        "title": "",
+        "info": []
+      },
+      {
+        "url": "https://www.theillumehotel.com/zh/perfect-match-wedding-privileges-package/",
+        "title": "",
+        "info": []
+      },
+      {
+        "url": "https://www.theillumehotel.com/zh/perfect-match-wedding-privileges-package/",
+        "title": "「神助攻！超頂6選1」婚宴專案",
+        "info": []
+      },
+      {
+        "url": "https://www.theillumehotel.com/zh/meetings-events/wedding/",
+        "title": "",
+        "info": [
+          "平方公尺"
+        ]
+      }
+    ],
+    "pdfs": [],
+    "venue_info": [
+      "平方公尺"
+    ]
+  },
+  {
+    "id": 1122,
+    "name": "維多麗亞酒店",
+    "url": "https://www.grandvictoria.com.tw/",
+    "scraped_at": "2026-03-23T21:32:25.511876",
+    "pages": [],
+    "pdfs": [],
+    "venue_info": []
+  }
+]

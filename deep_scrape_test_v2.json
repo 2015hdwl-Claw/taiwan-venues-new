@@ -1,0 +1,818 @@
+[
+  {
+    "id": 1042,
+    "name": "公務人力發展學院",
+    "url": "https://www.hrd.gov.tw",
+    "scraped_at": "2026-03-25T15:46:07.041752",
+    "scrape_pages": [
+      "https://www.hrd.gov.tw"
+    ],
+    "data": {
+      "homepage": {
+        "url": "https://www.hrd.gov.tw",
+        "title": "中文網-行政院人事行政總處公務人力發展學院",
+        "meeting_links": [
+          {
+            "text": "指定會議室頁面",
+            "url": "https://www.hrd.gov.tw/1122/2141/3157/?nodeId=12634"
+          },
+          {
+            "text": "場地查詢",
+            "url": "https://www.hrd.gov.tw/1123/2127/?q=場地查詢"
+          },
+          {
+            "text": "場地設施",
+            "url": "https://www.hrd.gov.tw/1122/2141/Normalnodelist"
+          },
+          {
+            "text": "會議場地",
+            "url": "https://www.hrd.gov.tw/1122/2141/3157/NPmeetingVenue"
+          },
+          {
+            "text": "餐飲服務",
+            "url": "https://www.hrd.gov.tw/1122/2141/3158/NPmeetingVenue"
+          },
+          {
+            "text": "住宿設施",
+            "url": "https://www.hrd.gov.tw/1122/2141/3159/NPmeetingVenue"
+          },
+          {
+            "text": "其他服務",
+            "url": "https://www.hrd.gov.tw/1122/2141/3160/NPmeetingVenue"
+          },
+          {
+            "text": "場地查詢及預約",
+            "url": "https://www.hrd.gov.tw/1122/2141/49777/SPHtml"
+          }
+        ],
+        "pricing_links": [
+          {
+            "text": "指定價格頁面",
+            "url": null
+          },
+          {
+            "text": "南投院區接受委託訓練收費標準",
+            "url": "https://www.hrd.gov.tw/1122/2140/2168/4748/post"
+          },
+          {
+            "text": "南投院區接受委託訓練收費標準",
+            "url": "https://www.hrd.gov.tw/1122/2140/2168/"
+          }
+        ],
+        "rules_links": [
+          {
+            "text": "指定規則頁面",
+            "url": null
+          },
+          {
+            "text": "學員須知",
+            "url": "https://www.hrd.gov.tw/1123/2127/?q=學員須知"
+          },
+          {
+            "text": "行政規則",
+            "url": "https://www.hrd.gov.tw/1122/2142/47563/47569/Lpsimplelist"
+          },
+          {
+            "text": "學員須知",
+            "url": "https://www.hrd.gov.tw/1122/2140/2164/20943/20944/4164/"
+          }
+        ],
+        "access_links": [
+          {
+            "text": "指定交通頁面",
+            "url": null
+          },
+          {
+            "text": "交通位置",
+            "url": "https://www.hrd.gov.tw/1122/2139/2149/NodelistIMG"
+          },
+          {
+            "text": "交通位置",
+            "url": "https://www.hrd.gov.tw/1122/2139/2149/"
+          },
+          {
+            "text": "交通位置",
+            "url": "https://service.hrd.gov.tw/reservation"
+          },
+          {
+            "text": "交通路線圖",
+            "url": "https://www.hrd.gov.tw/1122/2139/2149/20979/"
+          },
+          {
+            "text": "交通路線圖",
+            "url": "https://www.hrd.gov.tw/1122/2139/2149/20980/"
+          }
+        ],
+        "floor_plan_links": [
+          {
+            "text": "網站導覽",
+            "url": "https://www.hrd.gov.tw/1123/2125/"
+          },
+          {
+            "text": "學院導覽",
+            "url": "https://www.hrd.gov.tw/1122/2141/4314/NodelistIMG"
+          },
+          {
+            "text": "學院導覽",
+            "url": "https://www.hrd.gov.tw/1122/2141/4314/"
+          }
+        ],
+        "contact_links": []
+      },
+      "meeting_rooms": {
+        "total_links_found": 8,
+        "detailed_pages_scraped": 5,
+        "rooms": [
+          {
+            "name": "1F 前瞻廳",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/?nodeId=12634",
+            "floor": "1F",
+            "area": "",
+            "capacity": "220",
+            "capacity_type": "教室型",
+            "equipment": "投影機, 麥克風, 音響, 螢幕, 白板, 投影",
+            "price_half_day": "",
+            "price_full_day": ""
+          },
+          {
+            "name": "1F 101階梯教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/?nodeId=12634",
+            "floor": "1F",
+            "area": "",
+            "capacity": "41",
+            "capacity_type": "教室型",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          },
+          {
+            "name": "1F 103階梯教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/?nodeId=12634",
+            "floor": "1F",
+            "area": "",
+            "capacity": "78",
+            "capacity_type": "",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          },
+          {
+            "name": "2F 201教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/?nodeId=12634",
+            "floor": "2F",
+            "area": "",
+            "capacity": "30",
+            "capacity_type": "教室型",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          },
+          {
+            "name": "2F 202教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/?nodeId=12634",
+            "floor": "2F",
+            "area": "",
+            "capacity": "30",
+            "capacity_type": "教室型",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          },
+          {
+            "name": "2F 203教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/?nodeId=12634",
+            "floor": "2F",
+            "area": "",
+            "capacity": "48",
+            "capacity_type": "教室型",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          },
+          {
+            "name": "2F 204教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/?nodeId=12634",
+            "floor": "2F",
+            "area": "",
+            "capacity": "30",
+            "capacity_type": "教室型",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          },
+          {
+            "name": "2F 205教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/?nodeId=12634",
+            "floor": "2F",
+            "area": "",
+            "capacity": "30",
+            "capacity_type": "教室型",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          },
+          {
+            "name": "3F 304教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/?nodeId=12634",
+            "floor": "3F",
+            "area": "",
+            "capacity": "30",
+            "capacity_type": "教室型",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          },
+          {
+            "name": "3F 305教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/?nodeId=12634",
+            "floor": "3F",
+            "area": "",
+            "capacity": "30",
+            "capacity_type": "教室型",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          },
+          {
+            "name": "4F 401教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/?nodeId=12634",
+            "floor": "4F",
+            "area": "",
+            "capacity": "30",
+            "capacity_type": "教室型",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          },
+          {
+            "name": "4F 402教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/?nodeId=12634",
+            "floor": "4F",
+            "area": "",
+            "capacity": "30",
+            "capacity_type": "教室型",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          },
+          {
+            "name": "4F 403數位科技教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/?nodeId=12634",
+            "floor": "4F",
+            "area": "",
+            "capacity": "30",
+            "capacity_type": "教室型",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          },
+          {
+            "name": "4F 404數位互動教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/?nodeId=12634",
+            "floor": "4F",
+            "area": "",
+            "capacity": "60",
+            "capacity_type": "教室型",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          },
+          {
+            "name": "5F 501教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/?nodeId=12634",
+            "floor": "5F",
+            "area": "",
+            "capacity": "30",
+            "capacity_type": "教室型",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          },
+          {
+            "name": "5F 502教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/?nodeId=12634",
+            "floor": "5F",
+            "area": "",
+            "capacity": "30",
+            "capacity_type": "教室型",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          },
+          {
+            "name": "6F 601教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/?nodeId=12634",
+            "floor": "6F",
+            "area": "",
+            "capacity": "30",
+            "capacity_type": "教室型",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          },
+          {
+            "name": "6F 602教室",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/?nodeId=12634",
+            "floor": "6F",
+            "area": "",
+            "capacity": "30",
+            "capacity_type": "教室型",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          },
+          {
+            "name": "14F 貴賓廳-教室型",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/?nodeId=12634",
+            "floor": "4F",
+            "area": "",
+            "capacity": "100",
+            "capacity_type": "教室型",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          },
+          {
+            "name": "14F 貴賓廳-分組型",
+            "source": "https://www.hrd.gov.tw/1122/2141/3157/?nodeId=12634",
+            "floor": "4F",
+            "area": "",
+            "capacity": "81",
+            "capacity_type": "教室型",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          },
+          {
+            "name": "1F 恬園餐廳",
+            "source": "https://www.hrd.gov.tw/1122/2141/3158/NPmeetingVenue",
+            "floor": "1F",
+            "area": "",
+            "capacity": "190",
+            "capacity_type": "",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          },
+          {
+            "name": "14F 貴賓廳",
+            "source": "https://www.hrd.gov.tw/1122/2141/3158/NPmeetingVenue",
+            "floor": "4F",
+            "area": "",
+            "capacity": "100",
+            "capacity_type": "",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          },
+          {
+            "name": "B1 交誼廳",
+            "source": "https://www.hrd.gov.tw/1122/2141/3158/NPmeetingVenue",
+            "floor": "",
+            "area": "",
+            "capacity": "120",
+            "capacity_type": "",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          }
+        ],
+        "total_rooms_found": 23
+      },
+      "pricing": {
+        "links_found": 3,
+        "pages_scraped": 1,
+        "price_info": [
+          {
+            "page": "https://www.hrd.gov.tw/1122/2140/2168/4748/post",
+            "prices": [
+              "1060",
+              "810",
+              "2000",
+              "1000",
+              "33100",
+              "21100",
+              "66200",
+              "42200",
+              "99300",
+              "63300"
+            ]
+          }
+        ]
+      },
+      "rules": {
+        "links_found": 4,
+        "rules_extracted": {
+          "catering": null,
+          "smoking": null,
+          "decoration": null,
+          "noise": null,
+          "cleanup": null,
+          "deposit": null,
+          "cancellation": null,
+          "terms": null
+        }
+      },
+      "access": {
+        "links_found": 6,
+        "access_info": {}
+      },
+      "floor_plan": {
+        "links_found": 3,
+        "floor_plan": {
+          "description": [
+            "FatFooter",
+            "為提供更為穩定的瀏覽品質與使用體驗，建議更新瀏覽器至以下版本：IE10(含)以上、最新版本Chrome、最新版本Firefox"
+          ]
+        }
+      }
+    },
+    "success": true,
+    "total_pages_scraped": 1
+  },
+  {
+    "id": 1049,
+    "name": "台北國際展演中心(TWTCA)",
+    "url": "https://www.twtc.com.tw",
+    "scraped_at": "2026-03-25T15:46:13.355209",
+    "scrape_pages": [
+      "https://www.twtc.com.tw"
+    ],
+    "data": {
+      "homepage": {
+        "url": "https://www.twtc.com.tw",
+        "title": "台北世貿中心",
+        "meeting_links": [
+          {
+            "text": "指定會議室頁面",
+            "url": "https://www.twtc.com.tw/meeting?p=menu1"
+          },
+          {
+            "text": "活動場地",
+            "url": "https://www.twtc.com.tw#"
+          },
+          {
+            "text": "展覽場地租借",
+            "url": "https://www.twtc.com.tw/exh"
+          },
+          {
+            "text": "會議室介紹",
+            "url": "https://www.twtc.com.tw/meeting?p=menu1"
+          },
+          {
+            "text": "第一會議室",
+            "url": "https://www.twtc.com.tw/meeting1"
+          },
+          {
+            "text": "A+會議室",
+            "url": "https://www.twtc.com.tw/meeting11"
+          },
+          {
+            "text": "第二會議室",
+            "url": "https://www.twtc.com.tw/meeting2"
+          },
+          {
+            "text": "第三會議室",
+            "url": "https://www.twtc.com.tw/meeting3"
+          },
+          {
+            "text": "第四會議室",
+            "url": "https://www.twtc.com.tw/meeting4"
+          },
+          {
+            "text": "第五會議室",
+            "url": "https://www.twtc.com.tw/meeting5"
+          },
+          {
+            "text": "第三四五會議室(打通)",
+            "url": "https://www.twtc.com.tw/meeting345"
+          },
+          {
+            "text": "一樓貴賓室",
+            "url": "https://www.twtc.com.tw/meeting22"
+          },
+          {
+            "text": "第一五會議室間廊廳",
+            "url": "https://www.twtc.com.tw/meeting15"
+          },
+          {
+            "text": "會議室表單下載",
+            "url": "https://www.twtc.com.tw/meeting_form"
+          }
+        ],
+        "pricing_links": [
+          {
+            "text": "指定價格頁面",
+            "url": null
+          }
+        ],
+        "rules_links": [
+          {
+            "text": "指定規則頁面",
+            "url": null
+          },
+          {
+            "text": "展覽場地租借",
+            "url": "https://www.twtc.com.tw/exh"
+          },
+          {
+            "text": "2025/02/05 修正「外貿協會世貿一館展覽場借用實施規範」第五條第二項第二款及第七條第一項第五款並於即日起實施，敬請參考。",
+            "url": "https://www.twtc.com.tw/news-detail.aspx?sn=2339"
+          }
+        ],
+        "access_links": [
+          {
+            "text": "指定交通頁面",
+            "url": null
+          },
+          {
+            "text": "交通資訊",
+            "url": "https://www.twtc.com.tw/traffic"
+          },
+          {
+            "text": "捷運",
+            "url": "https://www.google.com/search?q=%E5%8F%B0%E5%8C%97%E4%B8%96%E8%B2%BF%E4%B8%80%E9%A4%A8+%E6%8D%B7%E9%81%8B&rlz=1C1FKPE_zh-TWTW956TW957&sxsrf=AOaemvKDHe4O4yj5R55P1RK7hZkFDLTtEw%3A1631000212600&ei=lBY3YdiDJILDmAWaroLQCw&oq=%E6%8D%B7%E9%81%8B+%E5%8F%B0%E5%8C%97%E4%B8%96%E8%B2%BF&gs_lcp=Cgdnd3Mtd2l6EAEYADIGCAAQCBAeMgYIABAIEB4yBggAEAgQHjIGCAAQCBAeMgYIABAIEB4yBggAEAgQHjoHCCMQsAMQJzoHCAAQRxCwAzoICAAQsQMQgwE6BQgAELEDOgUIABDNAjoECAAQQzoFCAAQgAQ6AggmOgQIABAeOgYIABAEEB5KBAhBGABQoT1YhVlg72poAXACeACAAaoBiAGhBZIBBDExLjGYAQCgAQHIAQnAAQE&sclient=gws-wiz"
+          },
+          {
+            "text": "停車場",
+            "url": "https://www.twtc.com.tw#"
+          }
+        ],
+        "floor_plan_links": [],
+        "contact_links": []
+      },
+      "meeting_rooms": {
+        "total_links_found": 14,
+        "detailed_pages_scraped": 5,
+        "rooms": [
+          {
+            "name": "世貿一館會議室介紹及場地佈置",
+            "source": "https://www.twtc.com.tw/meeting?p=menu1",
+            "floor": "",
+            "area": "",
+            "capacity": "",
+            "capacity_type": "教室型",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          },
+          {
+            "name": "會議室介紹",
+            "source": "https://www.twtc.com.tw/meeting?p=menu1",
+            "floor": "",
+            "area": "",
+            "capacity": "",
+            "capacity_type": "教室型",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          },
+          {
+            "name": "第一會議室",
+            "source": "https://www.twtc.com.tw/meeting?p=menu1",
+            "floor": "",
+            "area": "",
+            "capacity": "",
+            "capacity_type": "教室型",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          },
+          {
+            "name": "A+會議室",
+            "source": "https://www.twtc.com.tw/meeting?p=menu1",
+            "floor": "",
+            "area": "",
+            "capacity": "",
+            "capacity_type": "教室型",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          },
+          {
+            "name": "第二會議室",
+            "source": "https://www.twtc.com.tw/meeting?p=menu1",
+            "floor": "",
+            "area": "",
+            "capacity": "",
+            "capacity_type": "教室型",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          },
+          {
+            "name": "第三會議室",
+            "source": "https://www.twtc.com.tw/meeting?p=menu1",
+            "floor": "",
+            "area": "",
+            "capacity": "",
+            "capacity_type": "教室型",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          },
+          {
+            "name": "第四會議室",
+            "source": "https://www.twtc.com.tw/meeting?p=menu1",
+            "floor": "",
+            "area": "",
+            "capacity": "",
+            "capacity_type": "教室型",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          },
+          {
+            "name": "第五會議室",
+            "source": "https://www.twtc.com.tw/meeting?p=menu1",
+            "floor": "",
+            "area": "",
+            "capacity": "",
+            "capacity_type": "教室型",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          },
+          {
+            "name": "第三、四、五會議室(打通)",
+            "source": "https://www.twtc.com.tw/meeting?p=menu1",
+            "floor": "",
+            "area": "",
+            "capacity": "",
+            "capacity_type": "劇院型",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          },
+          {
+            "name": "第一、五會議室間廊廳",
+            "source": "https://www.twtc.com.tw/meeting?p=menu1",
+            "floor": "",
+            "area": "",
+            "capacity": "",
+            "capacity_type": "",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          },
+          {
+            "name": "會議室出租",
+            "source": "https://www.twtc.com.tw/meeting1",
+            "floor": "",
+            "area": "",
+            "capacity": "",
+            "capacity_type": "教室型",
+            "equipment": "",
+            "price_half_day": "",
+            "price_full_day": ""
+          }
+        ],
+        "total_rooms_found": 11
+      },
+      "pricing": {
+        "links_found": 1,
+        "pages_scraped": 0,
+        "price_info": []
+      },
+      "rules": {
+        "links_found": 3,
+        "rules_extracted": {
+          "catering": null,
+          "smoking": null,
+          "decoration": null,
+          "noise": null,
+          "cleanup": null,
+          "deposit": null,
+          "cancellation": null,
+          "terms": "歡迎進入台北世界貿易中心展覽場地租借系統，如果您預備要在台灣面積最大的展覽場主辦展覽 或活動，"
+        }
+      },
+      "access": {
+        "links_found": 4,
+        "access_info": {}
+      },
+      "floor_plan": {
+        "links_found": 0,
+        "floor_plan": {}
+      }
+    },
+    "success": true,
+    "total_pages_scraped": 1
+  },
+  {
+    "id": 1448,
+    "name": "台北國際會議中心(TICC)",
+    "url": "https://www.ticc.com.tw/",
+    "scraped_at": "2026-03-25T15:46:15.831360",
+    "scrape_pages": [
+      "https://www.ticc.com.tw/"
+    ],
+    "data": {
+      "homepage": {
+        "url": "https://www.ticc.com.tw/",
+        "title": "外貿協會台北國際會議中心",
+        "meeting_links": [
+          {
+            "text": "指定會議室頁面",
+            "url": "https://www.ticc.com.tw/wSite/sp?xdUrl=/wSite/ap/lp_VenueIntroduction.jsp&ctNode=321&CtUnit=98&BaseDSD=7&mp=1"
+          },
+          {
+            "text": "場地導覽",
+            "url": "https://www.ticc.com.tw/np?ctNode=320&mp=1"
+          },
+          {
+            "text": "場地介紹",
+            "url": "https://www.ticc.com.tw/sp?xdUrl=/wSite/ap/lp_VenueIntroduction.jsp&ctNode=321&CtUnit=98&BaseDSD=7&mp=1"
+          },
+          {
+            "text": "場地查詢",
+            "url": "https://www.ticc.com.tw/sp?xdUrl=/wSite/ap/lp_VenueSearch.jsp&ctNode=322&CtUnit=99&BaseDSD=7&mp=1"
+          },
+          {
+            "text": "「115年國際媒體邀訪」評選會議  2026/03/26",
+            "url": "https://www.ticc.com.tw/sp?xdUrl=/wSite/ap/cp_Activity.jsp&ctNode=318&mp=1&bId=8040"
+          }
+        ],
+        "pricing_links": [
+          {
+            "text": "指定價格頁面",
+            "url": "https://www.ticc.com.tw/wSite/lp?ctNode=335&CtUnit=109&BaseDSD=7&mp=1"
+          },
+          {
+            "text": "價目表",
+            "url": "https://www.ticc.com.tw/lp?ctNode=335&CtUnit=109&BaseDSD=7&mp=1"
+          }
+        ],
+        "rules_links": [
+          {
+            "text": "指定規則頁面",
+            "url": "https://www.ticc.com.tw/wSite/lp?ctNode=336&CtUnit=110&BaseDSD=7&mp=1"
+          },
+          {
+            "text": "詳情與租借規範",
+            "url": "https://www.ticc.com.tw/lp?ctNode=336&CtUnit=110&BaseDSD=7&mp=1"
+          }
+        ],
+        "access_links": [
+          {
+            "text": "指定交通頁面",
+            "url": "https://www.ticc.com.tw/wSite/ct?xItem=922&ctNode=31"
+          },
+          {
+            "text": "交通資訊",
+            "url": "https://www.ticc.com.tw/np?ctNode=314&CtUnit=93&BaseDSD=7&mp=1"
+          }
+        ],
+        "floor_plan_links": [
+          {
+            "text": "網站導覽",
+            "url": "https://www.ticc.com.tw/sitemap?mp=1"
+          },
+          {
+            "text": "場地導覽",
+            "url": "https://www.ticc.com.tw/np?ctNode=320&mp=1"
+          }
+        ],
+        "contact_links": []
+      },
+      "meeting_rooms": {
+        "total_links_found": 5,
+        "detailed_pages_scraped": 1,
+        "rooms": [],
+        "total_rooms_found": 0
+      },
+      "pricing": {
+        "links_found": 2,
+        "pages_scraped": 2,
+        "price_info": []
+      },
+      "rules": {
+        "links_found": 2,
+        "rules_extracted": {
+          "catering": null,
+          "smoking": null,
+          "decoration": null,
+          "noise": null,
+          "cleanup": null,
+          "deposit": null,
+          "cancellation": null,
+          "terms": null
+        }
+      },
+      "access": {
+        "links_found": 2,
+        "access_info": {}
+      },
+      "floor_plan": {
+        "links_found": 2,
+        "floor_plan": {
+          "description": [
+            "Faithfully yours, nginx."
+          ]
+        }
+      }
+    },
+    "success": true,
+    "total_pages_scraped": 1
+  }
+]

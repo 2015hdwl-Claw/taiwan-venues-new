@@ -1,0 +1,87 @@
+{
+  "venue": "台北寒舍喜來登大飯店",
+  "venue_id": 1075,
+  "timestamp": "2026-03-27T00:35:18.624905",
+  "meeting_pages": [
+    {
+      "text": "宴會會議",
+      "url": "https://www.sheratongrandtaipei.com/ /websev?lang=zh-tw&ref=pages&cat=50"
+    },
+    {
+      "text": "喜來婚宴",
+      "url": "https://www.sheratongrandtaipei.com//websev?lang=zh-tw&ref=pages&cat=50&id=336"
+    },
+    {
+      "text": "會議專案",
+      "url": "https://www.sheratongrandtaipei.com//websev?lang=zh-tw&ref=pages&cat=50&id=36"
+    }
+  ],
+  "pdf_urls": [],
+  "rooms_found": [
+    {
+      "name": "宴會廳",
+      "source": "https://www.sheratongrandtaipei.com//websev?lang=zh-tw&ref=pages&cat=50&id=336"
+    },
+    {
+      "name": "多功能會議廳",
+      "source": "https://www.sheratongrandtaipei.com//websev?lang=zh-tw&ref=pages&cat=50&id=336"
+    },
+    {
+      "name": "萬豪旅享家・餐飲消費適用餐廳",
+      "source": "https://www.sheratongrandtaipei.com//websev?lang=zh-tw&ref=pages&cat=50&id=336"
+    },
+    {
+      "name": "宴會廳-福廳/祿廳",
+      "source": "https://www.sheratongrandtaipei.com//websev?lang=zh-tw&ref=pages&cat=50&id=36"
+    },
+    {
+      "name": "宴會廳-壽廳/喜廳",
+      "source": "https://www.sheratongrandtaipei.com//websev?lang=zh-tw&ref=pages&cat=50&id=36"
+    },
+    {
+      "name": "B2 宴會廳",
+      "source": "https://www.sheratongrandtaipei.com//websev?lang=zh-tw&ref=pages&cat=50&id=36"
+    },
+    {
+      "name": "B1 多功能廳",
+      "source": "https://www.sheratongrandtaipei.com//websev?lang=zh-tw&ref=pages&cat=50&id=36"
+    }
+  ],
+  "room_details": {
+    "宴會廳": {
+      "capacity": 400,
+      "areaPing": 2760.0,
+      "source": "https://www.sheratongrandtaipei.com//websev?lang=zh-tw&ref=pages&cat=50&id=336"
+    },
+    "多功能會議廳": {
+      "capacity": 400,
+      "areaPing": 2760.0,
+      "source": "https://www.sheratongrandtaipei.com//websev?lang=zh-tw&ref=pages&cat=50&id=336"
+    },
+    "萬豪旅享家・餐飲消費適用餐廳": {
+      "capacity": 400,
+      "areaPing": 2760.0,
+      "source": "https://www.sheratongrandtaipei.com//websev?lang=zh-tw&ref=pages&cat=50&id=336"
+    },
+    "宴會廳-福廳/祿廳": {
+      "capacity": null,
+      "areaPing": 150.0,
+      "source": "https://www.sheratongrandtaipei.com//websev?lang=zh-tw&ref=pages&cat=50&id=36"
+    },
+    "宴會廳-壽廳/喜廳": {
+      "capacity": null,
+      "areaPing": 150.0,
+      "source": "https://www.sheratongrandtaipei.com//websev?lang=zh-tw&ref=pages&cat=50&id=36"
+    },
+    "B2 宴會廳": {
+      "capacity": null,
+      "areaPing": 150.0,
+      "source": "https://www.sheratongrandtaipei.com//websev?lang=zh-tw&ref=pages&cat=50&id=36"
+    },
+    "B1 多功能廳": {
+      "capacity": null,
+      "areaPing": 150.0,
+      "source": "https://www.sheratongrandtaipei.com//websev?lang=zh-tw&ref=pages&cat=50&id=36"
+    }
+  }
+}

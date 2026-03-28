@@ -1,0 +1,22 @@
+{
+  "venue": "TICC",
+  "version": 5,
+  "parser": "final",
+  "parsed_at": "2026-03-25T20:13:58.644907",
+  "total_rooms": 1,
+  "rooms": [
+    {
+      "name": "大會堂全場",
+      "capacity_theater": 3100,
+      "capacity_classroom": null,
+      "capacity_u": null,
+      "capacity_negotiate": null,
+      "area_sqm": 2973,
+      "area_ping": 899,
+      "dimensions": null,
+      "price_weekday": 159000,
+      "price_weekend": 170000,
+      "price_exhibition": null
+    }
+  ]
+}

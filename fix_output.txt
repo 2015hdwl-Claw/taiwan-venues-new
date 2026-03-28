@@ -1,0 +1,13 @@
+================================================================================
+修復關鍵場地的會議室資料
+================================================================================
+
+備份: venues.json.backup.fix_1448_1500_20260325_194210
+
+[1/2] 修復 TICC (ID 1448)
+--------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\le202\Documents\taiwan-venues-new\fix_1448_complete.py", line 64, in <module>
+    print(f"\u2705 TICC 更新完成")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'cp950' codec can't encode character '\u2705' in position 0: illegal multibyte sequence

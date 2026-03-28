@@ -1,0 +1,212 @@
+[
+  {
+    "id": "1500-福軒",
+    "name": "福軒（1館3樓）",
+    "nameEn": "福軒",
+    "area": 83.5,
+    "areaUnit": "㎡",
+    "height": 3.9,
+    "capacity": {
+      "theater": 60,
+      "standard": 48,
+      "classroom": 32,
+      "uShape": 28,
+      "horseshoe": 20
+    },
+    "price": {
+      "weekday": 13800,
+      "holiday": 13800
+    },
+    "floor": "1館3樓",
+    "source": "tainex_official"
+  },
+  {
+    "id": "1500-401",
+    "name": "401（1館4樓）",
+    "nameEn": "401",
+    "area": 375.7,
+    "areaUnit": "㎡",
+    "height": 3.5,
+    "capacity": {
+      "theater": 384,
+      "standard": 216,
+      "classroom": 144,
+      "uShape": 72,
+      "horseshoe": 52
+    },
+    "price": {
+      "weekday": 39900,
+      "holiday": 39900
+    },
+    "floor": "1館4樓",
+    "source": "tainex_official"
+  },
+  {
+    "id": "1500-402",
+    "name": "402（1館4樓）",
+    "nameEn": "402",
+    "area": 372.6,
+    "areaUnit": "㎡",
+    "height": 3.5,
+    "capacity": {
+      "theater": 384,
+      "standard": 216,
+      "classroom": 144,
+      "uShape": 72,
+      "horseshoe": 52
+    },
+    "price": {
+      "weekday": 39400,
+      "holiday": 39400
+    },
+    "floor": "1館4樓",
+    "source": "tainex_official"
+  },
+  {
+    "id": "1500-403",
+    "name": "403（1館4樓）",
+    "nameEn": "403",
+    "area": 149.5,
+    "areaUnit": "㎡",
+    "height": 3.5,
+    "capacity": {
+      "theater": 144,
+      "standard": 100,
+      "classroom": 72,
+      "uShape": 40,
+      "horseshoe": 32
+    },
+    "price": {
+      "weekday": 15600,
+      "holiday": 15600
+    },
+    "floor": "1館4樓",
+    "source": "tainex_official"
+  },
+  {
+    "id": "1500-404",
+    "name": "404（1館4樓）",
+    "nameEn": "404",
+    "area": 133.5,
+    "areaUnit": "㎡",
+    "height": 3.5,
+    "capacity": {
+      "theater": 120,
+      "standard": 84,
+      "classroom": 60,
+      "uShape": 32,
+      "horseshoe": 28
+    },
+    "price": {
+      "weekday": 14000,
+      "holiday": 14000
+    },
+    "floor": "1館4樓",
+    "source": "tainex_official"
+  },
+  {
+    "id": "1500-500",
+    "name": "500（1館5樓）",
+    "nameEn": "500",
+    "area": 159.8,
+    "areaUnit": "㎡",
+    "height": 2.8,
+    "capacity": {
+      "theater": 144,
+      "standard": 96,
+      "classroom": 60,
+      "uShape": 36,
+      "horseshoe": 28
+    },
+    "price": {
+      "weekday": 16700,
+      "holiday": 16700
+    },
+    "floor": "1館5樓",
+    "source": "tainex_official"
+  },
+  {
+    "id": "1500-701",
+    "name": "701（2館7樓）",
+    "nameEn": "701",
+    "area": null,
+    "areaUnit": "㎡",
+    "height": null,
+    "capacity": {
+      "theater": 100,
+      "standard": 72,
+      "classroom": 48,
+      "uShape": 28,
+      "horseshoe": 24
+    },
+    "price": {},
+    "floor": "2館7樓",
+    "source": "tainex_official"
+  },
+  {
+    "id": "1500-13-宴會廳全室",
+    "name": "宴會廳（1館3樓全室）",
+    "nameEn": "宴會廳全室",
+    "area": 671.0,
+    "areaUnit": "㎡",
+    "height": 3.9,
+    "capacity": {
+      "theater": 372,
+      "standard": 264,
+      "classroom": 160,
+      "uShape": 92,
+      "horseshoe": 88
+    },
+    "price": {},
+    "floor": "1館3樓",
+    "source": "tainex_official"
+  },
+  {
+    "id": "1500-13-宴會廳A",
+    "name": "宴會廳A（1館3樓朝南）",
+    "nameEn": "宴會廳A",
+    "area": 337.0,
+    "areaUnit": "㎡",
+    "height": 3.9,
+    "capacity": {
+      "theater": 120,
+      "standard": 84,
+      "classroom": 56,
+      "uShape": 36,
+      "horseshoe": 32
+    },
+    "price": {},
+    "floor": "1館3樓",
+    "source": "tainex_official"
+  },
+  {
+    "id": "1500-13-宴會廳B",
+    "name": "宴會廳B（1館3樓朝北）",
+    "nameEn": "宴會廳B",
+    "area": 344.0,
+    "areaUnit": "㎡",
+    "height": 3.9,
+    "capacity": {
+      "theater": 192,
+      "standard": 132,
+      "classroom": 88,
+      "uShape": 52,
+      "horseshoe": 48
+    },
+    "price": {},
+    "floor": "1館3樓",
+    "source": "tainex_official"
+  },
+  {
+    "id": "1500-13-貴賓室",
+    "name": "貴賓室（1館3樓）",
+    "nameEn": "貴賓室",
+    "area": 50.0,
+    "areaUnit": "㎡",
+    "height": 3.9,
+    "capacity": {},
+    "price": {},
+    "floor": "1館3樓",
+    "source": "tainex_official"
+  }
+]

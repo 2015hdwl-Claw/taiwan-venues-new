@@ -1,0 +1,57 @@
+[
+  {
+    "name": "巴哈廳",
+    "url": "https://www.meeting.com.tw/hsp/bach.php",
+    "capacity": 90,
+    "areaPing": 28.0,
+    "price": null,
+    "photos": [
+      "https://www.meeting.com.tw/hsp/../images/logos/20210719_gis-hsp-convention-center-logo-cn.svg"
+    ],
+    "html_file": "jhsi_hcph_docs/巴哈廳_detail.html"
+  },
+  {
+    "name": "羅西尼廳",
+    "url": "https://www.meeting.com.tw/hsp/rossini.php",
+    "capacity": 140,
+    "areaPing": 43.0,
+    "price": null,
+    "photos": [
+      "https://www.meeting.com.tw/hsp/../images/logos/20210719_gis-hsp-convention-center-logo-cn.svg"
+    ],
+    "html_file": "jhsi_hcph_docs/羅西尼廳_detail.html"
+  },
+  {
+    "name": "鄧肯廳",
+    "url": "https://www.meeting.com.tw/hsp/duncan.php",
+    "capacity": null,
+    "areaPing": 25.0,
+    "price": null,
+    "photos": [
+      "https://www.meeting.com.tw/hsp/../images/logos/20210719_gis-hsp-convention-center-logo-cn.svg"
+    ],
+    "html_file": "jhsi_hcph_docs/鄧肯廳_detail.html"
+  },
+  {
+    "name": "愛因斯坦廳",
+    "url": "https://www.meeting.com.tw/hsp/einstein.php",
+    "capacity": 155,
+    "areaPing": 63.0,
+    "price": null,
+    "photos": [
+      "https://www.meeting.com.tw/hsp/../images/logos/20210719_gis-hsp-convention-center-logo-cn.svg"
+    ],
+    "html_file": "jhsi_hcph_docs/愛因斯坦廳_detail.html"
+  },
+  {
+    "name": "愛迪生廳",
+    "url": "https://www.meeting.com.tw/hsp/edison.php",
+    "capacity": 75,
+    "areaPing": 28.0,
+    "price": null,
+    "photos": [
+      "https://www.meeting.com.tw/hsp/../images/logos/20210719_gis-hsp-convention-center-logo-cn.svg"
+    ],
+    "html_file": "jhsi_hcph_docs/愛迪生廳_detail.html"
+  }
+]

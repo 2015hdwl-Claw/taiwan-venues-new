@@ -1,0 +1,44 @@
+{
+  "venue": "台北艾麗酒店",
+  "venue_id": 1077,
+  "timestamp": "2026-03-27T01:04:37.531523",
+  "main_page": {
+    "url": "https://www.humblehousehotels.com/",
+    "status": 200,
+    "size": 56487,
+    "js_frameworks": [
+      "jQuery"
+    ]
+  },
+  "meeting_links": [
+    {
+      "text": "HUMBLE HOUSE EXPERIENCE",
+      "url": "https://www.humblehousehotels.com//en/websev?cat=page&id=1"
+    },
+    {
+      "text": "HUMBLE HOUSE SUITE",
+      "url": "https://www.humblehousehotels.com//en/websev?cat=page&id=24"
+    },
+    {
+      "text": "Events",
+      "url": "https://www.humblehousehotels.com/javascript: void(0);"
+    },
+    {
+      "text": "Meeting Service",
+      "url": "https://www.humblehousehotels.com//en/websev?cat=page&id=37"
+    },
+    {
+      "text": "",
+      "url": "https://www.facebook.com/humblehousetaipei"
+    },
+    {
+      "text": "",
+      "url": "https://www.instagram.com/humblehousehotels/"
+    },
+    {
+      "text": "",
+      "url": "https://www.humblehousehotels.com/ https://www.designhotels.com/hotels/taiwan/taipei/humble-house-taipei "
+    }
+  ],
+  "pdf_links": []
+}

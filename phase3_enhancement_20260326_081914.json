@@ -1,0 +1,551 @@
+[
+  {
+    "success": true,
+    "id": 1034,
+    "currentQuality": 66,
+    "rooms": [
+      {
+        "id": "r001",
+        "name": "2F展演空間",
+        "area": 200,
+        "areaUnit": "坪",
+        "capacity": {
+          "theater": 500
+        },
+        "capacityType": "劇院式",
+        "images": {
+          "main": "https://static.wixstatic.com/media/4a5f41_7376f72f26af44af91feec132c9f4bcb~mv2.png/v1/fill/w_824,h_426,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E5%9C%96%E7%89%87%201.png",
+          "source": "https://www.nuzone.com.tw"
+        },
+        "floor": "2樓"
+      },
+      {
+        "id": "r002",
+        "name": "7F展演空間",
+        "area": 150,
+        "areaUnit": "坪",
+        "capacity": {
+          "theater": 300
+        },
+        "capacityType": "劇院式",
+        "images": {
+          "main": "https://static.wixstatic.com/media/4a5f41_54687a49caa44d8eab51b0843cf01207~mv2.jpg/v1/crop/x_0,y_0,w_1550,h_601/fill/w_866,h_338,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E6%88%AA%E5%9C%96%202025-09-02%20%E4%B8%8B%E5%8D%884_edited.jpg",
+          "source": "https://www.nuzone.com.tw"
+        },
+        "floor": "7樓"
+      },
+      {
+        "id": "r003",
+        "name": "1F活動空間",
+        "area": 100,
+        "areaUnit": "坪",
+        "capacity": {
+          "theater": 200
+        },
+        "capacityType": "劇院式",
+        "images": {
+          "main": "https://static.wixstatic.com/media/b8e171_567eaa1bf25a4baf9e3deda73fcda17e~mv2.jpg/v1/fill/w_230,h_342,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/DSC_0059.jpg",
+          "source": "https://www.nuzone.com.tw"
+        },
+        "floor": "1樓"
+      }
+    ],
+    "priceData": {
+      "hasPriceInfo": false,
+      "priceInHTML": false,
+      "hasPDF": false,
+      "pdfUrls": [],
+      "extractedPrices": {}
+    },
+    "newQuality": 71,
+    "qualityImprovement": 5
+  },
+  {
+    "success": true,
+    "id": 1042,
+    "currentQuality": 40,
+    "rooms": [
+      {
+        "name": "1F 前瞻廳",
+        "floor": "1F",
+        "capacity": "220",
+        "area": "",
+        "equipment": "投影機, 麥克風, 音響, 螢幕, 白板"
+      },
+      {
+        "name": "1F 前瞻廳",
+        "floor": "1F",
+        "capacity": "220",
+        "area": "",
+        "equipment": "投影機, 麥克風, 音響, 螢幕, 白板"
+      },
+      {
+        "name": "1F 前瞻廳",
+        "floor": "1F",
+        "capacity": "220",
+        "area": "",
+        "equipment": "投影機, 麥克風, 音響, 螢幕, 白板"
+      },
+      {
+        "name": "1F 前瞻廳",
+        "floor": "1F",
+        "capacity": "220",
+        "area": "",
+        "equipment": "投影機, 麥克風, 音響, 螢幕, 白板"
+      },
+      {
+        "name": "1F 前瞻廳",
+        "floor": "1F",
+        "capacity": "220",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "1F 前瞻廳",
+        "floor": "1F",
+        "capacity": "220",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "1F 前瞻廳",
+        "floor": "1F",
+        "capacity": "220",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "1F 前瞻廳",
+        "floor": "1F",
+        "capacity": "220",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "1F 101階梯教室",
+        "floor": "1F",
+        "capacity": "41",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "1F 101階梯教室",
+        "floor": "1F",
+        "capacity": "41",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "1F 103階梯教室",
+        "floor": "1F",
+        "capacity": "78",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "1F 103階梯教室",
+        "floor": "1F",
+        "capacity": "78",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2F 201教室",
+        "floor": "2F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2F 201教室",
+        "floor": "2F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2F 202教室",
+        "floor": "2F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2F 202教室",
+        "floor": "2F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2F 203教室",
+        "floor": "2F",
+        "capacity": "48",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2F 203教室",
+        "floor": "2F",
+        "capacity": "48",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2F 204教室",
+        "floor": "2F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2F 204教室",
+        "floor": "2F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2F 205教室",
+        "floor": "2F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "2F 205教室",
+        "floor": "2F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "3F 304教室",
+        "floor": "3F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "3F 304教室",
+        "floor": "3F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "3F 305教室",
+        "floor": "3F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "3F 305教室",
+        "floor": "3F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "4F 401教室",
+        "floor": "4F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "4F 401教室",
+        "floor": "4F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "4F 402教室",
+        "floor": "4F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "4F 402教室",
+        "floor": "4F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "4F 403數位科技教室",
+        "floor": "4F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "4F 403數位科技教室",
+        "floor": "4F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "4F 404數位互動教室",
+        "floor": "4F",
+        "capacity": "60",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "4F 404數位互動教室",
+        "floor": "4F",
+        "capacity": "60",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "5F 501教室",
+        "floor": "5F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "5F 501教室",
+        "floor": "5F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "5F 502教室",
+        "floor": "5F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "5F 502教室",
+        "floor": "5F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "6F 601教室",
+        "floor": "6F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "6F 601教室",
+        "floor": "6F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "6F 602教室",
+        "floor": "6F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "6F 602教室",
+        "floor": "6F",
+        "capacity": "30",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "14F 貴賓廳-教室型",
+        "floor": "14F",
+        "capacity": "100",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "14F 貴賓廳-教室型",
+        "floor": "14F",
+        "capacity": "100",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "14F 貴賓廳-分組型",
+        "floor": "14F",
+        "capacity": "81",
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "14F 貴賓廳-分組型",
+        "floor": "14F",
+        "capacity": "81",
+        "area": "",
+        "equipment": ""
+      }
+    ],
+    "priceData": {
+      "hasPriceInfo": false,
+      "priceInHTML": false,
+      "hasPDF": false,
+      "pdfUrls": [],
+      "extractedPrices": {}
+    },
+    "newQuality": 40,
+    "qualityImprovement": 0
+  },
+  {
+    "success": false,
+    "id": 1043,
+    "error": "404 Client Error: Not Found for url: https://www.courtyardtaipei.com.tw/zh-TW/"
+  },
+  {
+    "success": true,
+    "id": 1045,
+    "currentQuality": 66,
+    "rooms": [
+      {
+        "name": "國際會議廳",
+        "capacity": {
+          "theater": 80
+        },
+        "area": "約50坪",
+        "layout": "劇院型/教室型",
+        "price": "每小時 3,000 元起",
+        "equipment": "投影設備、音響系統",
+        "photo": "https://www.ntut.edu.tw/images/incubator.jpg",
+        "id": "1045-01"
+      },
+      {
+        "name": "會議室A",
+        "capacity": {
+          "theater": 30
+        },
+        "area": "約15坪",
+        "layout": "會議型",
+        "price": "每小時 1,500 元起",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ntut.edu.tw/images/meeting.jpg",
+        "id": "1045-02"
+      },
+      {
+        "name": "會議室B",
+        "capacity": {
+          "theater": 20
+        },
+        "area": "約10坪",
+        "layout": "會議型",
+        "price": "每小時 1,000 元起",
+        "equipment": "投影設備、白板",
+        "photo": "https://www.ntut.edu.tw/images/meeting.jpg",
+        "id": "1045-03"
+      }
+    ],
+    "priceData": {
+      "hasPriceInfo": false,
+      "priceInHTML": false,
+      "hasPDF": true,
+      "pdfUrls": [],
+      "extractedPrices": {}
+    },
+    "newQuality": 71,
+    "qualityImprovement": 5
+  },
+  {
+    "success": true,
+    "id": 1049,
+    "currentQuality": 40,
+    "rooms": [
+      {
+        "name": "世貿一館會議室介紹及場地佈置",
+        "floor": "1樓",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "世貿一館會議室介紹及場地佈置",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "會議室介紹",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "第一會議室",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "A+會議室",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "第二會議室",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "第三會議室",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "第四會議室",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "第五會議室",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "第三、四、五會議室(打通)",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      },
+      {
+        "name": "第一、五會議室間廊廳",
+        "floor": "",
+        "capacity": null,
+        "area": "",
+        "equipment": ""
+      }
+    ],
+    "priceData": {
+      "hasPriceInfo": false,
+      "priceInHTML": false,
+      "hasPDF": false,
+      "pdfUrls": [],
+      "extractedPrices": {}
+    },
+    "newQuality": 40,
+    "qualityImprovement": 0
+  }
+]

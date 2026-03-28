@@ -1,0 +1,81 @@
+{
+  "venue": "集思竹科會議中心",
+  "timestamp": "2026-03-26T22:44:59.092888",
+  "rooms": [
+    {
+      "name": "巴哈廳",
+      "url": "https://www.meeting.com.tw/hsp/bach.php",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "script_count": 14,
+      "image_count": 34,
+      "room_images": 16,
+      "has_price": true,
+      "has_capacity": false,
+      "has_area": true,
+      "has_floor": true,
+      "server": "Apache",
+      "cookies": 0
+    },
+    {
+      "name": "羅西尼廳",
+      "url": "https://www.meeting.com.tw/hsp/rossini.php",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "script_count": 14,
+      "image_count": 35,
+      "room_images": 16,
+      "has_price": true,
+      "has_capacity": false,
+      "has_area": true,
+      "has_floor": true,
+      "server": "Apache",
+      "cookies": 0
+    },
+    {
+      "name": "鄧肯廳",
+      "url": "https://www.meeting.com.tw/hsp/duncan.php",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "script_count": 14,
+      "image_count": 22,
+      "room_images": 10,
+      "has_price": true,
+      "has_capacity": false,
+      "has_area": true,
+      "has_floor": true,
+      "server": "Apache",
+      "cookies": 0
+    },
+    {
+      "name": "愛因斯坦廳",
+      "url": "https://www.meeting.com.tw/hsp/einstein.php",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "script_count": 14,
+      "image_count": 27,
+      "room_images": 12,
+      "has_price": true,
+      "has_capacity": false,
+      "has_area": true,
+      "has_floor": true,
+      "server": "Apache",
+      "cookies": 0
+    },
+    {
+      "name": "愛迪生廳",
+      "url": "https://www.meeting.com.tw/hsp/edison.php",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "script_count": 14,
+      "image_count": 21,
+      "room_images": 8,
+      "has_price": true,
+      "has_capacity": false,
+      "has_area": true,
+      "has_floor": true,
+      "server": "Apache",
+      "cookies": 0
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "venue": "集思交通部國際會議中心",
+  "venue_id": 1494,
+  "timestamp": "2026-03-26T23:59:05.914019",
+  "base_url": "https://www.meeting.com.tw/motc/",
+  "rooms_found": 4,
+  "pdfs_found": 7,
+  "pdf_rental_url": "https://www.meeting.com.tw/motc/download/交通部_場地租用申請表_20250401.pdf",
+  "rooms": [
+    {
+      "name": "集會堂",
+      "url": "https://www.meeting.com.tw/motc/auditorium.php",
+      "http_status": 200,
+      "room_images": 10,
+      "has_price": false,
+      "has_capacity": true,
+      "has_area": true
+    },
+    {
+      "name": "國際會議廳",
+      "url": "https://www.meeting.com.tw/motc/plenary-hall.php",
+      "http_status": 200,
+      "room_images": 12,
+      "has_price": false,
+      "has_capacity": true,
+      "has_area": true
+    },
+    {
+      "name": "202會議室",
+      "url": "https://www.meeting.com.tw/motc/room-202.php",
+      "http_status": 200,
+      "room_images": 6,
+      "has_price": false,
+      "has_capacity": true,
+      "has_area": true
+    },
+    {
+      "name": "201會議室",
+      "url": "https://www.meeting.com.tw/motc/room-201.php",
+      "http_status": 200,
+      "room_images": 8,
+      "has_price": false,
+      "has_capacity": true,
+      "has_area": true
+    }
+  ]
+}

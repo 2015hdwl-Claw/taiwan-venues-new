@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<!--AP1::1.7.2.106:1.3.2.145:1.0.24.49-->
+<html xmlns:og="http://ogp.me/ns#">
+ <head runat="server">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <meta content="no-cache" http-equiv="Pragma"/>
+  <meta content="no-cache" http-equiv="Cache-Control"/>
+  <meta content="0" http-equiv="Expires"/>
+  <meta content="740650979450886" property="fb:app_id"/>
+  <meta content="臺北市運動中心預約系統" property="og:site_name"/>
+  <meta content="臺北市運動中心預約系統" property="og:title"/>
+  <meta content="article" property="og:type"/>
+  <meta content="https://booking-tpsc.sporetrofit.com/" property="og:url"/>
+  <meta content="https://booking-tpsc.sporetrofit.com/Content/img/logo_large.png" property="og:image"/>
+  <meta content="本系統為唯一整合台北市12間運動中心的場地/設備之預約系統" property="og:description"/>
+  <meta content="zh_TW" property="og:locale"/>
+  <title>
+   臺北市運動中心預約系統
+  </title>
+  <link href="/Content/img/favicon.ico" rel="icon" type="image/x-icon"/>
+  <link href="/Content/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="/Content/img/favicon.ico" rel="bookmark" type="image/x-icon"/>
+  <!-- Google Fonts -->
+  <link href="http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600" rel="stylesheet" type="text/css"/>
+  <link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300" rel="stylesheet" type="text/css"/>
+  <link href="http://fonts.googleapis.com/css?family=Raleway:400,100" rel="stylesheet" type="text/css"/>
+  <!-- Bootstrap -->
+  <link href="/Content/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+  <!-- Font Awesome -->
+  <link href="/Content/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+  <!-- Custom CSS -->
+  <link href="/Content/css/style.css" rel="stylesheet" type="text/css"/>
+  <link href="/Content/css/responsive.css" rel="stylesheet" type="text/css"/>
+  <!--link rel="stylesheet" href="/Content/css/Site.css" type="text/css" /-->
+  <link href="/Content/css/resource.css" rel="stylesheet" type="text/css"/>
+  <link href="/Content/css/jquery.alerts.css" rel="stylesheet" type="text/css"/>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+<script src="/Scripts/html5shiv.js" type="text/javascript"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js" type="text/javascript"></script>
+<![endif]-->
+  <!--script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js" type="text/javascript"></script-->
+  <!-- Latest jQuery form server -->
+  <!--script src="https://code.jquery.com/jquery.min.js" type="text/javascript"></scriptt-->
+  <!--script src="/Scripts/jquery-1.10.2.js" type="text/javascript"></script-->
+  <!--script src="/Scripts/jquery-1.7.1.min.js" type="text/javascript"></script-->
+  <script src="/Scripts/jquery-1.11.1.min.js" type="text/javascript">
+  </script>
+  <!--script src="/Scripts/jquery-3.2.1.min.js" type="text/javascript"></script-->
+  <!-- IE9 以下的 cross site ajax -->
+  <!--[if lte IE 9]>
+<script src="/Scripts/jquery.xdomainrequest.min.js" type="text/javascript"></script>
+<![endif]-->
+  <!--script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" type="text/javascript"></script-->
+  <!--script src="/Scripts/jquery-ui.js" type="text/javascript"></script-->
+  <script src="/Scripts/jquery-ui-1.12.1.min.js" type="text/javascript">
+  </script>
+  <script src="/Scripts/jquery.blockUI.js" type="text/javascript">
+  </script>
+  <!--script src="http://malsup.github.io/jquery.blockUI.js" type="text/javascript"></script-->
+  <script src="/Scripts/jquery.cookie.js" type="text/javascript">
+  </script>
+  <script src="/Scripts/jquery.validate.js" type="text/javascript">
+  </script>
+  <!--v1.16.0-->
+  <script src="/Scripts/jquery.validate.unobtrusive.min.js" type="text/javascript">
+  </script>
+  <!-- Bootstrap JS form CDN -->
+  <script src="/Scripts/bootstrap.min.js" type="text/javascript">
+  </script>
+  <!--script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js" type="text/javascript"></script-->
+  <!-- jQuery sticky menu -->
+  <script src="/Scripts/owl.carousel.min.js" type="text/javascript">
+  </script>
+  <script src="/Scripts/jquery.sticky.js" type="text/javascript">
+  </script>
+  <!-- jQuery easing -->
+  <script src="/Scripts/jquery.easing.1.3.min.js" type="text/javascript">
+  </script>
+  <!-- Main Script -->
+  <script src="/Scripts/main.js" type="text/javascript">
+  </script>
+  <script src="/Scripts/jquery.alerts.js" type="text/javascript">
+  </script>
+  <script src="/Scripts/utils.js" type="text/javascript">
+  </script>
+  <script>
+   var basePath = "/";
+	basePath = basePath.length == 1 ? "" : basePath;
+  </script>
+  <style>
+   .step-area-desc-step21{
+			margin-left: 149px;
+		}
+		.step-area-desc-step31{
+			margin-left: 134px;
+		}
+		.step-area-desc-step41{
+			margin-left: 132px;
+		}
+		#Password{
+			font-family: 'text-security-disc';
+		}
+  </style>
+ </head>
+ <body>
+  <form id="form1" runat="server">
+   <div class="page">
+    <div id="header" style="position: fixed; top: 0; z-index: 10; width: 100%; white-space: nowrap;">
+     <div class="header-area">
+      <div class="container">
+       <div class="row">
+        <div class="col-md-8">
+         <div class="user-menu" id="menucontainer">
+          <ul class="min-width: 940px;" id="menu">
+           <span class="HeaderWebsite">
+            臺北市運動中心預約系統
+           </span>
+           <li>
+            <a href="/">
+             <i class="fa fa-home">
+             </i>
+             我要預約
+            </a>
+           </li>
+           <li>
+            <a class="pointer" onclick="getCurDocument().location.href = basePath + '/Account/Register';" onclick1="openForgetPasswordDiv();">
+             <i class="fa fa-user">
+             </i>
+             註冊
+            </a>
+           </li>
+           <li>
+            <a class="pointer" onclick="openLoginDiv();">
+             <i class="fa fa-user">
+             </i>
+             登入
+            </a>
+           </li>
+           <div id="LoginDiv" style="display: none;">
+            <img class="RightTopCloseBtn RightTopLoginCloseBtn closeLogin"/>
+            <h2>
+             登入
+            </h2>
+            <p>
+             請輸入您的帳號和密碼。如果您沒有帳戶，
+             <a href="/Account/Register">
+              請註冊
+             </a>
+             。
+            </p>
+            <!--Html.Raw("")using(Html.BeginForm(new AjaxOptions { UpdateTargetId = "loginResultDiv" })){Html.Raw("\r\n")-->
+            <!--form-->
+            <div id="LoginTableDiv">
+             <table border="0">
+              <tr>
+               <td>
+                <div>
+                 <fieldset>
+                  <legend>
+                   <!--帳戶資訊-->
+                  </legend>
+                  <div class="editor-label">
+                   <label for="UserId">
+                    帳號
+                   </label>
+                  </div>
+                  <div class="editor-field">
+                   <input autocomplete="off" data-val="true" data-val-required="帳號 欄位是必要項。" id="UserId" name="UserId" oninvalid="setCustomValidity('請填寫這個欄位。')" required="required" title="請填寫這個欄位。" type="text" value=""/>
+                   <span class="field-validation-valid InputRedValidation" data-valmsg-for="UserId" data-valmsg-replace="true">
+                   </span>
+                  </div>
+                  <div class="editor-label marginTop15">
+                   <label for="Password">
+                    密碼
+                   </label>
+                  </div>
+                  <div class="editor-field">
+                   <input autocomplete="off" data-val="true" data-val-required="密碼 欄位是必要項。" id="Password" name="Password" oninvalid="setCustomValidity('請填寫這個欄位。')" required="required" title="請填寫這個欄位。" type="password"/>
+                   <span class="field-validation-valid InputRedValidation" data-valmsg-for="Password" data-valmsg-replace="true">
+                   </span>
+                  </div>
+                  <div class="editor-label marginTop15">
+                   <input data-val="true" data-val-required="記住我？ 欄位是必要項。" id="RememberMe" name="RememberMe" type="checkbox" value="true"/>
+                   <input name="RememberMe" type="hidden" value="false"/>
+                   <label for="RememberMe">
+                    記住我？
+                   </label>
+                   <a class="ForgetPasswordGap" href="#" onclick="openForgetPasswordDiv();">
+                    忘記密碼？
+                   </a>
+                  </div>
+                  <div class="editor-field marginTop15">
+                   <img alt="重新整理" id="vcodeImg" onclick="getVcode()" style="cursor: pointer;" title="重新整理"/>
+                   <input class="" id="Vcode" maxlength="4" placeholder="驗證碼" required="required" style="width: 100px" type="text"/>
+                  </div>
+                 </fieldset>
+                </div>
+               </td>
+               <td>
+                <div class="FBbutton">
+                 <div id="FBtag">
+                  <fb:login-button data-auto-logout-link="false" data-max-rows="1" data-show-faces="false" data-size="xlarge" onlogin="checkFbLoginState();" scope="public_profile,email">
+                   Facebook 登入
+                  </fb:login-button>
+                 </div>
+                </div>
+                <canvas height="0" id="myCanvas" width="0">
+                </canvas>
+               </td>
+              </tr>
+              <tr>
+               <td colspan="2">
+                <p class="marginTop10">
+                 <table border="0">
+                  <tr>
+                   <td>
+                    <input class="SpecBtn loginBtn" onclick1="login();" type="submit" value="確認"/>
+                   </td>
+                   <td>
+                    <input class="windowButtonGap closeLogin SpecBtn" type="button" value="取消"/>
+                   </td>
+                   <td>
+                    <div class="InputRedValidation ErrorResult" id="loginResultDiv">
+                    </div>
+                   </td>
+                  </tr>
+                 </table>
+                </p>
+               </td>
+              </tr>
+             </table>
+            </div>
+            <!--/form-->
+            <!--Html.Raw("\t\t\t\t\t\t\t\t\t\t\t")}Html.Raw("")-->
+           </div>
+           <div id="ForgetPasswordDiv" style="display: none;">
+            <img class="RightTopCloseBtn RightTopForgetPasswordCloseBtn closeForgetPassword"/>
+            <h2>
+             忘記密碼？
+            </h2>
+            <p>
+             請輸入您的帳號和電子郵件。如果您沒有帳戶，
+             <a href="/Account/Register">
+              請註冊
+             </a>
+             。
+            </p>
+            <!--Html.Raw("")using(Html.BeginForm()){Html.Raw("\r\n")-->
+            <div id="ForgetPwdDiv">
+             <div>
+              <fieldset>
+               <legend>
+                <!--帳戶資訊-->
+               </legend>
+               <div class="editor-label">
+                <label for="Account">
+                 帳號
+                </label>
+               </div>
+               <div class="editor-field">
+                <input data-val="true" data-val-required="帳號 欄位是必要項。" id="Account" name="Account" oninvalid="setCustomValidity('請填寫這個欄位。')" required="required" title="請填寫這個欄位。" type="text" value=""/>
+                <span class="field-validation-valid InputRedValidation" data-valmsg-for="Account" data-valmsg-replace="true">
+                </span>
+               </div>
+               <div class="editor-label marginTop15">
+                <label for="Email">
+                 電子郵件地址
+                </label>
+               </div>
+               <div class="editor-field">
+                <input data-val="true" data-val-regex="Email格式錯誤" data-val-regex-pattern="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" data-val-required="電子郵件地址 欄位是必要項。" id="Email" name="Email" oninvalid="setCustomValidity('請填寫這個欄位。')" required="required" title="" type="email" value=""/>
+                <span class="field-validation-valid InputRedValidation" data-valmsg-for="Email" data-valmsg-replace="true">
+                </span>
+               </div>
+               <p class="marginTop15">
+                <input class="SpecBtn" onclick1="resetPassword();" type="submit" value="確認"/>
+                <input class="windowButtonGap closeForgetPassword SpecBtn" type="button" value="取消"/>
+               </p>
+              </fieldset>
+             </div>
+            </div>
+            <!--Html.Raw("\t\t\t\t\t\t\t\t\t\t\t")}Html.Raw("")-->
+            <script>
+             $(function(){
+													/*$(".closeForgetPassword").bind("click", function(){
+														closeForgetPasswordDiv();
+													});*/
+													$(".closeForgetPassword").click(function(){
+														closeForgetPasswordDiv();
+													});
+												});
+
+												function openForgetPasswordDiv(){
+													initialForgetPwdInput();
+													cleanLoginDiv();
+													$("#LoginDiv").css("display", "none");
+													cleanForgetPasswordDiv();
+													$.blockUI({ message: $("#ForgetPasswordDiv"), fadeIn: 0 });
+												}
+												function closeForgetPasswordDiv(){
+													$.unblockUI();
+													cleanForgetPasswordDiv();
+												}
+												function cleanForgetPasswordDiv(){
+													$("#Account").val("");
+													$("#Email").val("");
+												}
+
+												function resetPassword(){
+													var Account$Input = $("#Account");
+													var Email$Input = $("#Email");
+													if(Account$Input.val() == "" || !Account$Input.valid() || (Account$Input[0].checkValidity && !Account$Input[0].checkValidity())
+														|| Email$Input.val() == "" || !Email$Input.valid() || (Email$Input[0].checkValidity && !Email$Input[0].checkValidity())){
+														if($.browser.msie && getIEVer() <= 9)
+															jAlert("請輸入完整資料", "　", function() { return; })
+														return;
+													}
+
+													$.ajax({
+														url: basePath + "/Account/forgetPassword",
+														type: "POST",
+														cache: false,
+														async: true,
+														data: { userID: Account$Input.val(), userEMail: Email$Input.val() },
+														success: function(data, textStatus, jqXHR){
+															if(data.errorCode1){
+																jAlert("帳號或電子郵件不存在，請確認", "　");
+																return;
+															}
+															if(data.correctCode && data.success){
+																jAlert("密碼重置信已寄出，建議您取得密碼登入後，儘快修改密碼", "　");
+															}
+															closeForgetPasswordDiv();
+														},
+														error: function(jqXHR, textStatus, errorThrown){
+															closeForgetPasswordDiv();
+														}
+													});
+												}
+            </script>
+           </div>
+           <li>
+            <a onclick="getCurDocument().location.href = basePath + '/Home/LocationInformation' + ($.cookie('CategoryId') ? '#' + $.cookie('CategoryId') : '')" style="cursor: pointer;">
+             <i class="fa fa-info-circle">
+             </i>
+             場地須知
+            </a>
+           </li>
+           <li>
+            <a href="/Home/BookingInformation#1">
+             <i class="fa fa-info-circle">
+             </i>
+             預約須知
+            </a>
+           </li>
+           <li class="dropdown dropdown-small">
+            <a class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="#" style="display: inline-block; margin-left: 0;">
+             <span class="value">
+              APP下載
+             </span>
+             <b class="caret">
+             </b>
+            </a>
+            <ul class="dropdown-menu AppDownloadMenu">
+             <li>
+              <div id="AppDownloadWindow">
+               <div id="app_download">
+                <div class="app_dl">
+                 <ul>
+                  <li>
+                   <img class="app_logo" src="/Content/img/logo_app.png"/>
+                   <h1>
+                    APP下載專區
+                   </h1>
+                   <p>
+                    請掃描QR code
+                   </p>
+                  </li>
+                  <li>
+                   <img class="TwoDBarCode" src="/Content/img/TPSCAPP_android.png" width="200"/>
+                   <a href="https://play.google.com/store/apps/details?id=com.sport_gov.taipei&amp;hl=zh_TW" target="_blank">
+                    <img class="DownloadApp" src="/Content/img/Android.png" width="250"/>
+                   </a>
+                  </li>
+                  <li>
+                   <img class="TwoDBarCode" src="/Content/img/TPSCAPP_ios.png" width="200"/>
+                   <a href="https://itunes.apple.com/us/app/%E6%99%BA%E6%85%A7%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83/id1188204135?l=zh&amp;ls=1&amp;mt=8" target="_blank">
+                    <img class="DownloadApp" src="/Content/img/IOS.png" width="250"/>
+                   </a>
+                  </li>
+                 </ul>
+                </div>
+               </div>
+              </div>
+             </li>
+            </ul>
+           </li>
+           <!--Html.Partial("_Top")-->
+          </ul>
+         </div>
+        </div>
+        <div class="col-md-4" id="topLangBarDiv" lang-type="zh-TW">
+         <div class="header-right">
+          <ul class="list-unstyled list-inline">
+           <li class="dropdown dropdown-small">
+            <a class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="#">
+             <span class="key">
+              語系:
+             </span>
+             <span class="value" id="curLanguageSpan">
+              中文(繁體)
+             </span>
+             <b class="caret">
+             </b>
+            </a>
+            <ul class="dropdown-menu">
+             <li>
+              <a onclick="changeLanguage(this, 'zh-TW');">
+               中文(繁體)
+              </a>
+             </li>
+             <li>
+              <a onclick="changeLanguage(this, 'en-US');">
+               English
+              </a>
+             </li>
+            </ul>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div id="main">
+     <!-- Font Sport -->
+     <!--link rel="stylesheet" href="/Content/css/sff.css" type="text/css" /-->
+     <!--link rel="stylesheet" href="/Content/css/gff.css" type="text/css" /-->
+     <link href="/Content/css/sport.css" rel="stylesheet" type="text/css"/>
+     <style>
+      #SportBlockDiv .col-md-3 div{
+						cursor: pointer;
+					}
+					#locationUl li{
+						cursor: pointer;
+					}
+					#curSelect{
+						text-transform: initial;
+						font-family: Arial, Helvetica, sans-serif;
+						margin-top: 30px;
+						cursor: default;
+					}
+					.SelectDist, .SelectSport{
+						color: red;
+						display: inline-block;
+					}
+					.site-branding-area{
+						height: 40px;
+					}
+					.footer-about-us{
+						cursor: default;
+						width: 280px;
+					}
+     </style>
+     <div class="site-branding-area">
+      <!--div class="container">
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="logo">
+									<!--img src="../Resources/Images/TP/login_top.png" />
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="shopping-item">
+									<span class="cart-amunt">臺北市運動中心預約系統</span>
+								</div>
+							</div>
+						</div>
+					</div-->
+     </div>
+     <div class="step-area container">
+      <div class="step-area-step step-area-step1" style="background-image: url(/Content/img/step1_bg_h.png);" title="步驟一">
+       先選擇運動中心與運動類型
+      </div>
+      <div class="step-area-step step-area-step2 step-area-step-extend" style="background-image: url(/Content/img/step2_bg.png);" title="步驟二">
+       選擇預約日期
+      </div>
+      <img alt="步驟二" class="step-area-img-extend2 step-area-step2 step-area-img-extend" src="/Content/img/step_bg.png" title="步驟二"/>
+      <div class="step-area-step step-area-step3 step-area-step-extend" style="background-image: url(/Content/img/step3_bg.png);" title="步驟三">
+       選擇預約時段
+      </div>
+      <img alt="步驟三" class="step-area-img-extend3 step-area-step3 step-area-img-extend" src="/Content/img/step_bg.png" title="步驟三"/>
+      <div class="step-area-step step-area-step4" style="background-image: url(/Content/img/step4_bg.png);" title="步驟四">
+       確認預約
+      </div>
+     </div>
+     <p class="container" id="curSelect">
+     </p>
+     <div class="mainmenu-area">
+      <div class="container">
+       <div class="row">
+        <div class="navbar-collapse collapse">
+         <ul class="nav navbar-nav" id="locationUl">
+          <li id="All">
+           <a onclick="changeLocation(this);">
+            所有運動中心
+           </a>
+          </li>
+         </ul>
+        </div>
+        <input id="hideLID" name="hideLID" type="hidden"/>
+        <input id="hideLIDName" name="hideLIDName" type="hidden"/>
+        <input id="hideCategoryId" name="hideCategoryId" type="hidden"/>
+        <input id="hideCategoryName" name="hideCategoryId" type="hidden"/>
+       </div>
+      </div>
+     </div>
+     <div class="promo-area">
+      <div class="zigzag-bottom">
+      </div>
+      <div class="container">
+       <div class="row" id="SportBlockDiv">
+       </div>
+      </div>
+     </div>
+     <div class="footer-top-area">
+      <div class="zigzag-bottom">
+      </div>
+      <div class="container">
+       <div class="row">
+        <div class="col-md-3 col-sm-6 introduction" style="min-width: 330px;">
+         <div class="footer-about-us">
+          <h2 style="font-family: Microsoft JhengHei; font-weight: bold;">
+           運動中心 介紹
+          </h2>
+          <span style="background-image: url(/Content/img/Flow/track.png); background-repeat: no-repeat; line-height: 60px; padding-bottom: 25px; padding-top: 25px;">
+           <a href="/Home/LocationPeopleNum" style="margin-left: 65px; font-family: Microsoft JhengHei; font-weight: bold; font-size: 19px; color: white;" target="_blank">
+            游泳池及健身房即時人流
+           </a>
+          </span>
+         </div>
+        </div>
+        <div class="col-md-3 col-sm-6 introduction-c">
+         <div class="footer-menu">
+          <ul>
+           <li>
+            <a href="https://nhsc.cyc.org.tw/" target="_blank">
+             內湖
+            </a>
+           </li>
+           <li>
+            <a href="http://sssc.com.tw" target="_blank">
+             松山
+            </a>
+           </li>
+           <li>
+            <a href="http://www.btsport.com.tw" target="_blank">
+             北投
+            </a>
+           </li>
+           <li>
+            <a href="http://whsc.com.tw" target="_blank">
+             萬華
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+        <div class="col-md-3 col-sm-6 introduction-c">
+         <div class="footer-menu">
+          <ul>
+           <li>
+            <a href="http://www.tpejjsports.com.tw" target="_blank">
+             中正
+            </a>
+           </li>
+           <li>
+            <a href="https://cssc.cyc.org.tw" target="_blank">
+             中山
+            </a>
+           </li>
+           <li>
+            <a href="http://www.slsc-taipei.org" target="_blank">
+             士林
+            </a>
+           </li>
+           <li>
+            <a href="https://ngsc.cyc.org.tw" target="_blank">
+             南港
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+        <div class="col-md-3 col-sm-6 introduction-c">
+         <div class="footer-menu">
+          <ul>
+           <li>
+            <a href="https://wssc.cyc.org.tw" target="_blank">
+             文山
+            </a>
+           </li>
+           <li>
+            <a href="https://xysc.teamxports.com/" target="_blank">
+             信義
+            </a>
+           </li>
+           <li>
+            <a href="http://www.dtsc-wdyg.com.tw" target="_blank">
+             大同
+            </a>
+           </li>
+           <li>
+            <a href="https://www.daansports.com.tw/" target="_blank">
+             大安
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <script type="text/javascript">
+      $(function(){
+						checkBrowserVersion();
+						initialBodyContentPosition();
+
+						var LID = getUrlParameter("LID");
+						if(LID)
+							$("#hideLID").val(LID);
+						else{
+							var cookieLID = $.cookie("LID");
+							var cookieCategoryId = $.cookie("CategoryId");
+							if(cookieLID)
+								$("#hideLID").val(cookieLID);
+							else if(cookieCategoryId)
+								$("#hideCategoryId").val(cookieCategoryId);
+							else if(!cookieLID && !cookieCategoryId)
+								$("#hideLID").val("All");
+							//else $("#hideLID").val('Area1');
+						}
+
+						$("#hideLIDName").val('<div class="SelectDist">[您尚未選擇區域]</div>');
+						$("#hideCategoryName").val('<div class="SelectSport">[您尚未選擇運動類型]</div>');
+						resetCurSelect();
+
+						loadLocationBlock();
+						loadSportBlock();
+					});
+
+					function initialBodyContentPosition(){
+						$("div.mainmenu-area div .row, .promo-area").css("margin-top", "20px");
+						$(".step-area").css("margin-top", ($("#header").height() - 30) + "px");
+						if($.browser.msie){
+							if(getIEVer() <= 9){
+								$(".step-area-img-extend").css("margin-top", "6px");
+							}
+						}
+
+						var introductionCWidth = ($(".introduction-c").parent().width() - $(".introduction").css("min-width").replace("px","")) / 3;
+						$(".introduction-c").css({"max-width": "280px", "min-width": introductionCWidth, "width": introductionCWidth});
+					}
+
+					function loadSportBlock(){
+						$.ajax({
+							url: basePath + "/Home/loadSportBlock",
+							data: { LID: $("#hideLID").val() },
+							type: "POST",
+							dataType: "json",
+							success: function(data, status, jqXHR){
+								$("#SportBlockDiv").empty();
+								if(!data.categories){
+									resetContentFootPosition();
+									return;
+								}
+								var i = 0;
+								var checkList = [];
+								data.categories.forEach(function(category){
+									var categoryId = category.categoryId;
+									if(checkList.contains(categoryId))
+										return;
+									checkList.push(categoryId);
+									var categoryName = category.categoryName ? category.categoryName : categoryId;
+									var Iid = categoryId;
+									//$("#SportBlockDiv").append('<div class="col-md-3 col-sm-6"><div onclick="changeSport(this);" class="single-promo promo' + (((2 + i++) % 8) + 1) + '"><i id="' + Iid + 'I" name="' + categoryId + '"></i><p>' + categoryName + '</p></div></div>');
+									$("#SportBlockDiv").append('<div class="col-md-3 col-sm-6"><div onclick="changeSport(this);" class="single-promo1"><i id="' + Iid + 'I" name="' + categoryId + '" class="SportI" style="background-image: url(/Content/img/' + Iid + '1.png), url(/Content/img/Default.png);"></i><p class="' + category.categoryId + 'P">' + categoryName + '</p></div></div>');
+
+									$("#" + Iid + "I").mouseover(function(){
+										$("." + categoryId + "P").css("display", "block");
+									}).mouseout(function(){
+										$("." + categoryId + "P").css("display", "none");
+									});
+
+									/*if($.browser.msie){
+										if(categoryId == "Badminton" || categoryId == "TableTennis")
+											setIeSportPicture(categoryId);
+									}*/
+								});
+								resetContentFootPosition();
+								var cid = $("#hideCategoryId");
+								if(cid.val() != ""){
+									$("#" + cid.val() + "I").parent().addClass("single-promo-hover");
+									$("#hideCategoryName").val($("#" + cid.val() + "I").next().text());
+									resetCurSelect();
+								}
+							}
+						});
+					}
+					function loadLocationBlock(){
+						$.ajax({
+							url: basePath + "/Home/loadLocationBlock",
+							data: { categoryId: $("#hideCategoryId").val() },
+							type: "POST",
+							dataType: "json",
+							success: function(data, status, jqXHR){
+								$("#locationUl").empty();
+								$("#locationUl").append('<li id="All"><a onclick="changeLocation(this);">所有運動中心</a></li>');
+								if(!data.locations)
+									return;
+								var i = 0;
+								var checkList = [];
+								data.locations.forEach(function(location){
+									if(checkList.contains(location.LID))
+										return;
+									checkList.push(location.LID);
+									var lidName = location.lidName ? location.lidName : location.LID;
+									$("#locationUl").append('<li id="' + location.LID + '"><a onclick="changeLocation(this);">' + lidName + '</a></li>');
+								});
+								resetContentFootPosition();
+								var lid = $("#hideLID");
+								if(lid.val() != ""){
+									$("#" + lid.val()).addClass("active");
+									if(lid.val() != "All"){
+										$("#hideLIDName").val($("#" + lid.val()).find("a").text());
+										resetCurSelect();
+									}
+								}
+								if(lid.val() == "All"){
+									lid.val("");
+									$.removeCookie("LID");
+									$.removeCookie("CategoryId");
+								}
+							}
+						});
+					}
+
+					function changeLocation(element){
+						var LID = element.parentElement.id;
+						var LIDName = element.text;
+						if(($("#hideLID").val() == LID && LID != "All") || !LID)
+							return;
+
+						if(LID == "NGSC" || LID == "ZSSC" || LID == "WHSC" || LID == "BTSC"
+						   || LID == "NHSC" || LID == "DASC" || LID == "WSSC" || LID == "DTSC"|| LID == "SLSC"|| LID == "XYSC"){
+							jAlert("臺北市運動中心預約系統網頁版的使用者  您好:" + "       \n\n【" + LIDName + "運動中心】僅提供本平臺查詢可預約場地之服務，若近期於本網頁預約未繳費將不保留您的場地使用權益!\n"
+							       + "\n目前平臺提供「智慧運動中心APP」並串接【" + LIDName + "運動中心】營運系統金流，敬請透過APP進行線上預約並使用線上金流繳費頁面付款，始能為您保留場地使用權益!"
+							       + "\n\n臺北市運動中心預約系統謝謝您的支持與配合。<br />", "　", function(){});
+						}
+
+						$(element).parent().parent().children("li").each(function(){
+							$(this).removeClass("active");
+						});
+						$(element).parent().addClass("active");
+
+						$("#hideLID").val(LID);
+						if(LID == "All"){
+							$("#hideCategoryId").val("");
+							$("#hideLIDName").val('<div class="SelectDist">[您尚未選擇區域]</div>');
+							$("#hideCategoryName").val('<div class="SelectSport">[您尚未選擇運動類型]</div>');
+						}
+						else $("#hideLIDName").val($(element).text());
+						resetCurSelect();
+						if(LID == "All" || $("#hideCategoryId").val() == ""){
+							loadSportBlock();
+							if(LID == "All")
+								loadLocationBlock();
+						}
+						else link2Reserve();
+					}
+					function changeSport(element){
+						//var categoryId = $(element).find("i").attr("id");
+						var categoryId = $(element).find("i").attr("name");
+						//categoryId = categoryId.substring(0, categoryId.length - 1);
+						if($("#hideCategoryId").val() == categoryId || !categoryId)
+							return;
+
+						$(element).parent().parent().children().each(function(){
+							$(this).children().removeClass("single-promo-hover");
+						});
+						$(element).addClass("single-promo-hover");
+
+						$("#hideCategoryId").val(categoryId);
+						$("#hideCategoryName").val($(element).find("p").text());
+						resetCurSelect();
+						if($("#hideLID").val() == "" || $("#hideLID").val() == "All")
+							loadLocationBlock();
+						else link2Reserve();
+					}
+
+					function link2Reserve(){
+						var date = new Date();
+						if($("#hideLID").val() == "NHSC" && (date.getFullYear() < 2018 || (date.getFullYear() == 2018 && date.getMonth() + 1 <= 2))){
+							jAlert("內湖現在閉館，預計2月上旬開放", "　", function(){ 
+								$("#hideCategoryId").val("");
+								$("#hideLIDName").val('<div class="SelectDist">[您尚未選擇區域]</div>');
+								$("#hideCategoryName").val('<div class="SelectSport">[您尚未選擇運動類型]</div>');
+								resetCurSelect();
+								$("#hideLID").val("All");
+								loadSportBlock();
+								loadLocationBlock();
+								return;
+							});
+							return;
+						}
+						var url = basePath + "/Location/Reserve?LID=" + $("#hideLID").val() + "&CategoryId=" + $("#hideCategoryId").val();
+						getCurDocument().location = url;
+						/*$("#hideLID").wrap('<form id="hideForm" action="' + url + '" method="POST"></form>');
+						$("#hideForm").append($("#hideCategoryId"));
+						$("#hideForm").submit();*/
+					}
+
+					function resetCurSelect(){
+						$("#curSelect").html(String.format("您選擇的是：{0} - {1}", $("#hideLIDName").val(), $("#hideCategoryName").val()));
+					}
+
+					function setIeSportPicture(id){
+						$("#" + id + "I").css("display", "none").parent().children("p").css("margin-bottom", "4.75px");
+						var size = 47;
+						$("#" + id + "I").after('<svg id="' + id + 'Svg" xmlns="http://www.w3.org/2000/svg" width="' + size + '" height="' + size + '"><defs><filter id="invertPicture_' + id + '"><feColorMatrix in="SourceGraphic" values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0" /></filter></defs><image filter="url(&quot;#invertPicture_' + id + '&quot;)" width="' + size + '" height="' + size + '" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/Content/img/' + id + '.png" href="/Content/img/' + id + '.png" /></svg>');
+					}
+
+					function resetContentFootPosition(){
+						var curContentHeight = $(".site-branding-area").height() + $(".step-area").height() + $("#curSelect").height() + $("#undefined-sticky-wrapper").height() + $(".promo-area").height() + $(".footer-top-area").height()
+						var browserContentHeight = getBrowserViewHeight() - $("#header").height() - $("#footer").height() - $(".footer-top-area").height() - ($.browser.msie ? 200 : 0);
+						if(curContentHeight < browserContentHeight)
+							$(".footer-top-area").css({ "position": "fixed", "bottom": "0px", "width": "100%", "margin-bottom": "40px" });
+						else $(".footer-top-area").css({ "position": "initial", "bottom": "initial", "width": "100%", "margin-bottom": "0" });
+						if($.browser.msie && getIEVer() <= 10)
+							$(".footer-top-area").css({ "position": "relative", "margin-bottom": "0" });
+					}
+     </script>
+    </div>
+    <div class="footer-bottom-area" id="footer" style="position: fixed; bottom: 0px; z-index: 10; width: 100%;">
+     <div class="container">
+      <div class="row">
+       <div class="col-md-8">
+        <div class="copyright">
+         <p>
+          © 2017-2025 All Rights Reserved.
+          <a href="http://www.sporetrofit.com" target="_blank">
+           智聯運動科技
+          </a>
+         </p>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </form>
+  <script>
+   var FbAppId = "740650979450886";
+		var FbRegisterUrl = "/Account/RegisterFB?type={0}";
+		var FbLanguageCode = "zh_TW";
+		var vcode;
+
+		$.extend($.validator, {
+			messages: {
+				required: "此欄位必填",
+				remote: "此欄位必填",
+				email: "請輸入正確格式的電子郵件",
+				url: "請輸入正確格式的網址",
+				date: "請輸入正確格式的日期",//日期校驗IE6會出錯
+				dateISO: "請輸入正確格式的日期（ISO）",//ex: 2009-06-23，1998/01/22 只驗證格式，不驗證有效性
+				number: "請輸入正確格式的數字(含負數、小數)",
+				digits: "僅能輸入整數",
+				creditcard: "請輸入正確格式的信用卡卡號",
+				equalTo: "請再次輸入相同的值",
+				accept: "請輸入合法的副檔名",
+				maxlength: $.validator.format("輸入長度最多是{0}個字"),
+				minlength: $.validator.format("輸入長度最小是{0}的字"),
+				rangelength: $.validator.format("輸入長度必須介於{0}~{1}個字之間"),
+				range: $.validator.format("輸入值必須介於{0}和{1}之間"),
+				max: $.validator.format("輸入值不能大於{0}"),
+				min: $.validator.format("輸入值不能小於{0}")
+			},
+		});
+
+		$(function(){
+			//updateTitle();
+			initialLoginForm();
+			initialForgetPwdForm();
+			initialLoginWinClosingBtn();
+			initialEmailValidLabel();
+			if(typeof doRegisterFB == "undefined" || doRegisterFB == false)
+				initialFbLoginBtn();
+			if($.browser.firefox){
+				$(".step-area-img-extend").css("margin-top", "2px");
+				$(".RightTopCloseBtn").css("padding-top", "65px");
+				$(".RightTopCloseBtn").next().css("margin-top", "-60px");
+			}
+			else if($.browser.msie){
+				$(".step-area-img-extend").css("margin-top", "-1px");
+				$("<style>input[type=button]:hover:not(.SpecBtn){ background-color: #E3E3E3;</style>").appendTo("head");
+				if(getIEVer() <= 10)
+					$(".app_dl").css({ "margin-right": "30px", "margin-left": "-50px" });
+				if(getIEVer() <= 9){
+					$(".app_dl ul").css({ "width": "770px" });
+					$(".app_dl li p").css({ "color": "black" });
+					$(".app_dl .DownloadApp").mouseover(function(){
+						$(this).css({ "filter": "alpha(opacity=80)" });
+					}).mouseout(function(){
+						$(this).css({ "filter": "alpha(opacity=100)" });
+					});
+				}
+			}
+		});
+
+		/*$(window).load(function(){//todo: pending
+			recheckParentDocument();
+		});*/
+
+		function recheckParentDocument(){//todo: pending
+			setTimeout(function(){
+				$.ajax({
+					url: basePath + "/Home/loadLocationBlock",
+					data: { categoryId: $("#hideCategoryId").val() },
+					type: "POST",
+					async: false,
+					dataType: "json",
+					success: function(data, status, jqXHR){
+						try{
+							updateTitle();
+						}
+						catch(e){
+							recheckParentDocument();
+						}
+					}
+				});
+			}, 350);
+		}
+
+		function checkBrowserVersion(){
+			if($.browser.msie){
+				if(getIEVer() < 9)
+					jAlert("本預約系統建議使用的瀏覽器為Chrome、Firefox或IE 9以上的版本，才能享有較佳的操作體驗", "　");
+				console.log("IE ver." + getIEVer());
+			}
+		}
+
+		function changeLanguage(element, cultureCode){
+			$("#curLanguageSpan").html($(element).text());
+
+			$.ajax({
+				url: basePath + "/MultiLanguage/changeLanguage",
+				data: { cultureCode: cultureCode },
+				type: "POST",
+				dataType: "json",
+				success: function(data, status, jqXHR){
+					location.reload();
+				}
+			});
+		}
+
+		function initialLoginForm(){
+			$("#LoginDiv p").first().after("<form id='LoginForm' method='POST' autocomplete='off'></form>");
+			var tableHtml = $("#LoginTableDiv").html();
+			$("#LoginTableDiv").html("");
+			$("#LoginForm").html(tableHtml);
+			$("input[type=password]").each(function(){
+				$(this).attr("type", "text");
+			});
+			$("#LoginForm").submit(function(e){
+				e.preventDefault();//取消submit reload
+				login();
+			});
+		}
+		function initialForgetPwdForm(){
+			$("#ForgetPasswordDiv p").first().after("<form id='ForgetPwdForm' method='POST'></form>");
+			var divHtml = $("#ForgetPwdDiv").html();
+			$("#ForgetPwdDiv").html("");
+			$("#ForgetPwdForm").html(divHtml);
+			$("#ForgetPwdForm").submit(function(e){
+				e.preventDefault();//取消submit reload
+				resetPassword();
+			});
+		}
+
+		function initialLoginInput(){
+			getVcode();
+			var userId = $.cookie("userId");
+			var password = $.cookie("password");
+			if(userId)
+				$("#UserId").val(userId);
+			if(password)
+				$("#Password").val(password);
+			$("#RememberMe").prop("checked", userId && password);
+
+			$("#UserId, #Password").focusout(function(e){
+				//this.checkValidity();//手動驗證
+				//this.reportValidity();//手動驗證，並顯示驗證結果
+				//this.validationMessage;//驗證結果之文字
+				//this.willValidate;//submit時是否會自動驗證
+				//this.setCustomValidity(message);手動編輯驗證結果之文字
+				//this.validity;//各種驗證結果
+				//this.validity.valid;//各種驗證結果有效性總評(只要有一個驗證結果為true，其有效性總評即為false)
+				if($(this).val() != "" && !this.checkValidity())
+					this.setCustomValidity("");
+			});
+		}
+		function initialForgetPwdInput(){
+			$("#Account").focusout(function(e){
+				if($(this).val() != "" && !this.checkValidity())
+					this.setCustomValidity("");
+			});
+		}
+
+		function initialLoginWinClosingBtn(){
+			$(".closeLogin").click(function(){
+				closeLoginDiv();
+			});
+		}
+
+		function initialEmailValidLabel(){
+			$("input[type='email']").each(function(idx){
+				InvalidInputHelper(this, {
+					defaultText: "請填寫這個欄位。",
+					emptyText: "請填寫這個欄位。",
+					invalidText: function(input){
+						var value = input.value;
+						var idx = value.indexOf("@");
+						var errorMsg;
+						if(idx == -1)
+							errorMsg = String.format('請在電子郵件地址中包含「@」。「{0}」未包含「@」。', value);
+						else{
+							if(idx == 0)
+								errorMsg = String.format('請輸入「@」前面的部份。「{0}」不是完整值。', value);
+							else if(idx == value.length - 1)
+								errorMsg = String.format('請輸入「@」後面的部份。「{0}」不是完整值。', value);
+							else errorMsg = "請輸入正確電子郵件格式。";
+						}
+						$(input).attr("title", errorMsg);
+						return errorMsg;
+					}
+				});
+			});
+		}
+
+		function updateTitle(){
+			getCurDocument().title = "臺北市運動中心預約系統";
+		}
+
+		function openLoginDiv(openBookingDiv, rowData){
+			$("#Password").val("");
+			$.blockUI({ message: $("#LoginDiv"), fadeIn: 0 });
+			initialLoginWinClosingBtn();
+			initialLoginInput();
+			//$("iframe")[0].src = $("iframe")[0].src;
+			if(getCurDocument().location.href.indexOf("/Payment/MyCarList") > 0)
+				$(".closeLogin").click(function(){
+					goHomePage();
+				});
+			else if(getCurDocument().location.href.indexOf("/Location/BookingList") > 0 && openBookingDiv && rowData) {
+				var loginForm$ = $("#LoginForm");
+				loginForm$.off("submit");
+				loginForm$.unbind("submit");
+				loginForm$.off("click");
+				loginForm$.unbind("click");
+				loginForm$.submit(function(e){
+					e.preventDefault();//取消submit reload
+					login(openBookingDiv, rowData);
+				});
+			}
+			$("#Password").width($("#UserId").width());
+		}
+		function closeLoginDiv(){
+			cleanLoginDiv();
+			$.unblockUI();
+		}
+		function cleanLoginDiv(){
+			$("#UserId").val("");
+			$("#Password").val("");
+			$("#Vcode").val("");
+			$("#RememberMe").prop("checked", false);
+			$("#UserIdSpan").remove();
+			$("#PasswordSpan").remove();
+			$("#loginResultDiv").html("");
+		}
+
+		function getVcode(){
+			$.ajax({
+				url: basePath + "/Home/getVcode",
+				type: "POST",
+				cache: false,
+				//async: false,
+				success: function(data){
+					vcode = data;
+					$("#vcodeImg").attr("src", basePath + "/Home/createVCodeImg?vcode=" + vcode + "&rnd=" + Math.random());
+				},
+				error: function(xhr){ }
+			});
+		}
+
+		function login(openBookingDiv, rowData){
+			if(toSimpleCode($("#Vcode").val()) != toSimpleCode(vcode)){
+				jAlert("驗證碼不符", "　", function(){
+					getVcode();
+				});
+				return;
+			}
+			var UserId$Input = $("#UserId");
+			var Password$Input = $("#Password");
+			if(UserId$Input.val() == "" || !UserId$Input.valid() || (UserId$Input[0].checkValidity && !UserId$Input[0].checkValidity())
+			   || Password$Input.val() == "" || !Password$Input.valid() || (Password$Input[0].checkValidity && !Password$Input[0].checkValidity())){
+				if($.browser.msie && getIEVer() <= 9)
+					jAlert("請輸入完整資料", "　", function() { return; })
+				return;
+			}
+
+			$.ajax({
+				url: basePath + "/Account/Login",
+				data: { userId: UserId$Input.val(), password: Password$Input.val(), rememberMe: $("#RememberMe").is(":checked"), LID: $("#hideLID").val() },
+				type: "POST",
+				dataType: "json",
+				success: function(data, status, jqXHR){
+					if(!data.isSuccess){
+						if(data.isNotActive){
+							jConfirm("您的帳號尚未通過認證，是否重新寄出認證信？", "　", function(isConfirm){
+								if(isConfirm){
+									$.ajax({
+										url: basePath + "/Account/resendRegisterMail",
+										type: "POST",
+										dataType: "json",
+										success: function(data, status, jqXHR){
+											if(data.isSuccess){
+												jAlert("請收取認證信，並點擊認證連結後即可正式啟用帳號與登入", "　", function(){
+													getCurDocument().location.reload();
+												});
+											}
+											else{
+												jAlert("認證信重寄失敗，請重新確認", "　", function(){
+													getCurDocument().location.reload();
+												});
+											}
+										}
+									});
+								}
+								else getCurDocument().location.reload();
+							},
+							{
+								width: 300,
+								confirm1: "&nbsp;重寄認證信&nbsp;",
+								cancel: "&nbsp;取消&nbsp;",
+								afterrender: function(){
+									$("#popup_overlay").style("cursor", "wait", "important");
+									if($.browser.msie){
+										$("#popup_container").style("min-width", "500px", "important");
+										$("#popup_content").css({"width": "500px"});
+									}
+								}
+							});
+							return;
+						}
+						else{
+							$("#loginResultDiv").html(data.error);
+							return;
+						}
+					}
+					if($("#jqGrid").length > 0 && refreshGrid)
+						refreshGrid();
+					reloadTop();
+					closeLoginDiv();
+					if(getCurDocument().location.href.indexOf("/Location/BookingList") > 0) {
+						if(openBookingDiv && rowData)
+							openBookingDiv(rowData);
+						else refreshGrid();
+					}
+					else if(getCurDocument().location.href.indexOf("/Payment/MyCarList") > 0)
+						refreshMyGrid();
+					else if(getCurDocument().location.href.indexOf("/Account/Register") > 0)
+						goHomePage();
+				},
+			});
+		}
+		function logout(){
+			jConfirm("確認登出？", "　", function(isConfirm){
+				if(isConfirm)
+					$.ajax({
+						url: basePath + "/Account/Logout",
+						data: {},
+						type: "POST",
+						dataType: "json",
+						success: function(data, status, jqXHR){
+							getCurDocument().location.reload();
+						},
+					});
+			});
+		}
+
+		function chooseFbRegister(){
+			jConfirm("請選擇臉書註冊方式：", "　", function(code){
+				//臉書榜定系統帳號 or 自動新增臉書資料為系統帳號
+				if(code == 1 || code == 2)
+					location.href = String.format(FbRegisterUrl, code);
+			}, {
+				width: 500,
+				confirm1: "&nbsp;綁定本預約系統帳號&nbsp;",
+				confirm2: "&nbsp;以臉書帳號註冊&nbsp;",
+				cancel: "&nbsp;取消&nbsp;",
+				icon: basePath + "/Content/img/fb.png",
+				iconSize: 40,
+				afterrender: function(){
+					$("#popup_overlay").style("cursor", "wait", "important");
+					if($.browser.msie){
+						$("#popup_container").style("min-width", "500px", "important");
+						$("#popup_content").css({"width": "500px"});
+					}
+				}
+			});
+		}
+
+		function openChangeMemberDiv(){
+			getCurDocument().location.href = basePath + "/Account/ChangeMemberInfo";
+		}
+
+		function openChangePasswordDiv(){
+			getCurDocument().location.href = basePath + "/Account/ChangePassword";
+		}
+
+		function reloadTop(){
+			if($.browser.msie)
+				$.ajaxSetup({cache: false});
+			$("#menucontainer").load(getCurDocument().location.href + " #menu");
+			if($.browser.msie)
+				$.ajaxSetup({cache: true});
+		}
+
+		function checkValidEmail(fieldDom, required){
+			if(checkRegularExpression($(fieldDom).val(), $(fieldDom).attr("pattern"))){
+				fieldDom.setCustomValidity("");
+				return;
+			}
+			if(typeof required === "undefined"/* || typeof required != "boolean"*/)
+				required = true;
+			if(!$(fieldDom).val()){
+				if(required)
+					showInputFieldRequiredOnInvalid(fieldDom);
+			}
+			else{
+				var value = $(fieldDom).val();
+				var atIdx = value.indexOf("@");
+				if(atIdx == -1)
+					alertInputFieldError(fieldDom, String.format("請在電子郵件地址中包含「@」。「{0}」未包含「@」。", value));
+				else if(atIdx == 0)
+					alertInputFieldError(fieldDom, String.format("請輸入「@」前面的部份。「{0}」不是完整值。", value));
+				else if(atIdx == value.length - 1)
+					alertInputFieldError(fieldDom, String.format("請輸入「@」後面的部份。「{0}」不是完整值。", value));
+				else alertInputFieldError(fieldDom, "請輸入正確電子郵件格式。");
+			}
+		}
+		function checkValidPhoneNumber(fieldDom, required){
+			if(checkRegularExpression($(fieldDom).val(), $(fieldDom).attr("pattern"))){
+				fieldDom.setCustomValidity("");
+				return;
+			}
+			if(typeof required === "undefined"/* || typeof required != "boolean"*/)
+				required = true;
+			if(!$(fieldDom).val()){
+				if(required)
+					showInputFieldRequiredOnInvalid(fieldDom);
+			}
+			else{
+				alertInputFieldError(fieldDom, "請輸入符合要求的格式。");
+			}
+		}
+		function showInputFieldRequiredOnInvalid(fieldDom){
+			alertInputFieldError(fieldDom, "請填寫這個欄位。");
+		}
+  </script>
+ </body>
+</html>

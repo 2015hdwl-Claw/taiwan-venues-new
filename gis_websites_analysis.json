@@ -1,0 +1,40 @@
+{
+  "analyzed_at": "2026-03-25",
+  "total_websites": 4,
+  "results": [
+    {
+      "url": "https://www.meeting.com.tw/",
+      "name": "集思首頁",
+      "tests": {
+        "http_status": 200,
+        "http_success": true,
+        "content_length": 14754,
+        "wordpress_api": false,
+        "js_frameworks": {
+          "react": false,
+          "vue": false,
+          "angular": false,
+          "jquery": null
+        },
+        "meeting_links": [],
+        "common_paths": [],
+        "url_structure": {
+          "domain": "www.meeting.com.tw",
+          "path": "/",
+          "is_subdomain": true
+        }
+      }
+    },
+    {
+      "url": "https://www.meeting.com.tw/motc/",
+      "name": "集思交通部國際會議中心",
+      "tests": {
+        "http_status": 200,
+        "http_success": true,
+        "content_length": 21193,
+        "wordpress_api": false,
+        "js_frameworks": {
+          "react": false,
+          "vue": false,
+          "angular": false,
+          "jquery": 

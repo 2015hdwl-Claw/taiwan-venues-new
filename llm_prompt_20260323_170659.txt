@@ -1,0 +1,893 @@
+請從以下飯店官網內容中提取場地資訊，回傳 JSON 格式：
+
+
+==================================================
+
+飯店 ID: 1051
+
+飯店名稱: 台北亞都麗緻大飯店(LandisTaipei)
+
+官網: https://taipei.landishotelsresorts.com/
+
+官網內容:
+The Landis Taipei Hotel
+|
+Login
+|
+Language
+English
+繁體中文
+简体中文
+日本語
+Local Time
+05:06 PM
+Local Temperature
+°C - °C
+RESERVATION
+2026
+2027
+2028
+2029
+2030
+2031
+01
+02
+03
+04
+05
+06
+07
+08
+09
+10
+11
+12
+01
+02
+03
+04
+05
+06
+07
+08
+09
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+Stay
+of Nights
+Send
+Previous
+Next
+ACCOMMODATION
+219 newly renovated and tastefully decorated guestrooms and suites are fully equipped with the finest amenities to ensure a relaxing stay.  Each room has flat screen TV, newly designed bathroom with a washlet which comes with warm toilet seat and warm-water cleansing system and complimentary wireless and high speed internet access to offer the utmost level of convenience and comfort to travelers.
+FACILITIES
+In keeping with our signature personalized service, the fitness center and yoga studio on the Health and Leisure Floor are filled with generous natural light, inviting guests into a refined sanctuary where body and mind can fully relax and renew.
+ABOUT THE LANDIS TAIPEI
+The Landis Taipei is located at the very heart of Taipei’s vibrant district.  Sophistically decorated with French art deco style, The Landis Taipei has a long history and had hosted numerous famous celebrities including the The Three Tenors. Our associates actability promote four tradition spirits of the Landis Group and 5 service quality checks service our guests.
+Latest News
+Other Information
+【宿ランディスが台北市観光通信局より「優良ホテル業界団体部門」「個人部門賞」を受賞】
+It has accumulated a total of 4 team awards and 16 individual awards, ranking first in the domestic industry.
+2024-02-13
+Dining offers
+Paris 1930 de Hideki Takayama - Spring Menu
+2026-03-13
+Dining offers
+2026-09-30
+Other Information
+【Let’s cherish the Earth together by creating a positive impact 】
+2023-12-11
+More
+Meeting & Wedding
+Meeting
+Meeting
+Previous
+Next
+Dining
+Paris1930 de Hideki Takayama
+Mille Feuille
+More
+Travel
+in
+Taipei
+Welcome to the Landis Taipei
+1
+Xing Tian Temple
+5 min without traffic
+2
+Chiang Kai-shek Memorial Hall
+10 min wit...
+
+
+==================================================
+
+飯店 ID: 1068
+
+飯店名稱: 台北喜瑞飯店
+
+官網: https://www.ambiencehotel.com.tw/
+
+官網內容:
+Official Website of Ambience Hotel – Official Website of Ambience Hotel
+喜瑞飯店 X 點點善 + 設計師吳孝儒(PILI)空間大改造
+最新優惠
+Promotions
+
+
+官網訂房入住抽好禮！
+Read More
+早鳥訂房享優惠！
+Read More
+長住優惠專案
+Read More
+加LINE好友抽大獎！
+Read More
+折扣代碼
+Promotions Code
+不定期推出專屬優惠折扣代碼，請記下代碼，並於訂房結帳時輸入，即可享折扣！
+
+
+
+
+新用戶專屬優惠碼:AMSNEW
+首次透過官網預訂
+享$200優惠折扣
+立即訂房！
+
+
+早鳥85折優惠代碼:NBD085
+提前30日預訂享有85折優惠
+使用期限:2026/02/23-2026/12/31
+立即訂房！
+
+
+LINE好友優惠
+好友相聚優惠券
+住宿房費折$200
+住宿期間:2026/01/04-2026/03/31
+立即訂房！
+
+
+2026當月壽星9折優惠代碼:HBD2026
+生日當月入住輸入代碼
+享9折優惠
+辦理入住時須出示證件確認是否符合生日優惠身份
+立即訂房！
+
+
+HSBC卡友限定優惠代碼:HSBC2026
+HSBC卡友結帳輸入優惠代碼
+享9折優惠
+辦理入住時須出示信用卡確認是否符合HSBC卡友優惠身份
+立即訂房！
+Our Guests say
+Tripadvisor Review
+
+
+胡旺來
+★★★★★
+超乎想像的住宿體驗
+這次入住喜瑞的Elite room，純白色系的內裝與親切的服務品質，讓我在一開始變覺得倍感舒適！房內整潔度優質、精美、隔音效果良好，床也十分舒適。飯店週邊機能良好，超商、美食都離飯店不遠。
+
+蹲蹲 鄭
+★★★★★
+值得推薦的飯店
+第一次入住喜瑞，從捷運站走到飯店時，不到十分鐘抵達，很顯眼很好找，入眼簾是間明亮的飯店，check in時，兩位櫃檯小姐很熱情也很貼心介紹鄰近景點及美食，進房後也超乎期待值，舒適明亮的白色系，光線充足完全加分。附加的早餐也好吃，雖然品項不是很多也都五臟俱全，口味很合。另外離開時還收到櫃檯小姐（悠嵐？）的手畫小卡很驚喜❤️入住一次不會失望的！
+
+HsichiChen C
+★★★★★
+很舒適的飯店
+接待人員Winni、Emily、Yolande非常的親切，主動提供夜市美味的相關訊息，非常貼心！早餐雖品項不多，但非常美味，水果品質極佳！
+
+最新消息
+Hot News
+
+
+31 7 月
+19:23
+31 7 月
+19:23
+7 月 2025
+7 月 2025
+幾米森林的樂章
+幾米迷看過來!! 預定期間2025.8….
+Read More
+19 7 月
+13:31
+19 7 月
+13:31
+05房景觀客房浴室落地窗視覺隱私升級
+親愛的貴賓您好： 為提供更加安心與舒適的…
+Read More
+Load More
+名人會客室
+藉由訪問各個領域的佼佼者，從十個 Q & A 的回答，了解他們在台灣生活的熱情、創作的堅持以及內行人才知道的好味道。
+
+
+陳世霖
+ISM主義甜時創辦人同時也是彎聲樂團的客座首席大提琴家陳世霖，32歲轉往自己最愛的甜點之路，前後在加拿大、日本學習烹飪與烘焙專業，2013~2014兩年間進入日本福岡法式甜點名店16區，跟隨日本甜點大師三鳩隆夫，工作進修。
+Read More
+黃柏勳
+以「豐富」和「自由」兩個主軸作為創作主題。討論自身與生活環境之間的相互關係，表現這個既豐富又寂寞的世界，樣貌繽紛鮮明。
+Read More
+ANO（阿諾）
+台灣塗鴉藝術家 ANO（阿諾），電玩遊戲、科學及塗鴉，三者是他生命中不可或缺的養分與生活。在國中時期因玩滑板而開始接觸塗鴉，從此生活與塗鴉藝術密不可分。
+Read More
+陳世霖
+ISM主義甜時創辦人同時也是彎聲樂團的客座首席大提琴家陳世霖，32歲轉往自己最愛的甜點之路，前後在加拿大、日本學習烹飪與烘焙專業，2013~2014兩年間進入日本福岡法式甜點名店16區，跟隨日本甜點大師三鳩隆夫，工作進修。
+Read More
+黃柏勳
+以「豐富」和「自由」兩個主軸作為創作主題。討論自身與生活環境之間的相互關係，表現這個既豐富又寂寞的世界，樣貌繽紛鮮明。
+Read More
+ANO（阿諾）
+台灣塗鴉藝術家 ANO（阿諾），電玩遊戲、科學及塗鴉，三者是他生命中不可或缺的養分與生活。在國中時期因玩滑板而開始接觸塗鴉，從此生活與塗鴉藝術密不可分。
+Read More
+Load More
+Taipei Inn Group
+Our Brands
+
+
+x
+Line
+x
+x
+x
+x
+Facebook
+x
+x
+Call us
+x
+Line@me
+x
+Contact us
+x
+Submit
+...
+
+
+==================================================
+
+飯店 ID: 1069
+
+飯店名稱: 台北國賓大飯店(AmbassadorTaipei)
+
+官網: https://www.ambassador-hotels.com/tc/taipei
+
+官網內容:
+台北市中山區豪華飯店 | 台北國賓大飯店官方網站
+最新消息
+A CUT「春季三重奏」
+更多詳情
+2026國賓璀璨‧摯愛婚宴專案
+更多詳情
+國賓尾牙‧春酒歡樂饗宴
+更多詳情
+國賓美饌餐盒
+更多詳情
+台北國賓大飯店退券方式及國賓禮券使用說明
+更多詳情
+賓至如歸 待客如親
+台北國賓大飯店秉持「以客為尊的執著」、「待客如親的熱情」、「典範傳承的榮耀」，提供
+中西式餐廳
+：
+「國賓中餐廳」
+提供經典的粵菜、川菜料理、及
+「A CUT牛排館」
+提供優質牛排、美酒與服務。
+其他人怎麼說？
+瀏覽國賓品牌
+
+=== 會議場地資訊 ===
+台北、新竹豪華五星級飯店 | 國賓大飯店官方網站
+國賓大飯店
+新竹
+入住
+退房
+搜尋
+0800 051 111 台灣免付費電話
++886 2 2100 2100 台北
++886 3 515 1111 新竹
++886 7 211 5211 高雄
+小計
+您的購物車是空的
+結帳
+立即購物
+EN
+EN
+繁體中文
+日本語
+尋找國賓
+新訊優惠
+最新消息
+客房
+餐飲
+婚宴會議
+訂房
+新竹訂房
+品牌
+國賓大飯店
+A Cut牛排館
+Corner Bakery63 國賓麵包房
+婚宴會議
+會議
+婚宴
+活動專案
+場地面積
+線上購物
+投資人關係
+國賓御所
+工程進度
+台北國賓大飯店
+新竹國賓大飯店
+高雄國賓大飯店
+人文與便捷交會之處
+台北國賓大飯店開幕於1964年，是台灣第一家民營五星級觀光大飯店。2022年-2028年改建期間，餐廳持續於台北市中山區遼寧街177號2樓營運，期待您的蒞臨。
+市中心豪華地標
+新竹國賓大飯店為新竹市中心的現代五星級飯店，距離新竹科學園區僅15分鐘路程。
+愛河畔美麗瑰寶
+高雄國賓大飯店坐擁迷人的愛河風情，為都會度假最佳去處。
+corporate/front_templates/header.corporate.header-top.AMBASSADOR-HOTEL
+尋找國賓
+台北國賓大飯店
+新竹國賓大飯店
+高雄國賓大飯店
+0800 051 111 台灣免付費電話
++886 2 2100 2100 台北
++886 3 515 1111 新竹
++886 7 211 5211 高雄
+SUBTOTAL
+YOUR CART IS EMPTY
+CHECKOUT
+SHOP NOW
+飯店
+選擇
+新竹國賓大飯店
+入住
+退房
+搜尋
+訂房
+EN
+EN
+繁體中文
+日本語
+新訊優惠
+最新消息
+客房
+餐飲
+婚宴會議
+線上購物
+富邦國賓飯店聯名卡
+媒體報導
+訂房
+新竹訂房
+品牌
+國賓大飯店
+A Cut牛排館
+Corner Bakery63 國賓麵包房
+婚宴會議
+會議
+婚宴
+活動專案
+場地面積
+線上購物
+投資人關係
+國賓御所
+工程進度
+展現台灣人親切好客的親善大使
+歡迎光臨國賓大飯店，享受優雅格調與精緻卓越的生活品味。無論您是商務旅行或休閒度假，在每一家國賓大飯店–
+台北
+,
+新竹
+,
+高雄
+，您都能感受到我們親切熱情的接待及精緻貼心的服務，享受猶如在家般的舒適與愜意。了解更多關於
+國賓飯店
+。
+台北國賓大飯店
+台北國賓大飯店開幕於1964年，是台灣第一家民營五星級觀光大飯店。2022年-2028年改建期間，餐廳持續於台北市中山區遼寧街177號2樓營運，期待您的蒞臨。
+新竹國賓大飯店
+新竹國賓大飯店為現代市區中的幽靜之地，不但是新竹市中心唯一的五星級飯店，同時也是世界Worldhotels組織認證的豪華酒店。前往新竹科學園區，車程僅需要20分鐘。
+最新消息
+銀行信用卡年度住宿訂房優惠
+更多詳情
+其他人怎麼說？
+TripAdvisor
+旅客評語
+發表
+閱讀
+瀏覽國賓品牌
+尋找國賓
+新竹
+高雄
+尋找國賓
+新竹
+高雄
+
+
+==================================================
+
+飯店 ID: 1085
+
+飯店名稱: 台北文華東方酒店(MOHTaipei)
+
+官網: https://www.mandarinoriental.com/taipei
+
+官網內容:
+Luxury 5 Star Hotel | Songshan | Mandarin Oriental, Taipei
+Skip to Navigation
+Skip to Content
+Skip to Footer
+Mandarin Oriental
+Taipei
+With iconic architecture reflecting European styles, the luxury and exquisitely designed Mandarin Oriental, Taipei, is one of the city's most iconic landmarks.
+motpe-reservations@mohg.com
++886 2 2715 6888
+Contact Us
+Ask Away
+Discover Taipei
+Michelin Starred
+Family Experiences
+The Oriental Lounge
+Short & Suite
+Stay
+View All
+View All
+Rooms
+Club
+Suites
+Dine
+View All
+Italian
+Bencotto
+Contemporary Italian cuisine
+See More
+Chinese
+Ya Ge
+Beyond its elegant main space, Ya Ge at Mandarin Oriental, Taipei offers nine different private dining rooms.
+See More
+International
+Café Un Deux Trois
+International cuisine in a relaxed, contemporary setting
+See More
+Afternoon Tea
+The Jade Lounge
+An elegant venue for indulgent pleasure
+See More
+Classic cocktails
+M.O. Bar
+A cocktail destination in a sophisticated setting
+See More
+Cakes & Patisseries
+The Mandarin Cake Shop
+Life is sweet
+See More
+Make Your Experience Exceptional
+Fans of M.O. is your access to the exceptional with every visit to our hotels. From flexible privileges and personalised touches to member-exclusive experiences, your journey with Fans of M.O. unfolds with every stay, spa, and dining experience.
+Why Join?
+Become a Fan
+More at Mandarin Oriental, Taipei
+Wellness
+See More
+Events
+See More
+Explore
+See More
+Celebrate
+See More
+Meet
+See More
+Gift
+See More
+
+=== 會議場地資訊 ===
+Songshan Events | Mandarin Oriental, Taipei
+Skip to Navigation
+Skip to Content
+Skip to Footer
+Global Home
+Taipei
+Sign In / Join Now
+Languages
+Our Hotels & Resorts
+Taipei
+Events
+Discover seasonal events, exceptional culinary, rejuvenating wellness offerings, and celebratory experiences at Mandarin Oriental, Taipei.
+motpe-reservations@mohg.com
++886 2 2715 6888
+Ask Away
+
+
+==================================================
+
+飯店 ID: 1086
+
+飯店名稱: 台北晶華酒店 Regent Taipei
+
+官網: https://www.regenttaiwan.com
+
+官網內容:
+台北晶華酒店 | 官網訂房最低價，加購高鐵車票另享75折起優惠
+五星級精品酒店
+城市度假首選
+本地資訊
+22.6&degC
+本地資訊
+22.6&degC
+台北晶華酒店
+台北晶華酒店座落在富有活力與文化、娛樂與購物的中心區域，是國內外商務及休閒旅客的住宿上選。從寬敞奢華的住宿享受、先進高端的會議場地，到精緻非凡的用餐體驗及客製化的娛樂設施，我們獨幟一格的軟硬體設備將能滿足並超越顧客們的期待。
+更多
+家庭聚餐最佳首選
+晶華美食到你家
+更多
+台北晶華酒店
+台北晶華酒店座落在富有活力與文化、娛樂與購物的中心區域，是國內外商務及休閒旅客的住宿上選。從寬敞奢華的住宿享受、先進高端的會議場地，到精緻非凡的用餐體驗及客製化的娛樂設施，我們獨幟一格的軟硬體設備將能滿足並超越顧客們的期待。
+更多
+更多
+高鐵車票優惠
+入住晶華，加購高鐵車票另享優惠
+更多
+最新消息
+最新消息和優惠
+晶華軒「四鳳呈祥」春禽宴登場  太后鴨領軍演繹粵式春味
+查看詳情
+迎接星級餐廳重新開幕，珠寶華服與滿額禮讚齊聚 麗晶精品「春季購物節」優雅登場
+查看詳情
+想吃就買不必等 晶華杜拜巧克力可頌加量狂銷　主廚團隊加班製作滿足甜點控
+查看詳情
+新光 晶華 續前緣攜手再為「信義傑仕堡」創佳績
+查看詳情
+更多
+Tripadvisor
+分享
+分享到社交媒體
+我們重視且尊重您的隱私。
+晶華國際酒店集團的全球官方網站是使用獨立的第三方Cookie來提升網站的表現、分析數據以及達到更精準的投放廣告。若您瀏覽此網站，即代表您同意我們使用第三方Cookie。若欲了解更多相關資訊，建議您可前往我們的
+隱私權聲明與 Cookie 政策
+網頁進行查看。
+同意並進入網站
+分享
+Facebook
+Twitter
+Whatsapp
+您好，歡迎在此提出問題，晶華小管家很樂意為您解答。
+
+=== 會議場地資訊 ===
+豪華精品酒店在臺北 | 最新消息
+晶華酒店
+繁體中文
+|
+晶華酒店
+最新消息
+|
+線上預訂
+關
+English
+简体中文
+日本語
+한국어
+關
+波士頓
+雅加達
+富國島
+黑山港
+關
+線上預訂
+電話訂房
+選擇飯店位置
+選擇一個選項
+北京麗晶酒店
+重慶麗晶酒店
+柏林麗晶酒店
+黑山港麗晶酒店
+新加坡麗晶酒店
+台北晶華酒店
+Select Hotel Wing
+All Wings
+Venezia Wing
+Aqua Wing
+入住日期
+退房日期
+客房
+1
+2
+3
+4
+5
+成人
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+兒童
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+促銷方案代碼
+修改或取消預訂或行程
+全球預訂電話
+選擇位置
+澳大利亞
+中國大陸
+香港
+日本
+新加坡
+台灣
+英國
+美國
+我們可以使用以下的語音通話
+關
+晶華美食到你家
+線上訂房
+線上訂位
+線上旅展
+晶華會
+沐蘭 SPA
+關
+晶華酒店住宿餐飲優惠訊息
+本地資訊
+22.6&degC
+台北晶華酒店
+最新消息
+最新消息
+過濾標籤:
+查看全部
+過濾標籤:
+查看全部
+|
+餐飲
+|
+住宿
+|
+精品
+|
+SPA
+|
+公告
+|
+FAQ
+晶華軒「四鳳呈祥」春禽宴登場  太后鴨領軍演繹粵式春味
+晶華軒「四鳳呈祥」春禽宴登場  太后鴨領軍演繹粵式春味
+瞭解更多
+顯示
+迎接星級餐廳重新開幕，珠寶華服與滿額禮讚齊聚 麗晶精品「春季購物節」優雅登場
+迎接星級餐廳重新開幕，珠寶華服與滿額禮讚齊聚 麗晶精品「春季購物節」優雅登場
+瞭解更多
+顯示
+想吃就買不必等 晶華杜拜巧克力可頌加量狂銷　主廚團隊加班製作滿足甜點控
+想吃就買不必等 晶華杜拜巧克力可頌加量狂銷　主廚團隊加班製作滿足甜點控
+瞭解更多
+顯示
+台北晶華酒店 FAQ
+台北晶華酒店 FAQ
+瞭解更多
+顯示
+新光 晶華 續前緣攜手再為「信義傑仕堡」創佳績
+新光 晶華 續前緣攜手再為「信義傑仕堡」創佳績
+瞭解更多
+顯示
+晶華酒店歡迎少棒健兒 透過豐盛的餐點向英勇小將們致敬
+晶華酒店歡迎少棒健兒 透過豐盛的餐點向英勇小將們致敬
+瞭解更多
+顯示
+晶華酒店創新應用5G  數位轉型有成 透過3D建模與環景投影重塑宴會廳
+晶華酒店創新應用5G  數位轉型有成 透過3D建模與環景投影重塑宴會廳
+瞭解更多
+顯示
+掌開翅膀讓生命自由飛翔晶華落實永續攜手台灣動物社會研究會與花蓮黎明教養院宣示非籠飼雞蛋採購政策
+掌開翅膀讓生命自由飛翔晶華落實永續攜手台灣動物社會研究會與花蓮黎明教養院宣示非籠飼雞蛋採購政策
+瞭解更多
+顯示
+晶華國際酒店集團獲「台灣觀光金獎」肯定
+晶華國際酒店集團獲「台灣觀光金獎」肯定
+瞭解更多
+顯示
+晶華引領永續未來 推出「EcoMeet永續會議」專案攜手商務人士開會愛地球
+晶華引領永續未來 推出「EcoMeet永續會議」專案攜手商務人士開會愛地球
+瞭解更多
+顯示
+晶華「AI廚餘系統」正式上線與「香草花園」共創永續飲食願景
+晶華「AI...
+
+
+==================================================
+
+飯店 ID: 1090
+
+飯店名稱: 茹曦酒店 ILLUME TAIPEI
+
+官網: https://www.theillumehotel.com/zh/
+
+官網內容:
+茹曦酒店 ILLUME TAIPEI｜台北飯店推薦｜松山區住宿首選，鄰近小巨蛋與大巨蛋｜加購高鐵車票享78折起優惠
+跳至主要內容
+入住台北核心地點
+我們的絕佳地理位置，讓您輕鬆抵達台北小巨蛋、台北 101、松山機場及眾多熱門景點。從活力四射的都市景觀醒來，品嚐道地美食，感受台北熱鬧夜生活——一切觸手可及！
+立即訂房
+盡情享受世界風味！
+歡迎蒞臨 Sunny Buffet，一個讓想像成真的美食天堂！ 盡情享受由君品 Collection 餐飲團隊提供的的歡悅美食之旅，餐廳以玻璃帷幕自然採光與16樓挑高設計，結合大片綠色植栽與寬敞用餐空間，驚豔於白天撒落的陽光，徜徉在夜晚星空燦爛的浪漫。
+線上訂位
+夢想遠大，創造精彩時刻
+作為釋放創造力的絕佳空間：茹曦酒店明亮寬敞、挑高無柱的宴會廳的 「茹曦廳」與「斯賓諾莎宴會廳」，以及 11 個彈性運用的多功能廳「貴賓軒」—將為您達成您夢寐以求的精彩活動！
+活動需求申請表
+Hotel Address: No 100 Dun Hua N Rd, Songshan District, Taipei, Taiwan
+飯店地址：台北市松山區敦化北路 100 號
+茹曦酒店 ILLUME TAIPEI –
+您的台北理想住宿！
+想在台北開啟精彩旅程？茹曦酒店 ILLUME TAIPEI 位於市中心，無論您是商務出差、休閒度假，或是來場難忘的都市探索，我們都能提供現代舒適的客房、一流的設施與無與倫比的便捷體驗。
+為何選擇茹曦酒店？
+絕佳地理位置
+Easy access to top attractions & metro stations
+精彩會員計畫
+讓您的住宿更加愉悅與舒適
+極致舒適
+現代時尚客房，打造放鬆氛圍
+免費 Wi-Fi
+無縫連接，輕鬆掌握資訊
+館內餐廳
+盡享精選在地與國際美饌
+24小時接待櫃台
+隨時滿足您的需求
+會議活動空間
+商務聚會與慶典的完美選擇
+支持永續旅行
+落實環保理念，打造永續住宿體驗
+賓客免費停車
+先到先停，方便您的行程
+穆斯林友善旅宿
+符合MFT和MFR標準
+全新客房與套房
+尊爵客房
+走進這間全新裝修、令人驚豔的客房，即可欣賞台北 101 和敦化北路的市中心樹海美景。在熙熙攘攘的旅途當中，享受無與倫比的景色與恬靜時光。
+房型資訊
+尊爵三人房
+這間全新裝修的客房最多可供三位旅客入住，欣賞城市和台北 101 的壯麗景色，體驗現代舒適。
+房型資訊
+尊爵家庭房
+全新裝修的家庭四人房，提供充滿舒適的風格和寬敞的空間，兩大床或是一大床兩小床的床型，非常適合與家人或朋友留下美好回憶。
+房型資訊
+尊爵豪華客房
+尊爵豪華客房是茹曦現代經典的體現——寬敞格局、靜謐沙發座區與柔和光感色調，共構出輕鬆流暢的節奏。
+房型資訊
+尊爵套房
+請在這個全新裝修的套房中體驗奢華和舒適。大方寬敞的客廳與獨具設計感的臥室，讓您在旅途中徹底放鬆。享受城市中的寧靜氛圍和體貼服務。
+房型資訊
+公寓式套房
+盡情享受全新裝修的公寓式套房。這間令人驚艷的套房設有寬敞的客廳和設備齊全的小廚房，是長期住宿旅客的完美結合。
+房型資訊
+行政套房
+歡迎來到我們的行政套房，設有獨立起居臥室、舒適寬敞的客廳和便利的小廚房，完美地兼具舒適與實用性。
+房型資訊
+標準客房
+2017 整修完畢
+犒賞自己一場放鬆的入住體驗，讓這片靜謐空間啟發您，把握每一個美好時刻。
+房型資訊
+豪華套房
+入住豪華且功能齊全的套房，體驗台北之旅的優雅舒適。享受如畫的景色、寬敞的客廳和舒適的雙人床。 立即預訂，享受旅途之中的第二個家。
+房型資訊
+探索所有房型
+放鬆充電 – 尊享頂級設施
+健身房
+超過 50 組專業健身設施
+了解更多
+共享工作空間
+釋放創造力的最佳場合
+了解更多
+戶外游泳池
+享受風光明媚的城市之旅
+了解更多
+New Feature
+筋膜放鬆 × 按摩課程｜深層放鬆，重啟身體平衡 茹曦酒店 × Youth Fitness & Yoga
+At ILLUME TAIPEI, the Myofascial Release × Massage program by Youth Fitness & Yoga offers expert assessment and deep release to enhance mobility and ease travel tension.
+探索更多設施
+交通便利 – 輕鬆抵達！
+茹曦酒店擁有便捷的公共交通網絡，讓您的旅程順暢無憂。無論您選擇哪種交通方式，都能輕鬆快速抵達茹曦酒店！
+捷運 (MRT)
+台北小巨蛋站 (G17) – 就在對面！
+南京復興站 (G16/BR11) – 步行 7 分鐘即達
+附近的公車站點
+南京敦化路口 (台北小巨蛋)：下車後步行3分鐘即可抵達
+從桃園機場出發
+搭乘機場捷運至台北車站（約 35 分鐘），再轉乘捷運。
+...
+
+
+==================================================
+
+飯店 ID: 1122
+
+飯店名稱: 維多麗亞酒店
+
+官網: https://www.grandvictoria.com.tw/
+
+官網內容:
+維多麗亞酒店 | 官方網站
+時尚五星級飯店飯店在台北市
+維多麗亞酒店   鄰近捷運劍南站
+中山區敬業四路168號, 台北市, 104, 台灣
+電話
++886-2-8502-0000
+傳真
++886-2-8502-0005
+電子郵件
+service@grandvictoria.com.tw
+繁體中文
+English
+日本語
+線上預訂
+立即預訂
+保證最優惠價格
+在這裡 找休憩．享美味．遊喜事
+徜徉在 維多麗亞時代的古典浪漫氛圍
+檢視圖庫
+酒店介紹
+徜徉在 維多麗亞時代的古典浪漫氛圍，遊走於 流行時尚交織的新現代主義，在這裡 找休憩．享美味．遊喜事。
+以十九世紀英國盛世維多麗亞王朝之建築風格元素，創造新貴族古典時尚旅館-維多麗亞酒店(Grand Victoria Hotel)，位於內湖大直地區—捷運劍南站旁，為最具代表性的時尚五星級飯店。以古典語彙建築外觀、英式貴族鐘樓、層次漸變的LED燈光、英式風情戶外花園，創造出維多麗亞酒店的多樣風貌。
+鄰近內湖科技園區、世貿中心、汐止與南港工業區與美麗華購物中心(美麗華摩天輪)、士林夜市及東區商圈以及故宮、忠烈祠等名勝景點，由堤頂交流道上中山高速公路至桃園國際機場只需40分鐘，而至臺北松山機場僅需15分鐘，無論是出差洽公或是觀光旅遊都是您最佳選擇。
+雙囍中餐廳
+營運調整公告
+馬上探索
+最新活動
+餐飲活動 ‧ 禮盒商品 ‧ 線上訂房優惠 ‧ 住房優惠 ‧ 媒體資訊
+更多資訊
+英式古典鐘樓
+浪漫戶外花園
+酒店特色
+N°168 PRIME-台北“米其林指南”推薦餐廳
+價值千萬施華洛世奇豪華水晶吊燈
+全新英式時尚風格客房
+雙囍-粵菜為底的多元中式料理餐廳
+挑高8米現代時尚英式劇院宴會廳
+客房內Philippe Stark透明單椅家具
+露天游泳池 / 池畔派對
+4處戶外證婚場地，宴會廳可延伸至戶外花園
+隱於城市中的台北最大英式戶外花園
+餐飲美饌
+更多資訊
+周邊熱門景點
+人文景點
+夜市景點
+所有景點
+遊樂景點
+都會景點
+計算路線
+尋找路線自
+至 維多麗亞酒店 Grand Victoria Hotel
+計算路線
+關閉路線
+線上訂房優惠
+查看所有優惠

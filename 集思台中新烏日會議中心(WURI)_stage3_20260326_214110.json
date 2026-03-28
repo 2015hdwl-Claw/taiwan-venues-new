@@ -1,0 +1,33 @@
+{
+  "venue": "集思台中新烏日會議中心(WURI)",
+  "venue_id": 1498,
+  "stage3": {
+    "conclusion": "官網有會議室名稱但缺少詳細資料，URL 錯誤需修正",
+    "data_source": "需要直接聯繫或參考其他集思場地",
+    "current_rooms": 5,
+    "discovered_rooms": [
+      "301會議室",
+      "303會議室",
+      "401會議室",
+      "402會議室"
+    ],
+    "url_correction": {
+      "wrong": "https://www.meeting.com.tw/wuri/",
+      "correct": "https://www.meeting.com.tw/xinwuri/index.php"
+    },
+    "missing_data": [
+      "容量",
+      "面積",
+      "價格",
+      "設備清單",
+      "會議室照片"
+    ],
+    "recommended_action": "聯繫場地索取完整資料或參考集思台大資料"
+  },
+  "complete_analysis": {
+    "stage1": "技術檢測完成 - 發現 URL 錯誤，動態渲染，無反爬蟲",
+    "stage2": "深度爬蟲完成 - 找到4個會議室名稱，詳情頁 404，缺少詳細資料",
+    "stage3": "驗證完成 - 需要補充完整30欄位資料並修正 venues.json URL"
+  },
+  "timestamp": "2026-03-26T21:41:10.241206"
+}

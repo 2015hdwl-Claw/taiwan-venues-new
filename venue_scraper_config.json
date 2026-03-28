@@ -1,0 +1,578 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-03-24T21:17:35.083929",
+  "venues": [
+    {
+      "venue_id": 1031,
+      "name": "CAMA咖啡",
+      "official_website": "https://www.camacafe.com/",
+      "sources": {
+        "website": "https://www.camacafe.com/"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1032,
+      "name": "CLBC大安商務中心",
+      "official_website": "https://clbc.tw/",
+      "sources": {
+        "website": "https://clbc.tw/"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1034,
+      "name": "NUZONE展演空間",
+      "official_website": "https://www.nuzone.com.tw/",
+      "sources": {
+        "website": "https://www.nuzone.com.tw/"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1035,
+      "name": "Regus商務中心",
+      "official_website": "https://www.regus.com",
+      "sources": {
+        "website": "https://www.regus.com"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1036,
+      "name": "Simple Kaffa",
+      "official_website": "https://simplekaffa.com/",
+      "sources": {
+        "website": "https://simplekaffa.com/"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1038,
+      "name": "The Executive Centre",
+      "official_website": "https://www.executivecentre.com",
+      "sources": {
+        "website": "https://www.executivecentre.com"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1042,
+      "name": "公務人力發展學院",
+      "official_website": "https://www.hrd.gov.tw",
+      "sources": {
+        "website": "https://www.hrd.gov.tw"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1043,
+      "name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+      "official_website": "https://www.courtyardtaipei.com.tw/zh-TW/",
+      "sources": {
+        "website": "https://www.courtyardtaipei.com.tw/zh-TW/"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1044,
+      "name": "典藏咖啡廳",
+      "official_website": "https://artouch.com/food/",
+      "sources": {
+        "website": "https://artouch.com/food/"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1045,
+      "name": "北科大創新育成中心",
+      "official_website": "https://www.ntut.edu.tw",
+      "sources": {
+        "website": "https://www.ntut.edu.tw"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1048,
+      "name": "台北一樂園大飯店",
+      "official_website": "https://www.ile-hotel.com",
+      "sources": {
+        "website": "https://www.ile-hotel.com"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1049,
+      "name": "台北世貿中心(TWTCA)展覽大樓",
+      "official_website": "https://www.twtc.com.tw/",
+      "sources": {
+        "website": "https://www.twtc.com.tw/"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1051,
+      "name": "台北亞都麗緻大飯店(LandisTaipei)",
+      "official_website": "https://taipei.landishotelsresorts.com/",
+      "sources": {
+        "website": "https://taipei.landishotelsresorts.com/"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1053,
+      "name": "台北兄弟大飯店(BrotherTaipei)",
+      "official_website": "https://www.brotherhotel.com.tw/?cat=75",
+      "sources": {
+        "website": "https://www.brotherhotel.com.tw/?cat=75"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1055,
+      "name": "台北六福客棧(Leofoo)",
+      "official_website": "https://www.leofoo.com.tw",
+      "sources": {
+        "website": "https://www.leofoo.com.tw"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1057,
+      "name": "台北典華",
+      "official_website": "https://www.denwell.com/",
+      "sources": {
+        "website": "https://www.denwell.com/"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1059,
+      "name": "台北友春大飯店",
+      "official_website": "https://www.youchun-hotel.com",
+      "sources": {
+        "website": "https://www.youchun-hotel.com"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1065,
+      "name": "台北唯客樂文旅",
+      "official_website": "https://www.victoriam.com/",
+      "sources": {
+        "website": "https://www.victoriam.com/"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1066,
+      "name": "台北商務會館",
+      "official_website": "http://www.tbc-group.com/",
+      "sources": {
+        "website": "http://www.tbc-group.com/"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1068,
+      "name": "台北喜瑞飯店",
+      "official_website": "https://www.ambiencehotel.com.tw/",
+      "sources": {
+        "website": "https://www.ambiencehotel.com.tw/"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1069,
+      "name": "台北國賓大飯店(AmbassadorTaipei)",
+      "official_website": "https://www.ambassador-hotels.com/tc/taipei",
+      "sources": {
+        "website": "https://www.ambassador-hotels.com/tc/taipei"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1072,
+      "name": "台北圓山大飯店(Grand Hotel Taipei)",
+      "official_website": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP",
+      "sources": {
+        "website": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1073,
+      "name": "台北姿美大飯店",
+      "official_website": "https://www.zibei-hotel.com",
+      "sources": {
+        "website": "https://www.zibei-hotel.com"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1075,
+      "name": "台北寒舍喜來登大飯店",
+      "official_website": "https://www.sheratongrandtaipei.com",
+      "sources": {
+        "website": "https://www.sheratongrandtaipei.com"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1076,
+      "name": "台北寒舍艾美酒店(LeMeridienTaipei)",
+      "official_website": "https://www.lemeridien-taipei.com",
+      "sources": {
+        "website": "https://www.lemeridien-taipei.com"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1077,
+      "name": "台北艾麗酒店",
+      "official_website": "https://www.humblehousehotels.com/",
+      "sources": {
+        "website": "https://www.humblehousehotels.com/"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1080,
+      "name": "台北康華大飯店",
+      "official_website": "https://www.kanghua-hotel.com",
+      "sources": {
+        "website": "https://www.kanghua-hotel.com"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1082,
+      "name": "台北怡亨酒店 Hotel Éclat Taipei",
+      "official_website": "https://www.eclathotels.com/zt/taipei",
+      "sources": {
+        "website": "https://www.eclathotels.com/zt/taipei"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1083,
+      "name": "台北北門世民酒店 citizenM Taipei North Gate",
+      "official_website": "https://www.citizenm.com/hotels/asia/taipei/taipei-north-gate",
+      "sources": {
+        "website": "https://www.citizenm.com/hotels/asia/taipei/taipei-north-gate"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1084,
+      "name": "台北慶泰大飯店",
+      "official_website": "https://www.ching-tai.com",
+      "sources": {
+        "website": "https://www.ching-tai.com"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1085,
+      "name": "台北文華東方酒店(MOHTaipei)",
+      "official_website": "https://www.mandarinoriental.com/taipei",
+      "sources": {
+        "website": "https://www.mandarinoriental.com/taipei"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1086,
+      "name": "台北晶華酒店 Regent Taipei",
+      "official_website": "https://www.regenttaiwan.com",
+      "sources": {
+        "website": "https://www.regenttaiwan.com"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1090,
+      "name": "茹曦酒店 ILLUME TAIPEI",
+      "official_website": "https://www.theillumehotel.com/zh/",
+      "sources": {
+        "website": "https://www.theillumehotel.com/zh/"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1092,
+      "name": "台北第一大飯店",
+      "official_website": "https://www.firsthotel.com",
+      "sources": {
+        "website": "https://www.firsthotel.com"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1095,
+      "name": "台北美福大飯店",
+      "official_website": "https://www.grandmayfull.com/",
+      "sources": {
+        "website": "https://www.grandmayfull.com/"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1097,
+      "name": "台北老爺大酒店(RoyalInnTaipei)",
+      "official_website": "https://www.hotelroyal.com.tw/zh-tw/taipei",
+      "sources": {
+        "website": "https://www.hotelroyal.com.tw/zh-tw/taipei"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1099,
+      "name": "台北艾美酒店",
+      "official_website": "https://www.lemeridien.com/taipei",
+      "sources": {
+        "website": "https://www.lemeridien.com/taipei"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1100,
+      "name": "台北花園大酒店(TGHotel)",
+      "official_website": "https://www.taipeigarden.com.tw/",
+      "sources": {
+        "website": "https://www.taipeigarden.com.tw/"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1103,
+      "name": "台北萬豪酒店(MarriottTaipei)",
+      "official_website": "https://www.taipeimarriott.com.tw/",
+      "sources": {
+        "website": "https://www.taipeimarriott.com.tw/"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1107,
+      "name": "台北體育館",
+      "official_website": "https://sports.gov.taipei/",
+      "sources": {
+        "website": "https://sports.gov.taipei/"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1109,
+      "name": "台大綜合體育館",
+      "official_website": "https://www.ntu.edu.tw",
+      "sources": {
+        "website": "https://www.ntu.edu.tw"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1116,
+      "name": "彭園婚宴會館",
+      "official_website": "https://www.pengyuan.com.tw",
+      "sources": {
+        "website": "https://www.pengyuan.com.tw"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1121,
+      "name": "神旺大飯店",
+      "official_website": "https://www.sanwant.com",
+      "sources": {
+        "website": "https://www.sanwant.com"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1122,
+      "name": "維多麗亞酒店",
+      "official_website": "https://www.grandvictoria.com.tw/",
+      "sources": {
+        "website": "https://www.grandvictoria.com.tw/"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1124,
+      "name": "花園大酒店",
+      "official_website": "https://www.taipeigarden.com.tw",
+      "sources": {
+        "website": "https://www.taipeigarden.com.tw"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1125,
+      "name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+      "official_website": "https://www.huashan1914.com",
+      "sources": {
+        "website": "https://www.huashan1914.com"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1126,
+      "name": "豪景大酒店",
+      "official_website": "https://www.riverview.com.tw/",
+      "sources": {
+        "website": "https://www.riverview.com.tw/"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1128,
+      "name": "集思台大會議中心(NTUCC)",
+      "official_website": "https://www.meeting.com.tw/ntu/",
+      "sources": {
+        "website": "https://www.meeting.com.tw/ntu/"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1129,
+      "name": "青青婚宴會館",
+      "official_website": "https://www.77-67.com/",
+      "sources": {
+        "website": "https://www.77-67.com/"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1334,
+      "name": "台北中山運動中心",
+      "official_website": "https://cssc.cyc.org.tw/",
+      "sources": {
+        "website": "https://cssc.cyc.org.tw/"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1448,
+      "name": "台北國際會議中心(TICC)",
+      "official_website": "https://www.ticc.com.tw/",
+      "sources": {
+        "website": "https://www.ticc.com.tw/"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    },
+    {
+      "venue_id": 1493,
+      "name": "師大進修推廣學院",
+      "official_website": "https://www.sce.ntnu.edu.tw/home/index.php",
+      "sources": {
+        "website": "https://www.sce.ntnu.edu.tw/home/index.php"
+      },
+      "strategy": "auto",
+      "selectors": {},
+      "enabled": true
+    }
+  ]
+}

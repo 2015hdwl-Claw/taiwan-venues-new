@@ -1,0 +1,86 @@
+{
+  "venue": "台北晶華酒店",
+  "venue_id": 1086,
+  "timestamp": "2026-03-27T00:42:31.231781",
+  "main_page": {
+    "url": "https://www.regenttaiwan.com/",
+    "status": 200,
+    "size": 80493,
+    "js_frameworks": []
+  },
+  "meeting_links": [
+    {
+      "text": "晶華酒店",
+      "url": "https://www.regenttaiwan.com/"
+    },
+    {
+      "text": "最新消息",
+      "url": "https://www.regenttaiwan.com/overview/news-events"
+    },
+    {
+      "text": "晶華軒",
+      "url": "https://www.regenttaiwan.com/dining/silks-house"
+    },
+    {
+      "text": "婚宴會議",
+      "url": "https://www.regenttaiwan.com/occasions"
+    },
+    {
+      "text": "婚宴專案",
+      "url": "https://www.regenttaiwan.com/occasions/weddings"
+    },
+    {
+      "text": "會議活動",
+      "url": "https://www.regenttaiwan.com/occasions/meetings-events"
+    },
+    {
+      "text": "活動場地",
+      "url": "https://www.regenttaiwan.com/occasions/event-venues"
+    },
+    {
+      "text": "晶華外燴",
+      "url": "https://www.regenttaiwan.com/occasions/catering"
+    },
+    {
+      "text": "永續晶華",
+      "url": "https://esg.silkshotelgroup.com"
+    },
+    {
+      "text": "晶華美食到你家",
+      "url": "https://shop.silkshotelgroup.com/RT"
+    },
+    {
+      "text": "晶華會",
+      "url": "https://event.silkshotelgroup.com"
+    },
+    {
+      "text": "晶華軒「四鳳呈祥」春禽宴登場  太后鴨領軍演繹粵式春味",
+      "url": "https://www.regenttaiwan.com/news/2026_regent_silks-house"
+    },
+    {
+      "text": "台北晶華童心月 入住贈即杜拜巧克力 另有多款造型甜點與趣味彩蛋競賽 嗨翻整個月",
+      "url": "https://www.regenttaiwan.com/news/2026_regent_teddy_beurre_house"
+    },
+    {
+      "text": "新光 晶華 續前緣攜手再為「信義傑仕堡」創佳績",
+      "url": "https://www.regenttaiwan.com/news/2024_regent_Jasper_Villa_Xinyi"
+    },
+    {
+      "text": "晶華國際酒店集團",
+      "url": "https://www.silkshotelgroup.com/tw/"
+    },
+    {
+      "text": "探索晶華",
+      "url": "https://www.silkshotelgroup.com/tw/about "
+    },
+    {
+      "text": "",
+      "url": "https://event.silkshotelgroup.com/ContactUs/zh-tw/RT/"
+    },
+    {
+      "text": "您好，歡迎在此提出問題，晶華小管家很樂意為您解答。",
+      "url": "https://chatbot.silkshotelgroup.com/wise/webchat/default/?t=oC56ls9rDQCvE6pSN%2B9i0w%3D%3D"
+    }
+  ],
+  "pdf_links": []
+}

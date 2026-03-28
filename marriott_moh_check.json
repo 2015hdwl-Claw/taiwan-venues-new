@@ -1,0 +1,46 @@
+[
+  {
+    "name": "台北萬豪酒店",
+    "url": "https://www.taipeimarriott.com.tw/",
+    "has_price": true,
+    "price_count": 3,
+    "sample_prices": [
+      "1元",
+      "100元",
+      "100元"
+    ],
+    "meeting_links_count": 2,
+    "sample_links": [
+      {
+        "text": "會議&宴會",
+        "href": "/websev?cat=page&subcat=17"
+      },
+      {
+        "text": "會議 & 宴會",
+        "href": "/websev?cat=page&id=39"
+      }
+    ]
+  },
+  {
+    "name": "台北文華東方酒店",
+    "url": "https://www.mandarinoriental.com/taipei",
+    "has_price": false,
+    "price_count": 0,
+    "sample_prices": [],
+    "meeting_links_count": 3,
+    "sample_links": [
+      {
+        "text": "Events",
+        "href": "/en/taipei/songshan/events"
+      },
+      {
+        "text": "Events",
+        "href": "/en/taipei/songshan/events"
+      },
+      {
+        "text": "See More",
+        "href": "/en/taipei/songshan/events"
+      }
+    ]
+  }
+]

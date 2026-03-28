@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="活動大師 - 台灣活動場地查詢平台，371 個優質場地即時查詢">
-    <title>活動大師 - 台灣活動場地查詢平台</title>
+    <meta name="description" content="企業場地選擇的風險管理專家 - 提供專業場地知識、隱藏限制提醒、風險評估，幫助公關公司和企業避免選錯場地的百萬風險">
+    <title>活動大師 - 企業場地選擇的風險管理專家</title>
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,8 +22,12 @@
                 </div>
                 <div class="header-stats">
                     <span class="stat-item">
-                        <span class="stat-number" id="totalVenues">371</span>
-                        <span class="stat-label">個場地</span>
+                        <span class="stat-number">80+</span>
+                        <span class="stat-label">精選場地</span>
+                    </span>
+                    <span class="stat-item">
+                        <span class="stat-number">98%</span>
+                        <span class="stat-label">資料準確率</span>
                     </span>
                 </div>
             </div>
@@ -33,9 +37,31 @@
     <!-- 主要內容 -->
     <main class="main">
         <div class="container">
+            <!-- B2B價值主張區 -->
+            <section class="value-prop-section">
+                <div class="value-prop-content">
+                    <h1 class="hero-title">企業場地選擇的風險管理專家</h1>
+                    <p class="hero-subtitle">80%的企業因選錯場地損失超過NT$100,000</p>
+                    <div class="key-benefits">
+                        <div class="benefit-item">
+                            <span class="benefit-icon">⚠️</span>
+                            <span class="benefit-text">風險評估</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-icon">📊</span>
+                            <span class="benefit-text">專業知識</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-icon">💡</span>
+                            <span class="benefit-text">隱藏限制</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <!-- 搜尋區 -->
             <section class="search-section">
-                <h2 class="section-title">找場地，問活動大師就夠了！</h2>
+                <h2 class="section-title">搜尋專業場地資訊</h2>
                 
                 <!-- 搜尋框 -->
                 <div class="search-box">
@@ -99,6 +125,55 @@
                 </div>
             </section>
 
+            <!-- 專業功能展示區 -->
+            <section class="professional-features">
+                <h2 class="section-title">為什麼企業選擇活動大師？</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">⚠️</div>
+                        <h3>風險評估</h3>
+                        <p>每個場地標註潛在風險點</p>
+                        <p class="feature-example">「週末婚宴多，需提早3個月預訂」</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <h3>專業知識</h3>
+                        <p>資深公關企劃的隱藏知識</p>
+                        <p class="feature-example">「訂9:00-17:00比8:00-16:00便宜20%」</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">💡</div>
+                        <h3>隱藏限制</h3>
+                        <p>官網不會告訴你的重要限制</p>
+                        <p class="feature-example">「場地高度限制3.5公尺，大型舞台無法進入」</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 企業服務CTA區 -->
+            <section class="enterprise-cta">
+                <div class="cta-container">
+                    <h2>專業場地知識，為企業而生</h2>
+                    <div class="cta-options">
+                        <div class="cta-card">
+                            <h3>🎯 公關/活動公司</h3>
+                            <p>提升客戶滿意度，降低風險</p>
+                            <button class="btn btn-primary" onclick="showEnterpriseForm('pr')">申請試用</button>
+                        </div>
+                        <div class="cta-card">
+                            <h3>🏢 企業行銷團隊</h3>
+                            <p>快速找到符合品牌形象的場地</p>
+                            <button class="btn btn-primary" onclick="showEnterpriseForm('corporate')">聯繫我們</button>
+                        </div>
+                        <div class="cta-card">
+                            <h3>🎪 專業活動策劃</h3>
+                            <p>獲取專業場地知識庫</p>
+                            <button class="btn btn-primary" onclick="showEnterpriseForm('planner')">了解更多</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <!-- 場地列表 -->
             <section class="venues-section">
                 <div class="venues-grid" id="venuesGrid">
@@ -138,11 +213,108 @@
         </div>
     </div>
 
+    <!-- 反饋表單區 -->
+    <section class="feedback-section">
+        <div class="container">
+            <h2>告訴我們您的需求</h2>
+            <p>我們正在優化企業場地選擇服務，您的意見很重要</p>
+            <form id="feedbackForm" class="feedback-form" onsubmit="submitFeedback(event)">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="profession">您的職業 *</label>
+                        <select id="profession" name="profession" required>
+                            <option value="">請選擇</option>
+                            <option value="pr">公關/活動公司</option>
+                            <option value="corporate">企業行銷/HR</option>
+                            <option value="planner">活動策劃師</option>
+                            <option value="other">其他</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="frequency">每月找場地次數 *</label>
+                        <select id="frequency" name="frequency" required>
+                            <option value="">請選擇</option>
+                            <option value="1-3">1-3次</option>
+                            <option value="4-10">4-10次</option>
+                            <option value="10+">10次以上</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="concerns">您最關心的場地資訊是什麼？</label>
+                    <textarea id="concerns" name="concerns" rows="3" placeholder="例如：價格透明度、隱藏限制、預訂難度..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="email">聯繫方式（可選，我們會寄送測試結果給您）</label>
+                    <input type="email" id="email" name="email" placeholder="your@email.com">
+                </div>
+                <button type="submit" class="btn btn-primary btn-large">提交反饋</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- 企業聯繫表單 Modal -->
+    <div class="modal" id="enterpriseModal">
+        <div class="modal-overlay" onclick="closeEnterpriseModal()"></div>
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeEnterpriseModal()">✕</button>
+            <div class="modal-header">
+                <h2 id="enterpriseModalTitle">企業服務洽詢</h2>
+                <p id="enterpriseModalDesc">請填寫您的聯繫資訊，我們會盡快與您聯繫</p>
+            </div>
+            <form id="enterpriseForm" class="enterprise-form" onsubmit="submitEnterpriseForm(event)">
+                <input type="hidden" id="enterpriseType" name="type">
+                <div class="form-group">
+                    <label for="companyName">公司名稱 *</label>
+                    <input type="text" id="companyName" name="companyName" required>
+                </div>
+                <div class="form-group">
+                    <label for="contactPerson">聯絡人 *</label>
+                    <input type="text" id="contactPerson" name="contactPerson" required>
+                </div>
+                <div class="form-group">
+                    <label for="contactEmail">Email *</label>
+                    <input type="email" id="contactEmail" name="contactEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="contactPhone">電話</label>
+                    <input type="tel" id="contactPhone" name="contactPhone">
+                </div>
+                <div class="form-group">
+                    <label for="requirements">需求描述</label>
+                    <textarea id="requirements" name="requirements" rows="4" placeholder="請描述您的場地需求..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-large">送出洽詢</button>
+            </form>
+        </div>
+    </div>
+
     <!-- 頁腳 -->
     <footer class="footer">
         <div class="container">
-            <p>© 2026 活動大師 EventMaster. All rights reserved.</p>
-            <p>專業的台灣活動場地查詢平台</p>
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>活動大師 EventMaster</h3>
+                    <p>企業場地選擇的風險管理專家</p>
+                </div>
+                <div class="footer-links">
+                    <h4>企業服務</h4>
+                    <ul>
+                        <li><a href="#" onclick="showEnterpriseForm('pr')">公關公司服務</a></li>
+                        <li><a href="#" onclick="showEnterpriseForm('corporate')">企業團隊服務</a></li>
+                        <li><a href="#" onclick="showEnterpriseForm('planner')">活動策劃服務</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>聯繫我們</h4>
+                    <p>Email: service@eventmaster.tw</p>
+                    <p>電話: (02) 1234-5678</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 活動大師 EventMaster. All rights reserved.</p>
+                <p>專為企業設計的場地知識平台</p>
+            </div>
         </div>
     </footer>
 

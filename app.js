@@ -425,3 +425,215 @@ document.getElementById('venueModal').addEventListener('click', (e) => {
         closeModal();
     }
 });
+
+// ===== B2B 功能：反饋表單處理 =====
+function submitFeedback(event) {
+    event.preventDefault();
+
+    const form = event.target;
+    const formData = new FormData(form);
+    const feedbackData = {
+        profession: formData.get('profession'),
+        frequency: formData.get('frequency'),
+        concerns: formData.get('concerns'),
+        email: formData.get('email'),
+        timestamp: new Date().toISOString(),
+        page: 'index'
+    };
+
+    // 儲存到 localStorage（實際應用中應發送到後端）
+    const feedbacks = JSON.parse(localStorage.getItem('eventmaster_feedbacks') || '[]');
+    feedbacks.push(feedbackData);
+    localStorage.setItem('eventmaster_feedbacks', JSON.stringify(feedbacks));
+
+    // 發送到 Google Analytics（如果可用）
+    if (typeof gtag !== 'undefined') {
+        gtag('event', 'submit_feedback', {
+            'event_category': 'engagement',
+            'event_label': feedbackData.profession
+        });
+    }
+
+    // 顯示感謝訊息
+    alert('感謝您的反饋！我們會認真考慮您的意見。');
+    form.reset();
+
+    // 可選：發送到後端 API
+    // sendToBackend('/api/feedback', feedbackData);
+}
+
+// ===== B2B 功能：企業表單顯示 =====
+function showEnterpriseForm(type) {
+    const modal = document.getElementById('enterpriseModal');
+    const typeInput = document.getElementById('enterpriseType');
+    const title = document.getElementById('enterpriseModalTitle');
+    const desc = document.getElementById('enterpriseModalDesc');
+
+    // 設定表單類型
+    typeInput.value = type;
+
+    // 根據類型設定標題和描述
+    switch(type) {
+        case 'pr':
+            title.textContent = '公關/活動公司服務洽詢';
+            desc.textContent = '專業的場地知識平台，幫助您提升客戶滿意度';
+            break;
+        case 'corporate':
+            title.textContent = '企業行銷團隊服務洽詢';
+            desc.textContent = '快速找到符合品牌形象的專業場地';
+            break;
+        case 'planner':
+            title.textContent = '活動策劃師服務洽詢';
+            desc.textContent = '獲取專業場地知識庫和風險評估工具';
+            break;
+    }
+
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+// ===== B2B 功能：關閉企業表單 =====
+function closeEnterpriseModal() {
+    const modal = document.getElementById('enterpriseModal');
+    modal.classList.remove('active');
+    document.body.style.overflow = '';
+}
+
+// ===== B2B 功能：提交企業表單 =====
+function submitEnterpriseForm(event) {
+    event.preventDefault();
+
+    const form = event.target;
+    const formData = new FormData(form);
+    const enterpriseData = {
+        type: formData.get('type'),
+        companyName: formData.get('companyName'),
+        contactPerson: formData.get('contactPerson'),
+        email: formData.get('contactEmail'),
+        phone: formData.get('contactPhone'),
+        requirements: formData.get('requirements'),
+        timestamp: new Date().toISOString()
+    };
+
+    // 儲存到 localStorage
+    const inquiries = JSON.parse(localStorage.getItem('eventmaster_inquiries') || '[]');
+    inquiries.push(enterpriseData);
+    localStorage.setItem('eventmaster_inquiries', JSON.stringify(inquiries));
+
+    // 發送到 Google Analytics
+    if (typeof gtag !== 'undefined') {
+        gtag('event', 'submit_inquiry', {
+            'event_category': 'lead_generation',
+            'event_label': enterpriseData.type
+        });
+    }
+
+    // 顯示感謝訊息
+    alert('感謝您的洽詢！我們會盡快與您聯繫。');
+    closeEnterpriseModal();
+    form.reset();
+
+    // 可選：發送到後端 API 或 Email
+    // sendInquiryEmail(enterpriseData);
+}
+
+// ===== B2B 功能：Analytics 追蹤 =====
+function trackEnterpriseEngagement() {
+    // 追蹤專業功能查看
+    const knowledgeLinks = document.querySelectorAll('[onclick*="viewAllKnowledge"]');
+    knowledgeLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'view_knowledge', {
+                    'event_category': 'enterprise_feature',
+                    'event_label': 'professional_knowledge'
+                });
+            }
+        });
+    });
+
+    // 追蹤場地比較功能
+    const compareButtons = document.querySelectorAll('[onclick*="compareVenue"]');
+    compareButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'compare_venues', {
+                    'event_category': 'enterprise_feature',
+                    'event_label': 'comparison_tool'
+                });
+            }
+        });
+    });
+}
+
+// ===== B2B 功能：資料收集分析 =====
+function analyzeUserBehavior() {
+    // 收集用戶行為數據
+    const behaviorData = {
+        visitTime: new Date().toISOString(),
+        pagesViewed: [],
+        searchesPerformed: 0,
+        filtersUsed: [],
+        venuesViewed: [],
+        timeOnPage: 0
+    };
+
+    // 追蹤頁面停留時間
+    let startTime = Date.now();
+    window.addEventListener('beforeunload', () => {
+        behaviorData.timeOnPage = Math.floor((Date.now() - startTime) / 1000);
+        localStorage.setItem('eventmaster_behavior', JSON.stringify(behaviorData));
+    });
+
+    // 追蹤搜尋行為
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput) {
+        searchInput.addEventListener('change', () => {
+            behaviorData.searchesPerformed++;
+        });
+    }
+}
+
+// ===== 初始化 B2B 功能 =====
+document.addEventListener('DOMContentLoaded', () => {
+    // 啟用分析功能
+    analyzeUserBehavior();
+
+    // 延遲啟用功能追蹤（確保 DOM 完全載入）
+    setTimeout(() => {
+        trackEnterpriseEngagement();
+    }, 1000);
+});
+
+// ===== B2B 功能：風險等級計算 =====
+function calculateRiskLevel(venue) {
+    let riskScore = 0;
+    let riskFactors = [];
+
+    // 檢查各種風險因素
+    if (venue.priceHalfDay > 50000) {
+        riskScore += 2;
+        riskFactors.push('高價格場地');
+    }
+
+    if (venue.maxCapacityTheater > 500) {
+        riskScore += 1;
+        riskFactors.push('大型場地需要更多準備');
+    }
+
+    // 檢查是否有隱藏知識
+    if (!venue.hiddenKnowledge || Object.keys(venue.hiddenKnowledge).length === 0) {
+        riskScore += 2;
+        riskFactors.push('缺乏專業知識');
+    }
+
+    // 計算風險等級
+    let riskLevel = 'low';
+    if (riskScore >= 4) {
+        riskLevel = 'high';
+    } else if (riskScore >= 2) {
+        riskLevel = 'medium';
+    }
+
+    return { level: riskLevel, score: riskScore, factors: riskFactors };
+}

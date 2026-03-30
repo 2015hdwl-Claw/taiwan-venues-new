@@ -5,7 +5,7 @@ let currentPage = 0;
 const ITEMS_PER_PAGE = 20;
 
 // ===== 版本控制（每次部署更新此值）=====
-const DATA_VERSION = '20260330-taipei-b2b'; // 格式: YYYYMMDD-序號
+const DATA_VERSION = '20260323-v5'; // 格式: YYYYMMDD-序號
 
 // ===== 排序權重定義 =====
 // 縣市排序（按場地數量降冪，前3名標記為熱門）
@@ -62,8 +62,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 // ===== 載入場地資料 =====
 async function loadVenues() {
     try {
-        // 添加版本參數防止快取 - 使用台北場地版本
-        const response = await fetch(`venues_taipei.json?v=${DATA_VERSION}`);
+        // 添加版本參數防止快取
+        const response = await fetch(`venues.json?v=${DATA_VERSION}`);
         if (!response.ok) throw new Error('無法載入資料');
         
         allVenues = await response.json();

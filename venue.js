@@ -17,6 +17,8 @@ async function loadVenues() {
         const response = await fetch(`venues.json?v=${DATA_VERSION}`);
         if (!response.ok) throw new Error('無法載入資料');
         allVenues = await response.json();
+        // 過濾掉已下架的場地 (active: false)
+        allVenues = allVenues.filter(venue => venue.active !== false);
         console.log(`✅ 成功載入 ${allVenues.length} 個場地`);
     } catch (error) {
         console.error('載入場地失敗:', error);
@@ -36,9 +38,15 @@ function loadVenueDetail() {
     
     // 尋找場地
     currentVenue = allVenues.find(v => v.id === parseInt(venueId));
-    
+
     if (!currentVenue) {
         showError('找不到此場地');
+        return;
+    }
+
+    // 檢查場地是否已下架
+    if (currentVenue.active === false) {
+        showError('此場地已下架');
         return;
     }
     

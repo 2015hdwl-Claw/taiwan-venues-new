@@ -1,0 +1,11 @@
+{
+  "total": 80,
+  "filtered": 33,
+  "rejected": 47,
+  "reject_reasons": {
+    "Only 2 gallery photos (need >= 3)": 4,
+    "Only 1 gallery photos (need >= 3)": 1,
+    "No images field": 3,
+    "Not in Taipei": 39
+  }
+}

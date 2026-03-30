@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>活動大師 EventMaster - 台北會議室搜尋</title>
+    <meta name="description" content="台北會議室搜尋平台 - 找到適合的活動場地，比較不同會議室的容量、價格、照片">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">活動大師 EventMaster</h1>
+            <p class="tagline">台北會議室搜尋平台 - 比較不同場地的會議室</p>
+        </div>
+    </header>
+
+    <!-- Filters -->
+    <section class="filters">
+        <div class="container">
+            <div class="filter-group">
+                <label for="search-input">搜尋</label>
+                <input
+                    type="text"
+                    id="search-input"
+                    placeholder="搜尋場地、會議室名稱、地址..."
+                >
+            </div>
+
+            <div class="filter-group">
+                <label for="district-filter">行政區</label>
+                <select id="district-filter">
+                    <option value="">全部行政區</option>
+                    <option value="信義區">信義區</option>
+                    <option value="中山區">中山區</option>
+                    <option value="大安區">大安區</option>
+                    <option value="松山區">松山區</option>
+                    <option value="中正區">中正區</option>
+                    <option value="其他">其他</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="capacity-filter">容量</label>
+                <select id="capacity-filter">
+                    <option value="">全部容量</option>
+                    <option value="小型(<50)">小型 (&lt;50人)</option>
+                    <option value="中型(50-200)">中型 (50-200人)</option>
+                    <option value="大型(200+)">大型 (200+人)</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="price-filter">價格</label>
+                <select id="price-filter">
+                    <option value="">全部價格</option>
+                    <option value="經濟型(<$10000)">經濟型 (&lt;$10,000)</option>
+                    <option value="標準型($10000-$30000)">標準型 ($10,000-$30,000)</option>
+                    <option value="高級型(>$30000)">高級型 (&gt;$30,000)</option>
+                </select>
+            </div>
+
+            <button id="reset-filters" class="btn-reset">重設</button>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats">
+        <div class="container">
+            <span id="venue-count" class="stat-count">載入中...</span>
+            <span class="stat-label">個會議室</span>
+        </div>
+    </section>
+
+    <!-- Venue List -->
+    <main class="venue-list">
+        <div class="container">
+            <div id="venues-container" class="venues-grid">
+                <!-- 場地卡片將由 JavaScript 生成 -->
+            </div>
+
+            <!-- 無結果提示 -->
+            <div id="no-results" class="no-results" style="display: none;">
+                <p>沒有找到符合條件的會議室</p>
+                <p>請嘗試調整篩選條件</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Venue Detail Modal -->
+    <div id="venue-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+
+            <div id="modal-body">
+                <!-- 場地詳情將由 JavaScript 生成 -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 活動大師 EventMaster. All rights reserved.</p>
+            <p class="contact-info">企業洽詢：contact@eventmaster.tw</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

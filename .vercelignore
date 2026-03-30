@@ -1,0 +1,25 @@
+# 忽略所有文檔和報告
+*.md
+!README.md
+
+# 忽略所有 Python 腳本
+*.py
+__pycache__/
+*.pyc
+
+# 忽略所有備份和臨時文件
+*.backup*
+backups/
+*.bak
+archive/
+
+# 忽略所有測試和開發文件
+test/
+tests/
+*.test.*
+
+# 忽略所有配置和文檔目錄（保留 .github/workflows）
+.claude/
+!.github/workflows/
+
+# 部署所有網站文件

@@ -1,11 +1,19 @@
 /**
  * 活動大師 EventMaster - MVP JavaScript
- * 照片為主的場地搜尋平台
+ * 照片為主的會議室搜尋平台
  */
 
 // 全域變數
 let allVenues = [];
 let filteredVenues = [];
+
+// 格式化價格顯示
+function formatPrice(price, priceType) {
+    if (!price) return '未提供';
+    if (typeof price === 'string') return price;
+    if (priceType === 'note' && typeof price === 'string') return price;
+    return `$${price.toLocaleString()}`;
+}
 
 // 載入場地資料
 async function loadVenues() {
@@ -79,7 +87,8 @@ function createVenueCard(venue) {
 
     // 容量和價格
     const capacity = venue.capacity || '未知';
-    const price = venue.price ? `$${venue.price.toLocaleString()}` : '未提供';
+    const price = formatPrice(venue.price, venue.priceType);
+    const floor = venue.floor ? `${venue.floor} · ` : '';
 
     card.innerHTML = `
         <div class="card-photo">
@@ -90,8 +99,8 @@ function createVenueCard(venue) {
             </div>
         </div>
         <div class="card-info">
-            <h3 class="card-name">${venue.name}</h3>
-            <p class="card-address">${venue.address}</p>
+            <h3 class="card-name">${venue.room_name}</h3>
+            <p class="card-address">${venue.original_venue} · ${floor}${venue.address}</p>
             <div class="card-details">
                 <span class="card-detail">
                     <span class="icon">👥</span>
@@ -134,32 +143,53 @@ function showVenueDetail(venue) {
         galleryHTML += '</div>';
     }
 
+    // 面積與尺寸資訊
+    const areaInfo = venue.area ?
+        `<p><strong>面積：</strong>${venue.area} ${venue.areaUnit || '㎡'}</p>` : '';
+
+    const dimensionsInfo = venue.dimensions && venue.dimensions.length && venue.dimensions.width ?
+        `<p><strong>尺寸：</strong>長 ${venue.dimensions.length}m × 寬 ${venue.dimensions.width}m × 高 ${venue.dimensions.height}m</p>` : '';
+
+    const floorInfo = venue.floor ?
+        `<p><strong>樓層：</strong>${venue.floor}</p>` : '';
+
+    const capacityTypeInfo = venue.capacityType ?
+        `<p><strong>容量類型：</strong>${venue.capacityType}</p>` : '';
+
     modalBody.innerHTML = `
         <div class="detail-header">
-            <h2>${venue.name}</h2>
+            <h2>${venue.room_name}</h2>
+            <p style="font-size: 16px; color: #666; margin: 5px 0 10px;">${venue.original_venue}</p>
             <span class="tag tag-type">${venue.venueType}</span>
         </div>
 
         <div class="detail-content">
             <div class="detail-main-photo">
-                <img src="${mainPhoto}" alt="${venue.name}">
+                <img src="${mainPhoto}" alt="${venue.name}" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"800\" height=\"400\"%3E%3Crect fill=\"%23ddd\" width=\"800\" height=\"400\"/%3E%3Ctext fill=\"%23999\" font-family=\"sans-serif\" font-size=\"48\" dy=\".3em\" text-anchor=\"middle\" x=\"50%25\" y=\"50%25\"%3E無照片%3C/text%3E%3C/svg%3E'">
             </div>
 
             ${galleryHTML}
 
             <div class="detail-info">
                 <h3>基本資訊</h3>
+                <p><strong>場地：</strong>${venue.original_venue}</p>
+                <p><strong>會議室：</strong>${venue.room_name}</p>
                 <p><strong>地址：</strong>${venue.address}</p>
+                ${floorInfo}
                 <p><strong>容量：</strong>${venue.capacity} 人</p>
-                <p><strong>半日價格：</strong>${venue.price ? `$${venue.price.toLocaleString()}` : '未提供'}</p>
-                <p><strong>全日價格：</strong>${venue.priceFull ? `$${venue.priceFull.toLocaleString()}` : '未提供'}</p>
+                ${capacityTypeInfo}
+                ${areaInfo}
+                ${dimensionsInfo}
+                <p><strong>價格：</strong>${formatPrice(venue.price, venue.priceType)}</p>
 
                 <h3>標籤</h3>
                 <p><strong>行政區：</strong>${venue.tags.district}</p>
                 <p><strong>容量等級：</strong>${venue.tags.capacity_level}</p>
                 <p><strong>價格等級：</strong>${venue.tags.price_level}</p>
 
-                ${venue.contact.phone ? `<p><strong>電話：</strong>${venue.contact.phone}</p>` : ''}
+                ${venue.contact && venue.contact.phone ? `<p><strong>電話：</strong>${venue.contact.phone}</p>` : ''}
+                ${venue.contact && venue.contact.email ? `<p><strong>Email：</strong>${venue.contact.email}</p>` : ''}
+                ${venue.url ? `<p><strong>官網：</strong><a href="${venue.url}" target="_blank">${venue.url}</a></p>` : ''}
             </div>
         </div>
     `;

@@ -1,0 +1,860 @@
+[
+  {
+    "id": 1034,
+    "name": "NUZONE展演空間",
+    "city": "台北市",
+    "address": "台北市大安區市民大道三段198號",
+    "venueType": "展演場地",
+    "capacity": 500,
+    "price": 15000,
+    "priceFull": 25000,
+    "tags": {
+      "district": "大安區",
+      "capacity_level": "大型(200+)",
+      "price_level": "標準型($10000-$30000)"
+    },
+    "photos": {
+      "main": "https://static.wixstatic.com/media/b8e171_567eaa1bf25a4baf9e3deda73fcda17e~mv2.jpg/v1/fill/w_230,h_342,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/DSC_0059.jpg",
+      "gallery": [
+        "https://static.wixstatic.com/media/b8e171_567eaa1bf25a4baf9e3deda73fcda17e~mv2.jpg/v1/fill/w_230,h_342,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/DSC_0059.jpg",
+        "https://static.wixstatic.com/media/4a5f41_7376f72f26af44af91feec132c9f4bcb~mv2.png/v1/fill/w_824,h_426,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E5%9C%96%E7%89%87%201.png",
+        "https://static.wixstatic.com/media/4a5f41_54687a49caa44d8eab51b0843cf01207~mv2.jpg/v1/crop/x_0,y_0,w_1550,h_601/fill/w_866,h_338,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E6%88%AA%E5%9C%96%202025-09-02%20%E4%B8%8B%E5%8D%884_edited.jpg"
+      ]
+    },
+    "contact": {
+      "phone": "076-4753-8303"
+    }
+  },
+  {
+    "id": 1042,
+    "name": "公務人力發展學院",
+    "city": "台北市",
+    "address": "臺北市大安區新生南路3段30號",
+    "venueType": "會議中心",
+    "capacity": 220,
+    "price": 8000,
+    "priceFull": 14000,
+    "tags": {
+      "district": "大安區",
+      "capacity_level": "大型(200+)",
+      "price_level": "經濟型(<$10000)"
+    },
+    "photos": {
+      "main": "https://www.hrd.gov.tw/media/4298/service_01.png",
+      "gallery": [
+        "https://www.hrd.gov.tw/media/4298/service_01.png",
+        "https://www.hrd.gov.tw/media/8704/service_02.png",
+        "https://www.hrd.gov.tw/media/4300/service_03.png"
+      ]
+    },
+    "contact": {
+      "phone": "02-7712-2323"
+    }
+  },
+  {
+    "id": 1043,
+    "name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+    "city": "台北市",
+    "address": "台北市南港區忠孝東路七段359號",
+    "venueType": "飯店場地",
+    "capacity": 250,
+    "price": 35000,
+    "priceFull": 60000,
+    "tags": {
+      "district": "南港區",
+      "capacity_level": "大型(200+)",
+      "price_level": "高級型(>$30000)"
+    },
+    "photos": {
+      "main": "https://www.courtyardtaipei.com.tw/upload/Vd_497/Image/0index/162x90_PC_01.jpg",
+      "gallery": [
+        "https://www.courtyardtaipei.com.tw/upload/Vd_497/Image/0index/162x90_PC_01.jpg",
+        "https://www.courtyardtaipei.com.tw/upload/Vd_497/Image/0index/lx_H497-151225-153732.jpg",
+        "https://www.courtyardtaipei.com.tw/themes/Leofoo_courtyard/images/l_1/CYT_logo_new.png"
+      ]
+    },
+    "contact": {
+      "phone": "+886-2-2171-6565"
+    }
+  },
+  {
+    "id": 1045,
+    "name": "北科大創新育成中心",
+    "city": "台北市",
+    "address": "台北市大安區忠孝東路三段1號",
+    "venueType": "會議中心",
+    "capacity": 80,
+    "price": 4000,
+    "priceFull": 7000,
+    "tags": {
+      "district": "大安區",
+      "capacity_level": "中型(50-200)",
+      "price_level": "經濟型(<$10000)"
+    },
+    "photos": {
+      "main": "https://www.ntut.edu.tw/var/file/7/1007/randimg/mobileadv_3973_5062299_87901.jpg",
+      "gallery": [
+        "https://www.ntut.edu.tw/var/file/7/1007/randimg/mobileadv_3973_5062299_87901.jpg",
+        "https://www.ntut.edu.tw/var/file/7/1007/randimg/mobileadv_3917_9027893_74268.jpg",
+        "https://www.ntut.edu.tw/var/file/7/1007/randimg/mobileadv_3760_579287_42481.jpg"
+      ]
+    },
+    "contact": {
+      "phone": "02-2771-2171"
+    }
+  },
+  {
+    "id": 1049,
+    "name": "台北世貿中心(TWTCA)展覽大樓",
+    "city": "台北市",
+    "address": "台北市基隆路一段333號",
+    "venueType": "展演場地",
+    "capacity": 250,
+    "price": 100000,
+    "priceFull": 180000,
+    "tags": {
+      "district": "其他",
+      "capacity_level": "大型(200+)",
+      "price_level": "高級型(>$30000)"
+    },
+    "photos": {
+      "main": "https://www.twtc.com.tw/images/banner/b20211105154308.jpg",
+      "gallery": [
+        "https://www.twtc.com.tw/images/banner/b20211105154308.jpg",
+        "https://www.twtc.com.tw/images/banner/b20211105154344.jpg",
+        "https://www.twtc.com.tw/images/banner/b20231030091848.jpg"
+      ]
+    },
+    "contact": {
+      "phone": "02-2725-5200"
+    }
+  },
+  {
+    "id": 1051,
+    "name": "台北亞都麗緻大飯店(LandisTaipei)",
+    "city": "台北市",
+    "address": "台北市中山區民權東路二段41號",
+    "venueType": "飯店場地",
+    "capacity": 200,
+    "price": 45000,
+    "priceFull": 80000,
+    "tags": {
+      "district": "中山區",
+      "capacity_level": "中型(50-200)",
+      "price_level": "高級型(>$30000)"
+    },
+    "photos": {
+      "main": "https://taipei.landishotelsresorts.com/manage/upload/roomtype/1758907414_16016.jpg",
+      "gallery": [
+        "https://static.wixstatic.com/media/a9b95d_e21e4eed088c424685467dfbcfd17cef~mv2.png/v1/fill/w_1920,h_1440,al_c,q_95,usm_0.66_1.00_0.01,enc_avif,quality_auto/a9b95d_e21e4eed088c424685467dfbcfd17cef~mv2.png",
+        "https://static.wixstatic.com/media/a9b95d_c76fb7adb5664214a7fd1c41ed4b0c54~mv2.png/v1/fill/w_980,h_255,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Website%20Headers-2.png",
+        "https://static.wixstatic.com/media/a9b95d_5d6dbe1ea59c499c977733f70a4cfda9f000.jpg/v1/fill/w_147,h_83,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/a9b95d_5d6dbe1ea59c499c977733f70a4cfda9f000.jpg"
+      ]
+    },
+    "contact": {
+      "phone": "+886-2-2597-1234"
+    }
+  },
+  {
+    "id": 1053,
+    "name": "台北兄弟大飯店(BrotherTaipei)",
+    "city": "台北市",
+    "address": "台北市南京東路三段255號",
+    "venueType": "婚宴場地",
+    "capacity": 280,
+    "price": 30000,
+    "priceFull": 55000,
+    "tags": {
+      "district": "其他",
+      "capacity_level": "大型(200+)",
+      "price_level": "標準型($10000-$30000)"
+    },
+    "photos": {
+      "main": "https://www.brotherhotel.com.tw/wp-content/uploads/2022/09/飯店外觀.jpg",
+      "gallery": [
+        "https://www.brotherhotel.com.tw/wp-content/uploads/2022/09/飯店外觀.jpg",
+        "https://www.brotherhotel.com.tw/wp-content/uploads/2022/09/櫃台_fix-1.jpg",
+        "https://www.brotherhotel.com.tw/wp-content/uploads/2022/11/13F宴會廳婚宴-960x720.jpg"
+      ]
+    },
+    "contact": {
+      "phone": "+886-2-2712-3456"
+    }
+  },
+  {
+    "id": 1055,
+    "name": "台北六福客棧(Leofoo)",
+    "city": "台北市",
+    "address": "台北市中山區長春路168號",
+    "venueType": "飯店場地",
+    "capacity": 160,
+    "price": 22000,
+    "priceFull": 40000,
+    "tags": {
+      "district": "中山區",
+      "capacity_level": "中型(50-200)",
+      "price_level": "標準型($10000-$30000)"
+    },
+    "photos": {
+      "main": "https://www.leofoo.com.tw/asset/types/main/img/index/kv_img_01.jpg",
+      "gallery": [
+        "https://www.leofoo.com.tw/asset/types/main/img/index/kv_img_01.jpg",
+        "https://www.leofoo.com.tw/asset/types/main/img/index/kv_img_02.jpg",
+        "https://www.leofoo.com.tw/asset/types/main/img/index/kv_img_03.jpg"
+      ]
+    },
+    "contact": {
+      "phone": "02-25076666"
+    }
+  },
+  {
+    "id": 1057,
+    "name": "台北典華",
+    "city": "台北市",
+    "address": "台北市中山區中山北路三段33號",
+    "venueType": "婚宴場地",
+    "capacity": 1760,
+    "price": 100000,
+    "priceFull": 180000,
+    "tags": {
+      "district": "中山區",
+      "capacity_level": "大型(200+)",
+      "price_level": "高級型(>$30000)"
+    },
+    "photos": {
+      "main": "https://img.denwell.com/denwell/wp-content/uploads/2024111307194564-scaled.jpg",
+      "gallery": [
+        "https://img.denwell.com/denwell/wp-content/uploads/202411130711577.jpg",
+        "https://img.denwell.com/denwell/wp-content/uploads/2024111306562866.jpg",
+        "https://img.denwell.com/denwell/wp-content/uploads/202411130749229-scaled.jpg"
+      ]
+    },
+    "contact": {
+      "phone": "02-8502-5555"
+    }
+  },
+  {
+    "id": 1068,
+    "name": "台北喜瑞飯店",
+    "city": "台北市",
+    "address": "台北市中山區長安東路一段64號",
+    "venueType": "飯店場地",
+    "capacity": 250,
+    "price": 40000,
+    "priceFull": 70000,
+    "tags": {
+      "district": "中山區",
+      "capacity_level": "大型(200+)",
+      "price_level": "高級型(>$30000)"
+    },
+    "photos": {
+      "main": "https://ww.ambiencehotel.com.tw/wp-content/uploads/2023/01/02.jpg",
+      "gallery": [
+        "https://www.ambiencehotel.com.tw/wp-content/uploads/2026/03/2026.3.03EBD-2.jpg",
+        "https://www.ambiencehotel.com.tw/wp-content/uploads/2025/12/ONETIME.jpg",
+        "https://ww.ambiencehotel.com.tw/wp-content/uploads/2023/01/03.jpg"
+      ]
+    },
+    "contact": {
+      "phone": "+886-2-2541-0077"
+    }
+  },
+  {
+    "id": 1069,
+    "name": "台北國賓大飯店(AmbassadorTaipei)",
+    "city": "台北市",
+    "address": "台北市中山區遼寧街177號",
+    "venueType": "飯店場地",
+    "capacity": 300,
+    "price": 100000,
+    "priceFull": 180000,
+    "tags": {
+      "district": "中山區",
+      "capacity_level": "大型(200+)",
+      "price_level": "高級型(>$30000)"
+    },
+    "photos": {
+      "main": "https://www.ambassador-hotels.com/images/images/taipei/hotel/Ambassador-Hotel-Taipei-Exterior-Evening.jpg",
+      "gallery": [
+        "https://www.ambassador-hotels.com/images/images/hsinchu/dining/promenade/Ambassador-Hotel-Hsinchu-Promenade-Restaurant.jpg",
+        "https://www.ambassador-hotels.com/images/images/kaohsiung/hotel/Ambassador-Hotel-Kaohsiung-On-Banks-of-Love-River.jpg",
+        "https://www.ambassador-hotels.com/images/files/taipei/dining/%E5%9C%8B%E8%B3%93%E4%B8%AD%E9%A4%90%E5%BB%B3(%E9%81%BC%E5%AF%A7)/2025-2026%E5%B0%BE%E7%89%99%E6%98%A5%E9%85%92/2026%E5%B0%BE%E7%89%99%E6%98%A5%E9%85%92%E5%AE%98%E7%B6%B2%E5%9C%96_%E4%B8%AD%E9%A4%90_0.jpg"
+      ]
+    },
+    "contact": {
+      "phone": "+886 2 2551 111"
+    }
+  },
+  {
+    "id": 1072,
+    "name": "台北圓山大飯店(Grand Hotel Taipei)",
+    "city": "台北市",
+    "address": "台北市中山區中山北路四段一號",
+    "venueType": "飯店場地",
+    "capacity": 0,
+    "price": 0,
+    "priceFull": 0,
+    "tags": {
+      "district": "中山區",
+      "capacity_level": "未知",
+      "price_level": "未提供"
+    },
+    "photos": {
+      "main": "https://www.grand-hotel.org/fileupload/Banner_File/1_Ballroom.jpg",
+      "gallery": [
+        "https://www.grand-hotel.org/fileupload/Banner_File/1_Ballroom.jpg",
+        "https://www.grand-hotel.org/fileupload/Ballroom_File/2_wasfumdpas.jpg",
+        "https://www.grand-hotel.org/fileupload/Ballroom_File/7_jtjubqyqlw.jpg"
+      ]
+    },
+    "contact": {
+      "phone": "02-2886-8888"
+    }
+  },
+  {
+    "id": 1075,
+    "name": "台北寒舍喜來登大飯店",
+    "city": "台北市",
+    "address": "台北市中正區忠孝東路一段12號",
+    "venueType": "飯店場地",
+    "capacity": 800,
+    "price": 280000,
+    "priceFull": 500000,
+    "tags": {
+      "district": "中正區",
+      "capacity_level": "大型(200+)",
+      "price_level": "高級型(>$30000)"
+    },
+    "photos": {
+      "main": "https://www.sheratongrandtaipei.com/files/pages_175459012814kxhgw40_l.jpg",
+      "gallery": [
+        "https://www.sheratongrandtaipei.com/files/pages_175459012814kxhgw40_l.jpg",
+        "https://www.sheratongrandtaipei.com/files/pages_175464924014l10li51_l.jpg",
+        "https://www.sheratongrandtaipei.com/files/pages_166326131012kltb850_l.jpg"
+      ]
+    },
+    "contact": {
+      "phone": "02-2321-5511"
+    }
+  },
+  {
+    "id": 1076,
+    "name": "台北寒舍艾美酒店(LeMeridienTaipei)",
+    "city": "台北市",
+    "address": "台北市信義區松仁路38號",
+    "venueType": "飯店場地",
+    "capacity": 300,
+    "price": 210000,
+    "priceFull": 1520000,
+    "tags": {
+      "district": "信義區",
+      "capacity_level": "大型(200+)",
+      "price_level": "高級型(>$30000)"
+    },
+    "photos": {
+      "main": "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien_official/3f_grand_ballroom_meeting.jpg",
+      "gallery": [
+        "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien_official/3f_grand_ballroom_wedding_1.jpg",
+        "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien_official/3f_grand_ballroom_wedding_2.jpg",
+        "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien_official/2f_leo_meeting.jpg"
+      ]
+    },
+    "contact": {
+      "phone": "+886-2-6622-8000"
+    }
+  },
+  {
+    "id": 1077,
+    "name": "台北艾麗酒店",
+    "city": "台北市",
+    "address": "台北市信義區松高路18號B棟",
+    "venueType": "飯店場地",
+    "capacity": 480,
+    "price": 180000,
+    "priceFull": 320000,
+    "tags": {
+      "district": "信義區",
+      "capacity_level": "大型(200+)",
+      "price_level": "高級型(>$30000)"
+    },
+    "photos": {
+      "main": "https://www.humblehousehotels.com/files/page_175750268314n5kvr.jpg",
+      "gallery": [
+        "https://www.humblehousehotels.com/files/other_160407197911abvhf.jpg",
+        "https://www.humblehousehotels.com/files/other_1458636099w3hlvo.jpg",
+        "https://www.humblehousehotels.com/files/other_1464597948w7xb83.jpg"
+      ]
+    },
+    "contact": {
+      "phone": "+886-2-6631-8000"
+    }
+  },
+  {
+    "id": 1082,
+    "name": "台北怡亨酒店 Hotel Éclat Taipei",
+    "city": "台北市",
+    "address": "台北市大安區敦化南路一段370號",
+    "venueType": "飯店場地",
+    "capacity": 40,
+    "price": 10000,
+    "priceFull": 18000,
+    "tags": {
+      "district": "大安區",
+      "capacity_level": "小型(<50)",
+      "price_level": "標準型($10000-$30000)"
+    },
+    "photos": {
+      "main": "https://image-tc.galaxy.tf/wijpeg-49sf1014yy958cxn2fb6alobj/deluxe1_standard.jpg?crop=118%2C0%2C1365%2C1024",
+      "gallery": [
+        "https://image-tc.galaxy.tf/wijpeg-49sf1014yy958cxn2fb6alobj/deluxe1_standard.jpg?crop=118%2C0%2C1365%2C1024",
+        "https://image-tc.galaxy.tf/wijpeg-if05do23cuz4u6gycg6qvubc/grand-deluxe1_standard.jpg?crop=118%2C0%2C1365%2C1024",
+        "https://image-tc.galaxy.tf/wijpeg-6ro07xpyjte7obg1g2ov5qfr/premier1_standard.jpg?crop=118%2C0%2C1365%2C1024"
+      ]
+    },
+    "contact": {
+      "phone": "02-2712-1088"
+    }
+  },
+  {
+    "id": 1083,
+    "name": "台北北門世民酒店 citizenM Taipei North Gate",
+    "city": "台北市",
+    "address": "台北市中正區忠孝西路一段72號5樓",
+    "venueType": "飯店場地",
+    "capacity": 150,
+    "price": 25000,
+    "priceFull": 45000,
+    "tags": {
+      "district": "中正區",
+      "capacity_level": "中型(50-200)",
+      "price_level": "標準型($10000-$30000)"
+    },
+    "photos": {
+      "main": "https://cache.marriott.com/is/image/marriotts7prod/cm-washingtondc-noma-wnm-206-31494",
+      "gallery": [
+        "https://cache.marriott.com/is/image/marriotts7prod/cm-washingtondc-noma-wnm-206-31494",
+        "https://cache.marriott.com/is/image/marriotts7prod/cm-cm-nycbo-6096b-13364",
+        "https://cache.marriott.com/is/image/marriotts7prod/cm-cmzrhcm1602895-39385"
+      ]
+    },
+    "contact": {
+      "phone": "0518143810"
+    }
+  },
+  {
+    "id": 1085,
+    "name": "台北文華東方酒店(MOHTaipei)",
+    "city": "台北市",
+    "address": "台北市敦化北路158號",
+    "venueType": "飯店場地",
+    "capacity": 1170,
+    "price": 200000,
+    "priceFull": 380000,
+    "tags": {
+      "district": "其他",
+      "capacity_level": "大型(200+)",
+      "price_level": "高級型(>$30000)"
+    },
+    "photos": {
+      "main": "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/Jky4E1LR9pmeMceT76wh.jpg",
+      "gallery": [
+        "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/uiw18EayQ7XiUoda5cgH.jpg",
+        "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/oy6E3rsLkt5vaNhNAcTM.jpg",
+        "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/Jky4E1LR9pmeMceT76wh.jpg"
+      ]
+    },
+    "contact": {
+      "phone": "+886-2-2715-6888"
+    }
+  },
+  {
+    "id": 1086,
+    "name": "台北晶華酒店 Regent Taipei",
+    "city": "台北市",
+    "address": "台北市中山北路2段39巷",
+    "venueType": "飯店場地",
+    "capacity": 700,
+    "price": 250000,
+    "priceFull": 450000,
+    "tags": {
+      "district": "其他",
+      "capacity_level": "大型(200+)",
+      "price_level": "高級型(>$30000)"
+    },
+    "photos": {
+      "main": "https://www.regenttaiwan.com/asset/types/main//images/uploads/regenttaipei/nav-regent-taipei-nav-overview.jpg",
+      "gallery": [
+        "https://www.regenttaiwan.com/asset/types/main//images/uploads/regenttaipei/nav-regent-taipei-accommodation.jpg",
+        "https://www.regenttaiwan.com/asset/types/main//images/uploads/regenttaipei/nav-regent-taipei-dining.jpg?v1.001",
+        "https://www.regenttaiwan.com/asset/types/main//images/uploads/regenttaipei/nav-regent-taipei-weddings-events.jpg"
+      ]
+    },
+    "contact": {
+      "phone": "+886-2-2523-8000"
+    }
+  },
+  {
+    "id": 1090,
+    "name": "茹曦酒店 ILLUME TAIPEI",
+    "city": "台北市",
+    "address": "台北市松山區敦化北路100號",
+    "venueType": "飯店場地",
+    "capacity": 400,
+    "price": 150000,
+    "priceFull": 280000,
+    "tags": {
+      "district": "松山區",
+      "capacity_level": "大型(200+)",
+      "price_level": "高級型(>$30000)"
+    },
+    "photos": {
+      "main": "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/01_PublicArea_Atrium_Light_3-jpg.webp",
+      "gallery": [
+        "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/01_PublicArea_Atrium_Light_3-jpg.webp",
+        "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/01_PublicArea_Entrance-jpg.webp",
+        "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/02_Rooms_1_Premier_King_1-jpg.webp"
+      ]
+    },
+    "contact": {
+      "phone": "02-2719-8399"
+    }
+  },
+  {
+    "id": 1095,
+    "name": "台北美福大飯店",
+    "city": "台北市",
+    "address": "台北市中山區樂群二路55號",
+    "venueType": "飯店場地",
+    "capacity": 550,
+    "price": 200000,
+    "priceFull": 380000,
+    "tags": {
+      "district": "中山區",
+      "capacity_level": "大型(200+)",
+      "price_level": "高級型(>$30000)"
+    },
+    "photos": {
+      "main": "https://www.grandmayfull.com/uploads/indexD/20160202_123636_462.jpeg",
+      "gallery": [
+        "https://www.grandmayfull.com/uploads/indexD/20160202_123636_462.jpeg",
+        "https://www.grandmayfull.com/uploads/indexD/20160202_123646_549.jpeg",
+        "https://www.grandmayfull.com/uploads/indexD/20161222_171520_993.jpeg"
+      ]
+    },
+    "contact": {
+      "phone": "+886-2-7722-3399"
+    }
+  },
+  {
+    "id": 1097,
+    "name": "台北老爺大酒店(RoyalInnTaipei)",
+    "city": "台北市",
+    "address": "台北市中山區中山北路二段37之1號",
+    "venueType": "飯店場地",
+    "capacity": 180,
+    "price": 60000,
+    "priceFull": 110000,
+    "tags": {
+      "district": "中山區",
+      "capacity_level": "中型(50-200)",
+      "price_level": "高級型(>$30000)"
+    },
+    "photos": {
+      "main": "https://imagedelivery.net/a6-OYZSpZSiOriMeuFHR3w/8f798454-fa7b-42f1-521a-3090032d1100/public",
+      "gallery": [
+        "https://imagedelivery.net/a6-OYZSpZSiOriMeuFHR3w/8f798454-fa7b-42f1-521a-3090032d1100/public",
+        "https://imagedelivery.net/a6-OYZSpZSiOriMeuFHR3w/665d2e12-3499-4886-4236-7a6a13069a00/public",
+        "https://imagedelivery.net/a6-OYZSpZSiOriMeuFHR3w/ec171f60-ffea-4aaa-46bb-9a1cfbbcba00/public"
+      ]
+    },
+    "contact": {
+      "phone": "+886-2-2552-2211"
+    }
+  },
+  {
+    "id": 1100,
+    "name": "台北花園大酒店(TGHotel)",
+    "city": "台北市",
+    "address": "台北市中正區中華路二段1號",
+    "venueType": "飯店場地",
+    "capacity": 200,
+    "price": 65000,
+    "priceFull": 120000,
+    "tags": {
+      "district": "中正區",
+      "capacity_level": "中型(50-200)",
+      "price_level": "高級型(>$30000)"
+    },
+    "photos": {
+      "main": "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/05/台北花園大酒店-國際廳-婚宴.jpg",
+      "gallery": [
+        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/05/台北花園大酒店-國際廳-婚宴.jpg",
+        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/05/台北花園大酒店-飯店大廳.jpg",
+        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2024/01/Picture3.png"
+      ]
+    },
+    "contact": {
+      "phone": "02-8978-6688"
+    }
+  },
+  {
+    "id": 1103,
+    "name": "台北萬豪酒店(MarriottTaipei)",
+    "city": "台北市",
+    "address": "台北市中山區樂群二路55號",
+    "venueType": "飯店場地",
+    "capacity": 1200,
+    "price": 290000,
+    "priceFull": 1550000,
+    "tags": {
+      "district": "中山區",
+      "capacity_level": "大型(200+)",
+      "price_level": "高級型(>$30000)"
+    },
+    "photos": {
+      "main": "https://www.taipeimarriott.com.tw/files/page_176900693814vqap059_m.jpg",
+      "gallery": [
+        "https://www.taipeimarriott.com.tw/files/page_176900693814vqap059_m.jpg",
+        "https://www.taipeimarriott.com.tw/files/page_1516614885xcuqj084_m.jpg",
+        "https://www.taipeimarriott.com.tw/files/page_1516614716xcuqe177_m.jpg"
+      ]
+    },
+    "contact": {
+      "phone": "+886-2-8502-3899"
+    }
+  },
+  {
+    "id": 1107,
+    "name": "台北體育館",
+    "city": "台北市",
+    "address": "台北市松山區南京東路四段10號",
+    "venueType": "運動場地",
+    "capacity": 2500,
+    "price": 30000,
+    "priceFull": 55000,
+    "tags": {
+      "district": "松山區",
+      "capacity_level": "大型(200+)",
+      "price_level": "標準型($10000-$30000)"
+    },
+    "photos": {
+      "main": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800",
+      "gallery": [
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800",
+        "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=800",
+        "https://images.unsplash.com/photo-1599586120429-48281b6f0ece?w=800"
+      ]
+    },
+    "contact": {
+      "phone": "02-2570-2330"
+    }
+  },
+  {
+    "id": 1109,
+    "name": "台大綜合體育館",
+    "city": "台北市",
+    "address": "台北市大安區羅斯福路四段1號",
+    "venueType": "運動場地",
+    "capacity": 2000,
+    "price": 40000,
+    "priceFull": 70000,
+    "tags": {
+      "district": "大安區",
+      "capacity_level": "大型(200+)",
+      "price_level": "高級型(>$30000)"
+    },
+    "photos": {
+      "main": "https://event.ntu.edu.tw/azalea/2026/images/slide01.jpg",
+      "gallery": [
+        "https://sec.ntu.edu.tw/epaper/images/mainbg.jpg",
+        "https://sec.ntu.edu.tw/schinfo_asp/images/epaper/36304_8260.jpg",
+        "https://sec.ntu.edu.tw/schinfo_asp/images/epaper/36306_9118.jpg"
+      ]
+    },
+    "contact": {
+      "phone": "02-3366-3366"
+    }
+  },
+  {
+    "id": 1116,
+    "name": "彭園婚宴會館",
+    "city": "台北市",
+    "address": "台北市林森北路380號",
+    "venueType": "婚宴場地",
+    "capacity": 250,
+    "price": 80000,
+    "priceFull": 140000,
+    "tags": {
+      "district": "其他",
+      "capacity_level": "大型(200+)",
+      "price_level": "高級型(>$30000)"
+    },
+    "photos": {
+      "main": "https://www.pengyuan.com.tw/images/serenity.jpg",
+      "gallery": [
+        "https://www.pengyuan.com.tw/upload/pictures/news/5702_first dance(724x 322 像素).jpg",
+        "https://www.pengyuan.com.tw/upload/pictures/news/0259_尾牙春酒 (724x 322 像素).jpg",
+        "https://www.pengyuan.com.tw/upload/pictures/news/1240_一周年視覺 V1_724_322.jpg"
+      ]
+    },
+    "contact": {
+      "phone": "02-2551-9157"
+    }
+  },
+  {
+    "id": 1124,
+    "name": "花園大酒店",
+    "city": "台北市",
+    "address": "台北市中正區中華路二段1號",
+    "venueType": "飯店場地",
+    "capacity": 220,
+    "price": 75000,
+    "priceFull": 140000,
+    "tags": {
+      "district": "中正區",
+      "capacity_level": "大型(200+)",
+      "price_level": "高級型(>$30000)"
+    },
+    "photos": {
+      "main": "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/05/台北花園大酒店-國際廳-婚宴.jpg",
+      "gallery": [
+        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/05/台北花園大酒店-國際廳-婚宴.jpg",
+        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2023/05/台北花園大酒店-飯店大廳.jpg",
+        "https://www.taipeigarden.com.tw/wp-content/uploads/sites/278/2024/01/Picture3.png"
+      ]
+    },
+    "contact": {
+      "phone": "02-8978-6688"
+    }
+  },
+  {
+    "id": 1125,
+    "name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "city": "台北市",
+    "address": "台北市中正區八德路一段1號",
+    "venueType": "展演場地",
+    "capacity": 350,
+    "price": 25000,
+    "priceFull": 45000,
+    "tags": {
+      "district": "中正區",
+      "capacity_level": "大型(200+)",
+      "price_level": "標準型($10000-$30000)"
+    },
+    "photos": {
+      "main": "https://media.huashan1914.com/WebUPD/huashan1914/Index/%E6%89%BE%E6%B4%BB%E5%8B%95(1).png",
+      "gallery": [
+        "https://media.huashan1914.com/WebUPD/huashan1914/Index/%E6%89%BE%E6%B4%BB%E5%8B%95(1).png",
+        "https://media.huashan1914.com/WebUPD/huashan1914/Index/20210810_%E5%AE%98%E7%B6%B2%E6%8F%9B%E5%9C%96-08.png",
+        "https://media.huashan1914.com/WebUPD/huashan1914/Index/720%E7%9C%8B%E8%A6%8B%E8%8F%AF%E5%B1%B1.png"
+      ]
+    },
+    "contact": {
+      "phone": "0810183911"
+    }
+  },
+  {
+    "id": 1129,
+    "name": "青青婚宴會館",
+    "city": "台北市",
+    "address": "台北市士林區至善路2段266巷",
+    "venueType": "婚宴場地",
+    "capacity": 400,
+    "price": 60000,
+    "priceFull": 100000,
+    "tags": {
+      "district": "士林區",
+      "capacity_level": "大型(200+)",
+      "price_level": "高級型(>$30000)"
+    },
+    "photos": {
+      "main": "https://www.77-67.com/wp-content/uploads/2024/10/青青食尚花園會館-cdn.jpg",
+      "gallery": [
+        "https://www.77-67.com/wp-content/uploads/2024/10/青青食尚花園會館-cdn.jpg",
+        "https://www.77-67.com/wp-content/uploads/2024/10/青青格麗絲莊園＿icn.jpg",
+        "https://www.77-67.com/wp-content/uploads/2024/10/青青風車莊園.jpg"
+      ]
+    },
+    "contact": {
+      "phone": "02-8667-6767"
+    }
+  },
+  {
+    "id": 1334,
+    "name": "台北中山運動中心",
+    "city": "台北市",
+    "address": "台北市中山區中山北路二段44巷2號",
+    "venueType": "運動場地",
+    "capacity": 55,
+    "price": 3000,
+    "priceFull": 5500,
+    "tags": {
+      "district": "中山區",
+      "capacity_level": "中型(50-200)",
+      "price_level": "經濟型(<$10000)"
+    },
+    "photos": {
+      "main": "https://cssc.cyc.org.tw/upload/banner/粉專封面頁.jpg",
+      "gallery": [
+        "https://cssc.cyc.org.tw/upload/venue_logo/中山.jpg",
+        "https://cssc.cyc.org.tw/images/activity.jpg",
+        "https://cssc.cyc.org.tw/upload/banner/LINE_ALBUM_樂活_第四梯_728～81_250802_61.jpg"
+      ]
+    },
+    "contact": {
+      "phone": "02-2581-1060"
+    }
+  },
+  {
+    "id": 1448,
+    "name": "台北國際會議中心(TICC)",
+    "city": "台北市",
+    "address": "台北市信義區信義路五段1號",
+    "venueType": "會議中心",
+    "capacity": 3100,
+    "price": 159000,
+    "priceFull": 170000,
+    "tags": {
+      "district": "信義區",
+      "capacity_level": "大型(200+)",
+      "price_level": "高級型(>$30000)"
+    },
+    "photos": {
+      "main": "https://www.ticc.com.tw/wSite/public/Img/f1687945050916.jpg",
+      "gallery": [
+        "https://www.ticc.com.tw/xslgip/style1/images/ticc/img-hero.jpg",
+        "https://www.ticc.com.tw/xslgip/style1/images/ticc/floor/1F.jpg",
+        "https://www.ticc.com.tw/xslgip/style1/images/ticc/floor/2F.jpg"
+      ]
+    },
+    "contact": {
+      "phone": "02-2725-5200"
+    }
+  },
+  {
+    "id": 1493,
+    "name": "師大進修推廣學院",
+    "city": "台北市",
+    "address": "臺北市大安區和平東路一段 129 號",
+    "venueType": "會議中心",
+    "capacity": 200,
+    "price": null,
+    "priceFull": null,
+    "tags": {
+      "district": "大安區",
+      "capacity_level": "中型(50-200)",
+      "price_level": "未提供"
+    },
+    "photos": {
+      "main": "https://www.sce.ntnu.edu.tw/home/src/img/space/tw/22/20220611145119.jpg",
+      "gallery": [
+        "https://www.sce.ntnu.edu.tw/home/src/img/space/tw/22/20220611145119.jpg",
+        "https://www.sce.ntnu.edu.tw/home/src/img/space/tw/1/20240304200042.jpg",
+        "https://www.sce.ntnu.edu.tw/home/src/img/space/tw/2/20151009-_DSC2543_compressed.jpg"
+      ]
+    },
+    "contact": {
+      "phone": "0256426283"
+    }
+  }
+]

@@ -1,0 +1,320 @@
+{
+  "title": "活動大師 MVP 執行計畫",
+  "generated_by": "/office-hours (YC Office Hours brainstorming session)",
+  "date": "2026-03-30",
+  "status": "READY_TO_EXECUTE",
+  "mode": "Startup",
+
+  "decision": {
+    "approach": "最小可行版本（3天上線）",
+    "scope": "台北市場地搜尋平台",
+    "venue_count": "10-15個照片完美的場地（照片品質 > 數量）",
+    "features": ["搜尋", "過濾（容量、價格、地區）"],
+    "timeline": "3天內上線",
+    "not_doing": ["主動詢價", "即時空檔", "爬新場地", "音響/布置/餐飲", "顯示照片有問題的場地"],
+    "critical_requirement": "所有顯示的場地必須照片完美、視覺一致"
+  },
+
+  "demand_validation": {
+    "zhang_bishi": {
+      "name": "張泌施",
+      "company": "智譽行銷",
+      "role": "行銷企劃經理",
+      "salary": "8萬/月",
+      "frequency": "每個月1場活動",
+      "pain_point": "找場地花8小時 = 4000元時間成本",
+      "willing_to_pay": "$2000/月",
+      "behavior_evidence": "主動詢問何時完成"
+    },
+    "you": {
+      "role": "企劃",
+      "frequency": "每個月1場活動",
+      "time_spent": "4-8小時",
+      "willing_to_pay": "$500/月"
+    },
+    "other_planners": {
+      "activity_company_a": "情況相似",
+      "activity_company_b": "情況相似",
+      "observation": "你親眼看過他們工作"
+    },
+    "potential_revenue": "$2000-$8000/月 (4用戶 × $500-$2000)"
+  },
+
+  "key_insights": {
+    "pain_points": [
+      "資訊分散 - 場地資料散落在各個官網",
+      "時間成本 - 平均4-8小時找場地",
+      "檔期不確定 - 必須打電話詢問",
+      "網路搜尋盲區 - 新場地、小場地找不到",
+      "場地限制難以評估 - 高度、形狀、設備資訊不完整"
+    ],
+    "observations": [
+      "完美場地檔期不配合 = 沒用",
+      "檔期配合，客戶就同意",
+      "新場地不在資料庫裡，要自己去問",
+      "場地高度不足且狹長，後方觀眾看不到舞台"
+    ],
+    "market_opportunity": [
+      "AI很會說，但落實有距離",
+      "實體資料庫是AI的最佳燃料",
+      "現在開始累積，3年後AI會需要這些結構化資料",
+      "AI時代，人類會越來越需要實體活動來拉近品牌差異與信賴"
+    ]
+  },
+
+  "execution_plan": {
+    "day_1": {
+      "title": "照片品質檢查（最重要）",
+      "tasks": [
+        "從venues.json篩選所有場地",
+        "檢查每個場地的照片：不是placeholder、不是Wiki、不是隨意圖",
+        "照片必須是場地空間（會議廳、宴會廳），不是建築外觀",
+        "人工驗證照片品質：清晰、尺寸合理、反映場地特色",
+        "篩選出照片完美的場地（目標：10-15個）"
+      ],
+      "photo_quality_standards": {
+        "must_have": ["場地空間照片", "清晰不模糊", "尺寸合理"],
+        "must_not_have": ["placeholder", "Wiki照片", "建築外觀", "隨意圖片", "餐廳照片"],
+        "visual_consistency": "所有照片尺寸一致（推薦16:9或4:3）"
+      },
+      "filters": {
+        "location": "台北市（優先）",
+        "photo_quality": "必須完美",
+        "rule": "照片有問題 → 不顯示（寧可少，不要混亂）"
+      }
+    },
+    "day_2": {
+      "title": "照片標準化 + 資料結構化",
+      "tasks": [
+        "將所有照片裁剪成統一尺寸（推薦1200x675或1200x900）",
+        "統一檔案格式（JPEG或WebP）",
+        "標準化場地資料結構（只包含照片完美的場地）",
+        "生成場地標籤（地區、容量、價格）",
+        "準備好mvp_venues_ready.json（只包含照片完美的場地）"
+      ],
+      "photo_standardization": {
+        "size": "1200x675 (16:9) 或 1200x900 (4:3)",
+        "format": "JPEG 或 WebP",
+        "naming": "venue-{id}-photo.{ext}",
+        "tools": "ImageMagick 或線上工具"
+      },
+      "tags": {
+        "district": ["信義區", "中山區", "大安區", "松山區"],
+        "capacity": ["小型(<50)", "中型(50-200)", "大型(200+)"],
+        "price": ["經濟型(<$10000)", "標準型($10000-$30000)", "高級型(>$30000)"]
+      }
+    },
+    "day_3": {
+      "title": "開發網頁（照片優先）",
+      "tasks": [
+        "創建index.html（場地列表，照片為主）",
+        "創建app.js（搜尋邏輯、過濾邏輯）",
+        "創建style.css（照片為主的設計）",
+        "確保所有場地照片都正確顯示",
+        "本地測試：打開網頁，視覺是否一致？是否專業？"
+      ],
+      "tech_stack": "GitHub Pages + 純HTML/CSS/JS",
+      "features": ["地區過濾", "容量過濾", "價格過濾", "場地卡片（照片為主）"],
+      "visual_design": {
+        "principle": "照片是主角，資訊是配角",
+        "card_layout": "照片在上（大），資訊在下（小）",
+        "consistency": "所有卡片尺寸一致，照片尺寸一致"
+      }
+    },
+    "day_4": {
+      "title": "上線與用戶測試",
+      "tasks": [
+        "部署到GitHub Pages",
+        "自己先測試：打開網頁，是否覺得專業？",
+        "分享給3個用戶（張泌施 + 2個活動企劃）",
+        "關鍵問題：「你覺得這個平台可信嗎？照片夠清楚嗎？」",
+        "收集反饋，特別是對照片的意見"
+      ],
+      "success_question": "如果我是張泌施，我會覺得這個平台可信嗎？我願意付費嗎？"
+    }
+  },
+
+  "tech_spec": {
+    "frontend": {
+      "html": "index.html - 搜尋頁面、過濾器、結果列表",
+      "javascript": "app.js - 搜尋邏輯、過濾邏輯、顯示邏輯",
+      "css": "style.css - 基本樣式"
+    },
+    "data": {
+      "source": "venues.json",
+      "output": "mvp_venues_ready.json",
+      "format": "JSON array with standardized venue structure"
+    },
+    "deployment": {
+      "platform": "GitHub Pages",
+      "branch": "gh-pages",
+      "steps": [
+        "git checkout -b gh-pages",
+        "mkdir -p docs",
+        "cp index.html style.css app.js mvp_venues_ready.json docs/",
+        "git add docs/",
+        "git commit -m 'feat: 活動大師 MVP 上線'",
+        "git push origin gh-pages"
+      ]
+    }
+  },
+
+  "pricing_strategy": {
+    "tier_a": {
+      "name": "方案A",
+      "price": "$500/月",
+      "target": "個人企劃、預算有限者",
+      "features": ["基本搜尋", "過濾功能"]
+    },
+    "tier_b": {
+      "name": "方案B",
+      "price": "$1000/月",
+      "target": "小型活動公司",
+      "features": ["基本搜尋", "儲存收藏", "email通知"]
+    },
+    "tier_c": {
+      "name": "方案C",
+      "price": "$2000/月",
+      "target": "中大型活動公司、張泌施",
+      "features": ["基本搜尋", "儲存收藏", "優先推薦", "專屬客服"]
+    },
+    "payment_model": {
+      "type": "月訂閱制",
+      "trial": "免費試用7天",
+      "methods": ["銀行轉帳"]
+    }
+  },
+
+  "success_criteria": {
+    "week_1": [
+      "✅ 網站上線，10-15個照片完美的台北市場地",
+      "✅ 所有場地照片視覺一致（尺寸、風格、品質）",
+      "✅ 至少3個用戶（張泌施 + 2個活動企劃）使用",
+      "✅ 用戶反饋：「這個平台看起來很專業、可信」",
+      "✅ 至少1個人願意付費",
+      "✅ 收集反饋，了解需要什麼功能"
+    ],
+    "month_1": [
+      "10個付費用戶",
+      "收入$5000-$10000",
+      "至少30個照片完美的場地資料（可能擴展到新北市）",
+      "用戶反饋清楚下一個功能是什麼",
+      "照片品質維持標準（不為了數量犧牲品質）"
+    ]
+  },
+
+  "long_term_vision": {
+    "note": "這些不是第一版範圍",
+    "phases": [
+      "場地主動詢價 - 整合場地API或MCP",
+      "即時空檔查詢 - 與場地系統整合",
+      "音響設備 - 音響、投影、燈光",
+      "布置服務 - 舞台設計、布置",
+      "餐飲服務 - 茶點、自助餐",
+      "交通安排 - 接駁車、停車資訊",
+      "禮品準備 - 伴手禮、紀念品",
+      "活動攝影 - 攝影、錄影",
+      "活動主持 - MC、主持人"
+    ]
+  },
+
+  "critical_reminders": {
+    "dont_do": [
+      "❌ 不要想音響、布置、餐飲",
+      "❌ 不要想完美的資料庫",
+      "❌ 不要想AI推薦",
+      "❌ 不要想主動詢價",
+      "❌ 不要想即時空檔",
+      "❌ 不要顯示照片有問題的場地（最重要）"
+    ],
+    "do": [
+      "✅ 3天內上線",
+      "✅ 10-15個照片完美的場地（照片品質 > 數量）",
+      "✅ 搜尋 + 過濾",
+      "✅ 分享給3個用戶",
+      "✅ 開始收費",
+      "✅ 照片必須一致、清晰、專業（最重要）"
+    ],
+    "critical_insight": "如果我是張泌施，看到照片混亂（有些有、有些沒有、有些是Wiki），我會覺得這個平台不可信，我不會停留一秒，我不會付費。照片品質 = 信任 = 收入。"
+  },
+
+  "go_nogo_decisions": {
+    "day_1_evening": {
+      "go": "有至少10個照片完美的台北市場地",
+      "no_go": "少於5個，擴展到全台灣或手動補照片",
+      "critical_check": "每個場地的照片都符合標準嗎？（場地空間、清晰、尺寸合理）"
+    },
+    "day_2_evening": {
+      "go": "所有照片都已標準化（統一尺寸、格式）",
+      "no_go": "照片尺寸不一致，需要重新處理",
+      "visual_test": "打開所有照片，視覺是否一致？"
+    },
+    "day_3_evening": {
+      "go": "網頁功能正常，可以搜尋和過濾，所有照片正確顯示",
+      "no_go": "功能有問題或照片顯示錯誤，需要修復",
+      "user_test": "自己打開網頁，覺得專業嗎？可信嗎？"
+    },
+    "day_4_evening": {
+      "go": "網站上線，至少1個用戶試用，用戶反饋「照片清楚、平台可信」",
+      "no_go": "用戶反饋「照片混亂、不可信」，需要調整",
+      "ultimate_test": "張泌施會願意付費嗎？"
+    }
+  },
+
+  "notes_for_executor": {
+    "ai_context": "給執行這個計畫的AI對話框",
+    "principles": [
+      "不要修改範圍 - 用戶明確說「先聚焦台北市場地」",
+      "不要增加功能 - 用戶明確說「不要再討論，直接執行」",
+      "3天是死線 - 用戶說「我已經浪費太多時間」",
+      "照片品質 > 數量 - 10個照片完美的場地 > 80個照片混亂的場地（最重要）",
+      "簡單 > 完美 - GitHub Pages > 複雜的後端",
+      "寧可不顯示，也不要顯示照片有問題的場地（信譽原則）"
+    ],
+    "problem_solving": {
+      "technical": "選擇最簡單的方案",
+      "data": "手動補充照片，不要自動化",
+      "time": "砍功能，保核心（搜尋 + 過濾）",
+      "photo_issues": "照片有問題 → 不顯示，不要修復（太花時間）"
+    },
+    "success_definition": {
+      "goal": "Day 4晚上，網站上線，視覺一致，張泌施會覺得可信",
+      "test_question": "如果我是張泌施，我會覺得這個平台可信嗎？我願意付費嗎？",
+      "note": "不是「功能完美」，是「照片完美、視覺一致、值得信任」"
+    },
+    "photo_quality_checklist": [
+      "✅ 所有場地都有照片",
+      "✅ 所有照片都是場地空間（不是外觀、不是餐廳）",
+      "✅ 所有照片尺寸一致（16:9或4:3）",
+      "✅ 所有照片清晰（不模糊）",
+      "✅ 沒有placeholder、Wiki、隨意圖片",
+      "✅ 視覺專業，值得信任"
+    ]
+  },
+
+  "contacts": {
+    "founder": "你（企劃）",
+    "potential_users": [
+      {
+        "name": "張泌施",
+        "company": "智譽行銷",
+        "role": "行銷企劃經理"
+      },
+      {
+        "name": "活動公司A企劃",
+        "note": "具體姓名你清楚"
+      },
+      {
+        "name": "活動公司B企劃",
+        "note": "具體姓名你清楚"
+      }
+    ],
+    "launch_message": "「嗨 [名字]，我做了個場地搜尋平台，專門找台北市場地。可以搜尋、過濾容量和價格，想請你試用看看。連結：[你的網站]。试用後如果覺得有用，我想請你喝杯咖啡，聊聊你的想法。」"
+  },
+
+  "final_message": "「上線。收費。驗證。」如果本週沒有人願意付費 → 回來找我們重討論。如果本週有人付費 → 你有了一個真實的生意。現在開始執行。",
+
+  "document_status": "✅ READY_TO_EXECUTE",
+  "next_action": "開始 Day 1 - 資料準備",
+  "deadline": "Day 4 晚上（上線）"
+}

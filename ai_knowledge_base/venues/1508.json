@@ -1,0 +1,114 @@
+{
+  "identity": {
+    "id": 1508,
+    "name": "豪鼎飯店",
+    "nameEn": null,
+    "venueType": "飯店場地",
+    "city": "新北市",
+    "address": "新北市新店區北新路三段205號1樓",
+    "url": "https://www.how-dine.com.tw/",
+    "phone": null,
+    "contactEmail": null
+  },
+  "summary": null,
+  "risks": null,
+  "rules": null,
+  "pricingTips": null,
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1508-豪景廳",
+      "name": "豪景廳",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": 660,
+        "banquet": 528
+      },
+      "area": 239.5,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1508-豪宴廳",
+      "name": "豪宴廳",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": 130,
+        "banquet": 104
+      },
+      "area": 47.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1508-豪華廳",
+      "name": "豪華廳",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": 13,
+        "banquet": 10
+      },
+      "area": 4.5,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1508-豪宴豪景連廳",
+      "name": "豪宴+豪景連廳",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": 660,
+        "banquet": 528
+      },
+      "area": 239.5,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "identity": {
+    "id": 1090,
+    "name": "茹曦酒店 ILLUME TAIPEI",
+    "nameEn": null,
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市松山區敦化北路100號",
+    "url": "https://www.theillumehotel.com/zh/",
+    "phone": "02-2719-8399",
+    "contactEmail": "gsm@theillumehotel.com"
+  },
+  "summary": null,
+  "risks": null,
+  "rules": null,
+  "pricingTips": null,
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1090-01",
+      "name": "茹曦廳",
+      "nameEn": "ILLUME Ballroom",
+      "floor": "2F",
+      "capacity": {
+        "theater": 1200,
+        "classroom": 800,
+        "banquet": 1000
+      },
+      "area": 253,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": "長方形"
+    },
+    {
+      "id": "1090-02",
+      "name": "斯賓諾莎宴會廳",
+      "nameEn": "Spinoza Ballroom",
+      "floor": "5F",
+      "capacity": {
+        "theater": 400,
+        "classroom": 250,
+        "banquet": 300
+      },
+      "area": 134,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": "長方形"
+    },
+    {
+      "id": "1090-03",
+      "name": "貴賓軒",
+      "nameEn": "VIP Lounge",
+      "floor": "2F",
+      "capacity": {
+        "theater": 220,
+        "classroom": 100,
+        "ushape": 50
+      },
+      "area": 15,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": "長方形"
+    },
+    {
+      "id": "1090-04",
+      "name": "狄德羅廳",
+      "nameEn": "Diderot Room",
+      "floor": "2F",
+      "capacity": {
+        "theater": 80,
+        "classroom": 40,
+        "ushape": 20
+      },
+      "area": 22.0,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": "長方形"
+    },
+    {
+      "id": "1090-05",
+      "name": "康德廳",
+      "nameEn": "Kant Room",
+      "floor": "2F",
+      "capacity": {
+        "theater": 80,
+        "classroom": 40,
+        "ushape": 20
+      },
+      "area": 22.0,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": "長方形"
+    },
+    {
+      "id": "1090-06",
+      "name": "孔狄亞克廳",
+      "nameEn": "Condillac Room",
+      "floor": "2F",
+      "capacity": {
+        "theater": 80,
+        "classroom": 40,
+        "ushape": 20
+      },
+      "area": 22.0,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": "長方形"
+    },
+    {
+      "id": "1090-07",
+      "name": "霍布斯廳",
+      "nameEn": "Hobbes Room",
+      "floor": "2F",
+      "capacity": {
+        "theater": 60,
+        "classroom": 30,
+        "ushape": 15
+      },
+      "area": 16.5,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": "長方形"
+    },
+    {
+      "id": "1090-08",
+      "name": "孟德斯鳩廳",
+      "nameEn": "Montesquieu Room",
+      "floor": "2F",
+      "capacity": {
+        "theater": 60,
+        "classroom": 30,
+        "ushape": 15
+      },
+      "area": 16.5,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": "長方形"
+    },
+    {
+      "id": "1090-09",
+      "name": "玉蘭軒",
+      "nameEn": "Magnolia Lounge",
+      "floor": "2F",
+      "capacity": {
+        "theater": 80,
+        "classroom": 50,
+        "banquet": 80
+      },
+      "area": 22.0,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": "長方形"
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

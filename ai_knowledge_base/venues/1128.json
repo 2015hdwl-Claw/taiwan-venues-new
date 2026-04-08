@@ -1,0 +1,423 @@
+{
+  "identity": {
+    "id": 1128,
+    "name": "集思台大會議中心(NTUCC)",
+    "nameEn": null,
+    "venueType": "會議中心",
+    "city": "台北市",
+    "address": "台北市大安區羅斯福路四段85號",
+    "url": "https://www.meeting.com.tw/ntu/",
+    "phone": null,
+    "contactEmail": "meeting@gisgroup.com"
+  },
+  "summary": null,
+  "risks": null,
+  "rules": {
+    "catering": [
+      {
+        "rule": "10%核算之)。場地租用單位除須於進場前提供相關餐飲訂單供本展館核算管理費外，並須於活動結束前完成餐",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "(3)會議室內用飲品、餐盒或餐點：需繳交場地費之10%作為清潔費。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "(4)會議室內舉辦餐宴(外燴)活動：須於會議室現有之地毯上另鋪設一層地毯以保護現有地毯(福軒除外)，並須繳",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ],
+    "decoration": [
+      {
+        "rule": "(4)如須加開空調，除上述(1)、(2)佈置或拆場租金外，須加收空調費用如下:",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "8.會場內設置系統裝潢、木座等裝潢物，須於下方鋪設地毯，不得使用透明膠膜替代(福軒不得搭設裝潢物)，若經",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "9.如需於會議室內搭設隔板、木作等裝潢物，該裝潢物在4樓不得高於2.5公尺，在5樓高度不得高於2公尺，均",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "10.裝潢廢棄物需由裝潢商或主辦單位自行清除，如未清除乾淨，將由館方清潔合約商報價予主辦單位，收取廢棄物",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "格水電裝潢商施作拉線，衍生出工程、線材、電費需由主辦單位支付；該用電線路須經館方工程組完成用電安全",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ],
+    "sound": [
+      {
+        "rule": "(4)影音視聽設備須由館方提供，包含同步翻譯設備、音響設備、會議討論系統麥克風、攝/錄影服務、LED電視",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ],
+    "loadIn": [
+      {
+        "rule": "10%核算之)。場地租用單位除須於進場前提供相關餐飲訂單供本展館核算管理費外，並須於活動結束前完成餐",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ],
+    "cancellation": [
+      {
+        "rule": "(2)基本配備若不需使用不得退費，亦不得替換；已確定租用之設備臨時退租不予退費，臨時追加則依定價加3",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ]
+  },
+  "pricingTips": null,
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1128-01",
+      "name": "國際會議廳",
+      "nameEn": "International Conference Hall",
+      "floor": "B1",
+      "capacity": {
+        "theater": 400
+      },
+      "area": 253.6,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 44000
+      },
+      "limitations": [
+        "發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。",
+        "會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。"
+      ],
+      "loadIn": {
+        "elevator": "樓 會議室 標準容量(人) 面積 尺寸 週一至週五 夜間; 會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1128-02",
+      "name": "蘇格拉底廳",
+      "nameEn": "Socrates Hall",
+      "floor": "B1",
+      "capacity": {
+        "theater": 145
+      },
+      "area": 59.8,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 19000
+      },
+      "limitations": [
+        "發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。",
+        "會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。"
+      ],
+      "loadIn": {
+        "elevator": "樓 會議室 標準容量(人) 面積 尺寸 週一至週五 夜間; 會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1128-03",
+      "name": "柏拉圖廳",
+      "nameEn": "Plato Hall",
+      "floor": "B1",
+      "capacity": {
+        "theater": 150
+      },
+      "area": 69.3,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 16000
+      },
+      "limitations": [
+        "發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。",
+        "會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。"
+      ],
+      "loadIn": {
+        "elevator": "樓 會議室 標準容量(人) 面積 尺寸 週一至週五 夜間; 會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1128-05",
+      "name": "洛克廳",
+      "nameEn": "Locke Hall",
+      "floor": "B1",
+      "capacity": {
+        "theater": 90
+      },
+      "area": 37.7,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 10000
+      },
+      "limitations": [
+        "發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。",
+        "會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。"
+      ],
+      "loadIn": {
+        "elevator": "樓 會議室 標準容量(人) 面積 尺寸 週一至週五 夜間; 會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1128-06",
+      "name": "亞歷山大廳",
+      "nameEn": "Alexander Hall",
+      "floor": "B1",
+      "capacity": {
+        "theater": 54
+      },
+      "area": 31.3,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 7000
+      },
+      "limitations": [
+        "發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。",
+        "會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。"
+      ],
+      "loadIn": {
+        "elevator": "樓 會議室 標準容量(人) 面積 尺寸 週一至週五 夜間; 會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1128-07",
+      "name": "阿基米德廳",
+      "nameEn": "Archimedes Hall",
+      "floor": "B1",
+      "capacity": {
+        "theater": 54
+      },
+      "area": 31.3,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 7000
+      },
+      "limitations": [
+        "發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。",
+        "會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。"
+      ],
+      "loadIn": {
+        "elevator": "樓 會議室 標準容量(人) 面積 尺寸 週一至週五 夜間; 會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1128-08",
+      "name": "亞里斯多德廳",
+      "nameEn": "Aristotle Hall",
+      "floor": "B1",
+      "capacity": {
+        "theater": 18
+      },
+      "area": 10.5,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 3500
+      },
+      "limitations": [
+        "發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。",
+        "會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。"
+      ],
+      "loadIn": {
+        "elevator": "樓 會議室 標準容量(人) 面積 尺寸 週一至週五 夜間; 會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1128-09",
+      "name": "達文西廳",
+      "nameEn": "Da Vinci Hall",
+      "floor": "B1",
+      "capacity": {
+        "theater": 48
+      },
+      "area": 41.4,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 6500
+      },
+      "limitations": [
+        "發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。",
+        "會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。"
+      ],
+      "loadIn": {
+        "elevator": "樓 會議室 標準容量(人) 面積 尺寸 週一至週五 夜間; 會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1128-10",
+      "name": "拉斐爾廳",
+      "nameEn": "Raphael Hall",
+      "floor": "B1",
+      "capacity": {
+        "theater": 72
+      },
+      "area": 41.4,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 8500
+      },
+      "limitations": [
+        "發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。",
+        "會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。"
+      ],
+      "loadIn": {
+        "elevator": "樓 會議室 標準容量(人) 面積 尺寸 週一至週五 夜間; 會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1128-11",
+      "name": "米開朗基羅廳",
+      "nameEn": "Michelangelo Hall",
+      "floor": "B1",
+      "capacity": {
+        "theater": 72
+      },
+      "area": 41.4,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 8500
+      },
+      "limitations": [
+        "發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。",
+        "會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。"
+      ],
+      "loadIn": {
+        "elevator": "樓 會議室 標準容量(人) 面積 尺寸 週一至週五 夜間; 會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1128-12",
+      "name": "尼采廳",
+      "nameEn": "Nietzsche Hall",
+      "floor": "B1",
+      "capacity": {
+        "theater": 48
+      },
+      "area": 41.4,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 6500
+      },
+      "limitations": [
+        "發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。",
+        "會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。"
+      ],
+      "loadIn": {
+        "elevator": "樓 會議室 標準容量(人) 面積 尺寸 週一至週五 夜間; 會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

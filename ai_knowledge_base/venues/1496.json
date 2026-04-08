@@ -1,0 +1,228 @@
+{
+  "identity": {
+    "id": 1496,
+    "name": "集思竹科會議中心(HSPH)",
+    "nameEn": null,
+    "venueType": "會議中心",
+    "city": "新竹市",
+    "address": "新竹科學園區工業東二路1號",
+    "url": "https://www.meeting.com.tw/hsp/",
+    "phone": "(03) 577-9191",
+    "contactEmail": "hsp.office@gisgroup.com"
+  },
+  "summary": null,
+  "risks": null,
+  "rules": {
+    "catering": [
+      {
+        "rule": "3. 會議中心禁止攜帶外食，另有提供相關會議事務用品代訂，各項服務酌收服務內容定價之10%為服務費。",
+        "confidence": "confirmed",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ]
+  },
+  "pricingTips": null,
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1496-愛因斯坦廳",
+      "name": "愛因斯坦廳",
+      "nameEn": "Einstein Hall",
+      "floor": "2F",
+      "capacity": {
+        "theater": 155
+      },
+      "area": 63.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 11000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1496-愛迪生廳",
+      "name": "愛迪生廳",
+      "nameEn": "Edison Hall",
+      "floor": "2F",
+      "capacity": {
+        "theater": 75
+      },
+      "area": 28.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 7500
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1496-達爾文廳",
+      "name": "達爾文廳",
+      "nameEn": "Darwin Hall",
+      "floor": "2樓",
+      "capacity": {
+        "standard": 72,
+        "theater": 72
+      },
+      "area": 33.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 7000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1496-牛頓廳",
+      "name": "牛頓廳",
+      "nameEn": "Newton Hall",
+      "floor": "2樓",
+      "capacity": {
+        "standard": 42,
+        "theater": 42
+      },
+      "area": 21.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 6000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1496-莎士比亞廳",
+      "name": "莎士比亞廳",
+      "nameEn": "Shakespeare Hall",
+      "floor": "2樓",
+      "capacity": {
+        "standard": 8,
+        "theater": 8
+      },
+      "area": 2.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 2000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1496-巴哈廳",
+      "name": "巴哈廳",
+      "nameEn": "Bach Hall",
+      "floor": "4F",
+      "capacity": {
+        "theater": 90
+      },
+      "area": 28.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 7000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1496-羅西尼廳",
+      "name": "羅西尼廳",
+      "nameEn": "Rossini Hall",
+      "floor": "4F",
+      "capacity": {
+        "theater": 140
+      },
+      "area": 43.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 8500
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1496-鄧肯廳",
+      "name": "鄧肯廳",
+      "nameEn": "Duncan Hall",
+      "floor": "4F",
+      "capacity": {
+        "standard": 30
+      },
+      "area": 25.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 5000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1496-伽利略廳",
+      "name": "伽利略廳",
+      "nameEn": "Galileo Hall",
+      "floor": "2樓",
+      "capacity": {
+        "standard": 20
+      },
+      "area": 18.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

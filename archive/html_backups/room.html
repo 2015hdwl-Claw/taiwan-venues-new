@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="會議室詳情 - 活動大師">
+    <title>會議室詳情 - 活動大師</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 頂部導航 -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="brand" onclick="goHome()">
+                    <span class="brand-icon">🎉</span>
+                    <h1 class="brand-title">活動大師</h1>
+                </div>
+                <div class="header-actions">
+                    <button class="btn btn-outline-light" onclick="goBackToVenue()">
+                        ← 返回場地
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 主要內容 -->
+    <main class="main room-page">
+        <div class="container">
+            <!-- 載入中 -->
+            <div class="loading" id="loadingState">
+                <div class="spinner"></div>
+                <p>載入會議室資料中...</p>
+            </div>
+
+            <!-- 錯誤狀態 -->
+            <div class="empty-state" id="errorState" style="display: none;">
+                <div class="empty-icon">⚠️</div>
+                <h3>找不到會議室資料</h3>
+                <p>請確認參數是否正確</p>
+                <button class="btn btn-primary" onclick="goHome()">返回首頁</button>
+            </div>
+
+            <!-- 會議室詳情內容 -->
+            <div id="roomContent" style="display: none;">
+                <!-- 麵包屑導航 -->
+                <nav class="breadcrumb">
+                    <a href="index.html">首頁</a>
+                    <span class="breadcrumb-sep">›</span>
+                    <a id="breadcrumbVenue" href="">場地</a>
+                    <span class="breadcrumb-sep">›</span>
+                    <span id="breadcrumbRoom">會議室</span>
+                </nav>
+
+                <!-- 會議室主圖與基本資訊 -->
+                <section class="room-hero">
+                    <img id="roomMainImage" class="room-hero-image" src="" alt="">
+                    <div class="room-hero-content">
+                        <h1 id="roomName" class="room-title"></h1>
+                        <p id="roomLocation" class="room-location"></p>
+                    </div>
+                </section>
+
+                <!-- 空間資訊 -->
+                <section class="room-section">
+                    <h2 class="section-heading">📊 空間資訊</h2>
+                    
+                    <!-- 場地平面圖（第一位） -->
+                    <div id="floorPlanSection" class="floor-plan-section" style="display: none;">
+                        <div class="floor-plan-header">
+                            <span class="floor-plan-icon">🗺️</span>
+                            <h3 class="floor-plan-heading">場地平面圖</h3>
+                        </div>
+                        <!-- PDF 嵌入顯示 -->
+                        <div id="floorPlanEmbed" class="floor-plan-embed" style="display: none;">
+                            <iframe id="floorPlanIframe" class="floor-plan-iframe" src="" frameborder="0"></iframe>
+                        </div>
+                        <!-- 圖片顯示 -->
+                        <img id="floorPlanImage" class="floor-plan-image" src="" alt="場地圖" style="display: none;">
+                        <p class="floor-plan-note">場地配置示意圖（實際佈置可能因活動需求調整）</p>
+                    </div>
+                    
+                    <!-- 主要資訊卡片 -->
+                    <div class="space-info-container">
+                        <!-- 面積資訊（重點突出） -->
+                        <div class="space-info-highlight" id="areaHighlightCard" style="display: none;">
+                            <div class="space-highlight-icon">📐</div>
+                            <div class="space-highlight-content">
+                                <div class="space-highlight-label">空間面積</div>
+                                <div class="space-highlight-value">
+                                    <span id="roomAreaMain">-</span>
+                                </div>
+                                <div class="space-highlight-secondary" id="roomAreaSecondary"></div>
+                            </div>
+                        </div>
+
+                        <!-- 其他資訊（雙欄佈局） -->
+                        <div class="space-info-grid" id="spaceInfoGrid">
+                            <!-- 動態生成 -->
+                        </div>
+                    </div>
+                    
+                    <!-- 空間描述 -->
+                    <div class="space-description" id="spaceDescription" style="display: none;">
+                        <p id="roomDescription"></p>
+                    </div>
+                </section>
+
+                <!-- 容納人數 -->
+                <section class="room-section">
+                    <h2 class="section-heading">👥 容納人數</h2>
+                    <div class="capacity-grid">
+                        <div class="capacity-card" id="capTheater">
+                            <div class="capacity-icon">🎭</div>
+                            <div class="capacity-name">劇院式</div>
+                            <div class="capacity-value">-</div>
+                            <div class="capacity-desc">最多人數</div>
+                        </div>
+                        <div class="capacity-card" id="capClassroom">
+                            <div class="capacity-icon">📚</div>
+                            <div class="capacity-name">課桌式</div>
+                            <div class="capacity-value">-</div>
+                            <div class="capacity-desc">附桌子</div>
+                        </div>
+                        <div class="capacity-card" id="capUshape">
+                            <div class="capacity-icon">🔲</div>
+                            <div class="capacity-name">U型</div>
+                            <div class="capacity-value">-</div>
+                            <div class="capacity-desc">討論用</div>
+                        </div>
+                        <div class="capacity-card" id="capRoundtable">
+                            <div class="capacity-icon">⭕</div>
+                            <div class="capacity-name">圓桌式</div>
+                            <div class="capacity-value">-</div>
+                            <div class="capacity-desc">宴會用</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 價格方案 -->
+                <section class="room-section">
+                    <h2 class="section-heading">💰 價格方案</h2>
+                    <div class="pricing-cards">
+                        <div class="pricing-card">
+                            <div class="pricing-label">半天（4小時）</div>
+                            <div id="priceHalfDay" class="pricing-value">-</div>
+                        </div>
+                        <div class="pricing-card pricing-card-primary">
+                            <div class="pricing-label">全天（8小時）</div>
+                            <div id="priceFullDay" class="pricing-value">-</div>
+                        </div>
+                        <div class="pricing-card">
+                            <div class="pricing-label">超時每小時</div>
+                            <div id="priceOvertime" class="pricing-value">-</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 設備清單 -->
+                <section class="room-section">
+                    <h2 class="section-heading">🛠️ 設備清單</h2>
+                    <div id="equipmentGrid" class="equipment-grid">
+                        <!-- 動態生成 -->
+                    </div>
+                </section>
+
+                <!-- 可用時段 -->
+                <section class="room-section">
+                    <h2 class="section-heading">⏰ 可用時段</h2>
+                    <div class="time-grid">
+                        <div class="time-card">
+                            <div class="time-icon">📅</div>
+                            <div class="time-content">
+                                <div class="time-label">平日</div>
+                                <div id="timeWeekday" class="time-value">-</div>
+                            </div>
+                        </div>
+                        <div class="time-card">
+                            <div class="time-icon">🎉</div>
+                            <div class="time-content">
+                                <div class="time-label">假日</div>
+                                <div id="timeWeekend" class="time-value">-</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 特色標籤 -->
+                <section class="room-section" id="featuresSection" style="display: none;">
+                    <h2 class="section-heading">✨ 空間特色</h2>
+                    <div id="featuresTags" class="features-tags">
+                        <!-- 動態生成 -->
+                    </div>
+                </section>
+
+                <!-- 注意事項 -->
+                <section class="room-section" id="notesSection" style="display: none;">
+                    <h2 class="section-heading">📝 注意事項</h2>
+                    <div id="roomNotes" class="room-notes">
+                        <!-- 動態生成 -->
+                    </div>
+                </section>
+
+                <!-- 行動按鈕 -->
+                <section class="room-actions">
+                    <a id="roomCallBtn" class="btn btn-primary btn-lg" style="display: none;">
+                        📞 立即聯絡
+                    </a>
+                    <button class="btn btn-outline btn-lg" onclick="goBackToVenue()">
+                        ← 返回場地
+                    </button>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- 頁腳 -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 活動大師 EventMaster. All rights reserved.</p>
+            <p>專業的台灣活動場地查詢平台</p>
+        </div>
+    </footer>
+
+    <script src="room.js"></script>
+</body>
+</html>

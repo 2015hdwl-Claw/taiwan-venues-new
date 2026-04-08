@@ -1,0 +1,49 @@
+{
+  "identity": {
+    "id": 1522,
+    "name": "天圓地方婚宴會館",
+    "nameEn": null,
+    "venueType": "婚宴場地",
+    "city": "台中市",
+    "address": "台中市",
+    "url": "https://www.tianyuan.com.tw/paper/other_select_index.php?title_id=7925&group_id=378",
+    "phone": null,
+    "contactEmail": null
+  },
+  "summary": null,
+  "risks": null,
+  "rules": null,
+  "pricingTips": null,
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1522-Conference",
+      "name": "Conference Room",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": 33,
+        "banquet": 26,
+        "classroom": 16
+      },
+      "area": 12.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

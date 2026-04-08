@@ -1,0 +1,859 @@
+{
+  "identity": {
+    "id": 1042,
+    "name": "公務人力發展學院",
+    "nameEn": null,
+    "venueType": "會議中心",
+    "city": "台北市",
+    "address": "臺北市大安區新生南路3段30號",
+    "url": "https://www.hrd.gov.tw",
+    "phone": "02-7712-2323",
+    "contactEmail": "sales-ih@howard-hotels.com.tw"
+  },
+  "summary": null,
+  "risks": {
+    "bookingLeadTime": "至少2週（熱門時段建議1個月前）",
+    "peakSeasons": [
+      "1-3月（政府培訓旺季）",
+      "7-8月（暑期研習）"
+    ],
+    "commonIssues": [
+      "3F及4F平日8:00-18:00由學院保留",
+      "B1及2F階梯教室無白板"
+    ]
+  },
+  "rules": {
+    "catering": [
+      {
+        "rule": "可安排便當及茶水服務",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": " 活動期間，若自行訂購飲料、點心、餐盒…等餐飲，需酌收每時段每人新台幣30元外食餐飲服務費，",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": " 乙方於場地使用期間所產生之餐飲、事務等費用，應於場地使用結束當日結清餘款，以付現或刷卡",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": " 會議中心為維護會議室清潔與專業形象，如有餐飲需求請洽會議中心訂購。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "一、 欲租借本中心會議場地者，如需使用外食請遵照餐飲管理規則，並與合約同時用印，即",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": " 活動若須自備外食，請於活動前一周通知本中心。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": " 如使用外食須酌收每人新台幣三十元之餐飲服務清潔費，收費人數依照租借會議空間每ㄧ",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": " 會議中心為維護與會者權益及會議中心食品安全與清潔之專業形象，外食擺放區域須遵循",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": " 租借(人)單位嚴禁攜帶含有酒精性之餐飲。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": " 會議中心針對會議場地保有公共意外責任保險，若訂購外食餐飲則餐飲安全暨責任歸屬需",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "3. 本會議中心禁止攜帶外食，提供相關會議事務用品代訂，需加收該項服務內容定價之10%為服務費。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "2.活動期間若自行訂購餐盒、飲料、點心...等，須酌收清潔費每人每次新台幣三十元。 現場增減金額",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "3. 會議中心禁止攜帶外食，另有提供相關會議事務用品代訂，各項服務酌收服務內容定價之10%為服務費。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ],
+    "sound": [
+      {
+        "rule": "階梯教室音響設備齊全，特殊需求需自備"
+      },
+      {
+        "rule": " 各場地活動進行之音量不得妨礙其他場地之進行，如違反規定不聽勸阻，本會議中心有權立即中",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ],
+    "loadIn": "依租約時段，一般活動前30分鐘開放進場",
+    "cancellation": [
+      {
+        "rule": "依政府規定辦理退費",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": " 乙方最遲須於場地使用七日前，將場地尾款付清。若不依規定付清尾款，甲方將不退回訂金，且有",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": " 乙方之活動因故取消、改期或調整內容，而有解除合約、縮減租賃範圍或期間之必要時，應以書面",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": " 活動日三十天前(不含活動日)取消，已繳交費用全額無息退還。(匯款退費須扣匯費三十元)。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "更換教室之權利，其場租及場地使用權利得以延後使用，延期之期限限於半年內，以一次為限，但",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "中心租賃合約之一部份，乙方應詳加了解並確實遵守，如有違反，視同違約。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ],
+    "decoration": [
+      {
+        "rule": " 舉行活動所須之裝潢、佈置、進出場規定，請依照甲方擬定之「會議中心管理規則」執行。如有違",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": " 若於舉辦活動中，需要在會議室及公共區域之牆面張貼海報或文宣物品，請向本中心客服部洽詢。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": " 場地租借單位所有佈置應限於租用範圍及會議中心指定之公共區域內，不得隨意放置，妨礙其他",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "《會場佈置需求》 其他需求：__________ 報到桌：__________ ※客戶簽認簽章：",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "4.場地佈置需求請於會議前ㄧ週提出申請，以便人力調度服務，會議當天恕無法臨時變換場地，如有臨時追加會議相關設施，依租借辦法第四項第九條會議相關設施收費標準。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "※學員須自備花藝剪刀(老師可代購 一把$230，請於報名時告知)。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ],
+    "insurance": [
+      {
+        "rule": " 場地租借單位及其承包或施工廠商應自視需要投保相關保險。任何施工或活動進行中造成之財物",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": " 會議中心針對會議場地保有公共意外責任保險，若訂購外食餐飲則餐飲安全暨責任歸屬需",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ]
+  },
+  "pricingTips": [
+    "政府機關及非營利團體享優惠費率",
+    "全天方案比兩個半天方案划算",
+    "連續多日租用可洽詢專案價",
+    "數位科技教室另附投影及液晶電視設備"
+  ],
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1042-01",
+      "name": "1F 前瞻廳",
+      "nameEn": "1F Vision Hall",
+      "floor": "1樓",
+      "capacity": {
+        "theater": 220
+      },
+      "area": 60.0,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 12000,
+        "fullDay": 24000,
+        "note": "政府機關場地，公務機關享8折優惠"
+      },
+      "limitations": [
+        "無白板提供，需自備"
+      ],
+      "loadIn": {
+        "elevator": "",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1042-02",
+      "name": "1F 101階梯教室",
+      "nameEn": "1F Room 101",
+      "floor": "1樓",
+      "capacity": {
+        "theater": 41
+      },
+      "area": 11.0,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 3000,
+        "fullDay": 6000,
+        "note": "政府機關場地，公務機關享8折優惠"
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1042-03",
+      "name": "1F 103階梯教室",
+      "nameEn": "1F Room 103",
+      "floor": "1樓",
+      "capacity": {
+        "theater": 78
+      },
+      "area": 21.0,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 5000,
+        "fullDay": 10000,
+        "note": "政府機關場地，公務機關享8折優惠"
+      },
+      "limitations": [
+        "階梯式座位，無法變更座位排列"
+      ],
+      "loadIn": {
+        "elevator": "",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1042-04",
+      "name": "2F 卓越堂下層",
+      "nameEn": "2F Excellence Hall (Lower)",
+      "floor": "2樓",
+      "capacity": {
+        "theater": 455
+      },
+      "area": 124.0,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 25000,
+        "fullDay": 50000,
+        "note": "政府機關場地，公務機關享8折優惠"
+      },
+      "limitations": [
+        "無白板提供，需自備",
+        "特殊燈光音響需自備",
+        "舞台大型布置需自備地毯",
+        "階梯式座位，無法變更座位排列"
+      ],
+      "loadIn": {
+        "elevator": "",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1042-05",
+      "name": "2F 卓越堂全場",
+      "nameEn": "2F Excellence Hall (Full)",
+      "floor": "2樓",
+      "capacity": {
+        "theater": 712
+      },
+      "area": 194.0,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 39000,
+        "fullDay": 78000,
+        "note": "政府機關場地，公務機關享8折優惠"
+      },
+      "limitations": [
+        "無白板提供，需自備",
+        "特殊燈光音響需自備",
+        "階梯式座位，無法變更座位排列"
+      ],
+      "loadIn": {
+        "elevator": "",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1042-06",
+      "name": "2F 201教室",
+      "nameEn": "2F Room 201",
+      "floor": "2樓",
+      "capacity": {
+        "classroom": 30,
+        "ushape": 30
+      },
+      "area": 18.0,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 4000,
+        "fullDay": 8000,
+        "note": "政府機關場地，公務機關享8折優惠"
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1042-07",
+      "name": "2F 202教室",
+      "nameEn": "2F Room 202",
+      "floor": "2樓",
+      "capacity": {
+        "classroom": 30,
+        "ushape": 30
+      },
+      "area": 18.0,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 4000,
+        "fullDay": 8000,
+        "note": "政府機關場地，公務機關享8折優惠"
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1042-08",
+      "name": "2F 203教室",
+      "nameEn": "2F Room 203",
+      "floor": "2樓",
+      "capacity": {
+        "classroom": 48,
+        "ushape": 48
+      },
+      "area": 29.0,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 7000,
+        "fullDay": 14000,
+        "note": "政府機關場地，公務機關享8折優惠"
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1042-09",
+      "name": "2F 204教室",
+      "nameEn": "2F Room 204",
+      "floor": "2樓",
+      "capacity": {
+        "classroom": 30,
+        "ushape": 30
+      },
+      "area": 18.0,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 4000,
+        "fullDay": 8000,
+        "note": "政府機關場地，公務機關享8折優惠"
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1042-10",
+      "name": "2F 205教室",
+      "nameEn": "2F Room 205",
+      "floor": "2樓",
+      "capacity": {
+        "classroom": 30,
+        "ushape": 30
+      },
+      "area": 18.0,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 4000,
+        "fullDay": 8000,
+        "note": "政府機關場地，公務機關享8折優惠"
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1042-11",
+      "name": "3F 303研討室",
+      "nameEn": "3F Room 303",
+      "floor": "3樓",
+      "capacity": {
+        "ushape": 30
+      },
+      "area": 18.0,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 4000,
+        "fullDay": 8000,
+        "note": "政府機關場地，公務機關享8折優惠"
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1042-12",
+      "name": "3F 304教室",
+      "nameEn": "3F Room 304",
+      "floor": "3樓",
+      "capacity": {
+        "classroom": 30,
+        "ushape": 30
+      },
+      "area": 18.0,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 4000,
+        "fullDay": 8000,
+        "note": "政府機關場地，公務機關享8折優惠"
+      },
+      "limitations": [
+        "平日8:00-18:00由學院保留，僅假日及夜間可租借"
+      ],
+      "loadIn": {
+        "elevator": "",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1042-13",
+      "name": "3F 305教室",
+      "nameEn": "3F Room 305",
+      "floor": "3樓",
+      "capacity": {
+        "classroom": 30,
+        "ushape": 30
+      },
+      "area": 18.0,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 4000,
+        "fullDay": 8000,
+        "note": "政府機關場地，公務機關享8折優惠"
+      },
+      "limitations": [
+        "平日8:00-18:00由學院保留，僅假日及夜間可租借"
+      ],
+      "loadIn": {
+        "elevator": "",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1042-14",
+      "name": "4F 401教室",
+      "nameEn": "4F Room 401",
+      "floor": "4樓",
+      "capacity": {
+        "classroom": 30,
+        "ushape": 30
+      },
+      "area": 18.0,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 4000,
+        "fullDay": 8000,
+        "note": "政府機關場地，公務機關享8折優惠"
+      },
+      "limitations": [
+        "平日8:00-18:00由學院保留，僅假日及夜間可租借"
+      ],
+      "loadIn": {
+        "elevator": "",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1042-15",
+      "name": "4F 402教室",
+      "nameEn": "4F Room 402",
+      "floor": "4樓",
+      "capacity": {
+        "classroom": 30,
+        "ushape": 30
+      },
+      "area": 18.0,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 4000,
+        "fullDay": 8000,
+        "note": "政府機關場地，公務機關享8折優惠"
+      },
+      "limitations": [
+        "平日8:00-18:00由學院保留，僅假日及夜間可租借"
+      ],
+      "loadIn": {
+        "elevator": "",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1042-16",
+      "name": "4F 403數位科技教室",
+      "nameEn": "4F Digital Tech Room 403",
+      "floor": "4樓",
+      "capacity": {
+        "classroom": 30,
+        "ushape": 30
+      },
+      "area": 18.0,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 4000,
+        "fullDay": 8000,
+        "note": "政府機關場地，公務機關享8折優惠"
+      },
+      "limitations": [
+        "4F平日由學院保留"
+      ],
+      "loadIn": {
+        "elevator": "",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1042-17",
+      "name": "4F 404數位互動教室",
+      "nameEn": "4F Digital Interactive Room 404",
+      "floor": "4樓",
+      "capacity": {
+        "classroom": 60,
+        "ushape": 60
+      },
+      "area": 36.5,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 9000,
+        "fullDay": 18000,
+        "note": "政府機關場地，公務機關享8折優惠"
+      },
+      "limitations": [
+        "4F平日由學院保留"
+      ],
+      "loadIn": {
+        "elevator": "",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1042-18",
+      "name": "5F 501教室",
+      "nameEn": "5F Room 501",
+      "floor": "5樓",
+      "capacity": {
+        "classroom": 30,
+        "ushape": 30
+      },
+      "area": 18.0,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 4000,
+        "fullDay": 8000,
+        "note": "政府機關場地，公務機關享8折優惠"
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1042-19",
+      "name": "5F 502教室",
+      "nameEn": "5F Room 502",
+      "floor": "5樓",
+      "capacity": {
+        "classroom": 30,
+        "ushape": 30
+      },
+      "area": 18.0,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 4000,
+        "fullDay": 8000,
+        "note": "政府機關場地，公務機關享8折優惠"
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1042-20",
+      "name": "6F 601教室",
+      "nameEn": "6F Room 601",
+      "floor": "6樓",
+      "capacity": {
+        "classroom": 30,
+        "ushape": 30
+      },
+      "area": 18.0,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 4000,
+        "fullDay": 8000,
+        "note": "政府機關場地，公務機關享8折優惠"
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1042-21",
+      "name": "6F 602教室",
+      "nameEn": "6F Room 602",
+      "floor": "6樓",
+      "capacity": {
+        "classroom": 30,
+        "ushape": 30
+      },
+      "area": 18.0,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 4000,
+        "fullDay": 8000,
+        "note": "政府機關場地，公務機關享8折優惠"
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1042-22",
+      "name": "14F 貴賓廳",
+      "nameEn": "14F VIP Hall",
+      "floor": "14樓",
+      "capacity": {
+        "theater": 100,
+        "classroom": 100
+      },
+      "area": 39.5,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 10000,
+        "fullDay": 20000,
+        "note": "政府機關場地，公務機關享8折優惠"
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

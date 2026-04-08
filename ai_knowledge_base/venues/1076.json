@@ -1,0 +1,366 @@
+{
+  "identity": {
+    "id": 1076,
+    "name": "台北寒舍艾美酒店(LeMeridienTaipei)",
+    "nameEn": null,
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市信義區松仁路38號",
+    "url": "https://www.lemeridien-taipei.com",
+    "phone": "0749440880",
+    "contactEmail": "lemeridien@lemeridien-taipei.com"
+  },
+  "summary": null,
+  "risks": null,
+  "rules": {
+    "catering": "餐飲優惠"
+  },
+  "pricingTips": null,
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1076-leo",
+      "name": "軒轅廳",
+      "nameEn": "LEO",
+      "floor": "2樓",
+      "capacity": {
+        "theater": 84,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "area": 196,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1076-pegasus",
+      "name": "室宿廳",
+      "nameEn": "PEGASUS",
+      "floor": "2樓",
+      "capacity": {
+        "theater": 45,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "area": 93,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1076-virgo",
+      "name": "角宿廳",
+      "nameEn": "VIRGO",
+      "floor": "2樓",
+      "capacity": {
+        "theater": 45,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "area": 93,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1076-aquila",
+      "name": "河鼓廳",
+      "nameEn": "AQUILA",
+      "floor": "2樓",
+      "capacity": {
+        "theater": 45,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "area": 93,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1076-gemini",
+      "name": "北河廳",
+      "nameEn": "GEMINI",
+      "floor": "2樓",
+      "capacity": {
+        "theater": 45,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "area": 93,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1076-taurus",
+      "name": "畢宿廳",
+      "nameEn": "TAURUS",
+      "floor": "2樓",
+      "capacity": {
+        "theater": 45,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "area": 97,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1076-grand",
+      "name": "宴會廳",
+      "nameEn": "LE GRAND BALLROOM",
+      "floor": "3樓",
+      "capacity": {
+        "theater": 336,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "area": 867,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1076-jadeite",
+      "name": "翡翠廳",
+      "nameEn": "JADEITE",
+      "floor": "3樓",
+      "capacity": {
+        "theater": 210,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "area": 347,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1076-pearl",
+      "name": "珍珠廳",
+      "nameEn": "PEARL",
+      "floor": "3樓",
+      "capacity": {
+        "theater": 210,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "area": 174,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1076-amber",
+      "name": "琥珀廳",
+      "nameEn": "AMBER",
+      "floor": "3樓",
+      "capacity": {
+        "theater": 126,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "area": 347,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1076-quube",
+      "name": "QUUBE",
+      "nameEn": "QUUBE",
+      "floor": "5樓",
+      "capacity": {
+        "theater": 36,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "area": 10.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1076-18",
+      "name": "探索廚房",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": 12
+      },
+      "area": 3.5,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1076-20",
+      "name": "會議專案",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": 25
+      },
+      "area": 7.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 1000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1076-21",
+      "name": "MEETING PACKAGE",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": 25
+      },
+      "area": 7.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 1000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

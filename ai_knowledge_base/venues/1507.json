@@ -1,0 +1,48 @@
+{
+  "identity": {
+    "id": 1507,
+    "name": "Mega50宴會廳",
+    "nameEn": null,
+    "venueType": "婚宴場地",
+    "city": "新北市",
+    "address": "新北市板橋區縣民大道三段7號48樓",
+    "url": "https://www.mega50.com.tw/ch/dingdingballroom",
+    "phone": null,
+    "contactEmail": null
+  },
+  "summary": null,
+  "risks": null,
+  "rules": null,
+  "pricingTips": null,
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1507-鼎鼎宴會廳",
+      "name": "鼎鼎宴會廳",
+      "nameEn": "Mega50 Banquet Hall",
+      "floor": 48,
+      "capacity": {
+        "banquet": 400,
+        "theater": 480
+      },
+      "area": 181.5,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

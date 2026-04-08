@@ -1,0 +1,101 @@
+{
+  "identity": {
+    "id": 1505,
+    "name": "漢來大飯店",
+    "nameEn": null,
+    "venueType": "飯店場地",
+    "city": "高雄市",
+    "address": "高雄市左營區博愛二路198號",
+    "url": "https://www.grand-hilai.com/",
+    "phone": null,
+    "contactEmail": null
+  },
+  "summary": null,
+  "risks": null,
+  "rules": {
+    "catering": [
+      {
+        "rule": "限用飯店餐飲服務，提供中式及西式宴席，不可外燴"
+      },
+      {
+        "rule": "婚宴及宴會需達最低桌數要求（通常15-20桌起）"
+      }
+    ],
+    "decoration": [
+      {
+        "rule": "場佈需提前申請，不得使用破壞性素材（膠帶、釘子等）"
+      },
+      {
+        "rule": "大型佈置（舞台、LED牆）需額外投保場地險"
+      }
+    ],
+    "sound": [
+      {
+        "rule": "場地配備基本音響設備，額外設備需提前申請"
+      },
+      {
+        "rule": "噪音管制至晚間22:00，戶外區域需特別注意音量"
+      }
+    ],
+    "loadIn": [
+      {
+        "rule": "進場施工需預約貨梯，大型道具限2噸以下"
+      },
+      {
+        "rule": "場佈進場時間通常為活動前4-6小時，大型活動可協調提前一日"
+      }
+    ],
+    "cancellation": [
+      {
+        "rule": "活動前90天取消退訂金80%，60天前退50%，30天內不退款"
+      }
+    ],
+    "insurance": [
+      {
+        "rule": "大型活動（500人以上）建議投保公共意外責任險"
+      }
+    ]
+  },
+  "pricingTips": [
+    "平日宴會價格比假日便宜約20-30%",
+    "午宴通常比晚宴價格低",
+    "住宿加宴會套裝比單獨租用更優惠",
+    "淡季（3-5月、7-9月）可議價空間較大",
+    "大量訂桌可享免費升級菜色或飲料暢飲"
+  ],
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1505-MeetingRoo",
+      "name": "Meeting Room",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": 2024,
+        "banquet": 1619,
+        "classroom": 1012
+      },
+      "area": 734.5,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [
+        "限用飯店餐飲，不可外燴",
+        "噪音管制至22:00"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

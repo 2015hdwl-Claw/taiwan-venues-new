@@ -96,6 +96,28 @@
 
 ---
 
+---
+
+### [gis_huashan_scraping](gis_huashan_scraping.md)
+**類型**: feedback
+**描述**: 集思(GIS)系列 meeting.com.tw 共用結構、華山 API、前端格式相容性、2026-03-31 大修正經驗
+
+**重點內容**：
+- ✅ 所有集思場地共用相同網站架構（floor-introduction 頁面）
+- ✅ meeting.com.tw 圖片路徑模式（需從實際頁面提取，不可假設命名）
+- ✅ 華山1914 API: `AppPlaceList` 頁面含完整場地資料（23個場地）
+- ✅ equipment 必須是 array（string 會導致 venue.js crash）
+- ✅ pricing 需要 halfDay/fullDay 格式（room.js 相容）
+- ✅ 2026-03-31 修正：6個場地資料修正、重複場地處理、29個 equipment 轉換
+- ✅ 自動爬蟲 PDF 提取器會產生垃圾資料（表格標題當會議室名稱）
+
+**何時使用**：
+- 爬取任何集思系列場地時
+- 寫入 venues.json 前的格式檢查
+- 修正場地資料時的參考經驗
+
+---
+
 ## 使用說明
 
 ### 新增記憶體
@@ -114,6 +136,6 @@
 
 ---
 
-**最後更新**：2026-03-26
-**總記憶體數**：5 個
-**最新新增**：deep_scraping_javascript_variables、deep_scraping_redefined
+**最後更新**：2026-03-31
+**總記憶體數**：6 個
+**最新新增**：gis_huashan_scraping（集思系列+華山API+前端格式+大修正經驗）

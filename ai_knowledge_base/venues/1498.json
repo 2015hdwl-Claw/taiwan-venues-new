@@ -1,0 +1,317 @@
+{
+  "identity": {
+    "id": 1498,
+    "name": "集思台中新烏日會議中心(WURI)",
+    "nameEn": null,
+    "venueType": "會議中心",
+    "city": "台中市",
+    "address": "台中市烏日區中山路三段400號",
+    "url": "https://www.meeting.com.tw/xinwuri/index.php",
+    "phone": null,
+    "contactEmail": null
+  },
+  "summary": null,
+  "risks": null,
+  "rules": {
+    "catering": [
+      {
+        "rule": "⚫ 活動期間，若自行訂購飲料、點心、餐盒…等餐飲，需酌收每時段每人新台幣30元外食餐飲服務費；",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "⚫ 乙方於場地使用期間所產生餐飲、事務等費用，應於場地使用結束當日結清餘款，餘款請以付現方",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "⚫ 會議中心為維護會議室清潔與專業形象，如有餐飲需求請洽會議中心訂購。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "一、 欲租借本中心會議場地者，如需使用外食請遵照外食餐飲管理規則，並與合約同時用印，即代表願意遵",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "⚫ 如使用外食須酌收每人每餐期新台幣三十元之餐飲服務清潔費，收費人數依照租借會議空間每ㄧ時",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "⚫ 會議中心為維護與會者權益暨會議中心食品安全與清潔之專業形象，外食擺放區域須遵循會議中心",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "⚫ 會議中心嚴禁攜帶含有酒精性之餐飲。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "⚫ 活動若須自備外食，請於活動日前十天通知本會議中心。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "⚫ 會議中心針對會議場地保有公共意外責任保險，若訂購外食餐飲則餐飲安全暨責任歸屬需由主辦單",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "3. 會議中心禁止攜帶外食，另有提供相關會議事務用品代訂，各項服務酌收服務內容定價之 10%為服務費。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "中式精緻餐盒 (葷) 每個120元/150元/200元 最低需訂購25個 120 0",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "中式精緻餐盒 (素) 每個120元/150元/200元 當天素食不可更動 120 0",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ],
+    "decoration": [
+      {
+        "rule": "費，但不含乙方展示攤位內清潔及活動前後佈置及會後遺留任何廢棄物之清運費用，如需由會議中心",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "⚫ 舉行活動所須裝潢、佈置、進出場規定，請依照甲方擬定「會議中心管理規則」執行。如有違反，一",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "1. 若於舉辦活動中，需要在會議室及特定區域之牆面張貼海報或文宣物品，請向本中心客服部洽詢。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "3. 場地租借單位所有佈置應限於租用範圍及會議中心指定之區域內，不得隨意放置、妨礙其他租借",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "《會場佈置需求》 報到桌： 1 張 ※客戶簽認簽章：",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "1. 請於活動日7天前(不含假日/不含活動日)回傳此表(餐點、設備需求及會場佈置需求)， (傳真：04-2338-6997)，以便會議中心協助訂單處理。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ],
+    "cancellation": [
+      {
+        "rule": "⚫ 乙方最遲須於場地使用日七日前付清尾款，若不依規定付清尾款，甲方將不退回訂金，且有權將場",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "⚫ 乙方活動因故取消、改期或調整內容，而有解除合約、縮減租賃範圍或使用期間，應以書面通知甲",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "⚫ 取消及變更合約規定，活動日三十天前(不含活動日)取消，已繳交費用全額無息退還(匯款退費須扣",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "利，其場租及場地使用權利得以延後使用，延期期限於半年內並以一次為限，但不接受縮減場地及",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ],
+    "sound": [
+      {
+        "rule": "2. 活動進行音量不得妨礙其他場地進行，如違反規定不聽勸阻，本會議中心有權立即中止活動進行",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ],
+    "insurance": [
+      {
+        "rule": "9. 場地租借單位及其承包或施工廠商應自視需要投保相關保險。任何施工或活動進行中造成之財物",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "⚫ 會議中心針對會議場地保有公共意外責任保險，若訂購外食餐飲則餐飲安全暨責任歸屬需由主辦單",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ]
+  },
+  "pricingTips": null,
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1498-瓦特廳",
+      "name": "瓦特廳",
+      "nameEn": "Watt Hall",
+      "floor": "3F",
+      "capacity": {
+        "theater": 270
+      },
+      "area": 82.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 22000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "4. 如有場佈需求，超過120公分之物品，須配合台鐵電梯使用時間為21:00~05:00，如有違規需負擔全額台鐵罰款。",
+        "vehicleAccess": null,
+        "loadingDock": "",
+        "loadInTime": "⚫ 場地進場布置時間(綵排、設備測試)如下："
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1498-巴本廳",
+      "name": "巴本廳",
+      "nameEn": "Babben Hall",
+      "floor": "3F",
+      "capacity": {
+        "theater": 66
+      },
+      "area": 23.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 8000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "4. 如有場佈需求，超過120公分之物品，須配合台鐵電梯使用時間為21:00~05:00，如有違規需負擔全額台鐵罰款。",
+        "vehicleAccess": null,
+        "loadingDock": "",
+        "loadInTime": "⚫ 場地進場布置時間(綵排、設備測試)如下："
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1498-富蘭克林廳",
+      "name": "富蘭克林廳",
+      "nameEn": "Franklin Hall",
+      "floor": "4F",
+      "capacity": {
+        "theater": 156
+      },
+      "area": 48.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 14500
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "4. 如有場佈需求，超過120公分之物品，須配合台鐵電梯使用時間為21:00~05:00，如有違規需負擔全額台鐵罰款。",
+        "vehicleAccess": null,
+        "loadingDock": "",
+        "loadInTime": "⚫ 場地進場布置時間(綵排、設備測試)如下："
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1498-史蒂文生廳",
+      "name": "史蒂文生廳",
+      "nameEn": " Stevenson Hall",
+      "floor": "4F",
+      "capacity": {
+        "theater": 78
+      },
+      "area": 28.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 9000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "4. 如有場佈需求，超過120公分之物品，須配合台鐵電梯使用時間為21:00~05:00，如有違規需負擔全額台鐵罰款。",
+        "vehicleAccess": null,
+        "loadingDock": "",
+        "loadInTime": "⚫ 場地進場布置時間(綵排、設備測試)如下："
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1498-4樓休息室",
+      "name": "4樓休息室",
+      "nameEn": "4F Lounge",
+      "floor": "4樓",
+      "capacity": {
+        "standard": 6
+      },
+      "area": 4.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 2500
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "4. 如有場佈需求，超過120公分之物品，須配合台鐵電梯使用時間為21:00~05:00，如有違規需負擔全額台鐵罰款。",
+        "vehicleAccess": null,
+        "loadingDock": "",
+        "loadInTime": "⚫ 場地進場布置時間(綵排、設備測試)如下："
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

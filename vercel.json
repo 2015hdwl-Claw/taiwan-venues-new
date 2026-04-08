@@ -3,6 +3,11 @@
   "public": true,
   "cleanUrls": true,
   "trailingSlash": false,
+  "functions": {
+    "api/assistant.js": {
+      "includeFiles": "ai_knowledge_base/**/*.json"
+    }
+  },
   "headers": [
     {
       "source": "/venues.json",

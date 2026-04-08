@@ -1,0 +1,224 @@
+{
+  "identity": {
+    "id": 1086,
+    "name": "台北晶華酒店 Regent Taipei",
+    "nameEn": null,
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市中山北路2段39巷",
+    "url": "https://www.regenttaiwan.com/",
+    "phone": null,
+    "contactEmail": "customerservice@regenthotelsgroup.com"
+  },
+  "summary": null,
+  "risks": null,
+  "rules": {
+    "decoration": [
+      {
+        "rule": " 會議設備 (一組投影螢幕、二支麥克風、白板、海報架)以上會議設備依實際需求提供",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ]
+  },
+  "pricingTips": null,
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1086-01",
+      "name": "晶英會",
+      "nameEn": "Crystal Ballroom",
+      "floor": "3F",
+      "capacity": {
+        "theater": 200,
+        "classroom": 132,
+        "hollowSquare": null,
+        "uShape": null,
+        "reception": 200,
+        "banquetWestern": 168,
+        "banquetEastern": null
+      },
+      "area": 81.7,
+      "ceilingHeight": 2.4,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 75000,
+        "fullDay": 135000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "Half day PKG Half day PKG; Whole day PKG;  Half day PKG for One Time",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1086-02",
+      "name": "晶華會",
+      "nameEn": "Regent Club",
+      "floor": "3F",
+      "capacity": {
+        "theater": 360,
+        "classroom": 160,
+        "hollowSquare": null,
+        "uShape": null,
+        "reception": 200,
+        "banquetWestern": 22,
+        "banquetEastern": null
+      },
+      "area": 108.0,
+      "ceilingHeight": 2.3,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 100000,
+        "fullDay": 180000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "Half day PKG Half day PKG; Whole day PKG;  Half day PKG for One Time",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1086-03",
+      "name": "宴會廳",
+      "nameEn": "Grand Ballroom",
+      "floor": "B3",
+      "capacity": {
+        "theater": 600,
+        "classroom": 300,
+        "hollowSquare": null,
+        "uShape": null,
+        "reception": 1000,
+        "banquetWestern": 600,
+        "banquetEastern": null
+      },
+      "area": 268.6,
+      "ceilingHeight": 5,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 250000,
+        "fullDay": 450000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "Half day PKG Half day PKG; Whole day PKG;  Half day PKG for One Time",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1086-04",
+      "name": "萬象廳",
+      "nameEn": "Wan Shang Hall",
+      "floor": "B3",
+      "capacity": {
+        "theater": 440,
+        "classroom": 207,
+        "hollowSquare": null,
+        "uShape": null,
+        "reception": 260,
+        "banquetWestern": 276,
+        "banquetEastern": null
+      },
+      "area": 142.2,
+      "ceilingHeight": 2.35,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 130000,
+        "fullDay": 235000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "Half day PKG Half day PKG; Whole day PKG;  Half day PKG for One Time",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1086-05",
+      "name": "貴賓廳",
+      "nameEn": "VIP Rooms",
+      "floor": "B3",
+      "capacity": {
+        "theater": 700,
+        "classroom": 429,
+        "hollowSquare": null,
+        "uShape": null,
+        "reception": 580,
+        "banquetWestern": 576,
+        "banquetEastern": null
+      },
+      "area": 234.7,
+      "ceilingHeight": 2.3,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 220000,
+        "fullDay": 400000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "Half day PKG Half day PKG; Whole day PKG;  Half day PKG for One Time",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1086-06",
+      "name": "寰宇廳",
+      "nameEn": "Huan Yu Hall",
+      "floor": "B3",
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "reception": null
+      },
+      "area": 120.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 120000,
+        "fullDay": 240000,
+        "note": "需洽詢飯店（價格為預估）"
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "Half day PKG Half day PKG; Whole day PKG;  Half day PKG for One Time",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

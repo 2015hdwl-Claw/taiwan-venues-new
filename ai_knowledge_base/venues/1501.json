@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "id": 1501,
+    "name": "南港展覽館2館",
+    "nameEn": null,
+    "venueType": "會展中心",
+    "city": "台北市",
+    "address": "台北市南港區經貿二路1號",
+    "url": "https://www.tainex.com.tw/venue/room-info/2/4",
+    "phone": null,
+    "contactEmail": null
+  },
+  "summary": null,
+  "risks": {
+    "bookingLeadTime": "活動日前30天（旺季建議提前3個月）",
+    "peakSeasons": [
+      "6月畢業季",
+      "10-12月展覽旺季",
+      "年底尾牙季"
+    ],
+    "commonIssues": [
+      "7F大會議室無窗",
+      "6F會議室空間較為緊湊"
+    ]
+  },
+  "rules": {
+    "catering": [
+      {
+        "rule": "可安排餐飲服務，需使用館內指定廠商或另行申請"
+      },
+      {
+        "rule": "12. 非經本中心同意，所有視聽設備及餐飲均不得自備，餐飲請洽2樓餐廳，電話：02-27292268#7303、手機：",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "(1) 自備餐飲者，需加收餐飲附加費$3,000(含稅)。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ],
+    "decoration": "禁止使用壁貼、膠帶，僅限使用可移除式固定物",
+    "sound": [
+      {
+        "rule": "7F大型場地音量需特別注意隔音"
+      },
+      {
+        "rule": "13. 如需架設展覽攤位、音響、燈光、舞台、攝錄影設備、廣告物及活動物品等、或有使用油壓車、大型推車",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ],
+    "loadIn": [
+      {
+        "rule": "進場時間依租約約定，一般為活動前2小時"
+      },
+      {
+        "rule": "等拖拉工具、及其他自備器材、道具等，承租單位應於進場前加鋪地毯以維持場地環境，如未按規定加鋪",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "地毯而逕行進場者，將按該時段場地租金加收 50%費用，如導致地毯汙損，則需照價賠償並酌收場地清潔",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ],
+    "cancellation": [
+      {
+        "rule": "活動前14天取消退80%，7天內取消不退費"
+      },
+      {
+        "rule": "3. 若以電話口頭或來信書面預定保留，需兩周內提交申請單，逾時則取消預定且不另行通知。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "(2) 基本配備若不需使用亦不得退費。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "15. 如活動因故取消、改期或調整內容，應以書面通知本中心，否則應依原租賃合約之約定，履行場租給付之",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "（已繳交之設備租金費用，全額無息退還）；或得以原場地延期乙次(新、舊檔期舉之時間間隔不得超",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "過一個月)，不接受更換縮減場地退差價事宜，若再次取消，已付場地租金需全額沒收。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "(4) 如遇天災、緊急避難、公共安全或其他不可抗力事由，致必須取消場地時，如無法改期者，本中心將",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "公告不得作為要求取消之依據，惟本中心得以政府單位所發佈之公告做為是否取消場地之依據，本中",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ]
+  },
+  "pricingTips": [
+    "日間時段（08:00-17:00）比夜間（17:00-22:00）便宜約30%",
+    "7F大會議室租金較高，可考慮分時段租用",
+    "公務機關及公益團體另有優惠費率",
+    "4F會議室為2館最經濟選擇"
+  ],
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1501-01",
+      "name": "401會議室",
+      "nameEn": null,
+      "floor": "4樓",
+      "capacity": {
+        "theater": 80,
+        "classroom": 48,
+        "banquet": 72
+      },
+      "area": 96,
+      "ceilingHeight": 2.6,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 10000,
+        "fullDay": 13000
+      },
+      "limitations": [
+        "天花板高度2.6公尺，超過2.1公尺的舞台設備需確認可行性"
+      ],
+      "loadIn": {
+        "elevator": "星期一至星期五 例假日及夜間 面積 尺寸/公尺 標準容量",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1501-02",
+      "name": "601會議室",
+      "nameEn": null,
+      "floor": "6樓",
+      "capacity": {
+        "theater": 120,
+        "classroom": 48,
+        "banquet": 96
+      },
+      "area": 87,
+      "ceilingHeight": 2.9,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 13000,
+        "fullDay": 16900
+      },
+      "limitations": [
+        "天花板高度2.9公尺，超過2.4公尺的舞台設備需確認可行性"
+      ],
+      "loadIn": {
+        "elevator": "星期一至星期五 例假日及夜間 面積 尺寸/公尺 標準容量",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1501-03",
+      "name": "602會議室",
+      "nameEn": null,
+      "floor": "6樓",
+      "capacity": {
+        "theater": 70,
+        "classroom": 28,
+        "banquet": 36
+      },
+      "area": 81,
+      "ceilingHeight": 2.9,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 7000,
+        "fullDay": 9100
+      },
+      "limitations": [
+        "天花板高度2.9公尺，超過2.4公尺的舞台設備需確認可行性"
+      ],
+      "loadIn": {
+        "elevator": "星期一至星期五 例假日及夜間 面積 尺寸/公尺 標準容量",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1501-04",
+      "name": "603會議室",
+      "nameEn": null,
+      "floor": "6樓",
+      "capacity": {
+        "theater": 50,
+        "classroom": 24,
+        "banquet": 28
+      },
+      "area": 62,
+      "ceilingHeight": 2.9,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 5000,
+        "fullDay": 6500
+      },
+      "limitations": [
+        "天花板高度2.9公尺，超過2.4公尺的舞台設備需確認可行性"
+      ],
+      "loadIn": {
+        "elevator": "星期一至星期五 例假日及夜間 面積 尺寸/公尺 標準容量",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1501-05",
+      "name": "701會議室",
+      "nameEn": null,
+      "floor": "7樓",
+      "capacity": {
+        "theater": 3240,
+        "classroom": 1512,
+        "banquet": 2236
+      },
+      "area": 1173.9,
+      "ceilingHeight": 9.0,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 370000,
+        "fullDay": 481000
+      },
+      "limitations": [
+        "天花板高度9.0公尺，適合大型舞台搭建，但吊掛作業需提前申請"
+      ],
+      "loadIn": {
+        "elevator": "星期一至星期五 例假日及夜間 面積 尺寸/公尺 標準容量",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1501-06",
+      "name": "702會議室",
+      "nameEn": null,
+      "floor": "7樓",
+      "capacity": {
+        "theater": 180,
+        "classroom": 60,
+        "banquet": 112
+      },
+      "area": 54.8,
+      "ceilingHeight": 2.7,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 17000,
+        "fullDay": 22100
+      },
+      "limitations": [
+        "天花板高度2.7公尺，超過2.2公尺的舞台設備需確認可行性"
+      ],
+      "loadIn": {
+        "elevator": "星期一至星期五 例假日及夜間 面積 尺寸/公尺 標準容量",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1501-07",
+      "name": "703會議室",
+      "nameEn": null,
+      "floor": "7樓",
+      "capacity": {
+        "theater": 180,
+        "classroom": 60,
+        "banquet": 112
+      },
+      "area": 54.8,
+      "ceilingHeight": 2.7,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 17000,
+        "fullDay": 22100
+      },
+      "limitations": [
+        "天花板高度2.7公尺，超過2.2公尺的舞台設備需確認可行性"
+      ],
+      "loadIn": {
+        "elevator": "星期一至星期五 例假日及夜間 面積 尺寸/公尺 標準容量",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

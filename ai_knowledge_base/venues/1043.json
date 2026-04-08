@@ -1,0 +1,462 @@
+{
+  "identity": {
+    "id": 1043,
+    "name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+    "nameEn": null,
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市南港區忠孝東路七段359號",
+    "url": "https://www.courtyardtaipei.com.tw/",
+    "phone": null,
+    "contactEmail": "service@courtyardtaipei.com"
+  },
+  "summary": null,
+  "risks": {
+    "bookingLeadTime": "至少1個月（週末婚宴建議3個月前）",
+    "peakSeasons": [
+      "10-12月婚宴旺季",
+      "12-1月尾牙季",
+      "6月畢業季"
+    ],
+    "commonIssues": [
+      "週末婚宴檔期競爭激烈",
+      "7F無柱空間為最熱門場地"
+    ]
+  },
+  "rules": {
+    "catering": [
+      {
+        "rule": "限用飯店餐飲服務，不可外燴"
+      },
+      {
+        "rule": "結合 Elite Concept一禮莊園 精品花藝佈置設計與五星宴會團隊宴席料理，不僅擁有中西式宴會佳餚滿足賓客多元需求，更可依照宴席專案，規劃全面且精緻的布置主題，量身打造客製化的難忘時刻。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ],
+    "decoration": [
+      {
+        "rule": "需使用飯店指定裝潢廠商"
+      },
+      {
+        "rule": "結合 Elite Concept一禮莊園 精品花藝佈置設計與五星宴會團隊宴席料理，不僅擁有中西式宴會佳餚滿足賓客多元需求，更可依照宴席專案，規劃全面且精緻的布置主題，量身打造客製化的難忘時刻。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ],
+    "sound": "音響設備由飯店提供，外部音響需事先申請",
+    "loadIn": "進場前1小時，撤場後30分鐘，透過貨梯運送"
+  },
+  "pricingTips": [
+    "平日會議方案比假日便宜約25%",
+    "午宴搭配住房專案更划算",
+    "Elite Concept婚禮布置需另外計費",
+    "訂9:00-17:00比8:00-16:00方案更彈性"
+  ],
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1043-01",
+      "name": "SUPERNOVA 超新星大宴會廳",
+      "nameEn": "SUPERNOVA Ballroom",
+      "floor": "7F",
+      "capacity": {
+        "theater": 200,
+        "banquet": 180,
+        "classroom": 120
+      },
+      "area": 81.5,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 110000,
+        "fullDay": 450000,
+        "overtime": 25000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "EVENT VENUES CAPACITY & RENTAL; Dimension Banquet; GRAND SPACE EVENT VENUES CAPACITY & RENTAL",
+        "vehicleAccess": null,
+        "loadingDock": "",
+        "loadInTime": "08:00",
+        "loadOutTime": "16:30"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1043-02",
+      "name": "Sea 海",
+      "nameEn": "Sea",
+      "floor": "9F",
+      "capacity": {
+        "theater": 85,
+        "banquet": 68,
+        "classroom": 50,
+        "ushape": 35
+      },
+      "area": 31.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 28000,
+        "fullDay": 95000,
+        "overtime": 7000
+      },
+      "limitations": [
+        "可與其他廳合併使用"
+      ],
+      "loadIn": {
+        "elevator": "EVENT VENUES CAPACITY & RENTAL; Dimension Banquet; GRAND SPACE EVENT VENUES CAPACITY & RENTAL",
+        "vehicleAccess": null,
+        "loadingDock": "",
+        "loadInTime": "08:00",
+        "loadOutTime": "16:30"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1043-03",
+      "name": "Mountain 山",
+      "nameEn": "Mountain",
+      "floor": "9F",
+      "capacity": {
+        "theater": 70,
+        "banquet": 56,
+        "classroom": 40,
+        "ushape": 28
+      },
+      "area": 25.5,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 24000,
+        "fullDay": 90000,
+        "overtime": 5000
+      },
+      "limitations": [
+        "可與其他廳合併使用"
+      ],
+      "loadIn": {
+        "elevator": "EVENT VENUES CAPACITY & RENTAL; Dimension Banquet; GRAND SPACE EVENT VENUES CAPACITY & RENTAL",
+        "vehicleAccess": null,
+        "loadingDock": "",
+        "loadInTime": "08:00",
+        "loadOutTime": "16:30"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1043-04",
+      "name": "Forest 林",
+      "nameEn": "Forest",
+      "floor": "9F",
+      "capacity": {
+        "theater": 70,
+        "banquet": 56,
+        "classroom": 40,
+        "ushape": 28
+      },
+      "area": 25.5,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 24000,
+        "fullDay": 90000,
+        "overtime": 5000
+      },
+      "limitations": [
+        "可與其他廳合併使用"
+      ],
+      "loadIn": {
+        "elevator": "EVENT VENUES CAPACITY & RENTAL; Dimension Banquet; GRAND SPACE EVENT VENUES CAPACITY & RENTAL",
+        "vehicleAccess": null,
+        "loadingDock": "",
+        "loadInTime": "08:00",
+        "loadOutTime": "16:30"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1043-05",
+      "name": "Ballroom I 海山林",
+      "nameEn": "Ballroom I",
+      "floor": "9F",
+      "capacity": {
+        "theater": 150,
+        "banquet": 120
+      },
+      "area": 54.5,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 76000,
+        "fullDay": 275000,
+        "overtime": 17000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "EVENT VENUES CAPACITY & RENTAL; Dimension Banquet; GRAND SPACE EVENT VENUES CAPACITY & RENTAL",
+        "vehicleAccess": null,
+        "loadingDock": "",
+        "loadInTime": "08:00",
+        "loadOutTime": "16:30"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1043-06",
+      "name": "Water 水",
+      "nameEn": "Water",
+      "floor": "9F",
+      "capacity": {
+        "theater": 63,
+        "banquet": 50,
+        "classroom": 36,
+        "ushape": 25
+      },
+      "area": 22.5,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 24000,
+        "fullDay": 90000,
+        "overtime": 5000
+      },
+      "limitations": [
+        "可與其他廳合併使用"
+      ],
+      "loadIn": {
+        "elevator": "EVENT VENUES CAPACITY & RENTAL; Dimension Banquet; GRAND SPACE EVENT VENUES CAPACITY & RENTAL",
+        "vehicleAccess": null,
+        "loadingDock": "",
+        "loadInTime": "08:00",
+        "loadOutTime": "16:30"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1043-07",
+      "name": "Crystal 晶",
+      "nameEn": "Crystal",
+      "floor": "9F",
+      "capacity": {
+        "theater": 63,
+        "banquet": 50,
+        "classroom": 36,
+        "ushape": 25
+      },
+      "area": 22.5,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 24000,
+        "fullDay": 90000,
+        "overtime": 5000
+      },
+      "limitations": [
+        "可與其他廳合併使用"
+      ],
+      "loadIn": {
+        "elevator": "EVENT VENUES CAPACITY & RENTAL; Dimension Banquet; GRAND SPACE EVENT VENUES CAPACITY & RENTAL",
+        "vehicleAccess": null,
+        "loadingDock": "",
+        "loadInTime": "08:00",
+        "loadOutTime": "16:30"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1043-08",
+      "name": "Cloud 雲",
+      "nameEn": "Cloud",
+      "floor": "9F",
+      "capacity": {
+        "theater": 63,
+        "banquet": 50,
+        "classroom": 36,
+        "ushape": 25
+      },
+      "area": 22.5,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 24000,
+        "fullDay": 90000,
+        "overtime": 5000
+      },
+      "limitations": [
+        "可與其他廳合併使用"
+      ],
+      "loadIn": {
+        "elevator": "EVENT VENUES CAPACITY & RENTAL; Dimension Banquet; GRAND SPACE EVENT VENUES CAPACITY & RENTAL",
+        "vehicleAccess": null,
+        "loadingDock": "",
+        "loadInTime": "08:00",
+        "loadOutTime": "16:30"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1043-09",
+      "name": "Wind 風",
+      "nameEn": "Wind",
+      "floor": "9F",
+      "capacity": {
+        "theater": 63,
+        "banquet": 50,
+        "classroom": 36,
+        "ushape": 25
+      },
+      "area": 22.5,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 24000,
+        "fullDay": 90000,
+        "overtime": 5000
+      },
+      "limitations": [
+        "可與其他廳合併使用"
+      ],
+      "loadIn": {
+        "elevator": "EVENT VENUES CAPACITY & RENTAL; Dimension Banquet; GRAND SPACE EVENT VENUES CAPACITY & RENTAL",
+        "vehicleAccess": null,
+        "loadingDock": "",
+        "loadInTime": "08:00",
+        "loadOutTime": "16:30"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1043-10",
+      "name": "Light 光",
+      "nameEn": "Light",
+      "floor": "9F",
+      "capacity": {
+        "theater": 63,
+        "banquet": 50,
+        "classroom": 36,
+        "ushape": 25
+      },
+      "area": 22.5,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 24000,
+        "fullDay": 90000,
+        "overtime": 5000
+      },
+      "limitations": [
+        "可與其他廳合併使用"
+      ],
+      "loadIn": {
+        "elevator": "EVENT VENUES CAPACITY & RENTAL; Dimension Banquet; GRAND SPACE EVENT VENUES CAPACITY & RENTAL",
+        "vehicleAccess": null,
+        "loadingDock": "",
+        "loadInTime": "08:00",
+        "loadOutTime": "16:30"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1043-11",
+      "name": "Ballroom II 水晶雲風光",
+      "nameEn": "Ballroom II",
+      "floor": "9F",
+      "capacity": {
+        "theater": 200,
+        "banquet": 160
+      },
+      "area": 72.5,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 120000,
+        "fullDay": 450000,
+        "overtime": 25000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "EVENT VENUES CAPACITY & RENTAL; Dimension Banquet; GRAND SPACE EVENT VENUES CAPACITY & RENTAL",
+        "vehicleAccess": null,
+        "loadingDock": "",
+        "loadInTime": "08:00",
+        "loadOutTime": "16:30"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1043-12",
+      "name": "VIP 貴賓室",
+      "nameEn": "VIP Room I & II",
+      "floor": "9F",
+      "capacity": {
+        "theater": 20,
+        "banquet": 16,
+        "classroom": 12,
+        "ushape": 10
+      },
+      "area": 7.5,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 10000,
+        "fullDay": 33000,
+        "overtime": 3000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "EVENT VENUES CAPACITY & RENTAL; Dimension Banquet; GRAND SPACE EVENT VENUES CAPACITY & RENTAL",
+        "vehicleAccess": null,
+        "loadingDock": "",
+        "loadInTime": "08:00",
+        "loadOutTime": "16:30"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

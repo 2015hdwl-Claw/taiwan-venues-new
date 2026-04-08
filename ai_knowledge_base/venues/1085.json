@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "id": 1085,
+    "name": "台北文華東方酒店(MOHTaipei)",
+    "nameEn": null,
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市敦化北路158號",
+    "url": "https://www.mandarinoriental.com/taipei",
+    "phone": null,
+    "contactEmail": "motpe-reservations@mohg.com"
+  },
+  "summary": null,
+  "risks": null,
+  "rules": null,
+  "pricingTips": null,
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1085-01",
+      "name": "大宴會廳",
+      "nameEn": "The Grand Ballroom",
+      "floor": "B2",
+      "capacity": {
+        "theater": 1170,
+        "banquet": 780,
+        "classroom": 624,
+        "uShape": null,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "area": 960,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "需洽詢飯店（價格為預估）",
+        "halfDay": 960000,
+        "fullDay": 1920000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "・ 5間設備齊全的場地可依賓客需求調整大小，舉辦10 ・ Five exquisitely appointed rooms in different sizes ranging; SEATING CAPACITY CHART; Function Room Location Ping Size: Size: Ceiling Height Dimension Banquet Classroom Theatre Reception U-Shape Boardroom",
+        "vehicleAccess": null,
+        "loadingDock": "宴會廳專屬迎賓車道 EXCLUSIVE VIP ARRIVAL DRIVEWAY"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1085-02",
+      "name": "大宴會廳壹",
+      "nameEn": "The Grand Ballroom I",
+      "floor": "B2",
+      "capacity": {
+        "theater": 608,
+        "banquet": 384,
+        "classroom": 351,
+        "uShape": null,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "area": 580,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "需洽詢飯店（價格為預估）",
+        "halfDay": 580000,
+        "fullDay": 1160000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "・ 5間設備齊全的場地可依賓客需求調整大小，舉辦10 ・ Five exquisitely appointed rooms in different sizes ranging; SEATING CAPACITY CHART; Function Room Location Ping Size: Size: Ceiling Height Dimension Banquet Classroom Theatre Reception U-Shape Boardroom",
+        "vehicleAccess": null,
+        "loadingDock": "宴會廳專屬迎賓車道 EXCLUSIVE VIP ARRIVAL DRIVEWAY"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1085-03",
+      "name": "大宴會廳貳",
+      "nameEn": "The Grand Ballroom II",
+      "floor": "B2",
+      "capacity": {
+        "theater": 399,
+        "banquet": 240,
+        "classroom": 234,
+        "uShape": null,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "area": 380,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "需洽詢飯店（價格為預估）",
+        "halfDay": 380000,
+        "fullDay": 760000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "・ 5間設備齊全的場地可依賓客需求調整大小，舉辦10 ・ Five exquisitely appointed rooms in different sizes ranging; SEATING CAPACITY CHART; Function Room Location Ping Size: Size: Ceiling Height Dimension Banquet Classroom Theatre Reception U-Shape Boardroom",
+        "vehicleAccess": null,
+        "loadingDock": "宴會廳專屬迎賓車道 EXCLUSIVE VIP ARRIVAL DRIVEWAY"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1085-04",
+      "name": "迎賓區",
+      "nameEn": "Pre Function Area",
+      "floor": "B2",
+      "capacity": {
+        "theater": null,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "area": 605,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "需洽詢飯店（價格為預估）",
+        "halfDay": 600000,
+        "fullDay": 1200000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "・ 5間設備齊全的場地可依賓客需求調整大小，舉辦10 ・ Five exquisitely appointed rooms in different sizes ranging; SEATING CAPACITY CHART; Function Room Location Ping Size: Size: Ceiling Height Dimension Banquet Classroom Theatre Reception U-Shape Boardroom",
+        "vehicleAccess": null,
+        "loadingDock": "宴會廳專屬迎賓車道 EXCLUSIVE VIP ARRIVAL DRIVEWAY"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1085-05",
+      "name": "文華廳",
+      "nameEn": "The Mandarin Ballroom",
+      "floor": "B2",
+      "capacity": {
+        "theater": 490,
+        "banquet": 336,
+        "classroom": 300,
+        "uShape": null,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "area": 500,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "需洽詢飯店（價格為預估）",
+        "halfDay": 500000,
+        "fullDay": 1000000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "・ 5間設備齊全的場地可依賓客需求調整大小，舉辦10 ・ Five exquisitely appointed rooms in different sizes ranging; SEATING CAPACITY CHART; Function Room Location Ping Size: Size: Ceiling Height Dimension Banquet Classroom Theatre Reception U-Shape Boardroom",
+        "vehicleAccess": null,
+        "loadingDock": "宴會廳專屬迎賓車道 EXCLUSIVE VIP ARRIVAL DRIVEWAY"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1085-06",
+      "name": "文華廳壹",
+      "nameEn": "The Mandarin Ballroom I",
+      "floor": "B2",
+      "capacity": {
+        "theater": 308,
+        "banquet": 144,
+        "classroom": 150,
+        "uShape": null,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "area": 260,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "需洽詢飯店（價格為預估）",
+        "halfDay": 260000,
+        "fullDay": 520000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "・ 5間設備齊全的場地可依賓客需求調整大小，舉辦10 ・ Five exquisitely appointed rooms in different sizes ranging; SEATING CAPACITY CHART; Function Room Location Ping Size: Size: Ceiling Height Dimension Banquet Classroom Theatre Reception U-Shape Boardroom",
+        "vehicleAccess": null,
+        "loadingDock": "宴會廳專屬迎賓車道 EXCLUSIVE VIP ARRIVAL DRIVEWAY"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1085-07",
+      "name": "文華廳貳",
+      "nameEn": "The Mandarin Ballroom II",
+      "floor": "B2",
+      "capacity": {
+        "theater": 280,
+        "banquet": 144,
+        "classroom": 150,
+        "uShape": null,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "area": 240,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "需洽詢飯店（價格為預估）",
+        "halfDay": 240000,
+        "fullDay": 480000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "・ 5間設備齊全的場地可依賓客需求調整大小，舉辦10 ・ Five exquisitely appointed rooms in different sizes ranging; SEATING CAPACITY CHART; Function Room Location Ping Size: Size: Ceiling Height Dimension Banquet Classroom Theatre Reception U-Shape Boardroom",
+        "vehicleAccess": null,
+        "loadingDock": "宴會廳專屬迎賓車道 EXCLUSIVE VIP ARRIVAL DRIVEWAY"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1085-08",
+      "name": "東方廳壹",
+      "nameEn": "Oriental I",
+      "floor": "B2",
+      "capacity": {
+        "theater": 112,
+        "banquet": 60,
+        "classroom": 60,
+        "uShape": null,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "area": 120,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "需洽詢飯店（價格為預估）",
+        "halfDay": 120000,
+        "fullDay": 240000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "・ 5間設備齊全的場地可依賓客需求調整大小，舉辦10 ・ Five exquisitely appointed rooms in different sizes ranging; SEATING CAPACITY CHART; Function Room Location Ping Size: Size: Ceiling Height Dimension Banquet Classroom Theatre Reception U-Shape Boardroom",
+        "vehicleAccess": null,
+        "loadingDock": "宴會廳專屬迎賓車道 EXCLUSIVE VIP ARRIVAL DRIVEWAY"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1085-09",
+      "name": "東方廳貳",
+      "nameEn": "Oriental II",
+      "floor": "B2",
+      "capacity": {
+        "theater": 36,
+        "banquet": 12,
+        "classroom": 18,
+        "uShape": null,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "area": 50,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "需洽詢飯店（價格為預估）",
+        "halfDay": 60000,
+        "fullDay": 120000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "・ 5間設備齊全的場地可依賓客需求調整大小，舉辦10 ・ Five exquisitely appointed rooms in different sizes ranging; SEATING CAPACITY CHART; Function Room Location Ping Size: Size: Ceiling Height Dimension Banquet Classroom Theatre Reception U-Shape Boardroom",
+        "vehicleAccess": null,
+        "loadingDock": "宴會廳專屬迎賓車道 EXCLUSIVE VIP ARRIVAL DRIVEWAY"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

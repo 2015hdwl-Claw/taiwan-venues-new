@@ -1,467 +1,229 @@
-# 活動大師 Activity Master - 專案配置
+# 活動大師 Activity Master — 專案配置
 
-**專案目標**: 爬取並整合台灣會議場地資料，提供完整的場地資訊平台
-
----
-
-## ⚠️ 強制性規則（絕對不可違反）
-
-### 三階段爬蟲流程 - 必須按順序執行
-
-**每次爬取任何場地，必須按順序執行三階段，不可跳過任何階段**：
-
-```
-階段1：技術檢測 → 階段2：深度爬蟲 → 階段3：驗證寫入
-```
-
-#### 階段1：技術檢測（必須先執行，不可跳過）
-```python
-# 1.1 HTTP 狀態碼檢測
-response = requests.get(url, timeout=15)
-print(f"HTTP 狀態: {response.status_code}")
-
-# 1.2 Content-Type 檢測
-content_type = response.headers.get('Content-Type')
-print(f"Content-Type: {content_type}")
-
-# 1.3 網頁載入方式檢測（JS 框架）
-soup = BeautifulSoup(response.text, 'html.parser')
-scripts = soup.find_all('script')
-# 檢查是否有 react, vue, angular, jquery
-
-# 1.4 資料位置檢測
-# 檢查 JSON-LD, 內嵌 JSON, HTML 結構
-
-# 1.5 反爬蟲機制檢測
-# 檢查 Cookies, Cloudflare, Rate Limiting
-
-# 輸出：技術檢測報告（告訴你能不能爬、怎麼爬）
-```
-
-#### 階段2：深度爬蟲（基於階段1結果制定策略）
-```python
-# 根據階段1的結果決定策略：
-# - 靜態HTML → 直接解析
-# - 動態JS → 使用Selenium
-# - Cloudflare → 手動處理或繞過
-# - PDF優先 → 先下載PDF
-
-# 2.1 第一級：主頁分析
-# 尋找會議/宴會相關連結
-
-# 2.2 第二級：會議室頁面發現
-# 從主頁連結中找到會議室頁面
-
-# 2.3 第三級：頁面內容提取
-# 提取完整會議室資料（30欄位）
-
-# 輸出：所有連結、PDF、會議室資訊
-```
-
-#### 階段3：驗證寫入（基於階段2結果驗證完整性）
-```python
-# 3.1 驗證提取的資料完整性
-# 檢查 30 欄位標準
-
-# 3.2 檢查資料品質
-# 驗證容量、面積、價格的合理性
-
-# 3.3 寫入 venues.json
-# 建立備份 → 更新資料
-
-# 3.4 生成驗證報告
-# 確認資料完整度
-
-# 輸出：更新後的 venues.json
-```
-
-### 禁止的事項
-
-❌ **絕對不可跳過階段1直接寫爬蟲腳本**
-- 錯誤：寫腳本訪問URL → 遇到404 → 放棄
-- 正確：階段1技術檢測 → 分析結果 → 制定策略 → 執行
-
-❌ **絕對不可遇到問題就放棄**
-- 錯誤：遇到404/Cloudflare → 跳過這個場地
-- 正確：回到階段1結果 → 分析失敗原因 → 調整策略 → 重試
-
-❌ **絕對不可假設"應該可以"而不測試**
-- 錯誤：假設URL正確 → 直接爬取 → 失敗
-- 正確：先測試每個連結 → 確認可用 → 再深度爬取
-
-### 強制檢查清單
-
-每次寫爬蟲腳本前，必須問自己：
-
-**寫腳本前**：
-- [ ] 我是否已經完成階段1技術檢測？
-- [ ] 我是否已經分析階段1的結果？
-- [ ] 我是否知道這個網站能不能爬？
-- [ ] 我是否知道需要什麼特殊處理？
-
-**寫腳本時**：
-- [ ] 我的腳本是否基於階段1的結果？
-- [ ] 我的腳本是否處理了階段1發現的問題？
-- [ ] 我的腳本是否測試了每個連結？
-
-**遇到問題時**：
-- [ ] 我是否回到階段1結果找原因？
-- [ ] 我是否調整策略而不是放棄？
-- [ ] 我是否記錄問題和對策？
-
-### 記憶體參考
-
-詳細規則請參考：[memory/three_stage_mandatory.md](memory/three_stage_mandatory.md)
+**部署網址**: https://taiwan-venues-new-indol.vercel.app/
+**資料庫**: `venues.json`（57 場地、48 啟用、370 會議室）
+**最後更新**: 2026-04-04
 
 ---
 
-## 專案背景
+## 1. 架構
 
-這是一個網頁爬蟲專案，用於自動化收集台灣各類會議場地的詳細資訊。
+### 前端：純靜態網站（無框架）
 
-**核心挑戰**:
-- 每個場地官網結構不同
-- 關鍵資料分散在不同頁面（會議頁、交通頁、PDF文件）
-- 需要處動態網頁和靜態HTML
-- 資料品質驗證與去重
+```
+index.html + app.js    → 場地列表頁（分頁、篩選、排序）
+venue.html + venue.js  → 場地詳情頁（會議室列表、圖片、設備）
+room.html  + room.js   → 會議室詳情頁（定價、平面圖、容量）
+```
 
-**資料庫**: `venues.json` - 目前包含 42 個已驗證場地
+- 前端直接 `fetch('venues.json')`，無後端 API
+- 三個 JS 檔案同步維護 `DATA_VERSION` 常數（目前 `20260401-v12`），每次資料更新必須遞增
+- 部署：`vercel --prod --yes`
+
+### 資料架構
+
+| 檔案 | 用途 |
+|------|------|
+| `venues.json` | 主資料庫（所有場地） |
+| `venues_taipei.json` | 台北場地子集（24 場地），由 `venues.json` 過濾產生 |
+
+- `active: false` 的場地前端不顯示
+- 修改 `venues.json` 後必須跑 `pipeline.py sync`
+
+### 工具架構
+
+```
+tools/
+├── pipeline.py          # CLI 入口（所有指令的唯一入口）
+├── estimators.py        # 統一估算公式（area/price）
+├── validators.py        # 格式驗證（equipment/pricing/schema）
+├── sync.py              # 檔案同步（taipei/DATA_VERSION）
+└── constants.py         # 費率表、係數、場地分類
+```
+
+### pipeline.py 指令
+
+| 指令 | 用途 | 需要LLM？ |
+|------|------|-----------|
+| `audit` | 掃描缺值 | 否 |
+| `estimate` | 用固定公式補 area | 否 |
+| `sync` | venues → venues_taipei + DATA_VERSION | 否 |
+| `validate` | 驗證格式相容性 | 否 |
+| `deploy` | vercel --prod --yes | 否 |
+| `fix <id>` | audit + estimate + validate + sync | 否 |
+| `crawl <id>` | 爬官網提取精確數據 | **是** |
+| `images <id>` | 下載圖片、判斷是否為會議室 | **是** |
 
 ---
 
-## 專案結構
+## 2. 規則
 
-### 主要爬蟲程式
+### LLM 角色邊界
 
-| 檔案 | 版本 | 用途 | 速度 | 完整度 |
-|------|------|------|------|--------|
-| `intelligent_scraper_v3.py` | V3 | 單頁爬蟲 + 品質驗證 | ⚡ 快 | 🟡 基本 |
-| `full_site_scraper_v4.py` | V4 | 全站爬蟲（多頁面發現） | 🐢 慢 | 🟢 完整 |
-| `full_site_scraper_v4_enhanced.py` | V4+ | V4 + PDF 提取 | 🐢 慢 | 🟢 最完整 |
+**LLM 負責（需要理解力）：** 爬官網、判斷圖片、PDF 解讀、新場地建檔
 
-### 使用時機
+**LLM 不負責（固定規則，不可浪費 token）：** area/price 估算、檔案同步、版本更新、格式驗證、部署
 
-**V3 單頁爬蟲** (intelligent_scraper_v3.py):
-```bash
-# 快速更新基本資料（電話、Email）
-python intelligent_scraper_v3.py --batch --sample 10
-```
-- ✅ 適合: 更新聯絡資訊、快速處理大量場地
-- ⚠️ 限制: 會議室資料不完整
+### 定價規則（重要）
 
-**V4 全站爬蟲** (full_site_scraper_v4.py):
-```bash
-# 深度爬取完整資料（會議室、交通、照片）
-python full_site_scraper_v4.py --batch --sample 3
-```
-- ✅ 適合: 重要場地、需要完整會議室資料
-- ⚠️ 注意: 速度較慢，建議每次 3-5 個場地
+- **有官方明確場地租借費** → 寫入 `halfDay`/`fullDay`
+- **官網只有「每人會議專案價」** → 不等於場地費，寫 `{"note": "價格需電話洽詢"}`
+- **官網/PDF 無定價** → 寫 `{"note": "價格需電話洽詢"}`
+- `estimators.py` 的 `estimate_pricing()` 保留供參考，但**不可直接寫入 venues.json**
 
-**V4 Enhanced** (full_site_scraper_v4_enhanced.py):
-```bash
-# 包含 PDF 提取（適合官網有 PDF 價格表的場地）
-python full_site_scraper_v4_enhanced.py --batch --sample 2
-```
-- ✅ 適合: 官網有 PDF 檔案的場地
-- ⚠️ 注意: 最慢但最完整
+### 前端格式相容性
 
----
+- `equipment` 必須是 array（前端用 `.slice().join()`）
+- `pricing` 必須有 `halfDay`/`fullDay` 或 `note`（不可三個都沒有）
+- **venue 主圖用 `images: {"main": "url"}`**（巢狀物件），**不是 `image: "url"`（字串）**。前端讀 `venue.images?.main`
+- room 主圖同理：`room.images.main` 或 `room.images[0]`
+- `area` 使用單一數值（坪），不用 `areaSqm`/`areaPing`
+- `areaUnit` 一律用 `"坪"`
+- `source` 標記數據來源日期
 
-## 關鍵技術實作
+### 容量比估算公式（唯一來源：`tools/estimators.py`）
 
-### 1. 批次處理機制
+- area: `max(theater×0.9, banquet×1.5, classroom×1.3, ushape×2.0) / 3.3058`，四捨五入到 0.5 坪
 
-**避免重複爬取** - 檢查 `metadata.lastScrapedAt`:
+### 爬蟲策略
 
-```python
-# ✅ 正確做法
-metadata = venue.get('metadata', {})
-last_scraped_str = metadata.get('lastScrapedAt')
+- 先找 PDF（最準確），再爬官網
+- 同一網站試超過 2 次失敗 → 改用估算
+- 爬蟲後必須人工對比官網資料，不可直接信任
+- Room name matching 用 `repr()` 確認精確字元
 
-if not last_scraped_str:
-    unprocessed.append(venue['id'])  # 從未爬取
-else:
-    last_scraped = datetime.fromisoformat(last_scraped_str)
-    if (today - last_scraped.date()) > timedelta(days=7):
-        unprocessed.append(venue['id'])  # 超過 7 天
-```
-
-**❌ 錯誤做法** (已在 V3 修復):
-```python
-# 錯誤：每次都處理所有場地
-for venue in scraper.data:
-    if venue.get('url') and venue.get('verified'):
-        unprocessed.append(venue['id'])  # 不要這樣做！
-```
-
-### 2. 資料品質驗證
-
-**DataQualityValidator 類別** (intelligent_scraper_v3.py):
-
-```python
-# 電話驗證 (台灣格式)
-is_valid, score, issues = DataQualityValidator.validate_phone(phone)
-# 格式: +886-2-1234-5678 或 02-1234-5678
-
-# Email 驗證 (含垃圾過濾)
-is_valid, score, issues = DataQualityValidator.validate_email(email)
-# 過濾: no-reply, @noreply, @spam
-
-# 會議室驗證
-is_valid, score, issues = DataQualityValidator.validate_rooms(rooms)
-# 檢查: 容量 (5-5000)、面積、名稱
-```
-
-### 3. 頁面發現與分類
-
-**V4 PageDiscoverer**:
-```python
-discoverer = PageDiscoverer()
-all_pages = discoverer.discover_all(base_url, max_pages=30)
-
-# 發現來源:
-# 1. 導航列連結 (nav, menu)
-# 2. Footer 連結
-# 3. URL 模式猜測 (/meeting, /access, /contact)
-```
-
-**V4 PageClassifier**:
-```python
-classifier = PageClassifier()
-
-page_type = classifier.classify(page, url)
-# 回傳: 'meeting' | 'access' | 'contact' | 'policy' | 'gallery' | 'other'
-```
-
-### 4. PDF 提取
-
-**PDFDiscoverer + PDFExtractor** (V4 Enhanced):
-
-```python
-# 發現 PDF
-pdf_links = pdf_discoverer.discover_pdfs(base_url, page)
-
-# 提取資料
-for pdf_url in pdf_links:
-    rooms = pdf_extractor.extract_rooms_from_pdf(pdf_url)
-    # 解析: 會議室名稱、容量、面積、價格
-```
-
-**重要案例**: 集思台大會議中心 (ID: 1128)
-- 只有 4 個會議室在 HTML
-- 實際有 12 個會議室在 PDF
-- PDF 來源: `https://www.meeting.com.tw/ntu/download/台大_場地租用申請表_20250401.pdf`
-
----
-
-## venues.json 資料結構
+### 會議室 JSON 結構
 
 ```json
 {
-  "id": 1128,
-  "name": "集思台大會議中心(NTUCC)",
-  "venueType": "會議中心",
-  "url": "https://www.meeting.com.tw/ntu/",
-  "address": "台北市羅斯福路四段85號B1",
-  "contact": {
-    "phone": "+886-2-3366-4504",
-    "email": "ntu.service@meeting.com.tw"
-  },
-  "capacity": {
-    "theater": 400,
-    "classroom": 150
-  },
-  "rooms": [
-    {
-      "id": "1128-01",
-      "name": "國際會議廳",
-      "nameEn": "International Conference Hall",
-      "capacity": {"theater": 400},
-      "area": 253.6,
-      "areaUnit": "坪",
-      "price": {"weekday": 44000, "holiday": 48000},
-      "source": "pdf_20250401"
-    }
-  ],
-  "traffic": {
-    "mrt": "公館站",
-    "bus": ["1", "207", "643"],
-    "parking": "倍思地下停車場"
-  },
-  "verified": true,
-  "metadata": {
-    "lastScrapedAt": "2026-03-25T10:30:00",
-    "scrapeVersion": "V4_PDF",
-    "scrapeConfidenceScore": 85,
-    "totalRooms": 12
-  }
+  "id": "1128-01",
+  "name": "國際會議廳",
+  "capacity": { "theater": 400 },
+  "area": 253.6,
+  "areaUnit": "坪",
+  "floor": "B1",
+  "pricing": { "halfDay": 44000, "fullDay": 88000 },
+  "equipment": ["投影設備", "音響"],
+  "images": { "main": "https://...", "gallery": ["https://..."] },
+  "ceilingHeight": 5.0,
+  "limitations": ["天花板高度5m，超過4.5m的舞台設備需提前申請"],
+  "loadIn": { "elevator": "有貨梯（限重1.5噸）", "vehicleAccess": false },
+  "source": "官網活動場地頁_20260331"
 }
 ```
 
-**關鍵欄位說明**:
-- `verified`: true 表示已人工驗證過
-- `metadata.lastScrapedAt`: 最後爬取時間
-- `metadata.scrapeVersion`: V3 | V4 | V4_PDF
-- `metadata.scrapeConfidenceScore`: 0-100 品質分數
+### 場地分類
+
+| 類別 | 代表場地 |
+|------|----------|
+| 飯店場地 | 寒舍艾麗、君悅、W飯店 |
+| 婚宴場地 | 龍邦、典華、薇閣 |
+| 展演場地 | 松山文創、華山1914 |
+| 會議中心 | 集思台大、台大醫院國際會議中心 |
 
 ---
 
-## 場地分類
+## 3. 禁止事項
 
-目前 5 大類別:
-
-| 類別 | 說明 | 代表場地 |
-|------|------|----------|
-| 飯店場地 | 國際觀光飯店會議設施 | 寒舍艾麗、君悅、W飯店 |
-| 婚宴場地 | 專業婚宴會館 | 龍邦、典華、薇閣 |
-| 展演場地 | 大型展演空間 | 松山文创、集思台大 |
-| 會議中心 | 純會議用途 | 台大醫院國際會議中心 |
-| 運動場地 | 體育館、球場附設會議室 | 台北體育館 |
-
----
-
-## 開發工作流程
-
-### 1. 新增場地
-```bash
-# 方法 1: 手動新增到 venues.json
-# 方法 2: 使用爬蟲自動發現
-python intelligent_scraper_v3.py --url https://example.com
-```
-
-### 2. 爬取場地資料
-```bash
-# 快速更新 (V3)
-python intelligent_scraper_v3.py --batch --sample 10
-
-# 完整爬取 (V4)
-python full_site_scraper_v4.py --batch --sample 3
-
-# 含 PDF (V4+)
-python full_site_scraper_v4_enhanced.py --batch --sample 2
-```
-
-### 3. 驗證資料品質
-```bash
-# 檢查特定場地
-python check_venue_details.py --id 1128
-
-# 生成報告
-python generate_report.py --type quality
-```
-
-### 4. 手動修正
-```bash
-# 修正單一場地
-python update_specific_venues.py --id 1128
-
-# 從 PDF 更新
-python update_ntucc_v2.py  # 集思台大範例
-```
+- **禁止寫新的 `fix_*.py` 一次性腳本** — 全部走 `pipeline.py`
+- **禁止在對話中重複寫估算公式** — 公式只在 `tools/estimators.py`
+- **禁止手動同步 `venues_taipei.json`** — 用 `pipeline.py sync`
+- **禁止手動改 `DATA_VERSION`** — 用 `pipeline.py sync`
+- **禁止用公式估算金額寫入 pricing.halfDay/fullDay** — 爬不到就寫 `note: "價格需電話洽詢"`
+- **禁止 `pipeline.py knowledge` 不帶 `--save` 就寫入 venues.json** — 預設只輸出 stdout，加 `--save` 才寫檔
+- **禁止背景執行 `pipeline.py knowledge --save`** — 避免覆寫其他場地更新
+- **優先使用 `search.py` 而非 WebSearch/WebReader** — 避免配額限制。Agent 任務中用 `python ~/.claude/scripts/search.py --url "URL"` 抓取網頁
+- 不可直接信任自動爬蟲結果而不驗證
+- 不可假設圖片 URL 命名規則（必須從頁面提取）
+- 不可將 `equipment` 寫成 string
+- 部署不用問使用者（`vercel --prod --yes`）
 
 ---
 
-## 已知問題與解決方案
+## 4. 已知技術問題
 
-### 問題 1: 批次處理重複爬取
-- **症狀**: 每次運行都爬取相同場地
-- **原因**: 未檢查 `metadata.lastScrapedAt`
-- **狀態**: ✅ 已在 V3 修復 (line 694-716)
-- **檔案**: `intelligent_scraper_v3.py`
-
-### 問題 2: 會議室資料不完整
-- **症狀**: 只爬到部分會議室（如集思台大只有 4 個）
-- **原因**: 關鍵資料在 PDF 中，非 HTML
-- **解決**: 使用 V4 Enhanced 或手動 PDF 提取
-- **案例**: `update_ntucc_v2.py` 成功提取 12 個會議室
-
-### 問題 3: API Rate Limiting (429)
-- **症狀**: `Usage limit reached for 5 hour`
-- **解決**:
-  - 使用 `/clear-skills` 減少 token
-  - 等待 reset 時間
-  - 縮短 prompt，避免大量分析
+- **SSL EOF**: 典華 denwell.com.tw → `ssl.create_default_context(check_hostname=False)`
+- **403 AJAX**: 六福萬怡 → 需要 CSRF token + cookies
+- **JS 渲染空白**: 公務人力 Umumba → 需找 PDF
+- **集思(GIS)系列**: 共用 meeting.com.tw，圖片路徑 `meeting.com.tw/{slug}/images/lease/{room-slug}-slider-{N}.jpg`
+- **華山1914 API**: `https://www.huashan1914.com/w/huashan1914/AppPlaceList`
 
 ---
 
-## 重要檔案
-
-### 爬蟲核心
-- `intelligent_scraper_v3.py` - V3 單頁爬蟲
-- `full_site_scraper_v4.py` - V4 全站爬蟲
-- `full_site_scraper_v4_enhanced.py` - V4 + PDF
-
-### 資料檔案
-- `venues.json` - 主資料庫
-- `venues.json.backup.*` - 自動備份
-
-### 文檔
-- `KNOWLEDGE_BASE.md` - 專案知識庫（問題與解決方案）
-- `CLAUDE.md` - 本檔案（Claude 專案配置）
-
-### 範例腳本
-- `update_ntucc_v2.py` - PDF 提取範例
-- `check_venue_details.py` - 場地資料檢視
-
 ---
 
-## 開發規範
+## 5. AI 知識庫架構（2026-04-04 新增）
 
-### Python 程式碼風格
-- 遵循 PEP 8
-- 使用 UTF-8 編碼
-- 函數加上類型提示 (Type Hints)
-- 錯誤處理要完整 (try-except)
+### 定位
 
-### Git 提交訊息格式
+活動大師 = **活動企劃的場地知識庫**（非搜尋引擎、非比價平台）
+目標族群：負責把活動辦好的人（活動企劃/公關公司/企業內部）— 同一價值鏈
+差異化：官網沒寫的場地限制、潛規則、踩坑經驗 + AI 助理
+
+### 雙層資料分離
+
 ```
-<type>: <description>
+前端資料層（不動）
+├── venues.json           ← 前端直接消費
+└── venues_taipei.json    ← 台北子集
 
-<optional body>
+AI 資料層（獨立，單向同步）
+├── ai_knowledge_base/
+│   ├── schema.json       ← AI 專用結構定義
+│   └── venues/*.json     ← 每場地完整知識（58 個檔案）
+└── tools/sync_to_ai.py   ← venues.json → AI 格式（唯讀，AI 不回寫）
 ```
 
-Type: feat, fix, refactor, docs, test, chore, perf, ci
+### AI 知識庫 Schema（ai_knowledge_base/schema.json）
 
-範例:
+每個場地 `venues/{id}.json` 包含：
+- `identity` — 基本識別（從 venues.json 同步）
+- `summary` — RAG 用精簡描述 + strengths/weaknesses/suitableEventTypes
+- `risks` — 預訂提前量、旺季、常見問題
+- `rules` — 結構化規定（每條有 rule/exception/penalty/negotiable）
+- `pricingTips` — 省錢技巧
+- `seasonal` — 旺季/淡季/折扣（新增）
+- `logistics` — 停車/交通/無障礙/遊覽車（新增）
+- `rooms[]` — 會議室知識（suitableEventTypes, equipment 詳細規格, loadIn 擴充, breakoutRooms）
+- `ragChunks[]` — 預切 RAG 檢索片段（每段有 id/category/text/metadata）
+- `inquiries` — 詢問信紀錄（pending/sent）
+
+### 每筆知識的 metadata
+
+```json
+{
+  "source": "官網租借辦法_20260331",
+  "verifiedAt": "2026-04-01",
+  "expiresAt": "2026-10-01",
+  "confidence": "confirmed | unverified | outdated"
+}
 ```
-feat: 加入 PDF 提取功能到 V4 爬蟲
 
-- 使用 PyPDF2 解析 PDF 文件
-- 自動發現並提取會議室資料
-- 支援容量、面積、價格解析
-```
+### 琜官網知識採集：找這些頁面
 
----
+| 目標頁面 | 對應欄位 |
+|--------|--------|
+| 「場地須知」「租借辦法」「收費標準」 | rules, pricingTips, risks.bookingLeadTime |
+| 「注意事項」「FAQ」「常見問題」 | limitations, risks.commonIssues |
+| 「設備清單」「場地規格」 | equipment 詳細規格, ceilingHeight |
+| 「交通資訊」「停車」 | logistics（AI 層） |
+| 旺季/檔期公告 | risks.peakSeasons |
 
-## Claude 使用建議
+### 7 天上市計畫
 
-### 當我需要:
-1. **分析場地資料** → 直接讀取 `venues.json`
-2. **修復爬蟲 bug** → 檢查對應版本的 `.py` 檔案
-3. **理解專案問題** → 查閱 `KNOWLEDGE_BASE.md`
-4. **快速批次處理** → 使用 V3
-5. **完整深度爬取** → 使用 V4 或 V4+
+詳見 `PLAN_AI_KNOWLEDGE_BASE.md`
 
-### 避免的事項:
-- ❌ 不要修改未備份的 `venues.json`（先備份再修改）
-- ❌ 不要同時執行多個批次爬蟲（可能被封鎖）
-- ❌ 不要忽略資料品質驗證警告
-- ❌ 不要用 V4 處理超過 5 個場地（太慢）
+### 當前知識覆蓋率
 
----
+- 有 risks: 7/58 場地
+- 有 rules: 9/58
+- rooms with limitations: 38/~370
+- rooms with loadIn: 2/~370
 
-## 專案知識庫
+### 完整範例
 
-詳細的問題追蹤與解決方案請參考: [KNOWLEDGE_BASE.md](KNOWLEDGE_BASE.md)
-
-**重點摘要**:
-- ✅ V3 批次問題已修復
-- ✅ V4 支援全站爬取
-- ✅ PDF 提取已驗證（集思台大 12 會議室）
-- ✅ 資料品質驗證機制完備
+`ai_knowledge_base/venues/1072.json` — 圓山大飯店（已有資料/要爬/要問 的完整對照）
 
 ---
 
-**最後更新**: 2026-03-25
 **維護者**: le202
-**Claude Code 版本**: Sonnet 4.6

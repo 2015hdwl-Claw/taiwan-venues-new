@@ -5,7 +5,7 @@ let currentPage = 0;
 const ITEMS_PER_PAGE = 20;
 
 // ===== 版本控制（每次部署更新此值）=====
-const DATA_VERSION = '20260330-taipei-b2b'; // 格式: YYYYMMDD-序號
+const DATA_VERSION = '20260408-v1'; // 格式: YYYYMMDD-序號
 
 // ===== 排序權重定義 =====
 // 縣市排序（按場地數量降冪，前3名標記為熱門）
@@ -62,13 +62,13 @@ document.addEventListener('DOMContentLoaded', async () => {
 // ===== 載入場地資料 =====
 async function loadVenues() {
     try {
-        // 添加版本參數防止快取 - 使用台北場地版本
-        const response = await fetch(`venues_taipei.json?v=${DATA_VERSION}`);
+        // 載入主資料庫，前端過濾台北
+        const response = await fetch(`venues.json?v=${DATA_VERSION}`);
         if (!response.ok) throw new Error('無法載入資料');
-        
+
         allVenues = await response.json();
-        // 過濾掉已下架的場地 (active: false)
-        allVenues = allVenues.filter(venue => venue.active !== false);
+        // 過濾：啟用 + 台北
+        allVenues = allVenues.filter(venue => venue.active !== false && venue.city && venue.city.includes('台北'));
         filteredVenues = [...allVenues];
         
         // 更新統計 (B2B 版本使用 class，向後兼容)
@@ -314,66 +314,87 @@ function createVenueCard(venue) {
     card.onclick = () => {
         window.location.href = `venue.html?id=${venue.id}`;
     }
-    
+
     const imageUrl = venue.images?.main || 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800';
-    const priceText = venue.priceHalfDay 
-        ? `半天 $${venue.priceHalfDay.toLocaleString()} 起`
-        : (venue.priceFullDay 
-            ? `全天 $${venue.priceFullDay.toLocaleString()} 起`
-            : '價格面議');
-    
-    // 移除最大容量顯示（因為容納人數已有）
-    // const capacityText = venue.maxCapacityTheater 
-    //     ? `最多 ${venue.maxCapacityTheater} 人`
-    //     : (venue.maxCapacityClassroom 
-    //         ? `最多 ${venue.maxCapacityClassroom} 人`
-    //         : '人數未提供');
-    const capacityText = '';
-    
-    // 檢查是否為熱門縣市/類型
-    const cityInfo = CITY_WEIGHT_MAP.get(venue.city);
-    const typeInfo = TYPE_WEIGHT_MAP.get(venue.venueType);
-    const isHot = cityInfo?.hot || typeInfo?.hot;
-    
-    // 會議室數量
+
+    // 會議室數量與最大容量
     const roomsCount = venue.rooms ? venue.rooms.length : 0;
-    
-    // 構建標籤
-    const tags = [];
-    if (cityInfo?.hot) tags.push('🔥');
-    if (typeInfo?.hot && !cityInfo?.hot) tags.push('🔥');
-    
+    const maxCapacity = venue.maxCapacityTheater || venue.maxCapacityClassroom || 0;
+
+    // 價格區間
+    let priceDisplay = '價格面議';
+    if (venue.priceHalfDay && venue.priceFullDay) {
+        priceDisplay = `$${(venue.priceHalfDay / 1000).toFixed(0)}k-${(venue.priceFullDay / 1000).toFixed(0)}k`;
+    } else if (venue.priceHalfDay) {
+        priceDisplay = `$${(venue.priceHalfDay / 1000).toFixed(0)}k 起`;
+    } else if (venue.priceFullDay) {
+        priceDisplay = `$${(venue.priceFullDay / 1000).toFixed(0)}k 起`;
+    }
+
+    // 最大坪數
+    const maxArea = venue.rooms ? Math.max(...venue.rooms.map(r => r.area || 0)) : 0;
+
+    // 限制數量（用於警示）
+    const limitationsCount = venue.rooms ?
+        venue.rooms.filter(r => r.limitations && r.limitations.length > 0).length : 0;
+
+    // 特色標籤（挑高、無柱、貨梯）
+    const features = [];
+    if (venue.rooms) {
+        const hasHighCeiling = venue.rooms.some(r => r.ceilingHeight && r.ceilingHeight >= 4);
+        const hasNoPillar = venue.rooms.some(r => r.pillar === false);
+        const hasFreightElevator = venue.rooms.some(r => r.loadIn?.elevator);
+        if (hasHighCeiling) features.push('挑高');
+        if (hasNoPillar) features.push('無柱');
+        if (hasFreightElevator) features.push('貨梯');
+    }
+
     card.innerHTML = `
-        <img src="${imageUrl}" alt="${venue.name}" class="venue-image" 
-             onerror="this.src='https://images.unsplash.com/photo-1497366216548-37526070297c?w=800'">
-        <div class="venue-content">
-            <span class="venue-type ${isHot ? 'hot' : ''}">${tags.length > 0 ? tags[0] + ' ' : ''}${venue.venueType || '場地'}</span>
+        <div class="venue-image">
+            <img src="${imageUrl}" alt="${venue.name}"
+                 onerror="this.src='https://images.unsplash.com/photo-1497366216548-37526070297c?w=800'">
+            <span class="venue-type-badge">${venue.venueType || '場地'}</span>
+        </div>
+        <div class="venue-info">
             <h3 class="venue-name">${venue.name}</h3>
-            <div class="venue-info">
-                <div class="venue-info-item">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                        <circle cx="12" cy="10" r="3"></circle>
-                    </svg>
-                    <span>${venue.city || '未知城市'}</span>
+            <p class="venue-address">📍 ${venue.address || venue.city || '台北市'}</p>
+
+            <div class="venue-stats">
+                <div class="stat-item">
+                    <span class="stat-icon">🎭</span>
+                    <span class="stat-value">${maxCapacity || '-'}人</span>
+                    <span class="stat-label">最大</span>
                 </div>
-                <div class="venue-info-item">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                        <circle cx="12" cy="10" r="3"></circle>
-                    </svg>
-                    <span class="address-text">${venue.address || '地址未提供'}</span>
+                <div class="stat-item">
+                    <span class="stat-icon">💰</span>
+                    <span class="stat-value">${priceDisplay}</span>
+                    <span class="stat-label">價格</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-icon">📐</span>
+                    <span class="stat-value">${maxArea ? maxArea + '坪' : '-'}</span>
+                    <span class="stat-label">最大</span>
+                </div>
+                <div class="stat-item ${limitationsCount > 0 ? 'has-warning' : ''}">
+                    <span class="stat-icon">${limitationsCount > 0 ? '⚠️' : '🚪'}</span>
+                    <span class="stat-value">${roomsCount}間</span>
+                    <span class="stat-label">${limitationsCount > 0 ? limitationsCount + '限制' : '會議室'}</span>
                 </div>
             </div>
-            <div class="venue-footer">
-                <span class="venue-price">${priceText}</span>
-                <span class="venue-capacity" style="display: none;">${capacityText}</span>
-                ${roomsCount > 0 ? `<span class="venue-rooms">🚪 ${roomsCount} 間會議室</span>` : ''}
+
+            ${features.length > 0 ? `
+            <div class="venue-features">
+                ${features.map(f => `<span class="feature-tag">${f}</span>`).join('')}
+            </div>
+            ` : ''}
+
+            <div class="venue-card-footer">
+                <span class="view-rooms">查看 ${roomsCount} 間會議室 →</span>
             </div>
         </div>
     `;
-    
-    return card
+
+    return card;
 }
 
 // ===== 載入更多 =====

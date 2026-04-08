@@ -1,0 +1,103 @@
+{
+  "identity": {
+    "id": 1524,
+    "name": "林皇宮花園",
+    "nameEn": null,
+    "venueType": "婚宴場地",
+    "city": "台中市",
+    "address": "台中市",
+    "url": "https://www.linweddinggarden.com/download.php",
+    "phone": null,
+    "contactEmail": null
+  },
+  "summary": null,
+  "risks": null,
+  "rules": {
+    "catering": [
+      {
+        "rule": "【平日限定】2025工商宴席專案－豐衣足蛇",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ]
+  },
+  "pricingTips": null,
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1524-白珍珠廳",
+      "name": "白珍珠廳",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {},
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {},
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1524-墨緹絲廳",
+      "name": "墨緹絲廳",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {},
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {},
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1524-凡爾賽廳",
+      "name": "凡爾賽廳",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {},
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {},
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1524-紫幻影廳",
+      "name": "紫幻影廳",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {},
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {},
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "identity": {
+    "id": 1509,
+    "name": "晶宴會館 峇里斯莊園",
+    "nameEn": null,
+    "venueType": "婚宴場地",
+    "city": "新北市",
+    "address": "新北市林口區仁愛路二段1號",
+    "url": "https://www.amazinghall.com.tw/branch_intro/%E5%B3%87%E9%87%8C%E6%96%AF%E8%8A%8D%E5%9C%92/",
+    "phone": null,
+    "contactEmail": null
+  },
+  "summary": null,
+  "risks": null,
+  "rules": {
+    "decoration": [
+      {
+        "rule": "晶宴民權館​​位於台北市中心地帶，共有2層樓設有5個宴會廳，挑高樓面與氣派輝煌的空間，展現企業的高度與大器；鎮館之寶亦是世界女伶－莎拉布萊曼指定之第一音響品牌NEXO，搭配陣列式線性懸吊式喇叭技術，及百萬級視聽影音設備，可滿足席間活動或表演的各種需求。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ],
+    "sound": [
+      {
+        "rule": "晶宴民權館​​位於台北市中心地帶，共有2層樓設有5個宴會廳，挑高樓面與氣派輝煌的空間，展現企業的高度與大器；鎮館之寶亦是世界女伶－莎拉布萊曼指定之第一音響品牌NEXO，搭配陣列式線性懸吊式喇叭技術，及百萬級視聽影音設備，可滿足席間活動或表演的各種需求。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ]
+  },
+  "pricingTips": null,
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1509-宴會廳",
+      "name": "宴會廳",
+      "nameEn": "Grand Ballroom",
+      "floor": null,
+      "capacity": {
+        "banquet": 900,
+        "theater": 1080
+      },
+      "area": 408.5,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

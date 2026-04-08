@@ -1,0 +1,218 @@
+{
+  "identity": {
+    "id": 1506,
+    "name": "瓏山林台北中和飯店",
+    "nameEn": null,
+    "venueType": "飯店場地",
+    "city": "新北市",
+    "address": "新北市中和區中山路三段119號",
+    "url": "https://taipei.rslhotel.com/meeting/",
+    "phone": null,
+    "contactEmail": null
+  },
+  "summary": null,
+  "risks": null,
+  "rules": {
+    "catering": [
+      {
+        "rule": "對於持續數日的會議，餐飲部準備多種不同茶點組合，如果您需要更詳盡的資料，歡迎與我們聯絡，瓏山林台北中和飯店期待為您服務。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ],
+    "decoration": [
+      {
+        "rule": "會議場地佈置: 依照您的需求調整會議空間，例如：U字型、教室型...等。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ]
+  },
+  "pricingTips": null,
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1506-宴會廳Ballroo",
+      "name": "宴會廳\nBallroom",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "banquet": 260,
+        "reception": 63,
+        "classroom": 150,
+        "theater": 360
+      },
+      "area": 118.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1506-東廳East",
+      "name": "東廳 East",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "banquet": 50,
+        "reception": 45,
+        "classroom": 54,
+        "theater": 80,
+        "hollowSquare": 36
+      },
+      "area": 22.5,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 16000,
+        "fullDay": 32000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1506-南廳South",
+      "name": "南廳 South",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "banquet": 30,
+        "reception": 18,
+        "classroom": 36,
+        "theater": 36,
+        "hollowSquare": 24
+      },
+      "area": 14.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 13000,
+        "fullDay": 26000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1506-北廳North",
+      "name": "北廳 North",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "banquet": 50,
+        "classroom": 24,
+        "theater": 50,
+        "hollowSquare": 36
+      },
+      "area": 22.5,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 12000,
+        "fullDay": 24000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1506-西廳West",
+      "name": "西廳 West",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "banquet": 30,
+        "reception": 9,
+        "classroom": 18,
+        "theater": 30,
+        "hollowSquare": 16
+      },
+      "area": 13.5,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 10000,
+        "fullDay": 20000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1506-貴賓廳IIVIPII",
+      "name": "貴賓廳 II\n( VIP II )",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "banquet": 12,
+        "classroom": 15,
+        "theater": 20,
+        "hollowSquare": 10
+      },
+      "area": 6.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1506-貴賓廳IIVIPII",
+      "name": "貴賓廳 II\n( VIP II )",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "banquet": 12,
+        "classroom": 15,
+        "theater": 20,
+        "hollowSquare": 10
+      },
+      "area": 6.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

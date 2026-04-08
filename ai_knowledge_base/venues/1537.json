@@ -1,0 +1,48 @@
+{
+  "identity": {
+    "id": 1537,
+    "name": "台中港酒店",
+    "nameEn": null,
+    "venueType": "飯店場地",
+    "city": "台中市",
+    "address": "台中市",
+    "url": "https://www.tchhotel.com/",
+    "phone": null,
+    "contactEmail": null
+  },
+  "summary": null,
+  "risks": null,
+  "rules": null,
+  "pricingTips": null,
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1537-MeetingRoo",
+      "name": "Meeting Room",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": 7,
+        "banquet": 5
+      },
+      "area": 2.5,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

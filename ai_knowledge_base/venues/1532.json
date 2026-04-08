@@ -1,0 +1,193 @@
+{
+  "identity": {
+    "id": 1532,
+    "name": "新北市工商展覽中心",
+    "nameEn": null,
+    "venueType": "展覽中心",
+    "city": "新北市",
+    "address": "新北市",
+    "url": "http://www.tcwtc.com.tw/",
+    "phone": null,
+    "contactEmail": null
+  },
+  "summary": null,
+  "risks": {
+    "bookingLeadTime": "一般活動需30日前申請；大型活動建議60-90日前；年底旺季建議3個月以上",
+    "peakSeasons": [
+      "10-12月年底旺季",
+      "農曆年前次旺季",
+      "週六為最熱門時段"
+    ],
+    "commonIssues": [
+      "政府機關活動享有優先權，可能臨時影響檔期",
+      "假日及國定假日加收50%",
+      "冷氣空調費另計，按使用時段及面積計費"
+    ]
+  },
+  "rules": {
+    "catering": [
+      {
+        "rule": "場內禁止使用明火，僅允許電熱保溫設備",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false
+      },
+      {
+        "rule": "餐飲需透過場地核准之廠商或經審查通過之外燴業者",
+        "exception": null,
+        "penalty": null,
+        "negotiable": true
+      },
+      {
+        "rule": "需於申請時註明餐飲形式，並經管理單位同意",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false
+      },
+      {
+        "rule": "廚餘及垃圾需自行清運，不得遺留於場地內",
+        "exception": null,
+        "penalty": "清潔費另計",
+        "negotiable": false
+      }
+    ],
+    "decoration": [
+      {
+        "rule": "不得使用雙面膠、釘槍、膠帶黏貼牆面及地面",
+        "exception": null,
+        "penalty": "損壞需照價賠償",
+        "negotiable": false
+      },
+      {
+        "rule": "佈置材料需符合消防法規（防焰證明）",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false
+      },
+      {
+        "rule": "氣球佈置需使用支架固定，禁止以膠帶直接黏貼牆柱",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false
+      }
+    ],
+    "sound": [
+      {
+        "rule": "室內音量不得超過90分貝",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false
+      },
+      {
+        "rule": "夜間活動（22:00後）禁止擴音設備使用",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false
+      }
+    ],
+    "loadIn": [
+      {
+        "rule": "大型機具進出需提前申請並安排動線",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "貨物搬運需使用指定電梯及通道",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false
+      },
+      {
+        "rule": "車輛停放卸貨區以30分鐘為限",
+        "exception": null,
+        "penalty": "逾時需移至一般停車位",
+        "negotiable": null
+      }
+    ],
+    "cancellation": [
+      {
+        "rule": "活動前60天以上取消退還80%",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "活動前30-59天取消退還50%",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "活動前15-29天取消退還30%",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "活動前14天內取消不予退費",
+        "exception": "因天災等不可抗力得全額退費或延期",
+        "penalty": null,
+        "negotiable": true
+      }
+    ],
+    "insurance": [
+      {
+        "rule": "大型活動（200人以上）需投保公共意外責任險",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "保險金額：每一個人體傷至少300萬，每一事故至少1,500萬",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false
+      },
+      {
+        "rule": "保險證明需於活動前7日提交",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false
+      }
+    ]
+  },
+  "pricingTips": [
+    "政府機關場地定價較民間場地低，但需加計水電空調費及清潔費",
+    "新北市立案機關團體享有優惠費率（約7折）",
+    "非營利性質活動可申請減免場地使用費",
+    "半天（3小時）為計價單位，全天（6小時）另有優惠"
+  ],
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1532-會議廳",
+      "name": "會議廳",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": 250,
+        "banquet": 200,
+        "classroom": 125
+      },
+      "area": 90.5,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

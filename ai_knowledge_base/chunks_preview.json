@@ -1,0 +1,3635 @@
+[
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院】餐飲規定：可安排便當及茶水服務",
+    "field_path": "rules.catering[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院】餐飲規定： 活動期間，若自行訂購飲料、點心、餐盒…等餐飲，需酌收每時段每人新台幣30元外食餐飲服務費，",
+    "field_path": "rules.catering[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院】餐飲規定： 乙方於場地使用期間所產生之餐飲、事務等費用，應於場地使用結束當日結清餘款，以付現或刷卡",
+    "field_path": "rules.catering[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院】餐飲規定： 會議中心為維護會議室清潔與專業形象，如有餐飲需求請洽會議中心訂購。",
+    "field_path": "rules.catering[3]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院】餐飲規定：一、 欲租借本中心會議場地者，如需使用外食請遵照餐飲管理規則，並與合約同時用印，即",
+    "field_path": "rules.catering[4]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院】餐飲規定： 活動若須自備外食，請於活動前一周通知本中心。",
+    "field_path": "rules.catering[5]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院】餐飲規定： 如使用外食須酌收每人新台幣三十元之餐飲服務清潔費，收費人數依照租借會議空間每ㄧ",
+    "field_path": "rules.catering[6]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院】餐飲規定： 會議中心為維護與會者權益及會議中心食品安全與清潔之專業形象，外食擺放區域須遵循",
+    "field_path": "rules.catering[7]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院】餐飲規定： 租借(人)單位嚴禁攜帶含有酒精性之餐飲。",
+    "field_path": "rules.catering[8]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院】餐飲規定： 會議中心針對會議場地保有公共意外責任保險，若訂購外食餐飲則餐飲安全暨責任歸屬需",
+    "field_path": "rules.catering[9]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院】餐飲規定：3. 本會議中心禁止攜帶外食，提供相關會議事務用品代訂，需加收該項服務內容定價之10%為服務費。",
+    "field_path": "rules.catering[10]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院】餐飲規定：2.活動期間若自行訂購餐盒、飲料、點心...等，須酌收清潔費每人每次新台幣三十元。 現場增減金額",
+    "field_path": "rules.catering[11]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院】餐飲規定：3. 會議中心禁止攜帶外食，另有提供相關會議事務用品代訂，各項服務酌收服務內容定價之10%為服務費。",
+    "field_path": "rules.catering[12]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院】音響規定：階梯教室音響設備齊全，特殊需求需自備",
+    "field_path": "rules.sound[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院】音響規定： 各場地活動進行之音量不得妨礙其他場地之進行，如違反規定不聽勸阻，本會議中心有權立即中",
+    "field_path": "rules.sound[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院】取消政策：依政府規定辦理退費",
+    "field_path": "rules.cancellation[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院】取消政策： 乙方最遲須於場地使用七日前，將場地尾款付清。若不依規定付清尾款，甲方將不退回訂金，且有",
+    "field_path": "rules.cancellation[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院】取消政策： 乙方之活動因故取消、改期或調整內容，而有解除合約、縮減租賃範圍或期間之必要時，應以書面",
+    "field_path": "rules.cancellation[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院】取消政策： 活動日三十天前(不含活動日)取消，已繳交費用全額無息退還。(匯款退費須扣匯費三十元)。",
+    "field_path": "rules.cancellation[3]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院】取消政策：更換教室之權利，其場租及場地使用權利得以延後使用，延期之期限限於半年內，以一次為限，但",
+    "field_path": "rules.cancellation[4]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院】取消政策：中心租賃合約之一部份，乙方應詳加了解並確實遵守，如有違反，視同違約。",
+    "field_path": "rules.cancellation[5]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院】佈置規定： 舉行活動所須之裝潢、佈置、進出場規定，請依照甲方擬定之「會議中心管理規則」執行。如有違",
+    "field_path": "rules.decoration[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院】佈置規定： 若於舉辦活動中，需要在會議室及公共區域之牆面張貼海報或文宣物品，請向本中心客服部洽詢。",
+    "field_path": "rules.decoration[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院】佈置規定： 場地租借單位所有佈置應限於租用範圍及會議中心指定之公共區域內，不得隨意放置，妨礙其他",
+    "field_path": "rules.decoration[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院】佈置規定：《會場佈置需求》 其他需求：__________ 報到桌：__________ ※客戶簽認簽章：",
+    "field_path": "rules.decoration[3]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院】佈置規定：4.場地佈置需求請於會議前ㄧ週提出申請，以便人力調度服務，會議當天恕無法臨時變換場地，如有臨時追加會議相關設施，依租借辦法第四項第九條會議相關設施收費標準。",
+    "field_path": "rules.decoration[4]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院】佈置規定：※學員須自備花藝剪刀(老師可代購 一把$230，請於報名時告知)。",
+    "field_path": "rules.decoration[5]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院】保險規定： 場地租借單位及其承包或施工廠商應自視需要投保相關保險。任何施工或活動進行中造成之財物",
+    "field_path": "rules.insurance[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院】保險規定： 會議中心針對會議場地保有公共意外責任保險，若訂購外食餐飲則餐飲安全暨責任歸屬需",
+    "field_path": "rules.insurance[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院】風險提示：\n預訂提前時間：至少2週（熱門時段建議1個月前）\n旺季：1-3月（政府培訓旺季）, 7-8月（暑期研習）\n常見問題：3F及4F平日8:00-18:00由學院保留, B1及2F階梯教室無白板",
+    "field_path": "risks",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院 - 1F 前瞻廳】限制：無白板提供，需自備",
+    "field_path": "rooms.1042-01.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院 - 1F 103階梯教室】限制：階梯式座位，無法變更座位排列",
+    "field_path": "rooms.1042-03.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院 - 2F 卓越堂下層】限制：無白板提供，需自備; 特殊燈光音響需自備; 舞台大型布置需自備地毯; 階梯式座位，無法變更座位排列",
+    "field_path": "rooms.1042-04.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院 - 2F 卓越堂全場】限制：無白板提供，需自備; 特殊燈光音響需自備; 階梯式座位，無法變更座位排列",
+    "field_path": "rooms.1042-05.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院 - 3F 304教室】限制：平日8:00-18:00由學院保留，僅假日及夜間可租借",
+    "field_path": "rooms.1042-12.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院 - 3F 305教室】限制：平日8:00-18:00由學院保留，僅假日及夜間可租借",
+    "field_path": "rooms.1042-13.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院 - 4F 401教室】限制：平日8:00-18:00由學院保留，僅假日及夜間可租借",
+    "field_path": "rooms.1042-14.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院 - 4F 402教室】限制：平日8:00-18:00由學院保留，僅假日及夜間可租借",
+    "field_path": "rooms.1042-15.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院 - 4F 403數位科技教室】限制：4F平日由學院保留",
+    "field_path": "rooms.1042-16.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院 - 4F 404數位互動教室】限制：4F平日由學院保留",
+    "field_path": "rooms.1042-17.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1043,
+    "venue_name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+    "text": "【台北六福萬怡酒店 Courtyard by Marriott Taipei】餐飲規定：限用飯店餐飲服務，不可外燴",
+    "field_path": "rules.catering[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1043,
+    "venue_name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+    "text": "【台北六福萬怡酒店 Courtyard by Marriott Taipei】餐飲規定：結合 Elite Concept一禮莊園 精品花藝佈置設計與五星宴會團隊宴席料理，不僅擁有中西式宴會佳餚滿足賓客多元需求，更可依照宴席專案，規劃全面且精緻的布置主題，量身打造客製化的難忘時刻。",
+    "field_path": "rules.catering[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1043,
+    "venue_name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+    "text": "【台北六福萬怡酒店 Courtyard by Marriott Taipei】佈置規定：需使用飯店指定裝潢廠商",
+    "field_path": "rules.decoration[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1043,
+    "venue_name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+    "text": "【台北六福萬怡酒店 Courtyard by Marriott Taipei】佈置規定：結合 Elite Concept一禮莊園 精品花藝佈置設計與五星宴會團隊宴席料理，不僅擁有中西式宴會佳餚滿足賓客多元需求，更可依照宴席專案，規劃全面且精緻的布置主題，量身打造客製化的難忘時刻。",
+    "field_path": "rules.decoration[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1043,
+    "venue_name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+    "text": "【台北六福萬怡酒店 Courtyard by Marriott Taipei】風險提示：\n預訂提前時間：至少1個月（週末婚宴建議3個月前）\n旺季：10-12月婚宴旺季, 12-1月尾牙季, 6月畢業季\n常見問題：週末婚宴檔期競爭激烈, 7F無柱空間為最熱門場地",
+    "field_path": "risks",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1043,
+    "venue_name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+    "text": "【台北六福萬怡酒店 Courtyard by Marriott Taipei - SUPERNOVA 超新星大宴會廳】進撤場：\n進場08:00 / 撤場16:30",
+    "field_path": "rooms.1043-01.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1043,
+    "venue_name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+    "text": "【台北六福萬怡酒店 Courtyard by Marriott Taipei - Sea 海】限制：可與其他廳合併使用",
+    "field_path": "rooms.1043-02.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1043,
+    "venue_name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+    "text": "【台北六福萬怡酒店 Courtyard by Marriott Taipei - Sea 海】進撤場：\n進場08:00 / 撤場16:30",
+    "field_path": "rooms.1043-02.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1043,
+    "venue_name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+    "text": "【台北六福萬怡酒店 Courtyard by Marriott Taipei - Mountain 山】限制：可與其他廳合併使用",
+    "field_path": "rooms.1043-03.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1043,
+    "venue_name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+    "text": "【台北六福萬怡酒店 Courtyard by Marriott Taipei - Mountain 山】進撤場：\n進場08:00 / 撤場16:30",
+    "field_path": "rooms.1043-03.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1043,
+    "venue_name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+    "text": "【台北六福萬怡酒店 Courtyard by Marriott Taipei - Forest 林】限制：可與其他廳合併使用",
+    "field_path": "rooms.1043-04.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1043,
+    "venue_name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+    "text": "【台北六福萬怡酒店 Courtyard by Marriott Taipei - Forest 林】進撤場：\n進場08:00 / 撤場16:30",
+    "field_path": "rooms.1043-04.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1043,
+    "venue_name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+    "text": "【台北六福萬怡酒店 Courtyard by Marriott Taipei - Ballroom I 海山林】進撤場：\n進場08:00 / 撤場16:30",
+    "field_path": "rooms.1043-05.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1043,
+    "venue_name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+    "text": "【台北六福萬怡酒店 Courtyard by Marriott Taipei - Water 水】限制：可與其他廳合併使用",
+    "field_path": "rooms.1043-06.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1043,
+    "venue_name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+    "text": "【台北六福萬怡酒店 Courtyard by Marriott Taipei - Water 水】進撤場：\n進場08:00 / 撤場16:30",
+    "field_path": "rooms.1043-06.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1043,
+    "venue_name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+    "text": "【台北六福萬怡酒店 Courtyard by Marriott Taipei - Crystal 晶】限制：可與其他廳合併使用",
+    "field_path": "rooms.1043-07.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1043,
+    "venue_name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+    "text": "【台北六福萬怡酒店 Courtyard by Marriott Taipei - Crystal 晶】進撤場：\n進場08:00 / 撤場16:30",
+    "field_path": "rooms.1043-07.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1043,
+    "venue_name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+    "text": "【台北六福萬怡酒店 Courtyard by Marriott Taipei - Cloud 雲】限制：可與其他廳合併使用",
+    "field_path": "rooms.1043-08.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1043,
+    "venue_name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+    "text": "【台北六福萬怡酒店 Courtyard by Marriott Taipei - Cloud 雲】進撤場：\n進場08:00 / 撤場16:30",
+    "field_path": "rooms.1043-08.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1043,
+    "venue_name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+    "text": "【台北六福萬怡酒店 Courtyard by Marriott Taipei - Wind 風】限制：可與其他廳合併使用",
+    "field_path": "rooms.1043-09.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1043,
+    "venue_name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+    "text": "【台北六福萬怡酒店 Courtyard by Marriott Taipei - Wind 風】進撤場：\n進場08:00 / 撤場16:30",
+    "field_path": "rooms.1043-09.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1043,
+    "venue_name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+    "text": "【台北六福萬怡酒店 Courtyard by Marriott Taipei - Light 光】限制：可與其他廳合併使用",
+    "field_path": "rooms.1043-10.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1043,
+    "venue_name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+    "text": "【台北六福萬怡酒店 Courtyard by Marriott Taipei - Light 光】進撤場：\n進場08:00 / 撤場16:30",
+    "field_path": "rooms.1043-10.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1043,
+    "venue_name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+    "text": "【台北六福萬怡酒店 Courtyard by Marriott Taipei - Ballroom II 水晶雲風光】進撤場：\n進場08:00 / 撤場16:30",
+    "field_path": "rooms.1043-11.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1043,
+    "venue_name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+    "text": "【台北六福萬怡酒店 Courtyard by Marriott Taipei - VIP 貴賓室】進撤場：\n進場08:00 / 撤場16:30",
+    "field_path": "rooms.1043-12.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1051,
+    "venue_name": "台北亞都麗緻大飯店(LandisTaipei)",
+    "text": "【台北亞都麗緻大飯店(LandisTaipei)】餐飲規定：限用飯店餐飲服務，提供中/西式宴席與自助餐，不可外燴（例外：茶點、餅乾等簡單茶歇可討論）（違規：若攜入外食，飯店有權要求撤除）",
+    "field_path": "rules.catering[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1051,
+    "venue_name": "台北亞都麗緻大飯店(LandisTaipei)",
+    "text": "【台北亞都麗緻大飯店(LandisTaipei)】餐飲規定：酒水需使用飯店提供之酒類，自備酒類需支付開瓶費（違規：開瓶費依酒類別計價）",
+    "field_path": "rules.catering[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1051,
+    "venue_name": "台北亞都麗緻大飯店(LandisTaipei)",
+    "text": "【台北亞都麗緻大飯店(LandisTaipei)】佈置規定：佈置需提前向宴會部申請，禁止使用圖釘、膠帶直接黏貼於牆面（例外：可使用飯店提供之展示架或立牌）（違規：牆面損壞需照價賠償）",
+    "field_path": "rules.decoration[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1051,
+    "venue_name": "台北亞都麗緻大飯店(LandisTaipei)",
+    "text": "【台北亞都麗緻大飯店(LandisTaipei)】佈置規定：天花板高度2.5米，大型道具或背板高度不得超過2.2米",
+    "field_path": "rules.decoration[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1051,
+    "venue_name": "台北亞都麗緻大飯店(LandisTaipei)",
+    "text": "【台北亞都麗緻大飯店(LandisTaipei)】佈置規定：禁止施放鞭炮、煙火、乾冰等具安全疑慮之特殊效果",
+    "field_path": "rules.decoration[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1051,
+    "venue_name": "台北亞都麗緻大飯店(LandisTaipei)",
+    "text": "【台北亞都麗緻大飯店(LandisTaipei)】音響規定：內建專業音響系統，提供無線麥克風，額外音響設備需申請",
+    "field_path": "rules.sound[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1051,
+    "venue_name": "台北亞都麗緻大飯店(LandisTaipei)",
+    "text": "【台北亞都麗緻大飯店(LandisTaipei)】音響規定：晚間22:00後音量需降低，避免影響住宿客人（例外：B1樓層隔音較佳，彈性較大）",
+    "field_path": "rules.sound[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1051,
+    "venue_name": "台北亞都麗緻大飯店(LandisTaipei)",
+    "text": "【台北亞都麗緻大飯店(LandisTaipei)】進撤場規定：進場佈置一般為活動前2-3小時（例外：大型佈置可申請前一天夜間進場（22:00後），需額外費用）",
+    "field_path": "rules.loadIn[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1051,
+    "venue_name": "台北亞都麗緻大飯店(LandisTaipei)",
+    "text": "【台北亞都麗緻大飯店(LandisTaipei)】進撤場規定：大型設備需經貨梯進出，載重限制約1.5噸",
+    "field_path": "rules.loadIn[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1051,
+    "venue_name": "台北亞都麗緻大飯店(LandisTaipei)",
+    "text": "【台北亞都麗緻大飯店(LandisTaipei)】進撤場規定：活動結束後需於指定時間內完成撤場（違規：超時撤場依合約約定收取超時費）",
+    "field_path": "rules.loadIn[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1051,
+    "venue_name": "台北亞都麗緻大飯店(LandisTaipei)",
+    "text": "【台北亞都麗緻大飯店(LandisTaipei)】取消政策：活動前60天以上取消，全額退還訂金",
+    "field_path": "rules.cancellation[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1051,
+    "venue_name": "台北亞都麗緻大飯店(LandisTaipei)",
+    "text": "【台北亞都麗緻大飯店(LandisTaipei)】取消政策：活動前30-59天取消，退還50%訂金",
+    "field_path": "rules.cancellation[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1051,
+    "venue_name": "台北亞都麗緻大飯店(LandisTaipei)",
+    "text": "【台北亞都麗緻大飯店(LandisTaipei)】取消政策：活動前30天內取消，訂金不予退還（例外：改期可協調，視檔期availability而定）",
+    "field_path": "rules.cancellation[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1051,
+    "venue_name": "台北亞都麗緻大飯店(LandisTaipei)",
+    "text": "【台北亞都麗緻大飯店(LandisTaipei)】保險規定：大型活動（200人以上）建議投保公共意外責任險",
+    "field_path": "rules.insurance[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1051,
+    "venue_name": "台北亞都麗緻大飯店(LandisTaipei)",
+    "text": "【台北亞都麗緻大飯店(LandisTaipei)】風險提示：\n預訂提前時間：一般活動至少2-4週前；旺季建議2-3個月前\n旺季：12-1月尾牙旺季, 10-12月婚宴旺季, 農曆年前後企業聚餐\n常見問題：天花板高度2.5米，大型背板或LED牆需提前確認可行性, B1宴會廳熱門時段（週六晚宴）需提早預訂, 停車位有限（約50個），百人以上活動需提前安排停車方案",
+    "field_path": "risks",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1051,
+    "venue_name": "台北亞都麗緻大飯店(LandisTaipei)",
+    "text": "【台北亞都麗緻大飯店(LandisTaipei) - B1 宴會廳 Banquet Hall】進撤場：\n進場樓層 廳名 上/下午時段 晚餐時段 全日時段 超時計費 夜間佈置; Level Venues Ping ㎡ L W H OR ｜ ｜ 22:00 Onwards Overnight Setup U-Shape Classroom Theater Cocktail Table / 撤場?",
+    "field_path": "rooms.1051-01.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1051,
+    "venue_name": "台北亞都麗緻大飯店(LandisTaipei)",
+    "text": "【台北亞都麗緻大飯店(LandisTaipei) - 2F Le Salon】進撤場：\n進場樓層 廳名 上/下午時段 晚餐時段 全日時段 超時計費 夜間佈置; Level Venues Ping ㎡ L W H OR ｜ ｜ 22:00 Onwards Overnight Setup U-Shape Classroom Theater Cocktail Table / 撤場?",
+    "field_path": "rooms.1051-02.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1051,
+    "venue_name": "台北亞都麗緻大飯店(LandisTaipei)",
+    "text": "【台北亞都麗緻大飯店(LandisTaipei) - 2F Matisse】進撤場：\n進場樓層 廳名 上/下午時段 晚餐時段 全日時段 超時計費 夜間佈置; Level Venues Ping ㎡ L W H OR ｜ ｜ 22:00 Onwards Overnight Setup U-Shape Classroom Theater Cocktail Table / 撤場?",
+    "field_path": "rooms.1051-03.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1072,
+    "venue_name": "台北圓山大飯店(Grand Hotel Taipei)",
+    "text": "【台北圓山大飯店(Grand Hotel Taipei)】位於劍潭山上的歷史地標飯店，擁有挑高11米的大會廳、10個宴會廳與3個會議室，適合大型國際會議、國宴級宴會與尾牙活動\n優勢：大會廳挑高11米，可容納2000人，氣派度全台頂級, 國宴級餐飲，中/西式宴席品質有保障, 歷史地標，品牌形象加持\n注意：大會廳為國定宴會場所，檔期極難搶, 大部分廳天花板高度僅2.5-2.8米，限制舞台設計, 交通略不便，需計程車或接駁",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1072,
+    "venue_name": "台北圓山大飯店(Grand Hotel Taipei)",
+    "text": "【台北圓山大飯店(Grand Hotel Taipei)】餐飲規定：限用飯店餐飲，提供中/西式宴席",
+    "field_path": "rules.catering[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1072,
+    "venue_name": "台北圓山大飯店(Grand Hotel Taipei)",
+    "text": "【台北圓山大飯店(Grand Hotel Taipei)】佈置規定：需提前申請，大型布置需額外保險",
+    "field_path": "rules.decoration[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1072,
+    "venue_name": "台北圓山大飯店(Grand Hotel Taipei)",
+    "text": "【台北圓山大飯店(Grand Hotel Taipei)】音響規定：大型場地配備專業音響，額外設備需申請",
+    "field_path": "rules.sound[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1072,
+    "venue_name": "台北圓山大飯店(Grand Hotel Taipei)",
+    "text": "【台北圓山大飯店(Grand Hotel Taipei)】進撤場規定：貨梯可達各樓層，大型道具限3噸以下",
+    "field_path": "rules.loadIn[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1072,
+    "venue_name": "台北圓山大飯店(Grand Hotel Taipei)",
+    "text": "【台北圓山大飯店(Grand Hotel Taipei)】取消政策：依合約條款，一般活動前30天取消退50%（違規：30天內取消退50%，7天內取消不退款）",
+    "field_path": "rules.cancellation[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1072,
+    "venue_name": "台北圓山大飯店(Grand Hotel Taipei)",
+    "text": "【台北圓山大飯店(Grand Hotel Taipei)】風險提示：\n預訂提前時間：至少2個月（大型宴會建議4-6個月前）\n旺季：10-12月婚宴旺季, 12-1月尾牙, 國慶日/元旦國宴檔期\n常見問題：大會廳為國定宴會場所，檔期競爭激烈, 金龍廳挑高11米，舞台搭建需提前規劃",
+    "field_path": "risks",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1072,
+    "venue_name": "台北圓山大飯店(Grand Hotel Taipei)",
+    "text": "【台北圓山大飯店(Grand Hotel Taipei) - 大會廳】限制：挑高11公尺，大型舞台搭建需提前申請鷹架許可",
+    "field_path": "rooms.1072-01.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1072,
+    "venue_name": "台北圓山大飯店(Grand Hotel Taipei)",
+    "text": "【台北圓山大飯店(Grand Hotel Taipei) - 國際貴賓室】限制：天花板高度僅2.5公尺，限制大型設備進入",
+    "field_path": "rooms.1072-04.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1072,
+    "venue_name": "台北圓山大飯店(Grand Hotel Taipei)",
+    "text": "【台北圓山大飯店(Grand Hotel Taipei) - 長青廳】限制：天花板高度僅2.6公尺，限制大型設備進入",
+    "field_path": "rooms.1072-05.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1072,
+    "venue_name": "台北圓山大飯店(Grand Hotel Taipei)",
+    "text": "【台北圓山大飯店(Grand Hotel Taipei) - 松柏廳】限制：天花板高度僅2.7公尺，限制大型設備進入",
+    "field_path": "rooms.1072-06.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1072,
+    "venue_name": "台北圓山大飯店(Grand Hotel Taipei)",
+    "text": "【台北圓山大飯店(Grand Hotel Taipei) - 敦睦廳】限制：天花板高度僅2.8公尺，限制大型設備進入",
+    "field_path": "rooms.1072-07.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1072,
+    "venue_name": "台北圓山大飯店(Grand Hotel Taipei)",
+    "text": "【台北圓山大飯店(Grand Hotel Taipei) - 麒麟宴會廳】限制：天花板高度3.4公尺，超過2.9公尺的道具需確認",
+    "field_path": "rooms.1072-08.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1072,
+    "venue_name": "台北圓山大飯店(Grand Hotel Taipei)",
+    "text": "【台北圓山大飯店(Grand Hotel Taipei) - 國宴廳】限制：天花板高度3.4公尺，超過2.9公尺的道具需確認",
+    "field_path": "rooms.1072-09.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1072,
+    "venue_name": "台北圓山大飯店(Grand Hotel Taipei)",
+    "text": "【台北圓山大飯店(Grand Hotel Taipei) - 大宴會廳】限制：天花板高度僅2.5公尺，限制大型設備進入",
+    "field_path": "rooms.1072-10.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1072,
+    "venue_name": "台北圓山大飯店(Grand Hotel Taipei)",
+    "text": "【台北圓山大飯店(Grand Hotel Taipei) - 富貴廳】限制：天花板高度僅2.5公尺，限制大型設備進入",
+    "field_path": "rooms.1072-11.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1072,
+    "venue_name": "台北圓山大飯店(Grand Hotel Taipei)",
+    "text": "【台北圓山大飯店(Grand Hotel Taipei) - 如意廳】限制：天花板高度僅2.5公尺，限制大型設備進入",
+    "field_path": "rooms.1072-12.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1072,
+    "venue_name": "台北圓山大飯店(Grand Hotel Taipei)",
+    "text": "【台北圓山大飯店(Grand Hotel Taipei) - 吉祥廳】限制：天花板高度僅2.5公尺，限制大型設備進入",
+    "field_path": "rooms.1072-13.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1075,
+    "venue_name": "台北寒舍喜來登大飯店",
+    "text": "【台北寒舍喜來登大飯店】風險提示：\n預訂提前時間：至少1個月（大型宴會建議3個月前）\n旺季：10-12月婚宴旺季, 12-1月尾牙, 6月畢業季\n常見問題：B2大宴會廳無手機訊號, 喜來登廳+宴會廳同時使用需確認動線",
+    "field_path": "risks",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1075,
+    "venue_name": "台北寒舍喜來登大飯店",
+    "text": "【台北寒舍喜來登大飯店 - 喜來登廳】進撤場：",
+    "field_path": "rooms.1075-01.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1075,
+    "venue_name": "台北寒舍喜來登大飯店",
+    "text": "【台北寒舍喜來登大飯店 - 宴會廳】進撤場：",
+    "field_path": "rooms.1075-02.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1075,
+    "venue_name": "台北寒舍喜來登大飯店",
+    "text": "【台北寒舍喜來登大飯店 - 福廳】進撤場：",
+    "field_path": "rooms.1075-03.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1075,
+    "venue_name": "台北寒舍喜來登大飯店",
+    "text": "【台北寒舍喜來登大飯店 - 祿廳】進撤場：",
+    "field_path": "rooms.1075-04.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1075,
+    "venue_name": "台北寒舍喜來登大飯店",
+    "text": "【台北寒舍喜來登大飯店 - 壽廳】進撤場：",
+    "field_path": "rooms.1075-05.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1075,
+    "venue_name": "台北寒舍喜來登大飯店",
+    "text": "【台北寒舍喜來登大飯店 - 喜廳】進撤場：",
+    "field_path": "rooms.1075-06.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1075,
+    "venue_name": "台北寒舍喜來登大飯店",
+    "text": "【台北寒舍喜來登大飯店 - 日廳】進撤場：",
+    "field_path": "rooms.1075-07.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1075,
+    "venue_name": "台北寒舍喜來登大飯店",
+    "text": "【台北寒舍喜來登大飯店 - 月廳】進撤場：",
+    "field_path": "rooms.1075-08.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1075,
+    "venue_name": "台北寒舍喜來登大飯店",
+    "text": "【台北寒舍喜來登大飯店 - 星廳】進撤場：",
+    "field_path": "rooms.1075-09.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1075,
+    "venue_name": "台北寒舍喜來登大飯店",
+    "text": "【台北寒舍喜來登大飯店 - 玉瀾】進撤場：",
+    "field_path": "rooms.1075-10.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1075,
+    "venue_name": "台北寒舍喜來登大飯店",
+    "text": "【台北寒舍喜來登大飯店 - 薈萃】進撤場：",
+    "field_path": "rooms.1075-11.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1075,
+    "venue_name": "台北寒舍喜來登大飯店",
+    "text": "【台北寒舍喜來登大飯店 - 翠芳】進撤場：",
+    "field_path": "rooms.1075-12.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1075,
+    "venue_name": "台北寒舍喜來登大飯店",
+    "text": "【台北寒舍喜來登大飯店 - 彩蝶】進撤場：",
+    "field_path": "rooms.1075-13.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1075,
+    "venue_name": "台北寒舍喜來登大飯店",
+    "text": "【台北寒舍喜來登大飯店 - 逸絢】進撤場：",
+    "field_path": "rooms.1075-14.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1075,
+    "venue_name": "台北寒舍喜來登大飯店",
+    "text": "【台北寒舍喜來登大飯店 - 清翫】進撤場：",
+    "field_path": "rooms.1075-15.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1075,
+    "venue_name": "台北寒舍喜來登大飯店",
+    "text": "【台北寒舍喜來登大飯店 - 瑞穗園】進撤場：",
+    "field_path": "rooms.1075-16.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1077,
+    "venue_name": "台北艾麗酒店",
+    "text": "【台北艾麗酒店】餐飲規定：限用飯店餐飲服務（例外：輕茶點會議方案可能允許搭配外部點心）",
+    "field_path": "rules.catering[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1077,
+    "venue_name": "台北艾麗酒店",
+    "text": "【台北艾麗酒店】佈置規定：禁止使用會損壞牆面、地板或天花板之固定方式（違規：場地損壞需照價賰償）",
+    "field_path": "rules.decoration[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1077,
+    "venue_name": "台北艾麗酒店",
+    "text": "【台北艾麗酒店】音響規定：提供全套先進影音設備（含投影、音響、燈光）（例外：特殊規格外接設備需提前申請）",
+    "field_path": "rules.sound[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1077,
+    "venue_name": "台北艾麗酒店",
+    "text": "【台北艾麗酒店】進撤場規定：一般活動前1-2小時開放進場佈置（例外：大型活動可協調前一日進場）",
+    "field_path": "rules.loadIn[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1077,
+    "venue_name": "台北艾麗酒店",
+    "text": "【台北艾麗酒店】取消政策：活動前30天取消退還大部分訂金（例外：旺季取消條件更嚴格）（違規：14天內取消可能沒收全額訂金）",
+    "field_path": "rules.cancellation[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1077,
+    "venue_name": "台北艾麗酒店",
+    "text": "【台北艾麗酒店】風險提示：\n預訂提前時間：至少1個月, 大型宴會建議3-6個月前預約\n旺季：10-12月婚宴旺季, 12-1月尾牙季\n常見問題：價格不透明需多次來回確認報價, 最大廳房僅70坪, 200人以上宴會可能不敷使用",
+    "field_path": "risks",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1085,
+    "venue_name": "台北文華東方酒店(MOHTaipei)",
+    "text": "【台北文華東方酒店(MOHTaipei) - 大宴會廳】進撤場：\n卸貨區：宴會廳專屬迎賓車道 EXCLUSIVE VIP ARRIVAL DRIVEWAY",
+    "field_path": "rooms.1085-01.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1085,
+    "venue_name": "台北文華東方酒店(MOHTaipei)",
+    "text": "【台北文華東方酒店(MOHTaipei) - 大宴會廳壹】進撤場：\n卸貨區：宴會廳專屬迎賓車道 EXCLUSIVE VIP ARRIVAL DRIVEWAY",
+    "field_path": "rooms.1085-02.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1085,
+    "venue_name": "台北文華東方酒店(MOHTaipei)",
+    "text": "【台北文華東方酒店(MOHTaipei) - 大宴會廳貳】進撤場：\n卸貨區：宴會廳專屬迎賓車道 EXCLUSIVE VIP ARRIVAL DRIVEWAY",
+    "field_path": "rooms.1085-03.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1085,
+    "venue_name": "台北文華東方酒店(MOHTaipei)",
+    "text": "【台北文華東方酒店(MOHTaipei) - 迎賓區】進撤場：\n卸貨區：宴會廳專屬迎賓車道 EXCLUSIVE VIP ARRIVAL DRIVEWAY",
+    "field_path": "rooms.1085-04.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1085,
+    "venue_name": "台北文華東方酒店(MOHTaipei)",
+    "text": "【台北文華東方酒店(MOHTaipei) - 文華廳】進撤場：\n卸貨區：宴會廳專屬迎賓車道 EXCLUSIVE VIP ARRIVAL DRIVEWAY",
+    "field_path": "rooms.1085-05.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1085,
+    "venue_name": "台北文華東方酒店(MOHTaipei)",
+    "text": "【台北文華東方酒店(MOHTaipei) - 文華廳壹】進撤場：\n卸貨區：宴會廳專屬迎賓車道 EXCLUSIVE VIP ARRIVAL DRIVEWAY",
+    "field_path": "rooms.1085-06.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1085,
+    "venue_name": "台北文華東方酒店(MOHTaipei)",
+    "text": "【台北文華東方酒店(MOHTaipei) - 文華廳貳】進撤場：\n卸貨區：宴會廳專屬迎賓車道 EXCLUSIVE VIP ARRIVAL DRIVEWAY",
+    "field_path": "rooms.1085-07.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1085,
+    "venue_name": "台北文華東方酒店(MOHTaipei)",
+    "text": "【台北文華東方酒店(MOHTaipei) - 東方廳壹】進撤場：\n卸貨區：宴會廳專屬迎賓車道 EXCLUSIVE VIP ARRIVAL DRIVEWAY",
+    "field_path": "rooms.1085-08.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1085,
+    "venue_name": "台北文華東方酒店(MOHTaipei)",
+    "text": "【台北文華東方酒店(MOHTaipei) - 東方廳貳】進撤場：\n卸貨區：宴會廳專屬迎賓車道 EXCLUSIVE VIP ARRIVAL DRIVEWAY",
+    "field_path": "rooms.1085-09.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1086,
+    "venue_name": "台北晶華酒店 Regent Taipei",
+    "text": "【台北晶華酒店 Regent Taipei】佈置規定： 會議設備 (一組投影螢幕、二支麥克風、白板、海報架)以上會議設備依實際需求提供",
+    "field_path": "rules.decoration[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1086,
+    "venue_name": "台北晶華酒店 Regent Taipei",
+    "text": "【台北晶華酒店 Regent Taipei - 晶英會】進撤場：",
+    "field_path": "rooms.1086-01.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1086,
+    "venue_name": "台北晶華酒店 Regent Taipei",
+    "text": "【台北晶華酒店 Regent Taipei - 晶華會】進撤場：",
+    "field_path": "rooms.1086-02.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1086,
+    "venue_name": "台北晶華酒店 Regent Taipei",
+    "text": "【台北晶華酒店 Regent Taipei - 宴會廳】進撤場：",
+    "field_path": "rooms.1086-03.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1086,
+    "venue_name": "台北晶華酒店 Regent Taipei",
+    "text": "【台北晶華酒店 Regent Taipei - 萬象廳】進撤場：",
+    "field_path": "rooms.1086-04.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1086,
+    "venue_name": "台北晶華酒店 Regent Taipei",
+    "text": "【台北晶華酒店 Regent Taipei - 貴賓廳】進撤場：",
+    "field_path": "rooms.1086-05.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1086,
+    "venue_name": "台北晶華酒店 Regent Taipei",
+    "text": "【台北晶華酒店 Regent Taipei - 寰宇廳】進撤場：",
+    "field_path": "rooms.1086-06.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1095,
+    "venue_name": "台北美福大飯店",
+    "text": "【台北美福大飯店】餐飲規定：限用飯店餐飲服務，美福集團旗下擁有七間中西餐廳及酒吧（例外：會議方案含一輪茶點（手指食物、礦泉水、咖啡茶））",
+    "field_path": "rules.catering[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1095,
+    "venue_name": "台北美福大飯店",
+    "text": "【台北美福大飯店】餐飲規定：會議午餐可升級：palette自助餐+NT$300/位、GMT義式/MIPON台菜+NT$600/位、HARUYAMA日式+NT$900/位",
+    "field_path": "rules.catering[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1095,
+    "venue_name": "台北美福大飯店",
+    "text": "【台北美福大飯店】餐飲規定：每位賓客附文具、礦泉水及薄荷糖",
+    "field_path": "rules.catering[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1095,
+    "venue_name": "台北美福大飯店",
+    "text": "【台北美福大飯店】佈置規定：大宴會廳挑高7公尺無柱空間，配有420吋互動式高畫質LED顯示屏幕",
+    "field_path": "rules.decoration[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1095,
+    "venue_name": "台北美福大飯店",
+    "text": "【台北美福大飯店】佈置規定：9F廳房挑高6.4公尺，設大片落地窗",
+    "field_path": "rules.decoration[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1095,
+    "venue_name": "台北美福大飯店",
+    "text": "【台北美福大飯店】音響規定：大宴會廳配備專業級BOSE音響系統",
+    "field_path": "rules.sound[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1095,
+    "venue_name": "台北美福大飯店",
+    "text": "【台北美福大飯店】音響規定：會議方案標配：2支無線麥克風、投影機及螢幕、Wi-Fi、音源線、講台、雷射筆、翻頁白板",
+    "field_path": "rules.sound[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1095,
+    "venue_name": "台北美福大飯店",
+    "text": "【台北美福大飯店】進撤場規定：半日方案時段固定08:30-12:00或13:30-16:30；全日方案08:30-16:30（例外：實際進場時間需提前與宴會部協調）",
+    "field_path": "rules.loadIn[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1095,
+    "venue_name": "台北美福大飯店",
+    "text": "【台北美福大飯店】取消政策：會議方案最低保證人數20人，未達人數依場地租用定價或保證人數計價",
+    "field_path": "rules.cancellation[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1095,
+    "venue_name": "台北美福大飯店",
+    "text": "【台北美福大飯店】取消政策：飯店保留更改或終止方案之權利",
+    "field_path": "rules.cancellation[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1095,
+    "venue_name": "台北美福大飯店",
+    "text": "【台北美福大飯店】保險規定：未明列保險規範，需個案洽詢宴會部",
+    "field_path": "rules.insurance[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1095,
+    "venue_name": "台北美福大飯店",
+    "text": "【台北美福大飯店】風險提示：\n預訂提前時間：大型宴會廳建議3-6個月前預訂；尾牙/婚宴旺季需更早\n旺季：11-1月尾牙季, 2-3月春酒季, 9-12月婚宴旺季\n常見問題：大宴會廳容量數據有出入（官網700人 vs venues.json 550人），需與飯店確認, PDF價格已過期（2025/12/31），2026年價格需重新詢價, 位於大直美麗華商圈，文湖線劍南路站，非捷運藍線直達",
+    "field_path": "risks",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1100,
+    "venue_name": "台北花園大酒店(TGHotel)",
+    "text": "【台北花園大酒店(TGHotel)】餐飲規定：限用飯店餐飲服務，提供中式宴席、西式套餐及自助餐（例外：會議型活動可協商搭配飯店餐盒或茶歇方案）",
+    "field_path": "rules.catering[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1100,
+    "venue_name": "台北花園大酒店(TGHotel)",
+    "text": "【台北花園大酒店(TGHotel)】餐飲規定：婚宴及宴會需使用飯店指定婚宴菜單，每桌10人份",
+    "field_path": "rules.catering[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1100,
+    "venue_name": "台北花園大酒店(TGHotel)",
+    "text": "【台北花園大酒店(TGHotel)】佈置規定：場地佈置需提前與宴會部確認，不得使用破壞性裝飾（如釘牆、黏膠）（違規：損壞需照價賠償）",
+    "field_path": "rules.decoration[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1100,
+    "venue_name": "台北花園大酒店(TGHotel)",
+    "text": "【台北花園大酒店(TGHotel)】佈置規定：3F各廳天花板高度僅2.5米，大型道具或背板高度不得超過2.2米（例外：2F百合/薔薇/國際廳挑高6.5米，1F貴賓廳3.3米）",
+    "field_path": "rules.decoration[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1100,
+    "venue_name": "台北花園大酒店(TGHotel)",
+    "text": "【台北花園大酒店(TGHotel)】佈置規定：禁止施放鞭炮、煙火、乾冰等具安全疑慮之特殊效果",
+    "field_path": "rules.decoration[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1100,
+    "venue_name": "台北花園大酒店(TGHotel)",
+    "text": "【台北花園大酒店(TGHotel)】音響規定：2F國際廳配有大型舞台及專業音響燈光，3F及1F各廳配備基本音響系統及無線麥克風（例外：如需額外音響設備需提前申請）",
+    "field_path": "rules.sound[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1100,
+    "venue_name": "台北花園大酒店(TGHotel)",
+    "text": "【台北花園大酒店(TGHotel)】進撤場規定：進場佈置時間需配合飯店安排，一般為活動前2-3小時（例外：大型佈置（如婚宴）可協商前一天進場，需額外支付場地使用費）",
+    "field_path": "rules.loadIn[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1100,
+    "venue_name": "台北花園大酒店(TGHotel)",
+    "text": "【台北花園大酒店(TGHotel)】取消政策：訂金為總費用之30%，簽約時需支付",
+    "field_path": "rules.cancellation[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1100,
+    "venue_name": "台北花園大酒店(TGHotel)",
+    "text": "【台北花園大酒店(TGHotel)】取消政策：活動前90天以上取消可退還訂金80%；30-90天內取消退還50%；30天內取消不退費（例外：如因天災等不可抗力因素可協商改期）",
+    "field_path": "rules.cancellation[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1100,
+    "venue_name": "台北花園大酒店(TGHotel)",
+    "text": "【台北花園大酒店(TGHotel)】保險規定：大型活動（200人以上）建議投保公共意外責任險",
+    "field_path": "rules.insurance[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1100,
+    "venue_name": "台北花園大酒店(TGHotel)",
+    "text": "【台北花園大酒店(TGHotel)】其他規定：場地使用時間為08:00-22:00，超時每小時加收超時費（依各廳定價）（違規：超時費：月桂廳NT$2,000/hr，小型廳NT$10,000/hr，中型廳NT$15,000/hr，大型廳NT$20,000-35,000/hr）",
+    "field_path": "rules.other[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1100,
+    "venue_name": "台北花園大酒店(TGHotel)",
+    "text": "【台北花園大酒店(TGHotel)】風險提示：\n預訂提前時間：一般會議至少2-4週；2F宴會廳及大型合併廳建議2-3個月前預訂；婚宴旺季建議4-6個月前\n旺季：10-12月婚宴旺季, 12-1月尾牙季, 6-8月畢業季/謝師宴\n常見問題：3F各廳天花板僅2.5米，常有客戶低估高度限制導致舞台或背板需臨時修改, 2F國際廳為合併廳，若單獨廳已被預訂則無法使用合併空間",
+    "field_path": "risks",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1100,
+    "venue_name": "台北花園大酒店(TGHotel)",
+    "text": "【台北花園大酒店(TGHotel) - 2F 百合廳】進撤場：\n進場08:00 / 撤場12:00",
+    "field_path": "rooms.1100-01.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1100,
+    "venue_name": "台北花園大酒店(TGHotel)",
+    "text": "【台北花園大酒店(TGHotel) - 2F 薔薇廳】進撤場：\n進場08:00 / 撤場12:00",
+    "field_path": "rooms.1100-02.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1100,
+    "venue_name": "台北花園大酒店(TGHotel)",
+    "text": "【台北花園大酒店(TGHotel) - 2F 國際廳】進撤場：\n進場08:00 / 撤場12:00",
+    "field_path": "rooms.1100-03.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1100,
+    "venue_name": "台北花園大酒店(TGHotel)",
+    "text": "【台北花園大酒店(TGHotel) - 3F 海芋廳】進撤場：\n進場08:00 / 撤場12:00",
+    "field_path": "rooms.1100-04.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1100,
+    "venue_name": "台北花園大酒店(TGHotel)",
+    "text": "【台北花園大酒店(TGHotel) - 3F 水仙廳】進撤場：\n進場08:00 / 撤場12:00",
+    "field_path": "rooms.1100-05.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1100,
+    "venue_name": "台北花園大酒店(TGHotel)",
+    "text": "【台北花園大酒店(TGHotel) - 3F 玫瑰廳】進撤場：\n進場08:00 / 撤場12:00",
+    "field_path": "rooms.1100-06.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1100,
+    "venue_name": "台北花園大酒店(TGHotel)",
+    "text": "【台北花園大酒店(TGHotel) - 3F 火鶴廳】進撤場：\n進場08:00 / 撤場12:00",
+    "field_path": "rooms.1100-07.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1100,
+    "venue_name": "台北花園大酒店(TGHotel)",
+    "text": "【台北花園大酒店(TGHotel) - 3F 茉莉廳】進撤場：\n進場08:00 / 撤場12:00",
+    "field_path": "rooms.1100-08.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1100,
+    "venue_name": "台北花園大酒店(TGHotel)",
+    "text": "【台北花園大酒店(TGHotel) - 3F 山茶廳】進撤場：\n進場08:00 / 撤場12:00",
+    "field_path": "rooms.1100-09.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1100,
+    "venue_name": "台北花園大酒店(TGHotel)",
+    "text": "【台北花園大酒店(TGHotel) - 3F 牡丹廳】進撤場：\n進場08:00 / 撤場12:00",
+    "field_path": "rooms.1100-10.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1100,
+    "venue_name": "台北花園大酒店(TGHotel)",
+    "text": "【台北花園大酒店(TGHotel) - 3F 月桂廳】進撤場：\n進場08:00 / 撤場12:00",
+    "field_path": "rooms.1100-11.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1100,
+    "venue_name": "台北花園大酒店(TGHotel)",
+    "text": "【台北花園大酒店(TGHotel) - 3F 櫻花廳】進撤場：\n進場08:00 / 撤場12:00",
+    "field_path": "rooms.1100-12.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1100,
+    "venue_name": "台北花園大酒店(TGHotel)",
+    "text": "【台北花園大酒店(TGHotel) - 3F 百花廳】進撤場：\n進場08:00 / 撤場12:00",
+    "field_path": "rooms.1100-13.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1100,
+    "venue_name": "台北花園大酒店(TGHotel)",
+    "text": "【台北花園大酒店(TGHotel) - 1F 貴賓廳】進撤場：\n進場08:00 / 撤場12:00",
+    "field_path": "rooms.1100-14.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1103,
+    "venue_name": "台北萬豪酒店(MarriottTaipei)",
+    "text": "【台北萬豪酒店(MarriottTaipei)】餐飲規定：限用飯店餐飲服務",
+    "field_path": "rules.catering[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1103,
+    "venue_name": "台北萬豪酒店(MarriottTaipei)",
+    "text": "【台北萬豪酒店(MarriottTaipei)】餐飲規定：3. 本會議中心禁止攜帶外食，提供相關會議事務用品代訂，需加收該項服務內容定價之10%為服務費。",
+    "field_path": "rules.catering[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1103,
+    "venue_name": "台北萬豪酒店(MarriottTaipei)",
+    "text": "【台北萬豪酒店(MarriottTaipei)】風險提示：\n預訂提前時間：至少2個月（大型活動建議6個月前）\n旺季：10-12月婚宴旺季, 12-1月尾牙, 6月畢業季\n常見問題：挑高9.9m場地為最熱門檔期, 5F以上需使用車梯載運大型設備",
+    "field_path": "risks",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1122,
+    "venue_name": "維多麗亞酒店",
+    "text": "【維多麗亞酒店】餐飲規定：限用飯店餐飲服務，提供中式/西式宴席及自助餐，不可外燴（例外：會議茶點可討論搭配方案）（違規：攜入外食飯店有權要求撤除）",
+    "field_path": "rules.catering[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1122,
+    "venue_name": "維多麗亞酒店",
+    "text": "【維多麗亞酒店】餐飲規定：酒水需使用飯店提供之酒類，自備酒類需支付開瓶費（違規：開瓶費依酒類別計價）",
+    "field_path": "rules.catering[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1122,
+    "venue_name": "維多麗亞酒店",
+    "text": "【維多麗亞酒店】佈置規定：佈置需提前向宴會部申請，禁止使用圖釘、膠帶直接黏貼於牆面（例外：可使用飯店提供之展示架或立牌）（違規：牆面損壞需照價賠償）",
+    "field_path": "rules.decoration[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1122,
+    "venue_name": "維多麗亞酒店",
+    "text": "【維多麗亞酒店】佈置規定：1F維多麗亞廳挑高8米，3F各廳挑高4米，大型道具高度需配合各廳限制",
+    "field_path": "rules.decoration[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1122,
+    "venue_name": "維多麗亞酒店",
+    "text": "【維多麗亞酒店】佈置規定：禁止施放鞭炮、煙火、乾冰等具安全疑慮之特殊效果",
+    "field_path": "rules.decoration[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1122,
+    "venue_name": "維多麗亞酒店",
+    "text": "【維多麗亞酒店】音響規定：各廳配備基本音響系統及無線麥克風（例外：額外音響設備需提前申請）",
+    "field_path": "rules.sound[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1122,
+    "venue_name": "維多麗亞酒店",
+    "text": "【維多麗亞酒店】音響規定：晚間22:00後音量需降低，避免影響住宿客人",
+    "field_path": "rules.sound[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1122,
+    "venue_name": "維多麗亞酒店",
+    "text": "【維多麗亞酒店】進撤場規定：進場佈置時間一般為活動前2-3小時（例外：大型佈置可申請前一天夜間進場，需額外費用）",
+    "field_path": "rules.loadIn[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1122,
+    "venue_name": "維多麗亞酒店",
+    "text": "【維多麗亞酒店】進撤場規定：超時人力費率NT$1,500/小時/人（最低3小時）",
+    "field_path": "rules.loadIn[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1122,
+    "venue_name": "維多麗亞酒店",
+    "text": "【維多麗亞酒店】取消政策：活動前60天以上取消全額退還訂金",
+    "field_path": "rules.cancellation[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1122,
+    "venue_name": "維多麗亞酒店",
+    "text": "【維多麗亞酒店】取消政策：活動前30-59天取消退還50%訂金",
+    "field_path": "rules.cancellation[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1122,
+    "venue_name": "維多麗亞酒店",
+    "text": "【維多麗亞酒店】取消政策：活動前30天內取消訂金不予退還（例外：改期可協調，視檔期而定）",
+    "field_path": "rules.cancellation[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1122,
+    "venue_name": "維多麗亞酒店",
+    "text": "【維多麗亞酒店】保險規定：大型活動（200人以上）建議投保公共意外責任險",
+    "field_path": "rules.insurance[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1122,
+    "venue_name": "維多麗亞酒店",
+    "text": "【維多麗亞酒店】風險提示：\n預訂提前時間：一般活動至少2-4週前；1F宴會廳建議2-3個月前；婚宴旺季建議4-6個月前\n旺季：10-12月婚宴旺季, 12-1月尾牙季, 6-8月畢業季\n常見問題：超時人力費NT$1,500/hr/人（最低3小時），成本易被低估, 3F各廳天花板4米，大型舞台設備需注意高度限制, 停車位有限，大型活動需提前安排停車方案",
+    "field_path": "risks",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914)】餐飲規定：場地租借費用不含任何場地清潔，結束後需自行復原",
+    "field_path": "rules.catering[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914)】餐飲規定：基本清潔費1,000元",
+    "field_path": "rules.catering[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914)】餐飲規定：有宴席需求者另需支付：西式餐宴3,000元、中式餐宴5,000元之清潔費用（紅磚區場館適用）",
+    "field_path": "rules.catering[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914)】餐飲規定：每日每館提供民生垃圾清運2袋，超量需另購$200(含稅)/袋",
+    "field_path": "rules.catering[3]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914)】餐飲規定：大型活動(人數上千人)清潔與管理費另計",
+    "field_path": "rules.catering[4]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914)】餐飲規定：園區嚴禁使用任何火具（含蠟燭、煙火、噴火等所有明火器具）",
+    "field_path": "rules.catering[5]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914)】佈置規定：戶外場地（華山劇場、金八廣場、樹前草地、忠孝三角、中3前廣場）限高3米以下",
+    "field_path": "rules.decoration[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914)】佈置規定：所有場館為歷史建物/古蹟，裝潢施工須遵守「華山1914文創園區活動進撤場施工管理要點暨切結書」規範",
+    "field_path": "rules.decoration[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914)】佈置規定：進撤場日場租為活動日場租的50%（用於佈置與撤場）",
+    "field_path": "rules.decoration[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914)】音響規定：園區位於住宅區（八德路一段/忠孝東路），音響音量需受管控",
+    "field_path": "rules.sound[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914)】音響規定：夜間超時(22:00-次日08:00)禁止，場地使用時間為08:00-22:00",
+    "field_path": "rules.sound[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914)】音響規定：各場館除基本設備外，器材如需租借請填租借表單，費用另計",
+    "field_path": "rules.sound[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914)】進撤場規定：場地租借以「日」為計算單位，使用時間08:00-22:00",
+    "field_path": "rules.loadIn[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914)】進撤場規定：夜間超時(22:00-次日08:00)以每小時$10,000(含稅)計算（一般場館及東2/中4B系列）",
+    "field_path": "rules.loadIn[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914)】進撤場規定：紅磚區（西1/西2/西4/西5）超時費：西1館$9,000/hr、西2&西5館$6,000/hr、西4館$5,000/hr（皆含稅）",
+    "field_path": "rules.loadIn[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914)】進撤場規定：大型活動(人數達千人)需加裝流動廁所",
+    "field_path": "rules.loadIn[3]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914)】取消政策：場地保證金為總場租之4成起",
+    "field_path": "rules.cancellation[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914)】取消政策：場地租金及保證金需於活動進場前全額繳清，否則園區有權拒絕活動進場",
+    "field_path": "rules.cancellation[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914)】取消政策：保證金於活動結束撤場後，扣除相關費用支出、確認無損壞後，於每月雙週週五以匯款方式退還",
+    "field_path": "rules.cancellation[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914)】取消政策：場地申請須於活動日14個工作天前送件申請",
+    "field_path": "rules.cancellation[3]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914)】保險規定：需投保公共意外責任險（依據場地租借申請條款規範）",
+    "field_path": "rules.insurance[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914)】保險規定：活動內容須符合文創產業發展規定",
+    "field_path": "rules.insurance[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914)】保險規定：不受理與政治、宗教有關之集會活動",
+    "field_path": "rules.insurance[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914)】保險規定：不受理跨夜活動",
+    "field_path": "rules.insurance[3]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914)】保險規定：申請需檢附活動企劃書及立案證書影本",
+    "field_path": "rules.insurance[4]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914) - 中4A 紅酒作業場】限制：園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）; 場地使用時間08:00-22:00，不受理跨夜活動; 戶外場地限高3米以下; 不受理政治、宗教集會活動; 所有場館為歷史建物，施工裝潢受嚴格規範; 大型活動(上千人)需加裝流動廁所; 場地租金不含清潔/電費/器材/廣告刊版費用; 需於活動日14個工作天前送件申請",
+    "field_path": "rooms.1125-01.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914) - 中4B 米酒作業場1F】限制：園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）; 場地使用時間08:00-22:00，不受理跨夜活動; 戶外場地限高3米以下; 不受理政治、宗教集會活動; 所有場館為歷史建物，施工裝潢受嚴格規範; 大型活動(上千人)需加裝流動廁所; 場地租金不含清潔/電費/器材/廣告刊版費用; 需於活動日14個工作天前送件申請",
+    "field_path": "rooms.1125-02.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914) - 中4B 米酒作業場2F】限制：園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）; 場地使用時間08:00-22:00，不受理跨夜活動; 戶外場地限高3米以下; 不受理政治、宗教集會活動; 所有場館為歷史建物，施工裝潢受嚴格規範; 大型活動(上千人)需加裝流動廁所; 場地租金不含清潔/電費/器材/廣告刊版費用; 需於活動日14個工作天前送件申請",
+    "field_path": "rooms.1125-03.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914) - 中4B 2F演講廳】限制：園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）; 場地使用時間08:00-22:00，不受理跨夜活動; 戶外場地限高3米以下; 不受理政治、宗教集會活動; 所有場館為歷史建物，施工裝潢受嚴格規範; 大型活動(上千人)需加裝流動廁所; 場地租金不含清潔/電費/器材/廣告刊版費用; 需於活動日14個工作天前送件申請",
+    "field_path": "rooms.1125-04.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914) - 中3館 2F 拱廳】限制：園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）; 場地使用時間08:00-22:00，不受理跨夜活動; 戶外場地限高3米以下; 不受理政治、宗教集會活動; 所有場館為歷史建物，施工裝潢受嚴格規範; 大型活動(上千人)需加裝流動廁所; 場地租金不含清潔/電費/器材/廣告刊版費用; 需於活動日14個工作天前送件申請",
+    "field_path": "rooms.1125-05.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914) - 紅磚六合院 西1館(A棟)】限制：園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）; 場地使用時間08:00-22:00，不受理跨夜活動; 戶外場地限高3米以下; 不受理政治、宗教集會活動; 所有場館為歷史建物，施工裝潢受嚴格規範; 大型活動(上千人)需加裝流動廁所; 場地租金不含清潔/電費/器材/廣告刊版費用; 需於活動日14個工作天前送件申請",
+    "field_path": "rooms.1125-06.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914) - 紅磚六合院 西2館(B棟)】限制：園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）; 場地使用時間08:00-22:00，不受理跨夜活動; 戶外場地限高3米以下; 不受理政治、宗教集會活動; 所有場館為歷史建物，施工裝潢受嚴格規範; 大型活動(上千人)需加裝流動廁所; 場地租金不含清潔/電費/器材/廣告刊版費用; 需於活動日14個工作天前送件申請",
+    "field_path": "rooms.1125-07.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914) - 紅磚六合院 西5-1館(E棟)】限制：園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）; 場地使用時間08:00-22:00，不受理跨夜活動; 戶外場地限高3米以下; 不受理政治、宗教集會活動; 所有場館為歷史建物，施工裝潢受嚴格規範; 大型活動(上千人)需加裝流動廁所; 場地租金不含清潔/電費/器材/廣告刊版費用; 需於活動日14個工作天前送件申請",
+    "field_path": "rooms.1125-08.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914) - 中5B 鍋爐室】限制：園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）; 場地使用時間08:00-22:00，不受理跨夜活動; 戶外場地限高3米以下; 不受理政治、宗教集會活動; 所有場館為歷史建物，施工裝潢受嚴格規範; 大型活動(上千人)需加裝流動廁所; 場地租金不含清潔/電費/器材/廣告刊版費用; 需於活動日14個工作天前送件申請",
+    "field_path": "rooms.1125-09.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914) - 中2館 2F 果酒練舞場】限制：園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）; 場地使用時間08:00-22:00，不受理跨夜活動; 戶外場地限高3米以下; 不受理政治、宗教集會活動; 所有場館為歷史建物，施工裝潢受嚴格規範; 大型活動(上千人)需加裝流動廁所; 場地租金不含清潔/電費/器材/廣告刊版費用; 需於活動日14個工作天前送件申請",
+    "field_path": "rooms.1125-10.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914) - 東3B 烏梅劇院】限制：園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）; 場地使用時間08:00-22:00，不受理跨夜活動; 戶外場地限高3米以下; 不受理政治、宗教集會活動; 所有場館為歷史建物，施工裝潢受嚴格規範; 大型活動(上千人)需加裝流動廁所; 場地租金不含清潔/電費/器材/廣告刊版費用; 需於活動日14個工作天前送件申請",
+    "field_path": "rooms.1125-11.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914) - 華山劇場(戶外)】限制：園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）; 場地使用時間08:00-22:00，不受理跨夜活動; 戶外場地限高3米以下; 不受理政治、宗教集會活動; 所有場館為歷史建物，施工裝潢受嚴格規範; 大型活動(上千人)需加裝流動廁所; 場地租金不含清潔/電費/器材/廣告刊版費用; 需於活動日14個工作天前送件申請",
+    "field_path": "rooms.1125-12.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914) - 忠孝三角(戶外)】限制：園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）; 場地使用時間08:00-22:00，不受理跨夜活動; 戶外場地限高3米以下; 不受理政治、宗教集會活動; 所有場館為歷史建物，施工裝潢受嚴格規範; 大型活動(上千人)需加裝流動廁所; 場地租金不含清潔/電費/器材/廣告刊版費用; 需於活動日14個工作天前送件申請",
+    "field_path": "rooms.1125-13.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914) - 金八廣場(戶外)】限制：園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）; 場地使用時間08:00-22:00，不受理跨夜活動; 戶外場地限高3米以下; 不受理政治、宗教集會活動; 所有場館為歷史建物，施工裝潢受嚴格規範; 大型活動(上千人)需加裝流動廁所; 場地租金不含清潔/電費/器材/廣告刊版費用; 需於活動日14個工作天前送件申請",
+    "field_path": "rooms.1125-14.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914) - 中3館前廣場(戶外)】限制：園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）; 場地使用時間08:00-22:00，不受理跨夜活動; 戶外場地限高3米以下; 不受理政治、宗教集會活動; 所有場館為歷史建物，施工裝潢受嚴格規範; 大型活動(上千人)需加裝流動廁所; 場地租金不含清潔/電費/器材/廣告刊版費用; 需於活動日14個工作天前送件申請",
+    "field_path": "rooms.1125-15.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914) - 東2A館】限制：園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）; 場地使用時間08:00-22:00，不受理跨夜活動; 戶外場地限高3米以下; 不受理政治、宗教集會活動; 所有場館為歷史建物，施工裝潢受嚴格規範; 大型活動(上千人)需加裝流動廁所; 場地租金不含清潔/電費/器材/廣告刊版費用; 需於活動日14個工作天前送件申請",
+    "field_path": "rooms.1125-16.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914) - 東2B館】限制：園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）; 場地使用時間08:00-22:00，不受理跨夜活動; 戶外場地限高3米以下; 不受理政治、宗教集會活動; 所有場館為歷史建物，施工裝潢受嚴格規範; 大型活動(上千人)需加裝流動廁所; 場地租金不含清潔/電費/器材/廣告刊版費用; 需於活動日14個工作天前送件申請",
+    "field_path": "rooms.1125-17.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914) - 東2C館】限制：園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）; 場地使用時間08:00-22:00，不受理跨夜活動; 戶外場地限高3米以下; 不受理政治、宗教集會活動; 所有場館為歷史建物，施工裝潢受嚴格規範; 大型活動(上千人)需加裝流動廁所; 場地租金不含清潔/電費/器材/廣告刊版費用; 需於活動日14個工作天前送件申請",
+    "field_path": "rooms.1125-18.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914) - 東2D館】限制：園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）; 場地使用時間08:00-22:00，不受理跨夜活動; 戶外場地限高3米以下; 不受理政治、宗教集會活動; 所有場館為歷史建物，施工裝潢受嚴格規範; 大型活動(上千人)需加裝流動廁所; 場地租金不含清潔/電費/器材/廣告刊版費用; 需於活動日14個工作天前送件申請",
+    "field_path": "rooms.1125-19.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914) - 紅磚六合院 西4館(D棟)】限制：園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）; 場地使用時間08:00-22:00，不受理跨夜活動; 戶外場地限高3米以下; 不受理政治、宗教集會活動; 所有場館為歷史建物，施工裝潢受嚴格規範; 大型活動(上千人)需加裝流動廁所; 場地租金不含清潔/電費/器材/廣告刊版費用; 需於活動日14個工作天前送件申請",
+    "field_path": "rooms.1125-20.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914) - 樹前草地(戶外)】限制：園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）; 場地使用時間08:00-22:00，不受理跨夜活動; 戶外場地限高3米以下; 不受理政治、宗教集會活動; 所有場館為歷史建物，施工裝潢受嚴格規範; 大型活動(上千人)需加裝流動廁所; 場地租金不含清潔/電費/器材/廣告刊版費用; 需於活動日14個工作天前送件申請",
+    "field_path": "rooms.1125-21.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914) - 中7A 維修工場】限制：園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）; 場地使用時間08:00-22:00，不受理跨夜活動; 戶外場地限高3米以下; 不受理政治、宗教集會活動; 所有場館為歷史建物，施工裝潢受嚴格規範; 大型活動(上千人)需加裝流動廁所; 場地租金不含清潔/電費/器材/廣告刊版費用; 需於活動日14個工作天前送件申請",
+    "field_path": "rooms.1125-22.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914) - 中7B 維修工場】限制：園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）; 場地使用時間08:00-22:00，不受理跨夜活動; 戶外場地限高3米以下; 不受理政治、宗教集會活動; 所有場館為歷史建物，施工裝潢受嚴格規範; 大型活動(上千人)需加裝流動廁所; 場地租金不含清潔/電費/器材/廣告刊版費用; 需於活動日14個工作天前送件申請",
+    "field_path": "rooms.1125-23.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC)】餐飲規定：10%核算之)。場地租用單位除須於進場前提供相關餐飲訂單供本展館核算管理費外，並須於活動結束前完成餐",
+    "field_path": "rules.catering[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC)】餐飲規定：(3)會議室內用飲品、餐盒或餐點：需繳交場地費之10%作為清潔費。",
+    "field_path": "rules.catering[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC)】餐飲規定：(4)會議室內舉辦餐宴(外燴)活動：須於會議室現有之地毯上另鋪設一層地毯以保護現有地毯(福軒除外)，並須繳",
+    "field_path": "rules.catering[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC)】佈置規定：(4)如須加開空調，除上述(1)、(2)佈置或拆場租金外，須加收空調費用如下:",
+    "field_path": "rules.decoration[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC)】佈置規定：8.會場內設置系統裝潢、木座等裝潢物，須於下方鋪設地毯，不得使用透明膠膜替代(福軒不得搭設裝潢物)，若經",
+    "field_path": "rules.decoration[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC)】佈置規定：9.如需於會議室內搭設隔板、木作等裝潢物，該裝潢物在4樓不得高於2.5公尺，在5樓高度不得高於2公尺，均",
+    "field_path": "rules.decoration[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC)】佈置規定：會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。",
+    "field_path": "rules.decoration[3]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC)】佈置規定：10.裝潢廢棄物需由裝潢商或主辦單位自行清除，如未清除乾淨，將由館方清潔合約商報價予主辦單位，收取廢棄物",
+    "field_path": "rules.decoration[4]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC)】佈置規定：格水電裝潢商施作拉線，衍生出工程、線材、電費需由主辦單位支付；該用電線路須經館方工程組完成用電安全",
+    "field_path": "rules.decoration[5]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC)】音響規定：(4)影音視聽設備須由館方提供，包含同步翻譯設備、音響設備、會議討論系統麥克風、攝/錄影服務、LED電視",
+    "field_path": "rules.sound[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC)】進撤場規定：10%核算之)。場地租用單位除須於進場前提供相關餐飲訂單供本展館核算管理費外，並須於活動結束前完成餐",
+    "field_path": "rules.loadIn[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC)】進撤場規定：會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。",
+    "field_path": "rules.loadIn[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC)】取消政策：(2)基本配備若不需使用不得退費，亦不得替換；已確定租用之設備臨時退租不予退費，臨時追加則依定價加3",
+    "field_path": "rules.cancellation[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC) - 國際會議廳】限制：發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。; 會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。",
+    "field_path": "rooms.1128-01.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC) - 國際會議廳】進撤場：",
+    "field_path": "rooms.1128-01.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC) - 蘇格拉底廳】限制：發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。; 會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。",
+    "field_path": "rooms.1128-02.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC) - 蘇格拉底廳】進撤場：",
+    "field_path": "rooms.1128-02.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC) - 柏拉圖廳】限制：發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。; 會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。",
+    "field_path": "rooms.1128-03.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC) - 柏拉圖廳】進撤場：",
+    "field_path": "rooms.1128-03.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC) - 洛克廳】限制：發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。; 會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。",
+    "field_path": "rooms.1128-05.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC) - 洛克廳】進撤場：",
+    "field_path": "rooms.1128-05.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC) - 亞歷山大廳】限制：發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。; 會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。",
+    "field_path": "rooms.1128-06.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC) - 亞歷山大廳】進撤場：",
+    "field_path": "rooms.1128-06.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC) - 阿基米德廳】限制：發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。; 會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。",
+    "field_path": "rooms.1128-07.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC) - 阿基米德廳】進撤場：",
+    "field_path": "rooms.1128-07.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC) - 亞里斯多德廳】限制：發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。; 會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。",
+    "field_path": "rooms.1128-08.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC) - 亞里斯多德廳】進撤場：",
+    "field_path": "rooms.1128-08.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC) - 達文西廳】限制：發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。; 會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。",
+    "field_path": "rooms.1128-09.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC) - 達文西廳】進撤場：",
+    "field_path": "rooms.1128-09.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC) - 拉斐爾廳】限制：發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。; 會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。",
+    "field_path": "rooms.1128-10.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC) - 拉斐爾廳】進撤場：",
+    "field_path": "rooms.1128-10.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC) - 米開朗基羅廳】限制：發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。; 會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。",
+    "field_path": "rooms.1128-11.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC) - 米開朗基羅廳】進撤場：",
+    "field_path": "rooms.1128-11.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC) - 尼采廳】限制：發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。; 會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。",
+    "field_path": "rooms.1128-12.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC) - 尼采廳】進撤場：",
+    "field_path": "rooms.1128-12.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1448,
+    "venue_name": "台北國際會議中心(TICC)",
+    "text": "【台北國際會議中心(TICC)】餐飲規定：非經展覽主辦單位同意，所有餐飲均不得自備（例外：經展覽主辦單位同意）",
+    "field_path": "rules.catering[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1448,
+    "venue_name": "台北國際會議中心(TICC)",
+    "text": "【台北國際會議中心(TICC)】equipment：提供每間會議室桌椅數量及視聽設備以標準容量為限，額外需求或現場追加桌椅費用另計（違規：費用另計）",
+    "field_path": "rules.equipment[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1448,
+    "venue_name": "台北國際會議中心(TICC)",
+    "text": "【台北國際會議中心(TICC)】佈置規定：布置或拆場租金按該時段定價6折計價",
+    "field_path": "rules.decoration[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1448,
+    "venue_name": "台北國際會議中心(TICC)",
+    "text": "【台北國際會議中心(TICC)】佈置規定：會議室用畢必須恢復原狀，相關設備若有損毀，主辦單位將據以求償（違規：按損毀程度求償）",
+    "field_path": "rules.decoration[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1448,
+    "venue_name": "台北國際會議中心(TICC)",
+    "text": "【台北國際會議中心(TICC)】進撤場規定：載運土方及半聯結車載運機具及大型建材每日上午06:30-09:30及下午16:00-20:00禁止使用",
+    "field_path": "rules.loadIn[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1448,
+    "venue_name": "台北國際會議中心(TICC)",
+    "text": "【台北國際會議中心(TICC)】進撤場規定：大貨車需申請通行證，部分時段禁止進出管制區（例外：申請通行證可於開放時段進出）",
+    "field_path": "rules.loadIn[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1448,
+    "venue_name": "台北國際會議中心(TICC)",
+    "text": "【台北國際會議中心(TICC)】價格規定：每時段逾時使用未滿4小時者，以整時段租金計價（違規：整時段租金）",
+    "field_path": "rules.pricing[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1448,
+    "venue_name": "台北國際會議中心(TICC)",
+    "text": "【台北國際會議中心(TICC)】其他規定：會議室數量有限，採先申請先審核原則受理預訂",
+    "field_path": "rules.other[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1448,
+    "venue_name": "台北國際會議中心(TICC)",
+    "text": "【台北國際會議中心(TICC)】其他規定：TICC全館免費無線上網（自101年4月起），無須付費及帳號",
+    "field_path": "rules.other[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1494,
+    "venue_name": "集思交通部國際會議中心(MOTC)",
+    "text": "【集思交通部國際會議中心(MOTC)】餐飲規定：本會議中心禁止攜帶外食",
+    "field_path": "rules.catering[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1494,
+    "venue_name": "集思交通部國際會議中心(MOTC)",
+    "text": "【集思交通部國際會議中心(MOTC)】餐飲規定：提供相關會議事務用品代訂，需加收該項服務內容定價之10%為服務費",
+    "field_path": "rules.catering[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1494,
+    "venue_name": "集思交通部國際會議中心(MOTC)",
+    "text": "【集思交通部國際會議中心(MOTC)】音響規定：租用國際會議廳/集會堂須收取駐場工程師服務費，將於活動當天的會議事務用品單中收取（例外：僅國際會議廳與集會堂需收取，201/202會議室無此規定）",
+    "field_path": "rules.sound[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1494,
+    "venue_name": "集思交通部國際會議中心(MOTC)",
+    "text": "【集思交通部國際會議中心(MOTC)】進撤場規定：每時段加收場地租金之10%為場地清潔費",
+    "field_path": "rules.loadIn[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1494,
+    "venue_name": "集思交通部國際會議中心(MOTC)",
+    "text": "【集思交通部國際會議中心(MOTC)】進撤場規定：使用時段為固定三時段：08:00-12:00、13:00-17:00、18:00-21:30",
+    "field_path": "rules.loadIn[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1494,
+    "venue_name": "集思交通部國際會議中心(MOTC)",
+    "text": "【集思交通部國際會議中心(MOTC)】進撤場規定：超過場地租用時段，集思交通部會議中心保有最後租借決定權",
+    "field_path": "rules.loadIn[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1494,
+    "venue_name": "集思交通部國際會議中心(MOTC)",
+    "text": "【集思交通部國際會議中心(MOTC)】風險提示：\n預訂提前時間：需先來電洽詢場地時間後才能正式租借，建議提前預約\n常見問題：禁止攜帶外食，需使用會議中心代訂服務, 國際會議廳為階梯固定座位，活動型態受限, 超時使用由場方保留最後決定權，無明確超時費率",
+    "field_path": "risks",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】餐飲規定：⚫ 活動期間，若自行訂購飲料、點心、餐盒…等餐飲，需酌收每時段每人新台幣30元外食餐飲服務費；",
+    "field_path": "rules.catering[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】餐飲規定：⚫ 乙方於場地使用期間所產生餐飲、事務等費用，應於場地使用結束當日結清餘款，餘款請以付現方",
+    "field_path": "rules.catering[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】餐飲規定：⚫ 會議中心為維護會議室清潔與專業形象，如有餐飲需求請洽會議中心訂購。",
+    "field_path": "rules.catering[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】餐飲規定：一、 欲租借本中心會議場地者，如需使用外食請遵照外食餐飲管理規則，並與合約同時用印，即代表願意遵",
+    "field_path": "rules.catering[3]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】餐飲規定：⚫ 如使用外食須酌收每人每餐期新台幣三十元之餐飲服務清潔費，收費人數依照租借會議空間每ㄧ時",
+    "field_path": "rules.catering[4]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】餐飲規定：⚫ 會議中心為維護與會者權益暨會議中心食品安全與清潔之專業形象，外食擺放區域須遵循會議中心",
+    "field_path": "rules.catering[5]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】餐飲規定：⚫ 會議中心嚴禁攜帶含有酒精性之餐飲。",
+    "field_path": "rules.catering[6]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】餐飲規定：⚫ 活動若須自備外食，請於活動日前十天通知本會議中心。",
+    "field_path": "rules.catering[7]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】餐飲規定：⚫ 會議中心針對會議場地保有公共意外責任保險，若訂購外食餐飲則餐飲安全暨責任歸屬需由主辦單",
+    "field_path": "rules.catering[8]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】餐飲規定：3. 會議中心禁止攜帶外食，另有提供相關會議事務用品代訂，各項服務酌收服務內容定價之 10%為服務費。",
+    "field_path": "rules.catering[9]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】餐飲規定：中式精緻餐盒 (葷) 每個120元/150元/200元 最低需訂購25個 120 0",
+    "field_path": "rules.catering[10]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】餐飲規定：中式精緻餐盒 (素) 每個120元/150元/200元 當天素食不可更動 120 0",
+    "field_path": "rules.catering[11]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】餐飲規定：⚫ 乙方於活動中使用甲方提供之相關會議事務用品包含餐飲代訂、視聽設備、場地佈置、其他雜項等",
+    "field_path": "rules.catering[12]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】餐飲規定：⚫ 餐飲內容類別如違反會議中心規定，經勸阻無效仍攜帶進會議中心，本會議中心有權立即中止餐飲",
+    "field_path": "rules.catering[13]",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】餐飲規定：本會議中心禁帶外食，以上服務項目均收取10%服務費。 服務費 (10%) $0",
+    "field_path": "rules.catering[14]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】佈置規定：費，但不含乙方展示攤位內清潔及活動前後佈置及會後遺留任何廢棄物之清運費用，如需由會議中心",
+    "field_path": "rules.decoration[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】佈置規定：⚫ 舉行活動所須裝潢、佈置、進出場規定，請依照甲方擬定「會議中心管理規則」執行。如有違反，一",
+    "field_path": "rules.decoration[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】佈置規定：1. 若於舉辦活動中，需要在會議室及特定區域之牆面張貼海報或文宣物品，請向本中心客服部洽詢。",
+    "field_path": "rules.decoration[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】佈置規定：3. 場地租借單位所有佈置應限於租用範圍及會議中心指定之區域內，不得隨意放置、妨礙其他租借",
+    "field_path": "rules.decoration[3]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】佈置規定：《會場佈置需求》 報到桌： 1 張 ※客戶簽認簽章：",
+    "field_path": "rules.decoration[4]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】佈置規定：1. 請於活動日7天前(不含假日/不含活動日)回傳此表(餐點、設備需求及會場佈置需求)， (傳真：04-2338-6997)，以便會議中心協助訂單處理。",
+    "field_path": "rules.decoration[5]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】佈置規定：⚫ 乙方於活動中使用甲方提供之相關會議事務用品包含餐飲代訂、視聽設備、場地佈置、其他雜項等",
+    "field_path": "rules.decoration[6]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】取消政策：⚫ 乙方最遲須於場地使用日七日前付清尾款，若不依規定付清尾款，甲方將不退回訂金，且有權將場",
+    "field_path": "rules.cancellation[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】取消政策：⚫ 乙方活動因故取消、改期或調整內容，而有解除合約、縮減租賃範圍或使用期間，應以書面通知甲",
+    "field_path": "rules.cancellation[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】取消政策：⚫ 取消及變更合約規定，活動日三十天前(不含活動日)取消，已繳交費用全額無息退還(匯款退費須扣",
+    "field_path": "rules.cancellation[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】取消政策：利，其場租及場地使用權利得以延後使用，延期期限於半年內並以一次為限，但不接受縮減場地及",
+    "field_path": "rules.cancellation[3]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】取消政策：詳加了解並確實遵守，如有違反，視同違約。",
+    "field_path": "rules.cancellation[4]",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】取消政策：⚫ 請於簽署「場地報價單合約」後七日內繳交場租全額30%做為訂金，否則甲方將視此合約為未完成",
+    "field_path": "rules.cancellation[5]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】取消政策：活動日)取消，已付訂金及尾款沒收，概不退還任何已付費用。",
+    "field_path": "rules.cancellation[6]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】音響規定：2. 活動進行音量不得妨礙其他場地進行，如違反規定不聽勸阻，本會議中心有權立即中止活動進行",
+    "field_path": "rules.sound[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】保險規定：9. 場地租借單位及其承包或施工廠商應自視需要投保相關保險。任何施工或活動進行中造成之財物",
+    "field_path": "rules.insurance[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】保險規定：⚫ 會議中心針對會議場地保有公共意外責任保險，若訂購外食餐飲則餐飲安全暨責任歸屬需由主辦單",
+    "field_path": "rules.insurance[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1496,
+    "venue_name": "集思竹科會議中心(HSPH)",
+    "text": "【集思竹科會議中心(HSPH)】餐飲規定：3. 會議中心禁止攜帶外食，另有提供相關會議事務用品代訂，各項服務酌收服務內容定價之10%為服務費。",
+    "field_path": "rules.catering[0]",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1498,
+    "venue_name": "集思台中新烏日會議中心(WURI)",
+    "text": "【集思台中新烏日會議中心(WURI)】餐飲規定：⚫ 活動期間，若自行訂購飲料、點心、餐盒…等餐飲，需酌收每時段每人新台幣30元外食餐飲服務費；",
+    "field_path": "rules.catering[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1498,
+    "venue_name": "集思台中新烏日會議中心(WURI)",
+    "text": "【集思台中新烏日會議中心(WURI)】餐飲規定：⚫ 乙方於場地使用期間所產生餐飲、事務等費用，應於場地使用結束當日結清餘款，餘款請以付現方",
+    "field_path": "rules.catering[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1498,
+    "venue_name": "集思台中新烏日會議中心(WURI)",
+    "text": "【集思台中新烏日會議中心(WURI)】餐飲規定：⚫ 會議中心為維護會議室清潔與專業形象，如有餐飲需求請洽會議中心訂購。",
+    "field_path": "rules.catering[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1498,
+    "venue_name": "集思台中新烏日會議中心(WURI)",
+    "text": "【集思台中新烏日會議中心(WURI)】餐飲規定：一、 欲租借本中心會議場地者，如需使用外食請遵照外食餐飲管理規則，並與合約同時用印，即代表願意遵",
+    "field_path": "rules.catering[3]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1498,
+    "venue_name": "集思台中新烏日會議中心(WURI)",
+    "text": "【集思台中新烏日會議中心(WURI)】餐飲規定：⚫ 如使用外食須酌收每人每餐期新台幣三十元之餐飲服務清潔費，收費人數依照租借會議空間每ㄧ時",
+    "field_path": "rules.catering[4]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1498,
+    "venue_name": "集思台中新烏日會議中心(WURI)",
+    "text": "【集思台中新烏日會議中心(WURI)】餐飲規定：⚫ 會議中心為維護與會者權益暨會議中心食品安全與清潔之專業形象，外食擺放區域須遵循會議中心",
+    "field_path": "rules.catering[5]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1498,
+    "venue_name": "集思台中新烏日會議中心(WURI)",
+    "text": "【集思台中新烏日會議中心(WURI)】餐飲規定：⚫ 會議中心嚴禁攜帶含有酒精性之餐飲。",
+    "field_path": "rules.catering[6]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1498,
+    "venue_name": "集思台中新烏日會議中心(WURI)",
+    "text": "【集思台中新烏日會議中心(WURI)】餐飲規定：⚫ 活動若須自備外食，請於活動日前十天通知本會議中心。",
+    "field_path": "rules.catering[7]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1498,
+    "venue_name": "集思台中新烏日會議中心(WURI)",
+    "text": "【集思台中新烏日會議中心(WURI)】餐飲規定：⚫ 會議中心針對會議場地保有公共意外責任保險，若訂購外食餐飲則餐飲安全暨責任歸屬需由主辦單",
+    "field_path": "rules.catering[8]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1498,
+    "venue_name": "集思台中新烏日會議中心(WURI)",
+    "text": "【集思台中新烏日會議中心(WURI)】餐飲規定：3. 會議中心禁止攜帶外食，另有提供相關會議事務用品代訂，各項服務酌收服務內容定價之 10%為服務費。",
+    "field_path": "rules.catering[9]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1498,
+    "venue_name": "集思台中新烏日會議中心(WURI)",
+    "text": "【集思台中新烏日會議中心(WURI)】餐飲規定：中式精緻餐盒 (葷) 每個120元/150元/200元 最低需訂購25個 120 0",
+    "field_path": "rules.catering[10]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1498,
+    "venue_name": "集思台中新烏日會議中心(WURI)",
+    "text": "【集思台中新烏日會議中心(WURI)】餐飲規定：中式精緻餐盒 (素) 每個120元/150元/200元 當天素食不可更動 120 0",
+    "field_path": "rules.catering[11]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1498,
+    "venue_name": "集思台中新烏日會議中心(WURI)",
+    "text": "【集思台中新烏日會議中心(WURI)】佈置規定：費，但不含乙方展示攤位內清潔及活動前後佈置及會後遺留任何廢棄物之清運費用，如需由會議中心",
+    "field_path": "rules.decoration[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1498,
+    "venue_name": "集思台中新烏日會議中心(WURI)",
+    "text": "【集思台中新烏日會議中心(WURI)】佈置規定：⚫ 舉行活動所須裝潢、佈置、進出場規定，請依照甲方擬定「會議中心管理規則」執行。如有違反，一",
+    "field_path": "rules.decoration[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1498,
+    "venue_name": "集思台中新烏日會議中心(WURI)",
+    "text": "【集思台中新烏日會議中心(WURI)】佈置規定：1. 若於舉辦活動中，需要在會議室及特定區域之牆面張貼海報或文宣物品，請向本中心客服部洽詢。",
+    "field_path": "rules.decoration[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1498,
+    "venue_name": "集思台中新烏日會議中心(WURI)",
+    "text": "【集思台中新烏日會議中心(WURI)】佈置規定：3. 場地租借單位所有佈置應限於租用範圍及會議中心指定之區域內，不得隨意放置、妨礙其他租借",
+    "field_path": "rules.decoration[3]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1498,
+    "venue_name": "集思台中新烏日會議中心(WURI)",
+    "text": "【集思台中新烏日會議中心(WURI)】佈置規定：《會場佈置需求》 報到桌： 1 張 ※客戶簽認簽章：",
+    "field_path": "rules.decoration[4]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1498,
+    "venue_name": "集思台中新烏日會議中心(WURI)",
+    "text": "【集思台中新烏日會議中心(WURI)】佈置規定：1. 請於活動日7天前(不含假日/不含活動日)回傳此表(餐點、設備需求及會場佈置需求)， (傳真：04-2338-6997)，以便會議中心協助訂單處理。",
+    "field_path": "rules.decoration[5]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1498,
+    "venue_name": "集思台中新烏日會議中心(WURI)",
+    "text": "【集思台中新烏日會議中心(WURI)】取消政策：⚫ 乙方最遲須於場地使用日七日前付清尾款，若不依規定付清尾款，甲方將不退回訂金，且有權將場",
+    "field_path": "rules.cancellation[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1498,
+    "venue_name": "集思台中新烏日會議中心(WURI)",
+    "text": "【集思台中新烏日會議中心(WURI)】取消政策：⚫ 乙方活動因故取消、改期或調整內容，而有解除合約、縮減租賃範圍或使用期間，應以書面通知甲",
+    "field_path": "rules.cancellation[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1498,
+    "venue_name": "集思台中新烏日會議中心(WURI)",
+    "text": "【集思台中新烏日會議中心(WURI)】取消政策：⚫ 取消及變更合約規定，活動日三十天前(不含活動日)取消，已繳交費用全額無息退還(匯款退費須扣",
+    "field_path": "rules.cancellation[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1498,
+    "venue_name": "集思台中新烏日會議中心(WURI)",
+    "text": "【集思台中新烏日會議中心(WURI)】取消政策：利，其場租及場地使用權利得以延後使用，延期期限於半年內並以一次為限，但不接受縮減場地及",
+    "field_path": "rules.cancellation[3]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1498,
+    "venue_name": "集思台中新烏日會議中心(WURI)",
+    "text": "【集思台中新烏日會議中心(WURI)】音響規定：2. 活動進行音量不得妨礙其他場地進行，如違反規定不聽勸阻，本會議中心有權立即中止活動進行",
+    "field_path": "rules.sound[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1498,
+    "venue_name": "集思台中新烏日會議中心(WURI)",
+    "text": "【集思台中新烏日會議中心(WURI)】保險規定：9. 場地租借單位及其承包或施工廠商應自視需要投保相關保險。任何施工或活動進行中造成之財物",
+    "field_path": "rules.insurance[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1498,
+    "venue_name": "集思台中新烏日會議中心(WURI)",
+    "text": "【集思台中新烏日會議中心(WURI)】保險規定：⚫ 會議中心針對會議場地保有公共意外責任保險，若訂購外食餐飲則餐飲安全暨責任歸屬需由主辦單",
+    "field_path": "rules.insurance[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1498,
+    "venue_name": "集思台中新烏日會議中心(WURI)",
+    "text": "【集思台中新烏日會議中心(WURI) - 瓦特廳】進撤場：\n進場⚫ 場地進場布置時間(綵排、設備測試)如下： / 撤場?",
+    "field_path": "rooms.1498-瓦特廳.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1498,
+    "venue_name": "集思台中新烏日會議中心(WURI)",
+    "text": "【集思台中新烏日會議中心(WURI) - 巴本廳】進撤場：\n進場⚫ 場地進場布置時間(綵排、設備測試)如下： / 撤場?",
+    "field_path": "rooms.1498-巴本廳.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1498,
+    "venue_name": "集思台中新烏日會議中心(WURI)",
+    "text": "【集思台中新烏日會議中心(WURI) - 富蘭克林廳】進撤場：\n進場⚫ 場地進場布置時間(綵排、設備測試)如下： / 撤場?",
+    "field_path": "rooms.1498-富蘭克林廳.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1498,
+    "venue_name": "集思台中新烏日會議中心(WURI)",
+    "text": "【集思台中新烏日會議中心(WURI) - 史蒂文生廳】進撤場：\n進場⚫ 場地進場布置時間(綵排、設備測試)如下： / 撤場?",
+    "field_path": "rooms.1498-史蒂文生廳.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1498,
+    "venue_name": "集思台中新烏日會議中心(WURI)",
+    "text": "【集思台中新烏日會議中心(WURI) - 4樓休息室】進撤場：\n進場⚫ 場地進場布置時間(綵排、設備測試)如下： / 撤場?",
+    "field_path": "rooms.1498-4樓休息室.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館】餐飲規定：可安排餐飲服務，需使用館內指定廠商或另行申請",
+    "field_path": "rules.catering[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館】餐飲規定：3. 餐飲不得自帶。自帶餐飲除應立即撤除外，並應繳交違約金每日10,000元/每攤位。",
+    "field_path": "rules.catering[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館】餐飲規定：11. 配合客戶需求，自112年起試辦開放101及201會議室之室內使用餐飲。惟將酙收清潔費，以會議室場租10%(全會期)計收。",
+    "field_path": "rules.catering[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館】佈置規定：展場內禁止使用壁貼、膠帶，僅限使用可移除式固定物",
+    "field_path": "rules.decoration[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館】佈置規定：6. 22:30-07:30為製冰時段無法提供空調，08:30-22:30佈置或拆場若需提供空調，依「台北國際會議中心各會議室佈置及拆場空",
+    "field_path": "rules.decoration[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館】取消政策：活動前14天取消退80%，7天內取消不退費",
+    "field_path": "rules.cancellation[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館】取消政策：3. 餐飲不得自帶。自帶餐飲除應立即撤除外，並應繳交違約金每日10,000元/每攤位。",
+    "field_path": "rules.cancellation[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館】風險提示：\n預訂提前時間：活動日前30天（旺季建議提前3個月）\n旺季：6月畢業季, 10-12月展覽旺季, 年底尾牙季\n常見問題：展覽期間周邊交通壅塞, 4F/5F會議室無窗",
+    "field_path": "risks",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館 - 展場a】限制：天花板高度3.9公尺，大型吊掛設備需提前申請",
+    "field_path": "rooms.1500-01.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館 - 展場a】進撤場：\n卸貨區：1F北側卸貨區",
+    "field_path": "rooms.1500-01.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館 - 宴會廳】限制：天花板高度3.9公尺，大型吊掛設備需提前申請",
+    "field_path": "rooms.1500-02.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館 - 宴會廳】進撤場：\n卸貨區：1F北側卸貨區",
+    "field_path": "rooms.1500-02.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館 - 401會議室】進撤場：",
+    "field_path": "rooms.1500-03.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館 - 402會議室】進撤場：",
+    "field_path": "rooms.1500-04.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館 - 402a會議室】進撤場：",
+    "field_path": "rooms.1500-05.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館 - 402b會議室】進撤場：",
+    "field_path": "rooms.1500-06.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館 - 402c會議室】進撤場：",
+    "field_path": "rooms.1500-07.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館 - 402a+b會議室】進撤場：",
+    "field_path": "rooms.1500-08.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館 - 402b+c會議室】進撤場：",
+    "field_path": "rooms.1500-09.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館 - 403會議室】進撤場：",
+    "field_path": "rooms.1500-10.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館 - 404會議室】進撤場：",
+    "field_path": "rooms.1500-11.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館 - 500會議室】進撤場：",
+    "field_path": "rooms.1500-12.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館 - 501會議室】進撤場：",
+    "field_path": "rooms.1500-13.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館 - 502會議室】進撤場：",
+    "field_path": "rooms.1500-14.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館 - 503會議室】進撤場：",
+    "field_path": "rooms.1500-15.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館 - 504會議室】進撤場：",
+    "field_path": "rooms.1500-16.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館 - 504a會議室】進撤場：",
+    "field_path": "rooms.1500-17.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館 - 504b會議室】進撤場：",
+    "field_path": "rooms.1500-18.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館 - 504c會議室】進撤場：",
+    "field_path": "rooms.1500-19.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館 - 504a+b會議室】進撤場：",
+    "field_path": "rooms.1500-20.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館 - 504b+c會議室】進撤場：",
+    "field_path": "rooms.1500-21.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館 - 505會議室】進撤場：",
+    "field_path": "rooms.1500-22.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館 - 505a會議室】進撤場：",
+    "field_path": "rooms.1500-23.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館 - 505b會議室】進撤場：",
+    "field_path": "rooms.1500-24.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館 - 505c會議室】進撤場：",
+    "field_path": "rooms.1500-25.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館 - 505a+b會議室】進撤場：",
+    "field_path": "rooms.1500-26.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館 - 505b+c會議室】進撤場：",
+    "field_path": "rooms.1500-27.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館 - 506會議室】進撤場：",
+    "field_path": "rooms.1500-28.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館 - 507會議室】進撤場：",
+    "field_path": "rooms.1500-29.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1501,
+    "venue_name": "南港展覽館2館",
+    "text": "【南港展覽館2館】餐飲規定：可安排餐飲服務，需使用館內指定廠商或另行申請",
+    "field_path": "rules.catering[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1501,
+    "venue_name": "南港展覽館2館",
+    "text": "【南港展覽館2館】餐飲規定：12. 非經本中心同意，所有視聽設備及餐飲均不得自備，餐飲請洽2樓餐廳，電話：02-27292268#7303、手機：",
+    "field_path": "rules.catering[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1501,
+    "venue_name": "南港展覽館2館",
+    "text": "【南港展覽館2館】餐飲規定：(1) 自備餐飲者，需加收餐飲附加費$3,000(含稅)。",
+    "field_path": "rules.catering[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1501,
+    "venue_name": "南港展覽館2館",
+    "text": "【南港展覽館2館】音響規定：7F大型場地音量需特別注意隔音",
+    "field_path": "rules.sound[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1501,
+    "venue_name": "南港展覽館2館",
+    "text": "【南港展覽館2館】音響規定：13. 如需架設展覽攤位、音響、燈光、舞台、攝錄影設備、廣告物及活動物品等、或有使用油壓車、大型推車",
+    "field_path": "rules.sound[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1501,
+    "venue_name": "南港展覽館2館",
+    "text": "【南港展覽館2館】進撤場規定：進場時間依租約約定，一般為活動前2小時",
+    "field_path": "rules.loadIn[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1501,
+    "venue_name": "南港展覽館2館",
+    "text": "【南港展覽館2館】進撤場規定：等拖拉工具、及其他自備器材、道具等，承租單位應於進場前加鋪地毯以維持場地環境，如未按規定加鋪",
+    "field_path": "rules.loadIn[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1501,
+    "venue_name": "南港展覽館2館",
+    "text": "【南港展覽館2館】進撤場規定：地毯而逕行進場者，將按該時段場地租金加收 50%費用，如導致地毯汙損，則需照價賠償並酌收場地清潔",
+    "field_path": "rules.loadIn[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1501,
+    "venue_name": "南港展覽館2館",
+    "text": "【南港展覽館2館】取消政策：活動前14天取消退80%，7天內取消不退費",
+    "field_path": "rules.cancellation[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1501,
+    "venue_name": "南港展覽館2館",
+    "text": "【南港展覽館2館】取消政策：3. 若以電話口頭或來信書面預定保留，需兩周內提交申請單，逾時則取消預定且不另行通知。",
+    "field_path": "rules.cancellation[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1501,
+    "venue_name": "南港展覽館2館",
+    "text": "【南港展覽館2館】取消政策：(2) 基本配備若不需使用亦不得退費。",
+    "field_path": "rules.cancellation[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1501,
+    "venue_name": "南港展覽館2館",
+    "text": "【南港展覽館2館】取消政策：15. 如活動因故取消、改期或調整內容，應以書面通知本中心，否則應依原租賃合約之約定，履行場租給付之",
+    "field_path": "rules.cancellation[3]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1501,
+    "venue_name": "南港展覽館2館",
+    "text": "【南港展覽館2館】取消政策：（已繳交之設備租金費用，全額無息退還）；或得以原場地延期乙次(新、舊檔期舉之時間間隔不得超",
+    "field_path": "rules.cancellation[4]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1501,
+    "venue_name": "南港展覽館2館",
+    "text": "【南港展覽館2館】取消政策：過一個月)，不接受更換縮減場地退差價事宜，若再次取消，已付場地租金需全額沒收。",
+    "field_path": "rules.cancellation[5]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1501,
+    "venue_name": "南港展覽館2館",
+    "text": "【南港展覽館2館】取消政策：(4) 如遇天災、緊急避難、公共安全或其他不可抗力事由，致必須取消場地時，如無法改期者，本中心將",
+    "field_path": "rules.cancellation[6]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1501,
+    "venue_name": "南港展覽館2館",
+    "text": "【南港展覽館2館】取消政策：公告不得作為要求取消之依據，惟本中心得以政府單位所發佈之公告做為是否取消場地之依據，本中",
+    "field_path": "rules.cancellation[7]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1501,
+    "venue_name": "南港展覽館2館",
+    "text": "【南港展覽館2館】風險提示：\n預訂提前時間：活動日前30天（旺季建議提前3個月）\n旺季：6月畢業季, 10-12月展覽旺季, 年底尾牙季\n常見問題：7F大會議室無窗, 6F會議室空間較為緊湊",
+    "field_path": "risks",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1501,
+    "venue_name": "南港展覽館2館",
+    "text": "【南港展覽館2館 - 401會議室】限制：天花板高度2.6公尺，超過2.1公尺的舞台設備需確認可行性",
+    "field_path": "rooms.1501-01.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1501,
+    "venue_name": "南港展覽館2館",
+    "text": "【南港展覽館2館 - 401會議室】進撤場：",
+    "field_path": "rooms.1501-01.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1501,
+    "venue_name": "南港展覽館2館",
+    "text": "【南港展覽館2館 - 601會議室】限制：天花板高度2.9公尺，超過2.4公尺的舞台設備需確認可行性",
+    "field_path": "rooms.1501-02.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1501,
+    "venue_name": "南港展覽館2館",
+    "text": "【南港展覽館2館 - 601會議室】進撤場：",
+    "field_path": "rooms.1501-02.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1501,
+    "venue_name": "南港展覽館2館",
+    "text": "【南港展覽館2館 - 602會議室】限制：天花板高度2.9公尺，超過2.4公尺的舞台設備需確認可行性",
+    "field_path": "rooms.1501-03.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1501,
+    "venue_name": "南港展覽館2館",
+    "text": "【南港展覽館2館 - 602會議室】進撤場：",
+    "field_path": "rooms.1501-03.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1501,
+    "venue_name": "南港展覽館2館",
+    "text": "【南港展覽館2館 - 603會議室】限制：天花板高度2.9公尺，超過2.4公尺的舞台設備需確認可行性",
+    "field_path": "rooms.1501-04.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1501,
+    "venue_name": "南港展覽館2館",
+    "text": "【南港展覽館2館 - 603會議室】進撤場：",
+    "field_path": "rooms.1501-04.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1501,
+    "venue_name": "南港展覽館2館",
+    "text": "【南港展覽館2館 - 701會議室】限制：天花板高度9.0公尺，適合大型舞台搭建，但吊掛作業需提前申請",
+    "field_path": "rooms.1501-05.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1501,
+    "venue_name": "南港展覽館2館",
+    "text": "【南港展覽館2館 - 701會議室】進撤場：",
+    "field_path": "rooms.1501-05.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1501,
+    "venue_name": "南港展覽館2館",
+    "text": "【南港展覽館2館 - 702會議室】限制：天花板高度2.7公尺，超過2.2公尺的舞台設備需確認可行性",
+    "field_path": "rooms.1501-06.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1501,
+    "venue_name": "南港展覽館2館",
+    "text": "【南港展覽館2館 - 702會議室】進撤場：",
+    "field_path": "rooms.1501-06.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1501,
+    "venue_name": "南港展覽館2館",
+    "text": "【南港展覽館2館 - 703會議室】限制：天花板高度2.7公尺，超過2.2公尺的舞台設備需確認可行性",
+    "field_path": "rooms.1501-07.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1501,
+    "venue_name": "南港展覽館2館",
+    "text": "【南港展覽館2館 - 703會議室】進撤場：",
+    "field_path": "rooms.1501-07.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1504,
+    "venue_name": "高雄國際會議中心",
+    "text": "【高雄國際會議中心 - 階梯會議室】進撤場：",
+    "field_path": "rooms.1504-階梯會議室.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1504,
+    "venue_name": "高雄國際會議中心",
+    "text": "【高雄國際會議中心 - 大型會議室】進撤場：",
+    "field_path": "rooms.1504-大型會議室.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1504,
+    "venue_name": "高雄國際會議中心",
+    "text": "【高雄國際會議中心 - 電腦教室】進撤場：",
+    "field_path": "rooms.1504-電腦教室.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1504,
+    "venue_name": "高雄國際會議中心",
+    "text": "【高雄國際會議中心 - 中型會議室】進撤場：",
+    "field_path": "rooms.1504-中型會議室.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1504,
+    "venue_name": "高雄國際會議中心",
+    "text": "【高雄國際會議中心 - 宴會廳漢和廳宴會廳】進撤場：",
+    "field_path": "rooms.1504-宴會廳漢和廳宴會廳.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1504,
+    "venue_name": "高雄國際會議中心",
+    "text": "【高雄國際會議中心 - 漢和廳宴會廳】進撤場：",
+    "field_path": "rooms.1504-漢和廳宴會廳.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1505,
+    "venue_name": "漢來大飯店",
+    "text": "【漢來大飯店】餐飲規定：限用飯店餐飲服務，提供中式及西式宴席，不可外燴",
+    "field_path": "rules.catering[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1505,
+    "venue_name": "漢來大飯店",
+    "text": "【漢來大飯店】餐飲規定：婚宴及宴會需達最低桌數要求（通常15-20桌起）",
+    "field_path": "rules.catering[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1505,
+    "venue_name": "漢來大飯店",
+    "text": "【漢來大飯店】佈置規定：場佈需提前申請，不得使用破壞性素材（膠帶、釘子等）",
+    "field_path": "rules.decoration[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1505,
+    "venue_name": "漢來大飯店",
+    "text": "【漢來大飯店】佈置規定：大型佈置（舞台、LED牆）需額外投保場地險",
+    "field_path": "rules.decoration[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1505,
+    "venue_name": "漢來大飯店",
+    "text": "【漢來大飯店】音響規定：場地配備基本音響設備，額外設備需提前申請",
+    "field_path": "rules.sound[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1505,
+    "venue_name": "漢來大飯店",
+    "text": "【漢來大飯店】音響規定：噪音管制至晚間22:00，戶外區域需特別注意音量",
+    "field_path": "rules.sound[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1505,
+    "venue_name": "漢來大飯店",
+    "text": "【漢來大飯店】進撤場規定：進場施工需預約貨梯，大型道具限2噸以下",
+    "field_path": "rules.loadIn[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1505,
+    "venue_name": "漢來大飯店",
+    "text": "【漢來大飯店】進撤場規定：場佈進場時間通常為活動前4-6小時，大型活動可協調提前一日",
+    "field_path": "rules.loadIn[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1505,
+    "venue_name": "漢來大飯店",
+    "text": "【漢來大飯店】取消政策：活動前90天取消退訂金80%，60天前退50%，30天內不退款",
+    "field_path": "rules.cancellation[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1505,
+    "venue_name": "漢來大飯店",
+    "text": "【漢來大飯店】保險規定：大型活動（500人以上）建議投保公共意外責任險",
+    "field_path": "rules.insurance[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1505,
+    "venue_name": "漢來大飯店",
+    "text": "【漢來大飯店 - Meeting Room】限制：限用飯店餐飲，不可外燴; 噪音管制至22:00",
+    "field_path": "rooms.1505-MeetingRoo.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1506,
+    "venue_name": "瓏山林台北中和飯店",
+    "text": "【瓏山林台北中和飯店】餐飲規定：對於持續數日的會議，餐飲部準備多種不同茶點組合，如果您需要更詳盡的資料，歡迎與我們聯絡，瓏山林台北中和飯店期待為您服務。",
+    "field_path": "rules.catering[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1506,
+    "venue_name": "瓏山林台北中和飯店",
+    "text": "【瓏山林台北中和飯店】佈置規定：會議場地佈置: 依照您的需求調整會議空間，例如：U字型、教室型...等。",
+    "field_path": "rules.decoration[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1509,
+    "venue_name": "晶宴會館 峇里斯莊園",
+    "text": "【晶宴會館 峇里斯莊園】佈置規定：晶宴民權館​​位於台北市中心地帶，共有2層樓設有5個宴會廳，挑高樓面與氣派輝煌的空間，展現企業的高度與大器；鎮館之寶亦是世界女伶－莎拉布萊曼指定之第一音響品牌NEXO，搭配陣列式線性懸吊式喇叭技術，及百萬級視聽影音設備，可滿足席間活動或表演的各種需求。",
+    "field_path": "rules.decoration[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1509,
+    "venue_name": "晶宴會館 峇里斯莊園",
+    "text": "【晶宴會館 峇里斯莊園】音響規定：晶宴民權館​​位於台北市中心地帶，共有2層樓設有5個宴會廳，挑高樓面與氣派輝煌的空間，展現企業的高度與大器；鎮館之寶亦是世界女伶－莎拉布萊曼指定之第一音響品牌NEXO，搭配陣列式線性懸吊式喇叭技術，及百萬級視聽影音設備，可滿足席間活動或表演的各種需求。",
+    "field_path": "rules.sound[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1514,
+    "venue_name": "晶宴會館 峇里斯莊園",
+    "text": "【晶宴會館 峇里斯莊園】佈置規定：晶宴民權館​​位於台北市中心地帶，共有2層樓設有5個宴會廳，挑高樓面與氣派輝煌的空間，展現企業的高度與大器；鎮館之寶亦是世界女伶－莎拉布萊曼指定之第一音響品牌NEXO，搭配陣列式線性懸吊式喇叭技術，及百萬級視聽影音設備，可滿足席間活動或表演的各種需求。",
+    "field_path": "rules.decoration[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1514,
+    "venue_name": "晶宴會館 峇里斯莊園",
+    "text": "【晶宴會館 峇里斯莊園】音響規定：晶宴民權館​​位於台北市中心地帶，共有2層樓設有5個宴會廳，挑高樓面與氣派輝煌的空間，展現企業的高度與大器；鎮館之寶亦是世界女伶－莎拉布萊曼指定之第一音響品牌NEXO，搭配陣列式線性懸吊式喇叭技術，及百萬級視聽影音設備，可滿足席間活動或表演的各種需求。",
+    "field_path": "rules.sound[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1515,
+    "venue_name": "晶宴會館 府中館",
+    "text": "【晶宴會館 府中館】佈置規定：晶宴民權館​​位於台北市中心地帶，共有2層樓設有5個宴會廳，挑高樓面與氣派輝煌的空間，展現企業的高度與大器；鎮館之寶亦是世界女伶－莎拉布萊曼指定之第一音響品牌NEXO，搭配陣列式線性懸吊式喇叭技術，及百萬級視聽影音設備，可滿足席間活動或表演的各種需求。",
+    "field_path": "rules.decoration[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1515,
+    "venue_name": "晶宴會館 府中館",
+    "text": "【晶宴會館 府中館】音響規定：晶宴民權館​​位於台北市中心地帶，共有2層樓設有5個宴會廳，挑高樓面與氣派輝煌的空間，展現企業的高度與大器；鎮館之寶亦是世界女伶－莎拉布萊曼指定之第一音響品牌NEXO，搭配陣列式線性懸吊式喇叭技術，及百萬級視聽影音設備，可滿足席間活動或表演的各種需求。",
+    "field_path": "rules.sound[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1524,
+    "venue_name": "林皇宮花園",
+    "text": "【林皇宮花園】餐飲規定：【平日限定】2025工商宴席專案－豐衣足蛇",
+    "field_path": "rules.catering[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1525,
+    "venue_name": "潮港城宴會廳 南屯店",
+    "text": "【潮港城宴會廳 南屯店】餐飲規定：top of page首頁最新消息會議宴會婚宴場地帝國宴會廳VIP包廂場地租借時尚宴會廳宴席服務2026外燴辦桌專案2026潮港城婚宴專案2026彌月油飯禮盒2026春酒專案節慶相關2026日本美食節活動開跑2026潮港城董娘粽早鳥專案預購中2026潮愛媽咪母親節專案2026母親節限定拍照抽餐券品牌餐廳太陽百匯福瑞堂-創新台菜港佬大潮膳閣豬在瘋豬腳專賣店 腿庫｜爌肉｜魯肉飯集團介紹品牌故事得獎事跡歷史軌跡ESG社會責仕人力招募會員專區2026潮會員專屬優惠潮會員登入訂位管理會員說明常見問題訂位須知隱私權政策更多服務線上訂位預約訂席企業福委異業特約商店旅遊同業料理過敏原查詢檢驗報告MoreUse tab to navigate through the menu items.太陽百匯線上訂位",
+    "field_path": "rules.catering[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1525,
+    "venue_name": "潮港城宴會廳 南屯店",
+    "text": "【潮港城宴會廳 南屯店】餐飲規定：感受完美宴席禮遇、重要時刻賓主盡歡press to zoompress to zoompress to zoompress to zoompress to zoompress to zoom1/2公關活動、產品發表會、經銷商、座談會、企業年會、慶祝活動、大型會議等彈性運用的各式場地，滿足您多元使用需求，搭配完善先進的軟硬體設施，帶來不同凡響的無限商機！(場地配置客製化：劇院型、酒會型、教室型、宴會型、自助型、中小企業小會議等。)​選擇館別台中南屯時尚宴會廳",
+    "field_path": "rules.catering[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1525,
+    "venue_name": "潮港城宴會廳 南屯店",
+    "text": "【潮港城宴會廳 南屯店 - 典雅的多功能宴會廳】進撤場：\n卸貨區：前行至公益路迴轉外車道⭢潮港城國際美食館",
+    "field_path": "rooms.1525-典雅的多功能宴會廳.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1527,
+    "venue_name": "義大世界會議中心",
+    "text": "【義大世界會議中心】餐飲規定：專業會務經理人針對您的需求精心規劃宴會主題與空間，提供視聽設備及多樣化精緻餐飲選擇，家族聚會或企業舉辦座談會的理想場所。",
+    "field_path": "rules.catering[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1527,
+    "venue_name": "義大世界會議中心",
+    "text": "【義大世界會議中心】餐飲規定：宴會餐飲須由義大皇家酒店宴會部統一供應，禁止外燴或自帶餐食",
+    "field_path": "rules.catering[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1527,
+    "venue_name": "義大世界會議中心",
+    "text": "【義大世界會議中心】餐飲規定：素食/特殊飲食需求需於活動前7天提出",
+    "field_path": "rules.catering[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1527,
+    "venue_name": "義大世界會議中心",
+    "text": "【義大世界會議中心】餐飲規定：酒類供應需透過飯店安排，不得自行攜帶含酒精飲品",
+    "field_path": "rules.catering[3]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1527,
+    "venue_name": "義大世界會議中心",
+    "text": "【義大世界會議中心】佈置規定：場地內禁止使用圖釘、膠帶、雙面膠黏貼牆面及柱子",
+    "field_path": "rules.decoration[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1527,
+    "venue_name": "義大世界會議中心",
+    "text": "【義大世界會議中心】佈置規定：禁止使用撒花、拉炮、煙火、仙女棒等易燃物品",
+    "field_path": "rules.decoration[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1527,
+    "venue_name": "義大世界會議中心",
+    "text": "【義大世界會議中心】佈置規定：大型佈置物（背板、舞台結構）需於活動前3個工作天提交尺寸及重量資料審核",
+    "field_path": "rules.decoration[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1527,
+    "venue_name": "義大世界會議中心",
+    "text": "【義大世界會議中心】佈置規定：氣球佈置需使用飯店核准之材質，金屬箔氣球需固定不得飄浮至天花板",
+    "field_path": "rules.decoration[3]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1527,
+    "venue_name": "義大世界會議中心",
+    "text": "【義大世界會議中心】音響規定：音量限制：室內不得超過90分貝，戶外活動不得超過80分貝",
+    "field_path": "rules.sound[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1527,
+    "venue_name": "義大世界會議中心",
+    "text": "【義大世界會議中心】音響規定：夜間時段（22:00後）禁止使用戶外擴音設備",
+    "field_path": "rules.sound[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1527,
+    "venue_name": "義大世界會議中心",
+    "text": "【義大世界會議中心】進撤場規定：進場佈置需預約時段，大型佈置建議於活動前一天下午進場",
+    "field_path": "rules.loadIn[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1527,
+    "venue_name": "義大世界會議中心",
+    "text": "【義大世界會議中心】進撤場規定：車輛卸貨需使用指定卸貨區，限重3噸以下車輛",
+    "field_path": "rules.loadIn[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1527,
+    "venue_name": "義大世界會議中心",
+    "text": "【義大世界會議中心】進撤場規定：活動結束後需於當日24:00前完成撤場，超時每小時加收NT$10,000",
+    "field_path": "rules.loadIn[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1527,
+    "venue_name": "義大世界會議中心",
+    "text": "【義大世界會議中心】取消政策：活動前90天以上取消：全額退還訂金（扣除5%行政手續費）",
+    "field_path": "rules.cancellation[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1527,
+    "venue_name": "義大世界會議中心",
+    "text": "【義大世界會議中心】取消政策：活動前60-89天取消：退還50%訂金",
+    "field_path": "rules.cancellation[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1527,
+    "venue_name": "義大世界會議中心",
+    "text": "【義大世界會議中心】取消政策：活動前30-59天取消：退還25%訂金",
+    "field_path": "rules.cancellation[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1527,
+    "venue_name": "義大世界會議中心",
+    "text": "【義大世界會議中心】取消政策：活動前30天內取消：訂金全額沒收",
+    "field_path": "rules.cancellation[3]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1527,
+    "venue_name": "義大世界會議中心",
+    "text": "【義大世界會議中心】保險規定：超過200人之活動，主辦單位需投保公共意外責任險（最低保額每人NT$300萬）",
+    "field_path": "rules.insurance[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1527,
+    "venue_name": "義大世界會議中心",
+    "text": "【義大世界會議中心】保險規定：涉及舞台搭建、特殊表演之活動，需額外投保活動綜合保險",
+    "field_path": "rules.insurance[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1527,
+    "venue_name": "義大世界會議中心",
+    "text": "【義大世界會議中心】其他規定：場地保證金為場租之30%，於簽約時一併繳納",
+    "field_path": "rules.other[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1527,
+    "venue_name": "義大世界會議中心",
+    "text": "【義大世界會議中心 - Conference Room】限制：位於山坡地，聯外道路坡度較大，大型遊覽車需注意會車空間; 週末及國定假日為義大世界主題樂園尖峰時段，園區周邊交通易壅塞; 部分宴會廳有柱子，可能影響視線; 停車場距離會議中心需步行約5-10分鐘（可接駁）; 會議中心空調為中央空調系統，個別場地無法獨立調整溫度",
+    "field_path": "rooms.1527-Conference.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1528,
+    "venue_name": "漢來國際宴會廳",
+    "text": "【漢來國際宴會廳】餐飲規定：限用飯店餐飲服務，提供中式及西式宴席及茶點，不可外燴",
+    "field_path": "rules.catering[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1528,
+    "venue_name": "漢來國際宴會廳",
+    "text": "【漢來國際宴會廳】餐飲規定：會議型活動可安排茶會及自助餐，需另計費用",
+    "field_path": "rules.catering[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1528,
+    "venue_name": "漢來國際宴會廳",
+    "text": "【漢來國際宴會廳】佈置規定：場佈需提前申請，不得使用破壞性素材",
+    "field_path": "rules.decoration[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1528,
+    "venue_name": "漢來國際宴會廳",
+    "text": "【漢來國際宴會廳】佈置規定：會議室內禁止使用噴霧、煙霧機等特殊效果設備",
+    "field_path": "rules.decoration[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1528,
+    "venue_name": "漢來國際宴會廳",
+    "text": "【漢來國際宴會廳】音響規定：場地配備基本音響與投影設備，額外設備需提前申請",
+    "field_path": "rules.sound[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1528,
+    "venue_name": "漢來國際宴會廳",
+    "text": "【漢來國際宴會廳】音響規定：噪音管制至晚間22:00",
+    "field_path": "rules.sound[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1528,
+    "venue_name": "漢來國際宴會廳",
+    "text": "【漢來國際宴會廳】進撤場規定：進場施工需預約貨梯，大型道具限2噸以下",
+    "field_path": "rules.loadIn[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1528,
+    "venue_name": "漢來國際宴會廳",
+    "text": "【漢來國際宴會廳】進撤場規定：會議型活動進場時間通常為活動前2-4小時",
+    "field_path": "rules.loadIn[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1528,
+    "venue_name": "漢來國際宴會廳",
+    "text": "【漢來國際宴會廳】取消政策：活動前90天取消退訂金80%，60天前退50%，30天內不退款",
+    "field_path": "rules.cancellation[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1528,
+    "venue_name": "漢來國際宴會廳",
+    "text": "【漢來國際宴會廳】保險規定：大型活動（500人以上）建議投保公共意外責任險",
+    "field_path": "rules.insurance[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1528,
+    "venue_name": "漢來國際宴會廳",
+    "text": "【漢來國際宴會廳 - Conference Room】限制：限用飯店餐飲，不可外燴; 噪音管制至22:00; 禁止使用噴霧、煙霧機等特殊效果",
+    "field_path": "rooms.1528-Conference.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1532,
+    "venue_name": "新北市工商展覽中心",
+    "text": "【新北市工商展覽中心】餐飲規定：場內禁止使用明火，僅允許電熱保溫設備",
+    "field_path": "rules.catering[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1532,
+    "venue_name": "新北市工商展覽中心",
+    "text": "【新北市工商展覽中心】餐飲規定：餐飲需透過場地核准之廠商或經審查通過之外燴業者",
+    "field_path": "rules.catering[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1532,
+    "venue_name": "新北市工商展覽中心",
+    "text": "【新北市工商展覽中心】餐飲規定：需於申請時註明餐飲形式，並經管理單位同意",
+    "field_path": "rules.catering[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1532,
+    "venue_name": "新北市工商展覽中心",
+    "text": "【新北市工商展覽中心】餐飲規定：廚餘及垃圾需自行清運，不得遺留於場地內（違規：清潔費另計）",
+    "field_path": "rules.catering[3]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1532,
+    "venue_name": "新北市工商展覽中心",
+    "text": "【新北市工商展覽中心】佈置規定：不得使用雙面膠、釘槍、膠帶黏貼牆面及地面（違規：損壞需照價賠償）",
+    "field_path": "rules.decoration[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1532,
+    "venue_name": "新北市工商展覽中心",
+    "text": "【新北市工商展覽中心】佈置規定：佈置材料需符合消防法規（防焰證明）",
+    "field_path": "rules.decoration[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1532,
+    "venue_name": "新北市工商展覽中心",
+    "text": "【新北市工商展覽中心】佈置規定：氣球佈置需使用支架固定，禁止以膠帶直接黏貼牆柱",
+    "field_path": "rules.decoration[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1532,
+    "venue_name": "新北市工商展覽中心",
+    "text": "【新北市工商展覽中心】音響規定：室內音量不得超過90分貝",
+    "field_path": "rules.sound[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1532,
+    "venue_name": "新北市工商展覽中心",
+    "text": "【新北市工商展覽中心】音響規定：夜間活動（22:00後）禁止擴音設備使用",
+    "field_path": "rules.sound[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1532,
+    "venue_name": "新北市工商展覽中心",
+    "text": "【新北市工商展覽中心】進撤場規定：大型機具進出需提前申請並安排動線",
+    "field_path": "rules.loadIn[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1532,
+    "venue_name": "新北市工商展覽中心",
+    "text": "【新北市工商展覽中心】進撤場規定：貨物搬運需使用指定電梯及通道",
+    "field_path": "rules.loadIn[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1532,
+    "venue_name": "新北市工商展覽中心",
+    "text": "【新北市工商展覽中心】進撤場規定：車輛停放卸貨區以30分鐘為限（違規：逾時需移至一般停車位）",
+    "field_path": "rules.loadIn[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1532,
+    "venue_name": "新北市工商展覽中心",
+    "text": "【新北市工商展覽中心】取消政策：活動前60天以上取消退還80%",
+    "field_path": "rules.cancellation[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1532,
+    "venue_name": "新北市工商展覽中心",
+    "text": "【新北市工商展覽中心】取消政策：活動前30-59天取消退還50%",
+    "field_path": "rules.cancellation[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1532,
+    "venue_name": "新北市工商展覽中心",
+    "text": "【新北市工商展覽中心】取消政策：活動前15-29天取消退還30%",
+    "field_path": "rules.cancellation[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1532,
+    "venue_name": "新北市工商展覽中心",
+    "text": "【新北市工商展覽中心】取消政策：活動前14天內取消不予退費（例外：因天災等不可抗力得全額退費或延期）",
+    "field_path": "rules.cancellation[3]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1532,
+    "venue_name": "新北市工商展覽中心",
+    "text": "【新北市工商展覽中心】保險規定：大型活動（200人以上）需投保公共意外責任險",
+    "field_path": "rules.insurance[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1532,
+    "venue_name": "新北市工商展覽中心",
+    "text": "【新北市工商展覽中心】保險規定：保險金額：每一個人體傷至少300萬，每一事故至少1,500萬",
+    "field_path": "rules.insurance[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1532,
+    "venue_name": "新北市工商展覽中心",
+    "text": "【新北市工商展覽中心】保險規定：保險證明需於活動前7日提交",
+    "field_path": "rules.insurance[2]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1532,
+    "venue_name": "新北市工商展覽中心",
+    "text": "【新北市工商展覽中心】風險提示：\n預訂提前時間：一般活動需30日前申請；大型活動建議60-90日前；年底旺季建議3個月以上\n旺季：10-12月年底旺季, 農曆年前次旺季, 週六為最熱門時段\n常見問題：政府機關活動享有優先權，可能臨時影響檔期, 假日及國定假日加收50%, 冷氣空調費另計，按使用時段及面積計費",
+    "field_path": "risks",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1541,
+    "venue_name": "高雄巨蛋 (Kaohsiung Arena)",
+    "text": "【高雄巨蛋 (Kaohsiung Arena)】餐飲規定：餐飲由台北遠東香格里拉飯店統一供應，不可外燴",
+    "field_path": "rules.catering[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1541,
+    "venue_name": "高雄巨蛋 (Kaohsiung Arena)",
+    "text": "【高雄巨蛋 (Kaohsiung Arena)】佈置規定：佈置需使用不損壞地板及牆面之固定方式，禁止使用膠帶直接貼附",
+    "field_path": "rules.decoration[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1541,
+    "venue_name": "高雄巨蛋 (Kaohsiung Arena)",
+    "text": "【高雄巨蛋 (Kaohsiung Arena)】佈置規定：進場佈置需透過大樓貨梯，大型道具需確認尺寸是否可進入電梯",
+    "field_path": "rules.decoration[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1541,
+    "venue_name": "高雄巨蛋 (Kaohsiung Arena)",
+    "text": "【高雄巨蛋 (Kaohsiung Arena)】音響規定：千萬元影音設備由場地提供，包含投影、音響及LED螢幕同步播放",
+    "field_path": "rules.sound[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1541,
+    "venue_name": "高雄巨蛋 (Kaohsiung Arena)",
+    "text": "【高雄巨蛋 (Kaohsiung Arena)】進撤場規定：進撤場需配合大樓管理規定，上班日白天可能受限於辦公時段",
+    "field_path": "rules.loadIn[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1541,
+    "venue_name": "高雄巨蛋 (Kaohsiung Arena)",
+    "text": "【高雄巨蛋 (Kaohsiung Arena)】進撤場規定：所有物品需經由貨梯搬運至48樓，不可使用客用電梯",
+    "field_path": "rules.loadIn[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1541,
+    "venue_name": "高雄巨蛋 (Kaohsiung Arena)",
+    "text": "【高雄巨蛋 (Kaohsiung Arena)】取消政策：取消政策需電話洽詢確認，建議簽約時確認退費條件",
+    "field_path": "rules.cancellation[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1541,
+    "venue_name": "高雄巨蛋 (Kaohsiung Arena)",
+    "text": "【高雄巨蛋 (Kaohsiung Arena)】保險規定：大型活動可能需投保公共意外責任險，需與場地確認金額要求",
+    "field_path": "rules.insurance[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1541,
+    "venue_name": "高雄巨蛋 (Kaohsiung Arena)",
+    "text": "【高雄巨蛋 (Kaohsiung Arena)】其他規定：場地位於兆豐金融大樓（百揚大樓），需遵守大樓管理委員會各項規定",
+    "field_path": "rules.other[0]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1541,
+    "venue_name": "高雄巨蛋 (Kaohsiung Arena)",
+    "text": "【高雄巨蛋 (Kaohsiung Arena)】其他規定：場地有2026活力會議專案，適用會議型活動",
+    "field_path": "rules.other[1]",
+    "confidence": "unverified"
+  },
+  {
+    "venue_id": 1541,
+    "venue_name": "高雄巨蛋 (Kaohsiung Arena)",
+    "text": "【高雄巨蛋 (Kaohsiung Arena) - Main Arena】限制：位於48樓，大型道具需透過貨梯搬運，高度及寬度受限; 為金融大樓內場地，上班日白天進場時間可能受限制; 無獨立卸貨區，需從大樓地下層或後側進出; 僅有一廳（鼎鼎宴會廳），無法同時分組; 停車位與辦公大樓共用，上班日尖峰時段一位難求",
+    "field_path": "rooms.1541-MainArena.limitations",
+    "confidence": "confirmed"
+  }
+]

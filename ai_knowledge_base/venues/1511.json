@@ -1,0 +1,48 @@
+{
+  "identity": {
+    "id": 1511,
+    "name": "翡麗詩莊園",
+    "nameEn": null,
+    "venueType": "婚宴場地",
+    "city": "新北市",
+    "address": "新北市樹林區中山路二段168號",
+    "url": "https://www.felicite-wed.com/",
+    "phone": null,
+    "contactEmail": null
+  },
+  "summary": null,
+  "risks": null,
+  "rules": null,
+  "pricingTips": null,
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1511-MeetingRoo",
+      "name": "Meeting Room",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": 20,
+        "banquet": 16
+      },
+      "area": 7.5,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

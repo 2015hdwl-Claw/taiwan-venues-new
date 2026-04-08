@@ -1,0 +1,404 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "活動大師 AI 知識庫 Schema",
+  "description": "AI 助理專用的場地知識結構。與前端 venues.json 分離，由 sync_to_ai.py 單向同步。",
+  "version": "1.0.0",
+  "createdAt": "2026-04-04",
+
+  "definitions": {
+    "metadata": {
+      "type": "object",
+      "description": "每筆知識的來源與新鮮度追蹤",
+      "properties": {
+        "source": {
+          "type": "string",
+          "description": "資料來源，如 '官網租借辦法_20260331'、'場地業務回覆_20260405'、'LLM推斷_20260404'"
+        },
+        "verifiedAt": {
+          "type": "string",
+          "format": "date",
+          "description": "最後驗證日期"
+        },
+        "expiresAt": {
+          "type": "string",
+          "format": "date",
+          "description": "到期日，超過此日標記為 needsReview"
+        },
+        "confidence": {
+          "type": "string",
+          "enum": ["confirmed", "unverified", "outdated"],
+          "description": "confirmed=官方文件/業務確認, unverified=LLM推斷/第三方, outdated=已過期"
+        }
+      },
+      "required": ["source", "verifiedAt", "confidence"]
+    },
+
+    "equipmentDetail": {
+      "type": "object",
+      "description": "設備詳細規格（超越前端簡單名稱列表）",
+      "properties": {
+        "name": { "type": "string", "description": "設備名稱" },
+        "spec": { "type": "string", "description": "規格，如 '12000流明'、'BOSE 5.1聲道'" },
+        "externalAllowed": {
+          "type": "boolean",
+          "description": "是否允許自帶同類設備"
+        },
+        "extraCharge": {
+          "type": ["string", "null"],
+          "description": "外接是否額外收費，如 '需付設定費NT$3,000'"
+        }
+      },
+      "required": ["name"]
+    },
+
+    "loadIn": {
+      "type": "object",
+      "description": "進撤場資訊",
+      "properties": {
+        "elevatorCapacity": { "type": ["string", "null"], "description": "貨梯載重，如 '限重1.5噸'" },
+        "elevatorSize": { "type": ["string", "null"], "description": "貨梯尺寸，如 '2.4m x 1.5m x 2.4m'" },
+        "vehicleAccess": { "type": "boolean", "description": "車輛是否可直接到達樓層" },
+        "loadingDock": { "type": ["string", "null"], "description": "卸貨區位置，如 '1F後門，限2噸以下'" },
+        "setupDayBefore": { "type": "boolean", "description": "是否可前一天進場佈置" },
+        "setupDayBeforeNote": { "type": ["string", "null"], "description": "前一天進場的條件/費用" },
+        "loadInTime": { "type": ["string", "null"], "description": "最早進場時間" },
+        "loadOutTime": { "type": ["string", "null"], "description": "最晚撤場時間" },
+        "overtimeRate": { "type": ["string", "null"], "description": "超時費用，如 '每小時NT$15,000'" }
+      }
+    },
+
+    "seasonalInfo": {
+      "type": "object",
+      "description": "季節性資訊",
+      "properties": {
+        "peakMonths": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "旺季月份與原因，如 ['10-12月婚宴旺季', '12-1月尾牙']"
+        },
+        "offPeakDiscount": {
+          "type": ["string", "null"],
+          "description": "淡季折扣，如 '平日85折'"
+        },
+        "bookingLeadTime": {
+          "type": "string",
+          "description": "建議預訂提前量，如 '至少2個月（大型宴會建議4-6個月前）'"
+        },
+        "specialNotes": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "特殊時段備註"
+        }
+      }
+    },
+
+    "logistics": {
+      "type": "object",
+      "description": "交通與後勤資訊",
+      "properties": {
+        "parking": {
+          "type": "object",
+          "properties": {
+            "spaces": { "type": ["integer", "null"], "description": "停車位數量" },
+            "validationHours": { "type": ["integer", "null"], "description": "免費停車時數" },
+            "validationFee": { "type": ["string", "null"], "description": "停車折抵費用說明" },
+            "nearbyParking": { "type": ["string", "null"], "description": "周邊停車場資訊" }
+          }
+        },
+        "nearestMRT": {
+          "type": ["string", "null"],
+          "description": "最近捷運站與步行時間，如 '市政府站3號出口步行5分鐘'"
+        },
+        "wheelchairAccessible": { "type": ["boolean", "null"] },
+        "busParking": {
+          "type": ["string", "null"],
+          "description": "遊覽車停靠資訊"
+        }
+      }
+    },
+
+    "ruleDetail": {
+      "type": "object",
+      "description": "場地規定（比前端更結構化）",
+      "properties": {
+        "rule": { "type": "string", "description": "規定內容" },
+        "exception": { "type": ["string", "null"], "description": "例外情況" },
+        "penalty": { "type": ["string", "null"], "description": "違規後果" },
+        "negotiable": { "type": ["boolean", "null"], "description": "是否可協商" },
+        "confidence": {
+          "type": "string",
+          "enum": ["confirmed", "unverified", "legacy"],
+          "description": "confirmed=嚴格匹配, unverified=寬鬆匹配, legacy=舊資料待補充來源"
+        },
+        "source": {
+          "type": "object",
+          "description": "規則來源資訊",
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": ["pdf", "html", "email", "manual", "legacy"],
+              "description": "來源類型"
+            },
+            "url": { "type": ["string", "null"], "description": "來源 URL（HTML/PDF）" },
+            "file": { "type": ["string", "null"], "description": "本地 PDF 檔名" },
+            "venue_url": { "type": ["string", "null"], "description": "場地官網 URL" },
+            "extractedAt": { "type": ["string", "null"], "description": "提取日期 YYYY-MM-DD" }
+          }
+        }
+      },
+      "required": ["rule"]
+    }
+  },
+
+  "venueKnowledge": {
+    "type": "object",
+    "description": "單一場地的 AI 知識庫檔案（存於 ai_knowledge_base/venues/{id}.json）",
+    "properties": {
+
+      "identity": {
+        "type": "object",
+        "description": "場地基本識別（從 venues.json 同步）",
+        "properties": {
+          "id": { "type": "integer" },
+          "name": { "type": "string" },
+          "nameEn": { "type": ["string", "null"] },
+          "venueType": { "type": "string" },
+          "city": { "type": "string" },
+          "address": { "type": "string" },
+          "url": { "type": "string" },
+          "phone": { "type": ["string", "null"] },
+          "contactEmail": { "type": ["string", "null"] }
+        }
+      },
+
+      "summary": {
+        "type": "object",
+        "description": "場地摘要（給 RAG 檢索用的精簡描述）",
+        "properties": {
+          "shortDescription": {
+            "type": "string",
+            "description": "一句話描述，如 '位於中山北路的歷史地標飯店，擁有挑高11米的大會廳，適合大型宴會與國際會議'"
+          },
+          "totalRooms": { "type": "integer" },
+          "maxCapacity": { "type": "integer" },
+          "priceRange": {
+            "type": "object",
+            "properties": {
+              "halfDayMin": { "type": ["integer", "null"] },
+              "halfDayMax": { "type": ["integer", "null"] },
+              "fullDayMin": { "type": ["integer", "null"] },
+              "fullDayMax": { "type": ["integer", "null"] },
+              "note": { "type": ["string", "null"] }
+            }
+          },
+          "suitableEventTypes": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["研討會", "發表會", "尾牙", "家庭日", "說明會", "培訓課程", "宴會", "婚宴", "展覽", "演唱會", "股東會", "記者會"]
+            },
+            "description": "此場地適合的活動類型（由知識推斷）"
+          },
+          "strengths": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "場地優勢，如 ['挑高大會廳', '國宴級餐飲', '捷運站步行5分鐘']"
+          },
+          "weaknesses": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "場地劣勢，如 ['部分廳天花板低', '旺季難訂', '限用飯店餐飲']"
+          }
+        }
+      },
+
+      "risks": {
+        "type": "object",
+        "description": "風險評估（既有欄位，結構保持不變）",
+        "properties": {
+          "bookingLeadTime": { "type": "string" },
+          "peakSeasons": { "type": "array", "items": { "type": "string" } },
+          "commonIssues": { "type": "array", "items": { "type": "string" } }
+        }
+      },
+
+      "rules": {
+        "type": "object",
+        "description": "場地規定（擴充版：從扁平字串升級為結構化）",
+        "properties": {
+          "catering": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/ruleDetail" },
+            "description": "餐飲規定"
+          },
+          "decoration": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/ruleDetail" },
+            "description": "佈置規定"
+          },
+          "sound": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/ruleDetail" },
+            "description": "音響/噪音規定"
+          },
+          "loadIn": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/ruleDetail" },
+            "description": "進撤場規定"
+          },
+          "cancellation": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/ruleDetail" },
+            "description": "取消/退費規定"
+          },
+          "insurance": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/ruleDetail" },
+            "description": "保險規定"
+          },
+          "other": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/ruleDetail" },
+            "description": "其他規定"
+          }
+        }
+      },
+
+      "pricingTips": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "省錢技巧（既有欄位，保持不變）"
+      },
+
+      "seasonal": {
+        "$ref": "#/definitions/seasonalInfo",
+        "description": "季節性資訊（新增）"
+      },
+
+      "logistics": {
+        "$ref": "#/definitions/logistics",
+        "description": "交通與後勤（新增）"
+      },
+
+      "rooms": {
+        "type": "array",
+        "description": "會議室知識（只包含 AI 需要的欄位，不含前端展示用的 images 等）",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": { "type": "string" },
+            "name": { "type": "string" },
+            "nameEn": { "type": ["string", "null"] },
+            "floor": { "type": ["string", "null"] },
+            "capacity": {
+              "type": "object",
+              "properties": {
+                "theater": { "type": ["integer", "null"] },
+                "classroom": { "type": ["integer", "null"] },
+                "banquet": { "type": ["integer", "null"] },
+                "ushape": { "type": ["integer", "null"] }
+              }
+            },
+            "area": { "type": ["number", "null"], "description": "坪" },
+            "ceilingHeight": { "type": ["number", "null"], "description": "公尺" },
+            "pillar": { "type": ["boolean", "null"] },
+            "pillarInfo": { "type": ["string", "null"] },
+            "suitableEventTypes": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "此會議室特別適合的活動類型"
+            },
+            "equipment": {
+              "type": "array",
+              "items": { "$ref": "#/definitions/equipmentDetail" },
+              "description": "設備詳細規格（超越前端名稱列表）"
+            },
+            "limitations": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "隱藏限制（既有欄位）"
+            },
+            "loadIn": {
+              "$ref": "#/definitions/loadIn",
+              "description": "進場資訊（擴充版）"
+            },
+            "pricing": {
+              "type": "object",
+              "properties": {
+                "halfDay": { "type": ["integer", "null"] },
+                "fullDay": { "type": ["integer", "null"] },
+                "overtimePerHour": { "type": ["integer", "null"] },
+                "note": { "type": ["string", "null"] }
+              }
+            },
+            "breakoutRooms": {
+              "type": "object",
+              "description": "分組討論空間（新增）",
+              "properties": {
+                "available": { "type": "boolean" },
+                "nearbyRoomIds": { "type": "array", "items": { "type": "string" } },
+                "note": { "type": ["string", "null"] }
+              }
+            },
+            "layout": {
+              "type": ["string", "null"],
+              "description": "會議室形狀/格局，如 '長方形'、'正方形'、'扇形'"
+            }
+          }
+        }
+      },
+
+      "ragChunks": {
+        "type": "array",
+        "description": "預切好的 RAG 檢索片段（每段一個主題，方便 embedding）",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": { "type": "string", "description": "片段ID，如 '1072-risks-1'" },
+            "category": {
+              "type": "string",
+              "enum": ["risk", "rule", "pricingTip", "limitation", "logistics", "equipment", "seasonal", "summary"]
+            },
+            "roomId": { "type": ["string", "null"], "description": "若屬於特定會議室" },
+            "text": { "type": "string", "description": "人類可讀的文字片段" },
+            "metadata": { "$ref": "#/definitions/metadata" }
+          },
+          "required": ["id", "category", "text", "metadata"]
+        }
+      },
+
+      "inquiries": {
+        "type": "object",
+        "description": "待發送/已發送的詢問紀錄",
+        "properties": {
+          "pending": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "scenario": { "type": "string", "description": "活動情境" },
+                "questions": { "type": "array", "items": { "type": "string" } },
+                "generatedAt": { "type": "string", "format": "date-time" },
+                "emailDraft": { "type": "string", "description": "完整 email 內容" }
+              }
+            }
+          },
+          "sent": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "sentAt": { "type": "string", "format": "date-time" },
+                "scenario": { "type": "string" },
+                "questions": { "type": "array", "items": { "type": "string" } },
+                "replied": { "type": "boolean" },
+                "replyContent": { "type": ["string", "null"] },
+                "repliedAt": { "type": ["string", "null"], "format": "date-time" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -69,7 +69,7 @@
                 <!-- 空間資訊 -->
                 <section class="room-section">
                     <h2 class="section-heading">📊 空間資訊</h2>
-                    
+
                     <!-- 場地平面圖（第一位） -->
                     <div id="floorPlanSection" class="floor-plan-section" style="display: none;">
                         <div class="floor-plan-header">
@@ -84,7 +84,7 @@
                         <img id="floorPlanImage" class="floor-plan-image" src="" alt="場地圖" style="display: none;">
                         <p class="floor-plan-note">場地配置示意圖（實際佈置可能因活動需求調整）</p>
                     </div>
-                    
+
                     <!-- 主要資訊卡片 -->
                     <div class="space-info-container">
                         <!-- 面積資訊（重點突出） -->
@@ -104,7 +104,7 @@
                             <!-- 動態生成 -->
                         </div>
                     </div>
-                    
+
                     <!-- 空間描述 -->
                     <div class="space-description" id="spaceDescription" style="display: none;">
                         <p id="roomDescription"></p>
@@ -206,6 +206,22 @@
                     </div>
                 </section>
 
+                <!-- 隱藏限制 -->
+                <section class="room-section" id="limitationsSection" style="display: none;">
+                    <h2 class="section-heading">⚠️ 隱藏限制</h2>
+                    <ul id="limitationsList" class="limitations-list">
+                        <!-- 動態生成 -->
+                    </ul>
+                </section>
+
+                <!-- 進場資訊 -->
+                <section class="room-section" id="loadInSection" style="display: none;">
+                    <h2 class="section-heading">🚛 進場資訊</h2>
+                    <div id="loadInGrid" class="loadIn-grid">
+                        <!-- 動態生成 -->
+                    </div>
+                </section>
+
                 <!-- 行動按鈕 -->
                 <section class="room-actions">
                     <a id="roomCallBtn" class="btn btn-primary btn-lg" style="display: none;">
@@ -227,6 +243,6 @@
         </div>
     </footer>
 
-    <script src="room.js"></script>
+    <script src="room.js?v=20260407-v1"></script>
 </body>
 </html>

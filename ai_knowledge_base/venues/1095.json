@@ -1,0 +1,306 @@
+{
+  "identity": {
+    "id": 1095,
+    "name": "台北美福大飯店",
+    "nameEn": null,
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市中山區樂群二路55號",
+    "url": "https://www.grandmayfull.com/",
+    "phone": "+886-2-7722-3399",
+    "contactEmail": "info@grandmayfull.com"
+  },
+  "summary": null,
+  "risks": {
+    "bookingLeadTime": "大型宴會廳建議3-6個月前預訂；尾牙/婚宴旺季需更早",
+    "peakSeasons": [
+      "11-1月尾牙季",
+      "2-3月春酒季",
+      "9-12月婚宴旺季"
+    ],
+    "commonIssues": [
+      "大宴會廳容量數據有出入（官網700人 vs venues.json 550人），需與飯店確認",
+      "PDF價格已過期（2025/12/31），2026年價格需重新詢價",
+      "位於大直美麗華商圈，文湖線劍南路站，非捷運藍線直達"
+    ]
+  },
+  "rules": {
+    "catering": [
+      {
+        "rule": "限用飯店餐飲服務，美福集團旗下擁有七間中西餐廳及酒吧",
+        "exception": "會議方案含一輪茶點（手指食物、礦泉水、咖啡茶）",
+        "penalty": null,
+        "negotiable": true
+      },
+      {
+        "rule": "會議午餐可升級：palette自助餐+NT$300/位、GMT義式/MIPON台菜+NT$600/位、HARUYAMA日式+NT$900/位",
+        "exception": null,
+        "penalty": null,
+        "negotiable": true
+      },
+      {
+        "rule": "每位賓客附文具、礦泉水及薄荷糖",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ],
+    "decoration": [
+      {
+        "rule": "大宴會廳挑高7公尺無柱空間，配有420吋互動式高畫質LED顯示屏幕",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "9F廳房挑高6.4公尺，設大片落地窗",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ],
+    "sound": [
+      {
+        "rule": "大宴會廳配備專業級BOSE音響系統",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "會議方案標配：2支無線麥克風、投影機及螢幕、Wi-Fi、音源線、講台、雷射筆、翻頁白板",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ],
+    "loadIn": [
+      {
+        "rule": "半日方案時段固定08:30-12:00或13:30-16:30；全日方案08:30-16:30",
+        "exception": "實際進場時間需提前與宴會部協調",
+        "penalty": null,
+        "negotiable": true
+      }
+    ],
+    "cancellation": [
+      {
+        "rule": "會議方案最低保證人數20人，未達人數依場地租用定價或保證人數計價",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "飯店保留更改或終止方案之權利",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false
+      }
+    ],
+    "insurance": [
+      {
+        "rule": "未明列保險規範，需個案洽詢宴會部",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ]
+  },
+  "pricingTips": [
+    "半日會議方案NT$2,080+10%/人（含場地、茶點、午餐），全日NT$2,680+10%/人",
+    "場地單租：大宴會廳平日半日NT$200,000/全日NT$350,000，假日加價10%",
+    "報價需乘1.1（服務費）x 1.05（營業稅）= 總價",
+    "會議方案含停車：半日每賓客5小時VIP停車，全日8小時",
+    "商務中心會議室NT$1,000/小時（1F小型空間）",
+    "會議午餐可升級，建議MIPON台菜(+600)CP值最高"
+  ],
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1095-grand-ballroom",
+      "name": "大宴會廳",
+      "nameEn": "Grand Ballroom",
+      "floor": "2F",
+      "capacity": {
+        "theater": 700,
+        "banquet": null,
+        "classroom": 360,
+        "uShape": null,
+        "cocktail": null
+      },
+      "area": 299.7,
+      "ceilingHeight": 7,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 200000,
+        "fullDay": 350000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1095-zhimei",
+      "name": "至美廳",
+      "nameEn": "Zhi Mei Hall",
+      "floor": "9F",
+      "capacity": {
+        "theater": null,
+        "banquet": null,
+        "classroom": 144,
+        "uShape": null,
+        "cocktail": null
+      },
+      "area": 110.1,
+      "ceilingHeight": 6.4,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 80000,
+        "fullDay": 150000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1095-zhifu",
+      "name": "至福廳",
+      "nameEn": "Zhi Fu Hall",
+      "floor": "2F",
+      "capacity": {
+        "theater": null,
+        "banquet": null,
+        "classroom": 60,
+        "uShape": 39,
+        "cocktail": null
+      },
+      "area": 130,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 45000,
+        "fullDay": 85000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1095-xifu",
+      "name": "喜福廳",
+      "nameEn": "Xi Fu Hall",
+      "floor": "9F",
+      "capacity": {
+        "theater": null,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "area": 284,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 60000,
+        "fullDay": 110000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1095-wanfu",
+      "name": "萬福廳",
+      "nameEn": "Wan Fu Hall",
+      "floor": "9F",
+      "capacity": {
+        "theater": null,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "area": 104.1,
+      "ceilingHeight": 6.4,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 75000,
+        "fullDay": 140000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1095-hongfu",
+      "name": "鴻福廳",
+      "nameEn": "Hong Fu Hall",
+      "floor": "9F",
+      "capacity": {
+        "theater": null,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "area": 120.1,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 85000,
+        "fullDay": 160000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1095-hongfu-club",
+      "name": "鴻福會所",
+      "nameEn": "Hong Fu Club",
+      "floor": "9F",
+      "capacity": {
+        "theater": null,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "area": 165,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 35000,
+        "fullDay": 65000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

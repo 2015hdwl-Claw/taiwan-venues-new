@@ -1,0 +1,646 @@
+{
+  "identity": {
+    "id": 1103,
+    "name": "台北萬豪酒店(MarriottTaipei)",
+    "nameEn": null,
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市中山區樂群二路55號",
+    "url": "https://www.taipeimarriott.com.tw/",
+    "phone": null,
+    "contactEmail": null
+  },
+  "summary": null,
+  "risks": {
+    "bookingLeadTime": "至少2個月（大型活動建議6個月前）",
+    "peakSeasons": [
+      "10-12月婚宴旺季",
+      "12-1月尾牙",
+      "6月畢業季"
+    ],
+    "commonIssues": [
+      "挑高9.9m場地為最熱門檔期",
+      "5F以上需使用車梯載運大型設備"
+    ]
+  },
+  "rules": {
+    "catering": [
+      {
+        "rule": "限用飯店餐飲服務"
+      },
+      {
+        "rule": "3. 本會議中心禁止攜帶外食，提供相關會議事務用品代訂，需加收該項服務內容定價之10%為服務費。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ],
+    "decoration": "大型LED螢幕由飯店提供，外部設備需申請",
+    "sound": "專業級BOSE音響，額外設備需技師陪同",
+    "loadIn": "車梯限重5噸，限高2.5米",
+    "cancellation": "依合約條款"
+  },
+  "pricingTips": [
+    "館內提供大型車梯，車輛可直達5樓場地入口",
+    "全日方案含基本燈光音響",
+    "26個場地可同時使用，適合大型展覽+會議",
+    "戶外綠地需額外場地清潔費"
+  ],
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1103-01",
+      "name": "Spring 春",
+      "nameEn": null,
+      "floor": "3F",
+      "capacity": {
+        "theater": 60,
+        "banquet": null,
+        "classroom": 36,
+        "uShape": 24,
+        "cocktail": null,
+        "roundTable": 30,
+        "boardroom": 18
+      },
+      "area": 22.4,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 32000,
+        "fullDay": 70000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1103-02",
+      "name": "Summer 夏",
+      "nameEn": null,
+      "floor": "3F",
+      "capacity": {
+        "theater": 50,
+        "banquet": null,
+        "classroom": 27,
+        "uShape": 21,
+        "cocktail": null,
+        "roundTable": 20,
+        "boardroom": 12
+      },
+      "area": 18.2,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 25000,
+        "fullDay": 50000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1103-03",
+      "name": "Autumn 秋",
+      "nameEn": null,
+      "floor": "3F",
+      "capacity": {
+        "theater": 50,
+        "banquet": null,
+        "classroom": 27,
+        "uShape": 21,
+        "cocktail": null,
+        "roundTable": 20,
+        "boardroom": 12
+      },
+      "area": 18.2,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 25000,
+        "fullDay": 50000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1103-04",
+      "name": "Winter 冬",
+      "nameEn": null,
+      "floor": "3F",
+      "capacity": {
+        "theater": 60,
+        "banquet": null,
+        "classroom": 36,
+        "uShape": 24,
+        "cocktail": null,
+        "roundTable": 30,
+        "boardroom": 18
+      },
+      "area": 20.6,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 32000,
+        "fullDay": 70000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1103-05",
+      "name": "Spring – Winter 四季 3",
+      "nameEn": null,
+      "floor": "3F",
+      "capacity": {
+        "theater": 300,
+        "banquet": null,
+        "classroom": 150,
+        "uShape": null,
+        "cocktail": null,
+        "roundTable": 180,
+        "boardroom": null
+      },
+      "area": 79.3,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 110000,
+        "fullDay": 220000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1103-06",
+      "name": "Salon I 會議一",
+      "nameEn": null,
+      "floor": "5F",
+      "capacity": {
+        "theater": 25,
+        "banquet": null,
+        "classroom": null,
+        "uShape": 15,
+        "cocktail": null,
+        "roundTable": null,
+        "boardroom": 12
+      },
+      "area": 8.2,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 13000,
+        "fullDay": 26000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1103-07",
+      "name": "Salon II 會議二",
+      "nameEn": null,
+      "floor": "5F",
+      "capacity": {
+        "theater": 25,
+        "banquet": null,
+        "classroom": null,
+        "uShape": 15,
+        "cocktail": null,
+        "roundTable": null,
+        "boardroom": 12
+      },
+      "area": 7.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 13000,
+        "fullDay": 26000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1103-08",
+      "name": "Salon III 會議三",
+      "nameEn": null,
+      "floor": "5F",
+      "capacity": {
+        "theater": 25,
+        "banquet": null,
+        "classroom": null,
+        "uShape": 15,
+        "cocktail": null,
+        "roundTable": null,
+        "boardroom": 12
+      },
+      "area": 7.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 13000,
+        "fullDay": 26000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1103-09",
+      "name": "Salon IV 會議四",
+      "nameEn": null,
+      "floor": "5F",
+      "capacity": {
+        "theater": 25,
+        "banquet": null,
+        "classroom": null,
+        "uShape": 15,
+        "cocktail": null,
+        "roundTable": null,
+        "boardroom": 12
+      },
+      "area": 7.9,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 13000,
+        "fullDay": 26000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1103-10",
+      "name": "Salon I+II 會議一 +二",
+      "nameEn": null,
+      "floor": "5F",
+      "capacity": {
+        "theater": 50,
+        "banquet": null,
+        "classroom": 27,
+        "uShape": 21,
+        "cocktail": null,
+        "roundTable": null,
+        "boardroom": 18
+      },
+      "area": 15.7,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 25000,
+        "fullDay": 25000,
+        "note": "Price from PDF: 09:00-16:30, 08:00-21:30 (24h), Setup (2300-0700), Hour"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1103-11",
+      "name": "Salon III+IV 會議 三+四",
+      "nameEn": null,
+      "floor": "5F",
+      "capacity": {
+        "theater": 50,
+        "banquet": null,
+        "classroom": 27,
+        "uShape": 21,
+        "cocktail": null,
+        "roundTable": null,
+        "boardroom": 18
+      },
+      "area": 14.8,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 25000,
+        "fullDay": 50000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1103-12",
+      "name": "Ballroom II 萬豪 二廳 2",
+      "nameEn": null,
+      "floor": "5F",
+      "capacity": {
+        "theater": 500,
+        "banquet": null,
+        "classroom": 240,
+        "uShape": null,
+        "cocktail": null,
+        "roundTable": 200,
+        "boardroom": null
+      },
+      "area": 159.2,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 130000,
+        "fullDay": 260000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1103-13",
+      "name": "Grand Ballroom 萬豪廳 5",
+      "nameEn": null,
+      "floor": "5F",
+      "capacity": {
+        "theater": 1200,
+        "banquet": null,
+        "classroom": 675,
+        "uShape": null,
+        "cocktail": null,
+        "roundTable": 550,
+        "boardroom": null
+      },
+      "area": 381.2,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 290000,
+        "fullDay": 580000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1103-14",
+      "name": "Fortune 福",
+      "nameEn": null,
+      "floor": "5F",
+      "capacity": {
+        "theater": 60,
+        "banquet": null,
+        "classroom": 36,
+        "uShape": 24,
+        "cocktail": null,
+        "roundTable": 35,
+        "boardroom": 18
+      },
+      "area": 21.8,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 25000,
+        "fullDay": 50000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1103-15",
+      "name": "Prosperity 祿",
+      "nameEn": null,
+      "floor": "5F",
+      "capacity": {
+        "theater": 80,
+        "banquet": null,
+        "classroom": 48,
+        "uShape": 27,
+        "cocktail": null,
+        "roundTable": 40,
+        "boardroom": 18
+      },
+      "area": 27.8,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 32000,
+        "fullDay": 64000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1103-16",
+      "name": "Longevity 壽",
+      "nameEn": null,
+      "floor": "5F",
+      "capacity": {
+        "theater": 60,
+        "banquet": null,
+        "classroom": 36,
+        "uShape": 24,
+        "cocktail": null,
+        "roundTable": 35,
+        "boardroom": 18
+      },
+      "area": 22.4,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 25000,
+        "fullDay": 50000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1103-17",
+      "name": "Fortune – Longe vity",
+      "nameEn": null,
+      "floor": "5F",
+      "capacity": {
+        "theater": 250,
+        "banquet": null,
+        "classroom": 135,
+        "uShape": null,
+        "cocktail": null,
+        "roundTable": 170,
+        "boardroom": null
+      },
+      "area": 72.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 80000,
+        "fullDay": 160000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1103-18",
+      "name": "Junior I 宜華一 廳 1",
+      "nameEn": null,
+      "floor": "5F",
+      "capacity": {
+        "theater": 120,
+        "banquet": null,
+        "classroom": 84,
+        "uShape": 42,
+        "cocktail": null,
+        "roundTable": 60,
+        "boardroom": null
+      },
+      "area": 43.9,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 65000,
+        "fullDay": 130000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1103-19",
+      "name": "Junior II 宜華二 廳 1",
+      "nameEn": null,
+      "floor": "5F",
+      "capacity": {
+        "theater": 90,
+        "banquet": null,
+        "classroom": 48,
+        "uShape": 27,
+        "cocktail": null,
+        "roundTable": 45,
+        "boardroom": null
+      },
+      "area": 35.4,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 55000,
+        "fullDay": 110000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1103-20",
+      "name": "Junior Ballroom 宜華廳 2",
+      "nameEn": null,
+      "floor": "5F",
+      "capacity": {
+        "theater": 230,
+        "banquet": null,
+        "classroom": 144,
+        "uShape": 66,
+        "cocktail": null,
+        "roundTable": 120,
+        "boardroom": null
+      },
+      "area": 78.7,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 120000,
+        "fullDay": 240000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1103-22",
+      "name": "Garden Chapel",
+      "nameEn": null,
+      "floor": "8F",
+      "capacity": {
+        "theater": 80,
+        "banquet": null,
+        "classroom": 60,
+        "uShape": null,
+        "cocktail": 100,
+        "roundTable": null,
+        "boardroom": null
+      },
+      "area": 80.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

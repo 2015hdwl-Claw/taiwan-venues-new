@@ -1,0 +1,212 @@
+[
+  {
+    "venueId": 1049,
+    "venueName": "台北世貿中心(TWTCA)展覽大樓",
+    "url": "https://www.twtc.com.tw/",
+    "venueType": "展演場地",
+    "phone": "",
+    "email": "twtc@taitra.org.tw",
+    "scenario": "研討會",
+    "status": "pending"
+  },
+  {
+    "venueId": 1057,
+    "venueName": "台北典華",
+    "url": "https://www.denwell.com/",
+    "venueType": "婚宴場地",
+    "phone": "02-8502-5555",
+    "email": "",
+    "scenario": "研討會",
+    "status": "pending"
+  },
+  {
+    "venueId": 1072,
+    "venueName": "台北圓山大飯店(Grand Hotel Taipei)",
+    "url": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP",
+    "venueType": "飯店場地",
+    "phone": "02-2886-8888",
+    "email": "cc@grand-hotel.org",
+    "scenario": "研討會",
+    "status": "pending"
+  },
+  {
+    "venueId": 1075,
+    "venueName": "台北寒舍喜來登大飯店",
+    "url": "https://www.sheratongrandtaipei.com/",
+    "venueType": "飯店場地",
+    "phone": "",
+    "email": "sheraton@sheratongrandtaipei.com",
+    "scenario": "研討會",
+    "status": "pending"
+  },
+  {
+    "venueId": 1076,
+    "venueName": "台北寒舍艾美酒店(LeMeridienTaipei)",
+    "url": "https://www.lemeridien-taipei.com",
+    "venueType": "飯店場地",
+    "phone": "0749440880",
+    "email": "lemeridien@lemeridien-taipei.com",
+    "scenario": "研討會",
+    "status": "pending"
+  },
+  {
+    "venueId": 1085,
+    "venueName": "台北文華東方酒店(MOHTaipei)",
+    "url": "https://www.mandarinoriental.com/taipei",
+    "venueType": "飯店場地",
+    "phone": "",
+    "email": "motpe-reservations@mohg.com",
+    "scenario": "研討會",
+    "status": "pending"
+  },
+  {
+    "venueId": 1090,
+    "venueName": "茹曦酒店 ILLUME TAIPEI",
+    "url": "https://www.theillumehotel.com/zh/",
+    "venueType": "飯店場地",
+    "phone": "02-2719-8399",
+    "email": "gsm@theillumehotel.com",
+    "scenario": "研討會",
+    "status": "pending"
+  },
+  {
+    "venueId": 1103,
+    "venueName": "台北萬豪酒店(MarriottTaipei)",
+    "url": "https://www.taipeimarriott.com.tw/",
+    "venueType": "飯店場地",
+    "phone": "",
+    "email": "",
+    "scenario": "研討會",
+    "status": "pending"
+  },
+  {
+    "venueId": 1448,
+    "venueName": "台北國際會議中心(TICC)",
+    "url": "https://www.ticc.com.tw/",
+    "venueType": "會議中心",
+    "phone": "",
+    "email": "ticc@taitra.org.tw",
+    "scenario": "研討會",
+    "status": "pending"
+  },
+  {
+    "venueId": 1503,
+    "venueName": "裕元花園酒店",
+    "url": "https://www.windsortaiwan.com/",
+    "venueType": "飯店場地",
+    "phone": "",
+    "email": "",
+    "scenario": "研討會",
+    "status": "pending"
+  },
+  {
+    "venueId": 1504,
+    "venueName": "高雄國際會議中心",
+    "url": "https://khhplaza.com.tw/conferenence-area/",
+    "venueType": "會展中心",
+    "phone": "",
+    "email": "",
+    "scenario": "研討會",
+    "status": "pending"
+  },
+  {
+    "venueId": 1507,
+    "venueName": "Mega50宴會廳",
+    "url": "https://www.mega50.com.tw/ch/dingdingballroom",
+    "venueType": "婚宴場地",
+    "phone": "",
+    "email": "",
+    "scenario": "研討會",
+    "status": "pending"
+  },
+  {
+    "venueId": 1508,
+    "venueName": "豪鼎飯店",
+    "url": "https://www.how-dine.com.tw/",
+    "venueType": "飯店場地",
+    "phone": "",
+    "email": "",
+    "scenario": "研討會",
+    "status": "pending"
+  },
+  {
+    "venueId": 1511,
+    "venueName": "翡麗詩莊園",
+    "url": "https://www.felicite-wed.com/",
+    "venueType": "婚宴場地",
+    "phone": "",
+    "email": "",
+    "scenario": "研討會",
+    "status": "pending"
+  },
+  {
+    "venueId": 1513,
+    "venueName": "汐止福泰大飯店",
+    "url": "https://www.fortehotelxizhi.com.tw/banquet-detail/meeting/",
+    "venueType": "飯店場地",
+    "phone": "",
+    "email": "",
+    "scenario": "研討會",
+    "status": "pending"
+  },
+  {
+    "venueId": 1516,
+    "venueName": "彭園婚宴會館 新店館",
+    "url": "https://www.pengyuan.com.tw/",
+    "venueType": "婚宴場地",
+    "phone": "",
+    "email": "",
+    "scenario": "研討會",
+    "status": "pending"
+  },
+  {
+    "venueId": 1519,
+    "venueName": "葳格國際會議中心",
+    "url": "https://www.weddingday.com.tw/store-venue/5651",
+    "venueType": "會議中心",
+    "phone": "",
+    "email": "",
+    "scenario": "研討會",
+    "status": "pending"
+  },
+  {
+    "venueId": 1522,
+    "venueName": "天圓地方婚宴會館",
+    "url": "https://www.tianyuan.com.tw/paper/other_select_index.php?title_id=7925&group_id=378",
+    "venueType": "婚宴場地",
+    "phone": "",
+    "email": "",
+    "scenario": "研討會",
+    "status": "pending"
+  },
+  {
+    "venueId": 1531,
+    "venueName": "御元花園酒店",
+    "url": "https://www.windsortaiwan.com/tw/project",
+    "venueType": "飯店場地",
+    "phone": "",
+    "email": "",
+    "scenario": "研討會",
+    "status": "pending"
+  },
+  {
+    "venueId": 1537,
+    "venueName": "台中港酒店",
+    "url": "https://www.tchhotel.com/",
+    "venueType": "飯店場地",
+    "phone": "",
+    "email": "",
+    "scenario": "研討會",
+    "status": "pending"
+  },
+  {
+    "venueId": 1545,
+    "venueName": "承億酒店 (TAI Urban Resort)",
+    "url": "https://www.taiurbanresort.com.tw/",
+    "venueType": "飯店場地",
+    "phone": "",
+    "email": "",
+    "scenario": "研討會",
+    "status": "pending"
+  }
+]

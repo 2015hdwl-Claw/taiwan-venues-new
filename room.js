@@ -4,7 +4,7 @@ let currentVenue = null;
 let currentRoom = null;
 
 // ===== 版本控制 =====
-const DATA_VERSION = '20260323-v5'; // 與 app.js、venue.js 保持同步
+const DATA_VERSION = '20260407-v1'; // 與 app.js、venue.js 保持同步
 
 // ===== 初始化 =====
 document.addEventListener('DOMContentLoaded', async () => {
@@ -31,43 +31,43 @@ function loadRoomDetail() {
     const params = new URLSearchParams(window.location.search);
     const venueId = params.get('venueId');
     const roomId = params.get('roomId');
-    
+
     if (!venueId) {
         showError('缺少 venueId 參數');
         return;
     }
-    
+
     // roomId 可選，如果沒有指定，默認顯示第一個會議室
-    
+
     // 尋找場地
     currentVenue = allVenues.find(v => v.id === parseInt(venueId));
-    
+
     if (!currentVenue) {
         showError('找不到此場地');
         return;
     }
-    
+
     // 尋找會議室
     if (!currentVenue.rooms || currentVenue.rooms.length === 0) {
         showError('此場地無會議室資料');
         return;
     }
-    
+
     // 如果沒有指定 roomId，默認顯示第一個會議室（通常是最大型場地）
     if (!roomId) {
         currentRoom = currentVenue.rooms[0];
     } else {
         currentRoom = currentVenue.rooms.find(r => r.id === roomId);
-        
+
         if (!currentRoom) {
             showError('找不到此會議室');
             return;
         }
     }
-    
+
     // 渲染會議室資訊
     renderRoomDetail();
-    
+
     // 隱藏載入狀態，顯示內容
     document.getElementById('loadingState').style.display = 'none';
     document.getElementById('roomContent').style.display = 'block';
@@ -77,15 +77,15 @@ function loadRoomDetail() {
 function renderRoomDetail() {
     const room = currentRoom;
     const venue = currentVenue;
-    
+
     // 更新頁面標題
     document.title = `${room.name} - ${venue.name} - 活動大師`;
-    
+
     // 麵包屑
     document.getElementById('breadcrumbVenue').href = `venue.html?id=${venue.id}`;
     document.getElementById('breadcrumbVenue').textContent = venue.name;
     document.getElementById('breadcrumbRoom').textContent = room.name;
-    
+
     // 主圖（優先使用 images 陣列第一張，其次是 images.main，再來是 photo）
     let mainImage;
     if (Array.isArray(room.images) && room.images.length > 0) {
@@ -101,36 +101,42 @@ function renderRoomDetail() {
     }
     document.getElementById('roomMainImage').src = mainImage;
     document.getElementById('roomMainImage').alt = room.name;
-    
+
     // 基本資訊
     document.getElementById('roomName').textContent = room.name;
     document.getElementById('roomLocation').textContent = `${venue.name}${room.floor ? ' ' + room.floor : ''}`;
-    
+
     // 空間資訊（新版）
     renderSpaceInfo(room);
-    
+
     // 容納人數
     renderCapacity(room.capacity);
-    
+
     // 價格方案
     renderPricing(room.price || room.pricing);
-    
+
     // 設備清單
     renderEquipment(room.equipment);
-    
+
     // 可用時段
     renderTime(room.availableTimeWeekday, room.availableTimeWeekend);
-    
+
     // 特色標籤
     if (room.features && room.features.length > 0) {
         renderFeatures(room.features);
     }
-    
+
     // 注意事項
     if (room.notes) {
         renderNotes(room.notes);
     }
-    
+
+    // 隱藏限制
+    renderLimitations(room);
+
+    // 進場資訊
+    renderLoadIn(room);
+
     // 聯絡按鈕
     if (venue.contactPhone) {
         const callBtn = document.getElementById('roomCallBtn');
@@ -319,28 +325,28 @@ function renderCapacity(capacity) {
         });
         return;
     }
-    
+
     // 劇院式
     if (capacity.theater) {
         document.querySelector('#capTheater .capacity-value').textContent = capacity.theater + ' 人';
     } else {
         document.getElementById('capTheater').style.opacity = '0.5';
     }
-    
+
     // 課桌式
     if (capacity.classroom) {
         document.querySelector('#capClassroom .capacity-value').textContent = capacity.classroom + ' 人';
     } else {
         document.getElementById('capClassroom').style.opacity = '0.5';
     }
-    
+
     // U型
     if (capacity.ushape) {
         document.querySelector('#capUshape .capacity-value').textContent = capacity.ushape + ' 人';
     } else {
         document.getElementById('capUshape').style.opacity = '0.5';
     }
-    
+
     // 圓桌式
     if (capacity.roundtable_min && capacity.roundtable_max) {
         document.querySelector('#capRoundtable .capacity-value').textContent = `${capacity.roundtable_min}-${capacity.roundtable_max} 人`;
@@ -381,12 +387,12 @@ function renderPricing(pricing) {
 // ===== 渲染設備清單 =====
 function renderEquipment(equipment) {
     const grid = document.getElementById('equipmentGrid');
-    
+
     if (!equipment || equipment.length === 0) {
         grid.innerHTML = '<div class="equipment-empty">基本設備</div>';
         return;
     }
-    
+
     const equipmentIcons = {
         '投影設備': '📽️',
         '投影機': '📽️',
@@ -414,7 +420,7 @@ function renderEquipment(equipment) {
         '投票系統': '🗳️',
         '同步翻譯': '🌐'
     };
-    
+
     equipment.forEach(item => {
         const icon = equipmentIcons[item] || '✓';
         const card = document.createElement('div');
@@ -437,9 +443,9 @@ function renderTime(weekday, weekend) {
 function renderFeatures(features) {
     const section = document.getElementById('featuresSection');
     const container = document.getElementById('featuresTags');
-    
+
     section.style.display = 'block';
-    
+
     features.forEach(feature => {
         const tag = document.createElement('span');
         tag.className = 'feature-tag';
@@ -452,12 +458,12 @@ function renderFeatures(features) {
 function renderNotes(notes) {
     const section = document.getElementById('notesSection');
     const container = document.getElementById('roomNotes');
-    
+
     section.style.display = 'block';
-    
+
     // 將注意事項分割成列表
     const items = notes.split(/[,，、；;]/).filter(s => s.trim());
-    
+
     if (items.length > 1) {
         const list = document.createElement('ul');
         list.className = 'notes-list';
@@ -490,4 +496,67 @@ function showError(message) {
     document.getElementById('loadingState').style.display = 'none';
     document.getElementById('errorState').style.display = 'block';
     document.getElementById('errorState').querySelector('h3').textContent = message;
+}
+
+// ===== 渲染隱藏限制 =====
+function renderLimitations(room) {
+    const section = document.getElementById('limitationsSection');
+    const list = document.getElementById('limitationsList');
+    const limitations = room.limitations;
+
+    if (!limitations || !Array.isArray(limitations) || limitations.length === 0) {
+        section.style.display = 'none';
+        return;
+    }
+
+    section.style.display = 'block';
+    list.innerHTML = limitations.map(item => `<li>${item}</li>`).join('');
+}
+
+// ===== 渲染進場資訊 =====
+function renderLoadIn(room) {
+    const section = document.getElementById('loadInSection');
+    const grid = document.getElementById('loadInGrid');
+    const loadIn = room.loadIn;
+
+    if (!loadIn || typeof loadIn !== 'object') {
+        section.style.display = 'none';
+        return;
+    }
+
+    const items = [];
+    if (loadIn.elevator) {
+        items.push({ icon: '🛗', label: '電梯/貨梯', value: loadIn.elevator });
+    }
+    if (loadIn.vehicleAccess !== undefined) {
+        items.push({ icon: '🚗', label: '車輛直達', value: loadIn.vehicleAccess ? '可以' : '不可以' });
+    }
+    if (loadIn.loadingDock) {
+        items.push({ icon: '🚪', label: '卸貨入口', value: loadIn.loadingDock });
+    }
+    if (loadIn.maxVehicleWeight) {
+        items.push({ icon: '⚖️', label: '載重限制', value: loadIn.maxVehicleWeight });
+    }
+    if (loadIn.setupTime) {
+        items.push({ icon: '⏰', label: '進場時間', value: loadIn.setupTime });
+    }
+    if (loadIn.teardownTime) {
+        items.push({ icon: '🏁', label: '撤場時間', value: loadIn.teardownTime });
+    }
+
+    if (items.length === 0) {
+        section.style.display = 'none';
+        return;
+    }
+
+    section.style.display = 'block';
+    grid.innerHTML = items.map(item => `
+        <div class="loadIn-item">
+            <div class="loadIn-item-icon">${item.icon}</div>
+            <div class="loadIn-item-content">
+                <div class="loadIn-item-label">${item.label}</div>
+                <div class="loadIn-item-value">${item.value}</div>
+            </div>
+        </div>
+    `).join('');
 }

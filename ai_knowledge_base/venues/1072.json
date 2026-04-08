@@ -1,0 +1,588 @@
+{
+  "identity": {
+    "id": 1072,
+    "name": "台北圓山大飯店(Grand Hotel Taipei)",
+    "nameEn": null,
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市中山區中山北路四段一號",
+    "url": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP",
+    "phone": "02-2886-8888",
+    "contactEmail": "cc@grand-hotel.org"
+  },
+  "summary": {
+    "shortDescription": "位於劍潭山上的歷史地標飯店，擁有挑高11米的大會廳、10個宴會廳與3個會議室，適合大型國際會議、國宴級宴會與尾牙活動",
+    "totalRooms": 13,
+    "maxCapacity": 2200,
+    "priceRange": {
+      "halfDayMin": null,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": null,
+      "note": "價格需電話洽詢"
+    },
+    "suitableEventTypes": [
+      "研討會",
+      "尾牙",
+      "宴會",
+      "婚宴",
+      "股東會",
+      "發表會"
+    ],
+    "strengths": [
+      "大會廳挑高11米，可容納2000人，氣派度全台頂級",
+      "國宴級餐飲，中/西式宴席品質有保障",
+      "歷史地標，品牌形象加持",
+      "免費停車位充足"
+    ],
+    "weaknesses": [
+      "大會廳為國定宴會場所，檔期極難搶",
+      "大部分廳天花板高度僅2.5-2.8米，限制舞台設計",
+      "交通略不便，需計程車或接駁",
+      "限用飯店餐飲，不可外燴"
+    ]
+  },
+  "risks": {
+    "bookingLeadTime": "至少2個月（大型宴會建議4-6個月前）",
+    "peakSeasons": [
+      "10-12月婚宴旺季",
+      "12-1月尾牙",
+      "國慶日/元旦國宴檔期"
+    ],
+    "commonIssues": [
+      "大會廳為國定宴會場所，檔期競爭激烈",
+      "金龍廳挑高11米，舞台搭建需提前規劃"
+    ]
+  },
+  "rules": {
+    "catering": [
+      {
+        "rule": "限用飯店餐飲，提供中/西式宴席",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false
+      }
+    ],
+    "decoration": [
+      {
+        "rule": "需提前申請，大型布置需額外保險",
+        "exception": null,
+        "penalty": null,
+        "negotiable": true
+      }
+    ],
+    "sound": [
+      {
+        "rule": "大型場地配備專業音響，額外設備需申請",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ],
+    "loadIn": [
+      {
+        "rule": "貨梯可達各樓層，大型道具限3噸以下",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ],
+    "cancellation": [
+      {
+        "rule": "依合約條款，一般活動前30天取消退50%",
+        "exception": null,
+        "penalty": "30天內取消退50%，7天內取消不退款",
+        "negotiable": true
+      }
+    ],
+    "insurance": [],
+    "other": []
+  },
+  "pricingTips": [
+    "金龍廳全天方案比拆分半天更划算",
+    "中華民國外交相關活動有特殊優惠",
+    "住宿+宴會套裝比單獨租用更優惠",
+    "多廳同時租用可議價"
+  ],
+  "seasonal": {
+    "peakMonths": [
+      "10-12月婚宴旺季",
+      "12-1月尾牙季",
+      "國慶日/元旦國宴檔期"
+    ],
+    "offPeakDiscount": null,
+    "bookingLeadTime": "至少2個月（大型宴會建議4-6個月前）",
+    "specialNotes": [
+      "國慶日及元旦前後大會廳可能被國宴優先保留",
+      "農曆新年期間部分廳暫停對外營業"
+    ]
+  },
+  "logistics": {
+    "parking": {
+      "spaces": null,
+      "validationHours": null,
+      "validationFee": "免費停車",
+      "nearbyParking": null
+    },
+    "nearestMRT": "劍潭站1號出口，轉計程車約5分鐘（飯店有免費接駁車）",
+    "wheelchairAccessible": true,
+    "busParking": "正門可臨停上下客，大型遊覽車需預約"
+  },
+  "rooms": [
+    {
+      "id": "1072-01",
+      "name": "大會廳",
+      "nameEn": "The Grand Ballroom",
+      "floor": "12F",
+      "capacity": {
+        "theater": 1000,
+        "classroom": 450,
+        "hollowSquare": null,
+        "uShape": null,
+        "reception": null,
+        "banquetWestern": 1200,
+        "banquetEastern": 500
+      },
+      "area": 450,
+      "ceilingHeight": 11,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [
+        "挑高11公尺，大型舞台搭建需提前申請鷹架許可"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1072-02",
+      "name": "崑崙廳",
+      "nameEn": "Kunlun Hall",
+      "floor": "12F",
+      "capacity": {
+        "theater": 300,
+        "classroom": 160,
+        "hollowSquare": 50,
+        "uShape": 60,
+        "reception": 200,
+        "banquetWestern": null,
+        "banquetEastern": 150
+      },
+      "area": 120,
+      "ceilingHeight": 5.6,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1072-03",
+      "name": "國際會議廳",
+      "nameEn": "Auditorium",
+      "floor": "10F",
+      "capacity": {
+        "theater": 385,
+        "classroom": null,
+        "hollowSquare": null,
+        "uShape": null,
+        "reception": null,
+        "banquetWestern": null,
+        "banquetEastern": null
+      },
+      "area": 133,
+      "ceilingHeight": 5,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1072-04",
+      "name": "國際貴賓室",
+      "nameEn": "The Grand VIP Room",
+      "floor": "10F",
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "hollowSquare": null,
+        "uShape": null,
+        "reception": null,
+        "banquetWestern": null,
+        "banquetEastern": null
+      },
+      "area": 36,
+      "ceilingHeight": 2.5,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [
+        "天花板高度僅2.5公尺，限制大型設備進入"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1072-05",
+      "name": "長青廳",
+      "nameEn": "Chang Chin Room",
+      "floor": "10F",
+      "capacity": {
+        "theater": 100,
+        "classroom": 60,
+        "hollowSquare": 40,
+        "uShape": 40,
+        "reception": 60,
+        "banquetWestern": null,
+        "banquetEastern": null
+      },
+      "area": 78,
+      "ceilingHeight": 2.6,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [
+        "天花板高度僅2.6公尺，限制大型設備進入"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1072-06",
+      "name": "松柏廳",
+      "nameEn": "Song Bo Room",
+      "floor": "10F",
+      "capacity": {
+        "theater": 200,
+        "classroom": 80,
+        "hollowSquare": 50,
+        "uShape": 46,
+        "reception": 150,
+        "banquetWestern": null,
+        "banquetEastern": 120
+      },
+      "area": 95,
+      "ceilingHeight": 2.7,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [
+        "天花板高度僅2.7公尺，限制大型設備進入"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1072-07",
+      "name": "敦睦廳",
+      "nameEn": "Int'l Reception Hall",
+      "floor": "VF",
+      "capacity": {
+        "theater": 350,
+        "classroom": 180,
+        "hollowSquare": 66,
+        "uShape": 102,
+        "reception": 400,
+        "banquetWestern": null,
+        "banquetEastern": 240
+      },
+      "area": 166,
+      "ceilingHeight": 2.8,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [
+        "天花板高度僅2.8公尺，限制大型設備進入"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1072-08",
+      "name": "麒麟宴會廳",
+      "nameEn": "Chi Lin Banquet Room",
+      "floor": "VF",
+      "capacity": {
+        "banquet": 18
+      },
+      "area": 84,
+      "ceilingHeight": 3.4,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [
+        "天花板高度3.4公尺，超過2.9公尺的道具需確認"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1072-09",
+      "name": "國宴廳",
+      "nameEn": "State Banquet Room",
+      "floor": "VF",
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "hollowSquare": null,
+        "uShape": null,
+        "reception": null,
+        "banquetWestern": null,
+        "banquetEastern": 30
+      },
+      "area": 60,
+      "ceilingHeight": 3.4,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [
+        "天花板高度3.4公尺，超過2.9公尺的道具需確認"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1072-10",
+      "name": "大宴會廳",
+      "nameEn": "Banquet Hall",
+      "floor": "BF",
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "hollowSquare": null,
+        "uShape": null,
+        "reception": null,
+        "banquetWestern": 1500,
+        "banquetEastern": 800
+      },
+      "area": 449,
+      "ceilingHeight": 2.5,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [
+        "天花板高度僅2.5公尺，限制大型設備進入"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1072-11",
+      "name": "富貴廳",
+      "nameEn": "Fu Gui Room",
+      "floor": "BF",
+      "capacity": {
+        "theater": 180,
+        "classroom": 108,
+        "hollowSquare": 48,
+        "uShape": 72,
+        "reception": 300,
+        "banquetWestern": null,
+        "banquetEastern": 160
+      },
+      "area": 144,
+      "ceilingHeight": 2.5,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [
+        "天花板高度僅2.5公尺，限制大型設備進入"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1072-12",
+      "name": "如意廳",
+      "nameEn": "Ru Yi Room",
+      "floor": "BF",
+      "capacity": {
+        "banquet": 15
+      },
+      "area": 112,
+      "ceilingHeight": 2.5,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [
+        "天花板高度僅2.5公尺，限制大型設備進入"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1072-13",
+      "name": "吉祥廳",
+      "nameEn": "Ji Shiang Room",
+      "floor": "BF",
+      "capacity": {
+        "theater": 500,
+        "classroom": 225,
+        "hollowSquare": null,
+        "uShape": null,
+        "reception": null,
+        "banquetWestern": null,
+        "banquetEastern": 340
+      },
+      "area": 193,
+      "ceilingHeight": 2.5,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [
+        "天花板高度僅2.5公尺，限制大型設備進入"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [
+    {
+      "id": "1072-summary-1",
+      "category": "summary",
+      "roomId": null,
+      "text": "台北圓山大飯店是位於劍潭山上的歷史地標飯店。擁有13個會議/宴會場地，最大的大會廳可容納2000人、挑高11米。適合大型國際會議、國宴級宴會與尾牙活動。大部分廳的天花板高度在2.5-2.8米之間，麒麟宴會廳和國宴廳為3.4米。",
+      "metadata": {
+        "source": "官網場地頁_20260331",
+        "verifiedAt": "2026-04-01",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id": "1072-risk-1",
+      "category": "risk",
+      "roomId": null,
+      "text": "圓山大飯店大會廳為國定宴會場所，檔期競爭非常激烈。大型宴會建議至少4-6個月前預訂，一般活動至少2個月前。旺季為10-12月（婚宴）、12-1月（尾牙）、國慶日/元旦期間（國宴檔期）。金龍廳挑高11米，舞台搭建需要提前規劃。",
+      "metadata": {
+        "source": "官網租借辦法_20260331",
+        "verifiedAt": "2026-04-01",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id": "1072-rule-1",
+      "category": "rule",
+      "roomId": null,
+      "text": "圓山大飯店餐飲規定：限用飯店餐飲服務，提供中式及西式宴席，不可外燴。佈置需提前申請，大型布置需要額外保險。大型場地配備專業音響，額外設備需另外申請。",
+      "metadata": {
+        "source": "官網租借辦法_20260331",
+        "verifiedAt": "2026-04-01",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id": "1072-pricingTip-1",
+      "category": "pricingTip",
+      "roomId": null,
+      "text": "圓山大飯店省錢技巧：金龍廳全天方案比拆分半天更划算。住宿加宴會套裝比單獨租用更優惠。多廳同時租用可以議價。中華民國外交相關活動有特殊優惠方案。",
+      "metadata": {
+        "source": "官網租借辦法_20260331",
+        "verifiedAt": "2026-04-01",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id": "1072-limitation-1072-01",
+      "category": "limitation",
+      "roomId": "1072-01",
+      "text": "圓山大飯店大會廳：挑高11公尺，是全台少數可搭建大型舞台的場地。但大型舞台搭建需提前申請鷹架許可。可容納2000人（劇院式）或1200人（宴會式），面積680坪。天花板高度11米，幾乎沒有高度限制。",
+      "metadata": {
+        "source": "官網場地頁_20260331",
+        "verifiedAt": "2026-04-01",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id": "1072-limitation-1072-04to07",
+      "category": "limitation",
+      "roomId": null,
+      "text": "圓山大飯店國際貴賓室、長青廳、松柏廳、敦睦廳：天花板高度僅2.5-2.8公尺，限制大型設備進入。適合小型會議或餐會，不適合需要搭建舞台或大型LED牆的活動。",
+      "metadata": {
+        "source": "官網場地頁_20260331",
+        "verifiedAt": "2026-04-01",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id": "1072-limitation-1072-08to09",
+      "category": "limitation",
+      "roomId": null,
+      "text": "圓山大飯店麒麟宴會廳、國宴廳：天花板高度3.4公尺，超過2.9公尺的道具需提前確認。是除了大會廳外天花板最高的場地，可以容納中等規模的舞台設備。",
+      "metadata": {
+        "source": "官網場地頁_20260331",
+        "verifiedAt": "2026-04-01",
+        "confidence": "confirmed"
+      }
+    },
+    {
+      "id": "1072-logistics-1",
+      "category": "logistics",
+      "roomId": null,
+      "text": "圓山大飯店交通：最近捷運站為劍潭站1號出口，轉計程車約5分鐘。飯店提供免費接駁車。停車免費。正門可臨停上下客，大型遊覽車需提前預約。",
+      "metadata": {
+        "source": "官網_20260331",
+        "verifiedAt": "2026-04-01",
+        "confidence": "confirmed"
+      }
+    }
+  ],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

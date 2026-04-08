@@ -1,0 +1,587 @@
+{
+  "identity": {
+    "id": 1100,
+    "name": "台北花園大酒店(TGHotel)",
+    "nameEn": null,
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市中正區中華路二段1號",
+    "url": "https://www.taipeigarden.com.tw/banquets-conferences/banquet-conference/",
+    "phone": "02-2314-3300",
+    "contactEmail": "fo@taipeigarden.com.tw"
+  },
+  "summary": null,
+  "risks": {
+    "bookingLeadTime": "一般會議至少2-4週；2F宴會廳及大型合併廳建議2-3個月前預訂；婚宴旺季建議4-6個月前",
+    "peakSeasons": [
+      "10-12月婚宴旺季",
+      "12-1月尾牙季",
+      "6-8月畢業季/謝師宴"
+    ],
+    "commonIssues": [
+      "3F各廳天花板僅2.5米，常有客戶低估高度限制導致舞台或背板需臨時修改",
+      "2F國際廳為合併廳，若單獨廳已被預訂則無法使用合併空間"
+    ]
+  },
+  "rules": {
+    "catering": [
+      {
+        "rule": "限用飯店餐飲服務，提供中式宴席、西式套餐及自助餐",
+        "exception": "會議型活動可協商搭配飯店餐盒或茶歇方案",
+        "penalty": null,
+        "negotiable": true
+      },
+      {
+        "rule": "婚宴及宴會需使用飯店指定婚宴菜單，每桌10人份",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false
+      }
+    ],
+    "decoration": [
+      {
+        "rule": "場地佈置需提前與宴會部確認，不得使用破壞性裝飾（如釘牆、黏膠）",
+        "exception": null,
+        "penalty": "損壞需照價賠償",
+        "negotiable": null
+      },
+      {
+        "rule": "3F各廳天花板高度僅2.5米，大型道具或背板高度不得超過2.2米",
+        "exception": "2F百合/薔薇/國際廳挑高6.5米，1F貴賓廳3.3米",
+        "penalty": null,
+        "negotiable": false
+      },
+      {
+        "rule": "禁止施放鞭炮、煙火、乾冰等具安全疑慮之特殊效果",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false
+      }
+    ],
+    "sound": [
+      {
+        "rule": "2F國際廳配有大型舞台及專業音響燈光，3F及1F各廳配備基本音響系統及無線麥克風",
+        "exception": "如需額外音響設備需提前申請",
+        "penalty": null,
+        "negotiable": true
+      }
+    ],
+    "loadIn": [
+      {
+        "rule": "進場佈置時間需配合飯店安排，一般為活動前2-3小時",
+        "exception": "大型佈置（如婚宴）可協商前一天進場，需額外支付場地使用費",
+        "penalty": null,
+        "negotiable": true
+      }
+    ],
+    "cancellation": [
+      {
+        "rule": "訂金為總費用之30%，簽約時需支付",
+        "exception": null,
+        "penalty": null,
+        "negotiable": true
+      },
+      {
+        "rule": "活動前90天以上取消可退還訂金80%；30-90天內取消退還50%；30天內取消不退費",
+        "exception": "如因天災等不可抗力因素可協商改期",
+        "penalty": null,
+        "negotiable": true
+      }
+    ],
+    "insurance": [
+      {
+        "rule": "大型活動（200人以上）建議投保公共意外責任險",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ],
+    "other": [
+      {
+        "rule": "場地使用時間為08:00-22:00，超時每小時加收超時費（依各廳定價）",
+        "exception": null,
+        "penalty": "超時費：月桂廳NT$2,000/hr，小型廳NT$10,000/hr，中型廳NT$15,000/hr，大型廳NT$20,000-35,000/hr",
+        "negotiable": false
+      }
+    ]
+  },
+  "pricingTips": [
+    "3F小型會議室（海芋/水仙/月桂）半日租金NT$10,000-12,000起，CP值高適合小型會議",
+    "會議型活動搭售餐盒或茶歇方案比單獨訂餐更優惠",
+    "非婚宴旺季（3-6月、9月）平日場地租金有議價空間",
+    "住宿+場地套裝方案通常比單獨租用更划算",
+    "2F廳挑高6.5米免額外舞台搭建費，3F廳如需舞台需另計"
+  ],
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1100-01",
+      "name": "2F 百合廳",
+      "nameEn": "2F Lily Room",
+      "floor": "2樓",
+      "capacity": {
+        "banquet": 150,
+        "cocktail": 200,
+        "theater": 220,
+        "classroom": 140,
+        "hollowSquare": 54,
+        "ushape": 48
+      },
+      "area": 71,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 48000,
+        "fullDay": 150000,
+        "overtime": 20000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "宴會廳容納表Function Room Capacity",
+        "vehicleAccess": null,
+        "loadingDock": "",
+        "loadInTime": "08:00",
+        "loadOutTime": "12:00"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1100-02",
+      "name": "2F 薔薇廳",
+      "nameEn": "2F Rosa Room",
+      "floor": "2樓",
+      "capacity": {
+        "banquet": 150,
+        "cocktail": 200,
+        "theater": 220,
+        "classroom": 140,
+        "hollowSquare": 54,
+        "ushape": 48
+      },
+      "area": 71,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 48000,
+        "fullDay": 150000,
+        "overtime": 20000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "宴會廳容納表Function Room Capacity",
+        "vehicleAccess": null,
+        "loadingDock": "",
+        "loadInTime": "08:00",
+        "loadOutTime": "12:00"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1100-03",
+      "name": "2F 國際廳",
+      "nameEn": "2F International Hall",
+      "floor": "2樓",
+      "capacity": {
+        "banquet": 500,
+        "cocktail": 500,
+        "theater": 460,
+        "classroom": 300
+      },
+      "area": 142,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 96000,
+        "fullDay": 300000,
+        "overtime": 35000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "宴會廳容納表Function Room Capacity",
+        "vehicleAccess": null,
+        "loadingDock": "",
+        "loadInTime": "08:00",
+        "loadOutTime": "12:00"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1100-04",
+      "name": "3F 海芋廳",
+      "nameEn": "3F Calla Room",
+      "floor": "3樓",
+      "capacity": {
+        "banquet": 30,
+        "cocktail": 30,
+        "theater": 30,
+        "classroom": 21,
+        "hollowSquare": 16,
+        "ushape": 12
+      },
+      "area": 12,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 12000,
+        "fullDay": 50000,
+        "overtime": 10000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "宴會廳容納表Function Room Capacity",
+        "vehicleAccess": null,
+        "loadingDock": "",
+        "loadInTime": "08:00",
+        "loadOutTime": "12:00"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1100-05",
+      "name": "3F 水仙廳",
+      "nameEn": "3F Daffodil Room",
+      "floor": "3樓",
+      "capacity": {
+        "banquet": 30,
+        "cocktail": 30,
+        "theater": 30,
+        "classroom": 21,
+        "hollowSquare": 16,
+        "ushape": 12
+      },
+      "area": 12,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 12000,
+        "fullDay": 50000,
+        "overtime": 10000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "宴會廳容納表Function Room Capacity",
+        "vehicleAccess": null,
+        "loadingDock": "",
+        "loadInTime": "08:00",
+        "loadOutTime": "12:00"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1100-06",
+      "name": "3F 玫瑰廳",
+      "nameEn": "3F Rose Room",
+      "floor": "3樓",
+      "capacity": {
+        "banquet": 50,
+        "cocktail": 60,
+        "theater": 76,
+        "classroom": 30
+      },
+      "area": 27,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 24000,
+        "fullDay": 100000,
+        "overtime": 15000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "宴會廳容納表Function Room Capacity",
+        "vehicleAccess": null,
+        "loadingDock": "",
+        "loadInTime": "08:00",
+        "loadOutTime": "12:00"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1100-07",
+      "name": "3F 火鶴廳",
+      "nameEn": "3F Tail Flower Room",
+      "floor": "3樓",
+      "capacity": {
+        "banquet": 40,
+        "cocktail": 50,
+        "theater": 50,
+        "classroom": 27,
+        "hollowSquare": 20,
+        "ushape": 16
+      },
+      "area": 18,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 15000,
+        "fullDay": 64000,
+        "overtime": 10000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "宴會廳容納表Function Room Capacity",
+        "vehicleAccess": null,
+        "loadingDock": "",
+        "loadInTime": "08:00",
+        "loadOutTime": "12:00"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1100-08",
+      "name": "3F 茉莉廳",
+      "nameEn": "3F Jasmine Room",
+      "floor": "3樓",
+      "capacity": {
+        "banquet": 40,
+        "cocktail": 50,
+        "theater": 50,
+        "classroom": 30,
+        "hollowSquare": 20,
+        "ushape": 16
+      },
+      "area": 18,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 15000,
+        "fullDay": 64000,
+        "overtime": 10000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "宴會廳容納表Function Room Capacity",
+        "vehicleAccess": null,
+        "loadingDock": "",
+        "loadInTime": "08:00",
+        "loadOutTime": "12:00"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1100-09",
+      "name": "3F 山茶廳",
+      "nameEn": "3F Camellia Room",
+      "floor": "3樓",
+      "capacity": {
+        "banquet": 100,
+        "cocktail": 100,
+        "theater": 130,
+        "classroom": 51
+      },
+      "area": 38,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 30000,
+        "fullDay": 128000,
+        "overtime": 15000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "宴會廳容納表Function Room Capacity",
+        "vehicleAccess": null,
+        "loadingDock": "",
+        "loadInTime": "08:00",
+        "loadOutTime": "12:00"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1100-10",
+      "name": "3F 牡丹廳",
+      "nameEn": "3F Peony Room",
+      "floor": "3樓",
+      "capacity": {
+        "banquet": 250,
+        "cocktail": 180,
+        "theater": 160,
+        "classroom": 100
+      },
+      "area": 75,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 50000,
+        "fullDay": 220000,
+        "overtime": 30000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "宴會廳容納表Function Room Capacity",
+        "vehicleAccess": null,
+        "loadingDock": "",
+        "loadInTime": "08:00",
+        "loadOutTime": "12:00"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1100-11",
+      "name": "3F 月桂廳",
+      "nameEn": "3F Bay Room",
+      "floor": "3樓",
+      "capacity": {
+        "ushape": 10
+      },
+      "area": 7,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 10000,
+        "fullDay": 20000,
+        "overtime": 2000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "宴會廳容納表Function Room Capacity",
+        "vehicleAccess": null,
+        "loadingDock": "",
+        "loadInTime": "08:00",
+        "loadOutTime": "12:00"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1100-12",
+      "name": "3F 櫻花廳",
+      "nameEn": "3F Cherry Blossoms Room",
+      "floor": "3樓",
+      "capacity": {
+        "banquet": 60,
+        "cocktail": 75,
+        "theater": 70,
+        "classroom": 42,
+        "hollowSquare": 31,
+        "ushape": 20
+      },
+      "area": 25,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 35000,
+        "fullDay": 120000,
+        "overtime": 15000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "宴會廳容納表Function Room Capacity",
+        "vehicleAccess": null,
+        "loadingDock": "",
+        "loadInTime": "08:00",
+        "loadOutTime": "12:00"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1100-13",
+      "name": "3F 百花廳",
+      "nameEn": "3F Flora Room",
+      "floor": "3樓",
+      "capacity": {
+        "banquet": 50,
+        "cocktail": 60,
+        "theater": 60,
+        "classroom": 24,
+        "hollowSquare": 18,
+        "ushape": 21
+      },
+      "area": 35,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 40000,
+        "fullDay": 180000,
+        "overtime": 20000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "宴會廳容納表Function Room Capacity",
+        "vehicleAccess": null,
+        "loadingDock": "",
+        "loadInTime": "08:00",
+        "loadOutTime": "12:00"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1100-14",
+      "name": "1F 貴賓廳",
+      "nameEn": "1F VIP Room",
+      "floor": "1樓",
+      "capacity": {
+        "banquet": 70,
+        "cocktail": 100,
+        "theater": 100,
+        "classroom": 51,
+        "hollowSquare": 36,
+        "ushape": 30
+      },
+      "area": 34.5,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 30000,
+        "fullDay": 120000,
+        "overtime": 15000
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "宴會廳容納表Function Room Capacity",
+        "vehicleAccess": null,
+        "loadingDock": "",
+        "loadInTime": "08:00",
+        "loadOutTime": "12:00"
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

@@ -1,0 +1,827 @@
+{
+  "identity": {
+    "id": 1125,
+    "name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "nameEn": null,
+    "venueType": "展演場地",
+    "city": "台北市",
+    "address": "台北市中正區八德路一段1號",
+    "url": "https://www.huashan1914.com",
+    "phone": "(02) 2358-1914",
+    "contactEmail": null
+  },
+  "summary": null,
+  "risks": null,
+  "rules": {
+    "catering": [
+      {
+        "rule": "場地租借費用不含任何場地清潔，結束後需自行復原"
+      },
+      {
+        "rule": "基本清潔費1,000元"
+      },
+      {
+        "rule": "有宴席需求者另需支付：西式餐宴3,000元、中式餐宴5,000元之清潔費用（紅磚區場館適用）"
+      },
+      {
+        "rule": "每日每館提供民生垃圾清運2袋，超量需另購$200(含稅)/袋"
+      },
+      {
+        "rule": "大型活動(人數上千人)清潔與管理費另計"
+      },
+      {
+        "rule": "園區嚴禁使用任何火具（含蠟燭、煙火、噴火等所有明火器具）"
+      }
+    ],
+    "decoration": [
+      {
+        "rule": "戶外場地（華山劇場、金八廣場、樹前草地、忠孝三角、中3前廣場）限高3米以下"
+      },
+      {
+        "rule": "所有場館為歷史建物/古蹟，裝潢施工須遵守「華山1914文創園區活動進撤場施工管理要點暨切結書」規範"
+      },
+      {
+        "rule": "進撤場日場租為活動日場租的50%（用於佈置與撤場）"
+      }
+    ],
+    "sound": [
+      {
+        "rule": "園區位於住宅區（八德路一段/忠孝東路），音響音量需受管控"
+      },
+      {
+        "rule": "夜間超時(22:00-次日08:00)禁止，場地使用時間為08:00-22:00"
+      },
+      {
+        "rule": "各場館除基本設備外，器材如需租借請填租借表單，費用另計"
+      }
+    ],
+    "loadIn": [
+      {
+        "rule": "場地租借以「日」為計算單位，使用時間08:00-22:00"
+      },
+      {
+        "rule": "夜間超時(22:00-次日08:00)以每小時$10,000(含稅)計算（一般場館及東2/中4B系列）"
+      },
+      {
+        "rule": "紅磚區（西1/西2/西4/西5）超時費：西1館$9,000/hr、西2&西5館$6,000/hr、西4館$5,000/hr（皆含稅）"
+      },
+      {
+        "rule": "大型活動(人數達千人)需加裝流動廁所"
+      }
+    ],
+    "cancellation": [
+      {
+        "rule": "場地保證金為總場租之4成起"
+      },
+      {
+        "rule": "場地租金及保證金需於活動進場前全額繳清，否則園區有權拒絕活動進場"
+      },
+      {
+        "rule": "保證金於活動結束撤場後，扣除相關費用支出、確認無損壞後，於每月雙週週五以匯款方式退還"
+      },
+      {
+        "rule": "場地申請須於活動日14個工作天前送件申請"
+      }
+    ],
+    "insurance": [
+      {
+        "rule": "需投保公共意外責任險（依據場地租借申請條款規範）"
+      },
+      {
+        "rule": "活動內容須符合文創產業發展規定"
+      },
+      {
+        "rule": "不受理與政治、宗教有關之集會活動"
+      },
+      {
+        "rule": "不受理跨夜活動"
+      },
+      {
+        "rule": "申請需檢附活動企劃書及立案證書影本"
+      }
+    ]
+  },
+  "pricingTips": [
+    "進撤場日場租為活動日場租的50%",
+    "紅磚區電費每度$5.5元(未稅)，其他場館電費每度$10元(未稅)",
+    "基本清潔費$1,000元，宴席另計",
+    "夜間超時費一般場館$10,000/小時，紅磚區$5,000-$9,000/小時",
+    "保證金為總場租40%起，需進場前全額繳清"
+  ],
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1125-01",
+      "name": "中4A 紅酒作業場",
+      "nameEn": "Center 4A Red Wine Workshop",
+      "floor": null,
+      "capacity": {
+        "theater": 350
+      },
+      "area": 120,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "fullDay": 100000,
+        "note": "日租價格"
+      },
+      "limitations": [
+        "園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）",
+        "場地使用時間08:00-22:00，不受理跨夜活動",
+        "戶外場地限高3米以下",
+        "不受理政治、宗教集會活動",
+        "所有場館為歷史建物，施工裝潢受嚴格規範",
+        "大型活動(上千人)需加裝流動廁所",
+        "場地租金不含清潔/電費/器材/廣告刊版費用",
+        "需於活動日14個工作天前送件申請"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1125-02",
+      "name": "中4B 米酒作業場1F",
+      "nameEn": "Center 4B Rice Wine 1F",
+      "floor": null,
+      "capacity": {
+        "theater": 250
+      },
+      "area": 160,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "fullDay": 63000,
+        "note": "日租價格"
+      },
+      "limitations": [
+        "園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）",
+        "場地使用時間08:00-22:00，不受理跨夜活動",
+        "戶外場地限高3米以下",
+        "不受理政治、宗教集會活動",
+        "所有場館為歷史建物，施工裝潢受嚴格規範",
+        "大型活動(上千人)需加裝流動廁所",
+        "場地租金不含清潔/電費/器材/廣告刊版費用",
+        "需於活動日14個工作天前送件申請"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1125-03",
+      "name": "中4B 米酒作業場2F",
+      "nameEn": "Center 4B Rice Wine 2F",
+      "floor": null,
+      "capacity": {
+        "theater": 250
+      },
+      "area": 160,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "fullDay": 60000,
+        "note": "日租價格"
+      },
+      "limitations": [
+        "園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）",
+        "場地使用時間08:00-22:00，不受理跨夜活動",
+        "戶外場地限高3米以下",
+        "不受理政治、宗教集會活動",
+        "所有場館為歷史建物，施工裝潢受嚴格規範",
+        "大型活動(上千人)需加裝流動廁所",
+        "場地租金不含清潔/電費/器材/廣告刊版費用",
+        "需於活動日14個工作天前送件申請"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1125-04",
+      "name": "中4B 2F演講廳",
+      "nameEn": "Center 4B 2F Lecture Hall",
+      "floor": null,
+      "capacity": {
+        "theater": 80
+      },
+      "area": 60,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "fullDay": 20000,
+        "note": "日租價格"
+      },
+      "limitations": [
+        "園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）",
+        "場地使用時間08:00-22:00，不受理跨夜活動",
+        "戶外場地限高3米以下",
+        "不受理政治、宗教集會活動",
+        "所有場館為歷史建物，施工裝潢受嚴格規範",
+        "大型活動(上千人)需加裝流動廁所",
+        "場地租金不含清潔/電費/器材/廣告刊版費用",
+        "需於活動日14個工作天前送件申請"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1125-05",
+      "name": "中3館 2F 拱廳",
+      "nameEn": "Center 3 2F Arch Hall",
+      "floor": null,
+      "capacity": {
+        "theater": 120
+      },
+      "area": 103,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "fullDay": 50000,
+        "note": "日租價格"
+      },
+      "limitations": [
+        "園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）",
+        "場地使用時間08:00-22:00，不受理跨夜活動",
+        "戶外場地限高3米以下",
+        "不受理政治、宗教集會活動",
+        "所有場館為歷史建物，施工裝潢受嚴格規範",
+        "大型活動(上千人)需加裝流動廁所",
+        "場地租金不含清潔/電費/器材/廣告刊版費用",
+        "需於活動日14個工作天前送件申請"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1125-06",
+      "name": "紅磚六合院 西1館(A棟)",
+      "nameEn": "West Hall 1 (Red Brick A)",
+      "floor": null,
+      "capacity": {
+        "theater": 800
+      },
+      "area": 205,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "fullDay": 126000,
+        "note": "日租價格"
+      },
+      "limitations": [
+        "園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）",
+        "場地使用時間08:00-22:00，不受理跨夜活動",
+        "戶外場地限高3米以下",
+        "不受理政治、宗教集會活動",
+        "所有場館為歷史建物，施工裝潢受嚴格規範",
+        "大型活動(上千人)需加裝流動廁所",
+        "場地租金不含清潔/電費/器材/廣告刊版費用",
+        "需於活動日14個工作天前送件申請"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1125-07",
+      "name": "紅磚六合院 西2館(B棟)",
+      "nameEn": "West Hall 2 (Red Brick B)",
+      "floor": null,
+      "capacity": {
+        "theater": 300
+      },
+      "area": 94,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "fullDay": 84000,
+        "note": "日租價格"
+      },
+      "limitations": [
+        "園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）",
+        "場地使用時間08:00-22:00，不受理跨夜活動",
+        "戶外場地限高3米以下",
+        "不受理政治、宗教集會活動",
+        "所有場館為歷史建物，施工裝潢受嚴格規範",
+        "大型活動(上千人)需加裝流動廁所",
+        "場地租金不含清潔/電費/器材/廣告刊版費用",
+        "需於活動日14個工作天前送件申請"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1125-08",
+      "name": "紅磚六合院 西5-1館(E棟)",
+      "nameEn": "West Hall 5-1 (Red Brick E)",
+      "floor": null,
+      "capacity": {
+        "theater": 300
+      },
+      "area": 85,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "fullDay": 84000,
+        "note": "日租價格"
+      },
+      "limitations": [
+        "園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）",
+        "場地使用時間08:00-22:00，不受理跨夜活動",
+        "戶外場地限高3米以下",
+        "不受理政治、宗教集會活動",
+        "所有場館為歷史建物，施工裝潢受嚴格規範",
+        "大型活動(上千人)需加裝流動廁所",
+        "場地租金不含清潔/電費/器材/廣告刊版費用",
+        "需於活動日14個工作天前送件申請"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1125-09",
+      "name": "中5B 鍋爐室",
+      "nameEn": "Center 5B Boiler Room",
+      "floor": null,
+      "capacity": {
+        "theater": 120
+      },
+      "area": 76,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "fullDay": 40000,
+        "note": "日租價格"
+      },
+      "limitations": [
+        "園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）",
+        "場地使用時間08:00-22:00，不受理跨夜活動",
+        "戶外場地限高3米以下",
+        "不受理政治、宗教集會活動",
+        "所有場館為歷史建物，施工裝潢受嚴格規範",
+        "大型活動(上千人)需加裝流動廁所",
+        "場地租金不含清潔/電費/器材/廣告刊版費用",
+        "需於活動日14個工作天前送件申請"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1125-10",
+      "name": "中2館 2F 果酒練舞場",
+      "nameEn": "Center 2 2F Dance Studio",
+      "floor": null,
+      "capacity": {
+        "theater": 80
+      },
+      "area": 80,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "fullDay": 33000,
+        "note": "日租價格"
+      },
+      "limitations": [
+        "園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）",
+        "場地使用時間08:00-22:00，不受理跨夜活動",
+        "戶外場地限高3米以下",
+        "不受理政治、宗教集會活動",
+        "所有場館為歷史建物，施工裝潢受嚴格規範",
+        "大型活動(上千人)需加裝流動廁所",
+        "場地租金不含清潔/電費/器材/廣告刊版費用",
+        "需於活動日14個工作天前送件申請"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1125-11",
+      "name": "東3B 烏梅劇院",
+      "nameEn": "East 3B Wumei Theater",
+      "floor": null,
+      "capacity": {
+        "theater": 250
+      },
+      "area": 175,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "fullDay": 88000,
+        "note": "日租價格"
+      },
+      "limitations": [
+        "園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）",
+        "場地使用時間08:00-22:00，不受理跨夜活動",
+        "戶外場地限高3米以下",
+        "不受理政治、宗教集會活動",
+        "所有場館為歷史建物，施工裝潢受嚴格規範",
+        "大型活動(上千人)需加裝流動廁所",
+        "場地租金不含清潔/電費/器材/廣告刊版費用",
+        "需於活動日14個工作天前送件申請"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1125-12",
+      "name": "華山劇場(戶外)",
+      "nameEn": "Huashan Theater (Outdoor)",
+      "floor": null,
+      "capacity": {
+        "theater": 1200
+      },
+      "area": 450,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "fullDay": 126000,
+        "note": "日租價格"
+      },
+      "limitations": [
+        "園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）",
+        "場地使用時間08:00-22:00，不受理跨夜活動",
+        "戶外場地限高3米以下",
+        "不受理政治、宗教集會活動",
+        "所有場館為歷史建物，施工裝潢受嚴格規範",
+        "大型活動(上千人)需加裝流動廁所",
+        "場地租金不含清潔/電費/器材/廣告刊版費用",
+        "需於活動日14個工作天前送件申請"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1125-13",
+      "name": "忠孝三角(戶外)",
+      "nameEn": "Zhongxiao Triangle (Outdoor)",
+      "floor": null,
+      "capacity": {
+        "theater": 50
+      },
+      "area": 20,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "fullDay": 60000,
+        "note": "日租價格"
+      },
+      "limitations": [
+        "園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）",
+        "場地使用時間08:00-22:00，不受理跨夜活動",
+        "戶外場地限高3米以下",
+        "不受理政治、宗教集會活動",
+        "所有場館為歷史建物，施工裝潢受嚴格規範",
+        "大型活動(上千人)需加裝流動廁所",
+        "場地租金不含清潔/電費/器材/廣告刊版費用",
+        "需於活動日14個工作天前送件申請"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1125-14",
+      "name": "金八廣場(戶外)",
+      "nameEn": "Jinba Square (Outdoor)",
+      "floor": null,
+      "capacity": {},
+      "area": 50,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "fullDay": 60000,
+        "note": "日租價格"
+      },
+      "limitations": [
+        "園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）",
+        "場地使用時間08:00-22:00，不受理跨夜活動",
+        "戶外場地限高3米以下",
+        "不受理政治、宗教集會活動",
+        "所有場館為歷史建物，施工裝潢受嚴格規範",
+        "大型活動(上千人)需加裝流動廁所",
+        "場地租金不含清潔/電費/器材/廣告刊版費用",
+        "需於活動日14個工作天前送件申請"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1125-15",
+      "name": "中3館前廣場(戶外)",
+      "nameEn": "Center 3 Front Plaza (Outdoor)",
+      "floor": null,
+      "capacity": {},
+      "area": 80,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "fullDay": 60000,
+        "note": "日租價格"
+      },
+      "limitations": [
+        "園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）",
+        "場地使用時間08:00-22:00，不受理跨夜活動",
+        "戶外場地限高3米以下",
+        "不受理政治、宗教集會活動",
+        "所有場館為歷史建物，施工裝潢受嚴格規範",
+        "大型活動(上千人)需加裝流動廁所",
+        "場地租金不含清潔/電費/器材/廣告刊版費用",
+        "需於活動日14個工作天前送件申請"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1125-16",
+      "name": "東2A館",
+      "nameEn": "East 2A Hall",
+      "floor": null,
+      "capacity": {
+        "theater": 300
+      },
+      "area": 141,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "fullDay": 52000,
+        "note": "日租價格"
+      },
+      "limitations": [
+        "園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）",
+        "場地使用時間08:00-22:00，不受理跨夜活動",
+        "戶外場地限高3米以下",
+        "不受理政治、宗教集會活動",
+        "所有場館為歷史建物，施工裝潢受嚴格規範",
+        "大型活動(上千人)需加裝流動廁所",
+        "場地租金不含清潔/電費/器材/廣告刊版費用",
+        "需於活動日14個工作天前送件申請"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1125-17",
+      "name": "東2B館",
+      "nameEn": "East 2B Hall",
+      "floor": null,
+      "capacity": {
+        "theater": 300
+      },
+      "area": 189,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "fullDay": 55000,
+        "note": "日租價格"
+      },
+      "limitations": [
+        "園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）",
+        "場地使用時間08:00-22:00，不受理跨夜活動",
+        "戶外場地限高3米以下",
+        "不受理政治、宗教集會活動",
+        "所有場館為歷史建物，施工裝潢受嚴格規範",
+        "大型活動(上千人)需加裝流動廁所",
+        "場地租金不含清潔/電費/器材/廣告刊版費用",
+        "需於活動日14個工作天前送件申請"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1125-18",
+      "name": "東2C館",
+      "nameEn": "East 2C Hall",
+      "floor": null,
+      "capacity": {
+        "theater": 300
+      },
+      "area": 230,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "fullDay": 65000,
+        "note": "日租價格"
+      },
+      "limitations": [
+        "園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）",
+        "場地使用時間08:00-22:00，不受理跨夜活動",
+        "戶外場地限高3米以下",
+        "不受理政治、宗教集會活動",
+        "所有場館為歷史建物，施工裝潢受嚴格規範",
+        "大型活動(上千人)需加裝流動廁所",
+        "場地租金不含清潔/電費/器材/廣告刊版費用",
+        "需於活動日14個工作天前送件申請"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1125-19",
+      "name": "東2D館",
+      "nameEn": "East 2D Hall",
+      "floor": null,
+      "capacity": {
+        "theater": 300
+      },
+      "area": 189,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "fullDay": 55000,
+        "note": "日租價格"
+      },
+      "limitations": [
+        "園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）",
+        "場地使用時間08:00-22:00，不受理跨夜活動",
+        "戶外場地限高3米以下",
+        "不受理政治、宗教集會活動",
+        "所有場館為歷史建物，施工裝潢受嚴格規範",
+        "大型活動(上千人)需加裝流動廁所",
+        "場地租金不含清潔/電費/器材/廣告刊版費用",
+        "需於活動日14個工作天前送件申請"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1125-20",
+      "name": "紅磚六合院 西4館(D棟)",
+      "nameEn": "West Hall 4 (Red Brick D)",
+      "floor": null,
+      "capacity": {
+        "theater": 200
+      },
+      "area": 74,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "fullDay": 70000,
+        "note": "日租價格"
+      },
+      "limitations": [
+        "園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）",
+        "場地使用時間08:00-22:00，不受理跨夜活動",
+        "戶外場地限高3米以下",
+        "不受理政治、宗教集會活動",
+        "所有場館為歷史建物，施工裝潢受嚴格規範",
+        "大型活動(上千人)需加裝流動廁所",
+        "場地租金不含清潔/電費/器材/廣告刊版費用",
+        "需於活動日14個工作天前送件申請"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1125-21",
+      "name": "樹前草地(戶外)",
+      "nameEn": "Tree-Front Lawn (Outdoor)",
+      "floor": null,
+      "capacity": {},
+      "area": 30,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "fullDay": 60000,
+        "note": "日租價格"
+      },
+      "limitations": [
+        "園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）",
+        "場地使用時間08:00-22:00，不受理跨夜活動",
+        "戶外場地限高3米以下",
+        "不受理政治、宗教集會活動",
+        "所有場館為歷史建物，施工裝潢受嚴格規範",
+        "大型活動(上千人)需加裝流動廁所",
+        "場地租金不含清潔/電費/器材/廣告刊版費用",
+        "需於活動日14個工作天前送件申請"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1125-22",
+      "name": "中7A 維修工場",
+      "nameEn": "Center 7A Maintenance Workshop",
+      "floor": null,
+      "capacity": {
+        "theater": 120
+      },
+      "area": 60,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "fullDay": 60000,
+        "note": "日租價格"
+      },
+      "limitations": [
+        "園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）",
+        "場地使用時間08:00-22:00，不受理跨夜活動",
+        "戶外場地限高3米以下",
+        "不受理政治、宗教集會活動",
+        "所有場館為歷史建物，施工裝潢受嚴格規範",
+        "大型活動(上千人)需加裝流動廁所",
+        "場地租金不含清潔/電費/器材/廣告刊版費用",
+        "需於活動日14個工作天前送件申請"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1125-23",
+      "name": "中7B 維修工場",
+      "nameEn": "Center 7B Maintenance Workshop",
+      "floor": null,
+      "capacity": {
+        "theater": 180
+      },
+      "area": 80,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "fullDay": 80000,
+        "note": "日租價格"
+      },
+      "limitations": [
+        "園區嚴禁使用任何火具（含蠟燭、煙火等所有明火）",
+        "場地使用時間08:00-22:00，不受理跨夜活動",
+        "戶外場地限高3米以下",
+        "不受理政治、宗教集會活動",
+        "所有場館為歷史建物，施工裝潢受嚴格規範",
+        "大型活動(上千人)需加裝流動廁所",
+        "場地租金不含清潔/電費/器材/廣告刊版費用",
+        "需於活動日14個工作天前送件申請"
+      ],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

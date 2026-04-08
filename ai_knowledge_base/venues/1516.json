@@ -1,0 +1,267 @@
+{
+  "identity": {
+    "id": 1516,
+    "name": "彭園婚宴會館 新店館",
+    "nameEn": null,
+    "venueType": "婚宴場地",
+    "city": "新北市",
+    "address": "新北市新店區",
+    "url": "https://www.pengyuan.com.tw/",
+    "phone": null,
+    "contactEmail": null
+  },
+  "summary": null,
+  "risks": null,
+  "rules": null,
+  "pricingTips": null,
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1516-5",
+      "name": "※長榮桂冠酒店5樓",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": 360,
+        "banquet": 288,
+        "classroom": 180
+      },
+      "area": 130.5,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1516-婚宴場地尾牙餐廳",
+      "name": "婚宴場地、尾牙餐廳",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": 140,
+        "banquet": 112,
+        "classroom": 70
+      },
+      "area": 51.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1516-南京站第一飯店二樓",
+      "name": "南京站第一飯店二樓",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": 450,
+        "banquet": 360,
+        "classroom": 225
+      },
+      "area": 163.5,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1516-62",
+      "name": "正路62-1號5樓",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": 240,
+        "banquet": 192,
+        "classroom": 120
+      },
+      "area": 87.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1516-第一推薦彭園餐廳",
+      "name": "第一！推薦彭園餐廳",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {},
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {},
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1516-彭園旗下各館宴會廳",
+      "name": "彭園旗下各館宴會廳",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {},
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {},
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1516-廳及龍喜廳等三個廳",
+      "name": "廳及龍喜廳等三個廳",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": 250,
+        "banquet": 200,
+        "classroom": 125
+      },
+      "area": 90.5,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1516-口店內共有龍鳳廳",
+      "name": "口，店內共有龍鳳廳",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": 400,
+        "banquet": 320,
+        "classroom": 200
+      },
+      "area": 145.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1516-位於新北市政府大樓",
+      "name": "位於新北市政府大樓",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": 200,
+        "banquet": 160,
+        "classroom": 100
+      },
+      "area": 72.5,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1516-4",
+      "name": "4F宴會全廳",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": 230,
+        "banquet": 184,
+        "classroom": 115
+      },
+      "area": 83.5,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1516-1",
+      "name": "1F國際宴會全廳",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": 550,
+        "banquet": 440,
+        "classroom": 275
+      },
+      "area": 199.5,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

@@ -3,7 +3,7 @@ let allVenues = [];
 let currentVenue = null;
 
 // ===== 版本控制 =====
-const DATA_VERSION = '20260323-v5'; // 與 app.js 保持同步
+const DATA_VERSION = '20260407-v1'; // 與 app.js 保持同步
 
 // ===== 初始化 =====
 document.addEventListener('DOMContentLoaded', async () => {
@@ -17,8 +17,7 @@ async function loadVenues() {
         const response = await fetch(`venues.json?v=${DATA_VERSION}`);
         if (!response.ok) throw new Error('無法載入資料');
         allVenues = await response.json();
-        // 過濾掉已下架的場地 (active: false)
-        allVenues = allVenues.filter(venue => venue.active !== false);
+        // 不過濾 active=false，讓 venue detail 可以顯示友善下架訊息
         console.log(`✅ 成功載入 ${allVenues.length} 個場地`);
     } catch (error) {
         console.error('載入場地失敗:', error);
@@ -36,17 +35,21 @@ function loadVenueDetail() {
         return;
     }
     
-    // 尋找場地
+    // 尋找場地（包含 inactive，用於顯示友善訊息）
     currentVenue = allVenues.find(v => v.id === parseInt(venueId));
 
+    // 暴露給 Chat Widget 使用
+    window.currentVenueId = parseInt(venueId);
+    window.currentVenueName = currentVenue?.name || null;
+
     if (!currentVenue) {
-        showError('找不到此場地');
+        showError('找不到此場地，請確認 ID 是否正確');
         return;
     }
 
-    // 檢查場地是否已下架
+    // 檢查場地是否已下架（顯示友善訊息而非隱藏）
     if (currentVenue.active === false) {
-        showError('此場地已下架');
+        showError('此場地目前暫停更新，如需資料請聯繫我們');
         return;
     }
     
@@ -114,6 +117,15 @@ function renderVenueDetail() {
     
     // 設備
     document.getElementById('venueEquipment').textContent = venue.equipment || '未提供';
+
+    // 風險評估
+    renderRisks(venue);
+
+    // 專業知識
+    renderPricingTips(venue);
+
+    // 租借規定
+    renderRules(venue);
 
     // 相簿照片
     renderGallery(venue);
@@ -192,101 +204,105 @@ function createRoomCard(room, venueId) {
     const card = document.createElement('div');
     card.className = 'room-card';
     card.onclick = () => goToRoom(venueId, room.id);
-    
-    // 優先使用官網照片（支援多種格式）
-    // 格式1: {"main": "url", "source": "url"}
-    // 格式2: ["url1", "url2"]
-    // 格式3: photo: "url"
+
+    // 圖片處理
     let imageUrl = null;
     if (room.images && typeof room.images === 'object' && room.images.main) {
-        // 字典格式，优先使用 main
         imageUrl = room.images.main;
     } else if (Array.isArray(room.images) && room.images.length > 0) {
-        // 数组格式，使用第一张
         imageUrl = room.images[0];
     } else if (room.photo) {
-        // 旧格式 photo 字段
         imageUrl = room.photo;
     }
-    
-    // 容納人數
-    let capacityText = '-';
+
+    // 容納人數視覺化
+    let capacityBars = '';
     if (room.capacity) {
         const caps = [];
-        if (room.capacity.theater) caps.push(`劇院${room.capacity.theater}`);
-        if (room.capacity.classroom) caps.push(`課桌${room.capacity.classroom}`);
-        if (room.capacity.ushape) caps.push(`U型${room.capacity.ushape}`);
-        capacityText = caps.join(' / ') || '-';
+        if (room.capacity.theater) caps.push(`<span class="cap-item"><span class="cap-icon">🎭</span><span class="cap-num">${room.capacity.theater}</span></span>`);
+        if (room.capacity.classroom) caps.push(`<span class="cap-item"><span class="cap-icon">📚</span><span class="cap-num">${room.capacity.classroom}</span></span>`);
+        if (room.capacity.ushape) caps.push(`<span class="cap-item"><span class="cap-icon">🔀</span><span class="cap-num">${room.capacity.ushape}</span></span>`);
+        if (room.capacity.banquet) caps.push(`<span class="cap-item"><span class="cap-icon">🍽️</span><span class="cap-num">${room.capacity.banquet}</span></span>`);
+        capacityBars = caps.join('');
     }
-    
+
     // 價格
     let priceText = '價格面議';
+    let priceClass = '';
     if (room.pricing) {
-        if (room.pricing.fullDay) {
-            priceText = `$${room.pricing.fullDay.toLocaleString()}/天`;
+        if (room.pricing.halfDay && room.pricing.fullDay) {
+            priceText = `$${(room.pricing.halfDay/1000).toFixed(0)}k - $${(room.pricing.fullDay/1000).toFixed(0)}k`;
+            priceClass = 'has-price';
+        } else if (room.pricing.fullDay) {
+            priceText = `$${(room.pricing.fullDay/1000).toFixed(0)}k/天`;
+            priceClass = 'has-price';
         } else if (room.pricing.halfDay) {
-            priceText = `$${room.pricing.halfDay.toLocaleString()}/半天`;
+            priceText = `$${(room.pricing.halfDay/1000).toFixed(0)}k/半天`;
+            priceClass = 'has-price';
+        } else if (room.pricing.note) {
+            priceText = room.pricing.note;
+            priceClass = 'price-note';
         }
     }
-    
-    // 設備
-    let equipmentText = '基本設備';
-    if (room.equipment && room.equipment.length > 0) {
-        equipmentText = room.equipment.slice(0, 3).join('、');
-        if (room.equipment.length > 3) {
-            equipmentText += ` 等${room.equipment.length}項`;
-        }
+
+    // 限制警示
+    let limitationHtml = '';
+    if (room.limitations && room.limitations.length > 0) {
+        const firstLimitation = room.limitations[0];
+        limitationHtml = `
+            <div class="room-limitation-warning">
+                <span class="warning-icon">⚠️</span>
+                <span class="warning-text">${firstLimitation.length > 50 ? firstLimitation.substring(0, 50) + '...' : firstLimitation}</span>
+                ${room.limitations.length > 1 ? `<span class="warning-more">+${room.limitations.length - 1}</span>` : ''}
+            </div>
+        `;
     }
-    
-    // 空間資訊標籤（新增）
-    let spaceTags = [];
-    if (room.shape) {
-        spaceTags.push(room.shape);
+
+    // 天花板高度
+    const ceilingInfo = room.ceilingHeight ? `<span class="ceiling-info">挑高 ${room.ceilingHeight}m</span>` : '';
+
+    // 進場資訊
+    let loadInInfo = '';
+    if (room.loadIn) {
+        const items = [];
+        if (room.loadIn.elevator) items.push('有貨梯');
+        if (room.loadIn.vehicleAccess) items.push('車輛可達');
+        if (items.length > 0) loadInInfo = `<span class="loadin-info">${items.join(' · ')}</span>`;
     }
-    if (room.height) {
-        spaceTags.push(`挑高${room.height}公尺`);
-    }
-    if (room.pillar !== undefined) {
-        spaceTags.push(room.pillar ? '有柱' : '無柱');
-    }
-    const spaceTagsText = spaceTags.length > 0 ? spaceTags.join(' · ') : '';
-    
-    // 圖片區域（如果有有效的官網圖片才顯示）
+
+    // 圖片區域
     const imageHtml = imageUrl
-        ? `<img src="${imageUrl}" alt="${room.name}" class="room-card-image"
-             onerror="this.parentElement.style.display='none'">`
-        : '';
+        ? `<div class="room-image"><img src="${imageUrl}" alt="${room.name}" onerror="this.style.display='none'"></div>`
+        : '<div class="room-image room-image-placeholder">🚪</div>';
 
     card.innerHTML = `
         ${imageHtml}
         <div class="room-card-content">
-            <h3 class="room-card-name">${room.name}</h3>
-            <div class="room-card-info">
-                <span class="room-card-item">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-                    </svg>
+            <div class="room-card-header">
+                <h3 class="room-card-name">${room.name}</h3>
+                ${room.floor ? `<span class="room-floor">${room.floor}</span>` : ''}
+            </div>
+
+            <div class="room-card-meta">
+                <span class="meta-item">
+                    <span class="meta-icon">📐</span>
                     ${room.area ? room.area + ' 坪' : '坪數未提供'}
                 </span>
-                <span class="room-card-item">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                        <circle cx="9" cy="7" r="4"></circle>
-                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                    </svg>
-                    ${capacityText}
-                </span>
+                ${ceilingInfo}
+                ${loadInInfo}
             </div>
-            ${spaceTagsText ? `<div class="room-card-space-tags">${spaceTagsText}</div>` : ''}
+
+            ${capacityBars ? `<div class="room-capacity-bar">${capacityBars}</div>` : ''}
+
+            ${limitationHtml}
+
             <div class="room-card-footer">
-                <span class="room-card-price">${priceText}</span>
-                <span class="room-card-equipment">${equipmentText}</span>
+                <span class="room-price ${priceClass}">${priceText}</span>
+                <button class="room-detail-btn">查看詳情 →</button>
             </div>
-            <button class="room-card-btn">查看詳情 →</button>
         </div>
     `;
-    
+
     return card;
 }
 
@@ -342,10 +358,105 @@ function renderGallery(venue) {
 
         // 錯誤處理：如果圖片載入失敗，隱藏該照片
         img.onerror = function() {
-            this.parentElement.style.display = 'none';
+            this.style.display = 'none';
         };
 
         photoDiv.appendChild(img);
         galleryContainer.appendChild(photoDiv);
     });
+}
+
+// ===== 渲染風險評估 =====
+function renderRisks(venue) {
+    const section = document.getElementById('risksSection');
+    const container = document.getElementById('risksContent');
+    const risks = venue.risks;
+    if (!risks || typeof risks !== 'object') { section.style.display = 'none'; return; }
+
+    const items = [];
+    if (risks.bookingLeadTime) {
+        items.push({ icon: '📅', label: '預約提前量', value: risks.bookingLeadTime });
+    }
+    if (risks.peakSeasons && risks.peakSeasons.length > 0) {
+        items.push({ icon: '🔥', label: '旺季檔期', value: risks.peakSeasons.join('、') });
+    }
+    if (risks.commonIssues && risks.commonIssues.length > 0) {
+        items.push({ icon: '⚠️', label: '常見問題', value: risks.commonIssues.join('、') });
+    }
+
+    if (items.length === 0) { section.style.display = 'none'; return; }
+
+    section.style.display = 'block';
+    container.innerHTML = items.map(item => `
+        <div class="knowledge-card risk-card">
+            <div class="knowledge-icon">${item.icon}</div>
+            <div class="knowledge-content">
+                <div class="knowledge-label">${item.label}</div>
+                <div class="knowledge-value">${item.value}</div>
+            </div>
+        </div>
+    `).join('');
+}
+
+// ===== 渲染專業知識 =====
+function renderPricingTips(venue) {
+    const section = document.getElementById('pricingTipsSection');
+    const container = document.getElementById('pricingTipsContent');
+    const tips = venue.pricingTips;
+    if (!tips || !Array.isArray(tips) || tips.length === 0) { section.style.display = 'none'; return; }
+
+    section.style.display = 'block';
+    const list = document.createElement('ul');
+    list.className = 'tips-list-items';
+    tips.forEach(tip => {
+        const li = document.createElement('li');
+        li.innerHTML = `<span class="tip-icon">💡</span> ${tip}`;
+        list.appendChild(li);
+    });
+    container.innerHTML = '';
+    container.appendChild(list);
+}
+
+// ===== 渲染租借規定 =====
+function renderRules(venue) {
+    const section = document.getElementById('rulesSection');
+    const container = document.getElementById('rulesContent');
+    const rules = venue.rules;
+    if (!rules || typeof rules !== 'object') { section.style.display = 'none'; return; }
+
+    const labels = {
+        catering: '餐飲規定',
+        decoration: '裝潢規定',
+        sound: '音響限制',
+        loadIn: '進場/撤場',
+        cancellation: '取消政策',
+    };
+    const icons = {
+        catering: '🍽️',
+        decoration: '🎨',
+        sound: '🔊',
+        loadIn: '🚛',
+        cancellation: '❌',
+    };
+
+    const items = Object.entries(rules)
+        .filter(([, v]) => v && typeof v === 'string')
+        .map(([key, val]) => ({
+            icon: icons[key] || '📋',
+            label: labels[key] || key,
+            value: val,
+        }));
+
+    if (items.length === 0) { section.style.display = 'none'; return; }
+
+    section.style.display = 'block';
+    container.innerHTML = items.map(item => `
+        <div class="knowledge-card rule-card">
+            <div class="knowledge-icon">${item.icon}</div>
+            <div class="knowledge-content">
+                <div class="knowledge-label">${item.label}</div>
+                <div class="knowledge-value">${item.value}</div>
+            </div>
+        </div>
+    `).join('');
 }

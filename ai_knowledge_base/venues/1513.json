@@ -1,0 +1,48 @@
+{
+  "identity": {
+    "id": 1513,
+    "name": "汐止福泰大飯店",
+    "nameEn": null,
+    "venueType": "飯店場地",
+    "city": "新北市",
+    "address": "新北市汐止區大同路二段234號",
+    "url": "https://www.fortehotelxizhi.com.tw/banquet-detail/meeting/",
+    "phone": null,
+    "contactEmail": null
+  },
+  "summary": null,
+  "risks": null,
+  "rules": null,
+  "pricingTips": null,
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1513-MeetingRoo",
+      "name": "Meeting Room",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": 100,
+        "banquet": 80
+      },
+      "area": 36.5,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

@@ -1,0 +1,568 @@
+{
+  "identity": {
+    "id": 1122,
+    "name": "維多麗亞酒店",
+    "nameEn": null,
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市104中山區敬業四路168號",
+    "url": "https://grandvictoria.com.tw/",
+    "phone": "+886-2-8502-0000",
+    "contactEmail": "service@grandvictoria.com.tw"
+  },
+  "summary": null,
+  "risks": {
+    "bookingLeadTime": "一般活動至少2-4週前；1F宴會廳建議2-3個月前；婚宴旺季建議4-6個月前",
+    "peakSeasons": [
+      "10-12月婚宴旺季",
+      "12-1月尾牙季",
+      "6-8月畢業季"
+    ],
+    "commonIssues": [
+      "超時人力費NT$1,500/hr/人（最低3小時），成本易被低估",
+      "3F各廳天花板4米，大型舞台設備需注意高度限制",
+      "停車位有限，大型活動需提前安排停車方案"
+    ]
+  },
+  "rules": {
+    "catering": [
+      {
+        "rule": "限用飯店餐飲服務，提供中式/西式宴席及自助餐，不可外燴",
+        "exception": "會議茶點可討論搭配方案",
+        "penalty": "攜入外食飯店有權要求撤除",
+        "negotiable": false
+      },
+      {
+        "rule": "酒水需使用飯店提供之酒類，自備酒類需支付開瓶費",
+        "exception": null,
+        "penalty": "開瓶費依酒類別計價",
+        "negotiable": true
+      }
+    ],
+    "decoration": [
+      {
+        "rule": "佈置需提前向宴會部申請，禁止使用圖釘、膠帶直接黏貼於牆面",
+        "exception": "可使用飯店提供之展示架或立牌",
+        "penalty": "牆面損壞需照價賠償",
+        "negotiable": false
+      },
+      {
+        "rule": "1F維多麗亞廳挑高8米，3F各廳挑高4米，大型道具高度需配合各廳限制",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false
+      },
+      {
+        "rule": "禁止施放鞭炮、煙火、乾冰等具安全疑慮之特殊效果",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false
+      }
+    ],
+    "sound": [
+      {
+        "rule": "各廳配備基本音響系統及無線麥克風",
+        "exception": "額外音響設備需提前申請",
+        "penalty": null,
+        "negotiable": true
+      },
+      {
+        "rule": "晚間22:00後音量需降低，避免影響住宿客人",
+        "exception": null,
+        "penalty": null,
+        "negotiable": true
+      }
+    ],
+    "loadIn": [
+      {
+        "rule": "進場佈置時間一般為活動前2-3小時",
+        "exception": "大型佈置可申請前一天夜間進場，需額外費用",
+        "penalty": null,
+        "negotiable": true
+      },
+      {
+        "rule": "超時人力費率NT$1,500/小時/人（最低3小時）",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false
+      }
+    ],
+    "cancellation": [
+      {
+        "rule": "活動前60天以上取消全額退還訂金",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "活動前30-59天取消退還50%訂金",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      },
+      {
+        "rule": "活動前30天內取消訂金不予退還",
+        "exception": "改期可協調，視檔期而定",
+        "penalty": null,
+        "negotiable": true
+      }
+    ],
+    "insurance": [
+      {
+        "rule": "大型活動（200人以上）建議投保公共意外責任險",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null
+      }
+    ]
+  },
+  "pricingTips": [
+    "1F維多麗亞廳平日半日NT$150,000起，假日加價",
+    "3F小型廳（經國/中山/中正廳）平日半日NT$30,000-45,000，CP值高",
+    "超時費NT$1,500/hr/人（最低3小時），估計最少NT$4,500",
+    "夜間佈置（過夜設定）需額外費用，建議確認報價",
+    "非婚宴旺季（3-6月）平日場地租金有議價空間",
+    "住宿+場地套裝方案通常比單獨租用更划算"
+  ],
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1122-01",
+      "name": "大宴會廳（全區）",
+      "nameEn": "Grand Ballroom (Full)",
+      "floor": "1F",
+      "capacity": {
+        "theater": 450,
+        "classroom": 270,
+        "banquet": 300
+      },
+      "area": 156,
+      "ceilingHeight": 8.0,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 100000,
+        "fullDay": 360000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": "平面多功能"
+    },
+    {
+      "id": "1122-02",
+      "name": "大宴會廳 A區",
+      "nameEn": "Grand Ballroom Area A",
+      "floor": "1F",
+      "capacity": {
+        "theater": 100,
+        "classroom": 45,
+        "ushape": 30,
+        "banquet": 55
+      },
+      "area": 37,
+      "ceilingHeight": 8.0,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 30000,
+        "fullDay": 120000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1122-03",
+      "name": "大宴會廳 B區",
+      "nameEn": "Grand Ballroom Area B",
+      "floor": "1F",
+      "capacity": {
+        "theater": 100,
+        "classroom": 54,
+        "ushape": 33,
+        "banquet": 55
+      },
+      "area": 44,
+      "ceilingHeight": 8.0,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 30000,
+        "fullDay": 120000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1122-04",
+      "name": "大宴會廳 C區",
+      "nameEn": "Grand Ballroom Area C",
+      "floor": "1F",
+      "capacity": {
+        "theater": 230,
+        "classroom": 126,
+        "ushape": 27,
+        "banquet": 120
+      },
+      "area": 74,
+      "ceilingHeight": 8.0,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 60000,
+        "fullDay": 240000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1122-05",
+      "name": "大宴會廳廊道",
+      "nameEn": "Pre-Function Area",
+      "floor": "1F",
+      "capacity": {
+        "theater": 184,
+        "classroom": 102,
+        "ushape": 29,
+        "banquet": 96
+      },
+      "area": 47,
+      "ceilingHeight": 8.0,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1122-06",
+      "name": "維多麗亞戶外庭園",
+      "nameEn": "Victoria Garden",
+      "floor": "1F",
+      "capacity": {
+        "banquet": 70
+      },
+      "area": 123,
+      "ceilingHeight": 8.0,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 60000,
+        "fullDay": 120000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1122-07",
+      "name": "1F貴賓室",
+      "nameEn": "VIP Room (1F)",
+      "floor": "1F",
+      "capacity": {
+        "theater": 10
+      },
+      "area": 3,
+      "ceilingHeight": 8.0,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 10000,
+        "fullDay": 18000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1122-08",
+      "name": "維多麗亞廳（全區）",
+      "nameEn": "Victoria Ballroom (Full)",
+      "floor": "3F",
+      "capacity": {
+        "theater": 450,
+        "classroom": 270,
+        "banquet": 300
+      },
+      "area": 171,
+      "ceilingHeight": 4.0,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 80000,
+        "fullDay": 280000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": "平面多功能"
+    },
+    {
+      "id": "1122-09",
+      "name": "維多麗亞廳 A區",
+      "nameEn": "Victoria Ballroom Area A",
+      "floor": "3F",
+      "capacity": {
+        "theater": 100,
+        "classroom": 54,
+        "ushape": 30,
+        "banquet": 55
+      },
+      "area": 50,
+      "ceilingHeight": 4.0,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 25000,
+        "fullDay": 95000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1122-10",
+      "name": "維多麗亞廳 B區",
+      "nameEn": "Victoria Ballroom Area B",
+      "floor": "3F",
+      "capacity": {
+        "theater": 100,
+        "classroom": 54,
+        "ushape": 33,
+        "banquet": 55
+      },
+      "area": 44,
+      "ceilingHeight": 4.0,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 25000,
+        "fullDay": 95000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1122-11",
+      "name": "維多麗亞廳 C區",
+      "nameEn": "Victoria Ballroom Area C",
+      "floor": "3F",
+      "capacity": {
+        "theater": 230,
+        "classroom": 102,
+        "ushape": 29,
+        "banquet": 120
+      },
+      "area": 77,
+      "ceilingHeight": 4.0,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 40000,
+        "fullDay": 140000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1122-12",
+      "name": "天璽廳（全區）",
+      "nameEn": "Noble Ballroom (Full)",
+      "floor": "3F",
+      "capacity": {
+        "theater": 130,
+        "classroom": 72,
+        "ushape": 48,
+        "banquet": 70
+      },
+      "area": 52,
+      "ceilingHeight": 4.0,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 27000,
+        "fullDay": 100000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1122-13",
+      "name": "天璽廳 N1",
+      "nameEn": "Noble Ballroom 1",
+      "floor": "3F",
+      "capacity": {
+        "theater": 40,
+        "classroom": 27,
+        "ushape": 18,
+        "banquet": 20
+      },
+      "area": 17,
+      "ceilingHeight": 4.0,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 10000,
+        "fullDay": 30000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1122-14",
+      "name": "天璽廳 N2",
+      "nameEn": "Noble Ballroom 2",
+      "floor": "3F",
+      "capacity": {
+        "theater": 40,
+        "classroom": 27,
+        "ushape": 18,
+        "banquet": 20
+      },
+      "area": 17,
+      "ceilingHeight": 4.0,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 10000,
+        "fullDay": 30000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1122-15",
+      "name": "天璽廳 N3",
+      "nameEn": "Noble Ballroom 3",
+      "floor": "3F",
+      "capacity": {
+        "theater": 40,
+        "classroom": 24,
+        "ushape": 15,
+        "banquet": 20
+      },
+      "area": 17,
+      "ceilingHeight": 4.0,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 10000,
+        "fullDay": 30000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1122-16",
+      "name": "3F貴賓室",
+      "nameEn": "VIP Room (3F)",
+      "floor": "3F",
+      "capacity": {
+        "theater": 15
+      },
+      "area": 9,
+      "ceilingHeight": 4.0,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 6000,
+        "fullDay": 10000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1122-17",
+      "name": "4F戶外花園",
+      "nameEn": "Garden (4F)",
+      "floor": "4F",
+      "capacity": {
+        "banquet": 60
+      },
+      "area": 67,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 60000,
+        "fullDay": 120000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1122-18",
+      "name": "4F戶外泳池",
+      "nameEn": "Pool (4F)",
+      "floor": "4F",
+      "capacity": {
+        "banquet": 60
+      },
+      "area": 67,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 30000,
+        "fullDay": 60000
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

@@ -1,0 +1,486 @@
+{
+  "identity": {
+    "id": 1075,
+    "name": "台北寒舍喜來登大飯店",
+    "nameEn": null,
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市中正區忠孝東路一段12號",
+    "url": "https://www.sheratongrandtaipei.com/",
+    "phone": null,
+    "contactEmail": "sheraton@sheratongrandtaipei.com"
+  },
+  "summary": null,
+  "risks": {
+    "bookingLeadTime": "至少1個月（大型宴會建議3個月前）",
+    "peakSeasons": [
+      "10-12月婚宴旺季",
+      "12-1月尾牙",
+      "6月畢業季"
+    ],
+    "commonIssues": [
+      "B2大宴會廳無手機訊號",
+      "喜來登廳+宴會廳同時使用需確認動線"
+    ]
+  },
+  "rules": {
+    "catering": "限用飯店餐飲服務",
+    "decoration": "禁用膠帶、圖釘，需使用無痕掛具",
+    "sound": "飯店提供基本音響，特殊需求另計",
+    "loadIn": "B2有專用貨梯，1F/2F需走電梯",
+    "cancellation": "依合約條款"
+  },
+  "pricingTips": [
+    "B2宴會廳拆分為福廳+祿廳各租更划算",
+    "訂9:00-17:00比8:00-16:00便宜20%",
+    "1F清翫適合中小型精品發表會",
+    "會議專案含茶水點心，比單租場地更完整"
+  ],
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1075-01",
+      "name": "喜來登廳",
+      "nameEn": null,
+      "floor": "B2",
+      "capacity": {
+        "theater": 1150,
+        "classroom": 525,
+        "banquet": 1080,
+        "reception": 560
+      },
+      "area": 445,
+      "ceilingHeight": 4.8,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "FUNCTION ROOM CAPACITY; Sheraton Grand",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1075-02",
+      "name": "宴會廳",
+      "nameEn": null,
+      "floor": "B2",
+      "capacity": {
+        "theater": 1400,
+        "banquet": 1440
+      },
+      "area": 606,
+      "ceilingHeight": 4.8,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "FUNCTION ROOM CAPACITY; Sheraton Grand",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1075-03",
+      "name": "福廳",
+      "nameEn": null,
+      "floor": "B2",
+      "capacity": {
+        "theater": 366,
+        "classroom": 168,
+        "banquet": 360,
+        "reception": 200
+      },
+      "area": 150,
+      "ceilingHeight": 4.8,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "FUNCTION ROOM CAPACITY; Sheraton Grand",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1075-04",
+      "name": "祿廳",
+      "nameEn": null,
+      "floor": "B2",
+      "capacity": {
+        "theater": 366,
+        "classroom": 168,
+        "banquet": 384,
+        "reception": 200
+      },
+      "area": 155,
+      "ceilingHeight": 4.8,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "FUNCTION ROOM CAPACITY; Sheraton Grand",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1075-05",
+      "name": "壽廳",
+      "nameEn": null,
+      "floor": "B2",
+      "capacity": {
+        "theater": 200,
+        "classroom": 99,
+        "banquet": 156,
+        "reception": 90
+      },
+      "area": 75,
+      "ceilingHeight": 2.4,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "FUNCTION ROOM CAPACITY; Sheraton Grand",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1075-06",
+      "name": "喜廳",
+      "nameEn": null,
+      "floor": "B2",
+      "capacity": {
+        "theater": 150,
+        "classroom": 90,
+        "banquet": 120,
+        "reception": 70
+      },
+      "area": 69,
+      "ceilingHeight": 2.4,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "FUNCTION ROOM CAPACITY; Sheraton Grand",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1075-07",
+      "name": "日廳",
+      "nameEn": null,
+      "floor": "B2",
+      "capacity": {
+        "theater": 40,
+        "classroom": 27,
+        "banquet": 36
+      },
+      "area": 20,
+      "ceilingHeight": 2.4,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "FUNCTION ROOM CAPACITY; Sheraton Grand",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1075-08",
+      "name": "月廳",
+      "nameEn": null,
+      "floor": "B2",
+      "capacity": {
+        "theater": 40,
+        "classroom": 27,
+        "banquet": 36
+      },
+      "area": 21,
+      "ceilingHeight": 2.4,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "FUNCTION ROOM CAPACITY; Sheraton Grand",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1075-09",
+      "name": "星廳",
+      "nameEn": null,
+      "floor": "B2",
+      "capacity": {
+        "theater": 40,
+        "classroom": 27,
+        "banquet": 36
+      },
+      "area": 20,
+      "ceilingHeight": 2.4,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "FUNCTION ROOM CAPACITY; Sheraton Grand",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1075-10",
+      "name": "玉瀾",
+      "nameEn": null,
+      "floor": "B1",
+      "capacity": {
+        "theater": 40,
+        "classroom": 24,
+        "banquet": 24
+      },
+      "area": 15,
+      "ceilingHeight": 2.5,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "FUNCTION ROOM CAPACITY; Sheraton Grand",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1075-11",
+      "name": "薈萃",
+      "nameEn": null,
+      "floor": "B1",
+      "capacity": {
+        "theater": 40,
+        "classroom": 24,
+        "banquet": 24
+      },
+      "area": 15,
+      "ceilingHeight": 2.5,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "FUNCTION ROOM CAPACITY; Sheraton Grand",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1075-12",
+      "name": "翠芳",
+      "nameEn": null,
+      "floor": "B1",
+      "capacity": {
+        "theater": 40,
+        "classroom": 24,
+        "banquet": 24
+      },
+      "area": 15,
+      "ceilingHeight": 2.5,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "FUNCTION ROOM CAPACITY; Sheraton Grand",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1075-13",
+      "name": "彩蝶",
+      "nameEn": null,
+      "floor": "B1",
+      "capacity": {
+        "theater": 60,
+        "classroom": 36,
+        "banquet": 36
+      },
+      "area": 20,
+      "ceilingHeight": 2.5,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "FUNCTION ROOM CAPACITY; Sheraton Grand",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1075-14",
+      "name": "逸絢",
+      "nameEn": null,
+      "floor": "B1",
+      "capacity": {
+        "theater": 60,
+        "classroom": 36,
+        "banquet": 36
+      },
+      "area": 20,
+      "ceilingHeight": 2.5,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "FUNCTION ROOM CAPACITY; Sheraton Grand",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1075-15",
+      "name": "清翫",
+      "nameEn": null,
+      "floor": "1F",
+      "capacity": {
+        "theater": 160,
+        "classroom": 81,
+        "banquet": 156,
+        "reception": 70
+      },
+      "area": 72.36,
+      "ceilingHeight": 3.3,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "FUNCTION ROOM CAPACITY; Sheraton Grand",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1075-16",
+      "name": "瑞穗園",
+      "nameEn": null,
+      "floor": "2F",
+      "capacity": {
+        "theater": 240,
+        "classroom": 147,
+        "banquet": 216,
+        "reception": 120
+      },
+      "area": 91.89,
+      "ceilingHeight": 2.2,
+      "pillar": null,
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": {
+        "elevator": "FUNCTION ROOM CAPACITY; Sheraton Grand",
+        "vehicleAccess": null,
+        "loadingDock": ""
+      },
+      "suitableEventTypes": null,
+      "equipment": null,
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

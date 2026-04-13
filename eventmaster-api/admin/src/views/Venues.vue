@@ -17,30 +17,45 @@
             :prefix-icon="Search"
             clearable
             style="width: 200px"
-            @input="handleSearch"
+            @input="handleFilterChange"
           />
           <el-select
             v-model="filters.city"
             placeholder="城市"
             clearable
             style="width: 120px"
-            @change="fetchData"
+            @change="handleFilterChange"
           >
             <el-option label="台北市" value="台北市" />
             <el-option label="新北市" value="新北市" />
             <el-option label="台中市" value="台中市" />
             <el-option label="高雄市" value="高雄市" />
+            <el-option label="台南市" value="台南市" />
+            <el-option label="桃園市" value="桃園市" />
+            <el-option label="屏東縣" value="屏東縣" />
+            <el-option label="南投縣" value="南投縣" />
+            <el-option label="宜蘭縣" value="宜蘭縣" />
+            <el-option label="新竹市" value="新竹市" />
+            <el-option label="彰化縣" value="彰化縣" />
+            <el-option label="花蓮縣" value="花蓮縣" />
+            <el-option label="台東縣" value="台東縣" />
           </el-select>
           <el-select
             v-model="filters.type"
             placeholder="類型"
             clearable
-            style="width: 120px"
-            @change="fetchData"
+            style="width: 130px"
+            @change="handleFilterChange"
           >
-            <el-option label="會議中心" value="conference" />
-            <el-option label="飯店" value="hotel" />
-            <el-option label="展覽中心" value="exhibition" />
+            <el-option label="飯店場地" value="飯店" />
+            <el-option label="會議中心" value="會議中心" />
+            <el-option label="展演場地" value="展演場地" />
+            <el-option label="機關場地" value="機關場地" />
+            <el-option label="運動場地" value="運動場地" />
+            <el-option label="婚宴場地" value="婚宴場地" />
+            <el-option label="咖啡廳" value="咖啡廳" />
+            <el-option label="宴會廳" value="宴會廳" />
+            <el-option label="其他" value="其他" />
           </el-select>
         </div>
         <div class="actions">
@@ -52,7 +67,7 @@
     <!-- 場地表格 -->
     <div class="table-container">
       <el-table
-        v-loading="venueStore.loading"
+        v-loading="loading"
         :data="venues"
         stripe
         @row-click="handleRowClick"
@@ -61,9 +76,9 @@
         <el-table-column prop="name" label="場地名稱" min-width="150" />
         <el-table-column prop="nameEn" label="英文名稱" min-width="150" />
         <el-table-column prop="city" label="城市" width="100" />
-        <el-table-column prop="type" label="類型" width="100">
+        <el-table-column prop="venueType" label="類型" width="110">
           <template #default="{ row }">
-            <el-tag size="small">{{ getTypeLabel(row.type) }}</el-tag>
+            <el-tag size="small">{{ row.venueType || getTypeLabel(row.type) }}</el-tag>
           </template>
         </el-table-column>
         <el-table-column prop="address" label="地址" min-width="200" show-overflow-tooltip />
@@ -95,11 +110,11 @@
         <el-pagination
           v-model:current-page="pagination.page"
           v-model:page-size="pagination.size"
-          :total="venueStore.total"
+          :total="totalFiltered"
           :page-sizes="[10, 20, 50, 100]"
           layout="total, sizes, prev, pager, next, jumper"
-          @size-change="fetchData"
-          @current-change="fetchData"
+          @size-change="handlePageSizeChange"
+          @current-change="handlePageChange"
         />
       </div>
     </div>
@@ -123,12 +138,15 @@
         <el-form-item label="英文名稱" prop="nameEn">
           <el-input v-model="form.nameEn" placeholder="請輸入英文名稱" />
         </el-form-item>
-        <el-form-item label="類型" prop="type">
-          <el-select v-model="form.type" placeholder="請選擇類型" style="width: 100%">
-            <el-option label="會議中心" value="conference" />
-            <el-option label="飯店" value="hotel" />
-            <el-option label="展覽中心" value="exhibition" />
-            <el-option label="其他" value="other" />
+        <el-form-item label="類型" prop="venueType">
+          <el-select v-model="form.venueType" placeholder="請選擇類型" style="width: 100%">
+            <el-option label="飯店場地" value="飯店" />
+            <el-option label="會議中心" value="會議中心" />
+            <el-option label="展演場地" value="展演場地" />
+            <el-option label="機關場地" value="機關場地" />
+            <el-option label="運動場地" value="運動場地" />
+            <el-option label="婚宴場地" value="婚宴場地" />
+            <el-option label="其他" value="其他" />
           </el-select>
         </el-form-item>
         <el-form-item label="城市" prop="city">
@@ -161,10 +179,9 @@ import {
   Plus, Search, Refresh, View, Delete
 } from '@element-plus/icons-vue'
 import { ElMessage, ElMessageBox } from 'element-plus'
-import { useVenueStore } from '@/stores/venue'
+import api from '@/utils/api'
 
 const router = useRouter()
-const venueStore = useVenueStore()
 
 const filters = reactive({
   search: '',
@@ -180,11 +197,13 @@ const pagination = reactive({
 const showCreateDialog = ref(false)
 const submitting = ref(false)
 const formRef = ref()
+const loading = ref(false)
+const allVenues = ref([])
 
 const form = reactive({
   name: '',
   nameEn: '',
-  type: '',
+  venueType: '',
   city: '',
   address: '',
   contactPhone: '',
@@ -193,29 +212,70 @@ const form = reactive({
 
 const formRules = {
   name: [{ required: true, message: '請輸入場地名稱', trigger: 'blur' }],
-  type: [{ required: true, message: '請選擇類型', trigger: 'change' }],
+  venueType: [{ required: true, message: '請選擇類型', trigger: 'change' }],
   city: [{ required: true, message: '請輸入城市', trigger: 'blur' }]
 }
 
-const venues = computed(() => venueStore.venues)
+// 客戶端過濾
+const filteredVenues = computed(() => {
+  let result = allVenues.value
+
+  if (filters.search) {
+    const q = filters.search.toLowerCase()
+    result = result.filter(v =>
+      (v.name && v.name.toLowerCase().includes(q)) ||
+      (v.nameEn && v.nameEn.toLowerCase().includes(q))
+    )
+  }
+
+  if (filters.city) {
+    result = result.filter(v => v.city === filters.city)
+  }
+
+  if (filters.type) {
+    result = result.filter(v =>
+      (v.venueType && v.venueType === filters.type) ||
+      (v.type && v.type === filters.type)
+    )
+  }
+
+  return result
+})
+
+const totalFiltered = computed(() => filteredVenues.value.length)
+
+const venues = computed(() => {
+  const start = (pagination.page - 1) * pagination.size
+  return filteredVenues.value.slice(start, start + pagination.size)
+})
 
 async function fetchData() {
+  loading.value = true
   try {
-    await venueStore.fetchVenues({
-      page: pagination.page,
-      limit: pagination.size,
-      city: filters.city || undefined,
-      type: filters.type || undefined
-    })
+    const response = await api.get('/api/v1/admin/venues-json')
+    allVenues.value = response.data || []
   } catch (error) {
     console.error('Error fetching venues:', error)
     ElMessage.error('載入場地資料失敗')
+  } finally {
+    loading.value = false
   }
+}
+
+function handleFilterChange() {
+  pagination.page = 1
 }
 
 function handleSearch() {
   pagination.page = 1
-  fetchData()
+}
+
+function handlePageSizeChange() {
+  pagination.page = 1
+}
+
+function handlePageChange() {
+  // pagination.page is already updated by v-model
 }
 
 function handleRowClick(row) {
@@ -227,17 +287,21 @@ async function handleSubmit() {
     await formRef.value.validate()
     submitting.value = true
 
-    await venueStore.createVenue(form)
+    // 直接新增到 venues.json
+    const newId = Math.max(...allVenues.value.map(v => v.id), 0) + 1
+    const newVenue = { id: newId, ...JSON.parse(JSON.stringify(form)) }
+    newVenue.isActive = true
+
+    await api.put(`/api/v1/admin/venues/${newId}`, newVenue)
 
     ElMessage.success('場地新增成功')
     showCreateDialog.value = false
 
-    // 重置表單
     Object.keys(form).forEach(key => {
       form[key] = ''
     })
 
-    fetchData()
+    await fetchData()
   } catch (error) {
     if (error !== 'cancel') {
       ElMessage.error('新增場地失敗')
@@ -259,9 +323,7 @@ async function handleDelete(row) {
       }
     )
 
-    await venueStore.deleteVenue(row.id)
-    ElMessage.success('刪除成功')
-    fetchData()
+    ElMessage.info('刪除功能需透過 API 實作')
   } catch {
     // 用戶取消
   }

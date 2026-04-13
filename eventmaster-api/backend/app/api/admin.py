@@ -23,6 +23,22 @@ router = APIRouter(tags=["admin"])
 # __file__ is backend/app/api/admin.py, so we need to go up 4 levels
 PROJECT_ROOT = Path(__file__).parent.parent.parent.parent
 VENUES_JSON_PATH = PROJECT_ROOT / "venues.json"
+FRONTEND_VENUES_JSON = PROJECT_ROOT.parent / "venues.json"
+
+
+async def _sync_to_frontend():
+    """將 venues.json 同步到前端專案目錄並觸發 Vercel 部署"""
+    import shutil, subprocess
+    try:
+        shutil.copy2(VENUES_JSON_PATH, FRONTEND_VENUES_JSON)
+        result = subprocess.run(
+            ["npx", "vercel", "--prod", "--yes"],
+            cwd=str(FRONTEND_VENUES_JSON.parent),
+            capture_output=True, text=True, timeout=120
+        )
+        return result.returncode == 0
+    except Exception:
+        return False
 
 
 @router.get("/venues-json")
@@ -107,6 +123,9 @@ async def update_room_status(
     # 原子替換
     shutil.move(tmp_path, VENUES_JSON_PATH)
 
+    # 同步到前端並部署
+    sync_ok = await _sync_to_frontend()
+
     return {
         "success": True,
         "venue_id": venue_id,
@@ -114,6 +133,99 @@ async def update_room_status(
         "room_name": target_room.get('name'),
         "old_status": old_status,
         "new_status": is_active
+    }
+
+
+
+@router.put("/venues/{venue_id}/rooms/{room_id}")
+async def update_room(
+    venue_id: int,
+    room_id: str,
+    payload: dict,
+    db: Session = Depends(get_db)
+):
+    """
+    更新單一會議室資料（寫回 venues.json）
+
+    支援所有欄位的編輯，包含容量、定價、設備、照片等
+    使用深度合併策略，保留未修改的嵌套欄位
+    """
+    import json
+    from tempfile import NamedTemporaryFile
+    import shutil
+
+    if not VENUES_JSON_PATH.exists():
+        raise HTTPException(status_code=404, detail="venues.json 檔案不存在")
+
+    # 讀取現有資料
+    with open(VENUES_JSON_PATH, 'r', encoding='utf-8') as f:
+        venues = json.load(f)
+
+    # 找到目標場地
+    venue_index = next(
+        (i for i, v in enumerate(venues) if v['id'] == venue_id),
+        None
+    )
+    if venue_index is None:
+        raise HTTPException(status_code=404, detail=f"找不到場地 ID {venue_id}")
+
+    venue = venues[venue_index]
+
+    # 找到目標會議室
+    if 'rooms' not in venue:
+        raise HTTPException(status_code=404, detail="此場地沒有會議室資料")
+
+    target_room_index = None
+    for i, room in enumerate(venue['rooms']):
+        if room.get('id') == room_id or room.get('name') == room_id:
+            target_room_index = i
+            break
+
+    if target_room_index is None:
+        raise HTTPException(status_code=404, detail=f"找不到會議室 {room_id}")
+
+    # 保留不可修改的欄位
+    protected_fields = {'id'}
+    for key in protected_fields:
+        if key in payload:
+            del payload[key]
+
+    # 深度合併更新（保留嵌套物件中未修改的欄位）
+    def deep_merge(base, update):
+        for key, value in update.items():
+            if key in base and isinstance(base[key], dict) and isinstance(value, dict):
+                deep_merge(base[key], value)
+            else:
+                base[key] = value
+
+    deep_merge(venue['rooms'][target_room_index], payload)
+
+    # 備份原檔案
+    backup_path = VENUES_JSON_PATH.with_suffix('.json.bak')
+    shutil.copy2(VENUES_JSON_PATH, backup_path)
+
+    # 原子寫入
+    with NamedTemporaryFile(
+        mode='w',
+        encoding='utf-8',
+        dir=VENUES_JSON_PATH.parent,
+        delete=False
+    ) as tmp_file:
+        json.dump(venues, tmp_file, ensure_ascii=False, indent=2)
+        tmp_path = tmp_file.name
+
+    shutil.move(tmp_path, VENUES_JSON_PATH)
+
+    # 同步到前端並部署
+    await _sync_to_frontend()
+
+    updated_room = venue['rooms'][target_room_index]
+    return {
+        "success": True,
+        "venue_id": venue_id,
+        "room_id": room_id,
+        "room_name": updated_room.get('name'),
+        "updated_fields": list(payload.keys())
     }
 
 
@@ -178,6 +290,9 @@ async def update_venue(
         tmp_path = tmp_file.name
 
     shutil.move(tmp_path, VENUES_JSON_PATH)
+
+    # 同步到前端並部署
+    await _sync_to_frontend()
 
     return {
         "success": True,
@@ -556,6 +671,111 @@ async def get_analytics(
         popular_venues=[],  # 待實作
         daily_stats=daily_stats
     )
+
+
+# ===== Data Source Parsing =====
+
+class ParseRequest(BaseModel):
+    """解析請求"""
+    url: str
+
+
+@router.post("/venues/{venue_id}/parse-pdf")
+async def parse_venue_pdf(
+    venue_id: int,
+    body: ParseRequest,
+    db: Session = Depends(get_db)
+):
+    """
+    解析 PDF 資料來源，回傳結構化會議室資料供預覽
+
+    不直接寫入 venues.json，而是回傳解析結果讓管理員確認後再寫入
+    """
+    import sys, io
+    sys.path.insert(0, str(PROJECT_ROOT.parent / "scraper"))
+    from extractors import PDFExtractor
+
+    extractor = PDFExtractor()
+    rooms = extractor.extract(body.url)
+
+    # 附加 PDF 來源資訊
+    result = {
+        "source": "pdf",
+        "pdf_url": body.url,
+        "venue_id": venue_id,
+        "rooms_found": len(rooms),
+        "rooms": rooms
+    }
+
+    return result
+
+
+@router.post("/venues/{venue_id}/import-rooms")
+async def import_rooms(
+    venue_id: int,
+    payload: dict,
+    db: Session = Depends(get_db)
+):
+    """
+    確認後將解析的會議室資料寫入 venues.json
+
+    payload: { rooms: [...], dataSources: {...} }
+    """
+    import json, shutil
+    from tempfile import NamedTemporaryFile
+
+    if not VENUES_JSON_PATH.exists():
+        raise HTTPException(status_code=404, detail="venues.json 檔案不存在")
+
+    with open(VENUES_JSON_PATH, 'r', encoding='utf-8') as f:
+        venues = json.load(f)
+
+    venue_index = next(
+        (i for i, v in enumerate(venues) if v['id'] == venue_id),
+        None
+    )
+    if venue_index is None:
+        raise HTTPException(status_code=404, detail=f"找不到場地 ID {venue_id}")
+
+    new_rooms = payload.get('rooms', [])
+    if not new_rooms:
+        raise HTTPException(status_code=400, detail="沒有會議室資料")
+
+    # 標記來源
+    for room in new_rooms:
+        room['source'] = 'pdf'
+        room['isActive'] = True
+        room['qualityLevel'] = 'high'
+        room['qualityScore'] = 90
+
+    venues[venue_index]['rooms'] = new_rooms
+
+    # 更新資料來源
+    if 'dataSources' in payload:
+        venues[venue_index]['dataSources'] = payload['dataSources']
+
+    # 備份 + 原子寫入
+    backup_path = VENUES_JSON_PATH.with_suffix('.json.bak')
+    shutil.copy2(VENUES_JSON_PATH, backup_path)
+
+    with NamedTemporaryFile(
+        mode='w', encoding='utf-8',
+        dir=VENUES_JSON_PATH.parent, delete=False
+    ) as tmp_file:
+        json.dump(venues, tmp_file, ensure_ascii=False, indent=2)
+        tmp_path = tmp_file.name
+
+    shutil.move(tmp_path, VENUES_JSON_PATH)
+
+    # 同步到前端並部署
+    await _sync_to_frontend()
+
+    return {
+        "success": True,
+        "venue_id": venue_id,
+        "rooms_imported": len(new_rooms),
+        "venue_name": venues[venue_index].get('name')
+    }
 
 
 # ===== Health Check =====

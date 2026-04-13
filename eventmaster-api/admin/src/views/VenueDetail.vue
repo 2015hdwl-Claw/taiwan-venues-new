@@ -8,10 +8,10 @@
           <el-button :icon="Refresh" @click="fetchData">重新整理</el-button>
           <el-button
             v-if="venue"
-            :type="venue.isActive ? 'warning' : 'success'"
+            :type="isActive ? 'warning' : 'success'"
             @click="toggleActiveStatus"
           >
-            {{ venue.isActive ? '下架場地' : '上架場地' }}
+            {{ isActive ? '下架場地' : '上架場地' }}
           </el-button>
           <el-button type="primary" :icon="Edit" @click="openEditDialog">編輯</el-button>
         </div>
@@ -53,14 +53,14 @@
             <div class="info-item">
               <span class="label">上架狀態</span>
               <span class="value">
-                <el-tag :type="venue.isActive ? 'success' : 'danger'" size="small">
-                  {{ venue.isActive ? '上架中' : '已下架' }}
+                <el-tag :type="isActive ? 'success' : 'danger'" size="small">
+                  {{ isActive ? '上架中' : '已下架' }}
                 </el-tag>
               </span>
             </div>
-            <div class="info-item full" v-if="!venue.isActive && venue.statusNotes">
+            <div class="info-item full" v-if="!isActive && (venue.statusNotes || venue.statusNote)">
               <span class="label">下架原因</span>
-              <span class="value">{{ venue.statusNotes }}</span>
+              <span class="value">{{ (venue.statusNotes || venue.statusNote) }}</span>
             </div>
             <div class="info-item full">
               <span class="label">描述</span>
@@ -175,8 +175,16 @@
                 <el-text v-else type="warning">未設定</el-text>
               </template>
             </el-table-column>
-            <el-table-column label="操作" width="180" align="center">
+            <el-table-column label="操作" width="250" align="center">
               <template #default="{ row }">
+                <el-button
+                  type="primary"
+                  size="small"
+                  :icon="Edit"
+                  @click="openRoomEditDialog(row)"
+                >
+                  編輯
+                </el-button>
                 <el-button
                   :type="row.isActive !== false ? 'warning' : 'success'"
                   size="small"
@@ -394,6 +402,108 @@
       </template>
     </el-dialog>
 
+    <!-- 編輯會議室對話框 -->
+    <el-dialog
+      v-model="roomEditDialogVisible"
+      :title="'編輯會議室 - ' + (roomEditForm.name || '')"
+      width="800px"
+      :close-on-click-modal="false"
+    >
+      <el-form :model="roomEditForm" label-width="120px">
+        <!-- 基本資訊 -->
+        <el-divider content-position="left">基本資訊</el-divider>
+        <el-form-item label="名稱">
+          <el-input v-model="roomEditForm.name" />
+        </el-form-item>
+        <el-form-item label="樓層">
+          <el-input v-model="roomEditForm.floor" placeholder="例如：1F、B1" />
+        </el-form-item>
+        <el-form-item label="描述">
+          <el-input v-model="roomEditForm.description" type="textarea" :rows="3" />
+        </el-form-item>
+        <el-form-item label="面積">
+          <el-input v-model="roomEditForm.area" placeholder="例如：100" style="width: 200px" />
+          <el-select v-model="roomEditForm.areaUnit" style="width: 120px; margin-left: 10px" placeholder="單位">
+            <el-option label="平方公尺 (坪)" value="坪" />
+            <el-option label="平方公尺" value="平方公尺" />
+            <el-option label="平方米" value="平方米" />
+          </el-select>
+        </el-form-item>
+        <el-form-item label="天花板高度">
+          <el-input v-model="roomEditForm.ceilingHeight" placeholder="例如：3.5m" />
+        </el-form-item>
+
+        <!-- 容量 -->
+        <el-divider content-position="left">容量</el-divider>
+        <el-form-item label="戲劇式">
+          <el-input-number v-model="roomEditForm.capacity.theater" :min="0" />
+        </el-form-item>
+        <el-form-item label="教室式">
+          <el-input-number v-model="roomEditForm.capacity.classroom" :min="0" />
+        </el-form-item>
+        <el-form-item label="U 型">
+          <el-input-number v-model="roomEditForm.capacity.uShape" :min="0" />
+        </el-form-item>
+        <el-form-item label="空心方形">
+          <el-input-number v-model="roomEditForm.capacity.hollowSquare" :min="0" />
+        </el-form-item>
+
+        <!-- 定價 -->
+        <el-divider content-position="left">定價</el-divider>
+        <el-form-item label="半天價格">
+          <el-input v-model="roomEditForm.pricing.halfDay" placeholder="例如：NT$15,000" />
+        </el-form-item>
+        <el-form-item label="全天價格">
+          <el-input v-model="roomEditForm.pricing.fullDay" placeholder="例如：NT$25,000" />
+        </el-form-item>
+        <el-form-item label="定價備註">
+          <el-input v-model="roomEditForm.pricing.note" type="textarea" :rows="2" />
+        </el-form-item>
+
+        <!-- 設備 -->
+        <el-divider content-position="left">設備</el-divider>
+        <el-form-item label="設備">
+          <el-input v-model="roomEditForm.equipmentText" type="textarea" :rows="2" placeholder="設備描述，或 JSON 陣列格式" />
+        </el-form-item>
+
+        <!-- 照片 -->
+        <el-divider content-position="left">照片</el-divider>
+        <el-form-item label="主照片 URL">
+          <el-input v-model="roomEditForm.images.main" placeholder="主照片 URL">
+            <template #append>
+              <el-button @click="previewImage(roomEditForm.images.main)">預覽</el-button>
+            </template>
+          </el-input>
+          <div v-if="roomEditForm.images.main" class="image-preview-mini">
+            <img :src="roomEditForm.images.main" @error="handleImageError" />
+          </div>
+        </el-form-item>
+        <el-form-item label="相簿照片">
+          <div class="gallery-editor">
+            <div
+              v-for="(url, index) in roomEditForm.images.gallery"
+              :key="index"
+              class="gallery-item-edit"
+            >
+              <el-input v-model="roomEditForm.images.gallery[index]" placeholder="照片 URL">
+                <template #prepend>{{ index + 1 }}</template>
+                <template #append>
+                  <el-button @click="previewImage(url)">預覽</el-button>
+                  <el-button type="danger" @click="removeRoomGalleryImage(index)">刪除</el-button>
+                </template>
+              </el-input>
+            </div>
+            <el-button @click="addRoomGalleryImage" :icon="Plus">新增照片</el-button>
+          </div>
+        </el-form-item>
+      </el-form>
+
+      <template #footer>
+        <el-button @click="roomEditDialogVisible = false">取消</el-button>
+        <el-button type="primary" @click="saveRoom" :loading="roomSaving">儲存變更</el-button>
+      </template>
+    </el-dialog>
+
     <!-- 照片預覽對話框 -->
     <el-dialog v-model="imagePreviewVisible" title="照片預覽" width="60%">
       <div class="image-preview-container">
@@ -404,7 +514,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 import {
   ArrowLeft, Edit, Refresh, Plus, MagicStick
@@ -458,6 +568,44 @@ const editForm = ref({
     gallery: []
   },
   isActive: true
+})
+
+// 會議室編輯相關狀態
+const roomEditDialogVisible = ref(false)
+const roomSaving = ref(false)
+const roomEditForm = ref({
+  _roomId: '',
+  name: '',
+  floor: '',
+  description: '',
+  area: '',
+  areaUnit: '',
+  ceilingHeight: '',
+  capacity: {
+    theater: 0,
+    classroom: 0,
+    uShape: 0,
+    hollowSquare: 0
+  },
+  pricing: {
+    halfDay: '',
+    fullDay: '',
+    note: ''
+  },
+  equipmentText: '',
+  images: {
+    main: '',
+    gallery: []
+  }
+})
+
+// Normalized active status: handles both isActive and active fields
+// Treats null/undefined as active (venue is active unless explicitly deactivated)
+const isActive = computed(() => {
+  if (!venue.value) return true
+  if (venue.value.isActive !== undefined && venue.value.isActive !== null) return venue.value.isActive
+  if (venue.value.active !== undefined && venue.value.active !== null) return venue.value.active
+  return true
 })
 
 async function fetchData() {
@@ -535,7 +683,7 @@ async function toggleActiveStatus() {
       return
     }
 
-    const newStatus = !venue.value.isActive
+    const newStatus = !isActive.value
     const reason = newStatus ? '' : await prompt('請輸入下架原因（選填）:')
 
     if (newStatus && reason !== null && reason === '') {
@@ -550,8 +698,8 @@ async function toggleActiveStatus() {
       status_notes: reason || null
     })
 
-    venue.value.isActive = newStatus
-    venue.value.statusNotes = reason || null
+    venue.value.isActive = newStatus; venue.value.active = newStatus
+    venue.value.statusNotes = reason || null; venue.value.statusNote = reason || null
 
     ElMessage.success(newStatus ? '場地已上架' : '場地已下架')
   } catch (error) {
@@ -658,6 +806,110 @@ function addGalleryImage() {
 function removeGalleryImage(index) {
   editForm.value.images.gallery.splice(index, 1)
 }
+
+// ===== 會議室編輯相關函數 =====
+function openRoomEditDialog(room) {
+  if (!room) return
+
+  const roomId = room.id || room.name
+
+  // 深拷貝會議室資料到編輯表單
+  const roomCopy = JSON.parse(JSON.stringify(room))
+
+  roomEditForm.value = {
+    _roomId: roomId,
+    name: roomCopy.name || '',
+    floor: roomCopy.floor || '',
+    description: roomCopy.description || '',
+    area: roomCopy.area || '',
+    areaUnit: roomCopy.areaUnit || '',
+    ceilingHeight: roomCopy.ceilingHeight || '',
+    capacity: {
+      theater: roomCopy.capacity?.theater || 0,
+      classroom: roomCopy.capacity?.classroom || 0,
+      uShape: roomCopy.capacity?.uShape || 0,
+      hollowSquare: roomCopy.capacity?.hollowSquare || 0
+    },
+    pricing: {
+      halfDay: roomCopy.pricing?.halfDay || '',
+      fullDay: roomCopy.pricing?.fullDay || '',
+      note: roomCopy.pricing?.note || ''
+    },
+    equipmentText: '',
+    images: {
+      main: roomCopy.images?.main || '',
+      gallery: Array.isArray(roomCopy.images?.gallery) ? [...roomCopy.images.gallery] : []
+    }
+  }
+
+  // 處理 equipment 欄位（可能是字串或陣列）
+  if (roomCopy.equipment) {
+    if (Array.isArray(roomCopy.equipment)) {
+      roomEditForm.value.equipmentText = JSON.stringify(roomCopy.equipment)
+    } else {
+      roomEditForm.value.equipmentText = roomCopy.equipment
+    }
+  }
+
+  roomEditDialogVisible.value = true
+}
+
+async function saveRoom() {
+  try {
+    roomSaving.value = true
+
+    const roomId = roomEditForm.value._roomId
+
+    // 建構更新 payload（不包含 _roomId）
+    const payload = {
+      name: roomEditForm.value.name,
+      floor: roomEditForm.value.floor,
+      description: roomEditForm.value.description,
+      area: roomEditForm.value.area,
+      areaUnit: roomEditForm.value.areaUnit,
+      ceilingHeight: roomEditForm.value.ceilingHeight,
+      capacity: {
+        theater: roomEditForm.value.capacity.theater,
+        classroom: roomEditForm.value.capacity.classroom,
+        uShape: roomEditForm.value.capacity.uShape,
+        hollowSquare: roomEditForm.value.capacity.hollowSquare
+      },
+      pricing: {
+        halfDay: roomEditForm.value.pricing.halfDay,
+        fullDay: roomEditForm.value.pricing.fullDay,
+        note: roomEditForm.value.pricing.note
+      },
+      equipment: roomEditForm.value.equipmentText || null,
+      images: {
+        main: roomEditForm.value.images.main,
+        gallery: roomEditForm.value.images.gallery
+      }
+    }
+
+    // 調用 API 更新會議室資料
+    await api.put(`/api/v1/admin/venues/${venue.value.id}/rooms/${roomId}`, payload)
+
+    // 重新載入資料以確保同步
+    await fetchData()
+
+    ElMessage.success('會議室資料已更新')
+    roomEditDialogVisible.value = false
+  } catch (error) {
+    console.error('Save room error:', error)
+    ElMessage.error('儲存失敗: ' + (error.response?.data?.detail || error.message))
+  } finally {
+    roomSaving.value = false
+  }
+}
+
+function addRoomGalleryImage() {
+  roomEditForm.value.images.gallery.push('')
+}
+
+function removeRoomGalleryImage(index) {
+  roomEditForm.value.images.gallery.splice(index, 1)
+}
+
 function getTypeLabel(type) {
   const labels = {
     conference: '會議中心',

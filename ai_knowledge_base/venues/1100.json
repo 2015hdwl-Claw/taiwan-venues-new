@@ -10,7 +10,21 @@
     "phone": "02-2314-3300",
     "contactEmail": "fo@taipeigarden.com.tw"
   },
-  "summary": null,
+  "summary": {
+    "shortDescription": "台北花園大酒店(TGHotel)位於台北市，擁有14間會議室，最大容納460人。",
+    "totalRooms": 14,
+    "maxCapacity": 460,
+    "priceRange": {
+      "halfDayMin": 10000,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": 20000,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
   "risks": {
     "bookingLeadTime": "一般會議至少2-4週；2F宴會廳及大型合併廳建議2-3個月前預訂；婚宴旺季建議4-6個月前",
     "peakSeasons": [

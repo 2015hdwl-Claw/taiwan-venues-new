@@ -44,13 +44,26 @@ function cosineSimilarity(a, b) {
 }
 
 /**
- * Search for most similar chunks
+ * Search for most similar chunks, with optional venue name pre-filtering
  */
-function searchSimilarChunks(queryEmbedding, topK = 5, threshold = 0.5) {
+function searchSimilarChunks(queryEmbedding, topK = 5, threshold = 0.3, venueNameHint = null) {
   const data = loadEmbeddings();
   if (!data || !data.embeddings) return [];
 
-  const results = data.embeddings
+  let candidates = data.embeddings;
+
+  // Pre-filter by venue name if hint is provided
+  if (venueNameHint) {
+    const filtered = candidates.filter(c =>
+      c.venue_name && c.venue_name.includes(venueNameHint)
+    );
+    // Only use filtered results if we have enough
+    if (filtered.length >= 3) {
+      candidates = filtered;
+    }
+  }
+
+  const results = candidates
     .map(chunk => ({
       ...chunk,
       score: cosineSimilarity(queryEmbedding, chunk.embedding)
@@ -63,27 +76,67 @@ function searchSimilarChunks(queryEmbedding, topK = 5, threshold = 0.5) {
 }
 
 /**
- * Generate embedding using OpenAI API
+ * Extract venue name hint from query using known venue names
+ */
+function extractVenueHint(query, embeddingsData) {
+  if (!embeddingsData || !embeddingsData.embeddings) return null;
+
+  const venueNames = [...new Set(embeddingsData.embeddings.map(c => c.venue_name).filter(Boolean))];
+
+  // Sort by length (longer names first) to prefer more specific matches
+  venueNames.sort((a, b) => b.length - a.length);
+
+  for (const name of venueNames) {
+    // Strip English/parenthetical parts for matching
+    const cleanName = name.replace(/\(.*?\)/g, '').replace(/[A-Za-z]/g, '').trim();
+    if (cleanName.length >= 2 && (query.includes(cleanName) || cleanName.includes(query.substring(0, cleanName.length)))) {
+      return name;
+    }
+
+    // Also check partial match: extract core name (without city prefix)
+    const coreName = cleanName.replace(/^(台北|台中|台南|高雄|新北|桃園)/, '');
+    if (coreName.length >= 2 && query.includes(coreName)) {
+      return name;
+    }
+
+    // Full name match
+    if (query.includes(name)) {
+      return name;
+    }
+  }
+  return null;
+}
+
+/**
+ * Generate embedding using HuggingFace Inference API (bge-small-zh-v1.5)
  */
 async function generateEmbedding(text, apiKey) {
-  const response = await fetch('https://api.openai.com/v1/embeddings', {
+  const response = await fetch('https://router.huggingface.co/hf-inference/models/BAAI/bge-small-zh-v1.5', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
       'Authorization': `Bearer ${apiKey}`
     },
-    body: JSON.stringify({
-      model: 'text-embedding-3-small',
-      input: text
-    })
+    body: JSON.stringify({ inputs: [text] })
   });
 
   if (!response.ok) {
-    throw new Error(`OpenAI API error: ${response.status}`);
+    const errorText = await response.text();
+    throw new Error(`HF embedding API error: ${response.status} - ${errorText}`);
   }
 
   const data = await response.json();
-  return data.data[0].embedding;
+  // data shape: [1, seq_len, 512] -> mean pool across tokens -> [512]
+  const tokenEmbeddings = data[0];
+  const dim = tokenEmbeddings[0].length;
+  const pooled = new Array(dim).fill(0);
+  for (const token of tokenEmbeddings) {
+    for (let i = 0; i < dim; i++) {
+      pooled[i] += token[i];
+    }
+  }
+  const n = tokenEmbeddings.length;
+  return pooled.map(v => v / n);
 }
 
 /**
@@ -198,8 +251,8 @@ export default async function handler(req, res) {
     }
 
     // Get API keys from environment
-    const openaiApiKey = process.env.OPENAI_API_KEY;
     const glmApiKey = process.env.GLM_API_KEY || process.env.CLASSIFIER_API_KEY;
+    const hfApiKey = process.env.HF_API_KEY;
 
     if (!glmApiKey) {
       return res.status(500).json({ error: 'GLM API key not configured' });
@@ -210,10 +263,12 @@ export default async function handler(req, res) {
 
     // Step 1: Try embeddings search first (if available)
     const data = loadEmbeddings();
-    if (data && data.embeddings && openaiApiKey) {
+    if (data && data.embeddings && hfApiKey) {
       try {
-        const queryEmbedding = await generateEmbedding(query, openaiApiKey);
-        similarChunks = searchSimilarChunks(queryEmbedding, 5, 0.3);
+        const queryEmbedding = await generateEmbedding(query, hfApiKey);
+        const venueHint = extractVenueHint(query, data);
+        console.log(`[DEBUG] query="${query}" venueHint="${venueHint}" totalEmbeddings=${data.embeddings.length}`);
+        similarChunks = searchSimilarChunks(queryEmbedding, 5, 0.3, venueHint);
         searchMethod = 'embeddings';
       } catch (e) {
         console.error('Embeddings search failed:', e.message);
@@ -258,7 +313,18 @@ export default async function handler(req, res) {
         : '抱歉，知識庫目前沒有這方面的資訊。';
     }
 
-    // Step 4: Return response
+    // Step 4: Log query for content flywheel (structured JSON for Vercel logs)
+    console.log(JSON.stringify({
+      type: 'chat_query',
+      query,
+      venueId: venueId || null,
+      searchMethod,
+      hasKnowledge: similarChunks.length > 0,
+      sourceVenues: [...new Set(similarChunks.map(c => c.venue_name).filter(Boolean))],
+      ts: new Date().toISOString()
+    }));
+
+    // Step 5: Return response
     res.json({
       success: true,
       query,

@@ -1,0 +1,280 @@
+{
+  "identity": {
+    "id": 1053,
+    "name": "台北兄弟大飯店(BrotherTaipei)",
+    "nameEn": null,
+    "venueType": "婚宴場地",
+    "city": "台北市",
+    "address": "台北市南京東路三段255號",
+    "url": "https://www.brotherhotel.com.tw/?cat=75",
+    "phone": null,
+    "contactEmail": "service@brotherhotel.com.tw"
+  },
+  "summary": {
+    "shortDescription": "台北兄弟大飯店(BrotherTaipei)位於台北市，擁有8間會議室，最大容納280人。",
+    "totalRooms": 8,
+    "maxCapacity": 280,
+    "priceRange": {
+      "halfDayMin": 30000,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": 55000,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  "risks": null,
+  "rules": null,
+  "pricingTips": null,
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1053-蝶花廳及酒廊義式料理",
+      "name": "蝶花廳及酒廊(義式料理.台菜宵夜)",
+      "nameEn": null,
+      "floor": "",
+      "capacity": {
+        "theater": 80,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": null,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1053-梅花廳粵菜飲茶",
+      "name": "梅花廳(粵菜飲茶)",
+      "nameEn": null,
+      "floor": "",
+      "capacity": {
+        "theater": 200,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": null,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1053-蘭花廳台菜海鮮",
+      "name": "蘭花廳(台菜海鮮)",
+      "nameEn": null,
+      "floor": "",
+      "capacity": {
+        "theater": 150,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": null,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1053-15",
+      "name": "蝶花廳",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": 80,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": null,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1053-16",
+      "name": "梅花廳",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": 200,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": null,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1053-17",
+      "name": "蘭花廳",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": 150,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": null,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1053-即時消息餐飲專案住宿",
+      "name": "即時消息餐飲專案住宿專案婚宴專案會議專案",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": null,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1053-會議專案",
+      "name": "會議專案",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": null,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

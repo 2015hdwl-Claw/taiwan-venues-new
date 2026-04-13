@@ -1,0 +1,255 @@
+{
+  "id": 1496,
+  "name": "集思竹科會議中心(HSPH)",
+  "venueType": "會議中心",
+  "city": "新竹市",
+  "address": "新竹科學園區工業東二路1號",
+  "url": "https://www.meeting.com.tw/hsp/",
+  "image": "https://www.meeting.com.tw/hsp/images/lease/einstein-1.jpg",
+  "maxCapacity": null,
+  "highlights": [],
+  "contact": {
+    "phone": "(03) 577-9191",
+    "email": "hsp.office@gisgroup.com"
+  },
+  "rooms": [
+    {
+      "id": "1496-愛因斯坦廳",
+      "name": "愛因斯坦廳",
+      "floor": "2F",
+      "area": 63,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 155
+      },
+      "pricing": {
+        "halfDay": 11000
+      },
+      "equipment": [
+        "麥克風（•無線麥克風3支 17,000 18,000 52）",
+        "螢幕"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1496-愛迪生廳",
+      "name": "愛迪生廳",
+      "floor": "2F",
+      "area": 28,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 75
+      },
+      "pricing": {
+        "halfDay": 7500
+      },
+      "equipment": [
+        "麥克風（•無線麥克風3支 17,000 18,000 52）",
+        "螢幕"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1496-達爾文廳",
+      "name": "達爾文廳",
+      "floor": "2樓",
+      "area": 33,
+      "ceilingHeight": null,
+      "capacity": {
+        "standard": 72,
+        "theater": 72
+      },
+      "pricing": {
+        "halfDay": 7000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1496-牛頓廳",
+      "name": "牛頓廳",
+      "floor": "2樓",
+      "area": 21,
+      "ceilingHeight": null,
+      "capacity": {
+        "standard": 42,
+        "theater": 42
+      },
+      "pricing": {
+        "halfDay": 6000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1496-莎士比亞廳",
+      "name": "莎士比亞廳",
+      "floor": "2樓",
+      "area": 2,
+      "ceilingHeight": null,
+      "capacity": {
+        "standard": 8,
+        "theater": 8
+      },
+      "pricing": {
+        "halfDay": 2000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1496-巴哈廳",
+      "name": "巴哈廳",
+      "floor": "4F",
+      "area": 28,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 90
+      },
+      "pricing": {
+        "halfDay": 7000
+      },
+      "equipment": [
+        "麥克風（•無線麥克風3支 17,000 18,000 52）",
+        "螢幕"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1496-羅西尼廳",
+      "name": "羅西尼廳",
+      "floor": "4F",
+      "area": 43,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 140
+      },
+      "pricing": {
+        "halfDay": 8500
+      },
+      "equipment": [
+        "麥克風（•無線麥克風3支 17,000 18,000 52）",
+        "螢幕"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1496-鄧肯廳",
+      "name": "鄧肯廳",
+      "floor": "4F",
+      "area": 25,
+      "ceilingHeight": null,
+      "capacity": {
+        "standard": 30
+      },
+      "pricing": {
+        "halfDay": 5000
+      },
+      "equipment": [
+        "音響"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1496-伽利略廳",
+      "name": "伽利略廳",
+      "floor": "2樓",
+      "area": 18,
+      "ceilingHeight": null,
+      "capacity": {
+        "standard": 20
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    }
+  ],
+  "risks": null,
+  "rules": {
+    "catering": [
+      {
+        "rule": "會議中心禁止攜帶外食，另有提供相關會議事務用品代訂，各項服務酌收服務內容定價之10%為服務費",
+        "exception": null,
+        "penalty": "服務內容定價之10%為服務費",
+        "negotiable": false,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "decoration": [
+      {
+        "rule": "會議場地佈置需先申請，未經同意不得擅自變更場地設施",
+        "exception": null,
+        "penalty": null,
+        "negotiable": true,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "sound": [
+      {
+        "rule": "會議室音響設備由會議中心提供，不得自備外部音響",
+        "exception": "經申請同意",
+        "penalty": null,
+        "negotiable": true,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "cancellation": [
+      {
+        "rule": "活動前14日內取消，收取場地租金之50%為違約金",
+        "exception": null,
+        "penalty": "場地租金50%",
+        "negotiable": true,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "insurance": [
+      {
+        "rule": "大型活動（200人以上）需投保公共意外責任險",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ]
+  },
+  "pricingTips": null,
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1496.html"
+}

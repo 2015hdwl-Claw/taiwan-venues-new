@@ -10,7 +10,21 @@
     "phone": null,
     "contactEmail": "customerservice@regenthotelsgroup.com"
   },
-  "summary": null,
+  "summary": {
+    "shortDescription": "台北晶華酒店 Regent Taipei位於台北市，擁有6間會議室，最大容納700人。",
+    "totalRooms": 6,
+    "maxCapacity": 700,
+    "priceRange": {
+      "halfDayMin": 250000,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": 450000,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
   "risks": null,
   "rules": {
     "decoration": [

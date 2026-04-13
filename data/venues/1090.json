@@ -1,0 +1,216 @@
+{
+  "id": 1090,
+  "name": "茹曦酒店 ILLUME TAIPEI",
+  "venueType": "飯店場地",
+  "city": "台北市",
+  "address": "台北市松山區敦化北路100號",
+  "url": "https://www.theillumehotel.com/zh/",
+  "image": "https://theillumehotel.wppro.work/wp-content/uploads/2023/12/01_PublicArea_Atrium_Light_3-jpg.webp",
+  "maxCapacity": null,
+  "highlights": [
+    "松山區敦化北路設計酒店，鄰近小巨蛋與大巨蛋",
+    "3個主要會議空間：茹曦廳（挑高無柱宴會廳）、斯賓諾莎宴會廳、貴賓軒（11個多功能廳）",
+    "明亮寬敞空間，適合商務聚會與慶典",
+    "專業會議服務團隊",
+    "16樓Sunny Buffet自助餐廳，玻璃帷幕自然採光"
+  ],
+  "contact": {
+    "phone": "02-2719-8399",
+    "email": "gsm@theillumehotel.com",
+    "address": "台北市松山區敦化北路 100 號",
+    "mrt": "南京復興站"
+  },
+  "rooms": [
+    {
+      "id": "1090-01",
+      "name": "茹曦廳",
+      "floor": "2F",
+      "area": 253,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 1200,
+        "classroom": 800,
+        "banquet": 1000
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備（⚫ Audiovisual equipment: 2 wireless microphones, projector and screen, Wi-Fi, audio cable, lectern, laser）",
+        "音響系統",
+        "舞台燈光"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1090-02",
+      "name": "斯賓諾莎宴會廳",
+      "floor": "5F",
+      "area": 134,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 400,
+        "classroom": 250,
+        "banquet": 300
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備（⚫ Audiovisual equipment: 2 wireless microphones, projector and screen, Wi-Fi, audio cable, lectern, laser）",
+        "音響系統"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1090-03",
+      "name": "貴賓軒",
+      "floor": "2F",
+      "area": 15,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 220,
+        "classroom": 100,
+        "ushape": 50
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備（⚫ Audiovisual equipment: 2 wireless microphones, projector and screen, Wi-Fi, audio cable, lectern, laser）",
+        "白板",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1090-04",
+      "name": "狄德羅廳",
+      "floor": "2F",
+      "area": 22,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 80,
+        "classroom": 40,
+        "ushape": 20
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "會議設備",
+        "投影設備（⚫ Audiovisual equipment: 2 wireless microphones, projector and screen, Wi-Fi, audio cable, lectern, laser）",
+        "白板"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1090-05",
+      "name": "康德廳",
+      "floor": "2F",
+      "area": 22,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 80,
+        "classroom": 40,
+        "ushape": 20
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "會議設備",
+        "投影設備（⚫ Audiovisual equipment: 2 wireless microphones, projector and screen, Wi-Fi, audio cable, lectern, laser）",
+        "白板"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1090-06",
+      "name": "孔狄亞克廳",
+      "floor": "2F",
+      "area": 22,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 80,
+        "classroom": 40,
+        "ushape": 20
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "會議設備",
+        "投影設備（⚫ Audiovisual equipment: 2 wireless microphones, projector and screen, Wi-Fi, audio cable, lectern, laser）",
+        "白板"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1090-07",
+      "name": "霍布斯廳",
+      "floor": "2F",
+      "area": 16.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 60,
+        "classroom": 30,
+        "ushape": 15
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "會議設備",
+        "投影設備（⚫ Audiovisual equipment: 2 wireless microphones, projector and screen, Wi-Fi, audio cable, lectern, laser）",
+        "白板"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1090-08",
+      "name": "孟德斯鳩廳",
+      "floor": "2F",
+      "area": 16.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 60,
+        "classroom": 30,
+        "ushape": 15
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "會議設備",
+        "投影設備（⚫ Audiovisual equipment: 2 wireless microphones, projector and screen, Wi-Fi, audio cable, lectern, laser）",
+        "白板"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1090-09",
+      "name": "玉蘭軒",
+      "floor": "2F",
+      "area": 22,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 80,
+        "classroom": 50,
+        "banquet": 80
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "餐飲設備",
+        "音響設備"
+      ],
+      "limitations": []
+    }
+  ],
+  "risks": null,
+  "rules": null,
+  "pricingTips": null,
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1090.html"
+}

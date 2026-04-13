@@ -1,0 +1,95 @@
+{
+  "id": 1524,
+  "name": "林皇宮花園",
+  "venueType": "婚宴場地",
+  "city": "台中市",
+  "address": "台中市",
+  "url": "https://www.linweddinggarden.com/download.php",
+  "image": null,
+  "maxCapacity": null,
+  "highlights": [],
+  "contact": {
+    "phone": "04-2255-8888",
+    "email": "lingarden002@gmail.com"
+  },
+  "rooms": [
+    {
+      "id": "1524-白珍珠廳",
+      "name": "白珍珠廳",
+      "floor": null,
+      "area": null,
+      "ceilingHeight": null,
+      "capacity": {},
+      "pricing": {},
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1524-墨緹絲廳",
+      "name": "墨緹絲廳",
+      "floor": null,
+      "area": null,
+      "ceilingHeight": null,
+      "capacity": {},
+      "pricing": {},
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1524-凡爾賽廳",
+      "name": "凡爾賽廳",
+      "floor": null,
+      "area": null,
+      "ceilingHeight": null,
+      "capacity": {},
+      "pricing": {},
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1524-紫幻影廳",
+      "name": "紫幻影廳",
+      "floor": null,
+      "area": null,
+      "ceilingHeight": null,
+      "capacity": {},
+      "pricing": {},
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    }
+  ],
+  "risks": null,
+  "rules": {
+    "catering": [
+      {
+        "rule": "【平日限定】2025工商宴席專案－豐衣足蛇",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ]
+  },
+  "pricingTips": null,
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1524.html"
+}

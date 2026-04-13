@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://taiwan-venues-new-indol.vercel.app/sitemap.xml

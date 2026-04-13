@@ -1,0 +1,454 @@
+{
+  "id": 1072,
+  "name": "台北圓山大飯店(Grand Hotel Taipei)",
+  "venueType": "飯店場地",
+  "city": "台北市",
+  "address": "台北市中山區中山北路四段一號",
+  "url": "https://www.grand-hotel.org/TW/official/ballroom.aspx?gh=TP",
+  "image": "https://www.grand-hotel.org/fileupload/Banner_File/1_Ballroom.jpg",
+  "maxCapacity": 1500,
+  "highlights": [
+    "挑高十一米大會廳，氣宇軒昂的宮廷式建築",
+    "戶外草地自然綠意，證婚花庭唯美",
+    "13個宴會會議空間，彈性運用",
+    "鄰近圓山捷運站，交通便捷",
+    "專業訂宴部服務"
+  ],
+  "contact": {
+    "phone": "02-2886-8888",
+    "fax": "02-2885-2885",
+    "email": "grand@grand-hotel.org",
+    "banquetEmail": "cc@grand-hotel.org",
+    "banquetPhone": "02-2886-8888 #1536",
+    "banquetFax": "02-2886-1743"
+  },
+  "rooms": [
+    {
+      "id": "1072-01",
+      "name": "大會廳",
+      "floor": "12F",
+      "area": 450,
+      "ceilingHeight": 11,
+      "capacity": {
+        "theater": 1000,
+        "classroom": 450,
+        "hollowSquare": null,
+        "uShape": null,
+        "reception": null,
+        "banquetWestern": 1200,
+        "banquetEastern": 500
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "挑高舞臺",
+        "單槍投影設備（場地設施：挑高舞臺、單槍投影設備、電動螢幕、音響系統、燈光特效）",
+        "電動螢幕",
+        "音響系統",
+        "燈光特效"
+      ],
+      "limitations": [
+        "挑高11公尺，大型舞台搭建需提前申請鷹架許可"
+      ]
+    },
+    {
+      "id": "1072-02",
+      "name": "崑崙廳",
+      "floor": "12F",
+      "area": 120,
+      "ceilingHeight": 5.6,
+      "capacity": {
+        "theater": 300,
+        "classroom": 160,
+        "hollowSquare": 50,
+        "uShape": 60,
+        "reception": 200,
+        "banquetWestern": null,
+        "banquetEastern": 150
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備（場地設施：挑高舞臺、單槍投影設備、電動螢幕、音響系統、燈光特效）",
+        "音響系統"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1072-03",
+      "name": "國際會議廳",
+      "floor": "10F",
+      "area": 133,
+      "ceilingHeight": 5,
+      "capacity": {
+        "theater": 385,
+        "classroom": null,
+        "hollowSquare": null,
+        "uShape": null,
+        "reception": null,
+        "banquetWestern": null,
+        "banquetEastern": null
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備（場地設施：挑高舞臺、單槍投影設備、電動螢幕、音響系統、燈光特效）",
+        "音響系統",
+        "舞台"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1072-04",
+      "name": "國際貴賓室",
+      "floor": "10F",
+      "area": 36,
+      "ceilingHeight": 2.5,
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "hollowSquare": null,
+        "uShape": null,
+        "reception": null,
+        "banquetWestern": null,
+        "banquetEastern": null
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備（場地設施：挑高舞臺、單槍投影設備、電動螢幕、音響系統、燈光特效）",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": [
+        "天花板高度僅2.5公尺，限制大型設備進入"
+      ]
+    },
+    {
+      "id": "1072-05",
+      "name": "長青廳",
+      "floor": "10F",
+      "area": 78,
+      "ceilingHeight": 2.6,
+      "capacity": {
+        "theater": 100,
+        "classroom": 60,
+        "hollowSquare": 40,
+        "uShape": 40,
+        "reception": 60,
+        "banquetWestern": null,
+        "banquetEastern": null
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備（場地設施：挑高舞臺、單槍投影設備、電動螢幕、音響系統、燈光特效）",
+        "音響"
+      ],
+      "limitations": [
+        "天花板高度僅2.6公尺，限制大型設備進入"
+      ]
+    },
+    {
+      "id": "1072-06",
+      "name": "松柏廳",
+      "floor": "10F",
+      "area": 95,
+      "ceilingHeight": 2.7,
+      "capacity": {
+        "theater": 200,
+        "classroom": 80,
+        "hollowSquare": 50,
+        "uShape": 46,
+        "reception": 150,
+        "banquetWestern": null,
+        "banquetEastern": 120
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備（場地設施：挑高舞臺、單槍投影設備、電動螢幕、音響系統、燈光特效）",
+        "音響"
+      ],
+      "limitations": [
+        "天花板高度僅2.7公尺，限制大型設備進入"
+      ]
+    },
+    {
+      "id": "1072-07",
+      "name": "敦睦廳",
+      "floor": "VF",
+      "area": 166,
+      "ceilingHeight": 2.8,
+      "capacity": {
+        "theater": 350,
+        "classroom": 180,
+        "hollowSquare": 66,
+        "uShape": 102,
+        "reception": 400,
+        "banquetWestern": null,
+        "banquetEastern": 240
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備（場地設施：挑高舞臺、單槍投影設備、電動螢幕、音響系統、燈光特效）",
+        "音響系統"
+      ],
+      "limitations": [
+        "天花板高度僅2.8公尺，限制大型設備進入"
+      ]
+    },
+    {
+      "id": "1072-08",
+      "name": "麒麟宴會廳",
+      "floor": "VF",
+      "area": 84,
+      "ceilingHeight": 3.4,
+      "capacity": {
+        "banquet": 18
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "音響系統"
+      ],
+      "limitations": [
+        "天花板高度3.4公尺，超過2.9公尺的道具需確認"
+      ]
+    },
+    {
+      "id": "1072-09",
+      "name": "國宴廳",
+      "floor": "VF",
+      "area": 60,
+      "ceilingHeight": 3.4,
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "hollowSquare": null,
+        "uShape": null,
+        "reception": null,
+        "banquetWestern": null,
+        "banquetEastern": 30
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "音響系統"
+      ],
+      "limitations": [
+        "天花板高度3.4公尺，超過2.9公尺的道具需確認"
+      ]
+    },
+    {
+      "id": "1072-10",
+      "name": "大宴會廳",
+      "floor": "BF",
+      "area": 449,
+      "ceilingHeight": 2.5,
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "hollowSquare": null,
+        "uShape": null,
+        "reception": null,
+        "banquetWestern": 1500,
+        "banquetEastern": 800
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "舞台",
+        "音響系統",
+        "燈光"
+      ],
+      "limitations": [
+        "天花板高度僅2.5公尺，限制大型設備進入"
+      ]
+    },
+    {
+      "id": "1072-11",
+      "name": "富貴廳",
+      "floor": "BF",
+      "area": 144,
+      "ceilingHeight": 2.5,
+      "capacity": {
+        "theater": 180,
+        "classroom": 108,
+        "hollowSquare": 48,
+        "uShape": 72,
+        "reception": 300,
+        "banquetWestern": null,
+        "banquetEastern": 160
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備（場地設施：挑高舞臺、單槍投影設備、電動螢幕、音響系統、燈光特效）",
+        "音響"
+      ],
+      "limitations": [
+        "天花板高度僅2.5公尺，限制大型設備進入"
+      ]
+    },
+    {
+      "id": "1072-12",
+      "name": "如意廳",
+      "floor": "BF",
+      "area": 112,
+      "ceilingHeight": 2.5,
+      "capacity": {
+        "banquet": 15
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備（場地設施：挑高舞臺、單槍投影設備、電動螢幕、音響系統、燈光特效）",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": [
+        "天花板高度僅2.5公尺，限制大型設備進入"
+      ]
+    },
+    {
+      "id": "1072-13",
+      "name": "吉祥廳",
+      "floor": "BF",
+      "area": 193,
+      "ceilingHeight": 2.5,
+      "capacity": {
+        "theater": 500,
+        "classroom": 225,
+        "hollowSquare": null,
+        "uShape": null,
+        "reception": null,
+        "banquetWestern": null,
+        "banquetEastern": 340
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "舞台",
+        "音響系統",
+        "投影設備（場地設施：挑高舞臺、單槍投影設備、電動螢幕、音響系統、燈光特效）"
+      ],
+      "limitations": [
+        "天花板高度僅2.5公尺，限制大型設備進入"
+      ]
+    }
+  ],
+  "risks": {
+    "bookingLeadTime": "至少2個月（大型宴會建議4-6個月前）",
+    "peakSeasons": [
+      "10-12月婚宴旺季",
+      "12-1月尾牙",
+      "國慶日/元旦國宴檔期"
+    ],
+    "commonIssues": [
+      "大會廳為國定宴會場所，檔期競爭激烈",
+      "金龍廳挑高11米，舞台搭建需提前規劃"
+    ]
+  },
+  "rules": {
+    "catering": [
+      {
+        "rule": "本餐飲一律由本餐廳服務，不得以任何方式帶入",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "decoration": [
+      {
+        "rule": "須提早申請，大型佈置需額外費用",
+        "exception": null,
+        "penalty": "額外費用",
+        "negotiable": true,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "sound": [
+      {
+        "rule": "大型音響設備需專業人員隨場，並由本中心代僱，設備需申請",
+        "exception": null,
+        "penalty": "代僱費用",
+        "negotiable": false,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "loadIn": [
+      {
+        "rule": "進場佈置需申請並遵守場地規範",
+        "exception": null,
+        "penalty": null,
+        "negotiable": true,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "cancellation": [
+      {
+        "rule": "取消或改期需提前通知，依合約約定辦理退費",
+        "exception": null,
+        "penalty": "依合約約定",
+        "negotiable": true,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "insurance": [
+      {
+        "rule": "大型活動需投保公共意外責任險",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ]
+  },
+  "pricingTips": [
+    "金龍廳全天方案比拆分半天更划算",
+    "中華民國外交相關活動有特殊優惠",
+    "住宿+宴會套裝比單獨租用更優惠",
+    "多廳同時租用可議價"
+  ],
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1072.html"
+}

@@ -10,7 +10,21 @@
     "phone": null,
     "contactEmail": "service@courtyardtaipei.com"
   },
-  "summary": null,
+  "summary": {
+    "shortDescription": "台北六福萬怡酒店 Courtyard by Marriott Taipei位於台北市，擁有12間會議室，最大容納250人。",
+    "totalRooms": 12,
+    "maxCapacity": 250,
+    "priceRange": {
+      "halfDayMin": 35000,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": 60000,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
   "risks": {
     "bookingLeadTime": "至少1個月（週末婚宴建議3個月前）",
     "peakSeasons": [

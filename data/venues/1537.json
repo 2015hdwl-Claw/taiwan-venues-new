@@ -1,0 +1,41 @@
+{
+  "id": 1537,
+  "name": "台中港酒店",
+  "venueType": "飯店場地",
+  "city": "台中市",
+  "address": "台中市",
+  "url": "https://www.tchhotel.com/",
+  "image": null,
+  "maxCapacity": null,
+  "highlights": [],
+  "contact": {
+    "phone": "+886-4-2656-8888",
+    "email": "TBD"
+  },
+  "rooms": [
+    {
+      "id": "1537-MeetingRoo",
+      "name": "Meeting Room",
+      "floor": null,
+      "area": 2.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 7,
+        "banquet": 5
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    }
+  ],
+  "risks": null,
+  "rules": null,
+  "pricingTips": null,
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1537.html"
+}

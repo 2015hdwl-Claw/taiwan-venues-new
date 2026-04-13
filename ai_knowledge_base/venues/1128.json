@@ -10,7 +10,21 @@
     "phone": null,
     "contactEmail": "meeting@gisgroup.com"
   },
-  "summary": null,
+  "summary": {
+    "shortDescription": "集思台大會議中心(NTUCC)位於台北市，擁有11間會議室，最大容納400人。",
+    "totalRooms": 11,
+    "maxCapacity": 400,
+    "priceRange": {
+      "halfDayMin": 12000,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": 22000,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
   "risks": null,
   "rules": {
     "catering": [

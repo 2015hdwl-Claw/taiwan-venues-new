@@ -10,7 +10,21 @@
     "phone": null,
     "contactEmail": null
   },
-  "summary": null,
+  "summary": {
+    "shortDescription": "漢來大飯店位於高雄市，擁有1間會議室，最大容納2024人。",
+    "totalRooms": 1,
+    "maxCapacity": 2024,
+    "priceRange": {
+      "halfDayMin": null,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": null,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
   "risks": null,
   "rules": {
     "catering": [

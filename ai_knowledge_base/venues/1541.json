@@ -10,7 +10,21 @@
     "phone": null,
     "contactEmail": null
   },
-  "summary": null,
+  "summary": {
+    "shortDescription": "高雄巨蛋 (Kaohsiung Arena)位於高雄市，擁有1間會議室，最大容納15000人。",
+    "totalRooms": 1,
+    "maxCapacity": 15000,
+    "priceRange": {
+      "halfDayMin": null,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": null,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
   "risks": null,
   "rules": {
     "catering": [

@@ -10,7 +10,21 @@
     "phone": null,
     "contactEmail": null
   },
-  "summary": null,
+  "summary": {
+    "shortDescription": "彭園婚宴會館 新店館位於新北市，擁有11間會議室，最大容納550人。",
+    "totalRooms": 11,
+    "maxCapacity": 550,
+    "priceRange": {
+      "halfDayMin": null,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": null,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
   "risks": null,
   "rules": null,
   "pricingTips": null,

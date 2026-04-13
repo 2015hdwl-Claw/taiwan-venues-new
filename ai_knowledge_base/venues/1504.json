@@ -10,7 +10,21 @@
     "phone": null,
     "contactEmail": null
   },
-  "summary": null,
+  "summary": {
+    "shortDescription": "高雄國際會議中心位於高雄市，擁有6間會議室，最大容納25人。",
+    "totalRooms": 6,
+    "maxCapacity": 25,
+    "priceRange": {
+      "halfDayMin": null,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": null,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
   "risks": null,
   "rules": null,
   "pricingTips": null,

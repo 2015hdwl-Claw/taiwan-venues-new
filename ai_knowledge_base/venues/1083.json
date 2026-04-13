@@ -1,0 +1,67 @@
+{
+  "identity": {
+    "id": 1083,
+    "name": "台北北門世民酒店 citizenM Taipei North Gate",
+    "nameEn": null,
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市中正區忠孝西路一段72號5樓",
+    "url": "https://www.citizenm.com/hotels/asia/taipei/taipei-north-gate",
+    "phone": null,
+    "contactEmail": null
+  },
+  "summary": {
+    "shortDescription": "台北北門世民酒店 citizenM Taipei North Gate位於台北市，擁有1間會議室，最大容納150人。",
+    "totalRooms": 1,
+    "maxCapacity": 150,
+    "priceRange": {
+      "halfDayMin": 25000,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": 45000,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  "risks": null,
+  "rules": null,
+  "pricingTips": null,
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1083-01",
+      "name": "會議室",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {},
+      "area": 55,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 25000,
+        "fullDay": 45000,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備（just like home (but better)Lots of corners to work and eat? Check. Cozy nooks for relaxing and watching TV? Check. Art, books and curated chaos? Check. In a citizenM living room, you'll feel at home no matter where you are.sleep smarterCleverly designed for two adults, each room is exactly the same and features an XL king bed, wall-to-wall window, power shower and a tablet to control everything from the temperature to the blackout blinds.hello, superfast check-inYour time is precious, so it takes just 60 seconds to check in and 30 seconds to check out at our touch-screen terminals. Need help? Our friendly ambassadors are always nearby.earth without art is just 'eh'Whether on our facades, in our living rooms, in the elevators or at societyM, the main focus of our collection is conceptual art: works that stand for something, convey a certain philosophy and stir up ideas.meet mycitizenM+）",
+        "音響系統",
+        "視訊會議",
+        "高速網路"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

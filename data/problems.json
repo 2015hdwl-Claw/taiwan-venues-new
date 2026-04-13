@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1501-room.1501-01.pricing-1776041778",
+    "venueId": 1501,
+    "venueName": "南港展覽館2館",
+    "problemType": "missing_pricing",
+    "severity": "high",
+    "field": "room.1501-01.pricing",
+    "diagnosis": null,
+    "canFix": null,
+    "fixAction": null,
+    "source": "test",
+    "firstSeen": "2026-04-13T08:56:18.500789",
+    "lastSeen": "2026-04-13T08:56:18.500789",
+    "occurrences": 1,
+    "status": "open",
+    "notes": "測試問題記錄"
+  }
+]

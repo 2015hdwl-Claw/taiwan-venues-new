@@ -10,7 +10,21 @@
     "phone": null,
     "contactEmail": "sheraton@sheratongrandtaipei.com"
   },
-  "summary": null,
+  "summary": {
+    "shortDescription": "台北寒舍喜來登大飯店位於台北市，擁有16間會議室，最大容納1400人。",
+    "totalRooms": 16,
+    "maxCapacity": 1400,
+    "priceRange": {
+      "halfDayMin": 280000,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": 500000,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
   "risks": {
     "bookingLeadTime": "至少1個月（大型宴會建議3個月前）",
     "peakSeasons": [

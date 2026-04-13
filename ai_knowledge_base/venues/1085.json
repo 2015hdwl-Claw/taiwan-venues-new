@@ -10,7 +10,21 @@
     "phone": null,
     "contactEmail": "motpe-reservations@mohg.com"
   },
-  "summary": null,
+  "summary": {
+    "shortDescription": "台北文華東方酒店(MOHTaipei)位於台北市，擁有9間會議室，最大容納1170人。",
+    "totalRooms": 9,
+    "maxCapacity": 1170,
+    "priceRange": {
+      "halfDayMin": 200000,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": 380000,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
   "risks": null,
   "rules": null,
   "pricingTips": null,

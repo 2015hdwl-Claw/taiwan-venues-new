@@ -10,7 +10,21 @@
     "phone": "(02) 2358-1914",
     "contactEmail": null
   },
-  "summary": null,
+  "summary": {
+    "shortDescription": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)位於台北市，擁有23間會議室，最大容納1200人。",
+    "totalRooms": 23,
+    "maxCapacity": 1200,
+    "priceRange": {
+      "halfDayMin": 20000,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": 126000,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
   "risks": null,
   "rules": {
     "catering": [

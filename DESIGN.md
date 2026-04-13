@@ -389,6 +389,126 @@ Build a pill button: #191c1f background, white text, 9999px radius,
 
 ---
 
-**Last Updated**: 2026-04-08
-**Based on**: Revolut Design System (from awesome-design-md)
-**Brand Color**: Teal `#0d9488`
+---
+
+# Design Handoff — 設計師移交指南
+
+**版本**: v27 (Material 3)
+**最後更新**: 2026-04-12
+
+> **注意**: 本站已從 Aeonik Pro + Teal 系統遷移至 **Material 3 Design System**。以下為目前實作規範。
+
+## 實作中的設計系統 (Material 3)
+
+### 色彩系統
+
+**Primary (品牌主色)**
+```css
+--primary: #00685f;           /* 主要互動元素 */
+--on-primary: #ffffff;        /* 主色上的文字 */
+--primary-container: #008378; /* 容器背景 */
+--on-primary-container: #ffffff;
+```
+
+**Surface (表面顏色)**
+```css
+--surface: #f8f9fd;                    /* 主背景 */
+--on-surface: #191c1f;                 /* 主要文字 */
+--on-surface-variant: #3d4947;         /* 次要文字 */
+--surface-container-low: #f2f3f8;      /* 淺層容器 */
+--surface-container: #eaecef;          /* 中層容器 */
+--surface-container-high: #e1e2e6;     /* 深層容器 */
+```
+
+### 字體系統 (實作中)
+| 用途 | 字體 | 大小 | 行高 | 字距 |
+|------|------|------|------|------|
+| Hero 標題 | Space Grotesk | 136px | 1.1 | -2.72px |
+| Section 標題 | Space Grotesk | 48px | 1.21 | -0.48px |
+| Card 標題 | Space Grotesk | 32px | 1.19 | -0.32px |
+| Navigation | Space Grotesk | 20px | - | - |
+| Body | Inter | 16px | 1.5 | 0.16px |
+
+**Google Fonts**:
+```html
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+```
+
+### 組件規範 (實作)
+
+**Navigation (導航列)**
+- 背景: `bg-white/80 backdrop-blur-xl` (毛玻璃)
+- Logo: `favicon.svg` (40×40px)
+- 品牌名: `text-xl font-bold text-primary`
+- Active 連結: `text-primary font-bold border-b-2 border-primary`
+- CTA 按鈕: `rounded-full border-2 border-primary`
+
+**Footer (頁尾)**
+- 背景: `bg-surface-container-lowest`
+- 邊框: `border-outline-variant` (頂部)
+- Logo: `favicon.svg` (32×32px)
+- 網格佈局: 4 欄連結群組
+
+**Venue Card (場地卡片)**
+- 背景: `bg-surface-container-lowest`
+- 圓角: `rounded-xl` (16px)
+- 圖片: 4:3 比例
+- Hover: `hover:border-primary` + `group-hover:scale-110`
+
+**Button (按鈕)**
+- 圓角: `rounded-full` (9999px)
+- Padding: `px-6 py-3`
+- 互動: `active:scale-95`
+
+### 品牌資產
+
+**Logo**: `favicon.svg`
+- AM 文字標誌
+- 100×100px SVG
+- 背景 `#00685f`
+
+**OG Image**: `social/images/og-brand.svg`
+- 1200×630px (需轉換為 PNG)
+
+## SEO/GEO 規範
+
+### 首頁 Meta Tags
+```html
+<meta name="description" content="活動大師 - 活動企劃的場地知識庫。官網沒寫的場地限制、潛規則、踩坑經驗，都在這裡。AI 助理即時解答場地問題。">
+<title>活動大師 - 活動企劃的場地知識庫</title>
+<link rel="canonical" href="https://taiwan-venues-new-indol.vercel.app/">
+```
+
+### JSON-LD Schemas
+1. **Organization**: 全站品牌資訊
+2. **WebApplication**: 應用程式定義
+3. **FAQPage**: 首頁 FAQ
+4. **EventVenue**: 場地頁
+5. **ItemList**: 城市頁場地列表
+
+### 頁面結構
+```
+首頁: Hero → Pain Points → Featured Venues → Target Audience → CTA → Footer
+場地頁: Venue Hero → Quick Facts → 風險評估 → 專業知識 → 租借規定 → 相簿 → 會議室列表 → Footer
+城市頁: City Hero → 區域篩選 → 場地列表 → SEO Content → Footer
+```
+
+## 響應式斷點
+- Mobile: < 720px
+- Tablet: 720px - 1024px
+- Desktop: 1024px - 1280px
+- Large: 1280px+
+
+## 設計師交付檢查清單
+- [ ] 完整設計稿 (含響應式變體)
+- [ ] 組件庫
+- [ ] 互動狀態
+- [ ] OG Image PNG 版本
+
+---
+
+**Last Updated**: 2026-04-12
+**Current System**: Material 3 (Space Grotesk + Inter + #00685f)
+**Legacy System**: Aeonik Pro + Teal (上方保留供參考)
+**Brand Color**: Primary `#00685f`

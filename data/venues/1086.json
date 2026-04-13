@@ -1,0 +1,194 @@
+{
+  "id": 1086,
+  "name": "台北晶華酒店 Regent Taipei",
+  "venueType": "飯店場地",
+  "city": "台北市",
+  "address": "台北市中山北路2段39巷",
+  "url": "https://www.regenttaiwan.com/",
+  "image": "https://www.regenttaiwan.com/asset/types/main//images/uploads/regenttaipei/nav-regent-taipei-nav-overview.jpg",
+  "maxCapacity": 1000,
+  "highlights": [
+    "超過 24,000 平方英尺的多功能空間",
+    "挑高壯麗、氣宇非凡的晶華宴會廳",
+    "三面落地窗景攬入一室綠意",
+    "免費高速上網及視聽配備",
+    "經驗豐富的活動及宴會管理團隊"
+  ],
+  "contact": {
+    "phone": "+886-2-2523-8000",
+    "email": "reservations.tpe@regenthotels.com"
+  },
+  "rooms": [
+    {
+      "id": "1086-01",
+      "name": "晶英會",
+      "floor": "3F",
+      "area": 81.7,
+      "ceilingHeight": 2.4,
+      "capacity": {
+        "theater": 200,
+        "classroom": 132,
+        "hollowSquare": null,
+        "uShape": null,
+        "reception": 200,
+        "banquetWestern": 168,
+        "banquetEastern": null
+      },
+      "pricing": {
+        "halfDay": 75000,
+        "fullDay": 135000
+      },
+      "equipment": [
+        "免費高速上網",
+        "視聽配備",
+        "麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1086-02",
+      "name": "晶華會",
+      "floor": "3F",
+      "area": 108,
+      "ceilingHeight": 2.3,
+      "capacity": {
+        "theater": 360,
+        "classroom": 160,
+        "hollowSquare": null,
+        "uShape": null,
+        "reception": 200,
+        "banquetWestern": 22,
+        "banquetEastern": null
+      },
+      "pricing": {
+        "halfDay": 100000,
+        "fullDay": 180000
+      },
+      "equipment": [
+        "免費高速上網",
+        "視聽配備",
+        "麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1086-03",
+      "name": "宴會廳",
+      "floor": "B3",
+      "area": 268.6,
+      "ceilingHeight": 5,
+      "capacity": {
+        "theater": 600,
+        "classroom": 300,
+        "hollowSquare": null,
+        "uShape": null,
+        "reception": 1000,
+        "banquetWestern": 600,
+        "banquetEastern": null
+      },
+      "pricing": {
+        "halfDay": 250000,
+        "fullDay": 450000
+      },
+      "equipment": [
+        "免費高速上網",
+        "視聽配備",
+        "麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1086-04",
+      "name": "萬象廳",
+      "floor": "B3",
+      "area": 142.2,
+      "ceilingHeight": 2.35,
+      "capacity": {
+        "theater": 440,
+        "classroom": 207,
+        "hollowSquare": null,
+        "uShape": null,
+        "reception": 260,
+        "banquetWestern": 276,
+        "banquetEastern": null
+      },
+      "pricing": {
+        "halfDay": 130000,
+        "fullDay": 235000
+      },
+      "equipment": [
+        "免費高速上網",
+        "視聽配備",
+        "麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1086-05",
+      "name": "貴賓廳",
+      "floor": "B3",
+      "area": 234.7,
+      "ceilingHeight": 2.3,
+      "capacity": {
+        "theater": 700,
+        "classroom": 429,
+        "hollowSquare": null,
+        "uShape": null,
+        "reception": 580,
+        "banquetWestern": 576,
+        "banquetEastern": null
+      },
+      "pricing": {
+        "halfDay": 220000,
+        "fullDay": 400000
+      },
+      "equipment": [
+        "免費高速上網",
+        "視聽配備",
+        "麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1086-06",
+      "name": "寰宇廳",
+      "floor": "B3",
+      "area": 120,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "reception": null
+      },
+      "pricing": {
+        "halfDay": 120000,
+        "fullDay": 240000,
+        "note": "需洽詢飯店（價格為預估）"
+      },
+      "equipment": [
+        "免費高速上網",
+        "視聽配備",
+        "麥克風"
+      ],
+      "limitations": []
+    }
+  ],
+  "risks": null,
+  "rules": {
+    "decoration": [
+      {
+        "rule": " 會議設備 (一組投影螢幕、二支麥克風、白板、海報架)以上會議設備依實際需求提供",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ]
+  },
+  "pricingTips": null,
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1086.html"
+}

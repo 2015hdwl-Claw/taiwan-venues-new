@@ -3062,38 +3062,32 @@
   },
   {
     "id": 1051,
-    "name": "台北亞都麗緻大飯店(LandisTaipei)",
-    "venueType": "飯店場地",
+    "name": "台北亞都麗緻大飯店 (The Landis Taipei)",
+    "venueType": "飯店",
     "city": "台北市",
     "address": "台北市中山區民權東路二段41號",
     "contactPerson": "宴會部",
-    "url": "https://taipei.landishotelsresorts.com/meeting-list.php",
-    "priceHalfDay": 45000,
-    "priceFullDay": 80000,
-    "maxCapacityTheater": 160,
-    "maxCapacityClassroom": 130,
-    "availableTimeWeekday": "08:00-22:00",
-    "availableTimeWeekend": "08:00-22:00",
-    "equipment": [
-      "專業音響",
-      "投影設備",
-      "燈光",
-      "舞台",
-      "音響系統"
-    ],
+    "url": "https://taipei.landishotelsresorts.com/",
+    "priceHalfDay": null,
+    "priceFullDay": null,
+    "maxCapacityTheater": 180,
+    "maxCapacityClassroom": 120,
+    "availableTimeWeekday": "08:00-21:30",
+    "availableTimeWeekend": "需加價",
+    "equipment": "多功能投影機、投影幕、白板、簡報架、雷射筆、麥克風、無線上網、A4紙、筆、水、薄荷糖、五折影印",
     "images": {
       "main": "https://taipei.landishotelsresorts.com/manage/upload/meetroom/1773940120_95031.jpg",
       "gallery": [
-        "https://taipei.landishotelsresorts.com/manage/upload/roomtype/1773941952_80738.jpg",
-        "https://taipei.landishotelsresorts.com/manage/upload/roomtype/1773943582_54566.jpg",
-        "https://taipei.landishotelsresorts.com/manage/upload/roomtype/1773943658_60184.jpg",
-        "https://taipei.landishotelsresorts.com/manage/upload/roomtype/1773943693_27580.jpg",
-        "https://taipei.landishotelsresorts.com/manage/upload/roomtype/1773941952_84760.jpg",
-        "https://taipei.landishotelsresorts.com/manage/upload/roomtype/1773941952_20523.jpg",
-        "https://taipei.landishotelsresorts.com/manage/upload/roomhardware/1470409166_46331.png",
-        "https://taipei.landishotelsresorts.com/manage/upload/roomhardware/1470409180_64236.png",
-        "https://taipei.landishotelsresorts.com/manage/upload/roomhardware/1694538098_62141.png",
-        "https://taipei.landishotelsresorts.com/manage/upload/roomhardware/1470409196_47597.png"
+        "https://taipei.landishotelsresorts.com/manage/upload/meetroom/1773940120_95031.jpg",
+        "https://taipei.landishotelsresorts.com/manage/upload/meetroom/1773940120_37361.jpg",
+        "https://taipei.landishotelsresorts.com/manage/upload/meetroom/1773940120_61583.jpg",
+        "https://taipei.landishotelsresorts.com/manage/upload/meetroom/1773940120_72614.jpg",
+        "https://taipei.landishotelsresorts.com/manage/upload/meetroom/1773940120_88555.jpg",
+        "https://taipei.landishotelsresorts.com/manage/upload/meetroom/1773940120_77014.jpg",
+        "https://taipei.landishotelsresorts.com/manage/upload/meetroom/1773940120_07095.jpg",
+        "https://taipei.landishotelsresorts.com/manage/upload/meetroom/1773940120_58816.jpg",
+        "https://taipei.landishotelsresorts.com/manage/upload/meetroom/1773940120_99569.jpg",
+        "https://taipei.landishotelsresorts.com/manage/upload/meetroom/1773940120_61734.jpg"
       ],
       "verified": true,
       "verifiedAt": "2026-04-13",
@@ -3104,324 +3098,207 @@
       {
         "id": "1051-01",
         "name": "B1 宴會廳 Banquet Hall",
-        "nameEn": "B1 Banquet Hall",
         "floor": "B1",
+        "description": "宴會廳可分為三區獨立使用，也可合併為全區。適合大型會議、宴會及研討會。",
         "area": 97,
-        "areaUnit": "坪",
-        "areaSqm": 314,
+        "areaUnit": "sqm",
+        "ceilingHeight": 2.5,
         "capacity": {
-          "theater": 160,
+          "theater": 180,
           "classroom": 120,
-          "ushape": 63,
-          "banquet": 300
+          "uShape": null,
+          "hollowSquare": 25
         },
-        "length": 21,
-        "width": 14,
-        "height": 2.5,
-        "pillar": false,
-        "equipment": [
-          "投影設備",
-          "音響系統",
-          "無線麥克風",
-          "WiFi",
-          "空調",
-          "白板",
-          "講台",
-          "燈光控制",
-          "舞台"
-        ],
-        "images": {
-          "main": "https://taipei.landishotelsresorts.com/manage/upload/meetroom/1773940339_47730.jpg",
-          "gallery": [
-            "https://taipei.landishotelsresorts.com/manage/upload/meetroom/1773940339_20713.jpg",
-            "https://taipei.landishotelsresorts.com/manage/upload/meetroom/1773940339_71745.jpg",
-            "https://taipei.landishotelsresorts.com/manage/upload/meetroom/1773940339_48479.jpg"
-          ]
-        },
-        "notes": "B1 最大宴會空間，21×14m，挑高2.5m",
-        "source": "website_20260330",
-        "qualityScore": 80,
-        "qualityLevel": "high",
         "pricing": {
-          "halfDay": 29000,
-          "fullDay": 58000
+          "halfDay": 100000,
+          "fullDay": 200000,
+          "evening": 250000,
+          "note": "全區租金。半日 08:00-12:00 或 13:00-16:30，全天 08:00-16:30，夜間 18:00-21:30。夜間佈置 15,000/Hr"
         },
-        "price": {
-          "weekday": 29000,
-          "holiday": 31900
-        },
-        "loadIn": {
-          "elevator": "2022 EVENT VENUE CAPACITY & RENTAL",
-          "vehicleAccess": null,
-          "loadingDock": "",
-          "loadInTime": "樓層 廳名 上/下午時段 晚餐時段 全日時段 超時計費 夜間佈置; Level Venues Ping ㎡ L W H OR ｜ ｜ 22:00 Onwards Overnight Setup U-Shape Classroom Theater Cocktail Table"
-        }
-      },
-      {
-        "id": "1051-02",
-        "name": "2F Le Salon",
-        "nameEn": "2F Le Salon",
-        "floor": "2樓",
-        "area": 33,
-        "areaUnit": "坪",
-        "areaSqm": 109,
-        "capacity": {
-          "theater": 62,
-          "classroom": 60,
-          "ushape": 38,
-          "banquet": 96
-        },
-        "length": 14,
-        "width": 4.4,
-        "height": 2.5,
-        "pillar": false,
         "equipment": [
-          "投影設備",
-          "音響系統",
-          "無線麥克風",
-          "WiFi",
-          "空調",
+          "多功能投影機",
+          "投影幕",
           "白板",
-          "講台",
-          "燈光控制"
+          "簡報架",
+          "雷射筆",
+          "麥克風（前2支免費，之後每支NT$500）",
+          "無線上網"
         ],
         "images": {
           "main": "https://taipei.landishotelsresorts.com/manage/upload/meetroom/1773940120_95031.jpg",
           "gallery": [
-            "https://taipei.landishotelsresorts.com/manage/upload/meetroom/1773940120_10547.jpg"
+            "https://taipei.landishotelsresorts.com/manage/upload/meetroom/1773940120_95031.jpg",
+            "https://taipei.landishotelsresorts.com/manage/upload/meetroom/1773940120_37361.jpg"
           ]
         },
-        "notes": "2F 長型會議空間，14×4.4m",
-        "source": "website_20260330",
-        "qualityScore": 80,
+        "isActive": true,
+        "qualityScore": 95,
         "qualityLevel": "high",
-        "pricing": {
-          "halfDay": 10000,
-          "fullDay": 20000
-        },
-        "price": {
-          "weekday": 10000,
-          "holiday": 11000
-        },
-        "loadIn": {
-          "elevator": "2022 EVENT VENUE CAPACITY & RENTAL",
-          "vehicleAccess": null,
-          "loadingDock": "",
-          "loadInTime": "樓層 廳名 上/下午時段 晚餐時段 全日時段 超時計費 夜間佈置; Level Venues Ping ㎡ L W H OR ｜ ｜ 22:00 Onwards Overnight Setup U-Shape Classroom Theater Cocktail Table"
-        }
+        "source": "pdf",
+        "subRooms": [
+          {
+            "name": "Banquet I 第一區",
+            "area": 18,
+            "capacity": {
+              "theater": 40,
+              "classroom": 36,
+              "uShape": 22,
+              "hollowSquare": 3
+            },
+            "pricing": {
+              "halfDay": 25000,
+              "fullDay": 45000,
+              "evening": 25000,
+              "note": "夜間佈置 5,000/Hr"
+            }
+          },
+          {
+            "name": "Banquet II 第二區",
+            "area": 24,
+            "capacity": {
+              "theater": 60,
+              "classroom": 54,
+              "uShape": 34,
+              "hollowSquare": 4
+            },
+            "pricing": {
+              "halfDay": 35000,
+              "fullDay": 55000,
+              "evening": 35000,
+              "note": "夜間佈置 5,000/Hr"
+            }
+          },
+          {
+            "name": "Banquet III 第三區",
+            "area": 28,
+            "capacity": {
+              "theater": 60,
+              "classroom": 45,
+              "uShape": 34,
+              "hollowSquare": 4
+            },
+            "pricing": {
+              "halfDay": 40000,
+              "fullDay": 60000,
+              "evening": 40000,
+              "note": "夜間佈置 5,000/Hr"
+            }
+          }
+        ]
       },
       {
-        "id": "1051-03",
-        "name": "2F Matisse",
-        "nameEn": "2F Matisse",
-        "floor": "2樓",
+        "id": "1051-02",
+        "name": "2F Matisse 馬諦斯廳",
+        "floor": "2F",
+        "description": "中型會議室，適合中小型會議、研討會及董事會議。",
         "area": 20,
-        "areaUnit": "坪",
-        "areaSqm": 66,
+        "areaUnit": "sqm",
+        "ceilingHeight": 2.5,
         "capacity": {
           "theater": 40,
           "classroom": 30,
-          "ushape": 15,
-          "banquet": 36
+          "uShape": 16,
+          "hollowSquare": 3
         },
-        "length": 8,
-        "width": 6,
-        "height": 2.5,
-        "pillar": false,
+        "pricing": {
+          "halfDay": 35000,
+          "fullDay": 55000,
+          "evening": 35000,
+          "note": "半日 08:00-12:00 或 13:00-16:30，全天 08:00-16:30，夜間 18:00-21:30。夜間佈置 5,000/Hr"
+        },
         "equipment": [
-          "投影設備",
-          "音響系統",
-          "無線麥克風",
-          "WiFi",
-          "空調",
+          "多功能投影機",
+          "投影幕",
           "白板",
-          "講台",
-          "燈光控制"
+          "簡報架",
+          "雷射筆",
+          "麥克風（前2支免費）",
+          "無線上網"
         ],
         "images": {
-          "main": "https://taipei.landishotelsresorts.com/manage/upload/meetroom/1773940189_93854.jpg",
+          "main": "https://taipei.landishotelsresorts.com/manage/upload/meetroom/1773940120_72614.jpg",
           "gallery": [
-            "https://taipei.landishotelsresorts.com/manage/upload/meetroom/1773940189_48772.jpg"
+            "https://taipei.landishotelsresorts.com/manage/upload/meetroom/1773940120_72614.jpg"
           ]
         },
-        "notes": "2F 小型會議空間，8×6m",
-        "source": "website_20260330",
-        "qualityScore": 80,
+        "isActive": true,
+        "qualityScore": 95,
         "qualityLevel": "high",
+        "source": "pdf"
+      },
+      {
+        "id": "1051-03",
+        "name": "2F Le Salon 沙龍廳",
+        "floor": "2F",
+        "description": "多功能會議空間，可分為兩區獨立使用，也可合併為全區。適合中小型會議及宴會。",
+        "area": 33,
+        "areaUnit": "sqm",
+        "ceilingHeight": 2.5,
+        "capacity": {
+          "theater": 62,
+          "classroom": 60,
+          "uShape": 42,
+          "hollowSquare": 8
+        },
         "pricing": {
-          "halfDay": 6000,
-          "fullDay": 12000
+          "halfDay": 70000,
+          "fullDay": 100000,
+          "evening": 80000,
+          "note": "全區租金。半日 08:00-12:00 或 13:00-16:30，全天 08:00-16:30，夜間 18:00-21:30。夜間佈置 10,000/Hr"
         },
-        "price": {
-          "weekday": 6000,
-          "holiday": 6600
+        "equipment": [
+          "多功能投影機",
+          "投影幕",
+          "白板",
+          "簡報架",
+          "雷射筆",
+          "麥克風（前2支免費）",
+          "無線上網"
+        ],
+        "images": {
+          "main": "https://taipei.landishotelsresorts.com/manage/upload/meetroom/1773940120_88555.jpg",
+          "gallery": [
+            "https://taipei.landishotelsresorts.com/manage/upload/meetroom/1773940120_88555.jpg"
+          ]
         },
-        "loadIn": {
-          "elevator": "2022 EVENT VENUE CAPACITY & RENTAL",
-          "vehicleAccess": null,
-          "loadingDock": "",
-          "loadInTime": "樓層 廳名 上/下午時段 晚餐時段 全日時段 超時計費 夜間佈置; Level Venues Ping ㎡ L W H OR ｜ ｜ 22:00 Onwards Overnight Setup U-Shape Classroom Theater Cocktail Table"
-        }
-      },
-      {
-        "name": "二樓的馬諦斯廳",
-        "source": "regex",
-        "qualityScore": 10,
-        "qualityLevel": "low",
-        "isActive": false,
-        "id": "1051-04",
-        "equipment": [
-          "投影設備",
-          "音響系統",
-          "無線網路"
-        ],
-        "pricing": {},
-        "loadIn": {
-          "elevator": "2022 EVENT VENUE CAPACITY & RENTAL",
-          "vehicleAccess": null,
-          "loadingDock": "",
-          "loadInTime": "樓層 廳名 上/下午時段 晚餐時段 全日時段 超時計費 夜間佈置; Level Venues Ping ㎡ L W H OR ｜ ｜ 22:00 Onwards Overnight Setup U-Shape Classroom Theater Cocktail Table"
-        }
-      },
-      {
-        "name": "於二樓的沙龍廳",
-        "source": "regex",
-        "qualityScore": 10,
-        "qualityLevel": "low",
-        "isActive": false,
-        "id": "1051-05",
-        "equipment": [
-          "投影設備",
-          "音響系統",
-          "無線網路"
-        ],
-        "pricing": {},
-        "loadIn": {
-          "elevator": "2022 EVENT VENUE CAPACITY & RENTAL",
-          "vehicleAccess": null,
-          "loadingDock": "",
-          "loadInTime": "樓層 廳名 上/下午時段 晚餐時段 全日時段 超時計費 夜間佈置; Level Venues Ping ㎡ L W H OR ｜ ｜ 22:00 Onwards Overnight Setup U-Shape Classroom Theater Cocktail Table"
-        }
-      },
-      {
-        "name": "外日光浴區及室",
-        "source": "regex",
-        "qualityScore": 10,
-        "qualityLevel": "low",
-        "isActive": false,
-        "id": "1051-06",
-        "equipment": [
-          "投影設備",
-          "音響系統",
-          "無線網路"
-        ],
-        "pricing": {},
-        "loadIn": {
-          "elevator": "2022 EVENT VENUE CAPACITY & RENTAL",
-          "vehicleAccess": null,
-          "loadingDock": "",
-          "loadInTime": "樓層 廳名 上/下午時段 晚餐時段 全日時段 超時計費 夜間佈置; Level Venues Ping ㎡ L W H OR ｜ ｜ 22:00 Onwards Overnight Setup U-Shape Classroom Theater Cocktail Table"
-        }
-      },
-      {
-        "name": "瑜伽冥想室",
-        "source": "regex",
-        "qualityScore": 10,
-        "qualityLevel": "low",
-        "isActive": false,
-        "id": "1051-07",
-        "equipment": [
-          "投影設備",
-          "音響系統",
-          "無線網路"
-        ],
-        "pricing": {},
-        "loadIn": {
-          "elevator": "2022 EVENT VENUE CAPACITY & RENTAL",
-          "vehicleAccess": null,
-          "loadingDock": "",
-          "loadInTime": "樓層 廳名 上/下午時段 晚餐時段 全日時段 超時計費 夜間佈置; Level Venues Ping ㎡ L W H OR ｜ ｜ 22:00 Onwards Overnight Setup U-Shape Classroom Theater Cocktail Table"
-        }
-      },
-      {
-        "name": "分隔的客廳",
-        "source": "regex",
-        "qualityScore": 10,
-        "qualityLevel": "low",
-        "isActive": false,
-        "id": "1051-08",
-        "equipment": [
-          "投影設備",
-          "音響系統",
-          "無線網路"
-        ],
-        "pricing": {},
-        "loadIn": {
-          "elevator": "2022 EVENT VENUE CAPACITY & RENTAL",
-          "vehicleAccess": null,
-          "loadingDock": "",
-          "loadInTime": "樓層 廳名 上/下午時段 晚餐時段 全日時段 超時計費 夜間佈置; Level Venues Ping ㎡ L W H OR ｜ ｜ 22:00 Onwards Overnight Setup U-Shape Classroom Theater Cocktail Table"
-        }
-      },
-      {
-        "name": "办公室",
-        "source": "regex",
-        "qualityScore": 10,
-        "qualityLevel": "low",
-        "isActive": false,
-        "id": "1051-09",
-        "equipment": [
-          "投影設備",
-          "音響系統",
-          "無線網路"
-        ],
-        "pricing": {},
-        "loadIn": {
-          "elevator": "2022 EVENT VENUE CAPACITY & RENTAL",
-          "vehicleAccess": null,
-          "loadingDock": "",
-          "loadInTime": "樓層 廳名 上/下午時段 晚餐時段 全日時段 超時計費 夜間佈置; Level Venues Ping ㎡ L W H OR ｜ ｜ 22:00 Onwards Overnight Setup U-Shape Classroom Theater Cocktail Table"
-        }
-      },
-      {
-        "name": "客室",
-        "source": "regex",
-        "qualityScore": 10,
-        "qualityLevel": "low",
-        "isActive": false,
-        "id": "1051-10",
-        "equipment": [
-          "投影設備",
-          "音響系統",
-          "無線網路"
-        ],
-        "pricing": {},
-        "loadIn": {
-          "elevator": "2022 EVENT VENUE CAPACITY & RENTAL",
-          "vehicleAccess": null,
-          "loadingDock": "",
-          "loadInTime": "樓層 廳名 上/下午時段 晚餐時段 全日時段 超時計費 夜間佈置; Level Venues Ping ㎡ L W H OR ｜ ｜ 22:00 Onwards Overnight Setup U-Shape Classroom Theater Cocktail Table"
-        }
-      },
-      {
-        "name": "寝室",
-        "source": "regex",
-        "qualityScore": 10,
-        "qualityLevel": "low",
-        "isActive": false,
-        "id": "1051-11",
-        "equipment": [
-          "投影設備",
-          "音響系統",
-          "無線網路"
-        ],
-        "pricing": {},
-        "loadIn": {
-          "elevator": "2022 EVENT VENUE CAPACITY & RENTAL",
-          "vehicleAccess": null,
-          "loadingDock": "",
-          "loadInTime": "樓層 廳名 上/下午時段 晚餐時段 全日時段 超時計費 夜間佈置; Level Venues Ping ㎡ L W H OR ｜ ｜ 22:00 Onwards Overnight Setup U-Shape Classroom Theater Cocktail Table"
-        }
+        "isActive": true,
+        "qualityScore": 95,
+        "qualityLevel": "high",
+        "source": "pdf",
+        "subRooms": [
+          {
+            "name": "Le Salon I 沙龍廳一區",
+            "area": 19,
+            "capacity": {
+              "theater": 48,
+              "classroom": 45,
+              "uShape": 32,
+              "hollowSquare": 4
+            },
+            "pricing": {
+              "halfDay": 35000,
+              "fullDay": 55000,
+              "evening": 35000,
+              "note": "夜間佈置 5,000/Hr"
+            }
+          },
+          {
+            "name": "Le Salon II 沙龍廳二區",
+            "area": 15,
+            "capacity": {
+              "theater": 32,
+              "classroom": 24,
+              "uShape": 15,
+              "hollowSquare": 2
+            },
+            "pricing": {
+              "halfDay": 25000,
+              "fullDay": 45000,
+              "evening": 25000,
+              "note": "夜間佈置 5,000/Hr"
+            }
+          }
+        ]
       }
     ],
     "lastUpdated": "2026-04-12",
@@ -3517,172 +3394,11 @@
       "loadInTime": "樓層 廳名 上/下午時段 晚餐時段 全日時段 超時計費 夜間佈置; Level Venues Ping ㎡ L W H OR ｜ ｜ 22:00 Onwards Overnight Setup U-Shape Classroom Theater Cocktail Table"
     },
     "rules": {
-      "catering": [
-        {
-          "rule": "限用飯店餐飲服務，提供中/西式宴席與自助餐，不可外燴",
-          "exception": "茶點、餅乾等簡單茶歇可討論",
-          "penalty": "若攜入外食，飯店有權要求撤除",
-          "negotiable": false,
-          "source": {
-            "type": "legacy",
-            "extractedAt": "2026-04-06"
-          },
-          "confidence": "legacy"
-        },
-        {
-          "rule": "酒水需使用飯店提供之酒類，自備酒類需支付開瓶費",
-          "exception": null,
-          "penalty": "開瓶費依酒類別計價",
-          "negotiable": true,
-          "source": {
-            "type": "legacy",
-            "extractedAt": "2026-04-06"
-          },
-          "confidence": "legacy"
-        }
-      ],
-      "decoration": [
-        {
-          "rule": "佈置需提前向宴會部申請，禁止使用圖釘、膠帶直接黏貼於牆面",
-          "exception": "可使用飯店提供之展示架或立牌",
-          "penalty": "牆面損壞需照價賠償",
-          "negotiable": false,
-          "source": {
-            "type": "legacy",
-            "extractedAt": "2026-04-06"
-          },
-          "confidence": "legacy"
-        },
-        {
-          "rule": "天花板高度2.5米，大型道具或背板高度不得超過2.2米",
-          "exception": null,
-          "penalty": null,
-          "negotiable": false,
-          "source": {
-            "type": "legacy",
-            "extractedAt": "2026-04-06"
-          },
-          "confidence": "legacy"
-        },
-        {
-          "rule": "禁止施放鞭炮、煙火、乾冰等具安全疑慮之特殊效果",
-          "exception": null,
-          "penalty": null,
-          "negotiable": false,
-          "source": {
-            "type": "legacy",
-            "extractedAt": "2026-04-06"
-          },
-          "confidence": "legacy"
-        }
-      ],
-      "sound": [
-        {
-          "rule": "內建專業音響系統，提供無線麥克風，額外音響設備需申請",
-          "exception": null,
-          "penalty": null,
-          "negotiable": true,
-          "source": {
-            "type": "legacy",
-            "extractedAt": "2026-04-06"
-          },
-          "confidence": "legacy"
-        },
-        {
-          "rule": "晚間22:00後音量需降低，避免影響住宿客人",
-          "exception": "B1樓層隔音較佳，彈性較大",
-          "penalty": null,
-          "negotiable": true,
-          "source": {
-            "type": "legacy",
-            "extractedAt": "2026-04-06"
-          },
-          "confidence": "legacy"
-        }
-      ],
-      "loadIn": [
-        {
-          "rule": "進場佈置一般為活動前2-3小時",
-          "exception": "大型佈置可申請前一天夜間進場（22:00後），需額外費用",
-          "penalty": null,
-          "negotiable": true,
-          "source": {
-            "type": "legacy",
-            "extractedAt": "2026-04-06"
-          },
-          "confidence": "legacy"
-        },
-        {
-          "rule": "大型設備需經貨梯進出，載重限制約1.5噸",
-          "exception": null,
-          "penalty": null,
-          "negotiable": null,
-          "source": {
-            "type": "legacy",
-            "extractedAt": "2026-04-06"
-          },
-          "confidence": "legacy"
-        },
-        {
-          "rule": "活動結束後需於指定時間內完成撤場",
-          "exception": null,
-          "penalty": "超時撤場依合約約定收取超時費",
-          "negotiable": null,
-          "source": {
-            "type": "legacy",
-            "extractedAt": "2026-04-06"
-          },
-          "confidence": "legacy"
-        }
-      ],
-      "cancellation": [
-        {
-          "rule": "活動前60天以上取消，全額退還訂金",
-          "exception": null,
-          "penalty": null,
-          "negotiable": null,
-          "source": {
-            "type": "legacy",
-            "extractedAt": "2026-04-06"
-          },
-          "confidence": "legacy"
-        },
-        {
-          "rule": "活動前30-59天取消，退還50%訂金",
-          "exception": null,
-          "penalty": null,
-          "negotiable": null,
-          "source": {
-            "type": "legacy",
-            "extractedAt": "2026-04-06"
-          },
-          "confidence": "legacy"
-        },
-        {
-          "rule": "活動前30天內取消，訂金不予退還",
-          "exception": "改期可協調，視檔期availability而定",
-          "penalty": null,
-          "negotiable": true,
-          "source": {
-            "type": "legacy",
-            "extractedAt": "2026-04-06"
-          },
-          "confidence": "legacy"
-        }
-      ],
-      "insurance": [
-        {
-          "rule": "大型活動（200人以上）建議投保公共意外責任險",
-          "exception": null,
-          "penalty": null,
-          "negotiable": null,
-          "source": {
-            "type": "legacy",
-            "extractedAt": "2026-04-06"
-          },
-          "confidence": "legacy"
-        }
-      ]
+      "catering": "麗緻半日會議專案：NT$1,800-2,200+10%/人。全日：NT$2,300-2,700+10%/人。最低15人。週六日及國定假日須加價",
+      "decoration": "工作人員可提前半小時入場準備，早於07:30將酌收人力費用NT$3,000",
+      "sound": "麥克風前2支免費，之後每支NT$500",
+      "loadIn": "夜間佈置 18:00-21:30，凌晨佈置 00:00-08:00",
+      "cancellation": "適用日期 2026/1/1-2026/12/31。飯店保有修改變更取消之權利"
     },
     "limitations": [
       "天花板高度統一為2.5米，不適合搭建超過2米之大型背板或LED牆",
@@ -3723,6 +3439,46 @@
       "mrt": "捷運中和新蘆線「行天宮站」步行約5分鐘",
       "bus": "多條公車路線至「民權中山北路口」",
       "parking": "飯店設有停車場"
+    },
+    "contactPhone": "02-7735-2368",
+    "dataSources": {
+      "official": "https://taipei.landishotelsresorts.com/",
+      "pdf": "https://taipei.landishotelsresorts.com/manage/upload/ckeditor/files/26_%E6%9C%83%E8%AD%B0%E5%B0%88%E6%A1%88%205.pdf",
+      "pdfName": "麗緻會議專案 2026"
+    },
+    "meetingPackages": {
+      "halfDay": {
+        "price": 1800,
+        "options": [
+          "中/西式餐盒 NT$1,800",
+          "中式合菜 NT$2,000",
+          "西式套餐 NT$2,200"
+        ],
+        "includes": "咖啡茶點一次、停車、無線上網、會議器材、會議用品",
+        "timeSlots": [
+          "08:00-12:00",
+          "13:00-16:30"
+        ],
+        "minGuests": 15
+      },
+      "fullDay": {
+        "price": 2300,
+        "options": [
+          "中/西式餐盒 NT$2,300",
+          "中式合菜 NT$2,500",
+          "西式套餐 NT$2,700"
+        ],
+        "includes": "咖啡茶點二次、停車、無線上網、會議器材、會議用品",
+        "timeSlots": [
+          "08:00-16:30"
+        ],
+        "minGuests": 15
+      },
+      "coffeeBreak": {
+        "basic": 250,
+        "premium": 500,
+        "note": "加一成服務費。中式茶點僅下午提供"
+      }
     }
   },
   {

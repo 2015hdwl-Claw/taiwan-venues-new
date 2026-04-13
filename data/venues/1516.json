@@ -1,0 +1,240 @@
+{
+  "id": 1516,
+  "name": "彭園婚宴會館 新店館",
+  "venueType": "婚宴場地",
+  "city": "新北市",
+  "address": "新北市新店區",
+  "url": "https://www.pengyuan.com.tw/",
+  "image": null,
+  "maxCapacity": null,
+  "highlights": [],
+  "contact": {
+    "phone": "02-2551-9157",
+    "email": "TBD"
+  },
+  "rooms": [
+    {
+      "id": "1516-5",
+      "name": "※長榮桂冠酒店5樓",
+      "floor": null,
+      "area": 130.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 360,
+        "banquet": 288,
+        "classroom": 180
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1516-婚宴場地尾牙餐廳",
+      "name": "婚宴場地、尾牙餐廳",
+      "floor": null,
+      "area": 51,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 140,
+        "banquet": 112,
+        "classroom": 70
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1516-南京站第一飯店二樓",
+      "name": "南京站第一飯店二樓",
+      "floor": null,
+      "area": 163.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 450,
+        "banquet": 360,
+        "classroom": 225
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1516-62",
+      "name": "正路62-1號5樓",
+      "floor": null,
+      "area": 87,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 240,
+        "banquet": 192,
+        "classroom": 120
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1516-第一推薦彭園餐廳",
+      "name": "第一！推薦彭園餐廳",
+      "floor": null,
+      "area": null,
+      "ceilingHeight": null,
+      "capacity": {},
+      "pricing": {},
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1516-彭園旗下各館宴會廳",
+      "name": "彭園旗下各館宴會廳",
+      "floor": null,
+      "area": null,
+      "ceilingHeight": null,
+      "capacity": {},
+      "pricing": {},
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1516-廳及龍喜廳等三個廳",
+      "name": "廳及龍喜廳等三個廳",
+      "floor": null,
+      "area": 90.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 250,
+        "banquet": 200,
+        "classroom": 125
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1516-口店內共有龍鳳廳",
+      "name": "口，店內共有龍鳳廳",
+      "floor": null,
+      "area": 145,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 400,
+        "banquet": 320,
+        "classroom": 200
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1516-位於新北市政府大樓",
+      "name": "位於新北市政府大樓",
+      "floor": null,
+      "area": 72.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 200,
+        "banquet": 160,
+        "classroom": 100
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1516-4",
+      "name": "4F宴會全廳",
+      "floor": null,
+      "area": 83.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 230,
+        "banquet": 184,
+        "classroom": 115
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1516-1",
+      "name": "1F國際宴會全廳",
+      "floor": null,
+      "area": 199.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 550,
+        "banquet": 440,
+        "classroom": 275
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    }
+  ],
+  "risks": null,
+  "rules": null,
+  "pricingTips": null,
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1516.html"
+}

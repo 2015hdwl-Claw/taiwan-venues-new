@@ -42,9 +42,15 @@ class Venue(Base):
     created_at = Column(DateTime, default=datetime.utcnow)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
+    # 上架/下架狀態
+    is_active = Column(Boolean, default=True, index=True)
+    status_notes = Column(Text)  # 下架原因或其他註記
+
     # 關聯
     meeting_rooms = relationship("MeetingRoom", back_populates="venue", cascade="all, delete-orphan")
     hidden_knowledge = relationship("HiddenKnowledge", back_populates="venue", cascade="all, delete-orphan")
+    problems = relationship("Problem", back_populates="venue", cascade="all, delete-orphan")
+    scrape_tasks = relationship("ScrapeTask", back_populates="venue", cascade="all, delete-orphan")
 
     __table_args__ = (
         Index('idx_venues_location', 'latitude', 'longitude'),

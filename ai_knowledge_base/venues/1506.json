@@ -10,7 +10,21 @@
     "phone": null,
     "contactEmail": null
   },
-  "summary": null,
+  "summary": {
+    "shortDescription": "瓏山林台北中和飯店位於新北市，擁有7間會議室，最大容納360人。",
+    "totalRooms": 7,
+    "maxCapacity": 360,
+    "priceRange": {
+      "halfDayMin": null,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": null,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
   "risks": null,
   "rules": {
     "catering": [

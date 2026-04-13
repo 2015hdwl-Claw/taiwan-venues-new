@@ -1,210 +1,401 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YGTFFCFZHC"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-YGTFFCFZHC');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="場地詳情 - 活動大師">
     <title>場地詳情 - 活動大師</title>
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="chat.css?v=20260406-v1">
+    <link rel="canonical" href="https://taiwan-venues-new-indol.vercel.app/venue.html">
+
+    <!-- Open Graph (base, dynamically updated by venue.js) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="場地詳情 — 活動大師">
+    <meta property="og:description" content="活動大師場地詳情，官網沒寫的場地限制、潛規則、踩坑經驗。">
+    <meta property="og:url" content="https://taiwan-venues-new-indol.vercel.app/venue.html">
+    <meta property="og:image" content="https://taiwan-venues-new-indol.vercel.app/social/images/og-brand.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="zh_TW">
+    <meta property="og:site_name" content="活動大師">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="場地詳情 — 活動大師">
+    <meta name="twitter:description" content="活動大師場地詳情，官網沒寫的場地限制、潛規則、踩坑經驗。">
+    <meta name="twitter:image" content="https://taiwan-venues-new-indol.vercel.app/social/images/og-brand.png">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-tertiary-fixed": "#370e00",
+                        "secondary": "#3f6560",
+                        "surface-container-low": "#f2f3f8",
+                        "inverse-on-surface": "#eff1f5",
+                        "on-primary": "#ffffff",
+                        "on-secondary-fixed": "#00201d",
+                        "surface-variant": "#e1e2e6",
+                        "primary-fixed-dim": "#6bd8cb",
+                        "on-surface-variant": "#3d4947",
+                        "tertiary-fixed-dim": "#ffb59a",
+                        "inverse-primary": "#6bd8cb",
+                        "surface-bright": "#f8f9fd",
+                        "on-secondary-fixed-variant": "#274d48",
+                        "primary-container": "#0d9488",
+                        "on-tertiary-container": "#fffbff",
+                        "surface-dim": "#d8dade",
+                        "outline": "#6d7a77",
+                        "on-tertiary-fixed-variant": "#773215",
+                        "surface": "#f8f9fd",
+                        "secondary-fixed-dim": "#a6cfc8",
+                        "error": "#ba1a1a",
+                        "outline-variant": "#bcc9c6",
+                        "on-primary-fixed-variant": "#005049",
+                        "tertiary-fixed": "#ffdbce",
+                        "tertiary": "#924628",
+                        "primary-fixed": "#89f5e7",
+                        "on-primary-fixed": "#00201d",
+                        "surface-tint": "#0d9488",
+                        "on-surface": "#191c1f",
+                        "secondary-fixed": "#c2ebe3",
+                        "background": "#f8f9fd",
+                        "surface-container": "#eceef2",
+                        "on-tertiary": "#ffffff",
+                        "tertiary-container": "#b05e3d",
+                        "surface-container-high": "#e7e8ec",
+                        "error-container": "#ffdad6",
+                        "primary": "#0d9488",
+                        "on-primary-container": "#f4fffc",
+                        "on-background": "#191c1f",
+                        "on-error": "#ffffff",
+                        "on-secondary": "#ffffff",
+                        "inverse-surface": "#2e3134",
+                        "on-secondary-container": "#456b66",
+                        "on-error-container": "#93000a",
+                        "surface-container-lowest": "#ffffff",
+                        "secondary-container": "#c2ebe3",
+                        "surface-container-highest": "#e1e2e6",
+                        "brand-teal": "#0d9488",
+                        "brand-teal-surface": "#f0fdfa",
+                        "brand-teal-hover": "#0f766e"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Space Grotesk", "sans-serif"],
+                        "body": ["Inter", "sans-serif"],
+                        "label": ["Inter", "sans-serif"],
+                        "aeonik": ["Space Grotesk", "sans-serif"]
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="chat.css?v=20260406-v1">
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            line-height: 1;
+        }
+        .line-clamp-1 {
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .line-clamp-2 {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+    </style>
 </head>
-<body>
-    <!-- Navigation -->
-    <nav class="nav">
-        <div class="nav-container">
-            <a href="index.html" class="nav-logo">
-                <span class="logo-icon">🎉</span>
-                <span class="logo-text">活動大師</span>
-            </a>
-            <div class="nav-links">
-                <a href="index.html" class="nav-link">返回搜尋</a>
-                <button class="btn btn-nav" onclick="window.toggleChat()">🤖 AI 助理</button>
+<body class="bg-surface text-on-surface font-body selection:bg-primary-fixed selection:text-on-primary-fixed">
+
+    <!-- TopNavBar -->
+    <nav class="bg-white/80 backdrop-blur-xl sticky top-0 z-50 shadow-sm">
+        <div class="flex justify-between items-center px-8 py-4 w-full max-w-screen-xl mx-auto">
+            <div class="flex items-center gap-12">
+                <a href="index.html" class="flex items-center gap-2">
+                    <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuC54GQHXZNSY3rulLho5aRdVg2QF2_jZrsRnHPYy1Q3wWfvasPgCI1fdKYp0ke76rMqklNrU9EZFxjrhTSBzPnGeTqrlkgYLW-AcRAUKDKUX62UVYwW7gByGcLQv6U1GEQ9LhCsnO7Ep3VxA1K9nnODybzKxkC6j2dojmJjJAd39Wrj13W-6ONlYZUIo8d3IY7dVVm5cEoCVu4mTuRyPEknmGxeVDdmJqZepx8KPQakim9eIPaE2pUA6IIxwd0ALhvm5P3Ijn-uTKY" alt="活動大師" class="w-10 h-10 rounded-full object-cover">
+                    <span class="text-xl font-bold text-primary font-headline tracking-tight">活動大師</span>
+                </a>
+                <div class="hidden md:flex gap-8 items-center">
+                    <a class="text-primary font-bold border-b-2 border-primary font-headline tracking-tight hover:text-primary-container transition-colors duration-300" href="index.html#venues-section">探索場地</a>
+                    <a class="text-on-surface-variant font-headline tracking-tight hover:text-primary transition-colors duration-300" href="knowledge.html">知識庫</a>
+                    <a class="text-on-surface-variant font-headline tracking-tight hover:text-primary transition-colors duration-300" href="index.html#about-section">關於我們</a>
+                </div>
+            </div>
+            <div class="flex items-center gap-4">
+                <button class="hidden lg:flex items-center gap-2 px-4 py-2 bg-surface-container rounded-full text-on-surface-variant hover:bg-surface-container-high transition-all">
+                    <span class="material-symbols-outlined text-[20px]">search</span>
+                    <span class="text-sm">搜尋活動或場地...</span>
+                </button>
+                <button class="px-6 py-2 bg-primary-container text-on-primary-container rounded-full font-bold hover:scale-95 active:opacity-80 transition-all">登入</button>
             </div>
         </div>
     </nav>
 
-    <!-- Main Content -->
-    <main class="venue-main">
-        <!-- Loading State -->
-        <div class="loading" id="loadingState">
-            <div class="spinner"></div>
-            <p>載入場地資料中...</p>
-        </div>
+    <!-- Loading State -->
+    <div class="py-32 text-center" id="loadingState">
+        <div class="inline-block w-10 h-10 border-3 border-primary border-t-transparent rounded-full animate-spin mb-4"></div>
+        <p class="text-on-surface-variant">載入場地資料中...</p>
+    </div>
 
-        <!-- Error State -->
-        <div class="empty-state" id="errorState" style="display: none;">
-            <div class="empty-icon">⚠️</div>
-            <h3>找不到場地資料</h3>
-            <p id="errorStateMessage">請確認場地 ID 是否正確</p>
-            <a href="index.html" class="btn btn-primary">返回首頁</a>
+    <!-- Error State -->
+    <div class="py-32 text-center hidden" id="errorState">
+        <div class="w-20 h-20 bg-error-container rounded-full flex items-center justify-center mx-auto mb-6">
+            <span class="material-symbols-outlined text-on-error-container text-4xl">warning</span>
         </div>
+        <h3 class="text-2xl font-bold mb-2">找不到場地資料</h3>
+        <p class="text-on-surface-variant mb-6" id="errorStateMessage">請確認場地 ID 是否正確</p>
+        <a href="index.html" class="inline-flex items-center bg-primary text-on-primary px-8 py-3 rounded-full font-medium hover:bg-brand-teal-hover transition-colors">
+            返回首頁
+        </a>
+    </div>
 
-        <!-- Venue Content -->
-        <div id="venueContent" style="display: none;">
-            <!-- Hero Section -->
-            <section class="venue-hero-section">
-                <div class="venue-hero-container">
-                    <div class="venue-hero-image">
-                        <img id="venueMainImage" src="" alt="" style="display: none;">
+    <!-- Venue Content -->
+    <div id="venueContent" class="hidden">
+        <main class="max-w-screen-2xl mx-auto px-6 md:px-12 py-12">
+            <!-- Venue Hero Section -->
+            <section class="relative grid grid-cols-1 lg:grid-cols-12 gap-8 mb-24">
+                <!-- Main Image -->
+                <div class="lg:col-span-8 group relative overflow-hidden rounded-xl h-[600px]">
+                    <img id="venueMainImage" src="" alt="" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                    <div class="absolute bottom-8 left-8">
+                        <div class="bg-surface-container-lowest/90 backdrop-blur-md px-6 py-4 rounded-xl inline-flex flex-col border border-primary/10">
+                            <span id="venueType" class="text-primary font-bold text-sm tracking-widest uppercase mb-1"></span>
+                            <h1 id="venueName" class="text-4xl md:text-6xl font-bold tracking-tight text-on-surface"></h1>
+                        </div>
                     </div>
-                    <div class="venue-hero-info">
-                        <span id="venueType" class="venue-type-badge"></span>
-                        <h1 id="venueName" class="venue-hero-title"></h1>
-                        <div class="venue-hero-meta">
-                            <span id="venueAddress" class="venue-hero-address">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                                    <circle cx="12" cy="10" r="3"></circle>
-                                </svg>
+                </div>
+                <!-- Info Panel -->
+                <div class="lg:col-span-4 flex flex-col justify-center space-y-8 bg-surface-container-low p-10 rounded-xl border border-surface-container-high">
+                    <div class="space-y-4">
+                        <div class="space-y-2">
+                            <div id="venueAddress" class="flex items-center gap-3 text-on-surface-variant">
+                                <span class="material-symbols-outlined">location_on</span>
                                 <span></span>
-                            </span>
+                            </div>
+                            <div class="flex items-center gap-3 text-on-surface-variant">
+                                <span class="material-symbols-outlined">meeting_room</span>
+                                <span id="venueRoomCountText">會議室資訊</span>
+                            </div>
+                            <div class="flex items-center gap-3 text-on-surface-variant">
+                                <span class="material-symbols-outlined">groups</span>
+                                <span id="venueCapacity">最大容納 -</span>
+                            </div>
                         </div>
-                        <div class="venue-hero-actions">
-                            <button class="btn btn-primary" onclick="window.toggleChat()">🤖 問 AI 助理</button>
-                            <a id="websiteBtn" class="btn btn-outline" href="" target="_blank" style="display: none;">🌐 官網</a>
+                    </div>
+                    <!-- Quick Info -->
+                    <div class="space-y-3 pt-4 border-t border-surface-container-high">
+                        <div class="flex justify-between items-center">
+                            <span class="text-on-surface-variant text-sm">價格區間</span>
+                            <span id="venuePrice" class="font-bold text-primary">價格面議</span>
                         </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-on-surface-variant text-sm">開放時段</span>
+                            <span id="venueTime" class="font-medium text-on-surface">-</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-on-surface-variant text-sm">主要設備</span>
+                            <span id="venueEquipment" class="font-medium text-on-surface text-sm">未提供</span>
+                        </div>
+                    </div>
+                    <!-- Action Buttons -->
+                    <div class="flex flex-col gap-4">
+                        <button class="w-full bg-primary text-on-primary py-4 rounded-full font-bold text-lg hover:bg-brand-teal-hover transition-all flex items-center justify-center gap-2" onclick="document.getElementById('roomsSection').scrollIntoView({behavior:'smooth'})">
+                            查看會議室 <span class="material-symbols-outlined">arrow_downward</span>
+                        </button>
+                        <button class="w-full border-2 border-primary text-primary py-4 rounded-full font-bold text-lg hover:bg-primary/5 transition-all flex items-center justify-center gap-2" onclick="window.toggleChat()">
+                            <span class="material-symbols-outlined">smart_toy</span> 問 AI 助理
+                        </button>
+                        <!-- Share Buttons -->
+                        <div class="flex gap-2">
+                            <button onclick="shareToLine()" class="flex-1 bg-[#06C755] text-white py-3 rounded-full font-medium text-sm hover:opacity-90 transition-all flex items-center justify-center gap-1">
+                                LINE
+                            </button>
+                            <button onclick="shareToFacebook()" class="flex-1 bg-[#1877F2] text-white py-3 rounded-full font-medium text-sm hover:opacity-90 transition-all flex items-center justify-center gap-1">
+                                Facebook
+                            </button>
+                            <button onclick="copyLink()" id="copyLinkBtn" class="flex-1 border border-outline-variant text-on-surface py-3 rounded-full font-medium text-sm hover:border-primary hover:text-primary transition-all flex items-center justify-center gap-1">
+                                <span class="material-symbols-outlined text-base">link</span> 複製
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Contact Links -->
+                    <div class="flex gap-3">
+                        <a id="callBtn" class="hidden flex-1 text-center border border-outline-variant text-on-surface py-3 rounded-full font-medium hover:border-primary hover:text-primary transition-all" href="">
+                            <span class="material-symbols-outlined text-sm align-middle">phone</span> 撥打電話
+                        </a>
+                        <a id="websiteBtn" class="hidden flex-1 text-center border border-outline-variant text-on-surface py-3 rounded-full font-medium hover:border-primary hover:text-primary transition-all" href="" target="_blank">
+                            <span class="material-symbols-outlined text-sm align-middle">language</span> 官網
+                        </a>
                     </div>
                 </div>
             </section>
 
-            <!-- Quick Info Grid -->
-            <section class="venue-section">
-                <div class="section-container">
-                    <div class="quick-info-grid">
-                        <div class="quick-info-card">
-                            <div class="quick-info-value" id="venueCapacity">-</div>
-                            <div class="quick-info-label">最大容納</div>
-                        </div>
-                        <div class="quick-info-card">
-                            <div class="quick-info-value" id="venuePrice">-</div>
-                            <div class="quick-info-label">價格區間</div>
-                        </div>
-                        <div class="quick-info-card">
-                            <div class="quick-info-value" id="venueEquipment">-</div>
-                            <div class="quick-info-label">主要設備</div>
-                        </div>
-                        <div class="quick-info-card">
-                            <div class="quick-info-value" id="venueTime">-</div>
-                            <div class="quick-info-label">開放時段</div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- ⚠️ 風險評估 - 移到最前面 -->
-            <section id="risksSection" class="venue-section risks-highlight" style="display: none;">
-                <div class="section-container">
-                    <h2 class="section-title">⚠️ 重要提醒</h2>
-                    <div id="risksContent" class="knowledge-grid"></div>
+            <!-- Risk Assessment Section -->
+            <section id="risksSection" class="mb-16 hidden">
+                <div class="bg-error-container/30 rounded-xl p-8">
+                    <h2 class="text-2xl md:text-3xl font-headline font-medium text-on-surface mb-6 flex items-center gap-3">
+                        <span class="material-symbols-outlined text-error">warning</span>
+                        重要提醒
+                    </h2>
+                    <div id="risksContent" class="grid md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
                 </div>
             </section>
 
             <!-- Gallery Section -->
-            <section id="gallerySection" class="venue-section" style="display: none;">
-                <div class="section-container">
-                    <h2 class="section-title">📸 場地相簿</h2>
-                    <div id="venueGallery" class="venue-gallery"></div>
-                </div>
+            <section id="gallerySection" class="mb-24 hidden">
+                <h2 class="text-2xl md:text-3xl font-headline font-medium text-on-surface mb-8 flex items-center gap-3">
+                    <span class="material-symbols-outlined text-primary">photo_library</span>
+                    場地相簿
+                </h2>
+                <div id="venueGallery" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"></div>
             </section>
 
-            <!-- Rooms Section -->
-            <section class="venue-section">
-                <div class="section-container">
-                    <div class="section-header">
-                        <h2 class="section-title">會議室列表</h2>
-                        <span id="roomsCount" class="result-count"></span>
+            <!-- Room List Section -->
+            <section id="roomsSection" class="mb-24">
+                <div class="flex justify-between items-end mb-12">
+                    <div>
+                        <h2 class="text-4xl md:text-5xl font-bold tracking-tighter mb-4">場地會議室</h2>
+                        <p class="text-on-surface-variant text-lg">從私人小型會議到國際級論壇，我們提供多樣化的空間選擇。</p>
                     </div>
-
-                    <div id="noRoomsState" class="empty-state" style="display: none;">
-                        <div class="empty-icon">🚪</div>
-                        <h3>尚無會議室資料</h3>
-                        <p>此場地的會議室資訊尚未完善</p>
-                    </div>
-
-                    <div id="roomsGrid" class="rooms-grid"></div>
+                    <span id="roomsCount" class="text-sm text-on-surface-variant bg-surface-container px-4 py-2 rounded-full"></span>
                 </div>
+
+                <div id="noRoomsState" class="text-center py-16 hidden">
+                    <div class="w-20 h-20 bg-surface-container rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="material-symbols-outlined text-on-surface-variant text-4xl">door_front</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">尚無會議室資料</h3>
+                    <p class="text-on-surface-variant">此場地的會議室資訊尚未完善</p>
+                </div>
+
+                <div id="roomsGrid" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8"></div>
             </section>
 
             <!-- Rules Section -->
-            <section id="rulesSection" class="venue-section" style="display: none;">
-                <div class="section-container">
-                    <h2 class="section-title">📋 租借規定</h2>
-                    <div id="rulesContent" class="knowledge-grid"></div>
-                </div>
+            <section id="rulesSection" class="mb-16 hidden">
+                <h2 class="text-2xl md:text-3xl font-headline font-medium text-on-surface mb-8 flex items-center gap-3">
+                    <span class="material-symbols-outlined text-primary">gavel</span>
+                    租借規定
+                </h2>
+                <div id="rulesContent" class="grid md:grid-cols-2 gap-4"></div>
             </section>
 
             <!-- Pricing Tips Section -->
-            <section id="pricingTipsSection" class="venue-section" style="display: none;">
-                <div class="section-container">
-                    <h2 class="section-title">💡 省錢技巧</h2>
-                    <div id="pricingTipsContent" class="tips-list"></div>
+            <section id="pricingTipsSection" class="mb-16 hidden">
+                <div class="bg-brand-teal-surface rounded-xl p-8">
+                    <h2 class="text-2xl md:text-3xl font-headline font-medium text-on-surface mb-8 flex items-center gap-3">
+                        <span class="material-symbols-outlined text-primary">lightbulb</span>
+                        省錢技巧
+                    </h2>
+                    <div id="pricingTipsContent" class="grid md:grid-cols-2 gap-4"></div>
                 </div>
             </section>
 
             <!-- Contact Section -->
-            <section class="venue-section">
-                <div class="section-container">
-                    <h2 class="section-title">📞 聯絡資訊</h2>
-                    <div class="contact-grid">
-                        <div id="contactPerson" class="contact-card" style="display: none;">
-                            <div class="contact-icon">👤</div>
-                            <div class="contact-label">聯絡人</div>
-                            <div class="contact-value"></div>
+            <section class="mb-24">
+                <h2 class="text-2xl md:text-3xl font-headline font-medium text-on-surface mb-8 flex items-center gap-3">
+                    <span class="material-symbols-outlined text-primary">contact_phone</span>
+                    聯絡資訊
+                </h2>
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                    <div id="contactPerson" class="bg-surface-container-lowest rounded-xl p-6 border border-surface-container-high hidden">
+                        <div class="flex items-center gap-3 mb-3">
+                            <div class="w-10 h-10 bg-surface-container rounded-full flex items-center justify-center">
+                                <span class="material-symbols-outlined text-primary">person</span>
+                            </div>
+                            <span class="text-sm text-on-surface-variant">聯絡人</span>
                         </div>
-                        <div id="contactPhone" class="contact-card" style="display: none;">
-                            <div class="contact-icon">📞</div>
-                            <div class="contact-label">電話</div>
-                            <a class="contact-value contact-link" href=""></a>
+                        <div class="font-medium text-on-surface contact-value"></div>
+                    </div>
+                    <div id="contactPhone" class="bg-surface-container-lowest rounded-xl p-6 border border-surface-container-high hidden">
+                        <div class="flex items-center gap-3 mb-3">
+                            <div class="w-10 h-10 bg-surface-container rounded-full flex items-center justify-center">
+                                <span class="material-symbols-outlined text-primary">phone</span>
+                            </div>
+                            <span class="text-sm text-on-surface-variant">電話</span>
                         </div>
-                        <div id="contactEmail" class="contact-card" style="display: none;">
-                            <div class="contact-icon">✉️</div>
-                            <div class="contact-label">Email</div>
-                            <a class="contact-value contact-link" href=""></a>
+                        <a class="font-medium text-primary hover:underline contact-value contact-link" href=""></a>
+                    </div>
+                    <div id="contactEmail" class="bg-surface-container-lowest rounded-xl p-6 border border-surface-container-high hidden">
+                        <div class="flex items-center gap-3 mb-3">
+                            <div class="w-10 h-10 bg-surface-container rounded-full flex items-center justify-center">
+                                <span class="material-symbols-outlined text-primary">mail</span>
+                            </div>
+                            <span class="text-sm text-on-surface-variant">Email</span>
                         </div>
-                        <div id="venueUrl" class="contact-card" style="display: none;">
-                            <div class="contact-icon">🌐</div>
-                            <div class="contact-label">官方網站</div>
-                            <a class="contact-value contact-link" href="" target="_blank">前往官網</a>
+                        <a class="font-medium text-primary hover:underline contact-value contact-link" href=""></a>
+                    </div>
+                    <div id="venueUrl" class="bg-surface-container-lowest rounded-xl p-6 border border-surface-container-high hidden">
+                        <div class="flex items-center gap-3 mb-3">
+                            <div class="w-10 h-10 bg-surface-container rounded-full flex items-center justify-center">
+                                <span class="material-symbols-outlined text-primary">language</span>
+                            </div>
+                            <span class="text-sm text-on-surface-variant">官方網站</span>
                         </div>
+                        <a class="font-medium text-primary hover:underline contact-value contact-link" href="" target="_blank">前往官網</a>
                     </div>
                 </div>
             </section>
-
-            <!-- AI CTA -->
-            <section class="ai-cta">
-                <div class="section-container">
-                    <div class="ai-cta-content">
-                        <h2 class="ai-cta-title">🤖 有問題問 AI</h2>
-                        <p class="ai-cta-desc">不知道這個場地是否適合？讓 AI 幫你分析</p>
-                        <button class="btn btn-primary btn-lg" onclick="window.toggleChat()">開始對話</button>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </main>
+        </main>
+    </div>
 
     <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-main">
-                <div class="footer-brand">
-                    <span class="footer-logo">🎉</span>
-                    <span class="footer-name">活動大師</span>
+    <footer class="bg-surface-container-lowest border-t border-outline-variant py-12">
+        <div class="max-w-screen-2xl mx-auto px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-8">
+                <!-- Brand -->
+                <div class="flex items-center gap-3">
+                    <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuC54GQHXZNSY3rulLho5aRdVg2QF2_jZrsRnHPYy1Q3wWfvasPgCI1fdKYp0ke76rMqklNrU9EZFxjrhTSBzPnGeTqrlkgYLW-AcRAUKDKUX62UVYwW7gByGcLQv6U1GEQ9LhCsnO7Ep3VxA1K9nnODybzKxkC6j2dojmJjJAd39Wrj13W-6ONlYZUIo8d3IY7dVVm5cEoCVu4mTuRyPEknmGxeVDdmJqZepx8KPQakim9eIPaE2pUA6IIxwd0ALhvm5P3Ijn-uTKY" alt="活動大師" class="w-8 h-8 rounded-full object-cover">
+                    <div>
+                        <div class="text-lg font-bold text-on-surface font-headline">活動大師 Activity Master</div>
+                        <div class="text-sm text-on-surface-variant">台灣活動場地知識庫</div>
+                    </div>
+                </div>
+
+                <!-- Links -->
+                <div class="flex gap-8">
+                    <a class="text-sm text-on-surface-variant hover:text-primary transition-colors" href="index.html">首頁</a>
+                    <a class="text-sm text-on-surface-variant hover:text-primary transition-colors" href="knowledge.html">知識庫</a>
+                    <a class="text-sm text-on-surface-variant hover:text-primary transition-colors" href="taipei-event-venue.html">台北場地</a>
+                    <a class="text-sm text-on-surface-variant hover:text-primary transition-colors" href="new-taipei-event-venue.html">新北場地</a>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>© 2026 活動大師 Activity Master. All rights reserved.</p>
+
+            <!-- Copyright -->
+            <div class="mt-8 pt-8 border-t border-outline-variant text-center text-sm text-on-surface-variant">
+                © 2026 活動大師 Activity Master. All rights reserved.
             </div>
         </div>
     </footer>
 
-    <script src="venue.js?v=20260408-v1"></script>
+    <script src="venue.js?v=20260412-v30"></script>
     <script src="chat.js?v=20260406-v1"></script>
     <script>
+        // Venue context for AI chat
         document.addEventListener('DOMContentLoaded', function() {
             const checkVenue = setInterval(function() {
                 const venueId = window.currentVenueId;
@@ -215,6 +406,33 @@
                 }
             }, 500);
         });
+
+        // Share functions
+        function getShareUrl() {
+            return window.location.href;
+        }
+        function getShareText() {
+            const name = window.currentVenueName || '這個場地';
+            return `${name} — 活動大師場地知識庫 | `;
+        }
+        function shareToLine() {
+            const url = encodeURIComponent(getShareUrl());
+            const text = encodeURIComponent(getShareText());
+            window.open(`https://social-plugins.line.me/lineit/share?url=${url}&text=${text}`, '_blank', 'width=600,height=500');
+        }
+        function shareToFacebook() {
+            const url = encodeURIComponent(getShareUrl());
+            window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank', 'width=600,height=500');
+        }
+        function copyLink() {
+            navigator.clipboard.writeText(getShareUrl()).then(() => {
+                const btn = document.getElementById('copyLinkBtn');
+                const orig = btn.innerHTML;
+                btn.innerHTML = '<span class="material-symbols-outlined text-base">check</span> 已複製';
+                btn.classList.add('text-primary', 'border-primary');
+                setTimeout(() => { btn.innerHTML = orig; btn.classList.remove('text-primary', 'border-primary'); }, 2000);
+            });
+        }
     </script>
 </body>
 </html>

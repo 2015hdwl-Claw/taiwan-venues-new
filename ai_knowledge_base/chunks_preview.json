@@ -2,6 +2,13 @@
   {
     "venue_id": 1042,
     "venue_name": "公務人力發展學院",
+    "text": "【公務人力發展學院】公務人力發展學院位於台北市，擁有22間會議室，最大容納712人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1042,
+    "venue_name": "公務人力發展學院",
     "text": "【公務人力發展學院】餐飲規定：可安排便當及茶水服務",
     "field_path": "rules.catering[0]",
     "confidence": "unverified"
@@ -282,6 +289,13 @@
   {
     "venue_id": 1043,
     "venue_name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+    "text": "【台北六福萬怡酒店 Courtyard by Marriott Taipei】台北六福萬怡酒店 Courtyard by Marriott Taipei位於台北市，擁有12間會議室，最大容納250人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1043,
+    "venue_name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
     "text": "【台北六福萬怡酒店 Courtyard by Marriott Taipei】餐飲規定：限用飯店餐飲服務，不可外燴",
     "field_path": "rules.catering[0]",
     "confidence": "unverified"
@@ -455,6 +469,27 @@
     "confidence": "confirmed"
   },
   {
+    "venue_id": 1045,
+    "venue_name": "北科大創新育成中心",
+    "text": "【北科大創新育成中心】北科大創新育成中心位於台北市，擁有3間會議室，最大容納80人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1049,
+    "venue_name": "台北世貿中心(TWTCA)展覽大樓",
+    "text": "【台北世貿中心(TWTCA)展覽大樓】台北世貿中心(TWTCA)展覽大樓位於台北市，擁有9間會議室，最大容納500人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1051,
+    "venue_name": "台北亞都麗緻大飯店(LandisTaipei)",
+    "text": "【台北亞都麗緻大飯店(LandisTaipei)】台北亞都麗緻大飯店(LandisTaipei)位於台北市，擁有3間會議室，最大容納160人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
     "venue_id": 1051,
     "venue_name": "台北亞都麗緻大飯店(LandisTaipei)",
     "text": "【台北亞都麗緻大飯店(LandisTaipei)】餐飲規定：限用飯店餐飲服務，提供中/西式宴席與自助餐，不可外燴（例外：茶點、餅乾等簡單茶歇可討論）（違規：若攜入外食，飯店有權要求撤除）",
@@ -578,6 +613,20 @@
     "venue_name": "台北亞都麗緻大飯店(LandisTaipei)",
     "text": "【台北亞都麗緻大飯店(LandisTaipei) - 2F Matisse】進撤場：\n進場樓層 廳名 上/下午時段 晚餐時段 全日時段 超時計費 夜間佈置; Level Venues Ping ㎡ L W H OR ｜ ｜ 22:00 Onwards Overnight Setup U-Shape Classroom Theater Cocktail Table / 撤場?",
     "field_path": "rooms.1051-03.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1053,
+    "venue_name": "台北兄弟大飯店(BrotherTaipei)",
+    "text": "【台北兄弟大飯店(BrotherTaipei)】台北兄弟大飯店(BrotherTaipei)位於台北市，擁有8間會議室，最大容納280人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1057,
+    "venue_name": "台北典華",
+    "text": "【台北典華】台北典華位於台北市，擁有16間會議室，最大容納1350人。",
+    "field_path": "summary",
     "confidence": "confirmed"
   },
   {
@@ -709,6 +758,13 @@
   {
     "venue_id": 1075,
     "venue_name": "台北寒舍喜來登大飯店",
+    "text": "【台北寒舍喜來登大飯店】台北寒舍喜來登大飯店位於台北市，擁有16間會議室，最大容納1400人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1075,
+    "venue_name": "台北寒舍喜來登大飯店",
     "text": "【台北寒舍喜來登大飯店】風險提示：\n預訂提前時間：至少1個月（大型宴會建議3個月前）\n旺季：10-12月婚宴旺季, 12-1月尾牙, 6月畢業季\n常見問題：B2大宴會廳無手機訊號, 喜來登廳+宴會廳同時使用需確認動線",
     "field_path": "risks",
     "confidence": "confirmed"
@@ -826,6 +882,20 @@
     "confidence": "confirmed"
   },
   {
+    "venue_id": 1076,
+    "venue_name": "台北寒舍艾美酒店(LeMeridienTaipei)",
+    "text": "【台北寒舍艾美酒店(LeMeridienTaipei)】台北寒舍艾美酒店(LeMeridienTaipei)位於台北市，擁有14間會議室，最大容納336人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1077,
+    "venue_name": "台北艾麗酒店",
+    "text": "【台北艾麗酒店】台北艾麗酒店位於台北市，擁有6間會議室，最大容納480人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
     "venue_id": 1077,
     "venue_name": "台北艾麗酒店",
     "text": "【台北艾麗酒店】餐飲規定：限用飯店餐飲服務（例外：輕茶點會議方案可能允許搭配外部點心）",
@@ -865,6 +935,20 @@
     "venue_name": "台北艾麗酒店",
     "text": "【台北艾麗酒店】風險提示：\n預訂提前時間：至少1個月, 大型宴會建議3-6個月前預約\n旺季：10-12月婚宴旺季, 12-1月尾牙季\n常見問題：價格不透明需多次來回確認報價, 最大廳房僅70坪, 200人以上宴會可能不敷使用",
     "field_path": "risks",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1083,
+    "venue_name": "台北北門世民酒店 citizenM Taipei North Gate",
+    "text": "【台北北門世民酒店 citizenM Taipei North Gate】台北北門世民酒店 citizenM Taipei North Gate位於台北市，擁有1間會議室，最大容納150人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1085,
+    "venue_name": "台北文華東方酒店(MOHTaipei)",
+    "text": "【台北文華東方酒店(MOHTaipei)】台北文華東方酒店(MOHTaipei)位於台北市，擁有9間會議室，最大容納1170人。",
+    "field_path": "summary",
     "confidence": "confirmed"
   },
   {
@@ -933,6 +1017,13 @@
   {
     "venue_id": 1086,
     "venue_name": "台北晶華酒店 Regent Taipei",
+    "text": "【台北晶華酒店 Regent Taipei】台北晶華酒店 Regent Taipei位於台北市，擁有6間會議室，最大容納700人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1086,
+    "venue_name": "台北晶華酒店 Regent Taipei",
     "text": "【台北晶華酒店 Regent Taipei】佈置規定： 會議設備 (一組投影螢幕、二支麥克風、白板、海報架)以上會議設備依實際需求提供",
     "field_path": "rules.decoration[0]",
     "confidence": "unverified"
@@ -977,6 +1068,20 @@
     "venue_name": "台北晶華酒店 Regent Taipei",
     "text": "【台北晶華酒店 Regent Taipei - 寰宇廳】進撤場：",
     "field_path": "rooms.1086-06.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1090,
+    "venue_name": "茹曦酒店 ILLUME TAIPEI",
+    "text": "【茹曦酒店 ILLUME TAIPEI】茹曦酒店 ILLUME TAIPEI位於台北市，擁有9間會議室，最大容納1200人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1095,
+    "venue_name": "台北美福大飯店",
+    "text": "【台北美福大飯店】台北美福大飯店位於台北市，擁有7間會議室，最大容納700人。",
+    "field_path": "summary",
     "confidence": "confirmed"
   },
   {
@@ -1061,6 +1166,20 @@
     "venue_name": "台北美福大飯店",
     "text": "【台北美福大飯店】風險提示：\n預訂提前時間：大型宴會廳建議3-6個月前預訂；尾牙/婚宴旺季需更早\n旺季：11-1月尾牙季, 2-3月春酒季, 9-12月婚宴旺季\n常見問題：大宴會廳容量數據有出入（官網700人 vs venues.json 550人），需與飯店確認, PDF價格已過期（2025/12/31），2026年價格需重新詢價, 位於大直美麗華商圈，文湖線劍南路站，非捷運藍線直達",
     "field_path": "risks",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1099,
+    "venue_name": "台北艾美酒店",
+    "text": "【台北艾美酒店】台北艾美酒店位於台北市，擁有1間會議室，最大容納280人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1100,
+    "venue_name": "台北花園大酒店(TGHotel)",
+    "text": "【台北花園大酒店(TGHotel)】台北花園大酒店(TGHotel)位於台北市，擁有14間會議室，最大容納460人。",
+    "field_path": "summary",
     "confidence": "confirmed"
   },
   {
@@ -1248,6 +1367,13 @@
   {
     "venue_id": 1103,
     "venue_name": "台北萬豪酒店(MarriottTaipei)",
+    "text": "【台北萬豪酒店(MarriottTaipei)】台北萬豪酒店(MarriottTaipei)位於台北市，擁有21間會議室，最大容納1200人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1103,
+    "venue_name": "台北萬豪酒店(MarriottTaipei)",
     "text": "【台北萬豪酒店(MarriottTaipei)】餐飲規定：限用飯店餐飲服務",
     "field_path": "rules.catering[0]",
     "confidence": "unverified"
@@ -1264,6 +1390,13 @@
     "venue_name": "台北萬豪酒店(MarriottTaipei)",
     "text": "【台北萬豪酒店(MarriottTaipei)】風險提示：\n預訂提前時間：至少2個月（大型活動建議6個月前）\n旺季：10-12月婚宴旺季, 12-1月尾牙, 6月畢業季\n常見問題：挑高9.9m場地為最熱門檔期, 5F以上需使用車梯載運大型設備",
     "field_path": "risks",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1122,
+    "venue_name": "維多麗亞酒店",
+    "text": "【維多麗亞酒店】維多麗亞酒店位於台北市，擁有18間會議室，最大容納450人。",
+    "field_path": "summary",
     "confidence": "confirmed"
   },
   {
@@ -1362,6 +1495,20 @@
     "venue_name": "維多麗亞酒店",
     "text": "【維多麗亞酒店】風險提示：\n預訂提前時間：一般活動至少2-4週前；1F宴會廳建議2-3個月前；婚宴旺季建議4-6個月前\n旺季：10-12月婚宴旺季, 12-1月尾牙季, 6-8月畢業季\n常見問題：超時人力費NT$1,500/hr/人（最低3小時），成本易被低估, 3F各廳天花板4米，大型舞台設備需注意高度限制, 停車位有限，大型活動需提前安排停車方案",
     "field_path": "risks",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1124,
+    "venue_name": "花園大酒店",
+    "text": "【花園大酒店】花園大酒店位於台北市，擁有14間會議室，最大容納500人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1125,
+    "venue_name": "華山1914文化創意產業園區(Huashan1914)(Huashan1914)",
+    "text": "【華山1914文化創意產業園區(Huashan1914)(Huashan1914)】華山1914文化創意產業園區(Huashan1914)(Huashan1914)位於台北市，擁有23間會議室，最大容納1200人。",
+    "field_path": "summary",
     "confidence": "confirmed"
   },
   {
@@ -1701,6 +1848,20 @@
     "confidence": "confirmed"
   },
   {
+    "venue_id": 1126,
+    "venue_name": "豪景大酒店",
+    "text": "【豪景大酒店】豪景大酒店位於台北市，擁有3間會議室，最大容納250人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1128,
+    "venue_name": "集思台大會議中心(NTUCC)",
+    "text": "【集思台大會議中心(NTUCC)】集思台大會議中心(NTUCC)位於台北市，擁有11間會議室，最大容納400人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
     "venue_id": 1128,
     "venue_name": "集思台大會議中心(NTUCC)",
     "text": "【集思台大會議中心(NTUCC)】餐飲規定：10%核算之)。場地租用單位除須於進場前提供相關餐飲訂單供本展館核算管理費外，並須於活動結束前完成餐",
@@ -1946,6 +2107,27 @@
     "confidence": "confirmed"
   },
   {
+    "venue_id": 1129,
+    "venue_name": "青青婚宴會館",
+    "text": "【青青婚宴會館】青青婚宴會館位於台北市，擁有10間會議室，最大容納400人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1334,
+    "venue_name": "台北中山運動中心",
+    "text": "【台北中山運動中心】台北中山運動中心位於台北市，擁有2間會議室，最大容納55人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1448,
+    "venue_name": "台北國際會議中心(TICC)",
+    "text": "【台北國際會議中心(TICC)】台北國際會議中心(TICC)位於台北市，擁有27間會議室，最大容納3100人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
     "venue_id": 1448,
     "venue_name": "台北國際會議中心(TICC)",
     "text": "【台北國際會議中心(TICC)】餐飲規定：非經展覽主辦單位同意，所有餐飲均不得自備（例外：經展覽主辦單位同意）",
@@ -2009,6 +2191,20 @@
     "confidence": "unverified"
   },
   {
+    "venue_id": 1493,
+    "venue_name": "師大進修推廣學院",
+    "text": "【師大進修推廣學院】師大進修推廣學院位於台北市，擁有13間會議室，最大容納200人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1494,
+    "venue_name": "集思交通部國際會議中心(MOTC)",
+    "text": "【集思交通部國際會議中心(MOTC)】集思交通部國際會議中心(MOTC)位於台北市，擁有4間會議室，最大容納400人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
     "venue_id": 1494,
     "venue_name": "集思交通部國際會議中心(MOTC)",
     "text": "【集思交通部國際會議中心(MOTC)】餐飲規定：本會議中心禁止攜帶外食",
@@ -2055,6 +2251,13 @@
     "venue_name": "集思交通部國際會議中心(MOTC)",
     "text": "【集思交通部國際會議中心(MOTC)】風險提示：\n預訂提前時間：需先來電洽詢場地時間後才能正式租借，建議提前預約\n常見問題：禁止攜帶外食，需使用會議中心代訂服務, 國際會議廳為階梯固定座位，活動型態受限, 超時使用由場方保留最後決定權，無明確超時費率",
     "field_path": "risks",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1495,
+    "venue_name": "集思北科大會議中心(Tech)",
+    "text": "【集思北科大會議中心(Tech)】集思北科大會議中心(Tech)位於台北市，擁有10間會議室，最大容納160人。",
+    "field_path": "summary",
     "confidence": "confirmed"
   },
   {
@@ -2284,8 +2487,36 @@
   {
     "venue_id": 1496,
     "venue_name": "集思竹科會議中心(HSPH)",
+    "text": "【集思竹科會議中心(HSPH)】集思竹科會議中心(HSPH)位於新竹市，擁有9間會議室，最大容納155人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1496,
+    "venue_name": "集思竹科會議中心(HSPH)",
     "text": "【集思竹科會議中心(HSPH)】餐飲規定：3. 會議中心禁止攜帶外食，另有提供相關會議事務用品代訂，各項服務酌收服務內容定價之10%為服務費。",
     "field_path": "rules.catering[0]",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1497,
+    "venue_name": "集思台中文心會議中心(TC)",
+    "text": "【集思台中文心會議中心(TC)】集思台中文心會議中心(TC)位於台中市，擁有7間會議室，最大容納150人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1497,
+    "venue_name": "集思台中文心會議中心(TC)",
+    "text": "【集思台中文心會議中心(TC)】餐飲規定：3. 本會議中心禁止攜帶外食，提供相關會議事務用品代訂，需加收該項服務內容定價之10%為服務費。",
+    "field_path": "rules.catering[0]",
+    "confidence": "legacy"
+  },
+  {
+    "venue_id": 1498,
+    "venue_name": "集思台中新烏日會議中心(WURI)",
+    "text": "【集思台中新烏日會議中心(WURI)】集思台中新烏日會議中心(WURI)位於台中市，擁有5間會議室，最大容納270人。",
+    "field_path": "summary",
     "confidence": "confirmed"
   },
   {
@@ -2496,6 +2727,13 @@
     "venue_name": "集思台中新烏日會議中心(WURI)",
     "text": "【集思台中新烏日會議中心(WURI) - 4樓休息室】進撤場：\n進場⚫ 場地進場布置時間(綵排、設備測試)如下： / 撤場?",
     "field_path": "rooms.1498-4樓休息室.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1500,
+    "venue_name": "南港展覽館1館",
+    "text": "【南港展覽館1館】南港展覽館1館位於台北市，擁有29間會議室，最大容納671人。",
+    "field_path": "summary",
     "confidence": "confirmed"
   },
   {
@@ -2774,6 +3012,13 @@
   {
     "venue_id": 1501,
     "venue_name": "南港展覽館2館",
+    "text": "【南港展覽館2館】南港展覽館2館位於台北市，擁有7間會議室，最大容納3240人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1501,
+    "venue_name": "南港展覽館2館",
     "text": "【南港展覽館2館】餐飲規定：可安排餐飲服務，需使用館內指定廠商或另行申請",
     "field_path": "rules.catering[0]",
     "confidence": "unverified"
@@ -2989,6 +3234,20 @@
     "confidence": "confirmed"
   },
   {
+    "venue_id": 1503,
+    "venue_name": "裕元花園酒店",
+    "text": "【裕元花園酒店】裕元花園酒店位於台中市，擁有1間會議室，最大容納0人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1504,
+    "venue_name": "高雄國際會議中心",
+    "text": "【高雄國際會議中心】高雄國際會議中心位於高雄市，擁有6間會議室，最大容納25人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
     "venue_id": 1504,
     "venue_name": "高雄國際會議中心",
     "text": "【高雄國際會議中心 - 階梯會議室】進撤場：",
@@ -3028,6 +3287,13 @@
     "venue_name": "高雄國際會議中心",
     "text": "【高雄國際會議中心 - 漢和廳宴會廳】進撤場：",
     "field_path": "rooms.1504-漢和廳宴會廳.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1505,
+    "venue_name": "漢來大飯店",
+    "text": "【漢來大飯店】漢來大飯店位於高雄市，擁有1間會議室，最大容納2024人。",
+    "field_path": "summary",
     "confidence": "confirmed"
   },
   {
@@ -3110,6 +3376,13 @@
   {
     "venue_id": 1506,
     "venue_name": "瓏山林台北中和飯店",
+    "text": "【瓏山林台北中和飯店】瓏山林台北中和飯店位於新北市，擁有7間會議室，最大容納360人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1506,
+    "venue_name": "瓏山林台北中和飯店",
     "text": "【瓏山林台北中和飯店】餐飲規定：對於持續數日的會議，餐飲部準備多種不同茶點組合，如果您需要更詳盡的資料，歡迎與我們聯絡，瓏山林台北中和飯店期待為您服務。",
     "field_path": "rules.catering[0]",
     "confidence": "unverified"
@@ -3122,6 +3395,27 @@
     "confidence": "unverified"
   },
   {
+    "venue_id": 1507,
+    "venue_name": "Mega50宴會廳",
+    "text": "【Mega50宴會廳】Mega50宴會廳位於新北市，擁有1間會議室，最大容納480人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1508,
+    "venue_name": "豪鼎飯店",
+    "text": "【豪鼎飯店】豪鼎飯店位於新北市，擁有4間會議室，最大容納660人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1509,
+    "venue_name": "晶宴會館 峇里斯莊園",
+    "text": "【晶宴會館 峇里斯莊園】晶宴會館 峇里斯莊園位於新北市，擁有1間會議室，最大容納1080人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
     "venue_id": 1509,
     "venue_name": "晶宴會館 峇里斯莊園",
     "text": "【晶宴會館 峇里斯莊園】佈置規定：晶宴民權館​​位於台北市中心地帶，共有2層樓設有5個宴會廳，挑高樓面與氣派輝煌的空間，展現企業的高度與大器；鎮館之寶亦是世界女伶－莎拉布萊曼指定之第一音響品牌NEXO，搭配陣列式線性懸吊式喇叭技術，及百萬級視聽影音設備，可滿足席間活動或表演的各種需求。",
@@ -3136,6 +3430,27 @@
     "confidence": "unverified"
   },
   {
+    "venue_id": 1511,
+    "venue_name": "翡麗詩莊園",
+    "text": "【翡麗詩莊園】翡麗詩莊園位於新北市，擁有1間會議室，最大容納20人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1513,
+    "venue_name": "汐止福泰大飯店",
+    "text": "【汐止福泰大飯店】汐止福泰大飯店位於新北市，擁有1間會議室，最大容納100人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1514,
+    "venue_name": "晶宴會館 峇里斯莊園",
+    "text": "【晶宴會館 峇里斯莊園】晶宴會館 峇里斯莊園位於新北市，擁有1間會議室，最大容納900人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
     "venue_id": 1514,
     "venue_name": "晶宴會館 峇里斯莊園",
     "text": "【晶宴會館 峇里斯莊園】佈置規定：晶宴民權館​​位於台北市中心地帶，共有2層樓設有5個宴會廳，挑高樓面與氣派輝煌的空間，展現企業的高度與大器；鎮館之寶亦是世界女伶－莎拉布萊曼指定之第一音響品牌NEXO，搭配陣列式線性懸吊式喇叭技術，及百萬級視聽影音設備，可滿足席間活動或表演的各種需求。",
@@ -3148,6 +3463,13 @@
     "text": "【晶宴會館 峇里斯莊園】音響規定：晶宴民權館​​位於台北市中心地帶，共有2層樓設有5個宴會廳，挑高樓面與氣派輝煌的空間，展現企業的高度與大器；鎮館之寶亦是世界女伶－莎拉布萊曼指定之第一音響品牌NEXO，搭配陣列式線性懸吊式喇叭技術，及百萬級視聽影音設備，可滿足席間活動或表演的各種需求。",
     "field_path": "rules.sound[0]",
     "confidence": "unverified"
+  },
+  {
+    "venue_id": 1515,
+    "venue_name": "晶宴會館 府中館",
+    "text": "【晶宴會館 府中館】晶宴會館 府中館位於新北市，擁有1間會議室，最大容納900人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
   },
   {
     "venue_id": 1515,
@@ -3164,11 +3486,46 @@
     "confidence": "unverified"
   },
   {
+    "venue_id": 1516,
+    "venue_name": "彭園婚宴會館 新店館",
+    "text": "【彭園婚宴會館 新店館】彭園婚宴會館 新店館位於新北市，擁有11間會議室，最大容納550人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1519,
+    "venue_name": "葳格國際會議中心",
+    "text": "【葳格國際會議中心】葳格國際會議中心位於台中市，擁有1間會議室，最大容納1100人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1522,
+    "venue_name": "天圓地方婚宴會館",
+    "text": "【天圓地方婚宴會館】天圓地方婚宴會館位於台中市，擁有1間會議室，最大容納33人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1524,
+    "venue_name": "林皇宮花園",
+    "text": "【林皇宮花園】林皇宮花園位於台中市，擁有4間會議室，最大容納0人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
     "venue_id": 1524,
     "venue_name": "林皇宮花園",
     "text": "【林皇宮花園】餐飲規定：【平日限定】2025工商宴席專案－豐衣足蛇",
     "field_path": "rules.catering[0]",
     "confidence": "unverified"
+  },
+  {
+    "venue_id": 1525,
+    "venue_name": "潮港城宴會廳 南屯店",
+    "text": "【潮港城宴會廳 南屯店】潮港城宴會廳 南屯店位於台中市，擁有1間會議室，最大容納40人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
   },
   {
     "venue_id": 1525,
@@ -3189,6 +3546,13 @@
     "venue_name": "潮港城宴會廳 南屯店",
     "text": "【潮港城宴會廳 南屯店 - 典雅的多功能宴會廳】進撤場：\n卸貨區：前行至公益路迴轉外車道⭢潮港城國際美食館",
     "field_path": "rooms.1525-典雅的多功能宴會廳.loadIn",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1527,
+    "venue_name": "義大世界會議中心",
+    "text": "【義大世界會議中心】義大世界會議中心位於高雄市，擁有1間會議室，最大容納700人。",
+    "field_path": "summary",
     "confidence": "confirmed"
   },
   {
@@ -3341,6 +3705,13 @@
   {
     "venue_id": 1528,
     "venue_name": "漢來國際宴會廳",
+    "text": "【漢來國際宴會廳】漢來國際宴會廳位於高雄市，擁有1間會議室，最大容納2000人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1528,
+    "venue_name": "漢來國際宴會廳",
     "text": "【漢來國際宴會廳】餐飲規定：限用飯店餐飲服務，提供中式及西式宴席及茶點，不可外燴",
     "field_path": "rules.catering[0]",
     "confidence": "unverified"
@@ -3413,6 +3784,20 @@
     "venue_name": "漢來國際宴會廳",
     "text": "【漢來國際宴會廳 - Conference Room】限制：限用飯店餐飲，不可外燴; 噪音管制至22:00; 禁止使用噴霧、煙霧機等特殊效果",
     "field_path": "rooms.1528-Conference.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1531,
+    "venue_name": "御元花園酒店",
+    "text": "【御元花園酒店】御元花園酒店位於高雄市，擁有3間會議室，最大容納0人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1532,
+    "venue_name": "新北市工商展覽中心",
+    "text": "【新北市工商展覽中心】新北市工商展覽中心位於新北市，擁有1間會議室，最大容納250人。",
+    "field_path": "summary",
     "confidence": "confirmed"
   },
   {
@@ -3556,6 +3941,20 @@
     "confidence": "confirmed"
   },
   {
+    "venue_id": 1537,
+    "venue_name": "台中港酒店",
+    "text": "【台中港酒店】台中港酒店位於台中市，擁有1間會議室，最大容納7人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1541,
+    "venue_name": "高雄巨蛋 (Kaohsiung Arena)",
+    "text": "【高雄巨蛋 (Kaohsiung Arena)】高雄巨蛋 (Kaohsiung Arena)位於高雄市，擁有1間會議室，最大容納15000人。",
+    "field_path": "summary",
+    "confidence": "confirmed"
+  },
+  {
     "venue_id": 1541,
     "venue_name": "高雄巨蛋 (Kaohsiung Arena)",
     "text": "【高雄巨蛋 (Kaohsiung Arena)】餐飲規定：餐飲由台北遠東香格里拉飯店統一供應，不可外燴",
@@ -3630,6 +4029,13 @@
     "venue_name": "高雄巨蛋 (Kaohsiung Arena)",
     "text": "【高雄巨蛋 (Kaohsiung Arena) - Main Arena】限制：位於48樓，大型道具需透過貨梯搬運，高度及寬度受限; 為金融大樓內場地，上班日白天進場時間可能受限制; 無獨立卸貨區，需從大樓地下層或後側進出; 僅有一廳（鼎鼎宴會廳），無法同時分組; 停車位與辦公大樓共用，上班日尖峰時段一位難求",
     "field_path": "rooms.1541-MainArena.limitations",
+    "confidence": "confirmed"
+  },
+  {
+    "venue_id": 1545,
+    "venue_name": "承億酒店 (TAI Urban Resort)",
+    "text": "【承億酒店 (TAI Urban Resort)】承億酒店 (TAI Urban Resort)位於高雄市，擁有5間會議室，最大容納0人。",
+    "field_path": "summary",
     "confidence": "confirmed"
   }
 ]

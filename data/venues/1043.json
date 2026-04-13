@@ -1,0 +1,449 @@
+{
+  "id": 1043,
+  "name": "台北六福萬怡酒店 Courtyard by Marriott Taipei",
+  "venueType": "飯店場地",
+  "city": "台北市",
+  "address": "台北市南港區忠孝東路七段359號",
+  "url": "https://www.courtyardtaipei.com.tw/",
+  "image": "https://www.courtyardtaipei.com.tw/asset/types/main/img/about/pic_01.jpg",
+  "maxCapacity": 200,
+  "highlights": [
+    "南港車站四鐵共構（捷運、高鐵、台鐵、客運）",
+    "7F 超新星宴會廳 - 寬敞無柱空間，適合大型婚宴",
+    "9F 獨立包廂宴會廳 - 獨立式包廂，適合提親文定及小型宴席",
+    "結合 Elite Concept 一禮莊園專業婚禮布置",
+    "萬豪旅享家積分獎勵會員",
+    "10分鐘直達信義區與大巨蛋"
+  ],
+  "contact": {
+    "phone": "+886-2-2171-6565",
+    "email": "service@courtyardtaipei.com",
+    "banquet": "+886-2-6615-6565"
+  },
+  "rooms": [
+    {
+      "id": "1043-01",
+      "name": "SUPERNOVA 超新星大宴會廳",
+      "floor": "7F",
+      "area": 81.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 200,
+        "banquet": 180,
+        "classroom": 120
+      },
+      "pricing": {
+        "halfDay": 110000,
+        "fullDay": 450000,
+        "overtime": 25000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "燈光控制",
+        "舞台",
+        "LED炫彩頂燈"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1043-02",
+      "name": "Sea 海",
+      "floor": "9F",
+      "area": 31,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 85,
+        "banquet": 68,
+        "classroom": 50,
+        "ushape": 35
+      },
+      "pricing": {
+        "halfDay": 28000,
+        "fullDay": 95000,
+        "overtime": 7000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "燈光控制"
+      ],
+      "limitations": [
+        "可與其他廳合併使用"
+      ]
+    },
+    {
+      "id": "1043-03",
+      "name": "Mountain 山",
+      "floor": "9F",
+      "area": 25.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 70,
+        "banquet": 56,
+        "classroom": 40,
+        "ushape": 28
+      },
+      "pricing": {
+        "halfDay": 24000,
+        "fullDay": 90000,
+        "overtime": 5000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "燈光控制"
+      ],
+      "limitations": [
+        "可與其他廳合併使用"
+      ]
+    },
+    {
+      "id": "1043-04",
+      "name": "Forest 林",
+      "floor": "9F",
+      "area": 25.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 70,
+        "banquet": 56,
+        "classroom": 40,
+        "ushape": 28
+      },
+      "pricing": {
+        "halfDay": 24000,
+        "fullDay": 90000,
+        "overtime": 5000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "燈光控制"
+      ],
+      "limitations": [
+        "可與其他廳合併使用"
+      ]
+    },
+    {
+      "id": "1043-05",
+      "name": "Ballroom I 海山林",
+      "floor": "9F",
+      "area": 54.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 150,
+        "banquet": 120
+      },
+      "pricing": {
+        "halfDay": 76000,
+        "fullDay": 275000,
+        "overtime": 17000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "燈光控制",
+        "舞台"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1043-06",
+      "name": "Water 水",
+      "floor": "9F",
+      "area": 22.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 63,
+        "banquet": 50,
+        "classroom": 36,
+        "ushape": 25
+      },
+      "pricing": {
+        "halfDay": 24000,
+        "fullDay": 90000,
+        "overtime": 5000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "燈光控制"
+      ],
+      "limitations": [
+        "可與其他廳合併使用"
+      ]
+    },
+    {
+      "id": "1043-07",
+      "name": "Crystal 晶",
+      "floor": "9F",
+      "area": 22.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 63,
+        "banquet": 50,
+        "classroom": 36,
+        "ushape": 25
+      },
+      "pricing": {
+        "halfDay": 24000,
+        "fullDay": 90000,
+        "overtime": 5000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "燈光控制"
+      ],
+      "limitations": [
+        "可與其他廳合併使用"
+      ]
+    },
+    {
+      "id": "1043-08",
+      "name": "Cloud 雲",
+      "floor": "9F",
+      "area": 22.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 63,
+        "banquet": 50,
+        "classroom": 36,
+        "ushape": 25
+      },
+      "pricing": {
+        "halfDay": 24000,
+        "fullDay": 90000,
+        "overtime": 5000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "燈光控制"
+      ],
+      "limitations": [
+        "可與其他廳合併使用"
+      ]
+    },
+    {
+      "id": "1043-09",
+      "name": "Wind 風",
+      "floor": "9F",
+      "area": 22.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 63,
+        "banquet": 50,
+        "classroom": 36,
+        "ushape": 25
+      },
+      "pricing": {
+        "halfDay": 24000,
+        "fullDay": 90000,
+        "overtime": 5000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "燈光控制"
+      ],
+      "limitations": [
+        "可與其他廳合併使用"
+      ]
+    },
+    {
+      "id": "1043-10",
+      "name": "Light 光",
+      "floor": "9F",
+      "area": 22.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 63,
+        "banquet": 50,
+        "classroom": 36,
+        "ushape": 25
+      },
+      "pricing": {
+        "halfDay": 24000,
+        "fullDay": 90000,
+        "overtime": 5000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "燈光控制"
+      ],
+      "limitations": [
+        "可與其他廳合併使用"
+      ]
+    },
+    {
+      "id": "1043-11",
+      "name": "Ballroom II 水晶雲風光",
+      "floor": "9F",
+      "area": 72.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 200,
+        "banquet": 160
+      },
+      "pricing": {
+        "halfDay": 120000,
+        "fullDay": 450000,
+        "overtime": 25000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "燈光控制",
+        "舞台"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1043-12",
+      "name": "VIP 貴賓室",
+      "floor": "9F",
+      "area": 7.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 20,
+        "banquet": 16,
+        "classroom": 12,
+        "ushape": 10
+      },
+      "pricing": {
+        "halfDay": 10000,
+        "fullDay": 33000,
+        "overtime": 3000
+      },
+      "equipment": [
+        "投影設備",
+        "WiFi",
+        "空調",
+        "白板"
+      ],
+      "limitations": []
+    }
+  ],
+  "risks": {
+    "bookingLeadTime": "至少1個月（週末婚宴建議3個月前）",
+    "peakSeasons": [
+      "10-12月婚宴旺季",
+      "12-1月尾牙季",
+      "6月畢業季"
+    ],
+    "commonIssues": [
+      "週末婚宴檔期競爭激烈",
+      "7F無柱空間為最熱門場地"
+    ]
+  },
+  "rules": {
+    "catering": [
+      {
+        "rule": "限用飯店餐飲服務，不可外燴",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "結合 Elite Concept一禮莊園 精品花藝佈置設計與五星宴會團隊宴席料理，不僅擁有中西式宴會佳餚滿足賓客多元需求，更可依照宴席專案，規劃全面且精緻的布置主題，量身打造客製化的難忘時刻。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "decoration": [
+      {
+        "rule": "需使用飯店指定裝潢廠商",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "結合 Elite Concept一禮莊園 精品花藝佈置設計與五星宴會團隊宴席料理，不僅擁有中西式宴會佳餚滿足賓客多元需求，更可依照宴席專案，規劃全面且精緻的布置主題，量身打造客製化的難忘時刻。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "sound": "音響設備由飯店提供，外部音響需事先申請",
+    "loadIn": "進場前1小時，撤場後30分鐘，透過貨梯運送"
+  },
+  "pricingTips": [
+    "平日會議方案比假日便宜約25%",
+    "午宴搭配住房專案更划算",
+    "Elite Concept婚禮布置需另外計費",
+    "訂9:00-17:00比8:00-16:00方案更彈性"
+  ],
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1043.html"
+}

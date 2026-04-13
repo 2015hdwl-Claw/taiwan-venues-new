@@ -53,6 +53,16 @@ services:
     depends_on:
       - backend
 
+  # Vue 管理後台
+  admin:
+    build:
+      context: ./admin
+      dockerfile: Dockerfile
+    ports:
+      - "3001:80"
+    depends_on:
+      - backend
+
   # pgAdmin (可選，用於資料庫管理)
   pgadmin:
     image: dpage/pgadmin4:latest

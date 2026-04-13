@@ -1,0 +1,133 @@
+{
+  "identity": {
+    "id": 1126,
+    "name": "豪景大酒店",
+    "nameEn": null,
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市中正區中華路一段41號",
+    "url": "https://www.riverview.com.tw/",
+    "phone": null,
+    "contactEmail": null
+  },
+  "summary": {
+    "shortDescription": "豪景大酒店位於台北市，擁有3間會議室，最大容納250人。",
+    "totalRooms": 3,
+    "maxCapacity": 250,
+    "priceRange": {
+      "halfDayMin": 60000,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": 110000,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  "risks": null,
+  "rules": null,
+  "pricingTips": null,
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1126-xinghe",
+      "name": "星河廳",
+      "nameEn": "Xinghe Hall",
+      "floor": "12樓",
+      "capacity": {
+        "theater": 250,
+        "classroom": 100,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": 68,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 16000,
+        "fullDay": 20000,
+        "overtimePerHour": null,
+        "note": "半天(8:00-12:00或13:00-16:30)，全天(8:00-16:30)，每小時5,000"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備（依需求提供單槍，投影螢幕1組）",
+        "音響系統",
+        "無線麥克風（• 無線麥克風3支）"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1126-laiyin",
+      "name": "萊茵廳",
+      "nameEn": "Laiyin Hall",
+      "floor": "12樓",
+      "capacity": {
+        "theater": 70,
+        "classroom": 48,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": 97,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 20000,
+        "fullDay": 32000,
+        "overtimePerHour": null,
+        "note": "半天(8:00-12:00或13:00-16:30)，全天(8:00-16:30)，每小時8,000"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備（依需求提供單槍，投影螢幕1組）",
+        "音響系統",
+        "無線麥克風（• 無線麥克風3支）"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1126-lijing",
+      "name": "麗景廳",
+      "nameEn": "Lijing Hall",
+      "floor": "1樓",
+      "capacity": {
+        "theater": 40,
+        "classroom": 36,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": 28,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 16000,
+        "fullDay": 32000,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備（依需求提供單槍，投影螢幕1組）",
+        "音響系統",
+        "無線麥克風（• 無線麥克風3支）"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

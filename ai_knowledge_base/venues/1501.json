@@ -10,7 +10,21 @@
     "phone": null,
     "contactEmail": null
   },
-  "summary": null,
+  "summary": {
+    "shortDescription": "南港展覽館2館位於台北市，擁有7間會議室，最大容納3240人。",
+    "totalRooms": 7,
+    "maxCapacity": 3240,
+    "priceRange": {
+      "halfDayMin": null,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": null,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
   "risks": {
     "bookingLeadTime": "活動日前30天（旺季建議提前3個月）",
     "peakSeasons": [

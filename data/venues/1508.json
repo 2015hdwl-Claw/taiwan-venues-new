@@ -1,0 +1,101 @@
+{
+  "id": 1508,
+  "name": "豪鼎飯店",
+  "venueType": "飯店場地",
+  "city": "新北市",
+  "address": "新北市新店區北新路三段205號1樓",
+  "url": "https://www.how-dine.com.tw/",
+  "image": null,
+  "maxCapacity": null,
+  "highlights": [],
+  "contact": {
+    "phone": "+886-2-8913-1199",
+    "email": "how.dine@msa.hinet.net"
+  },
+  "rooms": [
+    {
+      "id": "1508-豪景廳",
+      "name": "豪景廳",
+      "floor": null,
+      "area": 239.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 660,
+        "banquet": 528
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1508-豪宴廳",
+      "name": "豪宴廳",
+      "floor": null,
+      "area": 47,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 130,
+        "banquet": 104
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1508-豪華廳",
+      "name": "豪華廳",
+      "floor": null,
+      "area": 4.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 13,
+        "banquet": 10
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1508-豪宴豪景連廳",
+      "name": "豪宴+豪景連廳",
+      "floor": null,
+      "area": 239.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 660,
+        "banquet": 528
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    }
+  ],
+  "risks": null,
+  "rules": null,
+  "pricingTips": null,
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1508.html"
+}

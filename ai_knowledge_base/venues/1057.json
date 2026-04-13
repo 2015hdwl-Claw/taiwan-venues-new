@@ -10,7 +10,21 @@
     "phone": "02-8502-5555",
     "contactEmail": null
   },
-  "summary": null,
+  "summary": {
+    "shortDescription": "台北典華位於台北市，擁有16間會議室，最大容納1350人。",
+    "totalRooms": 16,
+    "maxCapacity": 1350,
+    "priceRange": {
+      "halfDayMin": 100000,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": 180000,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
   "risks": null,
   "rules": null,
   "pricingTips": null,

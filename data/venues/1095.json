@@ -1,0 +1,354 @@
+{
+  "id": 1095,
+  "name": "台北美福大飯店",
+  "venueType": "飯店場地",
+  "city": "台北市",
+  "address": "台北市中山區樂群二路55號",
+  "url": "https://www.grandmayfull.com/",
+  "image": "https://www.grandmayfull.com/uploads/indexD/20160202_123636_462.jpeg",
+  "maxCapacity": null,
+  "highlights": [
+    "台北市中山區精品飯店，鄰近美麗華商圈",
+    "佔地300坪挑高7公尺無樑柱宴會空間",
+    "420吋互動式高畫質LED顯示屏幕、專業級BOSE音響",
+    "高雅氣派的宴會空間，適合各式社交酬酢及大型會議",
+    "包含喜福廳、萬福廳、鴻福廳、鴻福會所等多功能空間",
+    "精緻中西美饌、異國風味自助餐、米其林台菜饗味"
+  ],
+  "contact": {
+    "phone": "+886-2-7722-3399",
+    "email": "info@grandmayfull.com",
+    "phone_ext": "3352-3359",
+    "address": "台北市中山區樂群三路239號",
+    "mrt": "劍潭站",
+    "fax": "+886-2-7722-3388",
+    "extension": "宴會業務專線：02-7722-3352~3359"
+  },
+  "rooms": [
+    {
+      "id": "1095-grand-ballroom",
+      "name": "大宴會廳",
+      "floor": "2F",
+      "area": 299.7,
+      "ceilingHeight": 7,
+      "capacity": {
+        "theater": 700,
+        "banquet": null,
+        "classroom": 360,
+        "uShape": null,
+        "cocktail": null
+      },
+      "pricing": {
+        "halfDay": 200000,
+        "fullDay": 350000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1095-zhimei",
+      "name": "至美廳",
+      "floor": "9F",
+      "area": 110.1,
+      "ceilingHeight": 6.4,
+      "capacity": {
+        "theater": null,
+        "banquet": null,
+        "classroom": 144,
+        "uShape": null,
+        "cocktail": null
+      },
+      "pricing": {
+        "halfDay": 80000,
+        "fullDay": 150000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1095-zhifu",
+      "name": "至福廳",
+      "floor": "2F",
+      "area": 130,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": null,
+        "banquet": null,
+        "classroom": 60,
+        "uShape": 39,
+        "cocktail": null
+      },
+      "pricing": {
+        "halfDay": 45000,
+        "fullDay": 85000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1095-xifu",
+      "name": "喜福廳",
+      "floor": "9F",
+      "area": 284,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": null,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "pricing": {
+        "halfDay": 60000,
+        "fullDay": 110000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1095-wanfu",
+      "name": "萬福廳",
+      "floor": "9F",
+      "area": 104.1,
+      "ceilingHeight": 6.4,
+      "capacity": {
+        "theater": null,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "pricing": {
+        "halfDay": 75000,
+        "fullDay": 140000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1095-hongfu",
+      "name": "鴻福廳",
+      "floor": "9F",
+      "area": 120.1,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": null,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "pricing": {
+        "halfDay": 85000,
+        "fullDay": 160000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1095-hongfu-club",
+      "name": "鴻福會所",
+      "floor": "9F",
+      "area": 165,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": null,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "pricing": {
+        "halfDay": 35000,
+        "fullDay": 65000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    }
+  ],
+  "risks": {
+    "bookingLeadTime": "大型宴會廳建議3-6個月前預訂；尾牙/婚宴旺季需更早",
+    "peakSeasons": [
+      "11-1月尾牙季",
+      "2-3月春酒季",
+      "9-12月婚宴旺季"
+    ],
+    "commonIssues": [
+      "大宴會廳容量數據有出入（官網700人 vs venues.json 550人），需與飯店確認",
+      "PDF價格已過期（2025/12/31），2026年價格需重新詢價",
+      "位於大直美麗華商圈，文湖線劍南路站，非捷運藍線直達"
+    ]
+  },
+  "rules": {
+    "catering": [
+      {
+        "rule": "限用飯店餐飲服務，美福集團旗下擁有七間中西餐廳及酒吧",
+        "exception": "會議方案含一輪茶點（手指食物、礦泉水、咖啡茶）",
+        "penalty": null,
+        "negotiable": true,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "會議午餐可升級：palette自助餐+NT$300/位、GMT義式/MIPON台菜+NT$600/位、HARUYAMA日式+NT$900/位",
+        "exception": null,
+        "penalty": null,
+        "negotiable": true,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "每位賓客附文具、礦泉水及薄荷糖",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "decoration": [
+      {
+        "rule": "大宴會廳挑高7公尺無柱空間，配有420吋互動式高畫質LED顯示屏幕",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "9F廳房挑高6.4公尺，設大片落地窗",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "sound": [
+      {
+        "rule": "大宴會廳配備專業級BOSE音響系統",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "會議方案標配：2支無線麥克風、投影機及螢幕、Wi-Fi、音源線、講台、雷射筆、翻頁白板",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "loadIn": [
+      {
+        "rule": "半日方案時段固定08:30-12:00或13:30-16:30；全日方案08:30-16:30",
+        "exception": "實際進場時間需提前與宴會部協調",
+        "penalty": null,
+        "negotiable": true,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "cancellation": [
+      {
+        "rule": "會議方案最低保證人數20人，未達人數依場地租用定價或保證人數計價",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "飯店保留更改或終止方案之權利",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "insurance": [
+      {
+        "rule": "未明列保險規範，需個案洽詢宴會部",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ]
+  },
+  "pricingTips": [
+    "半日會議方案NT$2,080+10%/人（含場地、茶點、午餐），全日NT$2,680+10%/人",
+    "場地單租：大宴會廳平日半日NT$200,000/全日NT$350,000，假日加價10%",
+    "報價需乘1.1（服務費）x 1.05（營業稅）= 總價",
+    "會議方案含停車：半日每賓客5小時VIP停車，全日8小時",
+    "商務中心會議室NT$1,000/小時（1F小型空間）",
+    "會議午餐可升級，建議MIPON台菜(+600)CP值最高"
+  ],
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1095.html"
+}

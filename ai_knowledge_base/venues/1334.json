@@ -1,0 +1,100 @@
+{
+  "identity": {
+    "id": 1334,
+    "name": "台北中山運動中心",
+    "nameEn": null,
+    "venueType": "運動場地",
+    "city": "台北市",
+    "address": "台北市中山區中山北路二段44巷2號",
+    "url": "https://cssc.cyc.org.tw/",
+    "phone": null,
+    "contactEmail": null
+  },
+  "summary": {
+    "shortDescription": "台北中山運動中心位於台北市，擁有2間會議室，最大容納55人。",
+    "totalRooms": 2,
+    "maxCapacity": 55,
+    "priceRange": {
+      "halfDayMin": 3000,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": 5500,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  "risks": null,
+  "rules": null,
+  "pricingTips": null,
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1334-01",
+      "name": "多功能活動室",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": 55,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": 40.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": null,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "音響設備",
+        "投影設備"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1334-02",
+      "name": "會議室",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": 30,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": 15.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": null,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "白板"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

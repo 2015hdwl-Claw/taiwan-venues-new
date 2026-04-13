@@ -10,6 +10,9 @@ EXCLUDE_ROOM_KEYWORDS = [
     '客房', 'Superior Room', 'Deluxe Room', 'Suite',
     '標準房', '豪華房', '家庭房', '雙人房', '單人房',
     'Our Rooms',
+    # 餐廳（但 "宴會廳"/"會議廳" 不是餐廳）
+    '中餐廳', '西餐廳', '咖啡廳', '餐酒館',
+    'Restaurant', 'Café', 'Cafe', 'Bistro',
 ]
 
 # === 通用名稱（需要額外驗證）===
@@ -19,9 +22,10 @@ GENERIC_ROOM_NAMES = [
 
 # === 會議室確認關鍵字 ===
 CONFIRM_ROOM_KEYWORDS = [
-    '會議', '宴會', '展覽', '演講', '活動', '廳', '室', '館',
-    'Meeting', 'Banquet', 'Ballroom', 'Hall', 'Conference', 'Venue',
-    'Center', 'Room',  # 搭配樓層等確認
+    '會議室', '宴會廳', '展覽廳', '演講廳', '活動中心', '廳', '室', '館',
+    '教堂', '花園', '庭園', '廣場',  # 特殊場地類型
+    'Meeting', 'Banquet', 'Ballroom', 'Conference', 'Venue',
+    'Center', 'Room', 'Hall', 'Garden', 'Chapel',
 ]
 
 # === 樓層模式（如 "7F", "3樓" 表示是實體空間）===

@@ -1,0 +1,301 @@
+{
+  "id": 1532,
+  "name": "新北市工商展覽中心",
+  "venueType": "展覽中心",
+  "city": "新北市",
+  "address": "新北市五股區五權路1號",
+  "url": "https://www.tcwtc.com.tw/",
+  "image": null,
+  "maxCapacity": null,
+  "highlights": [],
+  "contact": {
+    "phone": "(02)2299-6688",
+    "email": null
+  },
+  "rooms": [
+    {
+      "id": "1532-01",
+      "name": "全廳",
+      "floor": null,
+      "area": 93,
+      "areaUnit": "坪",
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 250,
+        "banquet": 120
+      },
+      "pricing": {
+        "halfDay": 12000,
+        "fullDay": 30000
+      },
+      "equipment": [],
+      "limitations": [],
+      "images": null,
+      "source": {
+        "type": "official",
+        "url": "https://www.tcwtc.com.tw/conference-room-fee.html",
+        "extractedAt": "2026-04-12"
+      }
+    },
+    {
+      "id": "1532-02",
+      "name": "1/2廳",
+      "floor": null,
+      "area": 46.5,
+      "areaUnit": "坪",
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 150,
+        "banquet": 72
+      },
+      "pricing": {
+        "halfDay": 6000,
+        "fullDay": 15000
+      },
+      "equipment": [],
+      "limitations": [],
+      "images": null,
+      "source": {
+        "type": "official",
+        "url": "https://www.tcwtc.com.tw/conference-room-fee.html",
+        "extractedAt": "2026-04-12"
+      }
+    }
+  ],
+  "risks": null,
+  "rules": {
+    "conference": [
+      {
+        "rule": "本會議廳使用進口大理石磚牆、地板，禁止使用膠帶或鐵釘黏貼釘於牆面",
+        "exception": "若有懸掛物請於牆面貼上封箱膠後再行黏貼",
+        "penalty": null,
+        "negotiable": false,
+        "source": {
+          "type": "official",
+          "url": "https://www.tcwtc.com.tw/conference-rules.html",
+          "extractedAt": "2026-04-12"
+        },
+        "confidence": "confirmed"
+      },
+      {
+        "rule": "進場佈置以預約前1小時為限",
+        "exception": "超過者須另付費用",
+        "penalty": "需另付費用",
+        "negotiable": true,
+        "source": {
+          "type": "official",
+          "url": "https://www.tcwtc.com.tw/conference-rules.html",
+          "extractedAt": "2026-04-12"
+        },
+        "confidence": "confirmed"
+      },
+      {
+        "rule": "場地費用包括基本配備、一般照明、空調及場地清潔",
+        "exception": "基本配備若不需使用亦不得退費",
+        "penalty": null,
+        "negotiable": false,
+        "source": {
+          "type": "official",
+          "url": "https://www.tcwtc.com.tw/conference-rules.html",
+          "extractedAt": "2026-04-12"
+        },
+        "confidence": "confirmed"
+      },
+      {
+        "rule": "展示品禁止直接於地上拖曳",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false,
+        "source": {
+          "type": "official",
+          "url": "https://www.tcwtc.com.tw/conference-rules.html",
+          "extractedAt": "2026-04-12"
+        },
+        "confidence": "confirmed"
+      },
+      {
+        "rule": "會議室內禁止飲食",
+        "exception": null,
+        "penalty": "視情況罰款1,000-3,000元",
+        "negotiable": false,
+        "source": {
+          "type": "official",
+          "url": "https://www.tcwtc.com.tw/conference-rules.html",
+          "extractedAt": "2026-04-12"
+        },
+        "confidence": "confirmed"
+      },
+      {
+        "rule": "會議室展示品若有其他特殊用電及載重量限制，請事先洽詢承辦人員",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "official",
+          "url": "https://www.tcwtc.com.tw/conference-rules.html",
+          "extractedAt": "2026-04-12"
+        },
+        "confidence": "confirmed"
+      }
+    ],
+    "exhibition": [
+      {
+        "rule": "展場使用時間應依合約規定執行",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false,
+        "source": {
+          "type": "official",
+          "url": "https://www.tcwtc.com.tw/templates/cache/22815/images/547b2681ec95b.doc",
+          "extractedAt": "2026-04-12"
+        },
+        "confidence": "confirmed"
+      },
+      {
+        "rule": "租借單位於進場前應先會同本館工作人員驗收場地",
+        "exception": "待雙方確認後始可進場",
+        "penalty": null,
+        "negotiable": false,
+        "source": {
+          "type": "official",
+          "url": "https://www.tcwtc.com.tw/templates/cache/22815/images/547b2681ec95b.doc",
+          "extractedAt": "2026-04-12"
+        },
+        "confidence": "confirmed"
+      },
+      {
+        "rule": "活動結束後由雙方確認展場設施及清潔無誤後，交還本館",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false,
+        "source": {
+          "type": "official",
+          "url": "https://www.tcwtc.com.tw/templates/cache/22815/images/547b2681ec95b.doc",
+          "extractedAt": "2026-04-12"
+        },
+        "confidence": "confirmed"
+      },
+      {
+        "rule": "屋頂鋼樑上每一吊環所能承載之重量上限為400公斤",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false,
+        "source": {
+          "type": "official",
+          "url": "https://www.tcwtc.com.tw/templates/cache/22815/images/547b2681ec95b.doc",
+          "extractedAt": "2026-04-12"
+        },
+        "confidence": "confirmed"
+      },
+      {
+        "rule": "卸貨區高度限制為3公尺",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false,
+        "source": {
+          "type": "official",
+          "url": "https://www.tcwtc.com.tw/templates/cache/22815/images/547b2681ec95b.doc",
+          "extractedAt": "2026-04-12"
+        },
+        "confidence": "confirmed"
+      },
+      {
+        "rule": "展場地面每平方米承載重量為1500公斤",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false,
+        "source": {
+          "type": "official",
+          "url": "https://www.tcwtc.com.tw/templates/cache/22815/images/547b2681ec95b.doc",
+          "extractedAt": "2026-04-12"
+        },
+        "confidence": "confirmed"
+      },
+      {
+        "rule": "110伏特單一接頭上限為18安培",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false,
+        "source": {
+          "type": "official",
+          "url": "https://www.tcwtc.com.tw/templates/cache/22815/images/547b2681ec95b.doc",
+          "extractedAt": "2026-04-12"
+        },
+        "confidence": "confirmed"
+      },
+      {
+        "rule": "220伏特單一接頭上限為18安培",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false,
+        "source": {
+          "type": "official",
+          "url": "https://www.tcwtc.com.tw/templates/cache/22815/images/547b2681ec95b.doc",
+          "extractedAt": "2026-04-12"
+        },
+        "confidence": "confirmed"
+      },
+      {
+        "rule": "展場高度使用上限為5公尺",
+        "exception": "若超高使用或自鋼樑上懸吊物件，須事先與本公司管理單位協調",
+        "penalty": "以免觸動警報系統",
+        "negotiable": false,
+        "source": {
+          "type": "official",
+          "url": "https://www.tcwtc.com.tw/templates/cache/22815/images/547b2681ec95b.doc",
+          "extractedAt": "2026-04-12"
+        },
+        "confidence": "confirmed"
+      },
+      {
+        "rule": "使用展場外圍場地，應於活動結束當日清洗完畢",
+        "exception": "恢復原狀",
+        "penalty": "若未恢復原狀由本公司代為清理，費用需由租借單位支付",
+        "negotiable": false,
+        "source": {
+          "type": "official",
+          "url": "https://www.tcwtc.com.tw/templates/cache/22815/images/547b2681ec95b.doc",
+          "extractedAt": "2026-04-12"
+        },
+        "confidence": "confirmed"
+      },
+      {
+        "rule": "外燴區域須於活動結束當天清洗完畢",
+        "exception": "恢復原狀",
+        "penalty": "若未恢復原狀則由本公司代為清洗，費用由租借單位支付",
+        "negotiable": false,
+        "source": {
+          "type": "official",
+          "url": "https://www.tcwtc.com.tw/templates/cache/22815/images/547b2681ec95b.doc",
+          "extractedAt": "2026-04-12"
+        },
+        "confidence": "confirmed"
+      }
+    ]
+  },
+  "pricingTips": [],
+  "payment": {
+    "deposit": "申請後3日內付清訂金",
+    "balance": "活動前一週付清餘款",
+    "tax": "以上費用不含5%營業稅",
+    "holidaySurcharge": "例假日租用場地加收30%服務費",
+    "bank": "臺灣企銀五股分行",
+    "account": "威勝開發股份有限公司 130-12-176-478",
+    "source": {
+      "type": "official",
+      "url": "https://www.tcwtc.com.tw/how-to-rent-conference-oom.html",
+      "extractedAt": "2026-04-12"
+    }
+  },
+  "images": {
+    "main": "https://www.tcwtc.com.tw/templates/cache/22814/images/system/home-banner.jpg",
+    "gallery": [
+      "https://www.tcwtc.com.tw/templates/cache/22814/images/5452ea14b3f87.jpg",
+      "https://www.tcwtc.com.tw/templates/cache/22814/images/5449bfb1b5612.gif",
+      "https://www.tcwtc.com.tw/templates/cache/22814/images/545c20fc37d4e.gif"
+    ],
+    "verified": true,
+    "verifiedAt": "2026-04-12",
+    "source": "official"
+  }
+}

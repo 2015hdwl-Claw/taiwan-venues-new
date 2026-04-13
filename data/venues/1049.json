@@ -1,0 +1,235 @@
+{
+  "id": 1049,
+  "name": "台北世貿中心(TWTCA)展覽大樓",
+  "venueType": "展演場地",
+  "city": "台北市",
+  "address": "台北市基隆路一段333號",
+  "url": "https://www.twtc.com.tw/",
+  "image": "https://www.twtc.com.tw/img/meeting/345會議室.jpg",
+  "maxCapacity": null,
+  "highlights": [],
+  "contact": {
+    "phone": "02-2725-5200",
+    "email": "twtc@taitra.org.tw"
+  },
+  "rooms": [
+    {
+      "id": "1049-01",
+      "name": "第一會議室",
+      "floor": "1樓",
+      "area": 87,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 250,
+        "classroom": 84,
+        "ushape": 144
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "飲用水"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1049-02",
+      "name": "A+會議室",
+      "floor": "1樓",
+      "area": 43.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 108,
+        "classroom": 48,
+        "ushape": 72
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "飲用水"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1049-03",
+      "name": "第二會議室",
+      "floor": "1樓",
+      "area": 60.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 160,
+        "classroom": 60,
+        "ushape": 100
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "飲用水"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1049-04",
+      "name": "第三會議室",
+      "floor": "1樓",
+      "area": 72.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 200,
+        "classroom": 70,
+        "ushape": 120
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "飲用水"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1049-05",
+      "name": "第四會議室",
+      "floor": "1樓",
+      "area": 43.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 108,
+        "classroom": 48,
+        "ushape": 72
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "飲用水"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1049-06",
+      "name": "第五會議室",
+      "floor": "1樓",
+      "area": 87,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 250,
+        "classroom": 84,
+        "ushape": 144
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "飲用水"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1049-07",
+      "name": "第三四五會議室(打通)",
+      "floor": "1樓",
+      "area": 136,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 500
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "飲用水"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1049-08",
+      "name": "一樓貴賓室",
+      "floor": "1樓",
+      "area": null,
+      "ceilingHeight": null,
+      "capacity": {},
+      "pricing": {},
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "飲用水"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1049-09",
+      "name": "第一五會議室間廊廳",
+      "floor": "1樓",
+      "area": null,
+      "ceilingHeight": null,
+      "capacity": {},
+      "pricing": {},
+      "equipment": [
+        "投影設備",
+        "音響系統"
+      ],
+      "limitations": []
+    }
+  ],
+  "risks": null,
+  "rules": null,
+  "pricingTips": null,
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1049.html"
+}

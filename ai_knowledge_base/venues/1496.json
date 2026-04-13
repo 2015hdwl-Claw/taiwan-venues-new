@@ -10,7 +10,21 @@
     "phone": "(03) 577-9191",
     "contactEmail": "hsp.office@gisgroup.com"
   },
-  "summary": null,
+  "summary": {
+    "shortDescription": "集思竹科會議中心(HSPH)位於新竹市，擁有9間會議室，最大容納155人。",
+    "totalRooms": 9,
+    "maxCapacity": 155,
+    "priceRange": {
+      "halfDayMin": 2000,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": 11000,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
   "risks": null,
   "rules": {
     "catering": [

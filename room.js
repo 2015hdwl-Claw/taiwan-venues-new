@@ -4,8 +4,17 @@ let currentVenue = null;
 let currentRoom = null;
 
 // ===== 版本控制 =====
-const DATA_VERSION = '20260407-v1'; // 與 app.js、venue.js 保持同步
+const DATA_VERSION = '20260412-v30'; // 與 app.js、venue.js 保持同步
 
+// ===== Tailwind 顯示/隱藏輔助函數 =====
+function showElement(el) {
+    if (typeof el === 'string') el = document.getElementById(el);
+    if (el) el.classList.remove('hidden');
+}
+function hideElement(el) {
+    if (typeof el === 'string') el = document.getElementById(el);
+    if (el) el.classList.add('hidden');
+}
 // ===== 初始化 =====
 document.addEventListener('DOMContentLoaded', async () => {
     await loadVenues();
@@ -69,8 +78,8 @@ function loadRoomDetail() {
     renderRoomDetail();
 
     // 隱藏載入狀態，顯示內容
-    document.getElementById('loadingState').style.display = 'none';
-    document.getElementById('roomContent').style.display = 'block';
+    hideElement('loadingState');
+    showElement('roomContent');
 }
 
 // ===== 渲染會議室詳情 =====
@@ -78,8 +87,63 @@ function renderRoomDetail() {
     const room = currentRoom;
     const venue = currentVenue;
 
-    // 更新頁面標題
-    document.title = `${room.name} - ${venue.name} - 活動大師`;
+    // 更新頁面標題與 SEO meta
+    const titleSuffix = '場地知識庫 | 活動大師';
+    const maxCap = room.capacity ? Math.max(room.capacity.theater || 0, room.capacity.classroom || 0, room.capacity.ushape || 0) : 0;
+    const ceiling = room.height || room.ceiling || room.ceilingHeight;
+    const area = room.area ? room.area + '坪' : '';
+    const pricing = room.price || room.pricing;
+    const priceText = pricing ? (pricing.halfDay ? `半日$${pricing.halfDay.toLocaleString()}` : pricing.fullDay ? `全日$${pricing.fullDay.toLocaleString()}` : '') : '';
+
+    document.title = `${venue.name} ${room.name} — ${maxCap ? maxCap + '人' : ''}${area ? ' ' + area : ''} | ${titleSuffix}`;
+
+    // 動態更新 meta 標籤
+    const updateMeta = (prop, content) => {
+        let el = document.querySelector(`meta[property="${prop}"]`) || document.querySelector(`meta[name="${prop}"]`);
+        if (el) el.setAttribute('content', content);
+    };
+
+    const metaDesc = `${venue.name} ${room.name}。${area ? area + '，' : ''}${ceiling ? '天花板' + ceiling + '米，' : ''}${maxCap ? '最多' + maxCap + '人，' : ''}${priceText ? priceText + '。' : ''}含場地限制、潛規則、踩坑經驗。${titleSuffix}`;
+    const ogTitle = `${venue.name} ${room.name} — ${titleSuffix}`;
+    const ogUrl = `https://taiwan-venues-new-indol.vercel.app/room.html?venueId=${venue.id}&roomId=${room.id}`;
+
+    updateMeta('description', metaDesc);
+    updateMeta('og:title', ogTitle);
+    updateMeta('og:description', metaDesc);
+    updateMeta('og:url', ogUrl);
+    // 使用會議室圖片，沒有則用場地主圖
+    const roomImage = (Array.isArray(room.images) && room.images[0]) || (room.images?.main) || (venue.images?.main);
+    if (roomImage) updateMeta('og:image', roomImage);
+    updateMeta('twitter:title', ogTitle);
+    updateMeta('twitter:description', metaDesc);
+    if (roomImage) updateMeta('twitter:image', roomImage);
+
+    // 動態注入 JSON-LD Room 結構化資料
+    const jsonLd = {
+        "@context": "https://schema.org",
+        "@type": "Room",
+        "name": `${venue.name} ${room.name}`,
+        "description": metaDesc,
+        "url": ogUrl,
+        ...(area && { "floorSize": { "@type": "QuantitativeValue", "value": room.area, "unitText": "坪" } }),
+        ...(maxCap && { "maximumAttendeeCapacity": maxCap }),
+        ...(ceiling && { "height": { "@type": "QuantitativeValue", "value": ceiling, "unitText": "米" } }),
+        ...(room.floor && { "floorLevel": room.floor }),
+        ...(roomImage && { "image": roomImage }),
+        "isPartOf": {
+            "@type": "EventVenue",
+            "name": venue.name,
+            ...(venue.address && { "address": { "@type": "PostalAddress", "streetAddress": venue.address } })
+        }
+    };
+    let jsonLdScript = document.getElementById('json-ld-room');
+    if (!jsonLdScript) {
+        jsonLdScript = document.createElement('script');
+        jsonLdScript.type = 'application/ld+json';
+        jsonLdScript.id = 'json-ld-room';
+        document.head.appendChild(jsonLdScript);
+    }
+    jsonLdScript.textContent = JSON.stringify(jsonLd);
 
     // 麵包屑
     document.getElementById('breadcrumbVenue').href = `venue.html?id=${venue.id}`;
@@ -104,10 +168,10 @@ function renderRoomDetail() {
 
     // 基本資訊
     document.getElementById('roomName').textContent = room.name;
-    document.getElementById('roomLocation').textContent = `${venue.name}${room.floor ? ' ' + room.floor : ''}`;
+    document.getElementById('roomLocationText').textContent = `${venue.name}${room.floor ? ' ' + room.floor : ''}`;
 
-    // 空間資訊（新版）
-    renderSpaceInfo(room);
+    // 快速資訊卡片
+    renderQuickInfo(room);
 
     // 容納人數
     renderCapacity(room.capacity);
@@ -118,17 +182,9 @@ function renderRoomDetail() {
     // 設備清單
     renderEquipment(room.equipment);
 
-    // 可用時段
-    renderTime(room.availableTimeWeekday, room.availableTimeWeekend);
-
     // 特色標籤
     if (room.features && room.features.length > 0) {
         renderFeatures(room.features);
-    }
-
-    // 注意事項
-    if (room.notes) {
-        renderNotes(room.notes);
     }
 
     // 隱藏限制
@@ -136,13 +192,42 @@ function renderRoomDetail() {
 
     // 進場資訊
     renderLoadIn(room);
+}
 
-    // 聯絡按鈕
-    if (venue.contactPhone) {
-        const callBtn = document.getElementById('roomCallBtn');
-        callBtn.style.display = 'inline-flex';
-        callBtn.href = `tel:${venue.contactPhone}`;
+// ===== 渲染快速資訊卡片 =====
+function renderQuickInfo(room) {
+    // 空間面積
+    const areaEl = document.getElementById('roomArea');
+    if (room.area) {
+        areaEl.textContent = `${room.area} 坪`;
+    } else if (room.areaSqm) {
+        areaEl.textContent = `${room.areaSqm} m²`;
+    } else {
+        areaEl.textContent = '-';
     }
+
+    // 最大容納
+    const capacityEl = document.getElementById('roomCapacityMax');
+    if (room.capacity) {
+        const maxCap = Math.max(
+            room.capacity.theater || 0,
+            room.capacity.classroom || 0,
+            room.capacity.ushape || 0,
+            room.capacity.roundtable || room.capacity.roundtable_max || 0
+        );
+        capacityEl.textContent = maxCap > 0 ? `${maxCap} 人` : '-';
+    } else {
+        capacityEl.textContent = '-';
+    }
+
+    // 天花板高度
+    const ceilingEl = document.getElementById('roomCeiling');
+    const ceiling = room.height || room.ceiling || room.ceilingHeight;
+    ceilingEl.textContent = ceiling ? `${ceiling}m` : '-';
+
+    // 樓層
+    const floorEl = document.getElementById('roomFloor');
+    floorEl.textContent = room.floor || '-';
 }
 
 // ===== 渲染空間資訊（新版） =====
@@ -167,32 +252,32 @@ function renderSpaceInfo(room) {
     const floorPlanUrl = currentVenue?.floorPlan || room.floorPlan || room.layoutImage;
 
     if (floorPlanUrl) {
-        floorPlanSection.style.display = 'block';
+        showElement(floorPlanSection);
 
         // 判斷是否為 PDF
         const isPDF = floorPlanUrl.toLowerCase().endsWith('.pdf') || floorPlanUrl.toLowerCase().includes('.pdf');
 
         if (isPDF) {
             // PDF 使用 <embed> 顯示（繞過 X-Frame-Options 限制）
-            floorPlanEmbed.style.display = 'block';
+            showElement(floorPlanEmbed);
             floorPlanIframe.src = floorPlanUrl;
             // 使用 embed 作為備用
             floorPlanIframe.outerHTML = `<embed id="floorPlanIframe" class="floor-plan-iframe" src="${floorPlanUrl}" type="application/pdf" width="100%" height="500px">`;
-            floorPlanImage.style.display = 'none';
+            hideElement(floorPlanImage);
         } else {
             // 圖片直接顯示
-            floorPlanEmbed.style.display = 'none';
-            floorPlanImage.style.display = 'block';
+            hideElement(floorPlanEmbed);
+            showElement(floorPlanImage);
             floorPlanImage.src = floorPlanUrl;
             floorPlanImage.alt = `${room.name} 場地圖`;
         }
     } else {
-        floorPlanSection.style.display = 'none';
+        hideElement(floorPlanSection);
     }
 
     // 空間面積（第二位）- 重點突出
     if (room.area || room.areaSqm) {
-        highlightCard.style.display = 'flex';
+        showElement(highlightCard);
 
         // 主要顯示坪數
         if (room.area) {
@@ -320,40 +405,28 @@ function renderSpaceInfo(room) {
 // ===== 渲染容納人數 =====
 function renderCapacity(capacity) {
     if (!capacity) {
-        document.querySelectorAll('.capacity-card .capacity-value').forEach(el => {
-            el.textContent = '-';
-        });
+        document.getElementById('capTheater').textContent = '-';
+        document.getElementById('capClassroom').textContent = '-';
+        document.getElementById('capUshape').textContent = '-';
+        document.getElementById('capBanquet').textContent = '-';
         return;
     }
 
     // 劇院式
-    if (capacity.theater) {
-        document.querySelector('#capTheater .capacity-value').textContent = capacity.theater + ' 人';
-    } else {
-        document.getElementById('capTheater').style.opacity = '0.5';
-    }
+    document.getElementById('capTheater').textContent = capacity.theater ? `${capacity.theater} 人` : '-';
 
     // 課桌式
-    if (capacity.classroom) {
-        document.querySelector('#capClassroom .capacity-value').textContent = capacity.classroom + ' 人';
-    } else {
-        document.getElementById('capClassroom').style.opacity = '0.5';
-    }
+    document.getElementById('capClassroom').textContent = capacity.classroom ? `${capacity.classroom} 人` : '-';
 
     // U型
-    if (capacity.ushape) {
-        document.querySelector('#capUshape .capacity-value').textContent = capacity.ushape + ' 人';
-    } else {
-        document.getElementById('capUshape').style.opacity = '0.5';
-    }
+    document.getElementById('capUshape').textContent = capacity.ushape ? `${capacity.ushape} 人` : '-';
 
-    // 圓桌式
+    // 宴會式（圓桌）
+    const banquet = capacity.banquet || capacity.roundtable || capacity.roundtable_max;
     if (capacity.roundtable_min && capacity.roundtable_max) {
-        document.querySelector('#capRoundtable .capacity-value').textContent = `${capacity.roundtable_min}-${capacity.roundtable_max} 人`;
-    } else if (capacity.roundtable) {
-        document.querySelector('#capRoundtable .capacity-value').textContent = capacity.roundtable + ' 人';
+        document.getElementById('capBanquet').textContent = `${capacity.roundtable_min}-${capacity.roundtable_max} 人`;
     } else {
-        document.getElementById('capRoundtable').style.opacity = '0.5';
+        document.getElementById('capBanquet').textContent = banquet ? `${banquet} 人` : '-';
     }
 }
 
@@ -493,8 +566,8 @@ function goHome() {
 
 // ===== 顯示錯誤 =====
 function showError(message) {
-    document.getElementById('loadingState').style.display = 'none';
-    document.getElementById('errorState').style.display = 'block';
+    hideElement('loadingState');
+    showElement('errorState');
     document.getElementById('errorState').querySelector('h3').textContent = message;
 }
 

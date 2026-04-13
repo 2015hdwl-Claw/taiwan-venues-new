@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <!-- 背景：漸層 -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00685f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#008378;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- 內容 -->
+  <g transform="translate(100, 200)">
+    <!-- AM Logo -->
+    <text x="0" y="100" font-family="Arial, sans-serif" font-size="200" font-weight="bold" fill="white">AM</text>
+
+    <!-- 品牌名稱 -->
+    <text x="0" y="180" font-family="Arial, sans-serif" font-size="60" fill="white">活動大師 Activity Master</text>
+
+    <!-- 標語 -->
+    <text x="0" y="240" font-family="Arial, sans-serif" font-size="40" fill="rgba(255,255,255,0.8)">台灣活動場地知識庫</text>
+  </g>
+</svg>

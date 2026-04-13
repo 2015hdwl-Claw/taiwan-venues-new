@@ -1,0 +1,67 @@
+{
+  "identity": {
+    "id": 1099,
+    "name": "台北艾美酒店",
+    "nameEn": null,
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市松山區民生東路三段8號",
+    "url": "https://www.lemeridien.com/taipei",
+    "phone": null,
+    "contactEmail": null
+  },
+  "summary": {
+    "shortDescription": "台北艾美酒店位於台北市，擁有1間會議室，最大容納280人。",
+    "totalRooms": 1,
+    "maxCapacity": 280,
+    "priceRange": {
+      "halfDayMin": 100000,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": 190000,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  "risks": null,
+  "rules": null,
+  "pricingTips": null,
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1099-01",
+      "name": "艾美廳",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {},
+      "area": 100,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 100000,
+        "fullDay": 190000,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "頂級投影",
+        "專業音響",
+        "舞台",
+        "燈光"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

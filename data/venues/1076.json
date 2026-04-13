@@ -1,0 +1,338 @@
+{
+  "id": 1076,
+  "name": "台北寒舍艾美酒店(LeMeridienTaipei)",
+  "venueType": "飯店場地",
+  "city": "台北市",
+  "address": "台北市信義區松仁路38號",
+  "url": "https://www.lemeridien-taipei.com",
+  "image": "https://raw.githubusercontent.com/2015hdwl-Claw/taiwan-venues-new/main/photos/lemeridien_official/3f_grand_ballroom_meeting.jpg",
+  "maxCapacity": 336,
+  "highlights": [
+    "信義計劃區五星級酒店，鄰近台北101",
+    "9個會議空間：2F 6間多功能廳、3F 4間宴會廳、5F QUUBE",
+    "3F大型宴會廳868坪，挑高5米水晶天花",
+    "專業會議專案與婚宴服務",
+    "綠會議環保永續理念"
+  ],
+  "contact": {
+    "phone": "+886-2-6622-8000",
+    "email": "cateringsales.group@lemeridien-taipei.com",
+    "banquet": "+886-2-6622-8000"
+  },
+  "rooms": [
+    {
+      "id": "1076-leo",
+      "name": "軒轅廳",
+      "floor": "2樓",
+      "area": 196,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 84,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1076-pegasus",
+      "name": "室宿廳",
+      "floor": "2樓",
+      "area": 93,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 45,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1076-virgo",
+      "name": "角宿廳",
+      "floor": "2樓",
+      "area": 93,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 45,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1076-aquila",
+      "name": "河鼓廳",
+      "floor": "2樓",
+      "area": 93,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 45,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1076-gemini",
+      "name": "北河廳",
+      "floor": "2樓",
+      "area": 93,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 45,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1076-taurus",
+      "name": "畢宿廳",
+      "floor": "2樓",
+      "area": 97,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 45,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1076-grand",
+      "name": "宴會廳",
+      "floor": "3樓",
+      "area": 867,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 336,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1076-jadeite",
+      "name": "翡翠廳",
+      "floor": "3樓",
+      "area": 347,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 210,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1076-pearl",
+      "name": "珍珠廳",
+      "floor": "3樓",
+      "area": 174,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 210,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1076-amber",
+      "name": "琥珀廳",
+      "floor": "3樓",
+      "area": 347,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 126,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1076-quube",
+      "name": "QUUBE",
+      "floor": "5樓",
+      "area": 10,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 36,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1076-18",
+      "name": "探索廚房",
+      "floor": null,
+      "area": 3.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 12
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1076-20",
+      "name": "會議專案",
+      "floor": null,
+      "area": 7,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 25
+      },
+      "pricing": {
+        "halfDay": 1000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1076-21",
+      "name": "MEETING PACKAGE",
+      "floor": null,
+      "area": 7,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 25
+      },
+      "pricing": {
+        "halfDay": 1000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    }
+  ],
+  "risks": null,
+  "rules": null,
+  "pricingTips": null,
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1076.html"
+}

@@ -1,4 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <rect width="100" height="100" rx="20" fill="#667eea"/>
-  <text x="50" y="70" font-size="60" text-anchor="middle" fill="white">🎉</text>
+  <!-- 背景：圓角方形，Material 3 Primary Color -->
+  <rect width="100" height="100" rx="20" fill="#00685f"/>
+
+  <!-- AM 文字 -->
+  <text x="50" y="65" font-family="Arial, sans-serif" font-size="42" font-weight="bold" text-anchor="middle" fill="white">AM</text>
 </svg>

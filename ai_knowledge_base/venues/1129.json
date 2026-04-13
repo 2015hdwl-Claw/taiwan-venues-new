@@ -1,0 +1,340 @@
+{
+  "identity": {
+    "id": 1129,
+    "name": "青青婚宴會館",
+    "nameEn": null,
+    "venueType": "婚宴場地",
+    "city": "台北市",
+    "address": "台北市士林區至善路2段266巷",
+    "url": "https://www.77-67.com/",
+    "phone": null,
+    "contactEmail": null
+  },
+  "summary": {
+    "shortDescription": "青青婚宴會館位於台北市，擁有10間會議室，最大容納400人。",
+    "totalRooms": 10,
+    "maxCapacity": 400,
+    "priceRange": {
+      "halfDayMin": 60000,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": 100000,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  "risks": null,
+  "rules": null,
+  "pricingTips": null,
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1129-01",
+      "name": "凱薩廳",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": null,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1129-02",
+      "name": "香榭廳",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": null,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1129-03",
+      "name": "法頌廳",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": null,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1129-04",
+      "name": "維也納廳",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": null,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1129-05",
+      "name": "巴洛克廳",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": null,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1129-06",
+      "name": "普羅旺斯廳",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": null,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1129-07",
+      "name": "凱特廳",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": null,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1129-08",
+      "name": "凱旋廳",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": null,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1129-09",
+      "name": "愛麗絲廳",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": null,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1129-10",
+      "name": "富城廳",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": null,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

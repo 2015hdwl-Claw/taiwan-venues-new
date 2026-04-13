@@ -10,7 +10,21 @@
     "phone": "(02) 2741-7655",
     "contactEmail": "gistaipeitechcc@gisgroup.com"
   },
-  "summary": null,
+  "summary": {
+    "shortDescription": "集思北科大會議中心(Tech)位於台北市，擁有10間會議室，最大容納160人。",
+    "totalRooms": 10,
+    "maxCapacity": 160,
+    "priceRange": {
+      "halfDayMin": 5000,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": 24500,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
   "risks": null,
   "rules": {
     "catering": [

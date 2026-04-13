@@ -1,0 +1,144 @@
+{
+  "id": 1505,
+  "name": "漢來大飯店",
+  "venueType": "飯店場地",
+  "city": "高雄市",
+  "address": "高雄市左營區博愛二路198號",
+  "url": "https://www.grand-hilai.com/",
+  "image": null,
+  "maxCapacity": null,
+  "highlights": [],
+  "contact": {
+    "phone": "07-216-1766",
+    "email": "service@grand-hilai.com.tw"
+  },
+  "rooms": [
+    {
+      "id": "1505-MeetingRoo",
+      "name": "Meeting Room",
+      "floor": null,
+      "area": 734.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 2024,
+        "banquet": 1619,
+        "classroom": 1012
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": [
+        "限用飯店餐飲，不可外燴",
+        "噪音管制至22:00"
+      ]
+    }
+  ],
+  "risks": null,
+  "rules": {
+    "catering": [
+      {
+        "rule": "限用飯店餐飲服務，提供中式及西式宴席，不可外燴",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "婚宴及宴會需達最低桌數要求（通常15-20桌起）",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "decoration": [
+      {
+        "rule": "場佈需提前申請，不得使用破壞性素材（膠帶、釘子等）",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "大型佈置（舞台、LED牆）需額外投保場地險",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "sound": [
+      {
+        "rule": "場地配備基本音響設備，額外設備需提前申請",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "噪音管制至晚間22:00，戶外區域需特別注意音量",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "loadIn": [
+      {
+        "rule": "進場施工需預約貨梯，大型道具限2噸以下",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "場佈進場時間通常為活動前4-6小時，大型活動可協調提前一日",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "cancellation": [
+      {
+        "rule": "活動前90天取消退訂金80%，60天前退50%，30天內不退款",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "insurance": [
+      {
+        "rule": "大型活動（500人以上）建議投保公共意外責任險",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ]
+  },
+  "pricingTips": [
+    "平日宴會價格比假日便宜約20-30%",
+    "午宴通常比晚宴價格低",
+    "住宿加宴會套裝比單獨租用更優惠",
+    "淡季（3-5月、7-9月）可議價空間較大",
+    "大量訂桌可享免費升級菜色或飲料暢飲"
+  ],
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1505.html"
+}

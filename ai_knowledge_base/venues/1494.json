@@ -10,7 +10,21 @@
     "phone": "(02) 2321-4946",
     "contactEmail": "motc@gisgroup.com"
   },
-  "summary": null,
+  "summary": {
+    "shortDescription": "集思交通部國際會議中心(MOTC)位於台北市，擁有4間會議室，最大容納400人。",
+    "totalRooms": 4,
+    "maxCapacity": 400,
+    "priceRange": {
+      "halfDayMin": 7500,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": 40000,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
   "risks": {
     "bookingLeadTime": "需先來電洽詢場地時間後才能正式租借，建議提前預約",
     "commonIssues": [

@@ -1,0 +1,68 @@
+{
+  "id": 1515,
+  "name": "晶宴會館 府中館",
+  "venueType": "婚宴場地",
+  "city": "新北市",
+  "address": "新北市板橋區",
+  "url": "https://www.amazinghall.com.tw/",
+  "image": null,
+  "maxCapacity": null,
+  "highlights": [],
+  "contact": {
+    "phone": "+886-3-452-6688",
+    "email": "service@amazinghall.com.tw"
+  },
+  "rooms": [
+    {
+      "id": "1515-MeetingRoo",
+      "name": "Meeting Room",
+      "floor": null,
+      "area": 326.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 900,
+        "banquet": 720
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統（晶宴民權館​​位於台北市中心地帶，共有2層樓設有5個宴會廳，挑高樓面與氣派輝煌的空間，展現企業的高度與大器；鎮館之寶亦是世界女伶－莎拉布萊曼指定之第一音響品牌NEXO，搭配陣列式線性懸吊式喇叭技術，及百萬級視聽影音設備，可滿足席間活動或表演的各種需求。）",
+        "無線網路"
+      ],
+      "limitations": []
+    }
+  ],
+  "risks": null,
+  "rules": {
+    "decoration": [
+      {
+        "rule": "晶宴民權館​​位於台北市中心地帶，共有2層樓設有5個宴會廳，挑高樓面與氣派輝煌的空間，展現企業的高度與大器；鎮館之寶亦是世界女伶－莎拉布萊曼指定之第一音響品牌NEXO，搭配陣列式線性懸吊式喇叭技術，及百萬級視聽影音設備，可滿足席間活動或表演的各種需求。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "sound": [
+      {
+        "rule": "晶宴民權館​​位於台北市中心地帶，共有2層樓設有5個宴會廳，挑高樓面與氣派輝煌的空間，展現企業的高度與大器；鎮館之寶亦是世界女伶－莎拉布萊曼指定之第一音響品牌NEXO，搭配陣列式線性懸吊式喇叭技術，及百萬級視聽影音設備，可滿足席間活動或表演的各種需求。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ]
+  },
+  "pricingTips": null,
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1515.html"
+}

@@ -114,6 +114,35 @@
           </div>
         </el-card>
 
+        <!-- 資料來源 -->
+        <el-card v-if="venue.dataSources" class="info-card">
+          <template #header>
+            <span>資料來源</span>
+          </template>
+          <div class="info-grid">
+            <div class="info-item full" v-if="venue.dataSources.official">
+              <span class="label">官網</span>
+              <span class="value">
+                <el-link :href="venue.dataSources.official" target="_blank" type="primary">
+                  {{ venue.dataSources.official }}
+                </el-link>
+              </span>
+            </div>
+            <div class="info-item full" v-if="venue.dataSources.pdf">
+              <span class="label">PDF 資料</span>
+              <span class="value">
+                <el-link :href="venue.dataSources.pdf" target="_blank" type="primary">
+                  {{ venue.dataSources.pdfName || venue.dataSources.pdf }}
+                </el-link>
+              </span>
+            </div>
+            <div class="info-item full" v-if="venue.dataSources.scrapedAt">
+              <span class="label">爬蟲擷取時間</span>
+              <span class="value">{{ venue.dataSources.scrapedAt }}</span>
+            </div>
+          </div>
+        </el-card>
+
         <!-- 會議室 -->
         <el-card class="rooms-card">
           <template #header>

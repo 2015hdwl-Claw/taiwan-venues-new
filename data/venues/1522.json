@@ -1,0 +1,42 @@
+{
+  "id": 1522,
+  "name": "天圓地方婚宴會館",
+  "venueType": "婚宴場地",
+  "city": "台中市",
+  "address": "台中市",
+  "url": "https://www.tianyuan.com.tw/paper/other_select_index.php?title_id=7925&group_id=378",
+  "image": null,
+  "maxCapacity": null,
+  "highlights": [],
+  "contact": {
+    "phone": "04-2228-8622",
+    "email": "aa42889014@gmail.com"
+  },
+  "rooms": [
+    {
+      "id": "1522-Conference",
+      "name": "Conference Room",
+      "floor": null,
+      "area": 12,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 33,
+        "banquet": 26,
+        "classroom": 16
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統（音響設備）",
+        "無線網路（提供無線網路）"
+      ],
+      "limitations": []
+    }
+  ],
+  "risks": null,
+  "rules": null,
+  "pricingTips": null,
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1522.html"
+}

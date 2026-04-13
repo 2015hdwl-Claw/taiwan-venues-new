@@ -1,0 +1,148 @@
+{
+  "id": 1541,
+  "name": "高雄巨蛋 (Kaohsiung Arena)",
+  "venueType": "運動場地",
+  "city": "高雄市",
+  "address": "高雄市",
+  "url": "https://www.kaoarena.com.tw/Home/RentalMainvenue3",
+  "image": null,
+  "maxCapacity": null,
+  "highlights": [],
+  "contact": {
+    "phone": "(07) 974-9888",
+    "email": "TBD"
+  },
+  "rooms": [
+    {
+      "id": "1541-MainArena",
+      "name": "Main Arena",
+      "floor": null,
+      "area": 5445,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 15000,
+        "banquet": 12000
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": [
+        "位於48樓，大型道具需透過貨梯搬運，高度及寬度受限",
+        "為金融大樓內場地，上班日白天進場時間可能受限制",
+        "無獨立卸貨區，需從大樓地下層或後側進出",
+        "僅有一廳（鼎鼎宴會廳），無法同時分組",
+        "停車位與辦公大樓共用，上班日尖峰時段一位難求"
+      ]
+    }
+  ],
+  "risks": null,
+  "rules": {
+    "catering": [
+      {
+        "rule": "餐飲由台北遠東香格里拉飯店統一供應，不可外燴",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "decoration": [
+      {
+        "rule": "佈置需使用不損壞地板及牆面之固定方式，禁止使用膠帶直接貼附",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "進場佈置需透過大樓貨梯，大型道具需確認尺寸是否可進入電梯",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "sound": [
+      {
+        "rule": "千萬元影音設備由場地提供，包含投影、音響及LED螢幕同步播放",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "loadIn": [
+      {
+        "rule": "進撤場需配合大樓管理規定，上班日白天可能受限於辦公時段",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "所有物品需經由貨梯搬運至48樓，不可使用客用電梯",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "cancellation": [
+      {
+        "rule": "取消政策需電話洽詢確認，建議簽約時確認退費條件",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "insurance": [
+      {
+        "rule": "大型活動可能需投保公共意外責任險，需與場地確認金額要求",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "other": [
+      {
+        "rule": "場地位於兆豐金融大樓（百揚大樓），需遵守大樓管理委員會各項規定",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "場地有2026活力會議專案，適用會議型活動",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ]
+  },
+  "pricingTips": [
+    "主動詢問「2026活力會議專案」",
+    "平日午宴通常最優惠",
+    "農曆七月淡季有較大議價空間",
+    "可詢問遠東香格里拉飯店會員或集團優惠",
+    "婚宴與會議價格結構不同，會議活動可爭取專案價"
+  ],
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1541.html"
+}

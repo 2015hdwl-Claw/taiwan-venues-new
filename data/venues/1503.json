@@ -1,0 +1,36 @@
+{
+  "id": 1503,
+  "name": "裕元花園酒店",
+  "venueType": "飯店場地",
+  "city": "台中市",
+  "address": "台中市西屯區台灣大道三段636號",
+  "url": "https://www.windsortaiwan.com/",
+  "image": null,
+  "maxCapacity": null,
+  "highlights": [],
+  "contact": {
+    "phone": "04-2465-6555",
+    "email": "guestservice@windsortaiwan.com"
+  },
+  "rooms": [
+    {
+      "id": "1503-國際演講廳",
+      "name": "國際演講廳",
+      "floor": null,
+      "area": null,
+      "ceilingHeight": null,
+      "capacity": {},
+      "pricing": {},
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路（internet information）"
+      ],
+      "limitations": []
+    }
+  ],
+  "risks": null,
+  "rules": null,
+  "pricingTips": null,
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1503.html"
+}

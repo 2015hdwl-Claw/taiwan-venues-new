@@ -10,7 +10,21 @@
     "phone": null,
     "contactEmail": "humblehousetaipei@humblehousehotels.com"
   },
-  "summary": null,
+  "summary": {
+    "shortDescription": "台北艾麗酒店位於台北市，擁有6間會議室，最大容納480人。",
+    "totalRooms": 6,
+    "maxCapacity": 480,
+    "priceRange": {
+      "halfDayMin": 180000,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": 320000,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
   "risks": {
     "bookingLeadTime": "至少1個月, 大型宴會建議3-6個月前預約",
     "peakSeasons": [

@@ -10,7 +10,21 @@
     "phone": "0749440880",
     "contactEmail": "lemeridien@lemeridien-taipei.com"
   },
-  "summary": null,
+  "summary": {
+    "shortDescription": "台北寒舍艾美酒店(LeMeridienTaipei)位於台北市，擁有14間會議室，最大容納336人。",
+    "totalRooms": 14,
+    "maxCapacity": 336,
+    "priceRange": {
+      "halfDayMin": 210000,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": 1520000,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
   "risks": null,
   "rules": {
     "catering": "餐飲優惠"

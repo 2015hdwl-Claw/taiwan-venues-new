@@ -1,0 +1,883 @@
+{
+  "id": 1448,
+  "name": "台北國際會議中心(TICC)",
+  "venueType": "會議中心",
+  "city": "台北市",
+  "address": "台北市信義區信義路五段1號",
+  "url": "https://www.ticc.com.tw/",
+  "image": "https://www.ticc.com.tw/wSite/public/Img/f1687945050916.jpg",
+  "maxCapacity": null,
+  "highlights": [],
+  "contact": {
+    "phone": "02-2725-5200",
+    "email": "ticc@taitra.org.tw"
+  },
+  "rooms": [
+    {
+      "id": "1448-01",
+      "name": "大會堂全場",
+      "floor": "1F",
+      "area": 899,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 3100,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "halfDay": 159000,
+        "note": "每時段租金"
+      },
+      "equipment": [
+        "無線麥克風2隻",
+        "主講桌1個",
+        "司儀台1個",
+        "三人報到桌2張",
+        "海報架3個"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1448-02",
+      "name": "大會堂半場",
+      "floor": "1F",
+      "area": 899,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 1208,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "halfDay": 112000,
+        "note": "1-27排，每時段租金"
+      },
+      "equipment": [
+        "無線麥克風2隻",
+        "主講桌1個",
+        "司儀台1個",
+        "三人報到桌2張",
+        "海報架3個"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1448-03",
+      "name": "101 全室",
+      "floor": "1F",
+      "area": 650,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 744,
+        "banquet": 648,
+        "classroom": 90,
+        "uShape": 256,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "halfDay": 67000,
+        "fullDay": 87500,
+        "note": "彈射椅"
+      },
+      "equipment": [
+        "無線麥克風2隻",
+        "主講桌1個",
+        "司儀台1個",
+        "三人報到桌2張",
+        "海報架3個"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1448-04",
+      "name": "101A/D",
+      "floor": "1F",
+      "area": 80,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 120,
+        "banquet": 88,
+        "classroom": 46,
+        "uShape": 64,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "halfDay": 18000,
+        "fullDay": 23500,
+        "note": "彈射椅"
+      },
+      "equipment": [
+        "無線麥克風2隻",
+        "主講桌1個",
+        "司儀台1個",
+        "三人報到桌2張",
+        "海報架3個"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1448-05",
+      "name": "101B/C",
+      "floor": "1F",
+      "area": 20,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 152,
+        "banquet": 120,
+        "classroom": 42,
+        "uShape": 64,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "halfDay": 22000,
+        "fullDay": 29000,
+        "note": "彈射椅"
+      },
+      "equipment": [
+        "無線麥克風2隻",
+        "主講桌1個",
+        "司儀台1個",
+        "三人報到桌2張",
+        "海報架3個"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1448-06",
+      "name": "101AB/CD",
+      "floor": "1F",
+      "area": 20,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 372,
+        "banquet": 340,
+        "classroom": 74,
+        "uShape": 128,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "halfDay": 39000,
+        "fullDay": 49000,
+        "note": "彈射椅"
+      },
+      "equipment": [
+        "無線麥克風2隻",
+        "主講桌1個",
+        "司儀台1個",
+        "三人報到桌2張",
+        "海報架3個"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1448-07",
+      "name": "102",
+      "floor": "1F",
+      "area": 70,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 200,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "halfDay": 27000,
+        "note": "每時段租金"
+      },
+      "equipment": [
+        "無線麥克風2隻",
+        "主講桌1個",
+        "司儀台1個",
+        "三人報到桌2張",
+        "海報架3個"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1448-08",
+      "name": "103",
+      "floor": "1F",
+      "area": 41,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 110,
+        "banquet": 80,
+        "classroom": 52,
+        "uShape": 48,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "halfDay": 21000,
+        "note": "每時段租金"
+      },
+      "equipment": [
+        "無線麥克風2隻",
+        "主講桌1個",
+        "司儀台1個",
+        "三人報到桌2張",
+        "海報架3個"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1448-09",
+      "name": "105",
+      "floor": "1F",
+      "area": 35,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 100,
+        "banquet": 72,
+        "classroom": 30,
+        "uShape": 32,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "halfDay": 18500,
+        "fullDay": 23500,
+        "note": "每時段租金"
+      },
+      "equipment": [
+        "無線麥克風2隻",
+        "主講桌1個",
+        "司儀台1個",
+        "三人報到桌2張",
+        "海報架3個"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1448-10",
+      "name": "106",
+      "floor": "1F",
+      "area": 12,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 10,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "halfDay": 10000,
+        "note": "固定座位8-10人"
+      },
+      "equipment": [
+        "無線麥克風2隻",
+        "主講桌1個",
+        "司儀台1個",
+        "三人報到桌2張",
+        "海報架3個"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1448-11",
+      "name": "201 全室",
+      "floor": "2F",
+      "area": 80,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 800,
+        "banquet": 544,
+        "classroom": 108,
+        "uShape": 288,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "halfDay": 67000,
+        "fullDay": 87500,
+        "note": "彈射椅"
+      },
+      "equipment": [
+        "無線麥克風2隻",
+        "主講桌1個",
+        "司儀台1個",
+        "三人報到桌2張",
+        "海報架3個"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1448-12",
+      "name": "201A/F",
+      "floor": "2F",
+      "area": 20,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 99,
+        "banquet": 72,
+        "classroom": 30,
+        "uShape": 48,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "halfDay": 15000,
+        "fullDay": 19000,
+        "note": "彈射椅"
+      },
+      "equipment": [
+        "無線麥克風2隻",
+        "主講桌1個",
+        "司儀台1個",
+        "三人報到桌2張",
+        "海報架3個"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1448-13",
+      "name": "201B/E",
+      "floor": "2F",
+      "area": 20,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 90,
+        "banquet": 64,
+        "classroom": 26,
+        "uShape": 32,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "halfDay": 15000,
+        "fullDay": 19000,
+        "note": "彈射椅"
+      },
+      "equipment": [
+        "無線麥克風2隻",
+        "主講桌1個",
+        "司儀台1個",
+        "三人報到桌2張",
+        "海報架3個"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1448-14",
+      "name": "201C/D",
+      "floor": "2F",
+      "area": 20,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 90,
+        "banquet": 64,
+        "classroom": 26,
+        "uShape": 32,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "halfDay": 16000,
+        "fullDay": 20000,
+        "note": "彈射椅"
+      },
+      "equipment": [
+        "無線麥克風2隻",
+        "主講桌1個",
+        "司儀台1個",
+        "三人報到桌2張",
+        "海報架3個"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1448-15",
+      "name": "201AB/EF",
+      "floor": "2F",
+      "area": 20,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 248,
+        "banquet": 184,
+        "classroom": 72,
+        "uShape": 72,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "halfDay": 29000,
+        "fullDay": 38500,
+        "note": "彈射椅"
+      },
+      "equipment": [
+        "無線麥克風2隻",
+        "主講桌1個",
+        "司儀台1個",
+        "三人報到桌2張",
+        "海報架3個"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1448-16",
+      "name": "201BC/DE",
+      "floor": "2F",
+      "area": 40,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 232,
+        "banquet": 168,
+        "classroom": 72,
+        "uShape": 72,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "halfDay": 30000,
+        "fullDay": 40000,
+        "note": "彈射椅"
+      },
+      "equipment": [
+        "無線麥克風2隻",
+        "主講桌1個",
+        "司儀台1個",
+        "三人報到桌2張",
+        "海報架3個"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1448-17",
+      "name": "201ABC/DEF",
+      "floor": "2F",
+      "area": 40,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 400,
+        "banquet": 272,
+        "classroom": 92,
+        "uShape": 144,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "halfDay": 44000,
+        "fullDay": 58000,
+        "note": "彈射椅"
+      },
+      "equipment": [
+        "無線麥克風2隻",
+        "主講桌1個",
+        "司儀台1個",
+        "三人報到桌2張",
+        "海報架3個"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1448-18",
+      "name": "201ABEF",
+      "floor": "2F",
+      "area": 60,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 528,
+        "banquet": 352,
+        "classroom": 86,
+        "uShape": 192,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "halfDay": 57000,
+        "fullDay": 74000,
+        "note": "彈射椅"
+      },
+      "equipment": [
+        "無線麥克風2隻",
+        "主講桌1個",
+        "司儀台1個",
+        "三人報到桌2張",
+        "海報架3個"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1448-19",
+      "name": "201BCDE",
+      "floor": "2F",
+      "area": 60,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 476,
+        "banquet": 320,
+        "classroom": 82,
+        "uShape": 160,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "halfDay": 59000,
+        "fullDay": 77000,
+        "note": "彈射椅"
+      },
+      "equipment": [
+        "無線麥克風2隻",
+        "主講桌1個",
+        "司儀台1個",
+        "三人報到桌2張",
+        "海報架3個"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1448-20",
+      "name": "202/203",
+      "floor": "3F",
+      "area": 80,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 80,
+        "banquet": 60,
+        "classroom": 34,
+        "uShape": 104,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "halfDay": 12000,
+        "fullDay": 15000,
+        "note": "工作室或休息室用途"
+      },
+      "equipment": [
+        "無線麥克風2隻",
+        "主講桌1個",
+        "司儀台1個",
+        "三人報到桌2張",
+        "海報架3個"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1448-21",
+      "name": "202A/203A",
+      "floor": "3F",
+      "area": 80,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 55,
+        "banquet": 45,
+        "classroom": 30,
+        "uShape": 64,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "halfDay": 7000,
+        "fullDay": 9000,
+        "note": "工作室或休息室用途"
+      },
+      "equipment": [
+        "無線麥克風2隻",
+        "主講桌1個",
+        "司儀台1個",
+        "三人報到桌2張",
+        "海報架3個"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1448-22",
+      "name": "202B/203B",
+      "floor": "3F",
+      "area": 5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 40,
+        "banquet": 32,
+        "classroom": 24,
+        "uShape": 40,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "halfDay": 5000,
+        "fullDay": 7000,
+        "note": "工作室或休息室用途"
+      },
+      "equipment": [
+        "無線麥克風2隻",
+        "主講桌1個",
+        "司儀台1個",
+        "三人報到桌2張",
+        "海報架3個"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1448-23",
+      "name": "3樓南/北軒",
+      "floor": "3F",
+      "area": 5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 90,
+        "banquet": 70,
+        "classroom": 40,
+        "uShape": 52,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "halfDay": 18500,
+        "fullDay": 23500,
+        "note": "每時段租金"
+      },
+      "equipment": [
+        "無線麥克風2隻",
+        "主講桌1個",
+        "司儀台1個",
+        "三人報到桌2張",
+        "海報架3個"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1448-24",
+      "name": "3樓宴會廳",
+      "floor": "3F",
+      "area": 25,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 640,
+        "banquet": 384,
+        "classroom": 70,
+        "uShape": 296,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "halfDay": 79000,
+        "fullDay": 105000,
+        "note": "每時段租金"
+      },
+      "equipment": [
+        "無線麥克風2隻",
+        "主講桌1個",
+        "司儀台1個",
+        "三人報到桌2張",
+        "海報架3個"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1448-25",
+      "name": "401",
+      "floor": "4F",
+      "area": 58,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 60,
+        "banquet": 60,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "halfDay": 20000,
+        "note": "工作室或休息室用途"
+      },
+      "equipment": [
+        "無線麥克風2隻",
+        "主講桌1個",
+        "司儀台1個",
+        "三人報到桌2張",
+        "海報架3個"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1448-26",
+      "name": "4樓雅/悅軒",
+      "floor": "4F",
+      "area": 10,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 90,
+        "banquet": 70,
+        "classroom": 40,
+        "uShape": 52,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "halfDay": 18500,
+        "fullDay": 23500,
+        "note": "每時段租金"
+      },
+      "equipment": [
+        "無線麥克風2隻",
+        "主講桌1個",
+        "司儀台1個",
+        "三人報到桌2張",
+        "海報架3個"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1448-27",
+      "name": "4樓鳳凰廳",
+      "floor": "4F",
+      "area": 10,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 250,
+        "banquet": 180,
+        "classroom": 48,
+        "uShape": 200,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "halfDay": 42000,
+        "fullDay": 84000,
+        "note": "每時段租金"
+      },
+      "equipment": [
+        "無線麥克風2隻",
+        "主講桌1個",
+        "司儀台1個",
+        "三人報到桌2張",
+        "海報架3個"
+      ],
+      "limitations": []
+    }
+  ],
+  "risks": null,
+  "rules": {
+    "catering": [
+      {
+        "rule": "非經展覽主辦單位同意，所有餐飲均不得自備",
+        "exception": "經展覽主辦單位同意",
+        "penalty": null,
+        "negotiable": true,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "equipment": [
+      {
+        "rule": "提供每間會議室桌椅數量及視聽設備以標準容量為限，額外需求或現場追加桌椅費用另計",
+        "exception": null,
+        "penalty": "費用另計",
+        "negotiable": true,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "decoration": [
+      {
+        "rule": "布置或拆場租金按該時段定價6折計價",
+        "exception": null,
+        "penalty": null,
+        "negotiable": true,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "會議室用畢必須恢復原狀，相關設備若有損毀，主辦單位將據以求償",
+        "exception": null,
+        "penalty": "按損毀程度求償",
+        "negotiable": false,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "loadIn": [
+      {
+        "rule": "載運土方及半聯結車載運機具及大型建材每日上午06:30-09:30及下午16:00-20:00禁止使用",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "大貨車需申請通行證，部分時段禁止進出管制區",
+        "exception": "申請通行證可於開放時段進出",
+        "penalty": null,
+        "negotiable": false,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "pricing": [
+      {
+        "rule": "每時段逾時使用未滿4小時者，以整時段租金計價",
+        "exception": null,
+        "penalty": "整時段租金",
+        "negotiable": false,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "other": [
+      {
+        "rule": "會議室數量有限，採先申請先審核原則受理預訂",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "TICC全館免費無線上網（自101年4月起），無須付費及帳號",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ]
+  },
+  "pricingTips": null,
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1448.html"
+}

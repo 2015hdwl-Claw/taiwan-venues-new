@@ -10,7 +10,21 @@
     "phone": "02-2719-8399",
     "contactEmail": "gsm@theillumehotel.com"
   },
-  "summary": null,
+  "summary": {
+    "shortDescription": "茹曦酒店 ILLUME TAIPEI位於台北市，擁有9間會議室，最大容納1200人。",
+    "totalRooms": 9,
+    "maxCapacity": 1200,
+    "priceRange": {
+      "halfDayMin": 150000,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": 280000,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
   "risks": null,
   "rules": null,
   "pricingTips": null,

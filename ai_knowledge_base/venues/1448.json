@@ -10,7 +10,21 @@
     "phone": null,
     "contactEmail": "ticc@taitra.org.tw"
   },
-  "summary": null,
+  "summary": {
+    "shortDescription": "台北國際會議中心(TICC)位於台北市，擁有27間會議室，最大容納3100人。",
+    "totalRooms": 27,
+    "maxCapacity": 3100,
+    "priceRange": {
+      "halfDayMin": 159000,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": 170000,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
   "risks": null,
   "rules": {
     "catering": [

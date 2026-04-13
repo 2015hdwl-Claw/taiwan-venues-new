@@ -2,7 +2,7 @@
 Search API - 智能搜尋端點
 """
 
-from fastapi import APIRouter, HTTPException, Depends
+from fastapi import APIRouter, HTTPException, Depends, Query
 from typing import Optional, List
 from pydantic import BaseModel, Field
 from sqlalchemy.orm import Session

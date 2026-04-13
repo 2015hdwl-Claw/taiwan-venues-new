@@ -1,0 +1,297 @@
+{
+  "id": 1051,
+  "name": "台北亞都麗緻大飯店(LandisTaipei)",
+  "venueType": "飯店場地",
+  "city": "台北市",
+  "address": "台北市中山區民權東路二段41號",
+  "url": "https://taipei.landishotelsresorts.com/meeting-list.php",
+  "image": "https://taipei.landishotelsresorts.com/manage/upload/meetroom/1773940339_47730.jpg",
+  "maxCapacity": 160,
+  "highlights": [
+    "經典歐式風格精品酒店",
+    "3個會議室：B1宴會廳、2F Matisse、2F Le Salon",
+    "B1宴會廳可分為三區，適合各類型活動",
+    "位於中山區民生東路，交通便利",
+    "專業婚宴與會議服務"
+  ],
+  "contact": {
+    "phone": "+886-2-2597-1234",
+    "email": "services@landistpe.com.tw",
+    "banquet": "+886-2-2597-1234"
+  },
+  "rooms": [
+    {
+      "id": "1051-01",
+      "name": "B1 宴會廳 Banquet Hall",
+      "floor": "B1",
+      "area": 97,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 160,
+        "classroom": 120,
+        "ushape": 63,
+        "banquet": 300
+      },
+      "pricing": {
+        "halfDay": 29000,
+        "fullDay": 58000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "燈光控制",
+        "舞台"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1051-02",
+      "name": "2F Le Salon",
+      "floor": "2樓",
+      "area": 33,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 62,
+        "classroom": 60,
+        "ushape": 38,
+        "banquet": 96
+      },
+      "pricing": {
+        "halfDay": 10000,
+        "fullDay": 20000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "燈光控制"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1051-03",
+      "name": "2F Matisse",
+      "floor": "2樓",
+      "area": 20,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 40,
+        "classroom": 30,
+        "ushape": 15,
+        "banquet": 36
+      },
+      "pricing": {
+        "halfDay": 6000,
+        "fullDay": 12000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "燈光控制"
+      ],
+      "limitations": []
+    }
+  ],
+  "risks": {
+    "bookingLeadTime": "一般活動至少2-4週前；旺季建議2-3個月前",
+    "peakSeasons": [
+      "12-1月尾牙旺季",
+      "10-12月婚宴旺季",
+      "農曆年前後企業聚餐"
+    ],
+    "commonIssues": [
+      "天花板高度2.5米，大型背板或LED牆需提前確認可行性",
+      "B1宴會廳熱門時段（週六晚宴）需提早預訂",
+      "停車位有限（約50個），百人以上活動需提前安排停車方案"
+    ]
+  },
+  "rules": {
+    "catering": [
+      {
+        "rule": "限用飯店餐飲服務，提供中/西式宴席與自助餐，不可外燴",
+        "exception": "茶點、餅乾等簡單茶歇可討論",
+        "penalty": "若攜入外食，飯店有權要求撤除",
+        "negotiable": false,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "酒水需使用飯店提供之酒類，自備酒類需支付開瓶費",
+        "exception": null,
+        "penalty": "開瓶費依酒類別計價",
+        "negotiable": true,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "decoration": [
+      {
+        "rule": "佈置需提前向宴會部申請，禁止使用圖釘、膠帶直接黏貼於牆面",
+        "exception": "可使用飯店提供之展示架或立牌",
+        "penalty": "牆面損壞需照價賠償",
+        "negotiable": false,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "天花板高度2.5米，大型道具或背板高度不得超過2.2米",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "禁止施放鞭炮、煙火、乾冰等具安全疑慮之特殊效果",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "sound": [
+      {
+        "rule": "內建專業音響系統，提供無線麥克風，額外音響設備需申請",
+        "exception": null,
+        "penalty": null,
+        "negotiable": true,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "晚間22:00後音量需降低，避免影響住宿客人",
+        "exception": "B1樓層隔音較佳，彈性較大",
+        "penalty": null,
+        "negotiable": true,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "loadIn": [
+      {
+        "rule": "進場佈置一般為活動前2-3小時",
+        "exception": "大型佈置可申請前一天夜間進場（22:00後），需額外費用",
+        "penalty": null,
+        "negotiable": true,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "大型設備需經貨梯進出，載重限制約1.5噸",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "活動結束後需於指定時間內完成撤場",
+        "exception": null,
+        "penalty": "超時撤場依合約約定收取超時費",
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "cancellation": [
+      {
+        "rule": "活動前60天以上取消，全額退還訂金",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "活動前30-59天取消，退還50%訂金",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "活動前30天內取消，訂金不予退還",
+        "exception": "改期可協調，視檔期availability而定",
+        "penalty": null,
+        "negotiable": true,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "insurance": [
+      {
+        "rule": "大型活動（200人以上）建議投保公共意外責任險",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ]
+  },
+  "pricingTips": [
+    "Matisse廳半天僅NT$6,000起，是台北市中心最具性價比的小型會議空間",
+    "平日租用比假日便宜約10%",
+    "多廳同時租用可與宴會部議價",
+    "搭配飯店住宿方案通常有套裝優惠"
+  ],
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1051.html"
+}

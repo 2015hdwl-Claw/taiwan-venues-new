@@ -1,0 +1,62 @@
+
+// ===== 編輯相關函數 =====
+function openEditDialog() {
+  if (!venue.value) return
+
+  // 深拷貝場地資料到編輯表單
+  editForm.value = JSON.parse(JSON.stringify(venue.value))
+
+  // 確保 images 結構完整
+  if (!editForm.value.images) {
+    editForm.value.images = { main: '', gallery: [] }
+  }
+  if (!editForm.value.images.gallery) {
+    editForm.value.images.gallery = []
+  }
+
+  editDialogVisible.value = true
+}
+
+async function saveVenue() {
+  try {
+    saving.value = true
+
+    // 調用 API 更新場地資料
+    await api.put(`/api/v1/admin/venues/${editForm.value.id}`, editForm.value)
+
+    // 更新本地狀態
+    venue.value = JSON.parse(JSON.stringify(editForm.value))
+
+    // 重新載入資料以確保同步
+    await fetchData()
+
+    ElMessage.success('場地資料已更新')
+    editDialogVisible.value = false
+  } catch (error) {
+    console.error('Save venue error:', error)
+    ElMessage.error('儲存失敗: ' + (error.response?.data?.detail || error.message))
+  } finally {
+    saving.value = false
+  }
+}
+
+function previewImage(url) {
+  if (!url) {
+    ElMessage.warning('請先輸入照片 URL')
+    return
+  }
+  previewImageUrl.value = url
+  imagePreviewVisible.value = true
+}
+
+function handleImageError(event) {
+  event.target.src = 'https://via.placeholder.com/400x300?text=Invalid+Image'
+}
+
+function addGalleryImage() {
+  editForm.value.images.gallery.push('')
+}
+
+function removeGalleryImage(index) {
+  editForm.value.images.gallery.splice(index, 1)
+}

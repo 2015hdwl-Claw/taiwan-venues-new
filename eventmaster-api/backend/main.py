@@ -74,12 +74,13 @@ async def root():
     }
 
 # 匯入路由
-from app.api import venues, auth, availability, search
+from app.api import venues, auth, availability, search, admin
 app.include_router(venues.router, prefix="/api/v1/venues", tags=["venues"])
 app.include_router(auth.router, prefix="/api/v1/auth", tags=["auth"])
 app.include_router(availability.router, prefix="/api/v1/availability", tags=["availability"])
 app.include_router(search.router, prefix="/api/v1/search", tags=["search"])
+app.include_router(admin.router, prefix="/api/v1/admin", tags=["admin"])
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=8888)

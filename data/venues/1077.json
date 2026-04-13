@@ -1,0 +1,244 @@
+{
+  "id": 1077,
+  "name": "台北艾麗酒店",
+  "venueType": "飯店場地",
+  "city": "台北市",
+  "address": "台北市信義區松高路18號B棟",
+  "url": "https://www.humblehousehotels.com/",
+  "image": "https://www.humblehousehotels.com/files/page_175750268314n5kvr.jpg",
+  "maxCapacity": null,
+  "highlights": [
+    "信義計劃區設計酒店，寒舍集團成員",
+    "世界級HBA設計，挑高無柱宴會空間",
+    "宴會廳全廳212坪，總面積702平方公尺",
+    "5間獨立廳房：蘭(67坪)、葵(70坪)、楓(49坪)、柏(25坪)、槿(21坪)",
+    "適合商務會議、婚宴、企業講座、春酒尾牙",
+    "專業餐飲團隊，提供中式、西式美食選擇"
+  ],
+  "contact": {
+    "phone": "+886-2-6631-8000",
+    "email": "sales@humblehousehotels.com",
+    "banquet": "+886-2-6631-8000",
+    "extension": "轉宴會業務部"
+  },
+  "rooms": [
+    {
+      "id": "1077-gold-room",
+      "name": "蘭廳",
+      "floor": "宴會樓層",
+      "area": 221,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": null,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1077-orchid-room",
+      "name": "葵廳",
+      "floor": "宴會樓層",
+      "area": 231,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": null,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1077-sunflower-room",
+      "name": "楓廳",
+      "floor": "宴會樓層",
+      "area": 161,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": null,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1077-bamboo-room",
+      "name": "柏廳",
+      "floor": "宴會樓層",
+      "area": 82,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": null,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1077-cypress-room",
+      "name": "槿廳",
+      "floor": "宴會樓層",
+      "area": 69,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": null,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1077-07",
+      "name": "TERRACE 大廳",
+      "floor": null,
+      "area": 26,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 10
+      },
+      "pricing": {
+        "halfDay": 26800
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    }
+  ],
+  "risks": {
+    "bookingLeadTime": "至少1個月, 大型宴會建議3-6個月前預約",
+    "peakSeasons": [
+      "10-12月婚宴旺季",
+      "12-1月尾牙季"
+    ],
+    "commonIssues": [
+      "價格不透明需多次來回確認報價",
+      "最大廳房僅70坪, 200人以上宴會可能不敷使用"
+    ]
+  },
+  "rules": {
+    "catering": [
+      {
+        "rule": "限用飯店餐飲服務",
+        "exception": "輕茶點會議方案可能允許搭配外部點心",
+        "penalty": null,
+        "negotiable": true,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "decoration": [
+      {
+        "rule": "禁止使用會損壞牆面、地板或天花板之固定方式",
+        "exception": null,
+        "penalty": "場地損壞需照價賰償",
+        "negotiable": false,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "sound": [
+      {
+        "rule": "提供全套先進影音設備（含投影、音響、燈光）",
+        "exception": "特殊規格外接設備需提前申請",
+        "penalty": null,
+        "negotiable": true,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "loadIn": [
+      {
+        "rule": "一般活動前1-2小時開放進場佈置",
+        "exception": "大型活動可協調前一日進場",
+        "penalty": null,
+        "negotiable": true,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "cancellation": [
+      {
+        "rule": "活動前30天取消退還大部分訂金",
+        "exception": "旺季取消條件更嚴格",
+        "penalty": "14天內取消可能沒收全額訂金",
+        "negotiable": true,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ]
+  },
+  "pricingTips": [
+    "平日會議方案通常比假日宴會便宜",
+    "寒舍集團可交叉比較",
+    "簽訂會議專案通常比單租場地更划算"
+  ],
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1077.html"
+}

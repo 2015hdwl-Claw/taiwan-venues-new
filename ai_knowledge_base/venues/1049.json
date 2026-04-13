@@ -10,7 +10,21 @@
     "phone": null,
     "contactEmail": "twtc@taitra.org.tw"
   },
-  "summary": null,
+  "summary": {
+    "shortDescription": "台北世貿中心(TWTCA)展覽大樓位於台北市，擁有9間會議室，最大容納500人。",
+    "totalRooms": 9,
+    "maxCapacity": 500,
+    "priceRange": {
+      "halfDayMin": 100000,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": 180000,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
   "risks": null,
   "rules": {
     "catering": "餐飲服務",

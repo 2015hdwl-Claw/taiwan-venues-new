@@ -10,7 +10,21 @@
     "phone": "+886-2-8502-0000",
     "contactEmail": "service@grandvictoria.com.tw"
   },
-  "summary": null,
+  "summary": {
+    "shortDescription": "維多麗亞酒店位於台北市，擁有18間會議室，最大容納450人。",
+    "totalRooms": 18,
+    "maxCapacity": 450,
+    "priceRange": {
+      "halfDayMin": 10000,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": 360000,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
   "risks": {
     "bookingLeadTime": "一般活動至少2-4週前；1F宴會廳建議2-3個月前；婚宴旺季建議4-6個月前",
     "peakSeasons": [

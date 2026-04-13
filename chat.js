@@ -18,10 +18,9 @@
 
     // Quick action suggestions
     const QUICK_ACTIONS = [
-        '這個場地可以帶外食嗎？',
-        '進場佈置有什麼限制？',
-        '取消訂位的規定是什麼？',
-        '場地有哪些潛在風險？'
+        '天花板高度限制？',
+        '電力負載支援？',
+        '幫我寫一封場地詢問信',
     ];
 
     /**
@@ -36,33 +35,23 @@
      * Create chat widget DOM
      */
     function createChatWidget() {
-        // Create toggle button
-        const toggle = document.createElement('button');
-        toggle.className = 'chat-toggle';
-        toggle.id = 'chatToggle';
-        toggle.innerHTML = `
-            <svg viewBox="0 0 24 24">
-                <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/>
-                <path d="M7 9h10v2H7zm0-3h10v2H7z"/>
-            </svg>
-        `;
-        toggle.onclick = toggleChat;
-        document.body.appendChild(toggle);
-
         // Create chat window
         const chatWindow = document.createElement('div');
         chatWindow.className = 'chat-window';
         chatWindow.id = 'chatWindow';
         chatWindow.innerHTML = `
             <div class="chat-header">
-                <div class="chat-header-title">
-                    <h3>🤖 場地顧問</h3>
-                    <span>AI 助理</span>
+                <div class="chat-header-left">
+                    <div class="chat-avatar">
+                        <span class="material-symbols-outlined">robot_2</span>
+                    </div>
+                    <div>
+                        <h4 class="chat-header-title">活動企劃小幫手</h4>
+                        <p class="chat-header-status"><span class="ai-active-indicator"></span>Ready to help</p>
+                    </div>
                 </div>
                 <button class="chat-close" onclick="window.toggleChat()">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M18 6L6 18M6 6l12 12"/>
-                    </svg>
+                    <span class="material-symbols-outlined">close</span>
                 </button>
             </div>
             <div class="venue-context" id="venueContext" style="display: none;">
@@ -71,7 +60,7 @@
             </div>
             <div class="chat-messages" id="chatMessages">
                 <div class="message assistant">
-                    👋 你好！我是活動大師的 AI 場地顧問。我可以幫你查詢場地的規定、限制和注意事項。請問有什麼想了解的？
+                    您好！我是您的活動企劃小幫手。所有活動規劃上的問題，您都可以直接詢問，或使用下方的快捷選項。
                 </div>
             </div>
             <div class="quick-actions" id="quickActions">
@@ -88,13 +77,31 @@
                     onkeypress="if(event.key==='Enter')window.sendMessage()"
                 >
                 <button class="chat-send" id="chatSend" onclick="window.sendMessage()">
-                    <svg viewBox="0 0 24 24">
-                        <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
-                    </svg>
+                    <span class="material-symbols-outlined">send</span>
                 </button>
             </div>
         `;
-        document.body.appendChild(chatWindow);
+
+        // Check for embed container (index.html inline mode)
+        const embedContainer = document.getElementById('chatEmbedContainer');
+
+        if (embedContainer) {
+            // Embed mode: place chat inside container
+            chatWindow.classList.add('open', 'chat-embedded');
+            embedContainer.appendChild(chatWindow);
+        } else {
+            // Float mode: toggle button + floating overlay
+            const toggle = document.createElement('button');
+            toggle.className = 'chat-toggle';
+            toggle.id = 'chatToggle';
+            toggle.innerHTML = `
+                <span class="material-symbols-outlined" style="font-size:28px;">smart_toy</span>
+                <span class="chat-toggle-badge">1</span>
+            `;
+            toggle.onclick = toggleChat;
+            document.body.appendChild(toggle);
+            document.body.appendChild(chatWindow);
+        }
 
         // Expose global functions
         window.toggleChat = toggleChat;
@@ -108,8 +115,17 @@
      * Toggle chat window visibility
      */
     function toggleChat() {
-        isOpen = !isOpen;
         const chatWindow = document.getElementById('chatWindow');
+        if (!chatWindow) return;
+
+        // In embed mode, just focus the input
+        if (chatWindow.classList.contains('chat-embedded')) {
+            const input = document.getElementById('chatInput');
+            if (input) input.focus();
+            return;
+        }
+
+        isOpen = !isOpen;
         if (isOpen) {
             chatWindow.classList.add('open');
             document.getElementById('chatInput').focus();
@@ -148,6 +164,14 @@
      * Send a quick action message
      */
     function sendQuickMessage(text) {
+        // In float mode, open chat first
+        if (!isOpen) {
+            const chatWindow = document.getElementById('chatWindow');
+            if (chatWindow && !chatWindow.classList.contains('chat-embedded')) {
+                isOpen = true;
+                chatWindow.classList.add('open');
+            }
+        }
         const input = document.getElementById('chatInput');
         input.value = text;
         sendMessage();

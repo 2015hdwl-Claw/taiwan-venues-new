@@ -1,0 +1,455 @@
+{
+  "id": 1075,
+  "name": "台北寒舍喜來登大飯店",
+  "venueType": "飯店場地",
+  "city": "台北市",
+  "address": "台北市中正區忠孝東路一段12號",
+  "url": "https://www.sheratongrandtaipei.com/",
+  "image": "https://www.sheratongrandtaipei.com/files/pages_175459012814kxhgw40_l.jpg",
+  "maxCapacity": 800,
+  "highlights": [
+    "14間宴會空間，靈活彈性運用",
+    "千人宴會場地，大型會議首選",
+    "英國手工地毯鋪陳，質感全面升級",
+    "近捷運善導寺站，交通便利迅速抵達",
+    "專業會議團隊支援，服務細膩安心無虞",
+    "高畫質310吋屏幕、提升清晰視覺感",
+    "家傳中西手路菜、五星名廚美味保證"
+  ],
+  "contact": {
+    "phone": "02-2321-5511",
+    "fax": "02-2394-4240",
+    "email": "catering.sales@sheratongrandtaipei.com",
+    "department": "宴會業務部"
+  },
+  "rooms": [
+    {
+      "id": "1075-01",
+      "name": "喜來登廳",
+      "floor": "B2",
+      "area": 445,
+      "ceilingHeight": 4.8,
+      "capacity": {
+        "theater": 1150,
+        "classroom": 525,
+        "banquet": 1080,
+        "reception": 560
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1075-02",
+      "name": "宴會廳",
+      "floor": "B2",
+      "area": 606,
+      "ceilingHeight": 4.8,
+      "capacity": {
+        "theater": 1400,
+        "banquet": 1440
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1075-03",
+      "name": "福廳",
+      "floor": "B2",
+      "area": 150,
+      "ceilingHeight": 4.8,
+      "capacity": {
+        "theater": 366,
+        "classroom": 168,
+        "banquet": 360,
+        "reception": 200
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1075-04",
+      "name": "祿廳",
+      "floor": "B2",
+      "area": 155,
+      "ceilingHeight": 4.8,
+      "capacity": {
+        "theater": 366,
+        "classroom": 168,
+        "banquet": 384,
+        "reception": 200
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1075-05",
+      "name": "壽廳",
+      "floor": "B2",
+      "area": 75,
+      "ceilingHeight": 2.4,
+      "capacity": {
+        "theater": 200,
+        "classroom": 99,
+        "banquet": 156,
+        "reception": 90
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1075-06",
+      "name": "喜廳",
+      "floor": "B2",
+      "area": 69,
+      "ceilingHeight": 2.4,
+      "capacity": {
+        "theater": 150,
+        "classroom": 90,
+        "banquet": 120,
+        "reception": 70
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1075-07",
+      "name": "日廳",
+      "floor": "B2",
+      "area": 20,
+      "ceilingHeight": 2.4,
+      "capacity": {
+        "theater": 40,
+        "classroom": 27,
+        "banquet": 36
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1075-08",
+      "name": "月廳",
+      "floor": "B2",
+      "area": 21,
+      "ceilingHeight": 2.4,
+      "capacity": {
+        "theater": 40,
+        "classroom": 27,
+        "banquet": 36
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1075-09",
+      "name": "星廳",
+      "floor": "B2",
+      "area": 20,
+      "ceilingHeight": 2.4,
+      "capacity": {
+        "theater": 40,
+        "classroom": 27,
+        "banquet": 36
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1075-10",
+      "name": "玉瀾",
+      "floor": "B1",
+      "area": 15,
+      "ceilingHeight": 2.5,
+      "capacity": {
+        "theater": 40,
+        "classroom": 24,
+        "banquet": 24
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1075-11",
+      "name": "薈萃",
+      "floor": "B1",
+      "area": 15,
+      "ceilingHeight": 2.5,
+      "capacity": {
+        "theater": 40,
+        "classroom": 24,
+        "banquet": 24
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1075-12",
+      "name": "翠芳",
+      "floor": "B1",
+      "area": 15,
+      "ceilingHeight": 2.5,
+      "capacity": {
+        "theater": 40,
+        "classroom": 24,
+        "banquet": 24
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1075-13",
+      "name": "彩蝶",
+      "floor": "B1",
+      "area": 20,
+      "ceilingHeight": 2.5,
+      "capacity": {
+        "theater": 60,
+        "classroom": 36,
+        "banquet": 36
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1075-14",
+      "name": "逸絢",
+      "floor": "B1",
+      "area": 20,
+      "ceilingHeight": 2.5,
+      "capacity": {
+        "theater": 60,
+        "classroom": 36,
+        "banquet": 36
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1075-15",
+      "name": "清翫",
+      "floor": "1F",
+      "area": 72.36,
+      "ceilingHeight": 3.3,
+      "capacity": {
+        "theater": 160,
+        "classroom": 81,
+        "banquet": 156,
+        "reception": 70
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1075-16",
+      "name": "瑞穗園",
+      "floor": "2F",
+      "area": 91.89,
+      "ceilingHeight": 2.2,
+      "capacity": {
+        "theater": 240,
+        "classroom": 147,
+        "banquet": 216,
+        "reception": 120
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    }
+  ],
+  "risks": {
+    "bookingLeadTime": "至少1個月（大型宴會建議3個月前）",
+    "peakSeasons": [
+      "10-12月婚宴旺季",
+      "12-1月尾牙",
+      "6月畢業季"
+    ],
+    "commonIssues": [
+      "B2大宴會廳無手機訊號",
+      "喜來登廳+宴會廳同時使用需確認動線"
+    ]
+  },
+  "rules": {
+    "catering": [
+      {
+        "rule": "本餐飲一律由本餐廳服務",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "decoration": [
+      {
+        "rule": "三溫暖及游泳池場區嚴格，須使用無污染的物品",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "sound": [
+      {
+        "rule": "音響設備需基本音響，無特別要求",
+        "exception": null,
+        "penalty": null,
+        "negotiable": true,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "loadIn": [
+      {
+        "rule": "B2停車場可供進場使用",
+        "exception": null,
+        "penalty": null,
+        "negotiable": true,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "cancellation": [
+      {
+        "rule": "取消或改期需依合約約定辦理",
+        "exception": null,
+        "penalty": "依合約約定",
+        "negotiable": true,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ]
+  },
+  "pricingTips": [
+    "B2宴會廳拆分為福廳+祿廳各租更划算",
+    "訂9:00-17:00比8:00-16:00便宜20%",
+    "1F清翫適合中小型精品發表會",
+    "會議專案含茶水點心，比單租場地更完整"
+  ],
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1075.html"
+}

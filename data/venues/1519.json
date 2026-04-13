@@ -1,0 +1,41 @@
+{
+  "id": 1519,
+  "name": "葳格國際會議中心",
+  "venueType": "會議中心",
+  "city": "台中市",
+  "address": "台中市",
+  "url": "https://www.weddingday.com.tw/store-venue/5651",
+  "image": null,
+  "maxCapacity": null,
+  "highlights": [],
+  "contact": {
+    "phone": "TBD",
+    "email": "polygram2437@gmail.com"
+  },
+  "rooms": [
+    {
+      "id": "1519-MeetingRoo",
+      "name": "Meeting Room",
+      "floor": null,
+      "area": 399.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 1100,
+        "banquet": 880
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    }
+  ],
+  "risks": null,
+  "rules": null,
+  "pricingTips": null,
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1519.html"
+}

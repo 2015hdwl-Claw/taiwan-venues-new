@@ -1,0 +1,67 @@
+{
+  "id": 1525,
+  "name": "潮港城宴會廳 南屯店",
+  "venueType": "婚宴場地",
+  "city": "台中市",
+  "address": "台中市南屯區",
+  "url": "https://www.ckcchao.com/rental",
+  "image": null,
+  "maxCapacity": null,
+  "highlights": [],
+  "contact": {
+    "phone": "TBD",
+    "email": "TBD"
+  },
+  "rooms": [
+    {
+      "id": "1525-典雅的多功能宴會廳",
+      "name": "典雅的多功能宴會廳",
+      "floor": null,
+      "area": 14.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 40,
+        "banquet": 32,
+        "classroom": 20
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    }
+  ],
+  "risks": null,
+  "rules": {
+    "catering": [
+      {
+        "rule": "top of page首頁最新消息會議宴會婚宴場地帝國宴會廳VIP包廂場地租借時尚宴會廳宴席服務2026外燴辦桌專案2026潮港城婚宴專案2026彌月油飯禮盒2026春酒專案節慶相關2026日本美食節活動開跑2026潮港城董娘粽早鳥專案預購中2026潮愛媽咪母親節專案2026母親節限定拍照抽餐券品牌餐廳太陽百匯福瑞堂-創新台菜港佬大潮膳閣豬在瘋豬腳專賣店 腿庫｜爌肉｜魯肉飯集團介紹品牌故事得獎事跡歷史軌跡ESG社會責仕人力招募會員專區2026潮會員專屬優惠潮會員登入訂位管理會員說明常見問題訂位須知隱私權政策更多服務線上訂位預約訂席企業福委異業特約商店旅遊同業料理過敏原查詢檢驗報告MoreUse tab to navigate through the menu items.太陽百匯線上訂位",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "感受完美宴席禮遇、重要時刻賓主盡歡press to zoompress to zoompress to zoompress to zoompress to zoompress to zoom1/2公關活動、產品發表會、經銷商、座談會、企業年會、慶祝活動、大型會議等彈性運用的各式場地，滿足您多元使用需求，搭配完善先進的軟硬體設施，帶來不同凡響的無限商機！(場地配置客製化：劇院型、酒會型、教室型、宴會型、自助型、中小企業小會議等。)​選擇館別台中南屯時尚宴會廳",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ]
+  },
+  "pricingTips": null,
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1525.html"
+}

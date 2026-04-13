@@ -10,7 +10,21 @@
     "phone": null,
     "contactEmail": null
   },
-  "summary": null,
+  "summary": {
+    "shortDescription": "台北萬豪酒店(MarriottTaipei)位於台北市，擁有21間會議室，最大容納1200人。",
+    "totalRooms": 21,
+    "maxCapacity": 1200,
+    "priceRange": {
+      "halfDayMin": 290000,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": 1550000,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
   "risks": {
     "bookingLeadTime": "至少2個月（大型活動建議6個月前）",
     "peakSeasons": [

@@ -189,6 +189,8 @@ async def get_venue(
                 "contact_email": venue.contact_email,
                 "url": venue.url,
                 "description": venue.description,
+                "is_active": getattr(venue, 'is_active', True),
+                "status_notes": getattr(venue, 'status_notes', None),
                 "location": {
                     "lat": float(venue.latitude) if venue.latitude else None,
                     "lng": float(venue.longitude) if venue.longitude else None

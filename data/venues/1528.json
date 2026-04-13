@@ -1,0 +1,145 @@
+{
+  "id": 1528,
+  "name": "漢來國際宴會廳",
+  "venueType": "婚宴場地",
+  "city": "高雄市",
+  "address": "高雄市",
+  "url": "https://www.grand-hilai.com/space/conference/",
+  "image": null,
+  "maxCapacity": null,
+  "highlights": [],
+  "contact": {
+    "phone": "07-216-1766",
+    "email": "service@grand-hilai.com.tw"
+  },
+  "rooms": [
+    {
+      "id": "1528-Conference",
+      "name": "Conference Room",
+      "floor": null,
+      "area": 726,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 2000,
+        "banquet": 1600,
+        "classroom": 1000
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": [
+        "限用飯店餐飲，不可外燴",
+        "噪音管制至22:00",
+        "禁止使用噴霧、煙霧機等特殊效果"
+      ]
+    }
+  ],
+  "risks": null,
+  "rules": {
+    "catering": [
+      {
+        "rule": "限用飯店餐飲服務，提供中式及西式宴席及茶點，不可外燴",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "會議型活動可安排茶會及自助餐，需另計費用",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "decoration": [
+      {
+        "rule": "場佈需提前申請，不得使用破壞性素材",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "會議室內禁止使用噴霧、煙霧機等特殊效果設備",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "sound": [
+      {
+        "rule": "場地配備基本音響與投影設備，額外設備需提前申請",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "噪音管制至晚間22:00",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "loadIn": [
+      {
+        "rule": "進場施工需預約貨梯，大型道具限2噸以下",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "會議型活動進場時間通常為活動前2-4小時",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "cancellation": [
+      {
+        "rule": "活動前90天取消退訂金80%，60天前退50%，30天內不退款",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "insurance": [
+      {
+        "rule": "大型活動（500人以上）建議投保公共意外責任險",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ]
+  },
+  "pricingTips": [
+    "平日價格比假日便宜約20-30%",
+    "會議時段（上午）通常比宴會時段便宜",
+    "住宿加會議套裝比單獨租用更優惠",
+    "淡季（3-5月、7-9月）可議價空間較大",
+    "半天方案通常比全天方案更經濟"
+  ],
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1528.html"
+}

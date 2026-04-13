@@ -10,7 +10,21 @@
     "phone": null,
     "contactEmail": null
   },
-  "summary": null,
+  "summary": {
+    "shortDescription": "新北市工商展覽中心位於新北市，擁有1間會議室，最大容納250人。",
+    "totalRooms": 1,
+    "maxCapacity": 250,
+    "priceRange": {
+      "halfDayMin": null,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": null,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
   "risks": {
     "bookingLeadTime": "一般活動需30日前申請；大型活動建議60-90日前；年底旺季建議3個月以上",
     "peakSeasons": [

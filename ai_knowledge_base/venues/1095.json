@@ -10,7 +10,21 @@
     "phone": "+886-2-7722-3399",
     "contactEmail": "info@grandmayfull.com"
   },
-  "summary": null,
+  "summary": {
+    "shortDescription": "台北美福大飯店位於台北市，擁有7間會議室，最大容納700人。",
+    "totalRooms": 7,
+    "maxCapacity": 700,
+    "priceRange": {
+      "halfDayMin": 200000,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": 380000,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
   "risks": {
     "bookingLeadTime": "大型宴會廳建議3-6個月前預訂；尾牙/婚宴旺季需更早",
     "peakSeasons": [

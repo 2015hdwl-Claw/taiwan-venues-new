@@ -1,0 +1,264 @@
+{
+  "id": 1085,
+  "name": "台北文華東方酒店(MOHTaipei)",
+  "venueType": "飯店場地",
+  "city": "台北市",
+  "address": "台北市敦化北路158號",
+  "url": "https://www.mandarinoriental.com/taipei",
+  "image": "https://media.ffycdn.net/eu/mandarin-oriental-hotel-group/Jky4E1LR9pmeMceT76wh.jpg",
+  "maxCapacity": 1170,
+  "highlights": [
+    "松山機場旁五星級酒店，信義區核心地段",
+    "9個會議空間：大宴會廳960㎡挑高7.3米、文華宴會廳、多功能會議室",
+    "最大容量1170人（劇院式），適合大型國際會議",
+    "專業會議服務團隊，精緻餐飲",
+    "完整影音設備，高速網路"
+  ],
+  "contact": {
+    "phone": "+886-2-2715-6888",
+    "email": "MOPHT.reservations@mandarinoriental.com",
+    "inquiry_required": "price_only",
+    "address": "台北市松山區民生東路三段158號",
+    "mrt": "南京復興站"
+  },
+  "rooms": [
+    {
+      "id": "1085-01",
+      "name": "大宴會廳",
+      "floor": "B2",
+      "area": 960,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 1170,
+        "banquet": 780,
+        "classroom": 624,
+        "uShape": null,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "note": "需洽詢飯店（價格為預估）",
+        "halfDay": 960000,
+        "fullDay": 1920000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1085-02",
+      "name": "大宴會廳壹",
+      "floor": "B2",
+      "area": 580,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 608,
+        "banquet": 384,
+        "classroom": 351,
+        "uShape": null,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "note": "需洽詢飯店（價格為預估）",
+        "halfDay": 580000,
+        "fullDay": 1160000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1085-03",
+      "name": "大宴會廳貳",
+      "floor": "B2",
+      "area": 380,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 399,
+        "banquet": 240,
+        "classroom": 234,
+        "uShape": null,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "note": "需洽詢飯店（價格為預估）",
+        "halfDay": 380000,
+        "fullDay": 760000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1085-04",
+      "name": "迎賓區",
+      "floor": "B2",
+      "area": 605,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": null,
+        "banquet": null,
+        "classroom": null,
+        "uShape": null,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "note": "需洽詢飯店（價格為預估）",
+        "halfDay": 600000,
+        "fullDay": 1200000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1085-05",
+      "name": "文華廳",
+      "floor": "B2",
+      "area": 500,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 490,
+        "banquet": 336,
+        "classroom": 300,
+        "uShape": null,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "note": "需洽詢飯店（價格為預估）",
+        "halfDay": 500000,
+        "fullDay": 1000000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1085-06",
+      "name": "文華廳壹",
+      "floor": "B2",
+      "area": 260,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 308,
+        "banquet": 144,
+        "classroom": 150,
+        "uShape": null,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "note": "需洽詢飯店（價格為預估）",
+        "halfDay": 260000,
+        "fullDay": 520000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1085-07",
+      "name": "文華廳貳",
+      "floor": "B2",
+      "area": 240,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 280,
+        "banquet": 144,
+        "classroom": 150,
+        "uShape": null,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "note": "需洽詢飯店（價格為預估）",
+        "halfDay": 240000,
+        "fullDay": 480000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1085-08",
+      "name": "東方廳壹",
+      "floor": "B2",
+      "area": 120,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 112,
+        "banquet": 60,
+        "classroom": 60,
+        "uShape": null,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "note": "需洽詢飯店（價格為預估）",
+        "halfDay": 120000,
+        "fullDay": 240000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1085-09",
+      "name": "東方廳貳",
+      "floor": "B2",
+      "area": 50,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 36,
+        "banquet": 12,
+        "classroom": 18,
+        "uShape": null,
+        "cocktail": null,
+        "roundTable": null
+      },
+      "pricing": {
+        "note": "需洽詢飯店（價格為預估）",
+        "halfDay": 60000,
+        "fullDay": 120000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    }
+  ],
+  "risks": null,
+  "rules": null,
+  "pricingTips": null,
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1085.html"
+}

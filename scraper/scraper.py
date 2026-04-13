@@ -28,6 +28,7 @@ from .config import QUALITY_LEVELS
 from .detectors import TechnicalDetector
 from .discoverers import PageDiscoverer
 from .extractors import PDFExtractor, extract_venue_data
+from .spa_extractor import SPExtractor
 from .validators import (
     is_meeting_room, calculate_room_quality, get_quality_level,
     validate_capacity, merge_room,
@@ -147,6 +148,7 @@ class UnifiedScraper:
         # Stage 3: 資料提取
         print('\n--- Stage 3: 資料提取 ---')
         all_rooms = []
+        venue_images = []  # 收集場地主圖片
 
         # 收集所有 PDF URL（從頁面發現 + 已有 floorPlan + 會議頁面中的 PDF 連結）
         all_pdf_urls = set()
@@ -189,10 +191,38 @@ class UnifiedScraper:
                 print(f'  [PDF] {pdf_url}: {len(pdf_rooms)} 個會議室')
 
         # HTML 提取（從所有會議頁面）
+        spa_extractor = None
         if meeting_pages:
             for page in meeting_pages:
                 if page['httpStatus'] not in (200, 202):
                     continue
+                strategy = tech_report.get('extractionStrategy', 'static_html')
+
+                # SPA 網站：使用 Playwright 渲染
+                if strategy == 'dynamic_js':
+                    try:
+                        if spa_extractor is None:
+                            spa_extractor = SPExtractor()
+                        spa_rooms = spa_extractor.extract(page['url'])
+                        all_rooms.extend(spa_rooms)
+                        # 收集場地主圖片 (從第一個頁面)
+                        if not venue_images and len(all_rooms) > 0:
+                            from bs4 import BeautifulSoup
+                            from .extractors import HTMLExtractor
+                            # 重新渲染一次以取得圖片
+                            result = spa_extractor.render_page(page['url'])
+                            if result.get('html'):
+                                soup = BeautifulSoup(result['html'], 'html.parser')
+                                html_ext = HTMLExtractor()
+                                imgs = html_ext.extract_images(soup, page['url'])
+                                if imgs:
+                                    venue_images = imgs[:10]  # 最多 10 張
+                                    print(f'  [場地圖片] 收集 {len(venue_images)} 張')
+                    except Exception as e:
+                        print(f'  [SPA] 提取失敗 {page["url"]}: {e}')
+                    continue
+
+                # 靜態網站：使用 requests + BeautifulSoup
                 try:
                     r = req_module.get(page['url'], timeout=20, headers={
                         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
@@ -202,12 +232,24 @@ class UnifiedScraper:
 
                     from bs4 import BeautifulSoup
                     soup = BeautifulSoup(r.text, 'html.parser')
-                    strategy = tech_report.get('extractionStrategy', 'static_html')
                     html_rooms = extract_venue_data(soup, page['url'], strategy)
                     all_rooms.extend(html_rooms)
 
+                    # 收集場地主圖片 (從第一個頁面)
+                    if not venue_images:
+                        from .extractors import HTMLExtractor
+                        html_ext = HTMLExtractor()
+                        imgs = html_ext.extract_images(soup, page['url'])
+                        if imgs:
+                            venue_images = imgs[:10]  # 最多 10 張
+                            print(f'  [場地圖片] 收集 {len(venue_images)} 張')
+
                 except Exception as e:
                     print(f'  [HTML] 頁面提取失敗 {page["url"]}: {e}')
+
+        # 關閉 SPA 瀏覽器
+        if spa_extractor:
+            spa_extractor.close()
 
         result['rooms'] = all_rooms
         print(f'\n  總計提取: {len(all_rooms)} 個會議室')
@@ -264,11 +306,11 @@ class UnifiedScraper:
         # Stage 5: 合併到 venues.json
         if valid_rooms:
             print(f'\n--- Stage 5: 合併 ---')
-            self._merge_rooms(venue, valid_rooms, tech_report)
+            self._merge_rooms(venue, valid_rooms, tech_report, venue_images)
 
         return result
 
-    def _merge_rooms(self, venue: dict, new_rooms: list, tech_report: dict):
+    def _merge_rooms(self, venue: dict, new_rooms: list, tech_report: dict, venue_images: list = None):
         """合併新會議室到場地資料"""
         existing_rooms = venue.get('rooms', [])
 
@@ -290,6 +332,17 @@ class UnifiedScraper:
                 print(f'  [新增] {new_room.get("name")} (ID: {new_room["id"]})')
 
         venue['rooms'] = existing_rooms
+
+        # 保存場地主圖片
+        if venue_images and len(venue_images) > 0:
+            venue['images'] = {
+                'main': venue_images[0],
+                'gallery': venue_images[:10],
+                'verified': True,
+                'verifiedAt': datetime.now().strftime('%Y-%m-%d'),
+                'lastUpdated': datetime.now().strftime('%Y-%m-%d')
+            }
+            print(f'  [場地圖片] 已更新 {len(venue_images)} 張')
 
         # 更新 metadata
         if 'metadata' not in venue:

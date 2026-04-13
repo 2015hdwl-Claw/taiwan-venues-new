@@ -1,0 +1,489 @@
+{
+  "id": 1057,
+  "name": "台北典華",
+  "venueType": "婚宴場地",
+  "city": "台北市",
+  "address": "台北市中山區中山北路三段33號",
+  "url": "https://www.denwell.com/",
+  "image": "https://img.denwell.com/denwell/wp-content/uploads/2024111307194564-scaled.jpg",
+  "maxCapacity": null,
+  "highlights": [],
+  "contact": {
+    "phone": "02-8502-5555",
+    "email": "service@denwell.com"
+  },
+  "rooms": [
+    {
+      "id": "1057-01",
+      "name": "3F 大地",
+      "floor": "3樓",
+      "area": 84,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 480,
+        "classroom": 280,
+        "ushape": 140,
+        "roundtable": 310,
+        "banquet": 440
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "燈光控制",
+        "舞台",
+        "LED炫彩頂燈"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1057-02",
+      "name": "3F 光影",
+      "floor": "3樓",
+      "area": 64,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 370,
+        "classroom": 200,
+        "ushape": 100,
+        "roundtable": 230,
+        "banquet": 330
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "燈光控制",
+        "舞台",
+        "LED炫彩頂燈"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1057-03",
+      "name": "3F 湖泊",
+      "floor": "3樓",
+      "area": 40,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 230,
+        "classroom": 130,
+        "ushape": 65,
+        "roundtable": 150,
+        "banquet": 200
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "燈光控制"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1057-04",
+      "name": "3F 閣樓",
+      "floor": "3樓",
+      "area": 33,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 190,
+        "classroom": 110,
+        "ushape": 55,
+        "roundtable": 120,
+        "banquet": 170
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "燈光控制"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1057-05",
+      "name": "3F 法室",
+      "floor": "3樓",
+      "area": 19,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 110,
+        "classroom": 60,
+        "ushape": 30,
+        "roundtable": 70,
+        "banquet": 100
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "燈光控制"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1057-06",
+      "name": "3F 藝廊",
+      "floor": "3樓",
+      "area": 18,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 100,
+        "classroom": 60,
+        "ushape": 30,
+        "roundtable": 60,
+        "banquet": 90
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "燈光控制"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1057-07",
+      "name": "飛蝶圓頂",
+      "floor": "B1",
+      "area": 68,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 400,
+        "classroom": 220,
+        "ushape": 110,
+        "roundtable": 250,
+        "banquet": 360
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "燈光控制",
+        "舞台",
+        "LED炫彩頂燈",
+        "圓頂投影"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1057-08",
+      "name": "圓心",
+      "floor": "B1",
+      "area": 68,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 400,
+        "classroom": 220,
+        "ushape": 110,
+        "roundtable": 250,
+        "banquet": 360
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "燈光控制",
+        "舞台",
+        "LED炫彩頂燈",
+        "圓頂投影"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1057-09",
+      "name": "5F 日出",
+      "floor": "5樓",
+      "area": 40,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 230,
+        "classroom": 130,
+        "ushape": 65,
+        "roundtable": 150,
+        "banquet": 200
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "燈光控制"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1057-10",
+      "name": "5F 紫境",
+      "floor": "5樓",
+      "area": 54,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 310,
+        "classroom": 170,
+        "ushape": 85,
+        "roundtable": 200,
+        "banquet": 280
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "燈光控制"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1057-11",
+      "name": "5F 繁華",
+      "floor": "5樓",
+      "area": 65,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 380,
+        "classroom": 210,
+        "ushape": 105,
+        "roundtable": 240,
+        "banquet": 340
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "燈光控制",
+        "舞台"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1057-12",
+      "name": "5F 似錦",
+      "floor": "5樓",
+      "area": 65,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 380,
+        "classroom": 210,
+        "ushape": 105,
+        "roundtable": 240,
+        "banquet": 340
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "燈光控制",
+        "舞台"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1057-13",
+      "name": "5F 繁華似錦",
+      "floor": "5樓",
+      "area": 130,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 760,
+        "classroom": 420,
+        "ushape": 210,
+        "roundtable": 480,
+        "banquet": 680
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "燈光控制",
+        "舞台",
+        "LED炫彩頂燈"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1057-14",
+      "name": "6F 花田好事",
+      "floor": "6樓",
+      "area": 68,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 400,
+        "classroom": 220,
+        "ushape": 110,
+        "roundtable": 250,
+        "banquet": 360
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "燈光控制",
+        "舞台",
+        "LED炫彩頂燈"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1057-15",
+      "name": "6F 花田盛事",
+      "floor": "6樓",
+      "area": 115,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 660,
+        "classroom": 360,
+        "ushape": 180,
+        "roundtable": 420,
+        "banquet": 580
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "燈光控制",
+        "舞台",
+        "LED炫彩頂燈"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1057-16",
+      "name": "6F 大花田盛事",
+      "floor": "6樓",
+      "area": 183,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 1060,
+        "classroom": 580,
+        "ushape": 290,
+        "roundtable": 670,
+        "banquet": 940
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "燈光控制",
+        "舞台",
+        "LED炫彩頂燈"
+      ],
+      "limitations": []
+    }
+  ],
+  "risks": null,
+  "rules": null,
+  "pricingTips": null,
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1057.html"
+}

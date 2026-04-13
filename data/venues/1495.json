@@ -1,0 +1,588 @@
+{
+  "id": 1495,
+  "name": "集思北科大會議中心(Tech)",
+  "venueType": "會議中心",
+  "city": "台北市",
+  "address": "台北市大安區忠孝東路三段1號",
+  "url": "https://www.meeting.com.tw/ntut/",
+  "image": "https://www.meeting.com.tw/ntut/images/lease/lecture-hall-slider-1.jpg",
+  "maxCapacity": null,
+  "highlights": [],
+  "contact": {
+    "phone": "(02) 2741-7655",
+    "email": "gistaipeitechcc@gisgroup.com"
+  },
+  "rooms": [
+    {
+      "id": "1495-感恩廳",
+      "name": "感恩廳",
+      "floor": "2F+3F",
+      "area": 103,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 160
+      },
+      "pricing": {
+        "halfDay": 24500,
+        "fullDay": 49000,
+        "overtime": null,
+        "note": "階梯劇院，固定座位"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "專業會議系統",
+        "300吋銀幕",
+        "LED看板"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1495-貝塔廳",
+      "name": "貝塔廳",
+      "floor": "2F",
+      "area": 46,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 160
+      },
+      "pricing": {
+        "halfDay": 14000,
+        "fullDay": 28000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1495-噶瑪廳",
+      "name": "噶瑪廳",
+      "floor": "2F",
+      "area": 23,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 70
+      },
+      "pricing": {
+        "halfDay": 6500,
+        "fullDay": 13000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1495-卡博廳",
+      "name": "卡博廳",
+      "floor": "2F",
+      "area": 20,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 56
+      },
+      "pricing": {
+        "halfDay": 5000,
+        "fullDay": 10000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1495-西特廳",
+      "name": "西特廳",
+      "floor": "2F",
+      "area": 25,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 57
+      },
+      "pricing": {
+        "halfDay": 7500,
+        "fullDay": 15000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1495-瑞特廳",
+      "name": "瑞特廳",
+      "floor": "2F",
+      "area": 25,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 70
+      },
+      "pricing": {
+        "halfDay": 6500,
+        "fullDay": 13000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1495-艾爾法廳",
+      "name": "艾爾法廳",
+      "floor": "3F",
+      "area": 46,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 160
+      },
+      "pricing": {
+        "halfDay": 14000,
+        "fullDay": 28000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1495-奧米伽廳",
+      "name": "奧米伽廳",
+      "floor": "3F",
+      "area": 23,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 70
+      },
+      "pricing": {
+        "halfDay": 6500,
+        "fullDay": 13000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1495-西格瑪廳",
+      "name": "西格瑪廳",
+      "floor": "3F",
+      "area": 25,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 70
+      },
+      "pricing": {
+        "halfDay": 6500,
+        "fullDay": 13000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1495-岱爾達廳",
+      "name": "岱爾達廳",
+      "floor": "3F",
+      "area": 25,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 70
+      },
+      "pricing": {
+        "halfDay": 6500,
+        "fullDay": 13000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風"
+      ],
+      "limitations": []
+    }
+  ],
+  "risks": null,
+  "rules": {
+    "catering": [
+      {
+        "rule": "⚫ 活動期間，若自行訂購飲料、點心、餐盒…等餐飲，需酌收每時段每人新台幣30元外食餐飲服務費；",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "⚫ 乙方於場地使用期間所產生餐飲、事務等費用，應於場地使用結束當日結清餘款，餘款請以付現方",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "⚫ 會議中心為維護會議室清潔與專業形象，如有餐飲需求請洽會議中心訂購。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "一、 欲租借本中心會議場地者，如需使用外食請遵照外食餐飲管理規則，並與合約同時用印，即代表願意遵",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "⚫ 如使用外食須酌收每人每餐期新台幣三十元之餐飲服務清潔費，收費人數依照租借會議空間每ㄧ時",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "⚫ 會議中心為維護與會者權益暨會議中心食品安全與清潔之專業形象，外食擺放區域須遵循會議中心",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "⚫ 會議中心嚴禁攜帶含有酒精性之餐飲。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "⚫ 活動若須自備外食，請於活動日前十天通知本會議中心。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "⚫ 會議中心針對會議場地保有公共意外責任保險，若訂購外食餐飲則餐飲安全暨責任歸屬需由主辦單",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "3. 會議中心禁止攜帶外食，另有提供相關會議事務用品代訂，各項服務酌收服務內容定價之 10%為服務費。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "中式精緻餐盒 (葷) 每個120元/150元/200元 最低需訂購25個 120 0",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "中式精緻餐盒 (素) 每個120元/150元/200元 當天素食不可更動 120 0",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "⚫ 乙方於活動中使用甲方提供之相關會議事務用品包含餐飲代訂、視聽設備、場地佈置、其他雜項等",
+        "confidence": "legacy",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        }
+      },
+      {
+        "rule": "⚫ 餐飲內容類別如違反會議中心規定，經勸阻無效仍攜帶進會議中心，本會議中心有權立即中止餐飲",
+        "confidence": "legacy",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        }
+      },
+      {
+        "rule": "本會議中心禁帶外食，以上服務項目均收取10%服務費。 服務費 (10%) $0",
+        "confidence": "legacy",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        }
+      }
+    ],
+    "decoration": [
+      {
+        "rule": "費，但不含乙方展示攤位內清潔及活動前後佈置及會後遺留任何廢棄物之清運費用，如需由會議中心",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "⚫ 舉行活動所須裝潢、佈置、進出場規定，請依照甲方擬定「會議中心管理規則」執行。如有違反，一",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "1. 若於舉辦活動中，需要在會議室及特定區域之牆面張貼海報或文宣物品，請向本中心客服部洽詢。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "3. 場地租借單位所有佈置應限於租用範圍及會議中心指定之區域內，不得隨意放置、妨礙其他租借",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "《會場佈置需求》 報到桌： 1 張 ※客戶簽認簽章：",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "1. 請於活動日7天前(不含假日/不含活動日)回傳此表(餐點、設備需求及會場佈置需求)， (傳真：04-2338-6997)，以便會議中心協助訂單處理。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "⚫ 乙方於活動中使用甲方提供之相關會議事務用品包含餐飲代訂、視聽設備、場地佈置、其他雜項等",
+        "confidence": "legacy",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        }
+      }
+    ],
+    "cancellation": [
+      {
+        "rule": "⚫ 乙方最遲須於場地使用日七日前付清尾款，若不依規定付清尾款，甲方將不退回訂金，且有權將場",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "⚫ 乙方活動因故取消、改期或調整內容，而有解除合約、縮減租賃範圍或使用期間，應以書面通知甲",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "⚫ 取消及變更合約規定，活動日三十天前(不含活動日)取消，已繳交費用全額無息退還(匯款退費須扣",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "利，其場租及場地使用權利得以延後使用，延期期限於半年內並以一次為限，但不接受縮減場地及",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "詳加了解並確實遵守，如有違反，視同違約。",
+        "confidence": "legacy",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        }
+      },
+      {
+        "rule": "⚫ 請於簽署「場地報價單合約」後七日內繳交場租全額30%做為訂金，否則甲方將視此合約為未完成",
+        "confidence": "legacy",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        }
+      },
+      {
+        "rule": "活動日)取消，已付訂金及尾款沒收，概不退還任何已付費用。",
+        "confidence": "legacy",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        }
+      }
+    ],
+    "sound": [
+      {
+        "rule": "2. 活動進行音量不得妨礙其他場地進行，如違反規定不聽勸阻，本會議中心有權立即中止活動進行",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "insurance": [
+      {
+        "rule": "9. 場地租借單位及其承包或施工廠商應自視需要投保相關保險。任何施工或活動進行中造成之財物",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "⚫ 會議中心針對會議場地保有公共意外責任保險，若訂購外食餐飲則餐飲安全暨責任歸屬需由主辦單",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ]
+  },
+  "pricingTips": null,
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1495.html"
+}

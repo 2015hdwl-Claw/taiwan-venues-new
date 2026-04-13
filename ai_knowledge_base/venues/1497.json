@@ -1,0 +1,271 @@
+{
+  "identity": {
+    "id": 1497,
+    "name": "集思台中文心會議中心(TC)",
+    "nameEn": null,
+    "venueType": "會議中心",
+    "city": "台中市",
+    "address": "台中市西屯區台灣大道三段165號",
+    "url": "https://www.meeting.com.tw/tc/",
+    "phone": null,
+    "contactEmail": null
+  },
+  "summary": {
+    "shortDescription": "集思台中文心會議中心(TC)位於台中市，擁有7間會議室，最大容納150人。",
+    "totalRooms": 7,
+    "maxCapacity": 150,
+    "priceRange": {
+      "halfDayMin": 12000,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": 22000,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  "risks": null,
+  "rules": {
+    "catering": [
+      {
+        "rule": "3. 本會議中心禁止攜帶外食，提供相關會議事務用品代訂，需加收該項服務內容定價之10%為服務費。",
+        "confidence": "legacy",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        }
+      }
+    ]
+  },
+  "pricingTips": null,
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1497-201",
+      "name": "201會議室",
+      "nameEn": "Room 201",
+      "floor": "2樓",
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": 63.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": null,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統（• 音響設備）",
+        "無線網路"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1497-202",
+      "name": "202會議室",
+      "nameEn": "Room 202",
+      "floor": "2樓",
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": 28.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": null,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統（• 音響設備）",
+        "無線網路"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1497-203",
+      "name": "203會議室",
+      "nameEn": "Room 203",
+      "floor": "2樓",
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": 33.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": null,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統（• 音響設備）",
+        "無線網路"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1497-205",
+      "name": "205會議室",
+      "nameEn": "Room 205",
+      "floor": "2樓",
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": 21.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": null,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統（• 音響設備）",
+        "無線網路"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1497-401",
+      "name": "401會議室",
+      "nameEn": "Room 401",
+      "floor": "4樓",
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": 28.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": null,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統（• 音響設備）",
+        "無線網路"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1497-402",
+      "name": "402會議室",
+      "nameEn": "Room 402",
+      "floor": "4樓",
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": 28.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": null,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統（• 音響設備）",
+        "無線網路"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1497-501",
+      "name": "501會議室",
+      "nameEn": "Room 501",
+      "floor": "5樓",
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": 21.0,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": null,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": "價格需電話洽詢"
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統（• 音響設備）",
+        "無線網路"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "id": 1494,
+  "name": "集思交通部國際會議中心(MOTC)",
+  "venueType": "會議中心",
+  "city": "台北市",
+  "address": "台北市中正區杭州南路一段24號",
+  "url": "https://www.meeting.com.tw/motc/",
+  "image": "https://www.meeting.com.tw/motc/images/lease/thehall-slider-01.jpg",
+  "maxCapacity": null,
+  "highlights": [],
+  "contact": {
+    "phone": "(02) 2321-4946",
+    "email": "motc@gisgroup.com"
+  },
+  "rooms": [
+    {
+      "id": "1494-集會堂",
+      "name": "集會堂",
+      "floor": "5F",
+      "area": 142,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 400,
+        "classroom": 252,
+        "ushape": 90
+      },
+      "pricing": {
+        "halfDay": 40000,
+        "fullDay": 80000,
+        "overtime": null,
+        "note": "含廳外獨立交誼廳60坪"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風（•無線麥克風3支 28,000 31,000）",
+        "舞台",
+        "300吋電動銀幕"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1494-國際會議廳",
+      "name": "國際會議廳",
+      "floor": "3F+4F",
+      "area": 121,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 193,
+        "classroom": 117
+      },
+      "pricing": {
+        "halfDay": 28000,
+        "fullDay": 56000,
+        "overtime": null,
+        "note": "3F階梯117位+4F76位，固定座位"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "專業會議系統",
+        "同步翻譯設備",
+        "240吋電動銀幕"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1494-201會議室",
+      "name": "201會議室",
+      "floor": "2F",
+      "area": 34,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 108,
+        "classroom": 72,
+        "ushape": 48
+      },
+      "pricing": {
+        "halfDay": 9000,
+        "fullDay": 18000,
+        "overtime": null
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風（•無線麥克風3支 28,000 31,000）",
+        "145吋電動銀幕"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1494-202會議室",
+      "name": "202會議室",
+      "floor": "2F",
+      "area": 30,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 96,
+        "classroom": 63,
+        "ushape": 48
+      },
+      "pricing": {
+        "halfDay": 7500,
+        "fullDay": 15000,
+        "overtime": null
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風（•無線麥克風3支 28,000 31,000）",
+        "135吋電動銀幕"
+      ],
+      "limitations": []
+    }
+  ],
+  "risks": {
+    "bookingLeadTime": "需先來電洽詢場地時間後才能正式租借，建議提前預約",
+    "commonIssues": [
+      "禁止攜帶外食，需使用會議中心代訂服務",
+      "國際會議廳為階梯固定座位，活動型態受限",
+      "超時使用由場方保留最後決定權，無明確超時費率"
+    ]
+  },
+  "rules": {
+    "catering": [
+      {
+        "rule": "本會議中心禁止攜帶外食",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "提供相關會議事務用品代訂，需加收該項服務內容定價之10%為服務費",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "3. 本會議中心禁止攜帶外食，提供相關會議事務用品代訂，需加收該項服務內容定價之10%為服務費。",
+        "confidence": "legacy",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        }
+      }
+    ],
+    "sound": [
+      {
+        "rule": "租用國際會議廳/集會堂須收取駐場工程師服務費，將於活動當天的會議事務用品單中收取",
+        "exception": "僅國際會議廳與集會堂需收取，201/202會議室無此規定",
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "loadIn": [
+      {
+        "rule": "每時段加收場地租金之10%為場地清潔費",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "使用時段為固定三時段：08:00-12:00、13:00-17:00、18:00-21:30",
+        "exception": null,
+        "penalty": null,
+        "negotiable": false,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "超過場地租用時段，集思交通部會議中心保有最後租借決定權",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ]
+  },
+  "pricingTips": [
+    "每時段加收場地租金之10%為場地清潔費",
+    "租用國際會議廳/集會堂須另付駐場工程師服務費",
+    "代訂會議事務用品加收定價10%服務費",
+    "三時段制：08:00-12:00、13:00-17:00、18:00-21:30"
+  ],
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1494.html"
+}

@@ -10,7 +10,21 @@
     "phone": null,
     "contactEmail": null
   },
-  "summary": null,
+  "summary": {
+    "shortDescription": "集思台中新烏日會議中心(WURI)位於台中市，擁有5間會議室，最大容納270人。",
+    "totalRooms": 5,
+    "maxCapacity": 270,
+    "priceRange": {
+      "halfDayMin": 10000,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": 18000,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
   "risks": null,
   "rules": {
     "catering": [

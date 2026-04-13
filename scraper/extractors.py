@@ -13,7 +13,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from .config import REQUEST_HEADERS, CONFIRM_ROOM_KEYWORDS
-from .validators import is_meeting_room
+from .validators import is_meeting_room, is_valid_room_name
 
 
 class PDFExtractor:
@@ -154,7 +154,8 @@ class PDFExtractor:
 
     def _is_valid_room_name(self, name: str) -> bool:
         """過濾掉從 PDF 提取的垃圾名稱"""
-        if not name or len(name) < 2:
+        # 先用共享驗證器
+        if not is_valid_room_name(name):
             return False
 
         # 垃圾模式：包含太多不同類型的詞彙（通常是多行合併錯誤）
@@ -162,10 +163,6 @@ class PDFExtractor:
         cn_words = len(re.findall(r'[\u4e00-\u9fff]{2,}', name))
         en_words = len(re.findall(r'[A-Za-z]{3,}', name))
         if cn_words >= 3 and en_words >= 3:
-            return False
-
-        # 垃圾模式：太長（超過 60 字）
-        if len(name) > 60:
             return False
 
         # 垃圾模式：包含表格標題詞彙
@@ -618,8 +615,21 @@ class HTMLExtractor:
         return room if room.get('name') else None
 
     def extract_images(self, soup: BeautifulSoup, base_url: str, page_type: str = '') -> list:
+        """提取場地主圖片，過濾追蹤像素和無關圖片"""
         images = []
         seen = set()
+
+        # 跳過模式：logo、追蹤像素、社交按鈕等
+        skip_patterns = [
+            'logo', 'icon', 'avatar', 'banner', 'button', 'arrow',
+            'social', 'menu', 'favicon', 'spacer', 'hamburger',
+            'tag.gif', 'pixel', 'tracking', 'analytics', 'tr?id',
+            'facebook.com/tr', 'doubleclick', 'googletag',
+            'noscript=1', 'c_t=lap', 'e=pv',  # Line/FB 追蹤參數
+        ]
+
+        # 只保留這些副檔名的圖片
+        valid_extensions = ('.jpg', '.jpeg', '.png', '.webp', '.gif', '.svg')
 
         for img in soup.find_all('img', src=True):
             src = img['src']
@@ -628,15 +638,45 @@ class HTMLExtractor:
 
             abs_url = urljoin(base_url, src)
             src_lower = src.lower()
-            skip_patterns = ['logo', 'icon', 'avatar', 'banner', 'button',
-                             'arrow', 'social', 'menu', 'favicon', 'spacer']
+
+            # 跳過追蹤像素和無關圖片
             if any(p in src_lower for p in skip_patterns):
+                continue
+
+            # 跳過尺寸太小的圖片（追蹤像素通常是 1x1）
+            width = img.get('width')
+            height = img.get('height')
+            if width and int(width) < 50:
+                continue
+            if height and int(height) < 50:
+                continue
+
+            # 檢查副檔名（如果 URL 有副檔名）
+            has_valid_ext = any(src_lower.endswith(ext) for ext in valid_extensions)
+            has_ext = any(src_lower.endswith(ext) for ext in ('.jpg', '.jpeg', '.png', '.webp', '.gif', '.svg', '.php', '.aspx', '.jsp'))
+
+            # 如果有副檔名但不是圖片格式，跳過
+            if has_ext and not has_valid_ext:
                 continue
 
             if abs_url not in seen:
                 seen.add(abs_url)
                 images.append(abs_url)
 
+        # 優先選擇大圖作為主圖
+        # 將有 'room', 'hall', 'banquet', 'meeting' 等關鍵字的圖片往前排
+        def image_priority(img_url):
+            url_lower = img_url.lower()
+            priority_keywords = [
+                'room', 'hall', 'banquet', 'meeting', 'conference',
+                '廳', '會議', '宴會', '空間', '空照'
+            ]
+            for i, kw in enumerate(priority_keywords):
+                if kw in url_lower:
+                    return len(priority_keywords) - i
+            return 0
+
+        images.sort(key=image_priority, reverse=True)
         return images
 
     def _extract_number(self, text: str) -> int:
@@ -674,11 +714,14 @@ class RegexExtractor:
     def extract(self, text: str) -> list:
         rooms = []
 
+        # 更嚴格的名稱模式：必須是合理的場地名稱
+        # 格式：[樓層] + [修飾詞] + [核心詞（廳/室/館）]
         name_pattern = re.compile(
-            r'((?:\d+[F樓]\s*)?'
-            r'(?:[\w]+\s*)?'
-            r'(?:[\u4e00-\u9fff]+)?'
-            r'(?:會議|宴會|展覽|演講|活動)?廳|室|館)'
+            r'((?:\d+[F樓]\s*)?'        # 可選樓層
+            r'(?:[A-Za-z]+\s*)?'         # 可選英文前綴
+            r'[\u4e00-\u9fff]{1,6}'      # 中文名稱（1-6字）
+            r'(?:會議|宴會|展覽|演講|活動)?'  # 可選類型修飾
+            r'[廳室館])'                  # 核心詞
         )
         capacity_pattern = re.compile(r'(\d+)\s*(?:人|名|位|pax|seats?)', re.IGNORECASE)
         area_ping_pattern = re.compile(r'([\d.]+)\s*坪')

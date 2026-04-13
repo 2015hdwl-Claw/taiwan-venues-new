@@ -1,0 +1,96 @@
+{
+  "id": 1545,
+  "name": "承億酒店 (TAI Urban Resort)",
+  "venueType": "飯店場地",
+  "city": "高雄市",
+  "address": "高雄市",
+  "url": "https://www.taiurbanresort.com.tw/",
+  "image": null,
+  "maxCapacity": null,
+  "highlights": [],
+  "contact": {
+    "phone": "+886-7-3333999",
+    "email": "TBD"
+  },
+  "rooms": [
+    {
+      "id": "1545-行政樓層",
+      "name": "行政樓層",
+      "floor": null,
+      "area": 28,
+      "ceilingHeight": null,
+      "capacity": {},
+      "pricing": {},
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路（● Free Wifi及寬頻網路服務）"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1545-親子樓層",
+      "name": "親子樓層",
+      "floor": null,
+      "area": 13.5,
+      "ceilingHeight": null,
+      "capacity": {},
+      "pricing": {},
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路（● Free Wifi及寬頻網路服務）"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1545-所有餐廳",
+      "name": "所有餐廳",
+      "floor": null,
+      "area": 13.5,
+      "ceilingHeight": null,
+      "capacity": {},
+      "pricing": {},
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路（● Free Wifi及寬頻網路服務）"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1545-獨立淋浴室",
+      "name": "獨立淋浴室",
+      "floor": null,
+      "area": 13.5,
+      "ceilingHeight": null,
+      "capacity": {},
+      "pricing": {},
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路（● Free Wifi及寬頻網路服務）"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1545-裡打造這座文化客廳",
+      "name": "裡打造這座文化客廳",
+      "floor": null,
+      "area": 13.5,
+      "ceilingHeight": null,
+      "capacity": {},
+      "pricing": {},
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路（● Free Wifi及寬頻網路服務）"
+      ],
+      "limitations": []
+    }
+  ],
+  "risks": null,
+  "rules": null,
+  "pricingTips": null,
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1545.html"
+}

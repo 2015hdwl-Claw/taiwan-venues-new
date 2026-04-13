@@ -1,248 +1,450 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YGTFFCFZHC"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-YGTFFCFZHC');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="會議室詳情 - 活動大師">
     <title>會議室詳情 - 活動大師</title>
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
-    <link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://taiwan-venues-new-indol.vercel.app/room.html">
+
+    <!-- Open Graph (base, dynamically updated by room.js) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="會議室詳情 — 活動大師">
+    <meta property="og:description" content="活動大師會議室詳情，含坪數、天花板高度、價格等官網不寫的資訊。">
+    <meta property="og:url" content="https://taiwan-venues-new-indol.vercel.app/room.html">
+    <meta property="og:image" content="https://taiwan-venues-new-indol.vercel.app/social/images/og-brand.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="zh_TW">
+    <meta property="og:site_name" content="活動大師">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="會議室詳情 — 活動大師">
+    <meta name="twitter:description" content="活動大師會議室詳情，含坪數、天花板高度、價格等官網不寫的資訊。">
+    <meta name="twitter:image" content="https://taiwan-venues-new-indol.vercel.app/social/images/og-brand.png">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-tertiary-fixed": "#370e00",
+                        "secondary": "#3f6560",
+                        "surface-container-low": "#f2f3f8",
+                        "inverse-on-surface": "#eff1f5",
+                        "on-primary": "#ffffff",
+                        "on-secondary-fixed": "#00201d",
+                        "surface-variant": "#e1e2e6",
+                        "primary-fixed-dim": "#6bd8cb",
+                        "on-surface-variant": "#3d4947",
+                        "tertiary-fixed-dim": "#ffb59a",
+                        "inverse-primary": "#6bd8cb",
+                        "surface-bright": "#f8f9fd",
+                        "on-secondary-fixed-variant": "#274d48",
+                        "primary-container": "#008378",
+                        "on-tertiary-container": "#fffbff",
+                        "surface-dim": "#d8dade",
+                        "outline": "#6d7a77",
+                        "on-tertiary-fixed-variant": "#773215",
+                        "surface": "#f8f9fd",
+                        "secondary-fixed-dim": "#a6cfc8",
+                        "error": "#ba1a1a",
+                        "outline-variant": "#bcc9c6",
+                        "on-primary-fixed-variant": "#005049",
+                        "tertiary-fixed": "#ffdbce",
+                        "tertiary": "#924628",
+                        "primary-fixed": "#89f5e7",
+                        "on-primary-fixed": "#00201d",
+                        "surface-tint": "#006a61",
+                        "on-surface": "#191c1f",
+                        "secondary-fixed": "#c2ebe3",
+                        "background": "#f8f9fd",
+                        "surface-container": "#eceef2",
+                        "on-tertiary": "#ffffff",
+                        "tertiary-container": "#b05e3d",
+                        "surface-container-high": "#e7e8ec",
+                        "error-container": "#ffdad6",
+                        "primary": "#00685f",
+                        "on-primary-container": "#f4fffc",
+                        "on-background": "#191c1f",
+                        "on-error": "#ffffff",
+                        "on-secondary": "#ffffff",
+                        "inverse-surface": "#2e3134",
+                        "on-secondary-container": "#456b66",
+                        "on-error-container": "#93000a",
+                        "surface-container-lowest": "#ffffff",
+                        "secondary-container": "#c2ebe3",
+                        "surface-container-highest": "#e1e2e6",
+                        "brand-teal": "#0d9488",
+                        "brand-teal-surface": "#f0fdfa",
+                        "brand-teal-hover": "#0f766e"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Space Grotesk", "sans-serif"],
+                        "body": ["Inter", "sans-serif"],
+                        "label": ["Inter", "sans-serif"],
+                        "aeonik": ["Space Grotesk", "sans-serif"]
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            line-height: 1;
+        }
+        .section-heading {
+            font-size: 48px;
+            line-height: 1.21;
+            letter-spacing: -0.48px;
+            font-weight: 500;
+        }
+        @media (max-width: 768px) {
+            .section-heading {
+                font-size: 32px;
+                letter-spacing: -0.32px;
+            }
+        }
+        .line-clamp-1 {
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .line-clamp-2 {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+    </style>
 </head>
-<body>
-    <!-- 頂部導航 -->
-    <header class="header">
-        <div class="container">
-            <div class="header-content">
-                <div class="brand" onclick="goHome()">
-                    <span class="brand-icon">🎉</span>
-                    <h1 class="brand-title">活動大師</h1>
+<body class="bg-surface text-on-surface font-body selection:bg-primary-fixed selection:text-on-primary-fixed">
+
+    <!-- TopNavBar -->
+    <nav class="bg-white/80 backdrop-blur-xl sticky top-0 z-50 shadow-sm">
+        <div class="flex justify-between items-center px-8 py-4 w-full max-w-screen-xl mx-auto">
+            <div class="flex items-center gap-12">
+                <a href="index.html" class="flex items-center gap-2">
+                    <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuC54GQHXZNSY3rulLho5aRdVg2QF2_jZrsRnHPYy1Q3wWfvasPgCI1fdKYp0ke76rMqklNrU9EZFxjrhTSBzPnGeTqrlkgYLW-AcRAUKDKUX62UVYwW7gByGcLQv6U1GEQ9LhCsnO7Ep3VxA1K9nnODybzKxkC6j2dojmJjJAd39Wrj13W-6ONlYZUIo8d3IY7dVVm5cEoCVu4mTuRyPEknmGxeVDdmJqZepx8KPQakim9eIPaE2pUA6IIxwd0ALhvm5P3Ijn-uTKY" alt="活動大師" class="w-10 h-10 rounded-full object-cover">
+                    <span class="text-xl font-bold text-primary font-headline tracking-tight">活動大師</span>
+                </a>
+                <div class="hidden md:flex gap-8 items-center">
+                    <a class="text-primary font-bold border-b-2 border-primary font-headline tracking-tight hover:text-primary-container transition-colors duration-300" href="index.html#venues-section">探索場地</a>
+                    <a class="text-on-surface-variant font-headline tracking-tight hover:text-primary transition-colors duration-300" href="knowledge.html">知識庫</a>
+                    <a class="text-on-surface-variant font-headline tracking-tight hover:text-primary transition-colors duration-300" href="index.html#about-section">關於我們</a>
                 </div>
-                <div class="header-actions">
-                    <button class="btn btn-outline-light" onclick="goBackToVenue()">
-                        ← 返回場地
-                    </button>
-                </div>
+            </div>
+            <div class="flex items-center gap-4">
+                <button class="hidden lg:flex items-center gap-2 px-4 py-2 bg-surface-container rounded-full text-on-surface-variant hover:bg-surface-container-high transition-all">
+                    <span class="material-symbols-outlined text-[20px]">search</span>
+                    <span class="text-sm">搜尋活動或場地...</span>
+                </button>
+                <button class="px-6 py-2 bg-primary-container text-on-primary-container rounded-full font-bold hover:scale-95 active:opacity-80 transition-all">登入</button>
             </div>
         </div>
-    </header>
+    </nav>
 
-    <!-- 主要內容 -->
-    <main class="main room-page">
-        <div class="container">
-            <!-- 載入中 -->
-            <div class="loading" id="loadingState">
-                <div class="spinner"></div>
-                <p>載入會議室資料中...</p>
+    <!-- Main Content -->
+    <main class="min-h-screen">
+        <!-- Loading State -->
+        <div class="py-32 text-center" id="loadingState">
+            <div class="inline-block w-10 h-10 border-3 border-brand-teal border-t-transparent rounded-full animate-spin mb-4"></div>
+            <p class="text-on-surface-variant">載入會議室資料中...</p>
+        </div>
+
+        <!-- Error State -->
+        <div class="py-32 text-center hidden" id="errorState">
+            <div class="w-20 h-20 bg-error-container rounded-full flex items-center justify-center mx-auto mb-6">
+                <span class="material-symbols-outlined text-on-error-container text-4xl">warning</span>
             </div>
+            <h3 class="text-2xl font-bold mb-2">找不到會議室資料</h3>
+            <p class="text-on-surface-variant mb-6" id="errorStateMessage">請確認會議室 ID 是否正確</p>
+            <a href="index.html" class="inline-flex items-center bg-brand-teal text-white px-8 py-3 rounded-full font-medium hover:bg-brand-teal-hover transition-colors">
+                返回首頁
+            </a>
+        </div>
+        <!-- Room Content -->
+        <div id="roomContent" class="hidden">
+            <!-- Breadcrumb Navigation -->
+            <nav class="px-4 md:px-8 py-3 bg-surface-container-low rounded-xl mb-4">
+                <a href="index.html" class="text-brand-teal hover:text-brand-teal-hover font-medium">首頁</a>
+                <span class="text-on-surface-variant mx-2">›</span>
+                <a id="breadcrumbVenue" href="" class="text-brand-teal hover:text-brand-teal-hover font-medium"></a>
+                <span class="text-on-surface-variant mx-2">›</span>
+                <span id="breadcrumbRoom" class="font-medium text-on-surface"></span>
+            </nav>
 
-            <!-- 錯誤狀態 -->
-            <div class="empty-state" id="errorState" style="display: none;">
-                <div class="empty-icon">⚠️</div>
-                <h3>找不到會議室資料</h3>
-                <p>請確認參數是否正確</p>
-                <button class="btn btn-primary" onclick="goHome()">返回首頁</button>
-            </div>
-
-            <!-- 會議室詳情內容 -->
-            <div id="roomContent" style="display: none;">
-                <!-- 麵包屑導航 -->
-                <nav class="breadcrumb">
-                    <a href="index.html">首頁</a>
-                    <span class="breadcrumb-sep">›</span>
-                    <a id="breadcrumbVenue" href="">場地</a>
-                    <span class="breadcrumb-sep">›</span>
-                    <span id="breadcrumbRoom">會議室</span>
-                </nav>
-
-                <!-- 會議室主圖與基本資訊 -->
-                <section class="room-hero">
-                    <img id="roomMainImage" class="room-hero-image" src="" alt="">
-                    <div class="room-hero-content">
-                        <h1 id="roomName" class="room-title"></h1>
-                        <p id="roomLocation" class="room-location"></p>
-                    </div>
-                </section>
-
-                <!-- 空間資訊 -->
-                <section class="room-section">
-                    <h2 class="section-heading">📊 空間資訊</h2>
-
-                    <!-- 場地平面圖（第一位） -->
-                    <div id="floorPlanSection" class="floor-plan-section" style="display: none;">
-                        <div class="floor-plan-header">
-                            <span class="floor-plan-icon">🗺️</span>
-                            <h3 class="floor-plan-heading">場地平面圖</h3>
-                        </div>
-                        <!-- PDF 嵌入顯示 -->
-                        <div id="floorPlanEmbed" class="floor-plan-embed" style="display: none;">
-                            <iframe id="floorPlanIframe" class="floor-plan-iframe" src="" frameborder="0"></iframe>
-                        </div>
-                        <!-- 圖片顯示 -->
-                        <img id="floorPlanImage" class="floor-plan-image" src="" alt="場地圖" style="display: none;">
-                        <p class="floor-plan-note">場地配置示意圖（實際佈置可能因活動需求調整）</p>
-                    </div>
-
-                    <!-- 主要資訊卡片 -->
-                    <div class="space-info-container">
-                        <!-- 面積資訊（重點突出） -->
-                        <div class="space-info-highlight" id="areaHighlightCard" style="display: none;">
-                            <div class="space-highlight-icon">📐</div>
-                            <div class="space-highlight-content">
-                                <div class="space-highlight-label">空間面積</div>
-                                <div class="space-highlight-value">
-                                    <span id="roomAreaMain">-</span>
-                                </div>
-                                <div class="space-highlight-secondary" id="roomAreaSecondary"></div>
+            <!-- Hero Section -->
+            <section class="bg-surface py-12 md:py-16 px-4 md:px-8">
+                <div class="max-w-screen-2xl mx-auto">
+                    <div class="flex flex-col lg:flex-row gap-8 lg:gap-12">
+                        <!-- Room Image -->
+                        <div class="lg:w-1/2">
+                            <div class="aspect-[4/3] rounded-[20px] overflow-hidden bg-surface-container">
+                                <img id="roomMainImage" src="" alt="" class="w-full h-full object-cover">
                             </div>
                         </div>
-
-                        <!-- 其他資訊（雙欄佈局） -->
-                        <div class="space-info-grid" id="spaceInfoGrid">
-                            <!-- 動態生成 -->
-                        </div>
-                    </div>
-
-                    <!-- 空間描述 -->
-                    <div class="space-description" id="spaceDescription" style="display: none;">
-                        <p id="roomDescription"></p>
-                    </div>
-                </section>
-
-                <!-- 容納人數 -->
-                <section class="room-section">
-                    <h2 class="section-heading">👥 容納人數</h2>
-                    <div class="capacity-grid">
-                        <div class="capacity-card" id="capTheater">
-                            <div class="capacity-icon">🎭</div>
-                            <div class="capacity-name">劇院式</div>
-                            <div class="capacity-value">-</div>
-                            <div class="capacity-desc">最多人數</div>
-                        </div>
-                        <div class="capacity-card" id="capClassroom">
-                            <div class="capacity-icon">📚</div>
-                            <div class="capacity-name">課桌式</div>
-                            <div class="capacity-value">-</div>
-                            <div class="capacity-desc">附桌子</div>
-                        </div>
-                        <div class="capacity-card" id="capUshape">
-                            <div class="capacity-icon">🔲</div>
-                            <div class="capacity-name">U型</div>
-                            <div class="capacity-value">-</div>
-                            <div class="capacity-desc">討論用</div>
-                        </div>
-                        <div class="capacity-card" id="capRoundtable">
-                            <div class="capacity-icon">⭕</div>
-                            <div class="capacity-name">圓桌式</div>
-                            <div class="capacity-value">-</div>
-                            <div class="capacity-desc">宴會用</div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- 價格方案 -->
-                <section class="room-section">
-                    <h2 class="section-heading">💰 價格方案</h2>
-                    <div class="pricing-cards">
-                        <div class="pricing-card">
-                            <div class="pricing-label">半天（4小時）</div>
-                            <div id="priceHalfDay" class="pricing-value">-</div>
-                        </div>
-                        <div class="pricing-card pricing-card-primary">
-                            <div class="pricing-label">全天（8小時）</div>
-                            <div id="priceFullDay" class="pricing-value">-</div>
-                        </div>
-                        <div class="pricing-card">
-                            <div class="pricing-label">超時每小時</div>
-                            <div id="priceOvertime" class="pricing-value">-</div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- 設備清單 -->
-                <section class="room-section">
-                    <h2 class="section-heading">🛠️ 設備清單</h2>
-                    <div id="equipmentGrid" class="equipment-grid">
-                        <!-- 動態生成 -->
-                    </div>
-                </section>
-
-                <!-- 可用時段 -->
-                <section class="room-section">
-                    <h2 class="section-heading">⏰ 可用時段</h2>
-                    <div class="time-grid">
-                        <div class="time-card">
-                            <div class="time-icon">📅</div>
-                            <div class="time-content">
-                                <div class="time-label">平日</div>
-                                <div id="timeWeekday" class="time-value">-</div>
+                        <!-- Room Info -->
+                        <div class="lg:w-1/2 flex flex-col justify-center">
+                            <span id="roomTypeBadge" class="inline-block text-xs px-3 py-1.5 bg-brand-teal-surface text-brand-teal rounded-full font-medium mb-4 w-fit"></span>
+                            <h1 id="roomName" class="text-3xl md:text-4xl lg:text-5xl font-headline font-medium text-on-surface mb-4"></h1>
+                            <div class="flex items-center gap-2 text-on-surface-variant mb-6">
+                                <span class="material-symbols-outlined text-lg">location_on</span>
+                                <span id="roomLocationText"></span>
                             </div>
-                        </div>
-                        <div class="time-card">
-                            <div class="time-icon">🎉</div>
-                            <div class="time-content">
-                                <div class="time-label">假日</div>
-                                <div id="timeWeekend" class="time-value">-</div>
+                            <div class="flex flex-wrap gap-3 mt-6">
+                                <button class="bg-brand-teal hover:bg-brand-teal-hover text-white font-medium px-6 py-3 rounded-full transition-all active:scale-95 flex items-center gap-2" onclick="window.toggleChat()">
+                                    <span class="material-symbols-outlined">smart_toy</span>
+                                    問 AI 助理
+                                </button>
+                                <a id="roomWebsiteBtn" class="hidden border-2 border-outline hover:border-brand-teal text-on-surface hover:text-brand-teal font-medium px-6 py-3 rounded-full transition-all active:scale-95 items-center gap-2" href="" target="_blank">
+                                    <span class="material-symbols-outlined">language</span>
+                                    官網
+                                </a>
+                                <!-- Share buttons -->
+                                <button onclick="shareToLine()" class="bg-[#06C755] hover:opacity-90 text-white font-medium px-5 py-3 rounded-full transition-all active:scale-95 text-sm">LINE</button>
+                                <button onclick="shareToFacebook()" class="bg-[#1877F2] hover:opacity-90 text-white font-medium px-5 py-3 rounded-full transition-all active:scale-95 text-sm">FB</button>
+                                <button onclick="copyLink()" id="copyLinkBtn" class="border border-outline hover:border-brand-teal text-on-surface hover:text-brand-teal font-medium px-5 py-3 rounded-full transition-all active:scale-95 text-sm flex items-center gap-1">
+                                    <span class="material-symbols-outlined text-base">link</span> 複製
+                                </button>
                             </div>
                         </div>
                     </div>
-                </section>
+                </div>
+            </section>
 
-                <!-- 特色標籤 -->
-                <section class="room-section" id="featuresSection" style="display: none;">
-                    <h2 class="section-heading">✨ 空間特色</h2>
-                    <div id="featuresTags" class="features-tags">
+            <!-- Quick Info Grid -->
+            <section class="bg-surface-container-low py-8 md:py-12 px-4 md:px-8">
+                <div class="max-w-screen-2xl mx-auto">
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+                        <div class="bg-surface-container-lowest rounded-2xl p-6 text-center">
+                            <div class="text-2xl md:text-3xl font-headline font-medium text-brand-teal mb-1" id="roomArea">-</div>
+                            <div class="text-sm text-on-surface-variant">空間面積</div>
+                        </div>
+                        <div class="bg-surface-container-lowest rounded-2xl p-6 text-center">
+                            <div class="text-2xl md:text-3xl font-headline font-medium text-brand-teal mb-1" id="roomCapacityMax">-</div>
+                            <div class="text-sm text-on-surface-variant">最大容納</div>
+                        </div>
+                        <div class="bg-surface-container-lowest rounded-2xl p-6 text-center">
+                            <div class="text-2xl md:text-3xl font-headline font-medium text-brand-teal mb-1" id="roomCeiling">-</div>
+                            <div class="text-sm text-on-surface-variant">天花板高度</div>
+                        </div>
+                        <div class="bg-surface-container-lowest rounded-2xl p-6 text-center">
+                            <div class="text-2xl md:text-3xl font-headline font-medium text-brand-teal mb-1" id="roomFloor">-</div>
+                            <div class="text-sm text-on-surface-variant">樓層</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Capacity Section -->
+            <section class="bg-surface py-12 md:py-16 px-4 md:px-8">
+                <div class="max-w-screen-2xl mx-auto">
+                    <h2 class="text-2xl md:text-3xl font-headline font-medium text-on-surface mb-8 flex items-center gap-3">
+                        <span class="material-symbols-outlined text-brand-teal">groups</span>
+                        容納人數
+                    </h2>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                        <div class="bg-surface-container-low rounded-2xl p-6 text-center">
+                            <div class="text-3xl mb-2">🎭</div>
+                            <div class="text-sm text-on-surface-variant mb-1">劇院式</div>
+                            <div class="text-2xl font-headline font-medium text-on-surface" id="capTheater">-</div>
+                        </div>
+                        <div class="bg-surface-container-low rounded-2xl p-6 text-center">
+                            <div class="text-3xl mb-2">📚</div>
+                            <div class="text-sm text-on-surface-variant mb-1">課桌式</div>
+                            <div class="text-2xl font-headline font-medium text-on-surface" id="capClassroom">-</div>
+                        </div>
+                        <div class="bg-surface-container-low rounded-2xl p-6 text-center">
+                            <div class="text-3xl mb-2">🔲</div>
+                            <div class="text-sm text-on-surface-variant mb-1">U型</div>
+                            <div class="text-2xl font-headline font-medium text-on-surface" id="capUshape">-</div>
+                        </div>
+                        <div class="bg-surface-container-low rounded-2xl p-6 text-center">
+                            <div class="text-3xl mb-2">⭕</div>
+                            <div class="text-sm text-on-surface-variant mb-1">宴會式</div>
+                            <div class="text-2xl font-headline font-medium text-on-surface" id="capBanquet">-</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Pricing Section -->
+            <section class="bg-surface-container-low py-12 md:py-16 px-4 md:px-8">
+                <div class="max-w-screen-2xl mx-auto">
+                    <h2 class="text-2xl md:text-3xl font-headline font-medium text-on-surface mb-8 flex items-center gap-3">
+                        <span class="material-symbols-outlined text-brand-teal">payments</span>
+                        價格方案
+                    </h2>
+                    <div class="grid md:grid-cols-3 gap-4">
+                        <div class="bg-surface-container-lowest rounded-2xl p-6 text-center">
+                            <div class="text-sm text-on-surface-variant mb-2">半天 (4小時)</div>
+                            <div class="text-2xl font-headline font-medium text-brand-teal" id="priceHalfDay">-</div>
+                        </div>
+                        <div class="bg-brand-teal-surface rounded-2xl p-6 text-center border-2 border-brand-teal">
+                            <div class="text-sm text-on-surface-variant mb-2">全天 (8小時)</div>
+                            <div class="text-2xl font-headline font-medium text-brand-teal" id="priceFullDay">-</div>
+                        </div>
+                        <div class="bg-surface-container-lowest rounded-2xl p-6 text-center">
+                            <div class="text-sm text-on-surface-variant mb-2">超時每小時</div>
+                            <div class="text-2xl font-headline font-medium text-brand-teal" id="priceOvertime">-</div>
+                        </div>
+                    </div>
+                    <!-- Pricing Note -->
+                    <div id="pricingNote" class="bg-warning-container/50 rounded-xl p-4 text-sm text-on-surface hidden">
+                        <span class="text-warning">⚠️</span>
+                        <span id="pricingNoteText"></span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Equipment Section -->
+            <section class="bg-surface py-12 md:py-16 px-4 md:px-8">
+                <div class="max-w-screen-2xl mx-auto">
+                    <h2 class="text-2xl md:text-3xl font-headline font-medium text-on-surface mb-8 flex items-center gap-3">
+                        <span class="material-symbols-outlined text-brand-teal">devices</span>
+                        設備清單
+                    </h2>
+                    <div id="equipmentGrid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
                         <!-- 動態生成 -->
                     </div>
-                </section>
+                </div>
+            </section>
 
-                <!-- 注意事項 -->
-                <section class="room-section" id="notesSection" style="display: none;">
-                    <h2 class="section-heading">📝 注意事項</h2>
-                    <div id="roomNotes" class="room-notes">
+            <!-- Features Section -->
+            <section id="featuresSection" class="bg-brand-teal-surface py-12 md:py-16 px-4 md:px-8 hidden">
+                <div class="max-w-screen-2xl mx-auto">
+                    <h2 class="text-2xl md:text-3xl font-headline font-medium text-on-surface mb-8 flex items-center gap-3">
+                        <span class="material-symbols-outlined text-brand-teal">star</span>
+                        空間特色
+                    </h2>
+                    <div id="featuresTags" class="flex flex-wrap gap-2">
                         <!-- 動態生成 -->
                     </div>
-                </section>
+                </div>
+            </section>
 
-                <!-- 隱藏限制 -->
-                <section class="room-section" id="limitationsSection" style="display: none;">
-                    <h2 class="section-heading">⚠️ 隱藏限制</h2>
-                    <ul id="limitationsList" class="limitations-list">
+            <!-- Limitations Section -->
+            <section id="limitationsSection" class="bg-error-container/30 py-12 md:py-16 px-4 md:px-8 hidden">
+                <div class="max-w-screen-2xl mx-auto">
+                    <h2 class="text-2xl md:text-3xl font-headline font-medium text-on-surface mb-8 flex items-center gap-3">
+                        <span class="material-symbols-outlined text-error">warning</span>
+                        隱藏限制
+                    </h2>
+                    <ul id="limitationsList" class="space-y-3">
                         <!-- 動態生成 -->
                     </ul>
-                </section>
+                </div>
+            </section>
 
-                <!-- 進場資訊 -->
-                <section class="room-section" id="loadInSection" style="display: none;">
-                    <h2 class="section-heading">🚛 進場資訊</h2>
-                    <div id="loadInGrid" class="loadIn-grid">
+            <!-- Load In Section -->
+            <section id="loadInSection" class="bg-surface-container-low py-12 md:py-16 px-4 md:px-8 hidden">
+                <div class="max-w-screen-2xl mx-auto">
+                    <h2 class="text-2xl md:text-3xl font-headline font-medium text-on-surface mb-8 flex items-center gap-3">
+                        <span class="material-symbols-outlined text-brand-teal">local_shipping</span>
+                        進場資訊
+                    </h2>
+                    <div id="loadInGrid" class="grid md:grid-cols-2 gap-4">
                         <!-- 動態生成 -->
                     </div>
-                </section>
+                </div>
+            </section>
 
-                <!-- 行動按鈕 -->
-                <section class="room-actions">
-                    <a id="roomCallBtn" class="btn btn-primary btn-lg" style="display: none;">
-                        📞 立即聯絡
-                    </a>
-                    <button class="btn btn-outline btn-lg" onclick="goBackToVenue()">
-                        ← 返回場地
+            <!-- AI CTA Section -->
+            <section class="bg-brand-teal-surface border-y border-brand-teal/10 py-16 md:py-24 px-4 md:px-8">
+                <div class="max-w-4xl mx-auto text-center">
+                    <h2 class="text-3xl md:text-4xl font-headline font-medium text-on-surface mb-4">
+                        <span class="material-symbols-outlined text-brand-teal align-middle mr-2">smart_toy</span>
+                        有問題問 AI
+                    </h2>
+                    <p class="text-lg text-on-surface-variant mb-8">
+                        不知道這個會議室是否適合？讓 AI 幫你分析
+                    </p>
+                    <button class="bg-brand-teal hover:bg-brand-teal-hover text-white font-medium px-10 py-4 rounded-full text-lg transition-all active:scale-95" onclick="window.toggleChat()">
+                        開始對話
                     </button>
-                </section>
-            </div>
+                </div>
+            </section>
         </div>
     </main>
 
-    <!-- 頁腳 -->
-    <footer class="footer">
-        <div class="container">
-            <p>© 2026 活動大師 EventMaster. All rights reserved.</p>
-            <p>專業的台灣活動場地查詢平台</p>
+    <!-- Footer -->
+    <footer class="bg-surface-container-lowest border-t border-outline-variant py-12">
+        <div class="max-w-screen-2xl mx-auto px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-8">
+                <!-- Brand -->
+                <div class="flex items-center gap-3">
+                    <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuC54GQHXZNSY3rulLho5aRdVg2QF2_jZrsRnHPYy1Q3wWfvasPgCI1fdKYp0ke76rMqklNrU9EZFxjrhTSBzPnGeTqrlkgYLW-AcRAUKDKUX62UVYwW7gByGcLQv6U1GEQ9LhCsnO7Ep3VxA1K9nnODybzKxkC6j2dojmJjJAd39Wrj13W-6ONlYZUIo8d3IY7dVVm5cEoCVu4mTuRyPEknmGxeVDdmJqZepx8KPQakim9eIPaE2pUA6IIxwd0ALhvm5P3Ijn-uTKY" alt="活動大師" class="w-8 h-8 rounded-full object-cover">
+                    <div>
+                        <div class="text-lg font-bold text-on-surface font-headline">活動大師 Activity Master</div>
+                        <div class="text-sm text-on-surface-variant">台灣活動場地知識庫</div>
+                    </div>
+                </div>
+
+                <!-- Links -->
+                <div class="flex gap-8">
+                    <a class="text-sm text-on-surface-variant hover:text-primary transition-colors" href="index.html">首頁</a>
+                    <a class="text-sm text-on-surface-variant hover:text-primary transition-colors" href="knowledge.html">知識庫</a>
+                    <a class="text-sm text-on-surface-variant hover:text-primary transition-colors" href="taipei-event-venue.html">台北場地</a>
+                    <a class="text-sm text-on-surface-variant hover:text-primary transition-colors" href="new-taipei-event-venue.html">新北場地</a>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="mt-8 pt-8 border-t border-outline-variant text-center text-sm text-on-surface-variant">
+                © 2026 活動大師 Activity Master. All rights reserved.
+            </div>
         </div>
     </footer>
 
-    <script src="room.js?v=20260407-v1"></script>
+    <link rel="stylesheet" href="chat.css?v=20260406-v1">
+    <script src="room.js?v=20260412-v30"></script>
+    <script src="chat.js?v=20260406-v1"></script>
+    <script>
+        // Share functions
+        function getShareUrl() { return window.location.href; }
+        function getShareText() {
+            const name = document.title || '這個會議室';
+            return name + ' | 活動大師場地知識庫 ';
+        }
+        function shareToLine() {
+            const url = encodeURIComponent(getShareUrl());
+            const text = encodeURIComponent(getShareText());
+            window.open('https://social-plugins.line.me/lineit/share?url=' + url + '&text=' + text, '_blank', 'width=600,height=500');
+        }
+        function shareToFacebook() {
+            window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(getShareUrl()), '_blank', 'width=600,height=500');
+        }
+        function copyLink() {
+            navigator.clipboard.writeText(getShareUrl()).then(function() {
+                var btn = document.getElementById('copyLinkBtn');
+                var orig = btn.innerHTML;
+                btn.innerHTML = '<span class="material-symbols-outlined text-base">check</span> 已複製';
+                setTimeout(function() { btn.innerHTML = orig; }, 2000);
+            });
+        }
+    </script>
 </body>
 </html>

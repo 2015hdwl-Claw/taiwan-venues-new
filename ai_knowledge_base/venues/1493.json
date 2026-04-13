@@ -1,0 +1,443 @@
+{
+  "identity": {
+    "id": 1493,
+    "name": "師大進修推廣學院",
+    "nameEn": null,
+    "venueType": "會議中心",
+    "city": "台北市",
+    "address": "臺北市大安區和平東路一段 129 號",
+    "url": "https://www.sce.ntnu.edu.tw/home/index.php",
+    "phone": null,
+    "contactEmail": null
+  },
+  "summary": {
+    "shortDescription": "師大進修推廣學院位於台北市，擁有13間會議室，最大容納200人。",
+    "totalRooms": 13,
+    "maxCapacity": 200,
+    "priceRange": {
+      "halfDayMin": null,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": null,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  "risks": null,
+  "rules": null,
+  "pricingTips": null,
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1493-22",
+      "name": "1F藝文展覽廳",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 11980,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "軌道投射燈",
+        "無",
+        "無"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1493-1",
+      "name": "1樓演講堂（148人）",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 9980,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "E 化講桌、單槍投影機、投影布幕、無線麥克風4支、 DVD PLAYER、白板。",
+        "",
+        "有"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1493-2",
+      "name": "2樓視聽教室（88人）",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 7980,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "E 化講桌、單槍投影機、投影布幕、無線麥克風2支、 DVD PLAYER、白板、鋼琴。",
+        "",
+        "有"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1493-3",
+      "name": "2樓會議室（40人）",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 6980,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "E 化講桌、單槍投影機、投影布幕、無線麥克風2支、DVD PLAYER、白板、桌上型鵝頸式麥克風 21 支。",
+        "",
+        "有"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1493-7",
+      "name": "大教室（40人）",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 4980,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "E 化講桌、單槍投影機、投影布幕、無線麥克風1支、白板。",
+        "",
+        "有"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1493-8",
+      "name": "小教室（24人）",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 3980,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "E 化講桌、單槍投影機、投影布幕、無線麥克風1支、白板。",
+        "",
+        "有"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1493-16",
+      "name": "3樓講座教室（34人）",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 6680,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "E 化講桌、單槍投影機、投影布幕、無線麥克風4支、 DVD PLAYER、白板。",
+        "",
+        "有"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1493-17",
+      "name": "電腦教室(35-40人)",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 8980,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "307電腦教室:MD790  I7-6700 3.4GHz 8G RAM、310電腦教室:M700MD I5-12500 24G RAM、315電腦教室:M900MC I7-11700 2.5GHz 16G RAM、電腦教室螢幕22 吋 Wide Screen、還原卡、廣播教學系統、無線麥克風一支。",
+        "Windows 10、Office 2019 Professional、Adobe  Acrobat Reader DC\r\n(本學院電腦教室所安裝之軟體，均為合法軟體，若有需要請自備符合電腦教室電腦數量之合法正版軟體及授權數，\r\n並提供合法證明文件且自行安裝，以維護智慧財產權。)",
+        "有"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1493-12",
+      "name": "視訊會議室(17人)",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 4000,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "E化講桌、單槍投影機、投影布幕、白板、桌上型鵝頸式麥克風 17 支、無線麥克風 1 支。",
+        "",
+        "有"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1493-14",
+      "name": "研討室(12人)",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 1500,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "單槍投影機、投影布幕、無線麥克風 1 支、白板。",
+        "",
+        "有"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1493-11",
+      "name": "階梯教室(111人)",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 6500,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "E化講桌、單槍投影機、投影布幕、有線麥克風 1 支。",
+        "",
+        "有"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1493-13",
+      "name": "大教室(30人)",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 2000,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "E化講桌、單槍投影機、投影布幕、無線麥克風 1 支、白板。",
+        "",
+        "有"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1493-19",
+      "name": "大教室(40人)",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": null,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": 3000,
+        "fullDay": null,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "E化講桌、單槍投影機、投影布幕、無線麥克風 1 支、白板。",
+        "",
+        "有"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

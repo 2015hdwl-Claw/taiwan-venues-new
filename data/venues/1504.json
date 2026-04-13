@@ -1,0 +1,123 @@
+{
+  "id": 1504,
+  "name": "高雄國際會議中心",
+  "venueType": "會展中心",
+  "city": "高雄市",
+  "address": "高雄市鳳山區國際會議中心路68號",
+  "url": "https://khhplaza.com.tw/conferenence-area/",
+  "image": null,
+  "maxCapacity": null,
+  "highlights": [],
+  "contact": {
+    "phone": "07-974-9919",
+    "email": "rv@khhplaza.com.tw"
+  },
+  "rooms": [
+    {
+      "id": "1504-階梯會議室",
+      "name": "階梯會議室",
+      "floor": null,
+      "area": null,
+      "ceilingHeight": null,
+      "capacity": {},
+      "pricing": {},
+      "equipment": [
+        "投影設備（空間機能完備，座倚舒適，燈光明亮，設備俱全，具液晶投影機、電腦、無線麥克風、無線簡報滑鼠等，提供了最理想的教育訓練、講座研習、產品說明會。）",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1504-大型會議室",
+      "name": "大型會議室",
+      "floor": null,
+      "area": null,
+      "ceilingHeight": null,
+      "capacity": {},
+      "pricing": {},
+      "equipment": [
+        "投影設備（空間機能完備，座倚舒適，燈光明亮，設備俱全，具液晶投影機、電腦、無線麥克風、無線簡報滑鼠等，提供了最理想的教育訓練、講座研習、產品說明會。）",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1504-電腦教室",
+      "name": "電腦教室",
+      "floor": null,
+      "area": null,
+      "ceilingHeight": null,
+      "capacity": {},
+      "pricing": {},
+      "equipment": [
+        "投影設備（空間機能完備，座倚舒適，燈光明亮，設備俱全，具液晶投影機、電腦、無線麥克風、無線簡報滑鼠等，提供了最理想的教育訓練、講座研習、產品說明會。）",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1504-中型會議室",
+      "name": "中型會議室",
+      "floor": null,
+      "area": null,
+      "ceilingHeight": null,
+      "capacity": {},
+      "pricing": {},
+      "equipment": [
+        "投影設備（空間機能完備，座倚舒適，燈光明亮，設備俱全，具液晶投影機、電腦、無線麥克風、無線簡報滑鼠等，提供了最理想的教育訓練、講座研習、產品說明會。）",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1504-宴會廳漢和廳宴會廳",
+      "name": "宴會廳漢和廳宴會廳",
+      "floor": null,
+      "area": 9,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 25,
+        "banquet": 20,
+        "classroom": 12
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備（空間機能完備，座倚舒適，燈光明亮，設備俱全，具液晶投影機、電腦、無線麥克風、無線簡報滑鼠等，提供了最理想的教育訓練、講座研習、產品說明會。）",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1504-漢和廳宴會廳",
+      "name": "漢和廳宴會廳",
+      "floor": null,
+      "area": 9,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 25,
+        "banquet": 20,
+        "classroom": 12
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備（空間機能完備，座倚舒適，燈光明亮，設備俱全，具液晶投影機、電腦、無線麥克風、無線簡報滑鼠等，提供了最理想的教育訓練、講座研習、產品說明會。）",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    }
+  ],
+  "risks": null,
+  "rules": null,
+  "pricingTips": null,
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1504.html"
+}

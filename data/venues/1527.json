@@ -1,0 +1,232 @@
+{
+  "id": 1527,
+  "name": "義大世界會議中心",
+  "venueType": "會議中心",
+  "city": "高雄市",
+  "address": "高雄市",
+  "url": "https://www.edaroyal.com.tw/halls/",
+  "image": null,
+  "maxCapacity": null,
+  "highlights": [],
+  "contact": {
+    "phone": "+886-7-6568111",
+    "email": "info@edaroyal.com.tw"
+  },
+  "rooms": [
+    {
+      "id": "1527-Conference",
+      "name": "Conference Room",
+      "floor": null,
+      "area": 254,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 700,
+        "banquet": 560,
+        "classroom": 350
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": [
+        "位於山坡地，聯外道路坡度較大，大型遊覽車需注意會車空間",
+        "週末及國定假日為義大世界主題樂園尖峰時段，園區周邊交通易壅塞",
+        "部分宴會廳有柱子，可能影響視線",
+        "停車場距離會議中心需步行約5-10分鐘（可接駁）",
+        "會議中心空調為中央空調系統，個別場地無法獨立調整溫度"
+      ]
+    }
+  ],
+  "risks": null,
+  "rules": {
+    "catering": [
+      {
+        "rule": "專業會務經理人針對您的需求精心規劃宴會主題與空間，提供視聽設備及多樣化精緻餐飲選擇，家族聚會或企業舉辦座談會的理想場所。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "宴會餐飲須由義大皇家酒店宴會部統一供應，禁止外燴或自帶餐食",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "素食/特殊飲食需求需於活動前7天提出",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "酒類供應需透過飯店安排，不得自行攜帶含酒精飲品",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "decoration": [
+      {
+        "rule": "場地內禁止使用圖釘、膠帶、雙面膠黏貼牆面及柱子",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "禁止使用撒花、拉炮、煙火、仙女棒等易燃物品",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "大型佈置物（背板、舞台結構）需於活動前3個工作天提交尺寸及重量資料審核",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "氣球佈置需使用飯店核准之材質，金屬箔氣球需固定不得飄浮至天花板",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "sound": [
+      {
+        "rule": "音量限制：室內不得超過90分貝，戶外活動不得超過80分貝",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "夜間時段（22:00後）禁止使用戶外擴音設備",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "loadIn": [
+      {
+        "rule": "進場佈置需預約時段，大型佈置建議於活動前一天下午進場",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "車輛卸貨需使用指定卸貨區，限重3噸以下車輛",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "活動結束後需於當日24:00前完成撤場，超時每小時加收NT$10,000",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "cancellation": [
+      {
+        "rule": "活動前90天以上取消：全額退還訂金（扣除5%行政手續費）",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "活動前60-89天取消：退還50%訂金",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "活動前30-59天取消：退還25%訂金",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "活動前30天內取消：訂金全額沒收",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "insurance": [
+      {
+        "rule": "超過200人之活動，主辦單位需投保公共意外責任險（最低保額每人NT$300萬）",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "涉及舞台搭建、特殊表演之活動，需額外投保活動綜合保險",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "other": [
+      {
+        "rule": "場地保證金為場租之30%，於簽約時一併繳納",
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ]
+  },
+  "pricingTips": [
+    "平日（週一至週四）場租較週末便宜約30-40%",
+    "搭配住宿專案可享場租折扣",
+    "非假期月份（3-5月、9-11月平日）為淡季，可議價空間較大",
+    "大型活動（300人以上）可洽談包場專案",
+    "企業長期合作可簽年度合約享固定折扣"
+  ],
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1527.html"
+}

@@ -1,0 +1,591 @@
+{
+  "id": 1103,
+  "name": "台北萬豪酒店(MarriottTaipei)",
+  "venueType": "飯店場地",
+  "city": "台北市",
+  "address": "台北市中山區樂群二路55號",
+  "url": "https://www.taipeimarriott.com.tw/",
+  "image": "https://www.taipeimarriott.com.tw/files/page_176900693814vqap059_m.jpg",
+  "maxCapacity": 1200,
+  "highlights": [
+    "26個多功能活動場地",
+    "4,569平方米宴會會議空間",
+    "1,200最大宴會空間容納人數",
+    "挑高9.9米無樑柱空間",
+    "全面升級媲美國際級展演場館規格LED大螢幕",
+    "絕美綠地為戶外活動最佳場域",
+    "館內提供大型車梯，可供車輛直達5樓場地入口"
+  ],
+  "contact": {
+    "phone": "+886-2-8502-3899",
+    "email": "catering@taipeimarriott.com.tw"
+  },
+  "rooms": [
+    {
+      "id": "1103-01",
+      "name": "Spring 春",
+      "floor": "3F",
+      "area": 22.4,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 60,
+        "banquet": null,
+        "classroom": 36,
+        "uShape": 24,
+        "cocktail": null,
+        "roundTable": 30,
+        "boardroom": 18
+      },
+      "pricing": {
+        "halfDay": 32000,
+        "fullDay": 70000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統（• 音響設備）",
+        "無線麥克風（• 無線麥克風3支）"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1103-02",
+      "name": "Summer 夏",
+      "floor": "3F",
+      "area": 18.2,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 50,
+        "banquet": null,
+        "classroom": 27,
+        "uShape": 21,
+        "cocktail": null,
+        "roundTable": 20,
+        "boardroom": 12
+      },
+      "pricing": {
+        "halfDay": 25000,
+        "fullDay": 50000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統（• 音響設備）",
+        "無線麥克風（• 無線麥克風3支）"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1103-03",
+      "name": "Autumn 秋",
+      "floor": "3F",
+      "area": 18.2,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 50,
+        "banquet": null,
+        "classroom": 27,
+        "uShape": 21,
+        "cocktail": null,
+        "roundTable": 20,
+        "boardroom": 12
+      },
+      "pricing": {
+        "halfDay": 25000,
+        "fullDay": 50000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統（• 音響設備）",
+        "無線麥克風（• 無線麥克風3支）"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1103-04",
+      "name": "Winter 冬",
+      "floor": "3F",
+      "area": 20.6,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 60,
+        "banquet": null,
+        "classroom": 36,
+        "uShape": 24,
+        "cocktail": null,
+        "roundTable": 30,
+        "boardroom": 18
+      },
+      "pricing": {
+        "halfDay": 32000,
+        "fullDay": 70000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統（• 音響設備）",
+        "無線麥克風（• 無線麥克風3支）"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1103-05",
+      "name": "Spring – Winter 四季 3",
+      "floor": "3F",
+      "area": 79.3,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 300,
+        "banquet": null,
+        "classroom": 150,
+        "uShape": null,
+        "cocktail": null,
+        "roundTable": 180,
+        "boardroom": null
+      },
+      "pricing": {
+        "halfDay": 110000,
+        "fullDay": 220000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統（• 音響設備）",
+        "無線麥克風（• 無線麥克風3支）"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1103-06",
+      "name": "Salon I 會議一",
+      "floor": "5F",
+      "area": 8.2,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 25,
+        "banquet": null,
+        "classroom": null,
+        "uShape": 15,
+        "cocktail": null,
+        "roundTable": null,
+        "boardroom": 12
+      },
+      "pricing": {
+        "halfDay": 13000,
+        "fullDay": 26000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統（• 音響設備）",
+        "無線麥克風（• 無線麥克風3支）"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1103-07",
+      "name": "Salon II 會議二",
+      "floor": "5F",
+      "area": 7,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 25,
+        "banquet": null,
+        "classroom": null,
+        "uShape": 15,
+        "cocktail": null,
+        "roundTable": null,
+        "boardroom": 12
+      },
+      "pricing": {
+        "halfDay": 13000,
+        "fullDay": 26000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統（• 音響設備）",
+        "無線麥克風（• 無線麥克風3支）"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1103-08",
+      "name": "Salon III 會議三",
+      "floor": "5F",
+      "area": 7,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 25,
+        "banquet": null,
+        "classroom": null,
+        "uShape": 15,
+        "cocktail": null,
+        "roundTable": null,
+        "boardroom": 12
+      },
+      "pricing": {
+        "halfDay": 13000,
+        "fullDay": 26000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統（• 音響設備）",
+        "無線麥克風（• 無線麥克風3支）"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1103-09",
+      "name": "Salon IV 會議四",
+      "floor": "5F",
+      "area": 7.9,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 25,
+        "banquet": null,
+        "classroom": null,
+        "uShape": 15,
+        "cocktail": null,
+        "roundTable": null,
+        "boardroom": 12
+      },
+      "pricing": {
+        "halfDay": 13000,
+        "fullDay": 26000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統（• 音響設備）",
+        "無線麥克風（• 無線麥克風3支）"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1103-10",
+      "name": "Salon I+II 會議一 +二",
+      "floor": "5F",
+      "area": 15.7,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 50,
+        "banquet": null,
+        "classroom": 27,
+        "uShape": 21,
+        "cocktail": null,
+        "roundTable": null,
+        "boardroom": 18
+      },
+      "pricing": {
+        "halfDay": 25000,
+        "fullDay": 25000,
+        "note": "Price from PDF: 09:00-16:30, 08:00-21:30 (24h), Setup (2300-0700), Hour"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統（• 音響設備）",
+        "無線麥克風（• 無線麥克風3支）"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1103-11",
+      "name": "Salon III+IV 會議 三+四",
+      "floor": "5F",
+      "area": 14.8,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 50,
+        "banquet": null,
+        "classroom": 27,
+        "uShape": 21,
+        "cocktail": null,
+        "roundTable": null,
+        "boardroom": 18
+      },
+      "pricing": {
+        "halfDay": 25000,
+        "fullDay": 50000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統（• 音響設備）",
+        "無線麥克風（• 無線麥克風3支）"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1103-12",
+      "name": "Ballroom II 萬豪 二廳 2",
+      "floor": "5F",
+      "area": 159.2,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 500,
+        "banquet": null,
+        "classroom": 240,
+        "uShape": null,
+        "cocktail": null,
+        "roundTable": 200,
+        "boardroom": null
+      },
+      "pricing": {
+        "halfDay": 130000,
+        "fullDay": 260000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統（• 音響設備）",
+        "無線麥克風（• 無線麥克風3支）"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1103-13",
+      "name": "Grand Ballroom 萬豪廳 5",
+      "floor": "5F",
+      "area": 381.2,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 1200,
+        "banquet": null,
+        "classroom": 675,
+        "uShape": null,
+        "cocktail": null,
+        "roundTable": 550,
+        "boardroom": null
+      },
+      "pricing": {
+        "halfDay": 290000,
+        "fullDay": 580000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統（• 音響設備）",
+        "無線麥克風（• 無線麥克風3支）"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1103-14",
+      "name": "Fortune 福",
+      "floor": "5F",
+      "area": 21.8,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 60,
+        "banquet": null,
+        "classroom": 36,
+        "uShape": 24,
+        "cocktail": null,
+        "roundTable": 35,
+        "boardroom": 18
+      },
+      "pricing": {
+        "halfDay": 25000,
+        "fullDay": 50000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統（• 音響設備）",
+        "無線麥克風（• 無線麥克風3支）"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1103-15",
+      "name": "Prosperity 祿",
+      "floor": "5F",
+      "area": 27.8,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 80,
+        "banquet": null,
+        "classroom": 48,
+        "uShape": 27,
+        "cocktail": null,
+        "roundTable": 40,
+        "boardroom": 18
+      },
+      "pricing": {
+        "halfDay": 32000,
+        "fullDay": 64000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統（• 音響設備）",
+        "無線麥克風（• 無線麥克風3支）"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1103-16",
+      "name": "Longevity 壽",
+      "floor": "5F",
+      "area": 22.4,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 60,
+        "banquet": null,
+        "classroom": 36,
+        "uShape": 24,
+        "cocktail": null,
+        "roundTable": 35,
+        "boardroom": 18
+      },
+      "pricing": {
+        "halfDay": 25000,
+        "fullDay": 50000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統（• 音響設備）",
+        "無線麥克風（• 無線麥克風3支）"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1103-17",
+      "name": "Fortune – Longe vity",
+      "floor": "5F",
+      "area": 72,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 250,
+        "banquet": null,
+        "classroom": 135,
+        "uShape": null,
+        "cocktail": null,
+        "roundTable": 170,
+        "boardroom": null
+      },
+      "pricing": {
+        "halfDay": 80000,
+        "fullDay": 160000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統（• 音響設備）",
+        "無線麥克風（• 無線麥克風3支）"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1103-18",
+      "name": "Junior I 宜華一 廳 1",
+      "floor": "5F",
+      "area": 43.9,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 120,
+        "banquet": null,
+        "classroom": 84,
+        "uShape": 42,
+        "cocktail": null,
+        "roundTable": 60,
+        "boardroom": null
+      },
+      "pricing": {
+        "halfDay": 65000,
+        "fullDay": 130000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統（• 音響設備）",
+        "無線麥克風（• 無線麥克風3支）"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1103-19",
+      "name": "Junior II 宜華二 廳 1",
+      "floor": "5F",
+      "area": 35.4,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 90,
+        "banquet": null,
+        "classroom": 48,
+        "uShape": 27,
+        "cocktail": null,
+        "roundTable": 45,
+        "boardroom": null
+      },
+      "pricing": {
+        "halfDay": 55000,
+        "fullDay": 110000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統（• 音響設備）",
+        "無線麥克風（• 無線麥克風3支）"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1103-20",
+      "name": "Junior Ballroom 宜華廳 2",
+      "floor": "5F",
+      "area": 78.7,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 230,
+        "banquet": null,
+        "classroom": 144,
+        "uShape": 66,
+        "cocktail": null,
+        "roundTable": 120,
+        "boardroom": null
+      },
+      "pricing": {
+        "halfDay": 120000,
+        "fullDay": 240000
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統（• 音響設備）",
+        "無線麥克風（• 無線麥克風3支）"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1103-22",
+      "name": "Garden Chapel",
+      "floor": "8F",
+      "area": 80,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 80,
+        "banquet": null,
+        "classroom": 60,
+        "uShape": null,
+        "cocktail": 100,
+        "roundTable": null,
+        "boardroom": null
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備",
+        "音響系統（• 音響設備）",
+        "無線麥克風（• 無線麥克風3支）"
+      ],
+      "limitations": []
+    }
+  ],
+  "risks": {
+    "bookingLeadTime": "至少2個月（大型活動建議6個月前）",
+    "peakSeasons": [
+      "10-12月婚宴旺季",
+      "12-1月尾牙",
+      "6月畢業季"
+    ],
+    "commonIssues": [
+      "挑高9.9m場地為最熱門檔期",
+      "5F以上需使用車梯載運大型設備"
+    ]
+  },
+  "rules": null,
+  "pricingTips": [
+    "館內提供大型車梯，車輛可直達5樓場地入口",
+    "全日方案含基本燈光音響",
+    "26個場地可同時使用，適合大型展覽+會議",
+    "戶外綠地需額外場地清潔費"
+  ],
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1103.html"
+}

@@ -11,6 +11,7 @@ from sqlalchemy.orm import Session
 from fastapi import Depends, HTTPException, status
 from fastapi.security import APIKeyHeader
 from app.exceptions import AuthenticationException
+from app.database import get_db
 
 # API Key Header
 api_key_header = APIKeyHeader(name="X-API-Key", auto_error=False)

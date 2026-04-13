@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="utf-8">
+    <title>404找不到網頁了!</title>
+
+<style type="text/css">
+
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+* {
+	-webkit-text-size-adjust:none;
+}
+
+a{
+	text-decoration:none;
+}
+
+em{
+	font-style:normal;
+}
+
+fieldset, img {
+	border:0;
+}
+
+ol, ul {
+	list-style:none;
+}
+
+abbr, acronym {
+	border:0;
+}
+
+.CLEAR{
+	clear:both; height: 0; font-size: 0px; line-height: 0;
+}
+
+
+/**
+ * Markup free clearing
+ * Details: http://perishablepress.com/press/2009/12/06/new-clearfix-hack
+ */
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* IE6 */
+
+* html .clearfix {
+  height: 1%;
+}
+
+/* IE7 */
+
+*:first-child + html .clearfix {
+  min-height: 1%;
+}
+
+	*
+	{
+		box-sizing: border-box;
+	}
+
+	body{
+		display: flex;
+		flex-flow: column;
+		justify-content: center;
+		align-items: center;
+		background: #232325;
+		font-family: Helvetica, Arial, "微軟正黑體", Heiti TC, "メイリオ", sans-serif;
+		color: #111;
+		min-height: 100vh;
+		/* height: calc(100vh - 30px); */
+		font-size: 14px;
+		letter-spacing: 2px;
+	}
+	.titleBox
+	{
+		font-size: 25px;
+		color: #FFF;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.titleBox a
+	{
+		color: #FFF;
+	}
+	a{
+		color: #111;
+	}
+	strong{
+		display: block;
+		font-size: 80px;
+		
+	}
+
+	.newsListBox
+	{
+		margin: 0 auto;
+		width: 80%;
+		max-width: 1200px;
+	}
+
+	.newsList, .side_news {
+	position: relative;
+	}
+
+	.newsList ul, .side_news ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	}
+
+	.newsList ul li, .side_news ul li {
+	width: 33.33%;
+	padding: 10px;
+	overflow: hidden;
+	}
+
+	@media (max-width: 880px) {
+	.newsList ul li, .side_news ul li {
+		width: 50%;
+	}
+	}
+
+	@media (max-width: 680px) {
+	.newsList ul li, .side_news ul li {
+		width: 100%;
+	}
+	}
+
+	.newsList ul li:hover .item .Img a::before, .side_news ul li:hover .item .Img a::before {
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	}
+
+	.newsList ul li:hover .item .Txt h3::before, .side_news ul li:hover .item .Txt h3::before {
+	width: 100%;
+	}
+
+	.newsList ul li .item, .side_news ul li .item {
+	background: #fff;
+	}
+
+	.newsList ul li .item .Img, .side_news ul li .item .Img {
+	padding: 10px;
+	}
+
+	.newsList ul li .item .Img a, .side_news ul li .item .Img a {
+	position: relative;
+	display: block;
+	}
+
+	.newsList ul li .item .Img a::before, .side_news ul li .item .Img a::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 9px;
+	left: 9px;
+	right: 9px;
+	bottom: 9px;
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	z-index: 10;
+	-webkit-transition: 0.8s;
+	-o-transition: 0.8s;
+	transition: 0.8s;
+	}
+
+	.newsList ul li .item .Img a img, .side_news ul li .item .Img a img {
+	width: 100%;
+	display: block;
+	position: relative;
+	z-index: 1;
+	}
+
+	.newsList ul li .item .Txt, .side_news ul li .item .Txt {
+	padding: 10px 12px 20px 12px;
+	}
+
+	.newsList ul li .item .Txt h3, .side_news ul li .item .Txt h3 {
+	font-size: 16px;
+	font-weight: normal;
+	padding-bottom: 3px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	white-space: nowrap;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	position: relative;
+	}
+
+	.newsList ul li .item .Txt h3::before, .side_news ul li .item .Txt h3::before {
+	content: "";
+	width: 0%;
+	height: 1px;
+	background: #000;
+	display: block;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	}
+
+	.newsList ul li .item .Txt p, .side_news ul li .item .Txt p {
+	height: 50px;
+	line-height: 25px;
+	font-size: 14px;
+	overflow: hidden;
+	}
+
+	.newsList ul li .item .downbar, .side_news ul li .item .downbar {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	border-top: 1px solid #ebebeb;
+	padding: 20px 12px;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	}
+
+	.newsList ul li .item .downbar .date, .side_news ul li .item .downbar .date {
+	color: rgba(0, 0, 0, 0.6);
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: 5px 0;
+	}
+
+	.newsList ul li .item .downbar .date::before, .side_news ul li .item .downbar .date::before {
+	content: "";
+	width: 18px;
+	height: 18px;
+	background: url(../images/icon-clock.png) no-repeat;
+	padding-right: 5px;
+	}
+</style>
+</head>
+<body>
+	<div class="titleBox">
+		<strong>404</strong>找不到網頁了!<br>
+		請回到<a style="color:#A32135;" href="https://taipei.rslhotel.com/">首頁</a>尋找您需要的資料
+	</div>
+	<div class="newsListBox">
+		<div class="newsList"><!--newsList-->
+<ul><!--newsList-->
+<li class="clearfix">
+	<div class="item clearfix"><!-- item -->
+                <div class="Img"><a href="https://taipei.rslhotel.com/-detail/pet-policy"  title="瓏山林台北中和飯店寵物限制公告｜RSL Hotel Taipei Zhonghe No Pets Allowed"><img src="https://taipei.rslhotel.com/upload/news_list_pic/twL_news_25E20_tcphexttzj.jpg"></a></div>
+                <div class="Txt"><!--Txt-->                           
+            
+            <h3><a href="https://taipei.rslhotel.com/-detail/pet-policy"  title="瓏山林台北中和飯店寵物限制公告｜RSL Hotel Taipei Zhonghe No Pets Allowed">瓏山林台北中和飯店寵物限制公告｜RSL Hotel Taipei Zhonghe No Pets Allowed</a></h3>
+            <p class="ellipsis">瓏山林台北中和飯店致力於為每位賓客提供寧靜、安全的住宿環境。基於衛生與他人舒適考量，除合格登記之輔助犬（例如導盲犬、導聾犬）外，飯店恕不接受任何寵物入館。如您有特殊需求，歡迎於訂房時與我們聯繫，我們將提供必要協助。</p>
+
+        </div><!--Txt end-->
+
+        <div class="downbar">
+            			<div class="date">2025-05-20</div>
+		</div><!--downbar-->
+	</div><!-- item end -->
+		</li>
+<li class="clearfix">
+	<div class="item clearfix"><!-- item -->
+                <div class="Img"><a href="https://taipei.rslhotel.com/-detail/82"  title="瓏山林 婚宴專案Q&A"><img src="https://taipei.rslhotel.com/upload/news_list_pic/twL_news_24C27_445ktgt5xx.jpg"></a></div>
+                <div class="Txt"><!--Txt-->                           
+            
+            <h3><a href="https://taipei.rslhotel.com/-detail/82"  title="瓏山林 婚宴專案Q&A">瓏山林 婚宴專案Q&A</a></h3>
+            <p class="ellipsis">婚宴專案相關問題集。</p>
+
+        </div><!--Txt end-->
+
+        <div class="downbar">
+            			<div class="newIcon">飯店公告</div>
+						<div class="date">2024-03-27</div>
+		</div><!--downbar-->
+	</div><!-- item end -->
+		</li>
+<li class="clearfix">
+	<div class="item clearfix"><!-- item -->
+                <div class="Img"><a href="https://taipei.rslhotel.com/-detail/37"  title="條款與政策"><img src="https://taipei.rslhotel.com/upload/news_list_pic/twL_news_24K28_cabcmy29kv.jpg"></a></div>
+                <div class="Txt"><!--Txt-->                           
+            
+            <h3><a href="https://taipei.rslhotel.com/-detail/37"  title="條款與政策">條款與政策</a></h3>
+            <p class="ellipsis">瓏山林台北中和飯店（以下簡稱本飯店）致力於保障您的隱私與個人資料安全。我們依據《個人資料保護法》及相關規範，對您的個人資料進行合法蒐集、處理與利用，並確保資料安全不外洩。</p>
+
+        </div><!--Txt end-->
+
+        <div class="downbar">
+            			<div class="newIcon">飯店公告</div>
+						<div class="date">2024-01-01</div>
+		</div><!--downbar-->
+	</div><!-- item end -->
+		</li>
+</ul></div><!--newsList end-->	</div>
+</body>
+</html>

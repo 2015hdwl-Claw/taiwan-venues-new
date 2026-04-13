@@ -1,0 +1,553 @@
+{
+  "identity": {
+    "id": 1124,
+    "name": "花園大酒店",
+    "nameEn": null,
+    "venueType": "飯店場地",
+    "city": "台北市",
+    "address": "台北市中正區中華路二段1號",
+    "url": "https://www.taipeigarden.com.tw",
+    "phone": null,
+    "contactEmail": null
+  },
+  "summary": {
+    "shortDescription": "花園大酒店位於台北市，擁有14間會議室，最大容納500人。",
+    "totalRooms": 14,
+    "maxCapacity": 500,
+    "priceRange": {
+      "halfDayMin": 10000,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": 20000,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  "risks": null,
+  "rules": null,
+  "pricingTips": null,
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1124-01",
+      "name": "2F 百合廳",
+      "nameEn": "2F Lily Room",
+      "floor": "2樓",
+      "capacity": {
+        "theater": 220,
+        "classroom": 140,
+        "banquet": 150,
+        "ushape": 48
+      },
+      "area": 71,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 48000,
+        "fullDay": 150000,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "飲用水",
+        "舞台",
+        "音響"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1124-02",
+      "name": "2F 薔薇廳",
+      "nameEn": "2F Rosa Room",
+      "floor": "2樓",
+      "capacity": {
+        "theater": 220,
+        "classroom": 140,
+        "banquet": 150,
+        "ushape": 48
+      },
+      "area": 71,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 48000,
+        "fullDay": 150000,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "飲用水",
+        "舞台",
+        "音響"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1124-03",
+      "name": "2F 國際廳",
+      "nameEn": "2F International Hall",
+      "floor": "2樓",
+      "capacity": {
+        "theater": 460,
+        "classroom": 300,
+        "banquet": 500,
+        "ushape": null
+      },
+      "area": 142,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 96000,
+        "fullDay": 300000,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "飲用水",
+        "大型舞台",
+        "專業音響",
+        "燈光"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1124-04",
+      "name": "3F 海芋廳",
+      "nameEn": "3F Calla Room",
+      "floor": "3樓",
+      "capacity": {
+        "theater": 30,
+        "classroom": 21,
+        "banquet": 30,
+        "ushape": 12
+      },
+      "area": 12,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 12000,
+        "fullDay": 50000,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "飲用水"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1124-05",
+      "name": "3F 水仙廳",
+      "nameEn": "3F Daffodil Room",
+      "floor": "3樓",
+      "capacity": {
+        "theater": 30,
+        "classroom": 21,
+        "banquet": 30,
+        "ushape": 12
+      },
+      "area": 12,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 12000,
+        "fullDay": 50000,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "飲用水"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1124-06",
+      "name": "3F 玫瑰廳",
+      "nameEn": "3F Rose Room",
+      "floor": "3樓",
+      "capacity": {
+        "theater": 76,
+        "classroom": 30,
+        "banquet": 50,
+        "ushape": null
+      },
+      "area": 27,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 24000,
+        "fullDay": 100000,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "飲用水"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1124-07",
+      "name": "3F 火鶴廳",
+      "nameEn": "3F Tail Flower Room",
+      "floor": "3樓",
+      "capacity": {
+        "theater": 50,
+        "classroom": 27,
+        "banquet": 40,
+        "ushape": 16
+      },
+      "area": 18,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 15000,
+        "fullDay": 64000,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "飲用水"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1124-08",
+      "name": "3F 茉莉廳",
+      "nameEn": "3F Jasmine Room",
+      "floor": "3樓",
+      "capacity": {
+        "theater": 50,
+        "classroom": 30,
+        "banquet": 40,
+        "ushape": 16
+      },
+      "area": 18,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 15000,
+        "fullDay": 64000,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "飲用水"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1124-09",
+      "name": "3F 山茶廳",
+      "nameEn": "3F Camellia Room",
+      "floor": "3樓",
+      "capacity": {
+        "theater": 130,
+        "classroom": 51,
+        "banquet": 100,
+        "ushape": null
+      },
+      "area": 38,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 30000,
+        "fullDay": 128000,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "飲用水"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1124-10",
+      "name": "3F 牡丹廳",
+      "nameEn": "3F Peony Room",
+      "floor": "3樓",
+      "capacity": {
+        "theater": 160,
+        "classroom": 100,
+        "banquet": 250,
+        "ushape": null
+      },
+      "area": 75,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 50000,
+        "fullDay": 220000,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "飲用水",
+        "舞台",
+        "音響"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1124-11",
+      "name": "3F 月桂廳",
+      "nameEn": "3F Bay Room",
+      "floor": "3樓",
+      "capacity": {
+        "theater": null,
+        "classroom": null,
+        "banquet": null,
+        "ushape": 10
+      },
+      "area": 7,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 10000,
+        "fullDay": 20000,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "飲用水"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1124-12",
+      "name": "3F 櫻花廳",
+      "nameEn": "3F Cherry Blossoms Room",
+      "floor": "3樓",
+      "capacity": {
+        "theater": 70,
+        "classroom": 42,
+        "banquet": 60,
+        "ushape": 20
+      },
+      "area": 25,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 35000,
+        "fullDay": 120000,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "飲用水"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1124-13",
+      "name": "3F 百花廳",
+      "nameEn": "3F Flora Room",
+      "floor": "3樓",
+      "capacity": {
+        "theater": 60,
+        "classroom": 24,
+        "banquet": 50,
+        "ushape": 21
+      },
+      "area": 35,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 40000,
+        "fullDay": 180000,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "飲用水"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1124-14",
+      "name": "1F 貴賓廳",
+      "nameEn": "1F VIP Room",
+      "floor": "1樓",
+      "capacity": {
+        "theater": 100,
+        "classroom": 51,
+        "banquet": 70,
+        "ushape": 30
+      },
+      "area": 34.5,
+      "ceilingHeight": null,
+      "pillar": false,
+      "pricing": {
+        "halfDay": 30000,
+        "fullDay": 120000,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統",
+        "無線麥克風",
+        "WiFi",
+        "空調",
+        "白板",
+        "講台",
+        "飲用水"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

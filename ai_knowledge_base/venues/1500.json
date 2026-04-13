@@ -10,7 +10,21 @@
     "phone": null,
     "contactEmail": null
   },
-  "summary": null,
+  "summary": {
+    "shortDescription": "南港展覽館1館位於台北市，擁有29間會議室，最大容納671人。",
+    "totalRooms": 29,
+    "maxCapacity": 671,
+    "priceRange": {
+      "halfDayMin": null,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": null,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
   "risks": {
     "bookingLeadTime": "活動日前30天（旺季建議提前3個月）",
     "peakSeasons": [

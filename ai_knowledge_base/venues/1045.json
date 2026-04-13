@@ -1,0 +1,130 @@
+{
+  "identity": {
+    "id": 1045,
+    "name": "北科大創新育成中心",
+    "nameEn": null,
+    "venueType": "會議中心",
+    "city": "台北市",
+    "address": "台北市大安區忠孝東路三段1號",
+    "url": "https://www.ntut.edu.tw",
+    "phone": "02-2771-2171",
+    "contactEmail": "venue@ntut.edu.tw"
+  },
+  "summary": {
+    "shortDescription": "北科大創新育成中心位於台北市，擁有3間會議室，最大容納80人。",
+    "totalRooms": 3,
+    "maxCapacity": 80,
+    "priceRange": {
+      "halfDayMin": 4000,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": 7000,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
+  "risks": null,
+  "rules": null,
+  "pricingTips": null,
+  "seasonal": null,
+  "logistics": null,
+  "rooms": [
+    {
+      "id": "1045-01",
+      "name": "國際會議廳",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": 80,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": 50,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": null,
+        "fullDay": 21000,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "音響系統"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1045-02",
+      "name": "會議室A",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": 30,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": 15,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": null,
+        "fullDay": 10500,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "白板"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    },
+    {
+      "id": "1045-03",
+      "name": "會議室B",
+      "nameEn": null,
+      "floor": null,
+      "capacity": {
+        "theater": 20,
+        "classroom": null,
+        "banquet": null,
+        "ushape": null
+      },
+      "area": 10,
+      "ceilingHeight": null,
+      "pillar": null,
+      "pricing": {
+        "halfDay": null,
+        "fullDay": 7000,
+        "overtimePerHour": null,
+        "note": null
+      },
+      "limitations": [],
+      "loadIn": null,
+      "suitableEventTypes": null,
+      "equipment": [
+        "投影設備",
+        "白板"
+      ],
+      "breakoutRooms": null,
+      "layout": null
+    }
+  ],
+  "ragChunks": [],
+  "inquiries": {
+    "pending": [],
+    "sent": []
+  }
+}

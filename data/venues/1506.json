@@ -1,0 +1,209 @@
+{
+  "id": 1506,
+  "name": "瓏山林台北中和飯店",
+  "venueType": "飯店場地",
+  "city": "新北市",
+  "address": "新北市中和區中山路三段119號",
+  "url": "https://taipei.rslhotel.com/meeting/",
+  "image": null,
+  "maxCapacity": null,
+  "highlights": [],
+  "contact": {
+    "phone": "+886-2-2226-6688",
+    "email": "rsl.tp@rslhotels.com.tw"
+  },
+  "rooms": [
+    {
+      "id": "1506-宴會廳Ballroo",
+      "name": "宴會廳\nBallroom",
+      "floor": null,
+      "area": 118,
+      "ceilingHeight": null,
+      "capacity": {
+        "banquet": 260,
+        "reception": 63,
+        "classroom": 150,
+        "theater": 360
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備（液晶投影機: 租用價格NT$12,000net/次。）",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1506-東廳East",
+      "name": "東廳 East",
+      "floor": null,
+      "area": 22.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "banquet": 50,
+        "reception": 45,
+        "classroom": 54,
+        "theater": 80,
+        "hollowSquare": 36
+      },
+      "pricing": {
+        "halfDay": 16000,
+        "fullDay": 32000
+      },
+      "equipment": [
+        "投影設備（液晶投影機: 租用價格NT$12,000net/次。）",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1506-南廳South",
+      "name": "南廳 South",
+      "floor": null,
+      "area": 14,
+      "ceilingHeight": null,
+      "capacity": {
+        "banquet": 30,
+        "reception": 18,
+        "classroom": 36,
+        "theater": 36,
+        "hollowSquare": 24
+      },
+      "pricing": {
+        "halfDay": 13000,
+        "fullDay": 26000
+      },
+      "equipment": [
+        "投影設備（液晶投影機: 租用價格NT$12,000net/次。）",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1506-北廳North",
+      "name": "北廳 North",
+      "floor": null,
+      "area": 22.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "banquet": 50,
+        "classroom": 24,
+        "theater": 50,
+        "hollowSquare": 36
+      },
+      "pricing": {
+        "halfDay": 12000,
+        "fullDay": 24000
+      },
+      "equipment": [
+        "投影設備（液晶投影機: 租用價格NT$12,000net/次。）",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1506-西廳West",
+      "name": "西廳 West",
+      "floor": null,
+      "area": 13.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "banquet": 30,
+        "reception": 9,
+        "classroom": 18,
+        "theater": 30,
+        "hollowSquare": 16
+      },
+      "pricing": {
+        "halfDay": 10000,
+        "fullDay": 20000
+      },
+      "equipment": [
+        "投影設備（液晶投影機: 租用價格NT$12,000net/次。）",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1506-貴賓廳IIVIPII",
+      "name": "貴賓廳 II\n( VIP II )",
+      "floor": null,
+      "area": 6,
+      "ceilingHeight": null,
+      "capacity": {
+        "banquet": 12,
+        "classroom": 15,
+        "theater": 20,
+        "hollowSquare": 10
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備（液晶投影機: 租用價格NT$12,000net/次。）",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "1506-貴賓廳IIVIPII",
+      "name": "貴賓廳 II\n( VIP II )",
+      "floor": null,
+      "area": 6,
+      "ceilingHeight": null,
+      "capacity": {
+        "banquet": 12,
+        "classroom": 15,
+        "theater": 20,
+        "hollowSquare": 10
+      },
+      "pricing": {
+        "note": "價格需電話洽詢"
+      },
+      "equipment": [
+        "投影設備（液晶投影機: 租用價格NT$12,000net/次。）",
+        "音響系統",
+        "無線網路"
+      ],
+      "limitations": []
+    }
+  ],
+  "risks": null,
+  "rules": {
+    "catering": [
+      {
+        "rule": "對於持續數日的會議，餐飲部準備多種不同茶點組合，如果您需要更詳盡的資料，歡迎與我們聯絡，瓏山林台北中和飯店期待為您服務。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "decoration": [
+      {
+        "rule": "會議場地佈置: 依照您的需求調整會議空間，例如：U字型、教室型...等。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ]
+  },
+  "pricingTips": null,
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1506.html"
+}

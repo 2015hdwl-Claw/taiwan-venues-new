@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+
+<html class="light" lang="zh-Hant"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>活動大師 - 旗艦會議中心</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Space+Grotesk:wght@500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "primary": "#004e47",
+                    "on-surface-variant": "#3e4947",
+                    "tertiary-fixed": "#ffdbcf",
+                    "background": "#f8f9fd",
+                    "on-secondary-fixed-variant": "#304c48",
+                    "on-error-container": "#93000a",
+                    "on-primary-container": "#93e4d8",
+                    "on-tertiary-container": "#ffc9b7",
+                    "surface-bright": "#f8f9fd",
+                    "inverse-surface": "#2e3134",
+                    "primary-fixed": "#a1f1e5",
+                    "on-error": "#ffffff",
+                    "primary-fixed-dim": "#85d5c9",
+                    "on-background": "#191c1f",
+                    "secondary-container": "#c9e9e3",
+                    "tertiary-fixed-dim": "#ffb59a",
+                    "on-surface": "#191c1f",
+                    "error-container": "#ffdad6",
+                    "error": "#ba1a1a",
+                    "on-secondary-container": "#4d6a65",
+                    "secondary-fixed-dim": "#aecdc7",
+                    "surface-dim": "#d9dade",
+                    "outline": "#6e7977",
+                    "on-tertiary-fixed": "#380d00",
+                    "surface-container-high": "#e7e8ec",
+                    "surface-container-lowest": "#ffffff",
+                    "inverse-on-surface": "#eff1f5",
+                    "secondary": "#47645f",
+                    "on-primary-fixed": "#00201d",
+                    "outline-variant": "#bec9c6",
+                    "surface-container": "#edeef2",
+                    "surface-container-low": "#f2f3f7",
+                    "on-tertiary-fixed-variant": "#71361f",
+                    "on-primary-fixed-variant": "#005049",
+                    "surface-container-highest": "#e1e2e6",
+                    "surface": "#f8f9fd",
+                    "tertiary": "#6e341d",
+                    "tertiary-container": "#8b4b32",
+                    "surface-variant": "#e1e2e6",
+                    "primary-container": "#00685f",
+                    "surface-tint": "#066a61",
+                    "secondary-fixed": "#c9e9e3",
+                    "inverse-primary": "#85d5c9",
+                    "on-primary": "#ffffff",
+                    "on-secondary-fixed": "#02201d",
+                    "on-secondary": "#ffffff",
+                    "on-tertiary": "#ffffff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "1rem",
+                    "lg": "2rem",
+                    "xl": "3rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Space Grotesk"],
+                    "body": ["Inter"],
+                    "label": ["Inter"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .tonal-transition { transition: background-color 0.3s ease; }
+        .glass-blur { backdrop-filter: blur(24px); }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-background font-body text-on-background antialiased">
+<!-- TopNavBar -->
+<header class="bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl docked full-width top-0 sticky shadow-sm dark:shadow-none z-50">
+<nav class="flex justify-between items-center w-full px-8 py-4 max-w-7xl mx-auto">
+<div class="text-2xl font-bold text-teal-800 dark:text-teal-300 flex items-center gap-2 font-headline tracking-tight"><img alt="Activity Master Logo" class="w-10 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC54GQHXZNSY3rulLho5aRdVg2QF2_jZrsRnHPYy1Q3wWfvasPgCI1fdKYp0ke76rMqklNrU9EZFxjrhTSBzPnGeTqrlkgYLW-AcRAUKDKUX62UVYwW7gByGcLQv6U1GEQ9LhCsnO7Ep3VxA1K9nnODybzKxkC6j2dojmJjJAd39Wrj13W-6ONlYZUIo8d3IY7dVVm5cEoCVu4mTuRyPEknmGxeVDdmJqZepx8KPQakim9eIPaE2pUA6IIxwd0ALhvm5P3Ijn-uTKY"/>
+<span>活動大師</span></div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-teal-700 dark:text-teal-400 font-bold border-b-2 border-teal-600 font-space-grotesk tracking-tight py-1" href="#">探索場地</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-teal-600 transition-all duration-300 font-space-grotesk tracking-tight" href="#">熱門活動</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-teal-600 transition-all duration-300 font-space-grotesk tracking-tight" href="#">知識庫</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-teal-600 transition-all duration-300 font-space-grotesk tracking-tight" href="#">關於我們</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined text-on-surface-variant p-2 hover:bg-slate-100 rounded-full transition-all">search</button>
+<button class="bg-primary text-on-primary px-6 py-2 rounded-full font-medium hover:translate-y-[-1px] active:scale-95 transition-all">登入</button>
+</div>
+</nav>
+</header>
+<!-- SideNavBar (Contextual Navigation) -->
+<aside class="fixed right-0 top-24 h-fit rounded-l-3xl bg-slate-50 dark:bg-slate-950 shadow-2xl flex flex-col gap-4 p-4 z-40 hidden lg:flex">
+<div class="flex flex-col items-center border-b border-outline-variant/10 pb-4 mb-2">
+<img alt="Activity Master" class="w-8 h-8 mb-1 rounded-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC54GQHXZNSY3rulLho5aRdVg2QF2_jZrsRnHPYy1Q3wWfvasPgCI1fdKYp0ke76rMqklNrU9EZFxjrhTSBzPnGeTqrlkgYLW-AcRAUKDKUX62UVYwW7gByGcLQv6U1GEQ9LhCsnO7Ep3VxA1K9nnODybzKxkC6j2dojmJjJAd39Wrj13W-6ONlYZUIo8d3IY7dVVm5cEoCVu4mTuRyPEknmGxeVDdmJqZepx8KPQakim9eIPaE2pUA6IIxwd0ALhvm5P3Ijn-uTKY"/>
+<span class="text-[10px] font-bold text-primary uppercase tracking-widest">Context</span>
+</div>
+<div class="flex flex-col gap-4">
+<button class="p-3 bg-teal-600 text-white rounded-full transition-transform duration-200 hover:translate-x-[-4px]" title="場地概覽">
+<span class="material-symbols-outlined">location_on</span>
+</button>
+<button class="p-3 text-slate-500 hover:bg-teal-50 rounded-full transition-transform duration-200 hover:translate-x-[-4px]" title="設備清單">
+<span class="material-symbols-outlined">layers</span>
+</button>
+<button class="p-3 text-slate-500 hover:bg-teal-50 rounded-full transition-transform duration-200 hover:translate-x-[-4px]" title="預約日程">
+<span class="material-symbols-outlined">calendar_today</span>
+</button>
+<button class="p-3 text-slate-500 hover:bg-teal-50 rounded-full transition-transform duration-200 hover:translate-x-[-4px]" title="AI 助理">
+<span class="material-symbols-outlined">smart_toy</span>
+</button>
+</div>
+</aside>
+<main class="max-w-7xl mx-auto px-8 py-12">
+<!-- Hero Section -->
+<section class="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-16 items-stretch">
+<div class="lg:col-span-7 rounded-xl overflow-hidden relative min-h-[500px] shadow-sm">
+<img alt="旗艦會議中心首圖" class="absolute inset-0 w-full h-full object-cover" data-alt="Modern high-end convention hall interior with minimalist architecture, floor-to-ceiling glass windows, and sophisticated ambient lighting during sunset." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCX9K3miU4I0Qu8tFQic0PbSrj1fJAQvfdbVjvG0rUpIMfJOpfibHXuKEdM92e1hWs51i-9FMQWAtNgKdiK7lyKgUXdP8ol5tQqPxlHvvWpAEweeHhGsQMWqPjRB0pIlNtWc7zzKaoHgjtUh913pjt1_Kfb1mmquFfAIapiSTaHM1NYVWVzybsQBHRjdBYYd2W0BzBWvwgSIByIjKF3jRXpRAB3_Mkq6xKtx1I6tFMQnsF_mF1IsRcIALNrMxE6LotgEiZ5wcK9u4o"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+</div>
+<div class="lg:col-span-5 flex flex-col justify-center bg-surface-container-lowest p-10 rounded-xl shadow-[0px_12px_32px_rgba(25,28,31,0.06)]">
+<div class="flex items-center gap-3 mb-6">
+<span class="bg-secondary-container text-on-secondary-container px-4 py-1 rounded-full text-xs font-semibold tracking-wide">旗艦場地</span>
+<div class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="text-sm font-bold">4.9</span>
+<span class="text-on-surface-variant text-xs font-medium ml-1">(120+ 評價)</span>
+</div>
+</div>
+<h1 class="text-4xl font-bold font-headline tracking-tight text-on-surface mb-4 leading-tight">天際旗艦會議中心</h1>
+<p class="text-on-surface-variant mb-8 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-container">location_on</span>
+                    台北市信義區忠孝東路五段 88 號 40 樓
+                </p>
+<div class="flex flex-wrap gap-4 mt-auto">
+<button class="bg-primary text-on-primary px-10 py-4 rounded-full font-bold flex-1 hover:translate-y-[-2px] transition-all shadow-lg">立即預約</button>
+<button class="border border-outline-variant/30 text-primary p-4 rounded-full hover:bg-surface-container transition-all">
+<span class="material-symbols-outlined">favorite</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Quick Facts -->
+<section class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
+<div class="bg-surface-container-low p-6 rounded-xl flex flex-col items-center text-center">
+<span class="material-symbols-outlined text-primary-container mb-3">group</span>
+<p class="text-xs font-medium text-on-surface-variant uppercase tracking-wider mb-1">最大容量</p>
+<p class="text-xl font-bold font-headline">500 人</p>
+</div>
+<div class="bg-surface-container-low p-6 rounded-xl flex flex-col items-center text-center">
+<span class="material-symbols-outlined text-primary-container mb-3">meeting_room</span>
+<p class="text-xs font-medium text-on-surface-variant uppercase tracking-wider mb-1">獨立空間</p>
+<p class="text-xl font-bold font-headline">8 個</p>
+</div>
+<div class="bg-surface-container-low p-6 rounded-xl flex flex-col items-center text-center">
+<span class="material-symbols-outlined text-primary-container mb-3">payments</span>
+<p class="text-xs font-medium text-on-surface-variant uppercase tracking-wider mb-1">起訂價格</p>
+<p class="text-xl font-bold font-headline">NT$ 5,000 / hr</p>
+</div>
+<div class="bg-surface-container-low p-6 rounded-xl flex flex-col items-center text-center">
+<span class="material-symbols-outlined text-primary-container mb-3">schedule</span>
+<p class="text-xs font-medium text-on-surface-variant uppercase tracking-wider mb-1">開放時間</p>
+<p class="text-xl font-bold font-headline">08:00 - 22:00</p>
+</div>
+</section>
+<!-- Risk Assessment & Tips -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-12 mb-16">
+<!-- Left: Risks -->
+<div class="lg:col-span-2 space-y-8">
+<h2 class="text-2xl font-bold font-headline tracking-tight">場地風險評估</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="bg-surface-container-lowest p-6 rounded-xl border-l-4 border-primary">
+<span class="material-symbols-outlined text-primary-container mb-4">history</span>
+<h3 class="font-bold mb-2">預訂前置期</h3>
+<p class="text-sm text-on-surface-variant">熱門時段建議至少提前 45 天預訂，以免向隅。</p>
+</div>
+<div class="bg-surface-container-lowest p-6 rounded-xl border-l-4 border-tertiary">
+<span class="material-symbols-outlined text-tertiary mb-4">event_busy</span>
+<h3 class="font-bold mb-2">尖峰季節</h3>
+<p class="text-sm text-on-surface-variant">12月與6月為活動高峰期，價格可能調漲 15%。</p>
+</div>
+<div class="bg-surface-container-lowest p-6 rounded-xl border-l-4 border-primary">
+<span class="material-symbols-outlined text-primary-container mb-4">help</span>
+<h3 class="font-bold mb-2">常見問題</h3>
+<p class="text-sm text-on-surface-variant">場地不提供夜間過夜搭建，如有需求請洽專員。</p>
+</div>
+</div>
+</div>
+<!-- Right: Pricing Tips -->
+<div class="bg-primary text-on-primary p-8 rounded-xl relative overflow-hidden">
+<div class="absolute -right-12 -top-12 w-48 h-48 bg-white/10 rounded-full blur-3xl"></div>
+<h2 class="text-xl font-bold font-headline mb-6 flex items-center gap-2">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">lightbulb</span>
+                    專業定價建議
+                </h2>
+<ul class="space-y-6">
+<li class="flex gap-4">
+<span class="text-primary-fixed font-bold">01</span>
+<p class="text-sm leading-relaxed">平日下午時段 (13:00-17:00) 預訂可享有 8 折優惠。</p>
+</li>
+<li class="flex gap-4">
+<span class="text-primary-fixed font-bold">02</span>
+<p class="text-sm leading-relaxed">長期租賃（超過 3 天）可洽談專屬配套服務與專人接待。</p>
+</li>
+<li class="flex gap-4">
+<span class="text-primary-fixed font-bold">03</span>
+<p class="text-sm leading-relaxed">加購餐飲套餐可減免場地清潔費共 NT$ 3,000。</p>
+</li>
+</ul>
+</div>
+</div>
+<!-- Rules Grid -->
+<section class="mb-16">
+<h2 class="text-2xl font-bold font-headline tracking-tight mb-8">場地規範與準則</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4">
+<div class="p-6 bg-surface-container rounded-lg">
+<span class="material-symbols-outlined text-primary mb-3">restaurant</span>
+<h4 class="font-bold mb-2">餐飲規範</h4>
+<p class="text-xs text-on-surface-variant">僅限指定供應商，外帶需收清潔費。</p>
+</div>
+<div class="p-6 bg-surface-container rounded-lg">
+<span class="material-symbols-outlined text-primary mb-3">architecture</span>
+<h4 class="font-bold mb-2">佈置限制</h4>
+<p class="text-xs text-on-surface-variant">禁止使用雙面膠與噴漆，需配合防火證明。</p>
+</div>
+<div class="p-6 bg-surface-container rounded-lg">
+<span class="material-symbols-outlined text-primary mb-3">volume_up</span>
+<h4 class="font-bold mb-2">音量控制</h4>
+<p class="text-xs text-on-surface-variant">22:00 後需調降至 60 分貝以下。</p>
+</div>
+<div class="p-6 bg-surface-container rounded-lg">
+<span class="material-symbols-outlined text-primary mb-3">local_shipping</span>
+<h4 class="font-bold mb-2">進場撤場</h4>
+<p class="text-xs text-on-surface-variant">貨梯使用需提前 3 天預約，限高 2.5m。</p>
+</div>
+<div class="p-6 bg-surface-container rounded-lg">
+<span class="material-symbols-outlined text-primary mb-3">cancel</span>
+<h4 class="font-bold mb-2">取消條款</h4>
+<p class="text-xs text-on-surface-variant">活動前 14 天取消退 50%，7 天內不退款。</p>
+</div>
+</div>
+</section>
+<!-- Room List -->
+<section class="mb-16">
+<div class="flex justify-between items-end mb-8">
+<h2 class="text-2xl font-bold font-headline tracking-tight">房型與空間選擇</h2>
+<button class="text-primary font-bold text-sm hover:underline">查看所有配置</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Room Card 1 -->
+<div class="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+<div class="aspect-video overflow-hidden">
+<img alt="奧羅拉會議室" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern high-tech corporate meeting room with ergonomic chairs, large screen, and minimalist grey and wood finishes." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlVpUOQEFugEdzahdg1Wy5F6gezGAhf72jlW7yT2hQjKGU_Yu_46XfnZgZyDR6RImFd_9-SCrmn0Y-ZwZx0NlKCvnErwmQl-key4SiMZkiJUEiGHvtPGIDENbpoMWFM3JeHIKX7PsgWN5j658M3t98pT1XzQvqeY94mHGqPgNuk1AxtcRRfqY3EI_LngztaS4yEgHNCOvDZ7eHcYr5N61GiIyHK1Gu2ctaYxdAOWvErIbciyAP4F5xbu5q1TK5uxDGCRmMlyvDaKw"/>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-bold text-lg">奧羅拉會議室</h3>
+<span class="text-primary font-bold font-headline">NT$ 2,500<span class="text-xs font-medium text-on-surface-variant">/hr</span></span>
+</div>
+<p class="text-xs text-on-surface-variant mb-4">適合小型團隊工作坊或董事會議</p>
+<div class="flex items-center gap-4 text-xs font-medium text-on-surface-variant">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">square_foot</span> 45㎡</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">person</span> 12-15 人</span>
+</div>
+</div>
+</div>
+<!-- Room Card 2 -->
+<div class="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+<div class="aspect-video overflow-hidden">
+<img alt="星雲多功能廳" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Expansive open-plan coworking and event space with natural light, industrial aesthetic, and flexible seating arrangements." src="https://lh3.googleusercontent.com/aida-public/AB6AXuChGWd_SFv5YEKPLNsAu6fYcVak8vKOj0YyjY02k3Pk5owE6H8FnngJLls0dLzo3n_pLwsHHFGkTdftplTczET7kFZkkrvQYiqXcUI9DujTGynLE8PqYHaNoSXDRtRatncXT2r2XZWvPp_B3qd0MCvappmKZiaHBMQ_uB_YsuaHvFRDYal4e8T5o_cnsRR1AX5UrO5ErZDNooNG2jg3T6p-4nDm8O-zJVAHNFkEjwjjaERHqjsqia0n0rBHS889Y4Y0DvHPj6WDkCg"/>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-bold text-lg">星雲多功能廳</h3>
+<span class="text-primary font-bold font-headline">NT$ 4,800<span class="text-xs font-medium text-on-surface-variant">/hr</span></span>
+</div>
+<p class="text-xs text-on-surface-variant mb-4">開放式彈性空間，適合產品發布會</p>
+<div class="flex items-center gap-4 text-xs font-medium text-on-surface-variant">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">square_foot</span> 120㎡</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">person</span> 60-80 人</span>
+</div>
+</div>
+</div>
+<!-- Room Card 3 -->
+<div class="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+<div class="aspect-video overflow-hidden">
+<img alt="天際大禮堂" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Large theater-style auditorium with tiered seating, stage lighting, and professional acoustic panels." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBllbUojukNOKVqAwj6IfuHL3Jaxbl8WJpF7SMHGpfxiXQczPbIGO0f7gVQFBcGSSbVO4sWMcC3bxS3Kasd02QORV9yfSlthdsDKjpHASXaRbnaoKAwy7cCO0tpSisfAZbtzdK7QeCpfP-qD2IkCJAyQTDNHiU7V3z3wcFPRoZ-_uBMvJ_m5nIZNgqWtTM8yORTaDTTqi_iYACumh9Nng7jjNOzG-hfDHyn-0W7GFzHwKnEBG9bU8kk9LRlx3ytamKHLNYggErNxmo"/>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-bold text-lg">天際大禮堂</h3>
+<span class="text-primary font-bold font-headline">NT$ 12,000<span class="text-xs font-medium text-on-surface-variant">/hr</span></span>
+</div>
+<p class="text-xs text-on-surface-variant mb-4">頂級視聽設備，適合大型國際研討會</p>
+<div class="flex items-center gap-4 text-xs font-medium text-on-surface-variant">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">square_foot</span> 450㎡</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-sm">person</span> 300-500 人</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- AI Chat Widget -->
+<div class="fixed bottom-8 right-8 w-80 z-50">
+<div class="bg-white rounded-2xl shadow-2xl overflow-hidden border border-outline-variant/10">
+<!-- Context Bar -->
+<div class="bg-primary px-4 py-2 flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>
+<span class="text-[10px] text-white/80 font-bold uppercase tracking-wider">AI 正在了解：天際旗艦會議中心</span>
+</div>
+<div class="p-4 bg-white">
+<div class="mb-4">
+<div class="bg-surface-container-low p-3 rounded-tr-xl rounded-bl-xl rounded-br-xl text-sm mb-2">
+                        您好！我是場地小助手。關於「天際旗艦會議中心」的容納人數或餐飲方案，有什麼我可以幫您的嗎？
+                    </div>
+</div>
+<div class="relative">
+<input class="w-full bg-surface-container border-none rounded-full px-4 py-3 text-sm focus:ring-2 focus:ring-primary/20" placeholder="輸入您的問題..." type="text"/>
+<button class="absolute right-2 top-1.5 p-1.5 bg-primary text-on-primary rounded-full">
+<span class="material-symbols-outlined text-sm">send</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer -->
+<footer class="bg-slate-50 dark:bg-slate-950 border-t border-slate-200/50 dark:border-slate-800/50 py-12 px-8">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto font-inter text-sm tracking-wide">
+<div>
+<div class="text-xl font-bold text-teal-800 dark:text-teal-200 mb-4"><img alt="Activity Master Logo" class="w-8 rounded-full object-cover inline-block mr-2 align-middle" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC54GQHXZNSY3rulLho5aRdVg2QF2_jZrsRnHPYy1Q3wWfvasPgCI1fdKYp0ke76rMqklNrU9EZFxjrhTSBzPnGeTqrlkgYLW-AcRAUKDKUX62UVYwW7gByGcLQv6U1GEQ9LhCsnO7Ep3VxA1K9nnODybzKxkC6j2dojmJjJAd39Wrj13W-6ONlYZUIo8d3IY7dVVm5cEoCVu4mTuRyPEknmGxeVDdmJqZepx8KPQakim9eIPaE2pUA6IIxwd0ALhvm5P3Ijn-uTKY"/>活動大師</div>
+<p class="text-slate-500 leading-relaxed max-w-xs">
+                    提供一站式的活動場地搜尋與專業策劃支援，讓每一次交流都深具價值。
+                </p>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="flex flex-col gap-3">
+<a class="text-slate-500 hover:text-teal-600 transition-all" href="#">使用條款</a>
+<a class="text-slate-500 hover:text-teal-600 transition-all" href="#">隱私政策</a>
+</div>
+<div class="flex flex-col gap-3">
+<a class="text-slate-500 hover:text-teal-600 transition-all" href="#">場地加盟</a>
+<a class="text-slate-500 hover:text-teal-600 transition-all" href="#">聯絡支援</a>
+</div>
+</div>
+<div class="flex flex-col items-start md:items-end gap-4">
+<p class="text-slate-500">© 2024 活動大師 Activity Master. All rights reserved.</p>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-slate-400 cursor-pointer hover:text-primary transition-all">language</span>
+<span class="material-symbols-outlined text-slate-400 cursor-pointer hover:text-primary transition-all">share</span>
+</div>
+</div>
+</div>
+</footer>
+</body></html>

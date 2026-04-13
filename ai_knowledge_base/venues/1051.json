@@ -10,7 +10,21 @@
     "phone": null,
     "contactEmail": null
   },
-  "summary": null,
+  "summary": {
+    "shortDescription": "台北亞都麗緻大飯店(LandisTaipei)位於台北市，擁有3間會議室，最大容納160人。",
+    "totalRooms": 3,
+    "maxCapacity": 160,
+    "priceRange": {
+      "halfDayMin": 45000,
+      "halfDayMax": null,
+      "fullDayMin": null,
+      "fullDayMax": 80000,
+      "note": null
+    },
+    "suitableEventTypes": [],
+    "strengths": [],
+    "weaknesses": []
+  },
   "risks": {
     "bookingLeadTime": "一般活動至少2-4週前；旺季建議2-3個月前",
     "peakSeasons": [

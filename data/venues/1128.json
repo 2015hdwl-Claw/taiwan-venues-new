@@ -1,0 +1,430 @@
+{
+  "id": 1128,
+  "name": "集思台大會議中心(NTUCC)",
+  "venueType": "會議中心",
+  "city": "台北市",
+  "address": "台北市大安區羅斯福路四段85號",
+  "url": "https://www.meeting.com.tw/ntu/",
+  "image": "https://www.meeting.com.tw/ntu/images/floor-ntu.png",
+  "maxCapacity": null,
+  "highlights": [],
+  "contact": {
+    "phone": "(02) 2363-5868",
+    "email": "meeting@gisgroup.com"
+  },
+  "rooms": [
+    {
+      "id": "1128-01",
+      "name": "國際會議廳",
+      "floor": "B1",
+      "area": 253.6,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 400
+      },
+      "pricing": {
+        "halfDay": 44000
+      },
+      "equipment": [
+        "Wireless mic x3",
+        "table mic",
+        "VIP lounge x1",
+        "registration table x3"
+      ],
+      "limitations": [
+        "發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。",
+        "會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。"
+      ]
+    },
+    {
+      "id": "1128-02",
+      "name": "蘇格拉底廳",
+      "floor": "B1",
+      "area": 59.8,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 145
+      },
+      "pricing": {
+        "halfDay": 19000
+      },
+      "equipment": [
+        "Wireless mic x3",
+        "backroom x1",
+        "registration table x2"
+      ],
+      "limitations": [
+        "發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。",
+        "會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。"
+      ]
+    },
+    {
+      "id": "1128-03",
+      "name": "柏拉圖廳",
+      "floor": "B1",
+      "area": 69.3,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 150
+      },
+      "pricing": {
+        "halfDay": 16000
+      },
+      "equipment": [
+        "Wireless mic x3",
+        "registration table x2"
+      ],
+      "limitations": [
+        "發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。",
+        "會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。"
+      ]
+    },
+    {
+      "id": "1128-05",
+      "name": "洛克廳",
+      "floor": "B1",
+      "area": 37.7,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 90
+      },
+      "pricing": {
+        "halfDay": 10000
+      },
+      "equipment": [
+        "Wireless mic x2",
+        "registration table x2"
+      ],
+      "limitations": [
+        "發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。",
+        "會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。"
+      ]
+    },
+    {
+      "id": "1128-06",
+      "name": "亞歷山大廳",
+      "floor": "B1",
+      "area": 31.3,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 54
+      },
+      "pricing": {
+        "halfDay": 7000
+      },
+      "equipment": [
+        "Wireless mic x2",
+        "registration table x1"
+      ],
+      "limitations": [
+        "發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。",
+        "會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。"
+      ]
+    },
+    {
+      "id": "1128-07",
+      "name": "阿基米德廳",
+      "floor": "B1",
+      "area": 31.3,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 54
+      },
+      "pricing": {
+        "halfDay": 7000
+      },
+      "equipment": [
+        "Wireless mic x2",
+        "registration table x1"
+      ],
+      "limitations": [
+        "發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。",
+        "會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。"
+      ]
+    },
+    {
+      "id": "1128-08",
+      "name": "亞里斯多德廳",
+      "floor": "B1",
+      "area": 10.5,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 18
+      },
+      "pricing": {
+        "halfDay": 3500
+      },
+      "equipment": [
+        "Registration table x1"
+      ],
+      "limitations": [
+        "發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。",
+        "會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。"
+      ]
+    },
+    {
+      "id": "1128-09",
+      "name": "達文西廳",
+      "floor": "B1",
+      "area": 41.4,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 48
+      },
+      "pricing": {
+        "halfDay": 6500
+      },
+      "equipment": [
+        "Wireless mic x2",
+        "registration table x1"
+      ],
+      "limitations": [
+        "發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。",
+        "會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。"
+      ]
+    },
+    {
+      "id": "1128-10",
+      "name": "拉斐爾廳",
+      "floor": "B1",
+      "area": 41.4,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 72
+      },
+      "pricing": {
+        "halfDay": 8500
+      },
+      "equipment": [
+        "Wireless mic x2",
+        "registration table x1"
+      ],
+      "limitations": [
+        "發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。",
+        "會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。"
+      ]
+    },
+    {
+      "id": "1128-11",
+      "name": "米開朗基羅廳",
+      "floor": "B1",
+      "area": 41.4,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 72
+      },
+      "pricing": {
+        "halfDay": 8500
+      },
+      "equipment": [
+        "Wireless mic x2",
+        "registration table x1"
+      ],
+      "limitations": [
+        "發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。",
+        "會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。"
+      ]
+    },
+    {
+      "id": "1128-12",
+      "name": "尼采廳",
+      "floor": "B1",
+      "area": 41.4,
+      "ceilingHeight": null,
+      "capacity": {
+        "theater": 48
+      },
+      "pricing": {
+        "halfDay": 6500
+      },
+      "equipment": [
+        "Wireless mic x2",
+        "registration table x1"
+      ],
+      "limitations": [
+        "發現未鋪設除將加收5%場地費外，並禁止施工；若造成現有地毯毀損，須將場地恢復原狀後返還。",
+        "會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。"
+      ]
+    }
+  ],
+  "risks": null,
+  "rules": {
+    "catering": [
+      {
+        "rule": "10%核算之)。場地租用單位除須於進場前提供相關餐飲訂單供本展館核算管理費外，並須於活動結束前完成餐",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "(3)會議室內用飲品、餐盒或餐點：需繳交場地費之10%作為清潔費。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "(4)會議室內舉辦餐宴(外燴)活動：須於會議室現有之地毯上另鋪設一層地毯以保護現有地毯(福軒除外)，並須繳",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "茶點合約商供餐者，除場地清潔費外，本展館將向場地租用單位另收取10%餐飲管理費(即茶餐飲費用總額之",
+        "confidence": "legacy",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        }
+      }
+    ],
+    "decoration": [
+      {
+        "rule": "(4)如須加開空調，除上述(1)、(2)佈置或拆場租金外，須加收空調費用如下:",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "8.會場內設置系統裝潢、木座等裝潢物，須於下方鋪設地毯，不得使用透明膠膜替代(福軒不得搭設裝潢物)，若經",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "9.如需於會議室內搭設隔板、木作等裝潢物，該裝潢物在4樓不得高於2.5公尺，在5樓高度不得高於2公尺，均",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "10.裝潢廢棄物需由裝潢商或主辦單位自行清除，如未清除乾淨，將由館方清潔合約商報價予主辦單位，收取廢棄物",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "格水電裝潢商施作拉線，衍生出工程、線材、電費需由主辦單位支付；該用電線路須經館方工程組完成用電安全",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "502會議室共用、福軒除外)、海報架(直)2支，其它設備依價目表收費。",
+        "confidence": "legacy",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        }
+      }
+    ],
+    "sound": [
+      {
+        "rule": "(4)影音視聽設備須由館方提供，包含同步翻譯設備、音響設備、會議討論系統麥克風、攝/錄影服務、LED電視",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "loadIn": [
+      {
+        "rule": "10%核算之)。場地租用單位除須於進場前提供相關餐飲訂單供本展館核算管理費外，並須於活動結束前完成餐",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      },
+      {
+        "rule": "會議室牆面禁止使用釘槍等破壞性器材施作，地板載重限制每平方公尺400公斤。",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ],
+    "cancellation": [
+      {
+        "rule": "(2)基本配備若不需使用不得退費，亦不得替換；已確定租用之設備臨時退租不予退費，臨時追加則依定價加3",
+        "exception": null,
+        "penalty": null,
+        "negotiable": null,
+        "source": {
+          "type": "legacy",
+          "extractedAt": "2026-04-06"
+        },
+        "confidence": "legacy"
+      }
+    ]
+  },
+  "pricingTips": null,
+  "pageUrl": "https://taiwan-venues-new-indol.vercel.app/venues/1128.html"
+}

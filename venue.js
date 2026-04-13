@@ -3,7 +3,94 @@ let allVenues = [];
 let currentVenue = null;
 
 // ===== 版本控制 =====
-const DATA_VERSION = '20260407-v1'; // 與 app.js 保持同步
+const DATA_VERSION = '20260412-v31'; // 與 app.js 保持同步
+
+// ===== 智能照片選擇 =====
+/**
+ * 選擇最合適的場地主照片
+ * 優先順序：會議室照片 > 飯店外觀/大廳 > 會議室列表中的照片 > 主照片
+ *
+ * 不使用：房間照片 (roomtype, guestroom, bedroom)
+ */
+function selectVenueMainImage(venue) {
+    const images = venue.images || {};
+    const gallery = images.gallery || [];
+    const rooms = venue.rooms || [];
+
+    // 房間照片關鍵字（跳過）
+    const roomKeywords = ['roomtype', 'guestroom', 'bedroom', '客室', '寢室', '房間', 'suite'];
+    // 會議室照片關鍵字（優先）
+    const meetingKeywords = ['banquet', 'meeting', 'conference', '會議', '宴會', '會議室', 'ballroom'];
+    // 飯店照片關鍵字（次優先）
+    const hotelKeywords = ['lobby', 'exterior', 'facade', 'building', '外觀', '大廳', '飯店', 'hotel'];
+
+    // 輔助函數：檢查 URL 是否包含關鍵字
+    const hasKeyword = (url, keywords) => {
+        if (!url) return false;
+        const urlLower = url.toLowerCase();
+        return keywords.some(kw => urlLower.includes(kw));
+    };
+
+    const isRoomPhoto = (url) => hasKeyword(url, roomKeywords);
+    const isMeetingPhoto = (url) => hasKeyword(url, meetingKeywords);
+    const isHotelPhoto = (url) => hasKeyword(url, hotelKeywords);
+
+    // 1. 從 gallery 中尋找會議室照片
+    for (const url of gallery) {
+        if (isMeetingPhoto(url) && !isRoomPhoto(url)) {
+            console.log(`✅ 選擇會議室照片: ${url.split('/').pop()}`);
+            return url;
+        }
+    }
+
+    // 2. 從 gallery 中尋找飯店照片（外觀/大廳）
+    for (const url of gallery) {
+        if (isHotelPhoto(url) && !isRoomPhoto(url)) {
+            console.log(`✅ 選擇飯店照片: ${url.split('/').pop()}`);
+            return url;
+        }
+    }
+
+    // 3. 從活躍會議室中尋找照片
+    const activeRooms = rooms.filter(r => r.isActive !== false);
+    for (const room of activeRooms) {
+        const roomImages = room.images || {};
+        if (roomImages.main) {
+            console.log(`✅ 選擇會議室照片 (${room.name}): ${roomImages.main.split('/').pop()}`);
+            return roomImages.main;
+        }
+        if (Array.isArray(roomImages.gallery) && roomImages.gallery.length > 0) {
+            console.log(`✅ 選擇會議室照片 (${room.name}): ${roomImages.gallery[0].split('/').pop()}`);
+            return roomImages.gallery[0];
+        }
+    }
+
+    // 4. 從 gallery 中尋找第一個非房間照片
+    for (const url of gallery) {
+        if (!isRoomPhoto(url)) {
+            console.log(`✅ 選擇 gallery 非房間照片: ${url.split('/').pop()}`);
+            return url;
+        }
+    }
+
+    // 5. 最後才使用主照片（即使是房間照片）
+    if (images.main) {
+        console.log(`⚠️ 使用主照片（可能是房間照片）: ${images.main.split('/').pop()}`);
+        return images.main;
+    }
+
+    return null;
+}
+
+// ===== Tailwind 顯示/隱藏輔助函數 =====
+function showElement(el) {
+    if (typeof el === 'string') el = document.getElementById(el);
+    if (el) el.classList.remove('hidden');
+}
+function hideElement(el) {
+    if (typeof el === 'string') el = document.getElementById(el);
+    if (el) el.classList.add('hidden');
+}
 
 // ===== 初始化 =====
 document.addEventListener('DOMContentLoaded', async () => {
@@ -55,28 +142,76 @@ function loadVenueDetail() {
     
     // 渲染場地資訊
     renderVenueDetail();
-    
+
     // 隱藏載入狀態，顯示內容
-    document.getElementById('loadingState').style.display = 'none';
-    document.getElementById('venueContent').style.display = 'block';
+    hideElement('loadingState');
+    showElement('venueContent');
 }
 
 // ===== 渲染場地詳情 =====
 function renderVenueDetail() {
     const venue = currentVenue;
     
-    // 更新頁面標題
-    document.title = `${venue.name} - 活動大師`;
-    
-    // 主圖（使用官網圖片，如果沒有則隱藏）
-    if (venue.images?.main) {
-        const mainImage = venue.images.main;
+    // 更新頁面標題與 SEO meta
+    const rooms = venue.rooms || [];
+    const roomCount = rooms.length;
+    const maxCap = Math.max(venue.maxCapacityTheater || 0, venue.maxCapacityClassroom || 0);
+    const titleSuffix = '場地知識庫 | 活動大師';
+
+    document.title = `${venue.name} — ${titleSuffix}`;
+
+    // 動態更新 meta 標籤
+    const updateMeta = (prop, content) => {
+        let el = document.querySelector(`meta[property="${prop}"]`) || document.querySelector(`meta[name="${prop}"]`);
+        if (el) el.setAttribute('content', content);
+    };
+
+    const metaDesc = `${venue.name}${venue.venueType ? '，' + venue.venueType : ''}。${roomCount ? roomCount + '間會議室，' : ''}${maxCap ? '最多' + maxCap + '人，' : ''}含天花板高度、電力負載、進場動線等官網不寫的資訊。${titleSuffix}`;
+    const ogTitle = `${venue.name} — ${titleSuffix}`;
+    const ogUrl = `https://taiwan-venues-new-indol.vercel.app/venue.html?id=${venue.id}`;
+
+    updateMeta('description', metaDesc);
+    updateMeta('og:title', ogTitle);
+    updateMeta('og:description', metaDesc);
+    updateMeta('og:url', ogUrl);
+    updateMeta('twitter:title', ogTitle);
+    updateMeta('twitter:description', metaDesc);
+
+    // 智能選擇主照片
+    const selectedImage = selectVenueMainImage(venue);
+    if (selectedImage) {
+        updateMeta('og:image', selectedImage);
+    }
+
+    // 動態注入 JSON-LD EventVenue 結構化資料
+    const jsonLd = {
+        "@context": "https://schema.org",
+        "@type": "EventVenue",
+        "name": venue.name,
+        "description": metaDesc,
+        "url": ogUrl,
+        ...(venue.address && { "address": { "@type": "PostalAddress", "addressLocality": "台灣", "streetAddress": venue.address } }),
+        ...(venue.contactPhone && { "telephone": venue.contactPhone }),
+        ...(selectedImage && { "image": selectedImage }),
+        ...(venue.url && { "sameAs": venue.url })
+    };
+    let jsonLdScript = document.getElementById('json-ld-venue');
+    if (!jsonLdScript) {
+        jsonLdScript = document.createElement('script');
+        jsonLdScript.type = 'application/ld+json';
+        jsonLdScript.id = 'json-ld-venue';
+        document.head.appendChild(jsonLdScript);
+    }
+    jsonLdScript.textContent = JSON.stringify(jsonLd);
+
+    // 主圖（使用智能選擇的照片）
+    if (selectedImage) {
         const imgElement = document.getElementById('venueMainImage');
-        imgElement.src = mainImage;
-        imgElement.alt = venue.name;
-        imgElement.style.display = 'block';
+        imgElement.src = selectedImage;
+        imgElement.alt = `${venue.name} 會議室`;
+        showElement(imgElement);
     } else {
-        document.getElementById('venueMainImage').style.display = 'none';
+        hideElement('venueMainImage');
     }
     
     // 基本資訊
@@ -85,15 +220,22 @@ function renderVenueDetail() {
     document.getElementById('venueAddress').querySelector('span').textContent = venue.address || '地址未提供';
     
     // 容納人數
-    let capacityText = '-';
+    let capacityText = '最大容納 -';
     if (venue.maxCapacityTheater && venue.maxCapacityClassroom) {
-        capacityText = `劇院式 ${venue.maxCapacityTheater} 人 / 教室式 ${venue.maxCapacityClassroom} 人`;
+        capacityText = `最大容納 ${Math.max(venue.maxCapacityTheater, venue.maxCapacityClassroom)} 人`;
     } else if (venue.maxCapacityTheater) {
-        capacityText = `劇院式 ${venue.maxCapacityTheater} 人`;
+        capacityText = `最大容納 ${venue.maxCapacityTheater} 人`;
     } else if (venue.maxCapacityClassroom) {
-        capacityText = `教室式 ${venue.maxCapacityClassroom} 人`;
+        capacityText = `最大容納 ${venue.maxCapacityClassroom} 人`;
     }
     document.getElementById('venueCapacity').textContent = capacityText;
+
+    // 會議室數量
+    const roomsCount = venue.rooms ? venue.rooms.length : 0;
+    const roomCountEl = document.getElementById('venueRoomCountText');
+    if (roomCountEl) {
+        roomCountEl.textContent = roomsCount > 0 ? `${roomsCount} 間多功能會議室` : '會議室資訊待確認';
+    }
     
     // 價格
     let priceText = '價格面議';
@@ -141,38 +283,38 @@ function renderVenueDetail() {
 function renderContactInfo(venue) {
     // 聯絡人
     if (venue.contactPerson) {
-        document.getElementById('contactPerson').style.display = 'flex';
+        showElement('contactPerson');
         document.getElementById('contactPerson').querySelector('.contact-value').textContent = venue.contactPerson;
     }
-    
+
     // 電話
     if (venue.contactPhone) {
-        document.getElementById('contactPhone').style.display = 'flex';
+        showElement('contactPhone');
         const phoneLink = document.getElementById('contactPhone').querySelector('.contact-link');
         phoneLink.href = `tel:${venue.contactPhone}`;
         phoneLink.textContent = venue.contactPhone;
-        
+
         // 撥打按鈕
-        document.getElementById('callBtn').style.display = 'inline-flex';
+        showElement('callBtn');
         document.getElementById('callBtn').href = `tel:${venue.contactPhone}`;
     }
-    
+
     // Email
     if (venue.contactEmail) {
-        document.getElementById('contactEmail').style.display = 'flex';
+        showElement('contactEmail');
         const emailLink = document.getElementById('contactEmail').querySelector('.contact-link');
         emailLink.href = `mailto:${venue.contactEmail}`;
         emailLink.textContent = venue.contactEmail;
     }
-    
+
     // 官網
     if (venue.url) {
-        document.getElementById('venueUrl').style.display = 'flex';
+        showElement('venueUrl');
         const urlLink = document.getElementById('venueUrl').querySelector('.contact-link');
         urlLink.href = venue.url;
-        
+
         // 官網按鈕
-        document.getElementById('websiteBtn').style.display = 'inline-flex';
+        showElement('websiteBtn');
         document.getElementById('websiteBtn').href = venue.url;
     }
 }
@@ -182,18 +324,25 @@ function renderRooms(venue) {
     const roomsGrid = document.getElementById('roomsGrid');
     const noRoomsState = document.getElementById('noRoomsState');
     const roomsCount = document.getElementById('roomsCount');
-    
+
     const rooms = venue.rooms || [];
-    
-    if (rooms.length === 0) {
-        noRoomsState.style.display = 'block';
-        roomsCount.textContent = '(尚無資料)';
+
+    // 過濾下架的會議室
+    const activeRooms = rooms.filter(room => room.isActive !== false);
+
+    // 計算隱藏的會議室數量
+    const hiddenRoomsCount = rooms.length - activeRooms.length;
+
+    if (activeRooms.length === 0) {
+        showElement(noRoomsState);
+        roomsCount.textContent = `(${rooms.length} 間)`;
         return;
     }
-    
-    roomsCount.textContent = `(${rooms.length} 間)`;
-    
-    rooms.forEach(room => {
+
+    // 顯示總數（包含隱藏的）
+    roomsCount.textContent = `(${activeRooms.length}${hiddenRoomsCount > 0 ? ` +${hiddenRoomsCount} 隱藏` : ''} 間)`;
+
+    activeRooms.forEach(room => {
         const card = createRoomCard(room, venue.id);
         roomsGrid.appendChild(card);
     });
@@ -202,7 +351,7 @@ function renderRooms(venue) {
 // ===== 創建會議室卡片 =====
 function createRoomCard(room, venueId) {
     const card = document.createElement('div');
-    card.className = 'room-card';
+    card.className = 'bg-surface-container-lowest rounded-xl overflow-hidden group border border-surface-container-high hover:border-primary transition-all cursor-pointer';
     card.onclick = () => goToRoom(venueId, room.id);
 
     // 圖片處理
@@ -215,90 +364,66 @@ function createRoomCard(room, venueId) {
         imageUrl = room.photo;
     }
 
-    // 容納人數視覺化
-    let capacityBars = '';
+    // 容納人數
+    let capacityText = '-';
     if (room.capacity) {
-        const caps = [];
-        if (room.capacity.theater) caps.push(`<span class="cap-item"><span class="cap-icon">🎭</span><span class="cap-num">${room.capacity.theater}</span></span>`);
-        if (room.capacity.classroom) caps.push(`<span class="cap-item"><span class="cap-icon">📚</span><span class="cap-num">${room.capacity.classroom}</span></span>`);
-        if (room.capacity.ushape) caps.push(`<span class="cap-item"><span class="cap-icon">🔀</span><span class="cap-num">${room.capacity.ushape}</span></span>`);
-        if (room.capacity.banquet) caps.push(`<span class="cap-item"><span class="cap-icon">🍽️</span><span class="cap-num">${room.capacity.banquet}</span></span>`);
-        capacityBars = caps.join('');
-    }
-
-    // 價格
-    let priceText = '價格面議';
-    let priceClass = '';
-    if (room.pricing) {
-        if (room.pricing.halfDay && room.pricing.fullDay) {
-            priceText = `$${(room.pricing.halfDay/1000).toFixed(0)}k - $${(room.pricing.fullDay/1000).toFixed(0)}k`;
-            priceClass = 'has-price';
-        } else if (room.pricing.fullDay) {
-            priceText = `$${(room.pricing.fullDay/1000).toFixed(0)}k/天`;
-            priceClass = 'has-price';
-        } else if (room.pricing.halfDay) {
-            priceText = `$${(room.pricing.halfDay/1000).toFixed(0)}k/半天`;
-            priceClass = 'has-price';
-        } else if (room.pricing.note) {
-            priceText = room.pricing.note;
-            priceClass = 'price-note';
+        const min = Math.min(room.capacity.theater || Infinity, room.capacity.classroom || Infinity, room.capacity.ushape || Infinity);
+        const max = Math.max(room.capacity.theater || 0, room.capacity.classroom || 0, room.capacity.ushape || 0);
+        if (min !== Infinity && max > 0) {
+            capacityText = min === max ? `${min} 人` : `${min}-${max} 人`;
         }
     }
 
-    // 限制警示
-    let limitationHtml = '';
-    if (room.limitations && room.limitations.length > 0) {
-        const firstLimitation = room.limitations[0];
-        limitationHtml = `
-            <div class="room-limitation-warning">
-                <span class="warning-icon">⚠️</span>
-                <span class="warning-text">${firstLimitation.length > 50 ? firstLimitation.substring(0, 50) + '...' : firstLimitation}</span>
-                ${room.limitations.length > 1 ? `<span class="warning-more">+${room.limitations.length - 1}</span>` : ''}
-            </div>
-        `;
+    // 價格
+    let priceHtml = '<span class="text-sm text-outline">起價</span><p class="text-2xl font-bold text-primary">價格面議</p>';
+    if (room.pricing) {
+        if (room.pricing.halfDay && room.pricing.fullDay) {
+            priceHtml = `<span class="text-sm text-outline">起價</span><p class="text-2xl font-bold text-primary">NT$ ${room.pricing.halfDay.toLocaleString()} <span class="text-xs font-normal text-on-surface-variant">- NT$ ${room.pricing.fullDay.toLocaleString()}</span></p>`;
+        } else if (room.pricing.fullDay) {
+            priceHtml = `<span class="text-sm text-outline">起價</span><p class="text-2xl font-bold text-primary">NT$ ${room.pricing.fullDay.toLocaleString()} <span class="text-xs font-normal text-on-surface-variant">/天</span></p>`;
+        } else if (room.pricing.halfDay) {
+            priceHtml = `<span class="text-sm text-outline">起價</span><p class="text-2xl font-bold text-primary">NT$ ${room.pricing.halfDay.toLocaleString()} <span class="text-xs font-normal text-on-surface-variant">/半天</span></p>`;
+        } else if (room.pricing.note) {
+            priceHtml = `<span class="text-sm text-outline">起價</span><p class="text-2xl font-bold text-primary">${room.pricing.note}</p>`;
+        }
     }
 
-    // 天花板高度
-    const ceilingInfo = room.ceilingHeight ? `<span class="ceiling-info">挑高 ${room.ceilingHeight}m</span>` : '';
-
-    // 進場資訊
-    let loadInInfo = '';
-    if (room.loadIn) {
-        const items = [];
-        if (room.loadIn.elevator) items.push('有貨梯');
-        if (room.loadIn.vehicleAccess) items.push('車輛可達');
-        if (items.length > 0) loadInInfo = `<span class="loadin-info">${items.join(' · ')}</span>`;
-    }
+    // 描述
+    const description = room.description || room.name || '';
 
     // 圖片區域
     const imageHtml = imageUrl
-        ? `<div class="room-image"><img src="${imageUrl}" alt="${room.name}" onerror="this.style.display='none'"></div>`
-        : '<div class="room-image room-image-placeholder">🚪</div>';
+        ? `<div class="h-64 overflow-hidden relative"><img src="${imageUrl}" alt="${room.name}" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" onerror="this.parentElement.innerHTML='<div class=\\'w-full h-full bg-surface-container flex items-center justify-center text-4xl\\'>🚪</div>'">${room.floor ? `<div class="absolute top-4 right-4 bg-primary text-on-primary px-3 py-1 rounded-full text-xs font-bold">${room.floor}</div>` : ''}</div>`
+        : `<div class="h-64 bg-surface-container flex items-center justify-center text-4xl relative">${room.floor ? `<div class="absolute top-4 right-4 bg-primary text-on-primary px-3 py-1 rounded-full text-xs font-bold">${room.floor}</div>` : ''}🚪</div>`;
 
     card.innerHTML = `
         ${imageHtml}
-        <div class="room-card-content">
-            <div class="room-card-header">
-                <h3 class="room-card-name">${room.name}</h3>
-                ${room.floor ? `<span class="room-floor">${room.floor}</span>` : ''}
+        <div class="p-8 space-y-6">
+            <div>
+                <h3 class="text-2xl font-bold mb-2">${room.name}</h3>
+                ${description ? `<p class="text-on-surface-variant text-sm line-clamp-2">${description}</p>` : ''}
             </div>
-
-            <div class="room-card-meta">
-                <span class="meta-item">
-                    <span class="meta-icon">📐</span>
-                    ${room.area ? room.area + ' 坪' : '坪數未提供'}
-                </span>
-                ${ceilingInfo}
-                ${loadInInfo}
+            <div class="flex justify-between items-center py-4 border-y border-surface-container-high">
+                <div class="text-center">
+                    <p class="text-xs text-outline font-bold uppercase mb-1">面積</p>
+                    <p class="font-bold">${room.area ? room.area + ' 坪' : '-'}</p>
+                </div>
+                <div class="text-center">
+                    <p class="text-xs text-outline font-bold uppercase mb-1">容納</p>
+                    <p class="font-bold">${capacityText}</p>
+                </div>
+                <div class="text-center">
+                    <p class="text-xs text-outline font-bold uppercase mb-1">挑高</p>
+                    <p class="font-bold">${room.ceilingHeight ? room.ceilingHeight + ' 米' : '-'}</p>
+                </div>
             </div>
-
-            ${capacityBars ? `<div class="room-capacity-bar">${capacityBars}</div>` : ''}
-
-            ${limitationHtml}
-
-            <div class="room-card-footer">
-                <span class="room-price ${priceClass}">${priceText}</span>
-                <button class="room-detail-btn">查看詳情 →</button>
+            <div class="flex justify-between items-center">
+                <div>
+                    ${priceHtml}
+                </div>
+                <button class="bg-surface-container-highest p-4 rounded-full text-primary hover:bg-primary hover:text-on-primary transition-all">
+                    <span class="material-symbols-outlined">chevron_right</span>
+                </button>
             </div>
         </div>
     `;
@@ -322,8 +447,8 @@ function goHome() {
 
 // ===== 顯示錯誤 =====
 function showError(message) {
-    document.getElementById('loadingState').style.display = 'none';
-    document.getElementById('errorState').style.display = 'block';
+    hideElement('loadingState');
+    showElement('errorState');
     document.getElementById('errorState').querySelector('h3').textContent = message;
 }
 
@@ -336,12 +461,12 @@ function renderGallery(venue) {
     const gallery = venue.images?.gallery;
 
     if (!gallery || !Array.isArray(gallery) || gallery.length === 0) {
-        gallerySection.style.display = 'none';
+        hideElement(gallerySection);
         return;
     }
 
     // 顯示相簿區域
-    gallerySection.style.display = 'block';
+    showElement(gallerySection);
 
     // 清空容器
     galleryContainer.innerHTML = '';
@@ -349,16 +474,17 @@ function renderGallery(venue) {
     // 添加照片
     gallery.forEach((photoUrl, index) => {
         const photoDiv = document.createElement('div');
-        photoDiv.className = 'gallery-photo';
+        photoDiv.className = 'aspect-[4/3] rounded-xl overflow-hidden bg-surface-container';
 
         const img = document.createElement('img');
         img.src = photoUrl;
         img.alt = `${venue.name} - 照片 ${index + 1}`;
         img.loading = 'lazy';
+        img.className = 'w-full h-full object-cover hover:scale-105 transition-transform duration-300';
 
         // 錯誤處理：如果圖片載入失敗，隱藏該照片
         img.onerror = function() {
-            this.style.display = 'none';
+            hideElement(photoDiv);
         };
 
         photoDiv.appendChild(img);
@@ -371,7 +497,7 @@ function renderRisks(venue) {
     const section = document.getElementById('risksSection');
     const container = document.getElementById('risksContent');
     const risks = venue.risks;
-    if (!risks || typeof risks !== 'object') { section.style.display = 'none'; return; }
+    if (!risks || typeof risks !== 'object') { hideElement(section); return; }
 
     const items = [];
     if (risks.bookingLeadTime) {
@@ -384,15 +510,15 @@ function renderRisks(venue) {
         items.push({ icon: '⚠️', label: '常見問題', value: risks.commonIssues.join('、') });
     }
 
-    if (items.length === 0) { section.style.display = 'none'; return; }
+    if (items.length === 0) { hideElement(section); return; }
 
-    section.style.display = 'block';
+    showElement(section);
     container.innerHTML = items.map(item => `
-        <div class="knowledge-card risk-card">
-            <div class="knowledge-icon">${item.icon}</div>
-            <div class="knowledge-content">
-                <div class="knowledge-label">${item.label}</div>
-                <div class="knowledge-value">${item.value}</div>
+        <div class="bg-surface-container-lowest rounded-xl p-4 flex items-start gap-4">
+            <div class="text-2xl">${item.icon}</div>
+            <div>
+                <div class="text-sm text-on-surface-variant mb-1">${item.label}</div>
+                <div class="font-medium text-on-surface">${item.value}</div>
             </div>
         </div>
     `).join('');
@@ -403,9 +529,9 @@ function renderPricingTips(venue) {
     const section = document.getElementById('pricingTipsSection');
     const container = document.getElementById('pricingTipsContent');
     const tips = venue.pricingTips;
-    if (!tips || !Array.isArray(tips) || tips.length === 0) { section.style.display = 'none'; return; }
+    if (!tips || !Array.isArray(tips) || tips.length === 0) { hideElement(section); return; }
 
-    section.style.display = 'block';
+    showElement(section);
     const list = document.createElement('ul');
     list.className = 'tips-list-items';
     tips.forEach(tip => {
@@ -422,7 +548,7 @@ function renderRules(venue) {
     const section = document.getElementById('rulesSection');
     const container = document.getElementById('rulesContent');
     const rules = venue.rules;
-    if (!rules || typeof rules !== 'object') { section.style.display = 'none'; return; }
+    if (!rules || typeof rules !== 'object') { hideElement(section); return; }
 
     const labels = {
         catering: '餐飲規定',
@@ -447,15 +573,15 @@ function renderRules(venue) {
             value: val,
         }));
 
-    if (items.length === 0) { section.style.display = 'none'; return; }
+    if (items.length === 0) { hideElement(section); return; }
 
-    section.style.display = 'block';
+    showElement(section);
     container.innerHTML = items.map(item => `
-        <div class="knowledge-card rule-card">
-            <div class="knowledge-icon">${item.icon}</div>
-            <div class="knowledge-content">
-                <div class="knowledge-label">${item.label}</div>
-                <div class="knowledge-value">${item.value}</div>
+        <div class="bg-surface-container-lowest rounded-xl p-4 flex items-start gap-4">
+            <div class="text-2xl">${item.icon}</div>
+            <div>
+                <div class="text-sm text-on-surface-variant mb-1">${item.label}</div>
+                <div class="font-medium text-on-surface">${item.value}</div>
             </div>
         </div>
     `).join('');

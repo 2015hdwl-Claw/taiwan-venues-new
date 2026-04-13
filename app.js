@@ -5,7 +5,73 @@ let currentPage = 0;
 const ITEMS_PER_PAGE = 20;
 
 // ===== 版本控制（每次部署更新此值）=====
-const DATA_VERSION = '20260408-v1'; // 格式: YYYYMMDD-序號
+const DATA_VERSION = '20260413-v31'; // 格式: YYYYMMDD-序號
+
+// ===== 智能照片選擇 =====
+/**
+ * 選擇最合適的場地主照片
+ * 優先順序：會議室照片 > 飯店外觀/大廳 > 會議室列表中的照片 > 主照片
+ *
+ * 不使用：房間照片 (roomtype, guestroom, bedroom)
+ */
+function selectVenueMainImage(venue) {
+    const images = venue.images || {};
+    const gallery = images.gallery || [];
+    const rooms = venue.rooms || [];
+
+    // 房間照片關鍵字（跳過）
+    const roomKeywords = ['roomtype', 'guestroom', 'bedroom', '客室', '寢室', '房間', 'suite'];
+    // 會議室照片關鍵字（優先）
+    const meetingKeywords = ['banquet', 'meeting', 'conference', '會議', '宴會', '會議室', 'ballroom'];
+    // 飯店照片關鍵字（次優先）
+    const hotelKeywords = ['lobby', 'exterior', 'facade', 'building', '外觀', '大廳', '飯店', 'hotel'];
+
+    const hasKeyword = (url, keywords) => {
+        if (!url) return false;
+        const urlLower = url.toLowerCase();
+        return keywords.some(kw => urlLower.includes(kw));
+    };
+
+    const isRoomPhoto = (url) => hasKeyword(url, roomKeywords);
+    const isMeetingPhoto = (url) => hasKeyword(url, meetingKeywords);
+    const isHotelPhoto = (url) => hasKeyword(url, hotelKeywords);
+
+    // 1. 從 gallery 中尋找會議室照片
+    for (const url of gallery) {
+        if (isMeetingPhoto(url) && !isRoomPhoto(url)) {
+            return url;
+        }
+    }
+
+    // 2. 從 gallery 中尋找飯店照片（外觀/大廳）
+    for (const url of gallery) {
+        if (isHotelPhoto(url) && !isRoomPhoto(url)) {
+            return url;
+        }
+    }
+
+    // 3. 從活躍會議室中尋找照片
+    const activeRooms = rooms.filter(r => r.isActive !== false);
+    for (const room of activeRooms) {
+        const roomImages = room.images || {};
+        if (roomImages.main) {
+            return roomImages.main;
+        }
+        if (Array.isArray(roomImages.gallery) && roomImages.gallery.length > 0) {
+            return roomImages.gallery[0];
+        }
+    }
+
+    // 4. 從 gallery 中尋找第一個非房間照片
+    for (const url of gallery) {
+        if (!isRoomPhoto(url)) {
+            return url;
+        }
+    }
+
+    // 5. 最後才使用主照片
+    return images.main || null;
+}
 
 // ===== 排序權重定義 =====
 // 縣市排序（按場地數量降冪，前3名標記為熱門）
@@ -59,16 +125,24 @@ document.addEventListener('DOMContentLoaded', async () => {
     renderVenues();
 });
 
+// ===== Mobile Navigation Toggle =====
+function toggleNav() {
+    const mobileNav = document.getElementById('mobileNav');
+    if (mobileNav) {
+        mobileNav.classList.toggle('hidden');
+    }
+}
+
 // ===== 載入場地資料 =====
 async function loadVenues() {
     try {
-        // 載入主資料庫，前端過濾台北
+        // 載入主資料庫
         const response = await fetch(`venues.json?v=${DATA_VERSION}`);
         if (!response.ok) throw new Error('無法載入資料');
 
         allVenues = await response.json();
-        // 過濾：啟用 + 台北
-        allVenues = allVenues.filter(venue => venue.active !== false && venue.city && venue.city.includes('台北'));
+        // 過濾：僅啟用的場地（不限城市）
+        allVenues = allVenues.filter(venue => venue.active !== false);
         filteredVenues = [...allVenues];
         
         // 更新統計 (B2B 版本使用 class，向後兼容)
@@ -86,6 +160,12 @@ async function loadVenues() {
         const resultCountEl = document.getElementById('resultCount');
         if (resultCountEl) {
             resultCountEl.textContent = allVenues.length;
+        }
+
+        // Update hero venue count
+        const heroVenueCountEl = document.getElementById('heroVenueCount');
+        if (heroVenueCountEl) {
+            heroVenueCountEl.textContent = allVenues.length + '+';
         }
         
         console.log(`✅ 成功載入 ${allVenues.length} 個場地`);
@@ -174,7 +254,8 @@ function applyFilters() {
     const city = document.getElementById('cityFilter').value;
     const type = document.getElementById('typeFilter').value;
     const capacity = document.getElementById('capacityFilter').value;
-    const price = document.getElementById('priceFilter').value;
+    const priceFilter = document.getElementById('priceFilter');
+    const price = priceFilter ? priceFilter.value : '';
 
     filteredVenues = allVenues.filter(venue => {
         // 搜尋關鍵字
@@ -275,17 +356,17 @@ function renderVenues() {
     const grid = document.getElementById('venuesGrid');
     const emptyState = document.getElementById('emptyState');
     const loadMoreSection = document.getElementById('loadMoreSection');
-    
+
     // 清空現有內容
     grid.innerHTML = '';
-    
+
     // 檢查是否有結果
     if (filteredVenues.length === 0) {
         emptyState.style.display = 'block';
-        loadMoreSection.style.display = 'none';
+        if (loadMoreSection) loadMoreSection.style.display = 'none';
         return;
     }
-    
+
     emptyState.style.display = 'none';
     
     // 取得當前頁面的場地
@@ -300,96 +381,64 @@ function renderVenues() {
     });
     
     // 顯示/隱藏載入更多按鈕
-    if (endIndex < filteredVenues.length) {
-        loadMoreSection.style.display = 'block';
-    } else {
-        loadMoreSection.style.display = 'none';
+    if (loadMoreSection) {
+        if (endIndex < filteredVenues.length) {
+            loadMoreSection.style.display = 'block';
+        } else {
+            loadMoreSection.style.display = 'none';
+        }
     }
 }
 
 // ===== 創建場地卡片 =====
 function createVenueCard(venue) {
     const card = document.createElement('div');
-    card.className = 'venue-card';
+    card.className = 'group cursor-pointer';
     card.onclick = () => {
         window.location.href = `venue.html?id=${venue.id}`;
     }
 
-    const imageUrl = venue.images?.main || 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800';
+    // 使用智能照片選擇
+    const imageUrl = selectVenueMainImage(venue) || 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800';
 
-    // 會議室數量與最大容量
-    const roomsCount = venue.rooms ? venue.rooms.length : 0;
-    const maxCapacity = venue.maxCapacityTheater || venue.maxCapacityClassroom || 0;
+    // 區域簡稱
+    const district = venue.address ? venue.address.split('區')[0] + '區' : (venue.city || '台北市');
 
-    // 價格區間
-    let priceDisplay = '價格面議';
-    if (venue.priceHalfDay && venue.priceFullDay) {
-        priceDisplay = `$${(venue.priceHalfDay / 1000).toFixed(0)}k-${(venue.priceFullDay / 1000).toFixed(0)}k`;
-    } else if (venue.priceHalfDay) {
-        priceDisplay = `$${(venue.priceHalfDay / 1000).toFixed(0)}k 起`;
+    // 價格顯示 (顯示半天價)
+    let priceHtml = '<span class="text-on-surface-variant text-xs block">面議</span>';
+    if (venue.priceHalfDay) {
+        priceHtml = `<span class="text-primary font-bold text-lg">$${venue.priceHalfDay.toLocaleString()}</span><span class="text-on-surface-variant text-xs block">/ 半天</span>`;
     } else if (venue.priceFullDay) {
-        priceDisplay = `$${(venue.priceFullDay / 1000).toFixed(0)}k 起`;
+        priceHtml = `<span class="text-primary font-bold text-lg">$${venue.priceFullDay.toLocaleString()}</span><span class="text-on-surface-variant text-xs block">/ 全天</span>`;
     }
 
-    // 最大坪數
-    const maxArea = venue.rooms ? Math.max(...venue.rooms.map(r => r.area || 0)) : 0;
-
-    // 限制數量（用於警示）
-    const limitationsCount = venue.rooms ?
-        venue.rooms.filter(r => r.limitations && r.limitations.length > 0).length : 0;
-
-    // 特色標籤（挑高、無柱、貨梯）
-    const features = [];
-    if (venue.rooms) {
-        const hasHighCeiling = venue.rooms.some(r => r.ceilingHeight && r.ceilingHeight >= 4);
-        const hasNoPillar = venue.rooms.some(r => r.pillar === false);
-        const hasFreightElevator = venue.rooms.some(r => r.loadIn?.elevator);
-        if (hasHighCeiling) features.push('挑高');
-        if (hasNoPillar) features.push('無柱');
-        if (hasFreightElevator) features.push('貨梯');
-    }
+    // 場地類型標籤
+    const typeBadges = {
+        '飯店': { text: '高端會議', color: 'bg-primary/90' },
+        '會議中心': { text: '精選熱門', color: 'bg-primary/90' },
+        '展演': { text: '藝文首選', color: 'bg-primary/90' },
+        '婚宴': { text: '熱門推薦', color: 'bg-primary/90' }
+    };
+    const badge = typeBadges[venue.venueType] || { text: '精選場地', color: 'bg-primary/90' };
 
     card.innerHTML = `
-        <div class="venue-image">
-            <img src="${imageUrl}" alt="${venue.name}"
+        <div class="aspect-[4/3] rounded-3xl overflow-hidden mb-6 relative border-2 border-transparent group-hover:border-primary-container transition-all duration-500">
+            <img src="${imageUrl}" alt="${venue.name} 會議室"
+                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                  onerror="this.src='https://images.unsplash.com/photo-1497366216548-37526070297c?w=800'">
-            <span class="venue-type-badge">${venue.venueType || '場地'}</span>
+            <div class="absolute top-4 left-4">
+                <span class="${badge.color} text-white text-xs font-bold px-4 py-2 rounded-full backdrop-blur-sm">${badge.text}</span>
+            </div>
         </div>
-        <div class="venue-info">
-            <h3 class="venue-name">${venue.name}</h3>
-            <p class="venue-address">📍 ${venue.address || venue.city || '台北市'}</p>
-
-            <div class="venue-stats">
-                <div class="stat-item">
-                    <span class="stat-icon">🎭</span>
-                    <span class="stat-value">${maxCapacity || '-'}人</span>
-                    <span class="stat-label">最大</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-icon">💰</span>
-                    <span class="stat-value">${priceDisplay}</span>
-                    <span class="stat-label">價格</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-icon">📐</span>
-                    <span class="stat-value">${maxArea ? maxArea + '坪' : '-'}</span>
-                    <span class="stat-label">最大</span>
-                </div>
-                <div class="stat-item ${limitationsCount > 0 ? 'has-warning' : ''}">
-                    <span class="stat-icon">${limitationsCount > 0 ? '⚠️' : '🚪'}</span>
-                    <span class="stat-value">${roomsCount}間</span>
-                    <span class="stat-label">${limitationsCount > 0 ? limitationsCount + '限制' : '會議室'}</span>
-                </div>
+        <div class="flex justify-between items-start">
+            <div>
+                <h4 class="text-xl font-bold text-on-surface group-hover:text-primary transition-colors">${venue.name}</h4>
+                <p class="text-on-surface-variant flex items-center gap-1 mt-1 text-sm">
+                    <span class="material-symbols-outlined text-[16px]">location_on</span> ${district}
+                </p>
             </div>
-
-            ${features.length > 0 ? `
-            <div class="venue-features">
-                ${features.map(f => `<span class="feature-tag">${f}</span>`).join('')}
-            </div>
-            ` : ''}
-
-            <div class="venue-card-footer">
-                <span class="view-rooms">查看 ${roomsCount} 間會議室 →</span>
+            <div class="text-right">
+                ${priceHtml}
             </div>
         </div>
     `;
@@ -419,8 +468,10 @@ function showVenueDetail(venue) {
 // ===== 關閉 Modal =====
 function closeModal() {
     const modal = document.getElementById('venueModal');
-    modal.classList.remove('active');
-    document.body.style.overflow = '';
+    if (modal) {
+        modal.classList.remove('active');
+        document.body.style.overflow = '';
+    }
 }
 
 // ===== 返回首頁 =====
@@ -456,11 +507,14 @@ document.addEventListener('keydown', (e) => {
 });
 
 // ===== 點擊外部關閉 Modal =====
-document.getElementById('venueModal').addEventListener('click', (e) => {
-    if (e.target.classList.contains('modal-overlay')) {
-        closeModal();
-    }
-});
+const venueModal = document.getElementById('venueModal');
+if (venueModal) {
+    venueModal.addEventListener('click', (e) => {
+        if (e.target.classList.contains('modal-overlay')) {
+            closeModal();
+        }
+    });
+}
 
 // ===== B2B 功能：反饋表單處理 =====
 function submitFeedback(event) {

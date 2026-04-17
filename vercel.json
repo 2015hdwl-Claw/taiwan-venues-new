@@ -1,13 +1,22 @@
 {
+  "framework": null,
+  "builds": [
+    { "src": "api/**/*.js", "use": "@vercel/node" },
+    { "src": "**/*.html", "use": "@vercel/static" },
+    { "src": "**/*.js", "use": "@vercel/static" },
+    { "src": "**/*.css", "use": "@vercel/static" },
+    { "src": "**/*.json", "use": "@vercel/static" },
+    { "src": "**/*.svg", "use": "@vercel/static" },
+    { "src": "**/*.png", "use": "@vercel/static" },
+    { "src": "**/*.xml", "use": "@vercel/static" },
+    { "src": "**/*.ico", "use": "@vercel/static" },
+    { "src": "**/*.woff*", "use": "@vercel/static" },
+    { "src": "wiki/**", "use": "@vercel/static" }
+  ],
   "version": 2,
   "public": true,
   "cleanUrls": true,
   "trailingSlash": false,
-  "functions": {
-    "api/assistant.js": {
-      "includeFiles": "ai_knowledge_base/**/*.json"
-    }
-  },
   "headers": [
     {
       "source": "/venues.json",

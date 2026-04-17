@@ -23,7 +23,7 @@ module.exports = async (req, res) => {
 
     // 只回傳精簡欄位，控制在 20KB 以內
     const compact = venues
-      .filter(v => v.active)
+      .filter(v => v.status !== 'inactive' && v.status !== 'archived')
       .map(v => ({
         id: v.id,
         name: v.name,

@@ -12,7 +12,7 @@ module.exports = async (req, res) => {
   if (req.method === 'OPTIONS') return res.status(204).end();
 
   const bundle = JSON.parse(
-    fs.readFileSync(path.join(__dirname, '..', '..', 'wiki_bundle.json'), 'utf-8')
+    fs.readFileSync(path.join(__dirname, '..', 'wiki_bundle.json'), 'utf-8')
   );
 
   const concepts = Object.keys(bundle.concepts || {});
